@@ -1,0 +1,327 @@
+{
+  "schema_version": "3.0.0-cole-publication-afterlife-delta",
+  "generated": "2026-08-09",
+  "title": "From Issue Number to Cabinet Address: Arthur C. Cole's Studies in Microscopical Science and the institutional re-addressing of published preparations",
+  "status": "deep corpus delta complete; object-level provenance identity remains open",
+  "builds_on": "data/analysis/slide_as_publication_cole_deep_v2.json",
+  "thesis_upgrade": {
+    "previous": "prepared slide -> published preparation -> later bibliographic disassembly",
+    "revised": "trade commodity -> published preparation -> institutional re-addressing -> selective recombination",
+    "one_sentence": "Cole synchronized specimen, image, method, issue number and subscription cadence to publish preparations; microscopical clubs then split, stored, renumbered and reclassified those components, converting serial time into cabinet order while retaining the possibility of recombining print and slide for display and study.",
+    "key_mechanism": "re-addressing",
+    "definition": "A preparation changes address when its operative retrieval identity moves from a commercial or serial coordinate to an institutional cabinet coordinate. This is more specific than generic circulation or decontextualization because the new address is an explicit retrieval system with its own maintenance logic."
+  },
+  "new_findings": {
+    "croydon_1890_readdressing_system": {
+      "source": "Proceedings and Transactions of the Croydon Microscopical and Natural History Club, 1890 catalogue of microscopical preparations, corpus part 04",
+      "evidence": [
+        "The catalogue says that little attempt has been made at scientific classification.",
+        "It explains that the collection is divided into 25 lettered sections in order to facilitate the introduction of new slides and the withdrawal of spoiled ones.",
+        "Members requesting slides must give the letter as well as the number of the slide.",
+        "The resulting address is therefore a two-part cabinet coordinate such as X48 or Y1 rather than an original publication number."
+      ],
+      "interpretation": "The A-Z catalogue is a mutable maintenance and retrieval system. It privileges future insertion, withdrawal and finding over preservation of a slide's previous serial position.",
+      "claim_grade": "S for stated design and address system; A+ for the interpretation as serial-to-cabinet re-addressing"
+    },
+    "croydon_1882_dedicated_cabinet": {
+      "source": "Croydon annual report for 1882, donations list",
+      "evidence": "A 'Cabinet for Slides illustrating Microscopical Studies' was presented by Mr W. F. Stanley.",
+      "interpretation": "A storage problem appeared at almost the same time as the hybrid publication: slides associated with 'Microscopical Studies' received a purpose-named cabinet rather than being treated merely as loose preparations.",
+      "external_context": "Independent slide-history research documents W. F. Stanley as a retailer of Arthur C. Cole preparations and illustrates an Arthur Cole slide carrying Stanley's retail label. This materially strengthens, but does not prove, the identification of the Croydon cabinet with Cole's serial.",
+      "claim_grade": "S for cabinet donation wording; A/A+ for direct identification with Cole's Studies",
+      "guard": "The Croydon wording itself says 'Microscopical Studies' rather than explicitly naming A. C. Cole. Do not promote the cabinet-to-Cole link to S without a contemporary accession label, minute, or surviving cabinet inscription."
+    },
+    "quekett_bifurcation_reframed": {
+      "source": "Quekett annual report, 1883",
+      "evidence": "The completed printed volume is listed among Library additions while the specimens accompanying Cole's Studies are separately described as possessed by subscription in the Cabinet section.",
+      "interpretation": "Bibliographic disassembly was a managed transition from synchronized receipt to bifurcated custody. The distinction between Library and Cabinet acted on the mixed publication after acquisition.",
+      "claim_grade": "S for separate placement; A+ for institutional-remediation interpretation"
+    },
+    "leicester_recombination": {
+      "source": "Leicester exhibition report, 1885 corpus evidence",
+      "evidence": "Several numbers of Cole's periodical, coloured figures and accompanying slides were exhibited together.",
+      "interpretation": "Institutional or personal separation was reversible. The hybrid publication could be spatially recomposed for public viewing.",
+      "claim_grade": "S for co-display; A+ for recombination interpretation"
+    }
+  },
+  "croydon_catalogue_logic": {
+    "stated_purpose": [
+      "facilitate introduction of new slides",
+      "facilitate withdrawal of spoiled slides",
+      "make requests possible through letter + number addresses"
+    ],
+    "selected_sections": {
+      "X": "Anatomical Preparations (Vertebrate)",
+      "Y": "Minerals, Chemicals and Crystals",
+      "Z": "Miscellaneous"
+    },
+    "contrast_with_serial": {
+      "serial_coordinate": "fixed issue sequence organized by publication cadence and subject track",
+      "cabinet_coordinate": "mutable letter-number retrieval position organized for collection maintenance",
+      "interpretive_sentence": "The cabinet number did not preserve the history of publication; it optimized future collection management."
+    }
+  },
+  "croydon_crosswalk_candidates": [
+    {
+      "studies_volume": 1,
+      "issue_no": "1",
+      "studies_subject": "Yellow Fibro-Cartilage—longitudinal vertical section, pinna of ear of cow, double-stained",
+      "croydon_address": "X66",
+      "croydon_subject": "Cow, Yellow fibro-cartilage from Pinna of Ear",
+      "croydon_maker_status": "maker column not securely readable in extracted text",
+      "match_type": "near-exact subject match",
+      "match_grade": "A",
+      "identity_guard": "Do not claim this is the subscription copy without maker/label/accession evidence."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "5",
+      "studies_subject": "Human Skin—vertical section, sole of foot",
+      "croydon_address": "X41",
+      "croydon_subject": "Skin, human (vert. sect. of Sole of Foot)",
+      "croydon_maker_status": "maker column not securely readable in extracted text",
+      "match_type": "exact anatomical subject match",
+      "match_grade": "A",
+      "identity_guard": "Subject identity alone does not establish specimen identity."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "6",
+      "studies_subject": "Section of Pikrite, Inchcolm, Firth of Forth",
+      "croydon_address": "Y1",
+      "croydon_subject": "Pikrite, Inchcolm, Frith of Forth",
+      "croydon_maker_status": "Cole explicitly printed in catalogue",
+      "match_type": "exact locality + rock + maker match",
+      "match_grade": "A+/S- provenance candidate",
+      "significance": "This is the strongest current candidate for following one published preparation from the serial address 'No. 6' into the institutional address 'Y1'.",
+      "identity_guard": "The catalogue establishes a Cole preparation of the exact same subject in Croydon's cabinet, not yet that it is literally the copy distributed with Studies No. 6."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "7",
+      "studies_subject": "Transverse Section of Spinal Cord of Cat—dorsal region",
+      "croydon_address": "X48",
+      "croydon_subject": "Cat, Spinal Cord (Dorsal region)",
+      "croydon_maker_status": "maker column not securely readable in extracted text",
+      "match_type": "exact subject and anatomical-region match",
+      "match_grade": "A",
+      "identity_guard": "Needs maker/label or accession evidence."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "11",
+      "studies_subject": "Vertical Section of Liver of Cat, injected",
+      "croydon_address": "X54",
+      "croydon_subject": "Cat, Liver (injected)",
+      "croydon_maker_status": "maker column not securely readable in extracted text",
+      "match_type": "exact species/organ/preparation-mode match",
+      "match_grade": "A",
+      "identity_guard": "Needs maker/label or accession evidence."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "32",
+      "studies_subject": "Diabase, Corstorphine Hill",
+      "croydon_address": "Y11",
+      "croydon_subject": "Diabase, Corstorphine Hill, Edinburgh",
+      "croydon_maker_status": "maker ditto sequence is not secure in OCR extraction",
+      "match_type": "exact rock/locality match",
+      "match_grade": "A",
+      "identity_guard": "Maker and provenance require page-image or object-label verification."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "42",
+      "studies_subject": "White Syenite, Lairg",
+      "croydon_address": "Y2",
+      "croydon_subject": "White Syenite, Lairg",
+      "croydon_maker_status": "maker ditto sequence not secure in OCR extraction",
+      "match_type": "exact rock/locality match",
+      "match_grade": "A",
+      "identity_guard": "Maker and provenance require page-image or object-label verification."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "48",
+      "studies_subject": "Porphyritic Basalt",
+      "croydon_address": "Y6",
+      "croydon_subject": "Porphyritic Basalt, Edinburgh",
+      "croydon_maker_status": "Cole explicitly printed in catalogue",
+      "match_type": "rock-type + maker match; serial locality must be physically rechecked",
+      "match_grade": "A",
+      "identity_guard": "Do not promote to exact serial crosswalk until the Volume I locality wording is checked against the Croydon catalogue."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "50",
+      "studies_subject": "Serpentine, The Lizard",
+      "croydon_address": "Y8",
+      "croydon_subject": "Serpentine, The Lizard, Cornwall",
+      "croydon_maker_status": "maker ditto sequence not secure in OCR extraction",
+      "match_type": "exact rock/locality match",
+      "match_grade": "A",
+      "identity_guard": "Maker and provenance require page-image or object-label verification."
+    },
+    {
+      "studies_volume": 1,
+      "issue_no": "52",
+      "studies_subject": "Serpentine, Portsoy",
+      "croydon_address": "Y7",
+      "croydon_subject": "Serpentine, Portsoy",
+      "croydon_maker_status": "maker ditto sequence not secure in OCR extraction",
+      "match_type": "exact rock/locality match",
+      "match_grade": "A",
+      "identity_guard": "Maker and provenance require page-image or object-label verification."
+    },
+    {
+      "studies_volume": null,
+      "issue_no": null,
+      "studies_subject": null,
+      "croydon_address": "X74",
+      "croydon_subject": "Rat (Spermatozoa)",
+      "croydon_maker_status": "Cole explicitly printed in catalogue",
+      "match_type": "secure Cole object but current serial mapping unresolved",
+      "match_grade": "S as Cole maker attribution; unmapped to Studies",
+      "identity_guard": "Do not force this object into the serial until a matching issue/list is found."
+    }
+  ],
+  "infrastructure_transformations": [
+    {
+      "stage": 1,
+      "name": "trade",
+      "operative_address": "maker/dealer + product description",
+      "evidence": "Cole & Son sold prepared slides through a wider optician network before Studies."
+    },
+    {
+      "stage": 2,
+      "name": "serial publication",
+      "operative_address": "issue number + page + plate + distributed preparation",
+      "evidence": "Studies synchronized a specimen, prose, method/bibliography and image in a recurring subscription."
+    },
+    {
+      "stage": 3,
+      "name": "subscriber collection",
+      "operative_address": "slide number / prior-number cross-reference",
+      "evidence": "Volume II sends readers back to previously issued numbered slides, making the accumulated objects navigable as a collection."
+    },
+    {
+      "stage": 4,
+      "name": "institutional bifurcation",
+      "operative_address": "Library versus Cabinet",
+      "evidence": "Quekett records the completed volume in its Library while retaining accompanying preparations in its Cabinet."
+    },
+    {
+      "stage": 5,
+      "name": "cabinet reclassification",
+      "operative_address": "letter + number, e.g. Y1 or X48",
+      "evidence": "Croydon's 1890 catalogue explicitly designs its system for insertion, withdrawal and retrieval."
+    },
+    {
+      "stage": 6,
+      "name": "recombination",
+      "operative_address": "exhibition grouping",
+      "evidence": "Leicester display evidence puts numbers of the periodical, coloured figures and slides together again."
+    }
+  ],
+  "argument_payoff": {
+    "strongest_new_sentence": "At Croydon, publication numbers ceased to be operative addresses; preparations were assigned new cabinet coordinates.",
+    "second_sentence": "Serial order fixed an object to a publication sequence, whereas cabinet order was deliberately mutable, built to admit new slides and withdraw spoiled ones.",
+    "third_sentence": "The afterlife of the mixed serial was therefore not simple loss: institutions actively translated one retrieval system into another.",
+    "historiographical_value": "This shifts the case from a curiosity about books supplied with objects toward a history of how material publications are made bibliographically legible, then made administratively legible again under different collection regimes."
+  },
+  "revised_article_architecture": [
+    {
+      "section": 1,
+      "title": "Selling Preparations",
+      "claim": "Cole entered the serial venture from an established commercial market in prepared slides."
+    },
+    {
+      "section": 2,
+      "title": "Publishing Preparations",
+      "claim": "The serial synchronized two interleaved subject tracks and coupled object, prose, image, method and cadence."
+    },
+    {
+      "section": 3,
+      "title": "Unequal Copies",
+      "claim": "Subscriber specimens varied and mounting could distort them, so print calibrated and corrected the material edition."
+    },
+    {
+      "section": 4,
+      "title": "From Issue Number to Cabinet Number",
+      "claim": "Quekett and Croydon show two successive forms of institutional remediation: categorical splitting and explicit re-addressing."
+    },
+    {
+      "section": 5,
+      "title": "Recomposing the Publication",
+      "claim": "Exhibition and study could reunite print, image and slide, showing that the publication's components remained relational even after storage systems separated them."
+    }
+  ],
+  "working_titles": [
+    "From Issue Number to Cabinet Number: Publishing and Re-addressing Microscope Slides in Arthur C. Cole's Studies in Microscopical Science",
+    "Publishing the Preparation, Re-addressing the Object: Arthur C. Cole's Microscope-Slide Serial",
+    "Published Preparations: Microscope Slides, Serial Form, and Cabinet Order in Victorian Britain"
+  ],
+  "decisive_next_targets": [
+    {
+      "priority": 1,
+      "target": "Croydon/CNHSS surviving cabinet and slide labels",
+      "questions": [
+        "Does the 1882 W. F. Stanley cabinet survive?",
+        "Does any label or accession register expand 'Microscopical Studies' to A. C. Cole?",
+        "Do slides retain historic addresses Y1, Y6, X41, X48, X54, X66 or X74?",
+        "Does Y1 Pikrite carry a Cole label and/or a Studies issue number?"
+      ],
+      "payoff": "Could close serial No. 6 -> Croydon Y1 at object level."
+    },
+    {
+      "priority": 2,
+      "target": "Croydon 1890 catalogue page-image collation",
+      "questions": [
+        "Resolve maker ditto marks across X41-X68 and Y1-Y11.",
+        "Determine which exact Y entries are explicitly or ditto-attributed to Cole."
+      ],
+      "payoff": "Can upgrade several A crosswalks to A+/S- maker matches."
+    },
+    {
+      "priority": 3,
+      "target": "Volume I No. 6/6a physical collation",
+      "questions": [
+        "Verify wrappers, plate count and numbering.",
+        "Test whether 6a explains 53 plates versus 52 bound contents entries."
+      ],
+      "payoff": "Links publication normalization at binding to later cabinet renumbering."
+    },
+    {
+      "priority": 4,
+      "target": "Quekett surviving Cole subscription preparations",
+      "questions": [
+        "Can current cabinet identifiers be crosswalked back to Studies issue numbers?",
+        "Do labels preserve Cole's serial numbering or only later QMC identifiers?"
+      ],
+      "payoff": "Would provide a second institutional re-addressing sequence for comparison with Croydon."
+    }
+  ],
+  "guards": [
+    "Do not identify Croydon's 1882 Stanley cabinet as definitively Cole's until an explicit contemporary or surviving-object link is found.",
+    "Do not treat exact subject matches as specimen identity. Repeated professional preparations could exist outside the subscription series.",
+    "Do not infer maker attribution from visually implied ditto marks in OCR without page-image collation.",
+    "Y1 Pikrite is currently the strongest provenance candidate because subject, locality and maker all match; it still lacks a subscription-specific mark.",
+    "Do not force X74 Rat Spermatozoa into Studies merely because Cole is explicit in the maker column.",
+    "Do not describe re-addressing as simple decontextualization. The new catalogue creates a functional context optimized for institutional retrieval and maintenance.",
+    "Do not describe later recombination as restoration of an original complete copy unless the exhibited slides can be proven to be the same issue copies."
+  ],
+  "external_leads": [
+    {
+      "source": "Brian Stevenson, Arthur Charles Cole and Martin James Cole, microscopist.net, updated 2023",
+      "url": "https://www.microscopist.net/Cole_AC_MJ.html",
+      "use": "secondary object-history lead; documents extant Arthur Cole slides retailed by W. F. Stanley and summarizes Studies publication history",
+      "status": "supporting context only; verify decisive claims in primary records"
+    },
+    {
+      "source": "Brian Stevenson, William Ford Stanley, microscopist.net",
+      "url": "https://www.microscopist.net/StanleyWF.html",
+      "use": "secondary object-history lead; shows Stanley retail labels on professional mounters' slides including Arthur Cole",
+      "status": "supporting context only"
+    }
+  ]
+}
