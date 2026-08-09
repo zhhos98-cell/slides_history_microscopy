@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0-minot-hec-crosswalk-sample",
+  "generated": "2026-08-10",
+  "title": "Harvard Embryological Collection: public metadata as a serial-section crosswalk",
+  "research_problem": "The Harvard Embryological Collection is a useful control for the Cole case because both are highly serial, but their seriality performs different work. HEC series reconstruct anatomical continuity inside one organism/specimen sequence; Cole issue numbers coordinate distributed publication units across subscribers.",
+  "collection_source": {
+    "institution": "Museum of Comparative Zoology, Harvard University",
+    "url": "https://www.mcz.harvard.edu/harvard-embryological-collection",
+    "description": "Approximately 2,500 animal embryo series on approximately 30,000 microscope slides, created in the late nineteenth and early twentieth centuries by Charles Sedgwick Minot for embryological research.",
+    "documentary_apparatus": [
+      "original card catalogue",
+      "line drawings",
+      "modern MCZbase records",
+      "older HEC numbers",
+      "mostly original storage cabinets, now being replaced in conservation",
+      "high-resolution digital slide-scanning programme"
+    ],
+    "institutional_history": "Non-human slides transferred from Harvard Medical School to MCZ in 1992; human embryo slides went to the National Museum of Health and Medicine. Since 2010 the collection has been inventoried/databased and cards/drawings linked to object records."
+  },
+  "sample_records": [
+    {
+      "current_id": "MCZ:SC:1128",
+      "url": "https://mczbase.mcz.harvard.edu/guid/MCZ%3ASC%3A1128",
+      "previous_number": "HEC-694",
+      "other_number": "323",
+      "date": "1904-04",
+      "part": "histological serial section (microscope slide)",
+      "part_remarks": "slide A",
+      "section_plane": "transverse",
+      "stain": "Alum cochineal and orange G",
+      "thickness_micrometres": 8,
+      "preparator": "Charles S. Minot Lab",
+      "publication_link": "Minot 1905",
+      "documentation": "linked ledger entry",
+      "research_use": "Demonstrates that one current object record can preserve old HEC address, another historical number, physical series position, technique, preparator, publication citation and ledger documentation."
+    },
+    {
+      "current_id": "MCZ:SC:907",
+      "url": "https://mczbase.mcz.harvard.edu/guid/MCZ%3ASC%3A907",
+      "previous_number": "HEC-470",
+      "other_number": "1508",
+      "identification": "Phasianidae / chick",
+      "part": "histological serial section (microscope slide)",
+      "count": 5,
+      "part_remarks": "Series A-E",
+      "condition_note": "some blurred text, yellowing of adhesive",
+      "publication_link": "Minot 1905, p. 515",
+      "research_use": "Shows a current catalogue item representing multiple physical serial parts and retaining old address + publication + condition history."
+    }
+  ],
+  "critical_distinction_from_cole": {
+    "HEC_seriality": "section position orders parts through anatomical continuity; the sequence belongs to a prepared organism/embryo and a research collection",
+    "Cole_seriality": "issue number synchronizes a distributed preparation with text/plate and subscriber time",
+    "publication_test": "A numbered or serial slide collection is not automatically a material publication. Evidence of replicated/public distribution, issue/set architecture and recipient access is required before using 'publication'."
+  },
+  "crosswalk_layers": [
+    {"layer":"original research collection","example":"HEC-694"},
+    {"layer":"other historical identifier","example":"323"},
+    {"layer":"current museum address","example":"MCZ:SC:1128"},
+    {"layer":"within-series position","example":"slide A / Series A-E"},
+    {"layer":"technical metadata","example":"plane, stain, thickness, preparator"},
+    {"layer":"publication relation","example":"Minot 1905"},
+    {"layer":"paper documentation","example":"card catalogue / drawing / ledger entry"},
+    {"layer":"conservation state","example":"adhesive yellowing / cleaning and recabinetting"}
+  ],
+  "nineteenth_century_harvest_rule": "Do not treat the whole HEC as nineteenth-century. Date-filter records before historical argument. The two public sample records above are early twentieth-century and are used here to establish the metadata/crosswalk mechanism, not as nineteenth-century evidence.",
+  "next_query": [
+    "Filter MCZbase HEC records to preparation dates before 1900.",
+    "Select a small number of complete series with card scans/drawings and publication links.",
+    "Crosswalk technique terms against Minot's 1877 British-published technical discussion and microtome notice already present in the UK corpus.",
+    "Track recabinetting as a modern address transition while retaining the HEC number and linked card/drawing."
+  ],
+  "project_payoff": "HEC demonstrates a successful modern strategy for preserving relation survival: the old identifier is not replaced by the new one; card, drawing, technique and publication metadata are attached to the current object record. This is the positive control against cases where glass survives but the historical crosswalk is lost."
+}
