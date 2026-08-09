@@ -46,10 +46,17 @@ The following files were transient, redundant, stale or fully folded into `data/
 
 Their substantive current information is retained in `data/corpus/README.md`, `CORPUS_MANIFEST_V5.json` and `PUBLICATION_CHECK_V5_2026-08-09.json`. Their exact previous states remain recoverable from Git history.
 
-## New hygiene files
+## New hygiene and navigation files
 
 - `.gitignore` excludes runtime `outputs/`, `data/normalized/`, local artifacts, Python caches and editor/OS noise.
 - `data/README.md` defines the authority and relationship of `survey/`, `analysis/`, `evidence/` and `corpus/`.
+- `data/survey/README.md` documents the frozen survey/audit-trail structure.
+- `data/analysis/README.md` documents derived-analysis authority.
+- `data/evidence/README.md` documents retained harvesting evidence.
+
+## Pages alignment
+
+The website loader and data ledger now point to `CORPUS_MANIFEST_V5.json`. The interactive BNA panel remains a query-yield browser, while the site explicitly links the complete compact V5 event-cluster and newspaper-yield tables.
 
 ## Explicit non-changes
 
