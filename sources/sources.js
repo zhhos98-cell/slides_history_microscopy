@@ -1,4 +1,5 @@
 const sourceState={records:[],filtered:[]};
+const sourceFiles=['source-registry.json','source-registry-02.json'];
 
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);}
 function words(r){return [r.institution,r.collection,r.country,r.city,r.type,r.relation,r.date_scope,r.holdings,r.research_use,(r.tags||[]).join(' ')].join(' ').toLowerCase();}
@@ -64,8 +65,12 @@ function downloadCSV(){
 
 async function initSources(){
   try{
-    const response=await fetch('source-registry.json',{cache:'no-store'});if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    const data=await response.json();sourceState.records=data.records||[];sourceState.filtered=[...sourceState.records];
+    const payloads=await Promise.all(sourceFiles.map(async path=>{
+      const response=await fetch(path,{cache:'no-store'});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);
+      return response.json();
+    }));
+    sourceState.records=payloads.flatMap(data=>data.records||[]);
+    sourceState.filtered=[...sourceState.records];
     fillSelect('source-region',sourceState.records.map(r=>r.region));
     fillSelect('source-type',sourceState.records.map(r=>r.type));
     bindFilters();
