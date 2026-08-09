@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0.0-naples-surviving-candidates",
+  "generated": "2026-08-10",
+  "title": "Naples 1880 catalogue ↔ surviving St Andrews slides: object-side candidate extraction",
+  "status": "candidate layer only; no new physical-identity closure asserted",
+  "sources": [
+    "data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_CATALOGUE_423_PARSE_MANIFEST_V1.json",
+    "data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv",
+    "https://collections.st-andrews.ac.uk/group/stazione-zoologica-napoli-zoological-microscope-slides/2001884"
+  ],
+  "core_rule": "A taxon match or a handwritten number on a surviving slide is not a catalogue-number match until the 1880 row wording and object label are directly compared.",
+  "catalogue_number_structure": {
+    "total_offerings": 423,
+    "vertebrata_range": "231-423",
+    "derived_contiguous_subgroup_ranges_from_parsed_counts": {
+      "Pisces": "231-291",
+      "Amphibia": "292-303",
+      "Reptilia": "304-307",
+      "Aves": "308-372",
+      "Mammalia": "373-405",
+      "Homo": "406-423"
+    },
+    "guard": "These ranges derive from the parsed sequential catalogue structure and subgroup counts. They locate a candidate number taxonomically; they do not identify the preparation wording at that number."
+  },
+  "high_priority_candidate": {
+    "repository_id": "BPM/1/T8/6",
+    "title": "Delphinus phocaena",
+    "st_andrews_url": "https://collections.st-andrews.ac.uk/item/delphinus-phocaena/2082616",
+    "observed_catalogue_description": "St Andrews records a light-orange STAZIONE ZOOLOG / NAPOLI label, taxon Delphinus phocaena, and manuscript wording 'Panis 383' on the right label. Current position is pigeon-hole T8; a modern white label preserves former position 12/D/3.",
+    "address_layers": [
+      {"namespace":"station label","value":"STAZIONE ZOOLOG / NAPOLI"},
+      {"namespace":"taxon","value":"Delphinus phocaena"},
+      {"namespace":"historical manuscript inscription","value":"Panis 383","interpretation":"unresolved"},
+      {"namespace":"former St Andrews storage","value":"12/D/3"},
+      {"namespace":"current St Andrews item","value":"BPM/1/T8/6 / T8"}
+    ],
+    "number_test": "If 383 is an original Naples catalogue offering number, it falls inside the derived Mammalia band 373-405, so it is structurally plausible for Delphinus. This numerical plausibility is not an item match.",
+    "word_test": "The transcription 'Panis' is unresolved. It may encode an anatomical structure, abbreviation, personal annotation, or an OCR/cataloguing reading. Do not silently expand it to pancreas or any other organ without the historical catalogue row/image.",
+    "required_closure": [
+      "Inspect the 1880 catalogue row 383 directly on the page image.",
+      "Compare taxon + anatomical preparation wording against the St Andrews label/image.",
+      "Determine whether '383' is written in a hand/layout consistent with Naples catalogue numbering on other surviving Station slides.",
+      "Check neighboring rows 382/384 and other St Andrews examples for the same label grammar."
+    ],
+    "current_grade": "A candidate"
+  },
+  "fritz_meyer_attribution_problem": {
+    "institutional_programme": "The 1880 catalogue introduction establishes Fritz Meyer as organizer/director of the preparation department, not personal preparator of every catalogue item.",
+    "object_side": "St Andrews states that many surviving Station examples appear mounted/prepared by Fritz Meyer and preserves labels explicitly reading Prep. Fritz Meyer on some objects.",
+    "business_afterlife": "Other St Andrews slides use later Leipzig Fritz Meyer business labels, so the words 'Fritz Meyer' can represent different institutional/commercial phases.",
+    "rule": "Record 'Stazione Zoologica Napoli', 'Prep. Fritz Meyer', and later Leipzig Meyer business labels as separate attribution/address layers."
+  },
+  "research_payoff": "The Delphinus slide is a high-value test because one object may preserve an original Station identity, a possible catalogue-number trace, taxonomic/anatomical wording, and two successive St Andrews storage addresses. If row 383 closes, it would become the first surviving-object-level catalogue-number closure for the current Naples route rather than merely a programme-level match.",
+  "next": "Page-image verification of catalogue row 383 is the decisive next action; do not broaden the Naples search until this cheap candidate is resolved."
+}
