@@ -11,5 +11,32 @@
     "bibliography-03.csv",
     "bibliography-04.csv",
     "bibliography-05.csv"
-  ]
+  ],
+  "schema_fields": [
+    "id",
+    "year",
+    "section",
+    "authors",
+    "title",
+    "citation",
+    "type",
+    "language",
+    "tags",
+    "note",
+    "verification",
+    "links"
+  ],
+  "runtime_exports": [
+    "csv",
+    "tsv",
+    "json",
+    "csl-json",
+    "bibtex",
+    "ris"
+  ],
+  "export_scopes": [
+    "all",
+    "filtered"
+  ],
+  "export_note": "Portable exports are generated in the browser from the same CSV rows used to render the bibliography. CSL JSON, BibTeX and RIS retain the formatted citation and project note; DOI and stable URLs are extracted from the links field where present."
 }
