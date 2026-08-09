@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Microscope Slides in Motion — source and archive registry supplement 07",
+  "records": [
+    {
+      "id": "US-NMAH-BOURGOGNE-SLIDES",
+      "region": "North America",
+      "country": "United States",
+      "city": "Washington, D.C.",
+      "institution": "National Museum of American History, Smithsonian Institution",
+      "collection": "Boxed microscope-slide set inscribed BOURGOGNE",
+      "type": "historical commercial slide set + digital object record",
+      "relation": "direct",
+      "date_scope": "nineteenth century; precise set date unresolved",
+      "holdings": "NMAH preserves a boxed set of microscope slides whose mounts bear the inscription BOURGOGNE. The museum attributes the inscription probably to Joseph Bourgogne, the Paris microscopist and commercial preparer whose mounts won awards at international exhibitions.",
+      "research_use": "A surviving physical endpoint for the Bourgogne trade-catalogue line already extracted in the project. High-resolution label and subject transcription could test whether catalogue subjects, grades, formats, or numbering survive in the set and turn a printed price-list case into a catalogue↔object crosswalk.",
+      "access": "Digital object record online; physical research by arrangement with NMAH collections staff.",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_723375",
+      "tags": ["Bourgogne", "Paris", "commercial slides", "trade catalogue", "Smithsonian", "surviving set"]
+    },
+    {
+      "id": "US-NMAH-TEST-PLATES",
+      "region": "North America",
+      "country": "United States",
+      "city": "Washington, D.C.",
+      "institution": "National Museum of American History, Smithsonian Institution",
+      "collection": "Nobert/Fasoldt test-plate and photomicrograph records",
+      "type": "historical microscope test objects + photomicrographs + digital records",
+      "relation": "direct",
+      "date_scope": "1867–1884 for the principal objects/events",
+      "holdings": "NMAH preserves an 1884 Charles Fasoldt microscope test slide and glass-plate photomicrographs produced from a Nobert nineteen-band test plate. The museum record reconstructs the 1867 acquisition of a Nobert plate by F. A. P. Barnard and J. J. Woodward/E. Curtis resolution experiments in 1868–1869 at the Army Medical Museum.",
+      "research_use": "Direct material comparator for the project's Grayson/Nobert/Möller test-slide literature. It shows a microscope slide functioning as a metrological standard whose history can be followed through purchase, experiment, photography, publication, and later museum custody rather than through specimen taxonomy.",
+      "access": "Object records and IIIF media online; research access through NMAH.",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_723377",
+      "secondary_url": "https://americanhistory.si.edu/collections/nmah_1802316",
+      "tags": ["Fasoldt", "Nobert", "test plate", "resolution", "photomicrography", "metrology", "Army Medical Museum"]
+    },
+    {
+      "id": "US-YALE-LENTZ-MICROSCOPY",
+      "region": "North America",
+      "country": "United States",
+      "city": "New Haven",
+      "institution": "Yale Peabody Museum — History of Science & Technology",
+      "collection": "Lentz Microscopy and Histology Collection",
+      "type": "historical microscope and slide collection + collection guide",
+      "relation": "direct",
+      "date_scope": "historical collection; mixed periods",
+      "holdings": "The Peabody describes the Lentz collection as hundreds of historical science and technology artifacts, including an important microscope collection, thousands of microscope slides, related objects, and publications. A substantial collection guide is published online.",
+      "research_use": "A broad North American comparison pool for historic maker slides, sets, instruments, and publications. It should be mined by named maker/series rather than treated as a nineteenth-century aggregate; the guide can be reverse-searched against the project's maker and catalogue list.",
+      "access": "Collection overview and guide online; research through Yale Peabody History of Science & Technology.",
+      "url": "https://peabody.yale.edu/explore/collections/history-science-technology/lentz-collection",
+      "tags": ["Yale", "Lentz", "microscope slides", "microscopes", "collection guide", "makers"]
+    }
+  ]
+}
