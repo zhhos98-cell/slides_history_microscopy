@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Archives, manuscript fonds, slide collections, trade records, institutional records, and digital primary-source routes for the history of nineteenth-century microscope slides.">
+  <title>Sources · Microscope Slides in Motion</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="sources.css?v=20260810-1">
+</head>
+<body class="source-page">
+  <header class="subpage-header">
+    <a class="subpage-brand" href="../">Microscope Slides in Motion</a>
+    <nav class="subpage-nav" aria-label="Site navigation">
+      <a href="../">Home</a>
+      <a href="../#cases">Cases</a>
+      <a href="../bibliography/">Bibliography</a>
+      <a href="../#catalogue">Catalogue</a>
+      <a href="./" aria-current="page">Sources</a>
+      <a href="../#data">Data</a>
+    </nav>
+  </header>
+
+  <main class="source-main">
+    <section class="source-intro" aria-labelledby="source-title">
+      <p class="eyebrow">Research sources</p>
+      <h1 id="source-title">Where the slides<br>leave records.</h1>
+      <p class="source-dek">A research index to archives, manuscript fonds, society records, trade archives, historical slide collections, institutional catalogues, and digital primary-source portals. The aim is to make the route from an object to its documentary world visible without turning a useful lead into a provenance claim.</p>
+    </section>
+
+    <section class="source-principle" aria-labelledby="source-rule-title">
+      <p class="eyebrow">Source rule</p>
+      <div>
+        <h2 id="source-rule-title">A source route is not an object identity.</h2>
+        <p>A museum can hold a nineteenth-century slide without preserving its original purchase record. An archive can preserve a maker's correspondence without proving that a particular surviving slide passed through that archive's institution. Current custody, historical ownership, manufacture, distribution, use, and later cataloguing therefore remain separate relations until a source connects them.</p>
+        <p>The registry favours holdings that can move research from a broad name hit toward a recoverable document, cabinet, register, label, catalogue, letter, account, or object record. Aggregate collection counts are retained only as descriptions of repositories; they are never converted into historical slide totals.</p>
+        <div class="source-key" aria-label="Source relation key">
+          <span><i></i><b>Direct evidence route</b> slide, slide index, or actor-specific documentation is explicit</span>
+          <span class="context"><i></i><b>Contextual route</b> strong institutional or technical archive; slide bridge remains open</span>
+          <span class="portal"><i></i><b>Digital portal</b> searchable primary-source infrastructure rather than one fonds</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="corpus-strip" aria-labelledby="corpus-title">
+      <h2 id="corpus-title">Project corpus</h2>
+      <div class="corpus-links">
+        <a href="../data/corpus/CORE_DOCUMENTS_V4_01.json">Core source registry ↗</a>
+        <a href="../data/corpus/EXTENDED_DOCUMENTS_V4_01.json">Extension registry ↗</a>
+        <a href="../data/corpus/BNA_DERIVED_INDEX_V5.json">Newspaper index ↗</a>
+        <a href="../data/corpus/CORPUS_MANIFEST_V5.json">Corpus manifest ↗</a>
+        <a href="../bibliography/">Bibliography ↗</a>
+      </div>
+    </section>
+
+    <section class="source-controls" aria-label="Source filters">
+      <label>
+        <span>Search</span>
+        <input id="source-search" type="search" placeholder="Cole, diatoms, correspondence, Naples, India…">
+      </label>
+      <label>
+        <span>Region</span>
+        <select id="source-region"><option value="">All regions</option></select>
+      </label>
+      <label>
+        <span>Source type</span>
+        <select id="source-type"><option value="">All source types</option></select>
+      </label>
+      <label>
+        <span>Relation</span>
+        <select id="source-relation">
+          <option value="">All relations</option>
+          <option value="direct">Direct</option>
+          <option value="contextual">Contextual</option>
+          <option value="portal">Digital portal</option>
+        </select>
+      </label>
+      <button id="source-reset" type="button">Reset</button>
+    </section>
+
+    <div class="source-tools" aria-label="Source data downloads">
+      <a href="source-registry.json">JSON ↗</a>
+      <button id="source-download-csv" type="button">CSV</button>
+    </div>
+
+    <section id="source-list" class="source-list" aria-live="polite">
+      <p class="source-empty">Loading source routes…</p>
+    </section>
+  </main>
+
+  <footer class="source-footer">
+    <a href="../">Microscope Slides in Motion</a>
+    <span>Source registry · research routes, not census membership</span>
+  </footer>
+
+  <script src="sources.js?v=20260810-1"></script>
+</body>
+</html>
