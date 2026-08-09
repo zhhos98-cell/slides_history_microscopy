@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A global evidence atlas for nineteenth-century microscope-slide collections, makers, circulation, and surviving objects." />
+  <title>Microscope Slides — Object / Text Atlas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Libre+Caslon+Display&family=Libre+Franklin:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Microscope Slides home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Microscope Slides</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#project">Project</a>
+      <a href="#catalogue">Frozen 155</a>
+      <a href="#explorer">Explorer</a>
+      <a href="#bridges">Bridges</a>
+      <a href="#naples">Naples 1880</a>
+      <a href="#method">Method</a>
+    </nav>
+    <a class="repo-link" href="https://github.com/zhhos98-cell/slides_history_microscopy">GitHub ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow">GLOBAL OBJECT-SIDE HISTORY · NINETEENTH CENTURY</p>
+        <h1 id="hero-title">Microscope slides<br />as historical objects.</h1>
+        <p class="hero-dek">An evidence atlas connecting surviving slides, cabinets, serial sets and institutional collections to makers, dealers, societies, texts and routes of circulation.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#explorer">Explore the frozen catalogue</a>
+          <a class="button ghost" href="data/analysis/slide_155_corpus_expansion_v1/README.md">Read the research log</a>
+        </div>
+      </div>
+      <div class="hero-object" aria-hidden="true">
+        <div class="slide slide-a"><b></b><em></em></div>
+        <div class="slide slide-b"><b></b><em></em></div>
+        <div class="slide slide-c"><b></b><em></em></div>
+      </div>
+      <div class="hero-caption">
+        <span>OBJECT</span>
+        <span>LABEL</span>
+        <span>PROVENANCE</span>
+        <span>CIRCULATION</span>
+      </div>
+    </section>
+
+    <section class="stat-strip" aria-label="Project headline counts">
+      <div><strong>155</strong><span>frozen catalogue nodes</span></div>
+      <div><strong>423</strong><span>Naples 1880 offerings</span></div>
+      <div><strong>12</strong><span>named RMS slides, June 1880</span></div>
+      <div><strong>9</strong><span>strong item-level matches</span></div>
+    </section>
+
+    <section class="section intro-section" id="project">
+      <div class="section-label"><span>01</span> Project</div>
+      <div class="intro-copy">
+        <h2>The slide is a small object with a long institutional life.</h2>
+        <p>This project starts from surviving microscope slides and the collections that hold them. It asks how preparations were made, sold, exchanged, labelled, grouped into cabinets, moved between institutions, and re-described over time. The object catalogue and the nineteenth-century text corpus remain separate evidence layers; links between them are asserted only when a source closes the relationship.</p>
+      </div>
+      <aside class="principle-card">
+        <p class="mini-label">Core rule</p>
+        <p>Catalogue numbers, cabinet capacities, distributed serial ranges, database rows and surviving physical slides are different quantity namespaces.</p>
+      </aside>
+    </section>
+
+    <section class="section catalogue-section" id="catalogue">
+      <div class="section-label"><span>02</span> Frozen catalogue</div>
+      <div class="catalogue-heading">
+        <div>
+          <p class="eyebrow dark">CLOSED_2026-08-09</p>
+          <h2>A reproducible 155-node nineteenth-century layer.</h2>
+        </div>
+        <div class="closure-equation" aria-label="Closure arithmetic">
+          <span><b>177</b> provisional</span>
+          <i>−</i>
+          <span><b>20</b> aliases</span>
+          <i>−</i>
+          <span><b>1</b> duplicate occurrence</span>
+          <i>−</i>
+          <span><b>1</b> held-out node</span>
+          <i>=</i>
+          <span class="result"><b>155</b> frozen</span>
+        </div>
+      </div>
+      <div class="three-up">
+        <article>
+          <span class="card-index">A</span>
+          <h3>Membership is executable</h3>
+          <p>The browser reconstructs the strict layer directly from the committed 07K–07AQ batches, the superseded-alias map, and explicit scope overrides.</p>
+        </article>
+        <article>
+          <span class="card-index">B</span>
+          <h3>Presentation stays separate</h3>
+          <p>Final QC normalises institution display names and clarifies a few count fields without changing membership, attribution, provenance grade, or source URLs.</p>
+        </article>
+        <article>
+          <span class="card-index">C</span>
+          <h3>Integrity fails loudly</h3>
+          <p>If the closure inputs stop yielding exactly 155 canonical entries, the explorer shows an integrity error instead of silently changing the historical catalogue.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section explorer-section" id="explorer">
+      <div class="section-label"><span>03</span> Explorer</div>
+      <div class="explorer-head">
+        <div>
+          <h2>Frozen catalogue explorer</h2>
+          <p>Search institutions, makers, collection names, subjects and notes. Filters operate on the closed 155-node layer rebuilt in your browser.</p>
+        </div>
+        <div class="integrity-pill" id="integrity-pill"><span class="pulse"></span><span id="integrity-text">Loading closure contract…</span></div>
+      </div>
+
+      <div class="filters" aria-label="Catalogue filters">
+        <label class="search-field">
+          <span>Search</span>
+          <input id="search-input" type="search" placeholder="Eulenstein, Farlow, pathology, diatoms…" autocomplete="off" />
+        </label>
+        <label>
+          <span>Country</span>
+          <select id="country-filter"><option value="">All countries</option></select>
+        </label>
+        <label>
+          <span>Provenance</span>
+          <select id="provenance-filter"><option value="">All grades</option></select>
+        </label>
+        <label>
+          <span>Object certainty</span>
+          <select id="certainty-filter"><option value="">All states</option></select>
+        </label>
+      </div>
+
+      <div class="explorer-meta">
+        <p id="result-count">Preparing records…</p>
+        <button class="text-button" id="reset-filters" type="button">Reset filters</button>
+      </div>
+      <div class="records-grid" id="records-grid" aria-live="polite"></div>
+      <div class="load-more-wrap"><button class="button secondary" id="load-more" type="button" hidden>Load more</button></div>
+    </section>
+
+    <section class="section bridges-section" id="bridges">
+      <div class="section-label"><span>04</span> Object ↔ text bridges</div>
+      <div class="bridge-layout">
+        <div class="bridge-lead">
+          <p class="eyebrow dark">CONTEXTUALLY VERIFIED</p>
+          <h2>Surviving objects decide where the text corpus expands next.</h2>
+          <p>The first verification pass already corrected literal-name misses and turned several catalogue nodes into bounded historical bridges. These are evidence routes, not identity shortcuts.</p>
+        </div>
+        <div class="bridge-list">
+          <article><span>1867–69</span><h3>Charles Eulenstein</h3><p>Two series, slide format, labels, five 100-species parts, Beck ordering, and the later Arnott-material purchase are now separated into their proper circulation layers.</p></article>
+          <article><span>1884–85</span><h3>Charles Collins Jr.</h3><p>Maker identity and priced “Special” micro-slide series are closed through contemporary trade and periodical evidence.</p></article>
+          <article><span>1867–78</span><h3>H. L. Smith</h3><p>The 1867 RMS cabinet gift remains distinct from the later published series; Century I can be reconstructed down to trays, numbering and material sources.</p></article>
+          <article><span>1884–85</span><h3>F. Kitton</h3><p>The first and second Norfolk diatom series are located in contemporary print, while later series remain an optional bounded gap.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section naples-section" id="naples">
+      <div class="section-label"><span>05</span> Naples 1880</div>
+      <div class="naples-top">
+        <div>
+          <p class="eyebrow dark">ANTON DOHRN · PREIS-VERZEICHNISS · AUGUST 1880</p>
+          <h2>From a 423-item catalogue to named British slides.</h2>
+        </div>
+        <p>The Naples sequence is the first product-level case where the project can move from a historical commercial catalogue to named British physical-slide circulation without collapsing catalogue offers, shipments, exhibitions and surviving objects into one thing.</p>
+      </div>
+      <div class="sequence" aria-label="Naples evidence sequence">
+        <div class="sequence-node"><small>Catalogue</small><strong>423</strong><span>numbered offerings</span></div>
+        <div class="sequence-arrow">→</div>
+        <div class="sequence-node"><small>UK circulation</small><strong>11</strong><span>distinct events</span></div>
+        <div class="sequence-arrow">→</div>
+        <div class="sequence-node"><small>RMS · 9 Jun 1880</small><strong>12</strong><span>named slides</span></div>
+        <div class="sequence-arrow">→</div>
+        <div class="sequence-node accent"><small>Crosswalk</small><strong>9</strong><span>exact / strong matches</span></div>
+      </div>
+      <div class="naples-detail-grid">
+        <article>
+          <p class="mini-label">Strong catalogue matches</p>
+          <p class="number-run">42 · 43 · 67 · 68 · 71 · 72 · 86 · 182 · 186</p>
+        </article>
+        <article>
+          <p class="mini-label">Bounded unresolved mappings</p>
+          <p><i>Amphioxus lanceolatus</i> → 231|232; <i>Ascetta bianca</i> → 5|6; <i>Asteracanthion/Asterias glacialis</i> larva → developmental block 43–49.</p>
+        </article>
+        <article class="warning-card">
+          <p class="mini-label">Identity guard</p>
+          <p>A catalogue-to-Britain match does not establish that the same physical slide survives at St Andrews. That relation remains explicitly <code>NOT_ASSERTED</code>.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section method-section" id="method">
+      <div class="section-label"><span>06</span> Method</div>
+      <div class="method-grid">
+        <div class="method-copy">
+          <h2>Evidence first; relations remain typed.</h2>
+          <p>The project keeps three things apart: what a source says, what a database row describes, and what the research layer infers. Maker, owner, donor, purchaser, preparer, dealer, exhibitor and later custodian are therefore stored as different relationships even when one person or institution occupies several roles.</p>
+        </div>
+        <ol class="method-steps">
+          <li><span>1</span><div><b>Start from a surviving node.</b><p>Institution, cabinet, slide set, bounded subset or individually catalogued slide.</p></div></li>
+          <li><span>2</span><div><b>Run bounded historical queries.</b><p>Actor, object, event, taxon and preparation language are searched in context.</p></div></li>
+          <li><span>3</span><div><b>Inspect the actual source unit.</b><p>Positive string hits remain routing signals until page-level context establishes the relation.</p></div></li>
+          <li><span>4</span><div><b>Record the closure and its limits.</b><p>Exact match, bounded family/programme correspondence, or unresolved identity.</p></div></li>
+        </ol>
+      </div>
+      <div class="source-links">
+        <a href="data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json"><span>Closure manifest</span><b>JSON ↗</b></a>
+        <a href="scripts/build_frozen_strict_membership.py"><span>Membership contract</span><b>PY ↗</b></a>
+        <a href="data/analysis/slide_155_corpus_expansion_v1/README.md"><span>Corpus expansion notes</span><b>MD ↗</b></a>
+        <a href="data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv"><span>Naples → RMS crosswalk</span><b>CSV ↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>Microscope Slides</strong><span>Object / Text Atlas</span></div>
+    <p>Research infrastructure for the history of microscopy. Frozen catalogue status: <code>CLOSED_2026-08-09</code>.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="site.js" defer></script>
+</body>
+</html>
