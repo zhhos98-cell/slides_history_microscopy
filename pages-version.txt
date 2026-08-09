@@ -6,6 +6,6 @@ extension-documents: 60 + 2 structured OCR
 bna-master-records: 9365
 bna-event-clusters-published: 930
 bna-newspaper-yield-rows-published: 995
-bna-query-yield-rows-published: 43
-bna-year-yield-rows-published: 71
+bna-query-yield-rows: 43
+bna-year-yield-rows: 71
 research-outputs: 22
