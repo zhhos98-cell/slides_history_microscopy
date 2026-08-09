@@ -1,0 +1,57 @@
+name: slide-export-frozen-catalogue
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out standalone slide repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Export frozen 155-entry catalogue
+        run: |
+          python scripts/export_frozen_catalogue.py --prepare
+          python - <<'PY'
+          import csv, json
+          from pathlib import Path
+          out = Path('outputs/final_catalogue')
+          csv_path = out / 'GLOBAL_MICROSCOPE_SLIDE_CATALOGUE_19C.csv'
+          with csv_path.open(newline='', encoding='utf-8') as f:
+              rows = list(csv.DictReader(f))
+          if len(rows) != 155:
+              raise SystemExit(f'Expected 155 rows, got {len(rows)}')
+          if len({r['entry_id'] for r in rows}) != 155:
+              raise SystemExit('Expected 155 unique entry_id values')
+          manifest = json.loads((out / 'GLOBAL_MICROSCOPE_SLIDE_CATALOGUE_19C_MANIFEST.json').read_text(encoding='utf-8'))
+          print(f'Frozen catalogue rows: {len(rows)}')
+          print(json.dumps(manifest, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Upload final catalogue
+        uses: actions/upload-artifact@v4
+        with:
+          name: slide-frozen-catalogue-155
+          path: outputs/final_catalogue/
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Upload frozen membership audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: slide-frozen-membership-audit
+          path: |
+            outputs/frozen_strict_membership.json
+            data/normalized/scope_19c_active_ids.json
+          retention-days: 30
+          if-no-files-found: error
