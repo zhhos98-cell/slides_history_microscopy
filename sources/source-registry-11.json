@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Microscope Slides in Motion — source and archive registry supplement 11",
+  "records": [
+    {
+      "id": "GB-NHM-CHALLENGER-SEDIMENT-PREPARATIONS",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "London",
+      "institution": "Natural History Museum",
+      "collection": "Sir John Murray's H.M.S. Challenger sediment collection and microscopic preparations",
+      "type": "expedition sediment collection + microscopic slides + historical registration + open dataset",
+      "relation": "direct",
+      "date_scope": "1873–1876 collection; post-cruise study and later museum custody",
+      "holdings": "The NHM preserves bottles, tubes, boxes, slides and derived preparations from H.M.S. Challenger. The current public dataset exposes collecting and preparation data from dredges, trawls, soundings, anchor mud and shallower-water collections. Haeckel's 1887 primary report says John Murray made carmine-stained Canada-balsam Radiolaria preparations on the spot and that Haeckel examined about one thousand preparations from 168 stations. A recent collection study describes a separate 105-drawer slide cabinet and records preparations annotated or made by specialists including Haeckel, Norman and Voigt & Hochgesang.",
+      "research_use": "A rare end-to-end station-address system: expedition station, method/depth/locality, shipboard preparation, specialist study/publication, Murray/Edinburgh custody, British Museum/NHM registration, slide-cabinet address and current dataset record can potentially be crosswalked. It is also an authoritative reference against which claimed Challenger material in external museum or auction collections can be tested.",
+      "access": "The collection dataset is openly downloadable through the NHM Data Portal; physical research and slide-cabinet access through NHM palaeontology/micropalaeontology collections.",
+      "url": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection",
+      "secondary_url": "https://www.gutenberg.org/files/44525/44525-h/44525-h.htm",
+      "tags": ["HMS Challenger", "John Murray", "Haeckel", "Radiolaria", "Norman", "station numbers", "sediment", "slides", "expedition", "NHM"]
+    },
+    {
+      "id": "GB-NHM-CHALLENGER-CT-REASSESSMENT",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "London",
+      "institution": "Natural History Museum",
+      "collection": "CT scans and modern reassessment of H.M.S. Challenger sediments",
+      "type": "digital analytical afterlife + non-destructive imaging dataset",
+      "relation": "direct",
+      "date_scope": "historical samples 1873–1876; modern CT analysis",
+      "holdings": "The NHM Data Portal publishes CT data used to examine Challenger samples while preserving the historical material. A recent study of 21 samples labelled as tow-net at dredge, weights, or trawl found benthic foraminifera, fragments and detrital material in most, indicating that some contained resuspended seafloor sediment rather than exclusively surface material.",
+      "research_use": "A strong afterlife case showing that a historical collection-method label is itself an evidential claim that can be re-evaluated. Modern imaging adds a new analytical address to nineteenth-century material without requiring destructive washing or wet sieving, while the old station and collection labels remain available for comparison.",
+      "access": "Open dataset and station-linked scan resources through the NHM Data Portal; individual files are large.",
+      "url": "https://data.nhm.ac.uk/dataset/ct-scans-of-h-m-s-challenger-sediments",
+      "secondary_url": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection",
+      "tags": ["HMS Challenger", "CT", "micro-CT", "historical labels", "foraminifera", "non-destructive analysis", "digital afterlife"]
+    }
+  ]
+}
