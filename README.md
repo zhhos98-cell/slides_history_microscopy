@@ -87,6 +87,16 @@ The frozen catalogue is treated as a **read-only object/provenance corpus**. Ana
 
 The first derived layer classifies nodes by unit level, production period, subject cluster, institutional/commercial context, circulation mode, count namespace and historical actor role. It is intended to support comparative research without pretending that single slides, bounded sets, cabinets, named collections and mixed-period institutional layers are commensurable counts.
 
+## Slide-locked bibliography — pass 09 (2026-08-10)
+
+The public bibliography is now at **`slide-locked-pass-09`**: **89 verified entries**, comprising **63 research/collection/conservation studies** and **26 historical printed sources**, across **10 publication languages**. The machine-readable source of truth is `bibliography/bibliography-manifest.json`; the row data are split across `bibliography-01.csv` through `bibliography-11.csv`. The Pages bibliography reads the manifest dynamically and exports CSV, TSV, JSON, CSL JSON, BibTeX and RIS from the same rows.
+
+The admission rule remains deliberately narrow: **physical slide first**. A source enters only when microscope slides, slide-mounted preparations, their mounting/material system, a dedicated preparation catalogue/series, or a surviving slide collection does the substantive evidentiary work. General microscopy histories, laboratory regulations, instrument histories and broad manuals remain outside the bibliography when preparations are only incidental.
+
+Pass 09 adds seven records without relaxing that rule. The multilingual/global additions are: Maximilian Perty's Russian `Микроскопические препараты` (1855); Francis Abbott on Nobert's test plate and Möller's diatom type slide in Tasmania (1869); A. A. da Costa Simões's Portuguese catalogue of the Coimbra microscopic-preparation teaching collection (1873); H. J. Grayson's Melbourne papers on diatom mounting (1892) and microscopical test rulings (1895), linked to surviving test plates; Tokyo Kenbikyōin's Japanese advertisement for distribution of pathogenic-microbe prepared slides (1895); and Sutton de Licitra and Damborenea's slide-register catalogue of the Museo de La Plata helminth collection (2000). This pass therefore expands the bibliography into Russian, Portuguese and Japanese while adding object-centred coverage in Australia/Tasmania, Japan and Argentina.
+
+Current search frontier: more slide-locked material from Africa, Central/Eastern Europe, East and Southeast Asia, and Latin America. The threshold stays unchanged; geographic balance is not produced by admitting sources that merely mention microscopic preparations.
+
 ## Object-to-text corpus expansion
 
 `data/analysis/slide_155_corpus_expansion_v1/` uses the surviving-object corpus to decide what textual material is worth reading or adding next. Early bounded verification produced object↔text bridges for Theodor Eulenstein, Charles Collins Jr., Hamilton Lanphere Smith, Frederic Kitton, and the Stazione Zoologica Napoli / Fritz Meyer preparation programme.
