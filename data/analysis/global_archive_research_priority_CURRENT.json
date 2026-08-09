@@ -6,11 +6,11 @@
   "targets": [
     {
       "rank": 1,
-      "target": "Whipple Museum — Charles Elcock archive",
-      "status": "S+; first commercial-workshop chain already closed at series level",
-      "closed": "1885 Type Slide Nos. 1–2 advertisements, twenty-shilling price and retailer network are matched to surviving Wh.6601 cabinet drawers explicitly labelled TYPE SLIDE No. 1 and No. 2.",
-      "next": "High-resolution drawers 9–12 and representative Type Slides; transcribe the fifty-species matrices; test whether duplicate drawers are copies, variants, components or storage overflow; search ephemera for orders/price lists/retail correspondence.",
-      "payoff": "Field collection → preparation method → society notes/slides → standardized commercial Type Slide → retail → surviving workshop reference archive."
+      "target": "Charles Elcock — Whipple + St Andrews + Type Slide documentary lineage",
+      "status": "S+; commercial product, market reception and distributed survival already closed at series/form level",
+      "closed": "1885 Type Slide Nos. 1–2 advertisements and retailer network match Whipple drawers explicitly labelled TYPE SLIDE No. 1/2; 1885 display and wanted/exchange evidence show public recognition and secondary demand; St Andrews preserves six independent TYPE SLIDE / OSTRACODA examples; Whipple retains a manuscript sheet (6601.10) apparently listing specimens on slide/s; the later Heron-Allen/Earland Type Slide Collection includes some earliest slides marked Charles Elcock and preserves a key/index architecture.",
+      "next": "First verify the 1882 Postal Microscopical Society Type Slide review directly in BHL; then request high-resolution Whipple 6601.10, 6601.11, drawers 9–12 and representative Type Slides. Separately transcribe the 2024 Flints Challenger-cabinet labels before treating the cabinet as secure provenance.",
+      "payoff": "Collection/preparation method → spatial taxonomic matrix → printed/list key → retail product → display/secondary demand → workshop reference archive → distributed reference-collection afterlife."
     },
     {
       "rank": 2,
@@ -30,27 +30,27 @@
     },
     {
       "rank": 4,
-      "target": "Harvard Embryological Collection + Charles Sedgwick Minot papers",
-      "status": "S/A+; exceptionally rich public crosswalk",
-      "closed": "Serial sections, original card catalogue, line drawings, previous HEC numbers, modern MCZ numbers, preparation technique fields and publication citations coexist; UK corpus already records Minot's 1877 serial-section microtome and technical programme.",
-      "next": "Date-filter nineteenth-century HEC records and sample a few series through old number → card/drawing → technique → publication → current number; use Minot correspondence only where the object/publication route generates a question.",
-      "payoff": "Best control showing seriality without material publication: anatomical sequence versus Cole's subscription sequence."
+      "target": "Cambridge Museum of Zoology / Whipple — Balfour objectives, serial sections and microtome",
+      "status": "S+ route; publication captions can potentially date instrument acquisition",
+      "closed": "Balfour embryological sections survive; Whipple preserves a Balfour objective set with Zeiss/Gundlach designations and serial/engraved numbers; the museum explicitly states that acquisition dates for some lenses can be traced through their mentions in plate captions. A pre-1880 Rudolf Jung sliding microtome from Zoology is the type Foster and Balfour described as the microtome they were most accustomed to.",
+      "next": "Extract every objective/magnification reference from Balfour plate captions before asking for broad archive material. Crosswalk those printed references to objective markings, then to taxon/stage and surviving slide-series candidates. Treat the 1882 engraved F.M.B. dates as potentially commemorative, as the museum warns.",
+      "payoff": "Objective address → dated plate caption → anatomical preparation/series → surviving section. This is an instrument-use chain rather than instrument biography."
     },
     {
       "rank": 5,
-      "target": "Cambridge Museum of Zoology / Whipple — Balfour serial sections and apparatus",
-      "status": "S; integrated object-apparatus target",
-      "closed": "Balfour embryological sections survive; relevant objectives and a 1870s Zoology microtome survive at Whipple; Museum notes original catalogues/notebooks/cabinets in historical collections.",
-      "next": "Obtain Balfour series inventory and original documentation, then test publication/figure links before assigning any specific apparatus to a specific slide.",
-      "payoff": "Sectioning apparatus → serial preparation → anatomical sequence → publication."
+      "target": "Harvard Embryological Collection + Charles Sedgwick Minot papers",
+      "status": "S/A+; exceptionally rich public crosswalk and strongest seriality-without-publication control",
+      "closed": "HEC preserves serial sections, original card catalogue, line drawings, previous HEC numbers, current MCZ numbers, technique fields, publication citations and ledger links. Public records demonstrate that old and new addresses can coexist in one object record.",
+      "next": "Date-filter HEC records to pre-1900 first. Sample a few complete series through old HEC number → card/drawing → section plane/stain/thickness/preparator → publication → current MCZ number. Use later records only to demonstrate catalogue architecture, not as nineteenth-century evidence.",
+      "payoff": "Controlled distinction: anatomical seriality is not automatically material publication; HEC is also a positive control for relation survival under modern recataloguing."
     },
     {
       "rank": 6,
-      "target": "Stazione Zoologica Anton Dohrn Historical Archives",
-      "status": "S; item-level catalogue/shipment bridge already exists",
-      "closed": "Nine of the twelve June 1880 RMS slides strongly match numbered Naples catalogue offerings.",
-      "next": "Search 1879–1881 preparation-department accounts, copybooks and A. W. Waters correspondence using the matched catalogue numbers and shipment date.",
-      "payoff": "Catalogue → internal order/dispatch → physical British shipment."
+      "target": "Stazione Zoologica Anton Dohrn Historical Archives + St Andrews surviving Naples slides",
+      "status": "S; catalogue/shipment bridge plus surviving external collection",
+      "closed": "Nine of the twelve June 1880 RMS slides strongly match numbered Naples catalogue offerings. St Andrews independently preserves a named group of Stazione Zoologica Napoli slides and identifies Fritz Meyer as a major preparer of surviving examples.",
+      "next": "Search 1879–1881 preparation-department accounts, copybooks and A. W. Waters correspondence using matched catalogue numbers and shipment date; simultaneously transcribe St Andrews Naples labels to see whether catalogue numbers or Meyer attributions survive.",
+      "payoff": "Catalogue → internal order/dispatch → British shipment → independently surviving institutional slides."
     },
     {
       "rank": 7,
@@ -62,11 +62,11 @@
     },
     {
       "rank": 8,
-      "target": "St Andrews — John Thomas Norman slides",
-      "status": "S; trade catalogue reverse route",
-      "closed": "Surviving Norman-labelled slides are explicitly linked by the institution to the 1872 list of 2,584 objects; the UK corpus shows Norman slides in secondary exchange and optical test use, while BNA records a broad Norman slide display in 1862.",
-      "next": "Transcribe St Andrews Norman labels and current sleeve coordinates; exact-title search against the 1872 list; capture secondary retailer labels separately.",
-      "payoff": "Public display → catalogue → purchase/resale → test use → institutional survival."
+      "target": "St Andrews Norman + Whipple Wheeler/Watson trade-attribution layer",
+      "status": "S; catalogue-to-object route now expanded into maker/retailer/collector attribution",
+      "closed": "St Andrews documents Norman's 1872 list of 2,584 mounts and warns that Norman supplied other mounters/retailers and that secondary labels survive. Whipple's Wheeler 'Planet Mars' slide retains maker mark, Watson retailer label, collector monogram/number and current museum accession, while the exact subject appears in Wheeler's 1876 catalogue.",
+      "next": "Transcribe St Andrews Norman object labels and physical label layering; exact-title match only those objects against the 1872 catalogue. Use the Wheeler/Watson Mars slide as the model schema for maker → seller → collector → museum transitions.",
+      "payoff": "Trade history becomes multi-layer attribution rather than a single maker field."
     },
     {
       "rank": 9,
@@ -85,18 +85,28 @@
       "payoff": "Buyer cabinet as transaction residue rather than maker catalogue as sole market evidence."
     }
   ],
-  "digital_harvest": {
-    "target": "Ernst Haeckel correspondence portal",
-    "mode": "bounded keyword corpus, not broad archival visit",
-    "terms": ["Präparat*", "Mikroskop*", "Glastäfelchen", "Objektträger", "Radiolar*", "Versand", "Ankauf", "preparator names"],
-    "fields": ["date", "sender", "recipient", "object", "quantity", "relation", "price", "shipping", "preparator", "archive signature", "publication link"],
-    "stop_rule": "Stop after slide/preparation transactions are saturated; do not convert the whole Haeckel correspondence into a microscopy corpus."
-  },
+  "completed_bounded_harvests": [
+    {
+      "target": "Ernst Haeckel Online Briefedition",
+      "file": "data/analysis/haeckel_micropreparation_correspondence_harvest_v1.json",
+      "result": "Five primary letters establish distinct material relations: microscopic preparation for repeat social viewing (1852), scientific consignment of raw material (1880), field preservation failure (1882), professional preparator send-on-approval sale (1885), and gift of a Radiolaria glass collection for microscope viewing (1896).",
+      "stop_rule": "Do not broaden into the whole correspondence. Reopen only for a named preparator, Radiolaria set, transaction, shipment or surviving collection bridge."
+    }
+  ],
+  "method_files": [
+    "data/analysis/elcock_type_slide_genealogy_and_challenger_v3.json",
+    "data/analysis/trade_slide_attribution_layers_v1.json",
+    "data/analysis/balfour_objective_publication_crosswalk_v1.json",
+    "data/analysis/minot_hec_public_crosswalk_sample_v1.json",
+    "data/analysis/slide_archive_addressing_systems_v1.json",
+    "data/analysis/institutional_slide_teaching_ecologies_v1.json"
+  ],
   "hold": [
     "Kew aggregate slide collection until a named nineteenth-century transferred subcollection is found.",
     "Zoological Survey of India aggregate slide/type holdings until a pre-1900 accession or named slide series is closed.",
     "Charité/Virchow material until slide-specific preparations or catalogues are identified.",
     "Edinburgh anatomy collections until a microscope-slide/preparation series is explicit.",
-    "General national/geographic searching unless it supplies a new mechanism or closes a current actor/series."
+    "General national/geographic searching unless it supplies a new mechanism or closes a current actor/series.",
+    "Additional Haeckel keyword harvesting unless a named object/preparator route emerges."
   ]
 }
