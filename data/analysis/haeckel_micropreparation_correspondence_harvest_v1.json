@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0-haeckel-micropreparation-harvest",
+  "generated": "2026-08-10",
+  "title": "Microscopic and preparative material in the Ernst Haeckel correspondence: bounded primary-source harvest",
+  "scope": "A deliberately bounded harvest of letters that expose material relations relevant to microscope preparations: making, viewing, preservation failure, professional trial-sale, scientific consignment, and gifting of a microscopic collection. 'Präparat' is retained in its historical breadth and is not automatically translated as microscope slide.",
+  "source_portal": "https://haeckel-briefwechsel-projekt.uni-jena.de/",
+  "records": [
+    {
+      "id": "HAECKEL-B16616-1852-WEISS",
+      "document_id": "b_16616",
+      "date": "1852-05-23/1852-06-05",
+      "sender": "Ernst Weiß",
+      "recipient": "Ernst Haeckel",
+      "url": "https://haeckel-briefwechsel-projekt.uni-jena.de/de/document/b_16616",
+      "material_relation": "preparation + microscope demonstration + social demand",
+      "evidence": "Weiß describes a potato preparation stained with iodine to show starch grains. He reports an evening gathering at his brother's house using the microscope from 8 p.m. to midnight, mostly with teachers, and says he had to promise to bring the microscope back and make new preparations; he worries about finding interesting preparations that can be preserved.",
+      "research_use": "A compact early case in which preparation-making is shaped by repeat demonstration and the need for durable, interesting objects for a social audience.",
+      "object_status": "microscopic preparation explicit; physical slide format not specified",
+      "grade": "S"
+    },
+    {
+      "id": "HAECKEL-B41561-1880-MURRAY",
+      "document_id": "b_41561",
+      "date": "1880-10-15",
+      "sender": "John Murray, Challenger Office",
+      "recipient": "Ernst Haeckel",
+      "url": "https://haeckel-briefwechsel-projekt.uni-jena.de/de/document/b_41561",
+      "material_relation": "scientific consignment + delegated identification + transport accounting",
+      "evidence": "Murray sends Haeckel a box from a North-of-Scotland trip containing surface material, mud and animals, asks him to identify radiolarian genera for Wyville Thomson's preliminary report, refers to earlier Challenger actinia, and separately asks for railway-payment documentation required by the Treasury.",
+      "research_use": "Shows microscopic/taxonomic work beginning with shipped bulk material and administrative transport paperwork before any slide-making stage. Useful as a guard against treating every microscopy network as a circulation of already-finished slides.",
+      "object_status": "specimens and sediment, not microscope slides",
+      "grade": "S"
+    },
+    {
+      "id": "HAECKEL-B39116-1882-BELLIGEMMA",
+      "document_id": "b_39116",
+      "date": "1882-01-07",
+      "sender": "Ernst Haeckel",
+      "recipient": "Agnes Haeckel and family",
+      "place": "Belligemma/Weligama, Ceylon/Sri Lanka",
+      "url": "https://haeckel-briefwechsel-projekt.uni-jena.de/de/document/b_39116",
+      "material_relation": "field preservation failure",
+      "evidence": "Haeckel says much of his dry prepared material was destroyed by ants and especially termites despite precautions. He adds that specimens can spoil within hours before examination/conservation, iron and steel rust even with daily cleaning, leather moulds, and paper decays under combined heat and humidity.",
+      "research_use": "A strong negative material chain: preparation and record survival were environmentally contingent before shipment. It links specimen loss, instrument maintenance and paper deterioration in one field laboratory ecology.",
+      "object_status": "broad zoological preparations; not all are microscope preparations",
+      "grade": "S"
+    },
+    {
+      "id": "HAECKEL-B46372-1885-WIESE",
+      "document_id": "b_46372",
+      "date": "1885-10-17",
+      "sender": "Emil Wiese, Präparator at the natural-history museum in Strasbourg",
+      "recipient": "Ernst Haeckel",
+      "url": "https://haeckel-briefwechsel-projekt.uni-jena.de/de/document/b_46372",
+      "material_relation": "professional preparator trial-sale + price list + returns",
+      "evidence": "Wiese sends preparations for inspection and possible purchase, recalling that Haeckel had previously bought skeletons from him. He supplies individual Mark prices, lists works in progress, states that skeletons not liked will be taken back, and offers to send further preparations on approval.",
+      "prices_mark": [24,21,15,20,15,15,15,11,16,15,20,18,25,26,15,14],
+      "research_use": "A clean professional-preparator commercial mechanism: objects move before purchase, quality is inspected by the scientist, prices are itemized, and rejected material can return. It is directly comparable to slide dealers' approval/sample practices without assuming the objects themselves are slides.",
+      "object_status": "skeletal/natural-history preparations, not microscope slides",
+      "grade": "S"
+    },
+    {
+      "id": "HAECKEL-B11-1896-DELLE-GRAZIE",
+      "document_id": "b_11",
+      "date": "1896-11-07",
+      "sender": "Marie Eugenie delle Grazie",
+      "recipient": "Ernst Haeckel",
+      "url": "https://haeckel-briefwechsel-projekt.uni-jena.de/de/document/b_11",
+      "material_relation": "gift of microscopic slide collection",
+      "evidence": "Delle Grazie thanks Haeckel for a Radiolariencollection, calls it a major gift, and says she looks forward to viewing the small glass plates under the microscope.",
+      "research_use": "Direct evidence that Haeckel could distribute a prepared Radiolaria collection as a gift whose intended use was microscopic viewing. The recipient understands the glass pieces as a coherent collection rather than isolated specimens.",
+      "object_status": "glass preparations for microscope viewing explicit; exact mounting/numbering architecture not described",
+      "grade": "S"
+    }
+  ],
+  "relation_types": [
+    {
+      "type": "make_for_repeat_viewing",
+      "example": "Weiß 1852",
+      "mechanism": "audience demand creates pressure for durable new preparations"
+    },
+    {
+      "type": "ship_raw_material_for_analysis",
+      "example": "Murray 1880",
+      "mechanism": "bulk specimens/sediment precede identification and preparation"
+    },
+    {
+      "type": "fail_before_archive",
+      "example": "Haeckel 1882",
+      "mechanism": "climate, insects and material degradation destroy specimen and paper relations before return"
+    },
+    {
+      "type": "send_on_approval",
+      "example": "Wiese 1885",
+      "mechanism": "professional preparator transfers objects temporarily so purchaser can judge quality before buying"
+    },
+    {
+      "type": "gift_prepared_collection",
+      "example": "delle Grazie 1896",
+      "mechanism": "a microscopic glass collection moves through personal/intellectual exchange rather than sale"
+    }
+  ],
+  "research_result": "The Haeckel correspondence is most useful here as a control on the slide-centred corpus. Microscopic knowledge could begin with raw shipped sediments, be lost during field preservation, be manufactured by professional preparators and sent on approval, or circulate as a finished glass collection by gift. 'Circulation' therefore contains materially different states of the scientific object and should not be represented as a single slide-transfer edge.",
+  "database_implication": {
+    "recommended_state_field": ["raw material", "field preparation", "professional preparation", "microscope glass preparation", "finished slide/set", "paper/digital surrogate"],
+    "recommended_relation_field": ["consigned for identification", "sent for inspection", "purchased", "returned", "gifted", "demonstrated", "destroyed/spoiled before shipment"]
+  },
+  "stop_rule": "This bounded harvest is sufficient for the current project. Continue only if a named preparator, slide series, Radiolaria collection, price, shipment, or object address creates a direct bridge to a surviving collection or existing corpus event; do not turn the entire Haeckel correspondence into a microscopy corpus."
+}
