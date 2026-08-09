@@ -1,3 +1,9 @@
-Microscope Slides GitHub Pages
-Built from the frozen 155-node catalogue and slide_155 corpus-expansion state.
-Initial Pages launch: 2026-08-09.
+slides_history_microscopy Pages
+version: 2026-08-09-backend-metadata-v4
+object-census: CLOSED_2026-08-09 / 155
+core-documents: 142
+extension-documents: 60 + 2 structured OCR
+bna-master-records: 9365
+bna-query-yield-rows: 43
+bna-year-yield-rows: 71
+research-outputs: 22
