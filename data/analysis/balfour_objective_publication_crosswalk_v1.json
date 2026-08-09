@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.0.0-balfour-objective-publication-crosswalk",
+  "schema_version": "1.1.0-balfour-objective-publication-crosswalk",
   "generated": "2026-08-10",
   "title": "Balfour: objective, plate caption, serial section, and microtome crosswalk",
-  "research_problem": "Cambridge preserves Balfour's embryological serial sections, microscope objectives and departmental microtome apparatus. The unusually high-value route is not merely that these things coexist: the Whipple Museum states that acquisition dates of some objectives can be traced through mentions in captions to plates in Balfour's papers.",
+  "research_problem": "Cambridge preserves Balfour's embryological serial sections, microscope objectives and departmental microtome apparatus. The unusually high-value route is not merely that these things coexist: the Whipple Museum states that acquisition dates of some objectives can be traced through mentions in captions to plates in Balfour's papers. A first primary-text extraction now confirms multiple designation-level matches between surviving Zeiss objectives and Balfour's 1878 plate captions.",
   "objective_archive": {
     "repository": "Whipple Museum of the History of Science",
     "accession": "L2021.IN049.4",
@@ -13,7 +13,7 @@
       {"maker":"unknown/Zeiss-like","designation":"unengraved black/brass objective","markings":[]},
       {"maker":"Carl Zeiss","designation":"a","markings":["Zeiss", "a", "F. M. B. 1882"]},
       {"maker":"Carl Zeiss","designation":"A","markings":["Zeiss", "A", "573", "F. M. B. 1882"]},
-      {"maker":"Carl Zeiss","designation":"c","markings":["C. Zeiss", "C", "1295"]},
+      {"maker":"Carl Zeiss","designation":"c/C","markings":["C. Zeiss", "C", "1295"]},
       {"maker":"Carl Zeiss","designation":"C","markings":["Zeiss", "C", "710", "F. M. B. 1882"]},
       {"maker":"Carl Zeiss","designation":"B","markings":["Zeiss", "B", "F. M. B.", "0.17"]},
       {"maker":"Carl Zeiss","designation":"J","markings":["Zeiss", "J", "F. M. B.", "0.16"]},
@@ -22,7 +22,48 @@
       {"maker":"Gundlach","designation":"2-inch low-power objective","markings":["GUNDLACH", "2 In", "F. M. B.", "C. BAKER AGENT LONDON"]}
     ],
     "critical_museum_note": "The museum records that Balfour kept in contact with Zeiss and acquired new lenses, and that dates of acquisition of different lenses can to some extent be traced from their mention in captions to plates in Balfour's papers. It warns that some 1882 engravings are probably commemorative and should not be read as acquisition dates.",
-    "research_value": "Plate captions can potentially act as dated use records for specific objective designations/performances, turning publication paratext into an instrument-acquisition source."
+    "research_value": "Plate captions can act as dated use records for objective designations, turning publication paratext into an instrument-history source."
+  },
+  "primary_plate_caption_harvest": {
+    "source": "F. M. Balfour, A Monograph on the Development of Elasmobranch Fishes (1878), reproduced in Works vol. I / Project Gutenberg",
+    "url": "https://www.gutenberg.org/files/41357/41357-h/41357-h.htm",
+    "result": "The 1878 plate explanations repeatedly specify Zeiss objectives that match designations still present in Balfour's surviving objective set.",
+    "designation_matches": [
+      {
+        "designation": "C",
+        "surviving_set": "two current C/c-labelled Zeiss objectives are present in the Whipple group (including engraved numbers 1295 and 710)",
+        "printed_use": "Plate 11 repeatedly specifies Zeiss C, ocular 1 for sections of Pristiurus, Scyllium and Torpedo embryos; later captions also use C at other ocular powers.",
+        "date": 1878,
+        "claim": "Balfour was using a Zeiss C-designation objective in the work published in 1878.",
+        "confidence": "S for designation-level use; A only for identifying which surviving C objective made a given figure"
+      },
+      {
+        "designation": "A",
+        "surviving_set": "Whipple preserves a Zeiss A marked 573 / F.M.B. 1882",
+        "printed_use": "Plate 11 and subsequent plate captions specify Zeiss A, ocular 1 for multiple embryological sections.",
+        "date": 1878,
+        "claim": "Access/use of Zeiss A is securely documented by 1878, earlier than the possibly commemorative 1882 F.M.B. engraving on the surviving objective.",
+        "confidence": "S for designation-level use; A for physical-lens identity"
+      },
+      {
+        "designation": "B",
+        "surviving_set": "Whipple preserves a Zeiss B marked F.M.B. and 0.17",
+        "printed_use": "Plate 21 uses Zeiss B, ocular 2 repeatedly for sections illustrating Wolffian/oviduct/ureter development; other captions also use B.",
+        "date": 1878,
+        "claim": "Zeiss B was part of Balfour's working optical repertoire by the 1878 monograph.",
+        "confidence": "S for designation-level use; A for physical-lens identity"
+      },
+      {
+        "designation": "aa",
+        "surviving_set": "Whipple preserves Zeiss aa marked 6.3 / F.M.B. 1882",
+        "printed_use": "The 1878 work includes plate explanations specifying Zeiss aa, including sections of ovarian ridge and Peripatus material in the collected Works context.",
+        "date": "1878-era/collected papers; exact original-paper date must be recorded per plate",
+        "claim": "aa-designation use is present in Balfour's published microscopy and can be tied to individual paper dates before treating it as an acquisition terminus.",
+        "confidence": "A+ pending per-paper date normalization"
+      }
+    ],
+    "negative_result": "No direct caption hit has yet been established for the surviving J, E, 3 mm homogeneous-immersion apochromat or Gundlach 2-inch objective in this first pass.",
+    "methodological_guard": "Matching a Zeiss letter designation between print and surviving instrument is not enough to identify the exact physical lens if multiple lenses of the same designation existed. Exact serial/engraved-number evidence or stronger provenance is required for object-level identity."
   },
   "microtome_archive": {
     "repository": "Whipple Museum",
@@ -42,13 +83,13 @@
     "significance": "It belongs to the immediate post-Balfour Cambridge problem of producing regular ribbons of sections and was developed after Caldwell's suggestion.",
     "guard": "Do not back-project the automatic machine onto Balfour's earlier serial sections. It is a successor solution to a production problem, not evidence for Balfour's own slide manufacture."
   },
-  "crosswalk_method": [
-    "Build a list of every objective designation/number visible on the surviving Balfour optics.",
-    "Search Balfour's papers, books and plate captions for Zeiss/Gundlach objective designations, focal lengths, apertures, immersion language and magnification notes.",
-    "Record the earliest secure printed mention for each objective as a terminus ante quem for use/acquisition, without using 1882 commemorative engraving as dating proof.",
-    "For each plate/figure mention, identify the anatomical preparation or embryological stage represented.",
-    "Then query Cambridge Museum of Zoology surviving Balfour serial sections for the same taxon/stage/series and original catalogue/notebook references.",
-    "Only assign a surviving objective to a surviving section if a documentary source explicitly joins them; otherwise maintain a bounded apparatus pool."
+  "revised_crosswalk_method": [
+    "Treat plate captions as dated objective-use records and extract designation + ocular + specimen/stage + preparation method.",
+    "Normalize each plate to the original paper/publication date rather than the later Works compilation date.",
+    "Use the earliest secure printed designation as a terminus ante quem for Balfour's use/access to an objective class.",
+    "Where the surviving objective carries a serial/engraved number, search Zeiss production/dispatch records and correspondence for that exact number before claiming physical identity.",
+    "For each plate/figure, identify anatomical preparation/stage and query Cambridge Museum of Zoology surviving Balfour serial sections for the same series.",
+    "Only assign a specific surviving objective to a specific surviving section if a documentary source explicitly joins them; otherwise state designation-level use."
   ],
   "extraction_schema": [
     "objective_current_id",
@@ -58,16 +99,23 @@
     "aperture_or_focal_length",
     "retailer_or_agent",
     "commemorative_marking",
-    "publication_title",
-    "publication_date",
+    "original_publication_title",
+    "original_publication_date",
     "plate_or_figure",
     "caption_objective_wording",
+    "ocular",
+    "preparation_method_or_reagent",
     "specimen_or_stage",
     "surviving_slide_series_candidate",
     "original_slide_catalogue_reference",
+    "identity_level",
     "confidence",
     "guard_note"
   ],
-  "article_payoff": "This case can make instrument use historically specific without turning into instrument biography. A lens becomes visible through a plate caption; a serial section becomes visible through a publication figure; the microtome structures the production of the series. The research object is the crosswalk among apparatus, preparation and printed image.",
-  "first_action": "Before requesting broad Cambridge archival digitisation, extract all objective references from Balfour plate captions. The museum itself identifies this as the route capable of dating the lens set."
+  "article_payoff": "This case can make instrument use historically specific without turning into instrument biography. The first pass already shows that publication captions record Balfour's use of Zeiss A, B and C designations by 1878. A lens becomes visible through a plate caption; a serial section through a figure; and a microtome through methods text. The research object is the crosswalk among apparatus, preparation and printed image.",
+  "next": [
+    "Systematically harvest all Zeiss/Gundlach objective references from Balfour Works volumes I–IV and assign original publication dates.",
+    "Search exact surviving Zeiss serial/engraved numbers (573, 1295, 710, 780, 542) in Zeiss production/dispatch records if the archive index supports number lookup.",
+    "Use plate/specimen terms to query Balfour serial-section holdings before any broad archival request."
+  ]
 }
