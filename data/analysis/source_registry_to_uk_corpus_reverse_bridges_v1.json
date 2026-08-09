@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0-source-registry-reverse-bridges",
+  "generated": "2026-08-10",
+  "title": "From surviving archive back into circulation: reverse bridges from the source registry to the UK microscopy corpus",
+  "method": "Names and object systems newly prioritized in the source registry were searched back through the project's nineteenth-century UK microscopy corpus. Hits are retained only when the surrounding record changes what can be asked of the surviving collection; generic citations and homonyms are excluded.",
+  "bridges": [
+    {
+      "actor_or_collection": "Charles Elcock / Whipple working archive",
+      "archive_anchor": "Whipple preserves Elcock's slides, raw/preparatory material, tools, mounting supplies, labels, books and ephemera.",
+      "corpus_events": [
+        {
+          "record_id": "R48474",
+          "year": 1883,
+          "source": "Journal of the Postal Microscopical Society, vol. II",
+          "event": "Elcock reports collecting abundant Foraminifera at Southport and gives practical instructions for scraping, washing, drying, floating and preparing the material.",
+          "research_use": "Connects surviving workshop raw material and finished Foraminifera slides to a named field-collection and processing practice."
+        },
+        {
+          "record_id": "R48643",
+          "year": 1884,
+          "source": "Journal of Microscopy and Natural Science, vol. III",
+          "event": "The Society's annual review singles out six Elcock communications on Foraminifera and says they were especially valuable when studied in connection with the circulating slides.",
+          "research_use": "Elcock's slides were not only commercial products; in the postal society they operated as travelling teaching/research objects coordinated with members' notes."
+        },
+        {
+          "record_id": "R48644",
+          "year": 1884,
+          "source": "Journal of Microscopy and Natural Science, vol. III",
+          "event": "The report observes that a slide circulating without information could suddenly become valuable when a member supplied careful notes, immediately after discussion of Elcock/Malcomson Foraminifera work.",
+          "research_use": "Provides an explicit contemporary statement that interpretive documentation could change the epistemic value of an otherwise familiar circulating slide."
+        },
+        {
+          "record_id": "R48648",
+          "year": 1884,
+          "source": "Journal of Microscopy and Natural Science, vol. III",
+          "event": "Annual classified list records six Elcock Foraminifera subjects, including Atlantic dredgings, isomorphism and named genera/species.",
+          "research_use": "Supplies subject-level targets for matching surviving Elcock preparations and labels."
+        },
+        {
+          "record_id": "R48652",
+          "year": 1884,
+          "source": "Journal of Microscopy and Natural Science, vol. III",
+          "event": "Classified technical list includes Elcock, 'On Gum for Mounting Foraminifera.'",
+          "research_use": "Direct bridge from workshop material/mounting media to a named method communication."
+        },
+        {
+          "record_ids": ["R49267", "R49279"],
+          "year": 1885,
+          "source": "Journal of Microscopy and Natural Science, vol. IV",
+          "event": "Advertisements offer Elcock Foraminifera 'Type Slides' Nos. 1 and 2, each with fifty named species visible in the field, priced at twenty shillings each; other slides and student/lecture series were in preparation. Retail routes include Beck & Beck, Watson & Sons, Charles Collins, E. Ward and Alfred Allen.",
+          "research_use": "Turns the Whipple archive into a complete chain candidate: field collection → preparation method → society circulation/notes → standardized multi-species Type Slide → price → retailer network → surviving workshop archive."
+        }
+      ],
+      "new_priority": "S+ standalone case",
+      "next_extraction": ["search Whipple labels for Type Slide No. 1 / No. 2", "identify any fifty-species arrangements", "transcribe retailer/printed ephemera", "match Southport/Antrim/Lias/London Clay material to surviving packets or slides", "look for gum/media containers associated with Foraminifera"]
+    },
+    {
+      "actor_or_collection": "Charles Sedgwick Minot / Harvard Embryological Collection",
+      "archive_anchor": "Harvard preserves serial embryo sections, original cards and drawings; Minot papers survive at Countway.",
+      "corpus_events": [
+        {
+          "record_id": "R47368",
+          "year": 1877,
+          "source": "Monthly Microscopical Journal, vol. XVII",
+          "event": "British journal notice reports Minot's new microtome for cutting a series of sections, recently described to the Boston Society of Natural History.",
+          "research_use": "Establishes British contemporary awareness of Minot's serial-section apparatus before the later Harvard Embryological Collection matured."
+        },
+        {
+          "record_ids": ["R47902", "R47903", "R47904", "R47905", "R47913"],
+          "year": 1877,
+          "source": "Monthly Microscopical Journal, vol. XVIII, 'Histology and Embryology'",
+          "event": "Minot explains why tissues require special treatment, discusses hand/machine section cutting, hardening, paraffin, staining and mounting, and ends with practical advice on simple research microscopes and objectives.",
+          "research_use": "The surviving Harvard serial-section archive can be read against Minot's own contemporary technical programme rather than only later collection descriptions."
+        }
+      ],
+      "new_priority": "S/A+ technical-publication bridge",
+      "next_extraction": ["identify which techniques in 1877 recur in early HEC object records", "date-filter HEC records to nineteenth century", "crosswalk stains/section thickness/preparator fields to Minot publications and correspondence"]
+    },
+    {
+      "actor_or_collection": "Henri Van Heurck distributed scientific estate",
+      "archive_anchor": "Van Heurck's diatoms, books and microscopy instruments later became institutionally distributed across Belgian repositories.",
+      "corpus_events": [
+        {
+          "record_id": "R22544",
+          "year": 1878,
+          "source": "Journal of the Royal Microscopical Society",
+          "event": "Bibliographic notice reports a new edition of Van Heurck's microscopy/botany work in preparation and describes his diatom collection as one of the most important then existing, with no fewer than 10,000 specimens and major type/original material.",
+          "research_use": "Provides a dated contemporary state of the collection before the later estate-level dispersal; the '10,000' figure must remain a historical claim, not a current object count."
+        },
+        {
+          "record_id": "R24158",
+          "year": 1880,
+          "source": "Journal of the Royal Microscopical Society",
+          "event": "A report on Van Heurck's diatom work emphasizes drawings made from authentic specimens/types in his botanical museum, with Grunow involved in drawing plates and high-power objectives used for difficult forms.",
+          "research_use": "Shows the collection operating as an authentication infrastructure connecting type material, drawing, microscopy and publication before later institutional dispersal."
+        },
+        {
+          "record_ids": ["R29302", "R29049"],
+          "year": 1884,
+          "source": "Journal of the Royal Microscopical Society",
+          "event": "Van Heurck sends mounted Amphipleura pellucida preparations and mounting-medium experiments into RMS meeting/exhibition contexts.",
+          "research_use": "Adds object circulation and mounting technique to the later estate history."
+        }
+      ],
+      "new_priority": "A+ estate-disassembly case",
+      "next_extraction": ["capture dated historical counts separately", "identify surviving authentic/type slides in Meise", "trace Grunow-linked material and annotations", "separate botanical/diatom material transfer from instrument/library transfers"]
+    },
+    {
+      "actor_or_collection": "John Thomas Norman / St Andrews surviving slides",
+      "archive_anchor": "St Andrews preserves Norman-labelled slides and explicitly links them to his 1872 catalogue of 2,584 offerings.",
+      "corpus_events": [
+        {
+          "record_id": "R44412",
+          "year": 1872,
+          "source": "Hardwicke's Science-Gossip",
+          "event": "Exchange column offers 'Norman's prepared microscopical slides and others' in return for fossils.",
+          "research_use": "Shows Norman objects entering secondary exchange immediately in the catalogue period; maker identity remained useful enough to advertise the slides by name."
+        },
+        {
+          "record_id": "R47680",
+          "year": 1875,
+          "source": "Monthly Microscopical Journal",
+          "event": "A microscopist tests a foreign objective on named preparations including Nitzschia sigmoidea mounted dry by Norman and Navicula rhomboides dry by Norman, alongside Topping slides.",
+          "research_use": "A commercial slide becomes a test/comparison object for judging optical performance, demonstrating epistemic reuse after purchase."
+        }
+      ],
+      "new_priority": "S catalogue↔object↔secondary-use target",
+      "next_extraction": ["transcribe St Andrews Norman slide subjects", "match to 1872 catalogue", "search corpus for the same subjects + Norman", "record secondary retailer labels and current sleeve coordinates"]
+    },
+    {
+      "actor_or_collection": "Pritchard-labelled Whipple cabinet",
+      "archive_anchor": "Whipple preserves an 1840–1870 cabinet containing Pritchard-labelled commercial slides, homemade preparations, broken slides and slide papers.",
+      "corpus_events": [
+        {
+          "record_id": "R43685",
+          "year": 1876,
+          "source": "Hardwicke's Science-Gossip",
+          "event": "Historical notice says Pritchard claimed introduction of Canada balsam for mounting and cites his 1837 catalogue, which lists balsam-mounted objects and prices: transparent-object cases, opaque-object cases, selected sets by the dozen, and fossil-wood sections.",
+          "research_use": "Provides a printed price/format system directly relevant to the catalogue-derived labels physically surviving in the Whipple cabinet."
+        }
+      ],
+      "new_priority": "A+ early commercial cabinet case",
+      "next_extraction": ["photograph Pritchard catalogue-derived labels", "identify whether cabinet objects fit the 1837 transparent/opaque/set categories", "compare physical case/tray architecture with advertised sets", "retain broken and homemade material as evidence of later cabinet use"]
+    }
+  ],
+  "general_result": "The source registry is already feeding the corpus back into object research. Elcock is the clearest gain: a newly prioritized surviving workshop archive can now be connected to named collection sites, preparation technique, postal-society slide circulation, interpretive note-making, standardized Type Slides, prices and a multi-city retailer network. This is stronger than treating the archive as a static maker collection.",
+  "guard": "These bridges connect actors, practices, series and institutional contexts. Unless a label, number, catalogue row or other object-specific evidence closes the identity, they do not prove that a particular surviving slide is the same physical object described in the corpus event."
+}
