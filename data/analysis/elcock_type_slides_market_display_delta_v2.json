@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.0.0-elcock-type-slide-market-display",
+  "generated": "2026-08-10",
+  "title": "Charles Elcock Type Slides beyond the workshop: display, demand, secondary exchange, and distributed survival",
+  "builds_on": "data/analysis/elcock_type_slides_s_grade_closure_v1.json",
+  "new_result": "The Type Slide chain extends beyond advertisement and Elcock's retained cabinet. Contemporary 1885 records show a seven-slide public display and a wanted/exchange advertisement specifically seeking an Elcock fifty-species Type Slide. St Andrews preserves six additional Elcock slides labelled TYPE SLIDE and OSTRACODA, giving a second institutional endpoint outside the Whipple workshop archive.",
+  "contemporary_market_and_display": [
+    {
+      "record_id": "R42100",
+      "year": 1885,
+      "source": "The Midland Naturalist",
+      "event": "At the Birmingham Natural History and Microscopical Society, Charles Elcock exhibited seven Type Slides of Foraminifera: two containing fifty different species each; four representing different orders including Miliolidae, Hyaline, Porcellanous and Lagena; and one containing thirteen species of the Arenaceous order.",
+      "research_use": "The Type Slide was not a single two-item commercial novelty. Elcock publicly presented a differentiated family of classified Type Slides, using slide composition itself to stage taxonomic order."
+    },
+    {
+      "record_id": "R38241",
+      "year": 1885,
+      "source": "Hardwicke's Science-Gossip",
+      "event": "An exchange-column contributor offers several books in return for one of Elcock's Type Slides of Foraminifera (fifty species), or alternatively two dozen single-species foraminifera slides/books.",
+      "research_use": "Direct evidence of named consumer demand and secondary exchange value. The fifty-species Type Slide is treated as a recognizable desirable commodity equivalent to multiple books or a substantial quantity of ordinary slides."
+    },
+    {
+      "record_ids": ["R49267", "R49279"],
+      "year": 1885,
+      "source": "Journal of Microscopy and Natural Science",
+      "event": "Type Slides Nos. 1 and 2 are advertised at twenty shillings each through multiple retailers.",
+      "research_use": "Primary advertised price and distribution structure."
+    }
+  ],
+  "distributed_survival": {
+    "repository": "University of St Andrews Libraries and Museums — Bell Pettigrew Zoology microscope slide collection",
+    "url": "https://collections.st-andrews.ac.uk/group/charles-elcock-microscope-slides/2084218",
+    "holding": "Six Elcock slides retained in situ in sleeve 5/P/2. The institution describes them as similarly mounted/papered and records printed text including 'TYPE' / 'SLIDE', 'SELECTED BY CHARLES ELCOCK, BELFAST', and the category 'OSTRACODA'. Individual specimen names are partly manuscript. The record identifies the six as nos. 13, 14, 17, 18, 19 and 20 within the described group/arrangement.",
+    "research_use": "A second institutional endpoint shows that the Type Slide label/product language circulated beyond Elcock's retained workshop cabinet. The Ostracoda category suggests that the Type Slide format was applied beyond the two advertised fifty-species Foraminifera slides.",
+    "guard": "Do not assume the St Andrews numbers 13, 14, 17, 18, 19, 20 are Elcock commercial series numbers until label images/collection hierarchy confirm what that numbering denotes."
+  },
+  "revised_product_model": [
+    "Type Slide as a commercial format",
+    "within-slide matrix/printed taxonomy as retrieval system",
+    "Type Slide number or category as product address",
+    "variant compositions by taxonomic order",
+    "retail price and multi-city distribution",
+    "public demonstration by maker",
+    "secondary demand/exchange by users",
+    "survival both in workshop reference cabinet and later institutional collections"
+  ],
+  "article_payoff": "Elcock can support a paper or major section on the commercialization of classification itself. The value proposition is not simply that fifty specimens fit on glass. The slide miniaturizes a named comparative collection into one purchasable field of view, while a printed matrix turns classification into a spatial interface. Public display and exchange evidence show that users recognized this format as a distinct commodity.",
+  "comparison_to_cole": {
+    "Cole": "serial publication distributes one preparation with text/image over time; knowledge accumulates issue by issue.",
+    "Elcock": "Type Slide compresses many named preparations/species into one simultaneously inspectable commercial surface; knowledge is spatialized inside the object.",
+    "shared_mechanism": "Both sell an arrangement of attention as much as a piece of mounted material."
+  },
+  "next": [
+    "Obtain St Andrews label images for the six TYPE SLIDE / OSTRACODA slides.",
+    "Transcribe Whipple Type Slide drawers 9–12 and compare visual format with St Andrews.",
+    "Find the review/catalogue said to accompany Type Slides and establish whether each specimen matrix number maps to a printed list.",
+    "Search advertisements and society reports for Type Slide Nos. 3 onward or named taxonomic-order variants.",
+    "Search surviving collections for exact phrase 'SELECTED BY CHARLES ELCOCK, BELFAST' plus TYPE SLIDE to locate sold/distributed copies."
+  ]
+}
