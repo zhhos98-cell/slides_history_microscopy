@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0-trade-attribution-layers",
+  "generated": "2026-08-10",
+  "title": "Who made, sold, relabelled and collected the slide? Attribution layers in the nineteenth-century slide trade",
+  "research_problem": "A commercial microscope slide can accumulate several names and numbers. Maker/preparator, wholesaler, retailer, later dealer, collector and museum may each leave a label or address. Treating the most visible label as a single 'maker' field destroys transaction history.",
+  "core_rule": "Never collapse maker/preparator, seller/retailer, later relabeller, collector number and current accession into one creator field unless the historical evidence explicitly identifies them as the same actor.",
+  "anchor_case": {
+    "object": "Microphotograph slide, The Planet Mars, two views",
+    "repository": "Whipple Museum of the History of Science",
+    "accession": "6220",
+    "url": "https://collections.whipplemuseum.cam.ac.uk/objects/14938/",
+    "current_catalogue_attribution": {
+      "maker": "Edmund Wheeler [attributed]",
+      "seller": "W. Watson & Sons, 313 High Holborn, London"
+    },
+    "object_layers": [
+      {"layer": "subject/title", "value": "The Planet Mars"},
+      {"layer": "maker mark in microphotograph", "value": "Edmund Wheeler"},
+      {"layer": "retailer label", "value": "W. Watson & Sons, 313 High Holborn, London"},
+      {"layer": "collector mark", "value": "A.S.", "status": "identity unresolved"},
+      {"layer": "collector number", "value": "219", "status": "museum interprets as probably assigned by A.S."},
+      {"layer": "current museum accession", "value": "6220"}
+    ],
+    "catalogue_bridge": "Whipple identifies 'The Planet Mars, two views' in Edmund Wheeler's 1876 seventh-edition classified list.",
+    "historical_chain": "Wheeler product → Watson retail sale → private collector A.S./no.219 → later market purchase → Whipple accession 6220",
+    "grade": "S for observed/current documented layers; exact original transaction date remains open"
+  },
+  "norman_case": {
+    "repository": "University of St Andrews Libraries and Museums — Bell Pettigrew slide collection",
+    "url": "https://collections.st-andrews.ac.uk/group/john-thomas-norman-zoological-microscope-slides/2001954",
+    "documented_trade_structure": [
+      "Norman's only catalogue appeared in 1872 and listed 2,584 mounts without prices.",
+      "Slides carrying the J. T. Norman name continued to be made after Norman's death under the original business name.",
+      "The institution states that Norman supplied well-known mounters including Richard Suter, who may have sold slides under their own labels.",
+      "Microscope makers and suppliers also bought Norman slides and examples with secondary labels survive."
+    ],
+    "research_consequence": "A slide labelled Norman can indicate maker/business identity, while an overlying or secondary supplier label can indicate a distinct retail transaction. The reverse is also possible: a Norman retail label need not prove Norman prepared the specimen if the business resold other material.",
+    "guard": "Do not date a Norman-name slide solely from the founder's lifetime; business-name persistence is explicitly documented."
+  },
+  "buyer_cabinet_implication": {
+    "claim": "Private cabinets should be treated as transaction residues containing heterogeneous maker-retailer histories, not as coherent maker collections unless proven.",
+    "examples": [
+      "Manchester Gibson cabinet: many supplier/maker/locality/date labels within numbered trays.",
+      "Whipple Pritchard-labelled cabinet: commercial slides coexist with homemade and broken preparations.",
+      "Fred Enock personal collection at auction: Enock's own work coexisted with slides by Elcock, Norman, Topping, Watson and others."
+    ]
+  },
+  "recommended_schema": [
+    "object_id",
+    "subject_verbatim",
+    "preparator_or_maker_verbatim",
+    "maker_evidence_type",
+    "business_name_on_label",
+    "wholesaler",
+    "retailer_or_agent",
+    "later_dealer_or_secondary_label",
+    "collector_name_or_mark",
+    "collector_number",
+    "maker_catalogue_title",
+    "maker_catalogue_row_or_wording",
+    "historical_series_number",
+    "cabinet_or_tray_address",
+    "institutional_accession",
+    "modern_database_id",
+    "layer_order_visible_on_object",
+    "evidence_for_each_layer",
+    "uncertainty_note"
+  ],
+  "workflow": [
+    "Photograph/transcribe every label separately and preserve physical layering/order.",
+    "Identify maker/preparator only from maker mark, catalogue match, archival attribution or strong material/label evidence.",
+    "Identify retailer/agent independently from seller labels and addresses.",
+    "Record collector marks/numbers as a separate namespace even when identity is unknown.",
+    "Then search historical maker catalogues using exact subject wording.",
+    "Only after the object layers are established should price/format rows be attached."
+  ],
+  "research_payoff": "The slide trade was not a simple maker-to-buyer line. A single object could pass through manufacture, wholesale/retail relabelling, private re-numbering, resale and museum accession while retaining multiple labels. Those accretions are evidence of circulation rather than cataloguing noise.",
+  "next_primary_source_targets": [
+    {
+      "target": "Edmund Wheeler, A Classified List of First-Class Microscopic Objects, 7th ed., 1876",
+      "purpose": "row-level crosswalk to Whipple surviving Wheeler objects"
+    },
+    {
+      "target": "John Thomas Norman, A Classified List of First-Class Microscopic Objects, 1872",
+      "purpose": "match St Andrews labels before extracting the entire catalogue"
+    },
+    {
+      "target": "James W. Queen & Co. optical/microscopical catalogue, Philadelphia, 1870",
+      "purpose": "test transatlantic retail aggregation of British/European preparers; use as retailer evidence, not maker attribution"
+    },
+    {
+      "target": "Watson & Sons classified lists",
+      "purpose": "separate Watson-prepared material from Watson retail labels on third-party preparations"
+    }
+  ]
+}
