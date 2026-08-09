@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0-surviving-commercial-cabinets",
+  "generated": "2026-08-10",
+  "title": "From price list to drawer: surviving commercial slide sets and cabinets as reverse trade archives",
+  "research_problem": "Trade catalogues describe what makers offered. Surviving cabinets show what buyers actually accumulated, retained, replaced, mixed and relabelled. The strongest research route is therefore bidirectional: catalogue → possible object and surviving label → targeted catalogue row.",
+  "working_claim": "A commercial microscope slide did not cease to be a commodity when purchased. Maker labels, series numbers, subject titles, secondary retailer labels and cabinet position could preserve or rewrite parts of its commercial identity through later private and institutional custody. Mixed cabinets are therefore transaction residues, not merely taxonomic collections.",
+  "cases": [
+    {
+      "case": "Arthur C. Cole — Studies in Microscopical Science Volume I cabinet",
+      "object_state": "near-complete 52-slide private cabinet photographed at Toovey's in 2025; high-resolution full transcription pending",
+      "commercial_or_publication_source": "Cole weekly/fortnightly serial prospectus, bound Volume I, Cole & Son trade advertisements",
+      "addressing": ["issue number", "subject title", "maker/preparer label", "cabinet slot", "index card"],
+      "what_can_be_tested": ["whether all 52 subjects follow issue order", "which slide is the one non-Cole item described by auctioneer", "Martin versus Arthur preparation labels", "relation between serial number and cabinet slot", "replacement history"],
+      "priority": "S"
+    },
+    {
+      "case": "John Thomas Norman — St Andrews Bell Pettigrew collection",
+      "object_state": "surviving Norman-labelled slides dispersed in situ through an institutional slide collection",
+      "commercial_or_publication_source": "Norman's 1872 classified list of 2,584 microscopic objects",
+      "addressing": ["maker label", "subject", "possible secondary retailer label", "current sleeve/pigeon-hole coordinate"],
+      "what_can_be_tested": ["title/subject matches to 1872 catalogue", "survival of catalogue language on labels", "secondary retail relabelling", "whether the catalogue list functioned as an order vocabulary even without printed prices"],
+      "priority": "S"
+    },
+    {
+      "case": "Joseph Bourgogne — Smithsonian boxed set",
+      "object_state": "boxed set of slides inscribed BOURGOGNE",
+      "commercial_or_publication_source": "Bourgogne 1862 catalogue with formats, grades and prices already identified in project bibliography/analysis",
+      "addressing": ["maker inscription", "subject label", "box/set position", "museum accession"],
+      "what_can_be_tested": ["whether catalogue subject names survive verbatim", "whether mount format corresponds to catalogue format categories", "whether label or physical finish encodes quality grade", "whether a set was assembled by Bourgogne, a retailer or later collector"],
+      "priority": "S/A+"
+    },
+    {
+      "case": "A. R. Gibson Victorian cabinet — Manchester",
+      "object_state": "private wooden cabinet now in university museum; University descriptions give numbered trays and label-rich slides",
+      "commercial_or_publication_source": "maker catalogues and advertisements to be selected from label transcription",
+      "addressing": ["tray number", "slide position", "taxon/subject", "supplier label", "locality", "date"],
+      "what_can_be_tested": ["which makers dominate a private cabinet", "local versus London/Liverpool/Southport supply", "whether maker names survive into a mixed private collection", "how dated preparations accumulate over time", "whether specific catalogue rows can be recovered from labels"],
+      "source_conflict": "University of Manchester posts describe 22 trays in 2023 and 25 numbered trays in 2024. Preserve both as dated descriptions until current inventory or tray report resolves the physical state.",
+      "priority": "A+"
+    },
+    {
+      "case": "Pritchard-labelled mixed cabinet — Whipple Museum",
+      "object_state": "1840–1870 mahogany cabinet with three lift-out trays; commercial Pritchard mounts coexist with homemade botanical preparations, broken slides and slide papers",
+      "commercial_or_publication_source": "Pritchard catalogue labels physically survive on a subset of mounts",
+      "addressing": ["printed catalogue-derived label", "tray position", "homemade label/paper", "later museum accession"],
+      "what_can_be_tested": ["how early catalogue identity was attached to glass", "commercial/amateur coexistence", "breakage and replacement", "whether catalogue labels standardized naming before later slide-size standardization"],
+      "priority": "A+"
+    },
+    {
+      "case": "Watson & Sons / Hornell & Sinel — Dundee",
+      "object_state": "published object examples include a Watson & Sons foraminifera arrangement and a numbered series of twenty marine-zoology slides by Hornell & Sinel",
+      "commercial_or_publication_source": "Watson trade catalogues and Hornell & Sinel series/periodical evidence",
+      "addressing": ["maker label", "series number", "subject arrangement", "museum record"],
+      "what_can_be_tested": ["trade versus specialist-series organization", "numbered series completeness", "maker/retailer naming conventions", "crosswalk to UK periodicals and catalogues"],
+      "priority": "A"
+    },
+    {
+      "case": "Science Museum Group mixed-maker cabinet Y2001.223/1",
+      "object_state": "large cabinet of slides by various makers prepared 1867–1900; public JSON/IIIF available",
+      "commercial_or_publication_source": "maker catalogues and advertisements selected after digital label extraction",
+      "addressing": ["maker", "subject", "cabinet assembly", "current object/database ID"],
+      "what_can_be_tested": ["digital-first maker census", "mixed cabinet composition", "maker co-occurrence", "geological versus zoological commercial supply"],
+      "priority": "A"
+    },
+    {
+      "case": "Yale Lentz Microscopy and Histology Collection",
+      "object_state": "large modern historical collection with thousands of slides and a published collector guide",
+      "commercial_or_publication_source": "guide can be reverse-searched against project maker/catalogue list",
+      "addressing": ["collector-guide entry", "maker/series label", "current Yale collection"],
+      "what_can_be_tested": ["locate rare maker sets absent elsewhere", "identify candidate complete series", "route to nineteenth-century catalogues"],
+      "guard": "Modern collecting history means it should be treated as a comparison/discovery pool, not evidence of nineteenth-century co-occurrence or ownership.",
+      "priority": "B+/A discovery pool"
+    }
+  ],
+  "recommended_reverse_workflow": [
+    "1. Photograph/transcribe every visible label before searching catalogues.",
+    "2. Preserve maker label, retailer/secondary label, subject, locality, date and number as separate fields.",
+    "3. Search exact label wording against maker catalogues and advertisements; record zero/one/multiple candidate rows.",
+    "4. Only after a catalogue match, compare physical format, preparation method, price/grade language and series position.",
+    "5. Record cabinet position independently from maker/series number: cabinet order is a later address unless proven original.",
+    "6. Use missing, replaced, broken or foreign-maker slides as evidence of cabinet maintenance rather than silently excluding them.",
+    "7. Distinguish maker, preparer, wholesaler, retailer and collector even when labels collapse them."
+  ],
+  "catalogue_extraction_priority": [
+    {"maker":"John Thomas Norman","source":"1872 classified list","trigger":"surviving St Andrews Norman labels","priority":"S"},
+    {"maker":"Joseph Bourgogne","source":"1862 catalogue","trigger":"Smithsonian boxed set","priority":"S"},
+    {"maker":"Arthur C. Cole / Martin J. Cole","source":"Studies + trade adverts","trigger":"Toovey's near-complete set","priority":"S"},
+    {"maker":"Pritchard","source":"historical catalogue(s)","trigger":"Whipple catalogue-derived labels","priority":"A+"},
+    {"maker":"Watson & Sons","source":"trade catalogues","trigger":"Dundee + project corpus maker events","priority":"A"},
+    {"maker":"Hornell & Sinel","source":"series documentation","trigger":"Dundee numbered marine-zoology set","priority":"A"},
+    {"maker":"Manchester/Liverpool/Southport suppliers from Gibson cabinet","source":"to be chosen after tray transcription","trigger":"label evidence first","priority":"A after transcription"}
+  ],
+  "research_payoff": {
+    "trade_article": "Instead of reconstructing a market solely from catalogues and advertisements, use surviving cabinets to show what commercial identities remained materially attached to purchased slides and how private/institutional storage recomposed makers into new collections.",
+    "valuation_question": "Price and quality categories can be tested against surviving physical formats only where a specific catalogue row or maker-grade system is securely matched.",
+    "circulation_question": "Secondary labels and maker mixtures can reveal retail and resale channels that are invisible in the maker's own catalogue.",
+    "key_guard": "A slide found in a later cabinet proves later co-presence, not a single nineteenth-century purchase event."
+  },
+  "row_schema": ["collection", "cabinet_or_box", "tray_or_slot", "current_object_id", "maker_label_verbatim", "preparer", "retailer_label_verbatim", "subject_label_verbatim", "taxon_normalized", "locality_verbatim", "date_on_slide", "series_number", "catalogue_candidate", "catalogue_row_id", "match_basis", "physical_format", "mounting_features", "grade_or_price_if_explicit", "condition", "replacement_or_mismatch", "source_image", "confidence"]
+}
