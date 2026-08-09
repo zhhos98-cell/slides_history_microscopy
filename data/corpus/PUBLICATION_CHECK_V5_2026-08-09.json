@@ -1,0 +1,21 @@
+{
+  "schema": "microscopy-site-publication-check-v5",
+  "checked": "2026-08-09",
+  "published_compact_counts": {
+    "core_document_entries": 142,
+    "extension_document_entries": 60,
+    "structured_ocr_source_entries": 2,
+    "bna_query_yield_rows": 43,
+    "bna_year_yield_rows": 71,
+    "bna_event_clusters": 930,
+    "bna_newspaper_yield_rows": 995,
+    "research_outputs": 22
+  },
+  "retained_only_in_canonical_masters": {
+    "core_page_records": 49277,
+    "core_occurrences": 50744,
+    "extension_fulltext_characters": 73073904,
+    "bna_article_records_and_raw_ocr_payloads": 9365
+  },
+  "validation": "All current document-level registry entries and BNA derived-result rows are present in the compact publication layer. Bulk page/full-text/article payloads remain in fingerprinted canonical masters. Frozen object membership remains independently asserted at 155 by site.js."
+}
