@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0.0-retrievability-cross-media",
+  "generated": "2026-08-10",
+  "title": "Making Glass Retrievable: cross-media infrastructures of microscope preparations",
+  "research_problem": "The project now contains several cases in which a slide survives but its historical usefulness depends on a second medium: an issue number, catalogue, key, label, cabinet coordinate, station number, card, ledger, plate caption or archive call number. The shared problem is therefore not simply circulation or preservation, but how a fragile microscopic object remains findable in relation to the evidence that made it intelligible.",
+  "first_order_claim": "Microscope slides became durable knowledge objects when institutions and makers built cross-media retrieval systems around them. The glass carries only part of the address. Paper, cabinets, catalogues, labels and later databases preserve or rewrite the rest. A slide can remain physically intact while losing its earlier epistemic identity if the crosswalk disappears.",
+  "cases": [
+    {
+      "case": "Arthur C. Cole",
+      "glass_address": "issue/preparation number",
+      "other_media": ["letterpress", "plate/image", "subscriber cabinet/index"],
+      "retrieval_operation": "find preparation from issue and issue from preparation",
+      "failure_mode": "book enters Library, preparations enter Cabinet; later catalogue can cease preserving the common publication address",
+      "distinctive_point": "physical separation was designed; referential separation is the historical loss"
+    },
+    {
+      "case": "Charles Elcock Type Slides",
+      "glass_address": "Type Slide number/category + internal specimen grid",
+      "other_media": ["microscopic printed names", "manuscript/specimen list", "reported printed catalogue/key", "workshop drawer label"],
+      "retrieval_operation": "locate a named species within a compressed comparative field",
+      "failure_mode": "slide survives but key/list/product identity is detached; posthumous archive dispersal separates tools, notes, samples and cabinets",
+      "distinctive_point": "classification itself becomes a spatial retrieval interface"
+    },
+    {
+      "case": "HMS Challenger",
+      "glass_address": "station/preparation/registration number",
+      "other_media": ["station table", "depth/locality/method record", "Haeckel report", "Murray collection records", "NHM dataset", "CT data"],
+      "retrieval_operation": "move from a preparation back to where/how material was collected and forward to later taxonomic/analytical interpretation",
+      "failure_mode": "physical separation of slide cabinet from sediment; registration/subnumber changes; collecting label can be over-read as complete material description",
+      "distinctive_point": "modern CT can revise the interpretation of the historical address without destroying it"
+    },
+    {
+      "case": "Naples Stazione Zoologica",
+      "glass_address": "catalogue offering number / Station label / possible preparator label",
+      "other_media": ["1880 priced catalogue", "RMS shipment list", "St Andrews storage hierarchy", "future order/dispatch records"],
+      "retrieval_operation": "match a distributed preparation to a standardized institutional offering and transaction",
+      "failure_mode": "maker, Station and later business labels can be conflated; surviving object number may not be original catalogue number",
+      "distinctive_point": "a catalogue address can survive only partially on the physical slide"
+    },
+    {
+      "case": "Balfour",
+      "glass_address": "serial-section position / original collection record",
+      "other_media": ["objective engraving", "plate caption", "publication figure", "microtome description", "collector notebook/catalogue"],
+      "retrieval_operation": "use printed plate captions to date/identify the optics that made a preparation visually legible",
+      "failure_mode": "shared departmental custody tempts false one-to-one assignment of an apparatus to a slide",
+      "distinctive_point": "publication paratext can be an instrument-use register"
+    },
+    {
+      "case": "Harvard Embryological Collection / Minot",
+      "glass_address": "HEC number + section/series position",
+      "other_media": ["original card", "line drawing", "ledger", "publication citation", "current MCZ number"],
+      "retrieval_operation": "preserve old laboratory address while adding current museum/database address",
+      "failure_mode": "recataloguing would sever history if old identifiers/cards were discarded",
+      "distinctive_point": "positive control: modern cataloguing can preserve address succession rather than replace it"
+    },
+    {
+      "case": "Cajal",
+      "glass_address": "original cabinet/tray",
+      "other_media": ["successive inventories", "legacy number", "archival signatura", "digital record"],
+      "retrieval_operation": "make re-addressing itself visible by retaining obsolete and current coordinates together",
+      "failure_mode": "flattening multiple historical identifiers into one accession would erase the administrative history",
+      "distinctive_point": "the catalogue can document address change as evidence"
+    },
+    {
+      "case": "Norman/Wheeler trade",
+      "glass_address": "maker/product wording",
+      "other_media": ["trade catalogue", "retailer label", "collector number", "current accession"],
+      "retrieval_operation": "recover manufacture, retail and private ownership as separate transactions",
+      "failure_mode": "single creator field collapses maker, seller and collector",
+      "distinctive_point": "label accumulation is transaction history, not metadata noise"
+    }
+  ],
+  "comparative_dimensions": [
+    {"dimension":"primary address purpose","values":["publication synchronization","species retrieval","geographic/field provenance","commercial ordering","anatomical sequence","instrument-use documentation","custody"]},
+    {"dimension":"crosswalk medium","values":["index","catalogue","key","letterpress","card","ledger","plate caption","correspondence","database"]},
+    {"dimension":"address transition event","values":["binding","sale","donation","transfer","renumbering","recabinetting","archive accession","digitisation","analytical rescanning"]},
+    {"dimension":"failure","values":["object survives / crosswalk lost","paper survives / object lost","both survive / mapping uncertain","historical label survives / interpretation revised"]}
+  ],
+  "derived_schema": [
+    "object_or_series_id",
+    "address_value_verbatim",
+    "address_namespace",
+    "medium_bearing_address",
+    "assigned_by",
+    "date_or_period",
+    "purpose",
+    "crosswalk_to",
+    "crosswalk_source",
+    "transition_event",
+    "next_address",
+    "relation_preserved",
+    "relation_lost_or_revised",
+    "confidence"
+  ],
+  "writing_payoff": {
+    "cole_article": "Keep retrievability implicit and concrete: issue numbers and cabinet numbers matter because they bind glass to print. Do not turn the article into a general theory of metadata.",
+    "elcock_article_or_section": "Use the Type Slide as an interface: species classification becomes a printed/spatial finding system on the object itself.",
+    "global_slides_project": "Use retrievability as the common comparative variable across unlike institutions rather than claiming a single global slide culture.",
+    "database": "Store address succession and crosswalk evidence as derived data. Never normalize old numbers away."
+  },
+  "strongest_sentence": "The historical survival of a microscope slide is not only the survival of glass. It is the survival, translation, or reconstruction of an address between glass and other records."
+}
