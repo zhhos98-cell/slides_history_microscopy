@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0-global-archive-priority",
+  "generated": "2026-08-10",
+  "purpose": "Turn the public source registry into an executable research router. Priority is based on the probability that an archive can close an existing object-text-circulation question, not on collection size or institutional prestige.",
+  "priority_rules": [
+    "Prefer holdings where slides and documentary apparatus coexist.",
+    "Prefer a named historical actor, series, cabinet, catalogue, subscription, or transaction over an aggregate collection description.",
+    "Prefer archives that can close an already identified corpus event or surviving-object node.",
+    "Treat current custody, maker attribution, historical ownership, publication, subscription, donation, transfer and later cataloguing as separate relations.",
+    "Do not convert repository aggregate counts into nineteenth-century slide totals.",
+    "A contextual route becomes direct only when a slide-specific archival bridge is demonstrated."
+  ],
+  "tier_1_close_now": [
+    {
+      "target": "History of Science Museum, Oxford — RMS Archive + RMS slide cabinet",
+      "research_question": "Can nineteenth-century RMS donation, exhibition and receipt notices in the corpus be connected to institutional acquisition records and surviving slides?",
+      "existing_corpus_bridge": ["JRMS donation and exhibition records", "maker names and series already extracted", "RMS cabinet surviving endpoint"],
+      "documents_to_seek": ["accession registers", "cabinet catalogues", "donation correspondence", "committee/minute references to slide acquisitions", "old slide indexes", "transfer/deposit documentation"],
+      "object_fields_to_capture": ["maker", "label text", "slide number", "cabinet/tray coordinate", "subject/taxon", "donor", "date", "old number", "current accession"],
+      "expected_payoff": "Potential text → institutional record → surviving object closure at item or series level.",
+      "priority": "S"
+    },
+    {
+      "target": "Quekett Microscopical Club archive and slide collection",
+      "research_question": "Can Cole's Studies in Microscopical Science preparations be reconnected to issue numbers after the Library/Cabinet split?",
+      "existing_corpus_bridge": ["1883 Quekett report: completed volume in Library", "1883 report: accompanying specimens possessed by subscription in Cabinet", "Cole Volume I issue matrix", "2025 surviving 52-slide set comparator"],
+      "documents_to_seek": ["slide cabinet catalogue", "subscription register", "accession/donation book", "labels and tray numbers", "annual report working papers"],
+      "object_fields_to_capture": ["Cole label", "issue/slide number", "subject", "cabinet address", "retailer label", "replacement status"],
+      "expected_payoff": "Direct test of referential binding and institutional re-addressing.",
+      "priority": "S"
+    },
+    {
+      "target": "Whipple Museum — Charles Elcock archive",
+      "research_question": "What did the working ecology of a professional nineteenth-century slide preparer look like from raw specimen through tools, stain, mounting, label and cabinet?",
+      "existing_corpus_bridge": ["Belfast and UK periodical corpus", "professional mounter/trade bibliography", "maker and circulation research question"],
+      "documents_to_seek": ["manuscript or printed labels", "price lists", "ephemera", "packets and specimen notes", "tool associations", "cabinet order"],
+      "object_fields_to_capture": ["raw material", "mounting medium", "stain", "tool", "label template", "subject", "finished slide", "storage coordinate"],
+      "expected_payoff": "Workshop-level chain rather than biography; strong material-practice section or standalone case.",
+      "priority": "S"
+    },
+    {
+      "target": "Stazione Zoologica Anton Dohrn Historical Archives",
+      "research_question": "Can the 1880 preparation catalogue and the June 1880 RMS twelve-slide shipment be connected to internal preparation-department records, correspondence or accounts?",
+      "existing_corpus_bridge": ["423-offering Naples catalogue", "RMS twelve-slide shipment", "nine exact/strong catalogue matches", "A. W. Waters intermediary"],
+      "documents_to_seek": ["preparation department accounts", "order books", "outgoing correspondence", "copybooks", "shipment registers", "price-list drafts", "Waters correspondence"],
+      "object_fields_to_capture": ["catalogue number", "quantity", "price", "recipient", "date", "shipping method", "preparer", "specimen source"],
+      "expected_payoff": "Could move Naples from catalogue ↔ exhibition closure to transaction-level circulation history.",
+      "priority": "S"
+    }
+  ],
+  "tier_2_build_comparators": [
+    {
+      "target": "MNHN Histothèque — Van Tieghem core collection",
+      "research_question": "How did botanical preparations function when the slide itself could remain the only surviving visual documentation of published research?",
+      "comparison_to": "Cole text-image-object synchronization",
+      "documents_to_seek": ["historical slide registers", "teaching catalogues", "Van Tieghem laboratory records", "publication cross-references", "drawer/box inventories"],
+      "expected_payoff": "A different relation between publication and slide: slide as surviving evidential image rather than distributed edition component.",
+      "priority": "A+"
+    },
+    {
+      "target": "NHM Vienna — Albert Grunow diatom collection",
+      "research_question": "How did sample numbers coordinate raw material, slides, catalogues, drawings, annotated books and published images?",
+      "comparison_to": "Cole issue number and Croydon cabinet address",
+      "documents_to_seek": ["worked-sample catalogue", "drawings", "annotated books", "slide labels", "sample containers"],
+      "expected_payoff": "Comparative indexing ecology: sample number as cross-media address.",
+      "priority": "A+"
+    },
+    {
+      "target": "Harvard Farlow diatom slide series and manuscript catalogues",
+      "research_question": "How did numbered commercial/scientific slide series remain navigable across cards, manuscript catalogues, boxes and physical slides?",
+      "comparison_to": "Cole synchronized serial; Tempère-Peragallo numbered publication series",
+      "documents_to_seek": ["Bailey manuscript catalogue", "Kitton 1–100", "Eulenstein editions", "H. L. Smith 1–750 cards and trays", "Terry correspondence"],
+      "expected_payoff": "Multiple series in one repository permit controlled comparison of numbering and collection afterlife.",
+      "priority": "A+"
+    },
+    {
+      "target": "McGill — Natural History Society of Montreal / Montreal Microscopical Society",
+      "research_question": "How were slide exchange, acquisition, display and cataloguing organized in a North American microscopical society?",
+      "comparison_to": "Quekett and Postal/UK club infrastructures",
+      "documents_to_seek": ["1884–1906 microscopical society minutes", "catalogues", "account books", "donation lists", "correspondence"],
+      "expected_payoff": "A geographically independent society comparator with unusually complete institutional records.",
+      "priority": "A+"
+    },
+    {
+      "target": "McGill — Frank Dawson Adams Fonds",
+      "research_question": "How were petrographic thin sections embedded in experiment records, apparatus, photographs and rock-deformation research?",
+      "comparison_to": "Sorby and Cole petrological preparations",
+      "documents_to_seek": ["thin-section labels", "notebooks", "equipment notes", "experimental photographs", "mineral/sample cross-references"],
+      "expected_payoff": "Instrument/section/experiment chain for petrographic microscopy beyond commercial slide culture.",
+      "priority": "A"
+    }
+  ],
+  "tier_3_global_extension": [
+    {
+      "target": "University of Padua — Giovanni Canestrini arachnological slides",
+      "question": "Can maker/contributor labels and type revision recover exchange among Canestrini and other European arachnologists?",
+      "priority": "A"
+    },
+    {
+      "target": "MNHN micropalaeontology collection and archives",
+      "question": "Can raw sediment, isolated specimen, type slide, drawing and field note be followed as one evidential transformation chain?",
+      "priority": "A"
+    },
+    {
+      "target": "Smithsonian — Conger/Thomas Christian Richmond research files",
+      "question": "Which nineteenth-century American slide makers, exchanges and society events can be recovered by reversing Conger's later historical reconstruction back into contemporary sources?",
+      "priority": "A"
+    },
+    {
+      "target": "National Museum of Nature and Science, Japan — microalgae herbarium",
+      "question": "Which named subcollections preserve historical slide + sketch/photographic-plate/database crosswalks, and do any reach the nineteenth-century Japanese preparation trade found in the bibliography?",
+      "priority": "B+ until historical subcollection closure"
+    },
+    {
+      "target": "Te Papa — Natural History stores + Te Papa Archives",
+      "question": "Can Colonial Museum/Hector records be connected to present slide holdings or nineteenth-century microscopy acquisition routes?",
+      "priority": "B+ until named slide-series bridge"
+    }
+  ],
+  "recommended_next_actions": [
+    "Do not broaden the source registry merely for geographic symmetry; add repositories when they expose a recoverable documentary apparatus.",
+    "Start archive-level extraction with Oxford RMS and Quekett because the current corpus already supplies transaction/event anchors.",
+    "Use Elcock as the first maker-workshop case because tools, materials, labels, unfinished specimens and finished slides survive together.",
+    "Use Grunow/Farlow/MNHN as controlled comparators for different numbering and indexing systems after the Cole article architecture is stable.",
+    "For each archive visit or enquiry, request old catalogues/registers and current cabinet/tray crosswalks before requesting broad digitisation."
+  ]
+}
