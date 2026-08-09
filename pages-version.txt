@@ -1,0 +1,3 @@
+Microscope Slides GitHub Pages
+Built from the frozen 155-node catalogue and slide_155 corpus-expansion state.
+Initial Pages launch: 2026-08-09.
