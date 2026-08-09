@@ -1,0 +1,75 @@
+{
+  "schema_version": "4.0.0-elcock-archive-dispersal",
+  "generated": "2026-08-10",
+  "title": "Charles Elcock after the workshop: Challenger samples, correspondence, family descent, and archival dispersal",
+  "builds_on": "data/analysis/elcock_type_slide_genealogy_and_challenger_v3.json",
+  "core_result": "The Elcock case now has a documentary bridge to Challenger material and a recoverable posthumous dispersal problem. St Andrews preserves two 1884 Elcock letters to D'Arcy Thompson whose catalogue explicitly notes references to Challenger expedition samples. Whipple independently states that Challenger, Porcupine and Knight Errant material survives among Elcock's retained slides. A 1910 Belfast obituary states that Challenger Deep-Sea Dredging Expedition samples were forwarded to Elcock for examination. Meanwhile, Elcock-related working material has appeared in at least three distinct modern channels: the Whipple acquisition in 2015, a manuscript/sample archive sold by Forum Auctions in 2020, and a Challenger-soundings cabinet sold by Flints in 2024. These records should be treated as potentially related residues of a once larger family/workshop archive, not automatically as one provenance chain.",
+  "challenger_documentary_bridges": [
+    {
+      "repository": "University of St Andrews Libraries and Museums",
+      "collection": "Papers of D'Arcy Wentworth Thompson",
+      "call_number": "ms21974-ms21975",
+      "date": "6–8 March 1884",
+      "url": "https://collections.st-andrews.ac.uk/item/darcy-wentworth-thompson-letters/2055455",
+      "description": "Two autograph letters from Charles Elcock, Belfast, plus a rubbing. The catalogue says the natural-history discussion includes Irish specimens and references to Challenger expedition samples.",
+      "research_use": "This is the first named archival correspondence route connecting Elcock personally to Challenger samples. The letters should be requested before relying on later family/auction narratives, because they may identify sample type, sender, station/locality or the scientific purpose of the material.",
+      "grade": "S for archive description; content specifics await images/transcription"
+    },
+    {
+      "repository": "Whipple Museum of the History of Science",
+      "accession": "Wh.6601",
+      "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15311/",
+      "description": "Whipple states that Elcock's retained slide archive includes specimens supplied from Challenger, Porcupine and Knight Errant surveys, alongside Irish material.",
+      "research_use": "Provides physical endpoint for expedition-derived microscopic material in Elcock's workshop/reference collection.",
+      "grade": "S at collection level"
+    },
+    {
+      "source": "Belfast Municipal Art Gallery and Museum, Quarterly Notes, no. XVI, June 1910, obituary of Charles Elcock",
+      "catalogue_route": "https://sources.nli.ie/Record/PS_UR_029310",
+      "description": "The obituary states that Elcock was known for selection, mounting and identification of Foraminifera and that samples from the Challenger Deep-Sea Dredging Expedition were forwarded to him for examination.",
+      "research_use": "Near-contemporary institutional retrospective supporting a direct scientific role for Elcock with Challenger-derived material.",
+      "grade": "A+/S when original Quarterly Notes text is inspected directly; bibliographic holding is verified"
+    }
+  ],
+  "posthumous_dispersal_nodes": [
+    {
+      "node": "Whipple acquisition",
+      "date": "2015",
+      "current_repository": "Whipple Museum",
+      "source": "Whipple object record Wh.6601",
+      "provenance": "Purchased from Christie's Private Sales on or before 14 August 2015 with PRISM grant-in-aid. Whipple says the material is believed to represent remaining slides/materials in Elcock's possession at death, then passed through family descent and eventually a private dealer.",
+      "contents": "617-part archive including cabinets, Foraminifera slides, Type Slide drawers, tools/materials, books, lists/notes, images and ephemera.",
+      "status": "institutionally preserved"
+    },
+    {
+      "node": "Forum Auctions archive",
+      "date": "25 September 2020",
+      "source_url": "https://www.forumauctions.co.uk/71097/Microscope-Slide-Maker.-Elcock-Charles-naturalist-museum-curator-and-professional-microscope-slide-maker-amp-Charles-Ernest-Elcock-architect-of-hospitals-Archive-including-58-collection-of-marin?auction_no=1064&view=lot_detail",
+      "sale": "Lot 67; hammer £1,500",
+      "contents": "Marine and sand samples from Ireland and elsewhere, glass slides, manuscript notes, an offprint of Elcock's rare-foraminifera paper with associated notes/drawing, photographs, rubbings, later family manuscripts and correspondence. Named samples in the auction description include Gorumna Island, Planorbulina Mediterraneanensis, West Indies material and Richmond Earth.",
+      "status": "private-market endpoint after sale; current custody unknown",
+      "guard": "Mixed Charles Elcock and later Charles Ernest/family material; do not assign every item to Charles Elcock's working lifetime."
+    },
+    {
+      "node": "Flints Challenger cabinet",
+      "date": "9 October 2024",
+      "source_url": "https://www.flintsauctions.com/auction/lot/lot-249---an-important-microscope-slide-cabinet-of-hms-challenger-soundings-owned-by-charles-elcock/?lot=34175&sd=1",
+      "sale": "Lot 249; sold £3,375 including buyer's premium",
+      "contents": "Mahogany cabinet with an Elcock-family label, finished slides, a slide described as Challenger-derived, hand-blown bottles/vials described as Challenger soundings with date/depth/locality labels, eight drawers of blank diatom slides and mounting equipment.",
+      "status": "private-market endpoint after sale; current custody unknown",
+      "guard": "Auctioneer's attribution and station/chart claims require label-level testing against official Challenger data."
+    }
+  ],
+  "provenance_model": {
+    "wrong_model": "Elcock archive → one continuous collection → three modern sales/repos",
+    "supported_model": "Elcock/family/workshop material experienced posthumous dispersal. Several surviving clusters preserve overlapping media and family/workshop associations, but a common original cabinet/archive identity between clusters must be proven item by item.",
+    "research_question": "Which relations survived dispersal because they were written on labels, cabinet drawers, lists, correspondence or family notes, and which relations disappeared when objects entered separate market/institutional channels?"
+  },
+  "priority_document_requests": [
+    "St Andrews ms21974-ms21975 images/transcription, because the catalogue explicitly names Challenger samples and dates the exchange to 1884.",
+    "Whipple 6601.10 specimen-list sheet and Type Slide drawers 9–12.",
+    "Flints high-resolution Challenger bottle/slide labels for station-level testing.",
+    "If practicable, Forum Auctions archive images/catalogue PDF to identify marks or labels that could link any 2020 item to Whipple/Flints family storage history."
+  ],
+  "research_payoff": "Elcock is no longer only a maker/market case. It is also a collection-history case in which expedition material, commercial classification, correspondence, workshop reference objects and posthumous family dispersal can be followed across changing documentary containers. This gives the project a concrete example of how object survival and relation survival diverge after a scientific workshop ceases to exist."
+}
