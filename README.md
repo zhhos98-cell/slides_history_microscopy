@@ -1,100 +1,146 @@
-# Blachka_corpus
+# Nineteenth-Century Microscope Slides
 
-Working repository for the Blaschka project and the nineteenth-century microscope-slide backend experiments. This branch, `slide-survey-actions-pilot`, is the frozen microscope-slide survey branch; the Blaschka research log remains separate.
+Standalone research repository for the global nineteenth-century microscope-slide survey, its surviving-object/provenance catalogue, derived analytical layers, and object-to-text corpus expansion work.
 
-## Nineteenth-century microscope-slide survey — frozen 2026-08-09
+This repository was separated on 2026-08-09 from the former `slide-survey-actions-pilot` branch of `zhhos98-cell/Blachka_corpus`. From this migration onward, **this repository and its `main` branch are the canonical home of the microscope-slide project**. The Blaschka project is not part of this repository.
+
+## Frozen global survey — 2026-08-09
 
 - Status: **CLOSED_2026-08-09**.
 - Spatial scope: global.
-- Historical scope: **1800-1899**.
+- Historical scope: **1800–1899**.
 - Frozen canonical discovery layer: **307 unique collection/subcollection/batch/database entries**.
 - Frozen strict nineteenth-century layer: **155 entries**.
-- Strict data batches: `07K`-`07AQ`.
+- Strict data batches: `07K`–`07AQ`.
 - `07AR` is closure/audit metadata only and adds no discovery rows.
-- Raw modular ledger immediately before closure canonicalisation: **328 rows**. The difference is explained by 20 superseded alias IDs plus one repeated Hubrecht `entry_id`; Pieter Harting remains in discovery but is `POSSIBLE_19C`, outside the strict 155.
+- Raw modular ledger immediately before closure canonicalisation: **328 rows**.
+- The raw-to-canonical difference is explained by 20 superseded alias IDs plus one repeated Hubrecht `entry_id` occurrence.
+- Pieter Harting remains in discovery as `POSSIBLE_19C` and is outside the strict 155.
 
-The human-readable closure audit is `data/survey/07AR_CLOSURE_AUDIT_2026-08-09.md`. The machine-readable alias map is `data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json`; the final closure manifest is `data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json`.
+The human-readable closure audit is `data/survey/07AR_CLOSURE_AUDIT_2026-08-09.md`. The machine-readable alias map is `data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json`; the closure manifest is `data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json`; final catalogue QC is recorded in `data/survey/07AR_FINAL_QC_2026-08-09.md`.
 
-New discoveries after this point belong to a later reopening/version. They should not silently extend this frozen directory state.
+**New discoveries do not silently extend this frozen version.** Any substantive addition to the census requires an explicit reopening/new version.
 
-### Frozen membership is now executable
+### Executable frozen membership
 
-The closure count is no longer reconstructed from the heuristic `CORE_19C` classifier. `scripts/build_frozen_strict_membership.py` rebuilds the active set directly from the frozen 07K-07AQ strict batches and applies the 07AR closure rules: twenty superseded distinct-ID aliases are removed, the repeated identical Hubrecht entry is collapsed, and the explicit Harting demotion is applied. The script asserts the full closure arithmetic `177 -> 155` and writes `data/normalized/scope_19c_active_ids.json` for downstream use.
+`scripts/build_frozen_strict_membership.py` reconstructs membership directly from the frozen `07K`–`07AQ` strict batches and applies the `07AR` closure rules. It removes twenty superseded distinct-ID aliases, collapses the repeated same-ID Hubrecht occurrence, applies the Harting demotion, asserts the closure arithmetic `177 → 155`, and writes the downstream active-ID set.
 
-`scripts/audit_19c_scope.py` still runs over the complete discovery layer because its diagnostic labels are useful for review. Its heuristic `CORE_19C` count is **diagnostic only** and cannot enlarge the frozen census. `scripts/apply_19c_scope.py` filters against the closure-derived 155 active IDs.
+`scripts/audit_19c_scope.py` remains useful as a diagnostic classifier over the larger discovery layer. Its heuristic `CORE_19C` output is **diagnostic only** and cannot enlarge the frozen census. `scripts/apply_19c_scope.py` uses the closure-derived 155 active IDs.
 
-## Method
+## Research method
 
-The survey works backwards from surviving microscope slides, preparations, cases, cabinets, numbered sets and current collection records. The event corpus can work forwards from catalogues, journals, archives, correspondence and institutional documentation. The two sides are intended to cross-check preparation, collection, sale, exchange, gift, lending, transfer, use, exhibition, damage, relabelling, recataloguing and current custody.
+The survey works backwards from surviving microscope slides, preparations, sets, cases, cabinets, numbered series, institutional records and current collection catalogues. The textual/event corpus works forwards from journals, catalogues, archives, correspondence, advertisements, society proceedings and institutional documentation. The two sides are designed to meet at explicit historical relations.
 
-Core rule: **current museum custody is not historical ownership**. Preserve source relationships such as `prepared by`, `mounted by`, `collected by`, `assembled by`, `used by`, `sent to`, `received by`, `exchanged by`, `presented to`, `donated by`, `purchased by`, `sold by`, `distributed by`, `lent by`, `transferred from`, `from the collection of`, `belonging to`, `held by`, `catalogued by`, `digitised by`, `inscribed`, `labelled by`, `part of`, and `from the period of` as distinct claims when the source distinguishes them.
+Core rule: **current museum custody is not historical ownership**. Preserve source relations such as `prepared by`, `mounted by`, `collected by`, `assembled by`, `used by`, `sent to`, `received by`, `exchanged by`, `presented to`, `donated by`, `purchased by`, `sold by`, `distributed by`, `lent by`, `transferred from`, `from the collection of`, `belonging to`, `held by`, `catalogued by`, `digitised by`, `labelled/inscribed by`, `part of`, and `from the period of` as distinct claims whenever the source distinguishes them.
 
-Quantity namespaces also remain separate. Slide count, microscopic-preparation count, specimen count, serial-set position, historical inventory state, current surviving total, box/tray/drawer count, cabinet capacity, sample/catalogue/accession number, database row, image count and mixed-period aggregate are not interchangeable. Register-number endpoints are never subtracted to manufacture a slide count, and present totals are never projected backward without source evidence.
+Quantity namespaces also remain separate. A slide count, microscopic-preparation count, specimen count, serial-set position, historical inventory state, current surviving total, box/tray/drawer count, cabinet capacity, catalogue/accession/register number, database row, image count and mixed-period aggregate are not interchangeable. Serial endpoints and register ranges are never converted into physical-slide totals without explicit evidence.
 
-## Architecture
+## Repository structure
 
-- `data/survey/07A_Global_Microscope_Slide_Collections_Survey.csv`: canonical runtime survey input.
-- `data/survey/07B_*` onward: modular discovery and strict expansion batches retained as an audit trail.
-- `data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json`: frozen cross-batch duplicate-alias map.
-- `data/survey/scope_19c_overrides.json`: conservative temporal/medium overrides, including the Harting held-out disposition.
-- `data/survey/site_adapters.json` plus expansion files: institution/site-specific metadata adapters.
-- `data/survey/harvest_families_v1.json` plus expansion files: shared extraction contracts.
-- `data/survey/institution_harvest_profiles.json`: institution profiles plus automatic fallback profiles.
-- `data/evidence/targeted_deep_4/`: normalised evidence and residual checklist from the final targeted harvest pass. It is an enrichment layer and does not reopen the census.
-- `data/analysis/slide_155_analysis_v1/`: read-only derived analytical classifications over the frozen 155.
-- `data/analysis/slide_155_corpus_expansion_v1/`: object-to-text routing, verified bridges, bounded primary-source targets and catalogue/circulation crosswalks.
-- `docs/19C_SCOPE_RULES.md`: nineteenth-century scope rule.
-- `scripts/prepare_survey_inputs.py`: merges modular inputs, skips 07AR superseded aliases, and collapses repeated `entry_id`s.
-- `scripts/build_frozen_strict_membership.py`: reconstructs and count-checks the immutable 155-entry closure membership.
-- `scripts/validate_survey.py`: validates schema, adapters, media-risk language and provenance relationships.
-- `scripts/audit_19c_scope.py`: diagnostic classification of `CORE_19C`, `POSSIBLE_19C`, `MODERN_COMPARATOR` and `OUT_OF_SCOPE`; it no longer defines frozen membership.
-- `scripts/apply_19c_scope.py`: restricts active processing to the closure-derived 155.
-- `scripts/build_harvest_batches.py`: groups active entries by harvest family.
-- `scripts/harvest_catalogue.py`: dry-run-first collection-page metadata harvester.
-- `scripts/build_institution_matrix.py`: converts the strict survey into an institution-level GitHub Actions matrix.
-- `scripts/harvest_institution.py`: bounded institution-specific metadata harvester for HTML, JSON/JSON-LD, metadata links and small PDFs.
-- `scripts/aggregate_institution_harvest.py`: combines per-institution outputs into one downloadable bundle index.
+### Survey and closure
 
-The crawler layer is deliberately not universal. Known sites get small adapters and recurring systems share harvest families. The workflow does not bulk-download specimen images or bypass login, paywalls, anti-bot systems, robots restrictions or access controls. PDFs larger than the configured small-file threshold are skipped whole rather than stored as corrupt partial files.
+- `data/survey/07A_Global_Microscope_Slide_Collections_Survey.csv` — canonical runtime survey input.
+- `data/survey/07B_*` onward — modular discovery/expansion batches retained as the audit trail.
+- `data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json` — frozen duplicate-alias map.
+- `data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json` — closure arithmetic and frozen counts.
+- `data/survey/07AR_FINAL_QC_2026-08-09.md` — final sealed-catalogue QC.
+- `data/survey/scope_19c_overrides.json` — conservative temporal/medium overrides.
+- `data/survey/site_adapters*.json` — site-specific extraction adapters.
+- `data/survey/harvest_families*.json` — shared extraction contracts.
+- `data/survey/institution_harvest_profiles.json` — institution/fallback harvest profiles.
+
+### Evidence and analysis
+
+- `data/evidence/targeted_deep_4/` — final targeted-harvest evidence normalization and manual residuals; enrichment only, never census reopening.
+- `data/analysis/slide_155_analysis_v1/` — read-only analytical classification layer over the 155 surviving-object/provenance nodes.
+- `data/analysis/slide_155_corpus_expansion_v1/` — object-to-text routing, verified bridges, source targets, Naples catalogue parsing, and circulation crosswalks.
+
+### Documentation and scripts
+
+- `docs/19C_SCOPE_RULES.md` — nineteenth-century scope rules.
+- `docs/SLIDE_SURVEY_PRIORITY_RULES.md` — survey/priority rules.
+- `scripts/prepare_survey_inputs.py` — merges modular inputs while applying frozen alias handling.
+- `scripts/build_frozen_strict_membership.py` — rebuilds and asserts the immutable 155-entry membership.
+- `scripts/export_frozen_catalogue.py` — exports the sealed 155-row catalogue and manifest.
+- `scripts/build_slide_analysis_layer.py` — builds the derived analysis layer.
+- `scripts/validate_survey.py` — validates survey schema and evidential language.
+- `scripts/audit_19c_scope.py` — diagnostic temporal/medium classifier.
+- `scripts/apply_19c_scope.py` — restricts runtime processing to the frozen membership.
+- `scripts/build_harvest_batches.py` — builds nineteenth-century harvest batches.
+- `scripts/build_institution_matrix.py` — builds institution-level Actions matrices.
+- `scripts/harvest_catalogue.py` — bounded catalogue metadata harvesting.
+- `scripts/harvest_institution.py` / `scripts/harvest_targeted.py` / `scripts/harvest_targeted_institution.py` — institution and targeted adapters.
+- `scripts/aggregate_institution_harvest.py` — combines per-institution outputs.
+- `scripts/normalize_targeted_deep_artifact.py` — normalizes the final targeted-deep artifact.
 
 ## Harvesting status
 
-The automatic reconnaissance/enumeration phase is complete. Four manual workflow runs were used to test, broaden and finally target the high-value public catalogues. Run #4 (`31287016342`) was the final `targeted-deep` pass. Its overall GitHub conclusion is `cancelled` because the Sorbonne job was interrupted, but the combined artifact was produced for seven completed institutions. The useful output is normalised under `data/evidence/targeted_deep_4/`; the partial Sorbonne raw artifact is intentionally ignored.
+General reconnaissance/enumeration is complete for the frozen version. Four manual workflow runs tested and narrowed the public-metadata harvesting strategy. Run #4 (`31287016342`) was the final `targeted-deep` pass in the predecessor repository. Its overall GitHub conclusion was `cancelled` because the Sorbonne branch was interrupted, while the combined artifact was successfully produced for seven completed institutions. The useful normalized evidence is retained under `data/evidence/targeted_deep_4/`; the partial Sorbonne output is intentionally ignored.
 
-The final targeted pass yielded particularly strong machine-readable evidence at Copenhagen (510 unique SNM slide identifiers after de-duplicating repeated species rows), Farlow/Cheever (3,363 public position rows with 3,362 unique box/slide tokens, retained as mixed-period position evidence), and the St Andrews Bell-Pettigrew hierarchy. ANSP Symbiota results are retained only as a review pool because a nominal `pre-1900` query demonstrably returned later material, including 1938 Preston Smith records.
+High-value structured evidence includes Copenhagen's 510 unique SNM slide identifiers, the Farlow/Cheever position tables, and the St Andrews hierarchy. ANSP Symbiota output is retained as a review pool because its nominal pre-1900 filtering returned later material. No further general-purpose crawling is recommended for the closed version.
 
-No further general-purpose Actions harvesting is recommended for this closed version. Remaining edge cases are listed in `data/evidence/targeted_deep_4/MANUAL_RESIDUALS.md` and should be handled manually when a specific research use justifies the effort.
+## Derived 155 analysis layer
 
-## Derived analysis and corpus expansion — 2026-08-09
+The frozen catalogue is treated as a **read-only object/provenance corpus**. Analytical fields live in a separate layer and never rewrite the source wording or frozen membership.
 
-The frozen 155 catalogue is now treated as a **read-only object/provenance corpus**. New analytical fields and textual links live only in derived layers and do not reopen the 307/155 census.
+The first derived layer classifies nodes by unit level, production period, subject cluster, institutional/commercial context, circulation mode, count namespace and historical actor role. It is intended to support comparative research without pretending that single slides, bounded sets, cabinets, named collections and mixed-period institutional layers are commensurable counts.
 
-`data/analysis/slide_155_analysis_v1/` classifies the 155 nodes by unit level, production period, subject cluster, institutional/commercial context, circulation mode, count namespace and historical actor role. The purpose is analytical grouping without rewriting source wording or quantity semantics.
+## Object-to-text corpus expansion
 
-`data/analysis/slide_155_corpus_expansion_v1/` uses surviving-object nodes to route expansion of the existing UK microscopy corpus. Initial object-to-text work has already closed bounded maker, trade, exchange and publication relations for Eulenstein, Charles Collins Jr., H. L. Smith, Kitton and the Stazione Zoologica Napoli/Fritz Meyer programme.
+`data/analysis/slide_155_corpus_expansion_v1/` uses the surviving-object corpus to decide what textual material is worth reading or adding next. Early bounded verification produced object↔text bridges for Theodor Eulenstein, Charles Collins Jr., Hamilton Lanphere Smith, Frederic Kitton, and the Stazione Zoologica Napoli / Fritz Meyer preparation programme.
 
-### Naples catalogue case
+The working principle is bidirectional:
 
-The Naples microscope-slide price catalogue in *Mittheilungen aus der Zoologischen Station zu Neapel*, Bd. II, is signed **Neapel, August 1880**. Its numbered list contains **423 historical catalogue offerings**. This is an offering count, not a surviving-slide total. The uploaded primary text has been parsed at row level; 148 prices are securely row-aligned and 275 remain unresolved because OCR detached or reordered price columns.
+- **text → object**: a historical source records manufacture, sale, exchange, use, gift, transfer or exhibition; surviving objects are sought;
+- **object → text**: a surviving node supplies actors, dates, series names, taxa or relations that generate bounded textual searches.
 
-The bounded UK circulation crosswalk now records **eleven distinct object/specimen circulation or exhibition events**, plus separate catalogue-reception and method-circulation evidence. It distinguishes finished-slide circulation, preserved/biological specimen circulation, specimen circulation followed by local British remanufacture, and circulation of preparation methods. Generic source phrases such as `preserved specimens` and `Marine Objects` are retained without silently recoding them as slides.
+Positive OCR/name matches are routing signals only until the actual historical context is read.
 
-A reverse taxon/preparation pass produced the first item-level catalogue-to-Britain closure. The **9 June 1880 Royal Microscopical Society** record first notes `Zoological Station of Naples—12 slides`, sent through A. W. Waters and exhibited under microscopes (`R24204`, p. 733); a later record in the same issue lists all twelve physical slides (`R24207`, p. 736). Comparison with the 423-offering catalogue yields **nine exact/strong item matches** — nos. `42, 43, 67, 68, 71, 72, 86, 182, 186` — and three bounded matches: `5|6`, `43-49`, and `231|232`.
+## Naples 1880 catalogue module
 
-The detailed mapping is `data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv`.
+The Naples microscope-slide price catalogue in *Mittheilungen aus der Zoologischen Station zu Neapel*, Bd. II, is signed **Neapel, August 1880**. Its numbered list contains **423 historical catalogue offerings**. `423` is an offering count, not a surviving-slide total.
 
-This closes `catalogue offering -> named British physical slide shipment/exhibition` for nine items. It does **not** establish `catalogue -> Britain -> surviving St Andrews slide` identity. The surviving-object relation remains `NOT_ASSERTED` unless an independent object-level source closes it.
+The uploaded primary text was parsed at row level. Historical major-group counts are Protozoa 4, Coelenterata 33, Echinodermata 49, Vermes 33, Arthropoda 57, `Mollusca` in the source classification 54, and Vertebrata 193. Price extraction remains deliberately partial: 148 row prices are securely aligned and 275 remain unresolved where OCR detached or reordered table columns.
 
-A source correction was made during the bounded follow-up. The *Field* notice of **24 February 1883** describes Bell exhibiting a selection of Naples microscopical preparations at the **Zoological Society**. It is separate from the **14 March 1883 Royal Microscopical Society** meeting, where Bell explained **nineteen slides** received from Naples (`R27785`, p. 318; `R27787`, p. 320). Shared actor and provenance do not prove the same physical preparations appeared at both events.
+The catalogue establishes Fritz Meyer as director/organizer of the preparation department. It does **not** establish that he personally prepared every one of the 423 offerings.
 
-The same bounded pass added two further events: T. Bolton's **11 November 1884 Birmingham** exhibition of `preserved specimens from the zoological stations at Naples`, and C. Baker's **May 1886 RMS** exhibition of `Marine Objects from Zoological Station, Naples`. Neither is promoted to slide status without source evidence.
+### Naples → Britain circulation
 
-A compact dated research log is maintained at `data/analysis/slide_155_corpus_expansion_v1/PROGRESS_LOG_2026-08-09.md`.
+The bounded UK crosswalk currently records **eleven distinct object/specimen circulation or exhibition events**, plus separate catalogue-reception and method-circulation evidence. It distinguishes finished-slide circulation, preserved/biological specimen circulation, British remanufacture of Naples specimens, and circulation of preparation methods.
 
-## Closure notes
+A reverse taxon/preparation pass produced the first item-level catalogue-to-Britain closure. For the **9 June 1880 Royal Microscopical Society** shipment:
 
-The 07AR audit identified twenty distinct-ID rediscoveries of already catalogued physical nodes and one repeated Hubrecht entry with the same ID. These are canonicalised rather than counted twice. Parent-child structures, distributed institutional copies, bounded subseries and separate custody nodes remain distinct where they represent different physical objects or evidentiary relations.
+- `R24204`, JRMS p. 733 records `Zoological Station of Naples—12 slides`, sent through A. W. Waters and exhibited under microscopes;
+- `R24207`, JRMS p. 736 lists the twelve physical slides individually.
 
-Held-out closure decisions are recorded in the audit. Pieter Harting remains a discovery node but is excluded from strict because the current public UMU source does not close the surviving preparations specifically as glass microscope slides. Walther Flemming is excluded because the relevant Kiel institutional history reports the anatomical preparations lost in 1944. KCL's generic historical slide lead remains unresolved, while the named Dawes cabinets are twentieth-century. Perroncito remains held out because date and histological-preparation claims are not yet closed onto the same surviving objects.
+Comparison with the 423 offerings yields **nine exact/strong item matches**: `42, 43, 67, 68, 71, 72, 86, 182, 186`.
 
-The 07AR freeze itself was recorded before a fresh final CI run existed. Later harvesting runs validate the operational tooling on subsequent heads, but they do not retroactively change the closure manifest's contemporaneous statement or the frozen 307/155 counts.
+Three further slides remain bounded: `5|6`, `43–49`, and `231|232`.
+
+The row-level mapping is `data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv`.
+
+This is a defensible `catalogue offering → named British physical slide shipment/exhibition` closure. It does **not** establish that any of those 1880 RMS slides is the same physical object as a surviving St Andrews slide. That third identity point remains `NOT_ASSERTED`.
+
+The same audit separates the February 1883 Zoological Society Bell event from the 14 March 1883 RMS nineteen-slide event, and preserves later source language such as `preserved specimens` and `Marine Objects` without silently converting it into slide status.
+
+A compact research log is maintained at `data/analysis/slide_155_corpus_expansion_v1/PROGRESS_LOG_2026-08-09.md`.
+
+## GitHub Actions
+
+The standalone repository keeps Actions as reproducible infrastructure, not as a mandate for further crawling:
+
+- `slide-survey` — validation/planning over the frozen survey.
+- `slide-export-frozen-catalogue` — reproduces the sealed 155-entry catalogue and membership audit.
+- `slide-institution-harvest` — bounded institution metadata harvesting retained for explicit future research uses.
+
+All workflows operate on this repository's `main` branch. They no longer depend on the predecessor repository or the former `slide-survey-actions-pilot` branch.
+
+## Closure discipline
+
+The `07AR` audit identified twenty distinct-ID rediscoveries of already catalogued nodes and one same-ID repeated Hubrecht occurrence. These are canonicalized rather than counted twice. Parent/child structures, distributed copies, bounded subseries and separate custody nodes remain distinct where they represent different physical or evidentiary relations.
+
+Held-out cases remain held out unless a later version explicitly reopens them. Pieter Harting remains discovery-only; Walther Flemming is excluded because the relevant Kiel preparations were reported lost in 1944; KCL's generic historical-slide lead remains unresolved; the named Dawes cabinets are twentieth-century; Perroncito remains unclosed at object level.
+
+The frozen state is therefore:
+
+**307 discovery nodes / 155 strict nineteenth-century nodes — CLOSED_2026-08-09.**
