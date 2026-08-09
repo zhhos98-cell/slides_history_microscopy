@@ -1,48 +1,13 @@
 {
-  "version": "slide-locked-pass-09",
+  "version": "slide-locked-pass-10",
   "date": "2026-08-10",
-  "total_entries": 89,
-  "research": 63,
-  "primary": 26,
+  "total_entries": 94,
+  "research": 65,
+  "primary": 29,
   "publication_languages": 10,
-  "chunks": [
-    "bibliography-01.csv",
-    "bibliography-02.csv",
-    "bibliography-03.csv",
-    "bibliography-04.csv",
-    "bibliography-05.csv",
-    "bibliography-06.csv",
-    "bibliography-07.csv",
-    "bibliography-08.csv",
-    "bibliography-09.csv",
-    "bibliography-10.csv",
-    "bibliography-11.csv"
-  ],
-  "schema_fields": [
-    "id",
-    "year",
-    "section",
-    "authors",
-    "title",
-    "citation",
-    "type",
-    "language",
-    "tags",
-    "note",
-    "verification",
-    "links"
-  ],
-  "runtime_exports": [
-    "csv",
-    "tsv",
-    "json",
-    "csl-json",
-    "bibtex",
-    "ris"
-  ],
-  "export_scopes": [
-    "all",
-    "filtered"
-  ],
+  "chunks": ["bibliography-01.csv","bibliography-02.csv","bibliography-03.csv","bibliography-04.csv","bibliography-05.csv","bibliography-06.csv","bibliography-07.csv","bibliography-08.csv","bibliography-09.csv","bibliography-10.csv","bibliography-11.csv","bibliography-12.csv"],
+  "schema_fields": ["id","year","section","authors","title","citation","type","language","tags","note","verification","links"],
+  "runtime_exports": ["csv","tsv","json","csl-json","bibtex","ris"],
+  "export_scopes": ["all","filtered"],
   "export_note": "Portable exports are generated in the browser from the same CSV rows used to render the bibliography. CSL JSON, BibTeX and RIS retain the formatted citation and project note; DOI and stable URLs are extracted from the links field where present."
 }
