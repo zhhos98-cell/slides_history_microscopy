@@ -13,13 +13,15 @@ The frozen surviving-object catalogue remains independently reconstructed in the
 
 ## Backend corpus publication layer
 
-`data/corpus/CORPUS_MANIFEST_V4.json` describes a compact site-facing index over the seven canonical microscopy masters. It publishes every document-level entry from the six textual masters: 142 core bibliographic/document entries, 60 extension document entries, and 2 structured-OCR source entries. It also publishes all 43 BNA query-yield rows, all 71 BNA year-yield rows, and the current research-output ledger.
+`data/corpus/CORPUS_MANIFEST_V5.json` describes the compact site-facing layer over the seven canonical microscopy masters. It publishes every document-level entry from the six textual masters: 142 core bibliographic/document entries, 60 extension document entries, and 2 structured-OCR source entries. It also publishes all current compact BNA derived results: all 43 query-yield rows, all 71 year-yield rows, all 930 event clusters, and all 995 newspaper-yield rows. `data/corpus/BNA_DERIVED_INDEX_V5.json` maps the complete event-cluster and newspaper tables.
 
-The following high-volume layers remain in the canonical masters and are not duplicated into Pages: 49,277 core page-text records / 50,744 occurrences; 73,073,904 extension full-text characters; structured-OCR data arrays; and 9,365 article-level BNA record payloads/raw OCR. The manifest records counts for the BNA article layer, 930 event clusters, and 995 newspaper-yield rows, together with byte sizes and SHA-256 hashes for all seven masters.
+The event-cluster export preserves cluster ID, type, record count, representative BNA record ID, and exceptional clustering basis; repeated standard clustering/review prose is stored once per chunk. Newspaper-yield rows preserve newspaper title and A/B/C/X grade counts.
+
+The following high-volume layers remain in the canonical masters rather than being duplicated into Pages: 49,277 core page-text records / 50,744 occurrences; 73,073,904 extension full-text characters; structured-OCR page arrays; and 9,365 article-level BNA record payloads/raw OCR. The manifest preserves their counts together with byte sizes and SHA-256 hashes for all seven masters.
 
 ## Research outputs
 
-The site indexes closure/audit materials, the derived 155 analytical layer, object-to-text bridge tables, open source targets, Naples catalogue/circulation crosswalks, targeted-harvest evidence, and dated progress logs. These outputs are linked to their repository files rather than copied into prose-only web summaries.
+The site/repository publication layer indexes closure/audit materials, the derived 155 analytical layer, object-to-text bridge tables, open source targets, Naples catalogue/circulation crosswalks, targeted-harvest evidence, and dated progress logs. These outputs are linked to their repository files rather than copied into prose-only web summaries.
 
 ## Editing rule
 
