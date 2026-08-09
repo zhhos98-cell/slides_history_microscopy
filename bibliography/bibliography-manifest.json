@@ -1,8 +1,8 @@
 {
-  "version": "slide-locked-pass-03",
+  "version": "slide-locked-pass-04",
   "date": "2026-08-09",
-  "total_entries": 40,
-  "research": 33,
+  "total_entries": 45,
+  "research": 38,
   "primary": 7,
   "publication_languages": 6,
   "chunks": [
@@ -10,7 +10,8 @@
     "bibliography-02.csv",
     "bibliography-03.csv",
     "bibliography-04.csv",
-    "bibliography-05.csv"
+    "bibliography-05.csv",
+    "bibliography-06.csv"
   ],
   "schema_fields": [
     "id",
