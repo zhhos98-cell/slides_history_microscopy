@@ -4,7 +4,8 @@
   "chunks": [
     "source-registry.json",
     "source-registry-02.json",
-    "source-registry-03.json"
+    "source-registry-03.json",
+    "source-registry-04.json"
   ],
   "fields": [
     "id",
