@@ -6,7 +6,8 @@
     "source-registry-02.json",
     "source-registry-03.json",
     "source-registry-04.json",
-    "source-registry-05.json"
+    "source-registry-05.json",
+    "source-registry-06.json"
   ],
   "fields": [
     "id",
