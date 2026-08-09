@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Microscope Slides in Motion — source and archive registry supplement 05",
+  "records": [
+    {
+      "id": "AR-MLP-FICOLOGIA-DIATOMS",
+      "region": "Latin America",
+      "country": "Argentina",
+      "city": "La Plata",
+      "institution": "Museo de La Plata, Universidad Nacional de La Plata — División Ficología",
+      "collection": "Diatom collections including Möller and Tempère & Peragallo series",
+      "type": "historical slide collection + associated material",
+      "relation": "direct",
+      "date_scope": "late nineteenth century–present holdings",
+      "holdings": "The División Ficología preserves permanent microscopic preparations within a broader microalgal collection. Its named historical holdings include collections by Möller and by Tempère & Peragallo, described by the Museum as dating from the late nineteenth and early twentieth centuries. The division also preserves Joaquín Frenguelli's diatom collection of 2,435 microscope slides with associated material.",
+      "research_use": "This is a direct surviving endpoint for the numbered diatom-series comparator sought for the Cole publication case. It opens an object-level route into Möller and Tempère & Peragallo labels, numbering, locality/provenance information, series completeness, storage order, and later museum recataloguing.",
+      "access": "Research through the Museo de La Plata División Ficología; institutional collection pages and digital collection infrastructure are online.",
+      "url": "https://www.museo.fcnym.unlp.edu.ar/div_ficologia",
+      "secondary_url": "https://colecciones.mlp.fcnym.unlp.edu.ar/",
+      "tags": ["La Plata", "Tempère", "Peragallo", "Möller", "diatoms", "numbered series", "Argentina"]
+    },
+    {
+      "id": "AR-MLP-HISTORICAL-ARCHIVE",
+      "region": "Latin America",
+      "country": "Argentina",
+      "city": "La Plata",
+      "institution": "Museo de La Plata, Universidad Nacional de La Plata",
+      "collection": "Archivo Histórico del Museo de La Plata",
+      "type": "institutional archive + correspondence + scientific manuscripts",
+      "relation": "direct",
+      "date_scope": "Museum records from 1884; principal correspondence 1884–1970",
+      "holdings": "The Historical Archive preserves documentation produced by the Museo de La Plata from its creation in 1884. Core holdings include incoming and outgoing correspondence of the Museum Directorate and Secretariat from 1884 to 1970, administrative documentation, scientific-department records, and manuscript collections including Joaquín Frenguelli papers.",
+      "research_use": "Institutional counterpart to the surviving Möller, Tempère & Peragallo and Frenguelli slide collections. Potential routes include acquisition, exchange, donation, cataloguing, departmental custody, correspondence with overseas diatomists, and later reorganisation of historical slide series.",
+      "access": "Archive contact and institutional description are online; image/document use follows Museo de La Plata archive procedures.",
+      "url": "https://archivos.unlp.edu.ar/index.php/archivo-historico-del-museo-de-la-plata",
+      "tags": ["La Plata", "museum archive", "correspondence", "Frenguelli", "exchange", "cataloguing", "Argentina"]
+    },
+    {
+      "id": "ZA-IZIKO-ENTOMOLOGY-SLIDES",
+      "region": "Africa",
+      "country": "South Africa",
+      "city": "Cape Town",
+      "institution": "Iziko South African Museum",
+      "collection": "Entomology collections including microscope-slide holdings",
+      "type": "museum slide collection + historical entomology collection",
+      "relation": "contextual",
+      "date_scope": "historical collection roots in the nineteenth century; aggregate slide holdings include later material",
+      "holdings": "Iziko describes an entomology collection with nineteenth-century roots and 5,644 microscope slides within a much larger insect and arachnid collection. The oldest entomology material includes specimens collected in the 1850s and 1860s, while the stated microscope-slide total is an aggregate across later collection development.",
+      "research_use": "African route for identifying named historical subcollections, maker/preparer labels, type material and collection transfers. Nineteenth-century slide identity must be established by subcollection and label rather than inferred from the aggregate slide count.",
+      "access": "Research enquiries through Iziko Natural History collections; the Natural History Library supports collection-based research and document delivery.",
+      "url": "https://www.iziko.org.za/collection/entomology/",
+      "secondary_url": "https://www.iziko.org.za/libraries/natural-history-library/",
+      "tags": ["Cape Town", "South Africa", "entomology", "microscope slides", "historical collections", "Africa"]
+    },
+    {
+      "id": "ZA-UCT-BOLUS-ARCHIVE",
+      "region": "Africa",
+      "country": "South Africa",
+      "city": "Cape Town",
+      "institution": "University of Cape Town — Special Collections / Bolus Herbarium",
+      "collection": "Harry Bolus Papers and Bolus Herbarium documentary collections",
+      "type": "botanical archive + herbarium documentation",
+      "relation": "contextual",
+      "date_scope": "1859–1968 for Bolus papers; herbarium established 1865",
+      "holdings": "UCT archival descriptions identify Harry Bolus's personal papers and correspondence, Bolus Herbarium records, botanical drawings, plant lists and collecting registers. The Bolus Herbarium was established in 1865 and preserves important historical Cape botanical collections and library resources.",
+      "research_use": "A nineteenth-century southern-African botanical network route for testing whether microscopy, preparation exchange, slide supply or European correspondence can be connected to herbarium practice. It remains contextual until a microscope-slide or preparation-specific bridge is found.",
+      "access": "Archival finding aids through UCT AtoM and research access through UCT Special Collections/Bolus Herbarium.",
+      "url": "https://atom.lib.uct.ac.za/index.php/botany",
+      "secondary_url": "https://humanities.uct.ac.za/cca/projects-archive-and-curatorship-arc-visual-university/bolus-herbarium-and-library",
+      "tags": ["Cape Town", "Bolus", "botany", "correspondence", "collecting registers", "South Africa"]
+    }
+  ]
+}
