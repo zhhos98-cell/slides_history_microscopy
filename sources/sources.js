@@ -1,5 +1,5 @@
 const sourceState={records:[],filtered:[]};
-const sourceFiles=['source-registry.json','source-registry-02.json'];
+const sourceFiles=['source-registry.json','source-registry-02.json','source-registry-03.json'];
 
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);}
 function words(r){return [r.institution,r.collection,r.country,r.city,r.type,r.relation,r.date_scope,r.holdings,r.research_use,(r.tags||[]).join(' ')].join(' ').toLowerCase();}
