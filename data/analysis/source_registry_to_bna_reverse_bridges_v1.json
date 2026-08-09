@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0-source-registry-bna-bridges",
+  "generated": "2026-08-10",
+  "title": "Archive targets in public circulation: reverse bridges through the British Newspaper Archive corpus",
+  "method": "New source-registry actors were searched against the canonical BNA master. Only records that add a public event, transaction, exhibition, gift, prize, or circulation state were retained. Newspaper OCR is treated as a routing layer and should be image-checked before verbatim quotation in publication.",
+  "bridges": [
+    {
+      "actor": "Charles Elcock",
+      "archive_target": "Whipple Museum, Wh.6601",
+      "events": [
+        {
+          "record_id": "BNA-214057ccb22c8d9f",
+          "date": "1880-04-17",
+          "newspaper": "Belfast Morning News",
+          "event": "Belfast Naturalists' Field Club award notice gives prize No. 14 to Charles Elcock for a set of twenty-five microscopic slides.",
+          "significance": "A bounded 25-slide set is publicly recognized before the 1885 Type Slide advertisements and in the same Belfast milieu from which Elcock's professional trade developed."
+        },
+        {
+          "record_id": "BNA-4dcfc89cfdab8a0f",
+          "date": "1880-04-24",
+          "newspaper": "Northern Whig",
+          "event": "Independent newspaper repetition of the Field Club prize for Elcock's set of twenty-five microscopic slides.",
+          "significance": "Corroborates the award wording and date; use as duplicate confirmation rather than a second event."
+        },
+        {
+          "record_id": "BNA-54408a8f8539ca40",
+          "date": "1880-11-18",
+          "newspaper": "Northern Whig",
+          "event": "A report groups Elcock's microscopic preparations with other Belfast natural-history work as examples of thorough scientific work.",
+          "significance": "Shows local public/scientific reputation of the preparations in the year Whipple's later account identifies as the period in which his slides began to be sold through agents."
+        }
+      ],
+      "new_chain": "local prize set (25 slides) → public scientific reputation → postal-society object/note circulation → standardized Type Slides → priced multi-city retail → surviving labelled Type Slide drawers",
+      "priority": "S+"
+    },
+    {
+      "actor": "John Thomas Norman",
+      "archive_target": "St Andrews Norman-labelled slides + Norman 1872 catalogue",
+      "events": [
+        {
+          "record_ids": ["BNA-c104425f73dfb4c9", "BNA-61abc03e1b7c0367"],
+          "date": "1862-05/06",
+          "newspapers": ["Illustrated Berwick Journal", "Codnor Park and Ironville Telegraph"],
+          "event": "A repeated item titled 'Microscopic Varieties' describes Mr. Norman showing a large series of microscopic slides containing minute sections and preparations across a very wide range of animal and vegetable objects.",
+          "significance": "Public exhibition/display precedes Norman's 1872 classified catalogue. The commercial preparer's range was already being presented as a comprehensive series of microscopic objects rather than isolated curiosities."
+        }
+      ],
+      "related_corpus": [
+        "R44412 (1872 Science-Gossip exchange: 'Norman's prepared microscopical slides and others')",
+        "R47680 (1875 Monthly Microscopical Journal: Norman-mounted diatoms used to test an objective)"
+      ],
+      "new_chain": "public range/display → classified commercial catalogue → secondary exchange → optical test use → surviving institutional slides",
+      "priority": "S"
+    },
+    {
+      "actor": "Andrew Pritchard",
+      "archive_target": "Whipple mixed cabinet with Pritchard catalogue-derived labels",
+      "events": [
+        {
+          "record_ids": ["BNA-d97217da146f2862", "BNA-9b994b4a86810adc", "BNA-06082c46f6e2d12f"],
+          "date": "1862-06-05/07",
+          "newspapers": ["Newcastle Journal", "Gateshead Observer", "Newcastle Guardian and Tyne Mercury"],
+          "event": "Reports thank Andrew Pritchard for presents of microscopic slides together with books and plates to a northern microscopical/natural-history context.",
+          "significance": "Pritchard's material and print objects circulated together as gifts long after his early commercial catalogue work. This is a useful public counterpart to the Whipple cabinet where catalogue-derived labels remain attached to slides."
+        }
+      ],
+      "related_corpus": [
+        "R43685 (1876 Science-Gossip retrospective cites Pritchard's 1837 catalogue and mounted-object prices)"
+      ],
+      "new_chain": "early catalogue/price system → labelled commercial slides → gifts of slides + books + plates → later mixed cabinet survival",
+      "priority": "A+"
+    }
+  ],
+  "method_result": "The newspaper corpus is most useful after a named surviving archive is known. Instead of broad searches for 'microscope slides', the archive supplies an actor/product identity and BNA returns dated public states—prize, display, gift, sale, auction or reputation—that can be inserted between workshop/catalogue evidence and current custody.",
+  "guard": "Repeated newspaper notices may be syndicated or copied versions of one event. They corroborate wording/geography but are not counted as separate circulation events without independent event evidence."
+}
