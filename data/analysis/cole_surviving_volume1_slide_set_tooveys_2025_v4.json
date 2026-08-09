@@ -1,0 +1,181 @@
+{
+  "schema_version": "4.0.0-cole-surviving-v1-set",
+  "generated": "2026-08-10",
+  "title": "A Surviving Material Volume: the 2025 Toovey's Arthur Cole slide set and the dual-archive architecture of Studies in Microscopical Science",
+  "status": "high-confidence identification from auction catalogue plus visual crosswalk; original subscriber provenance and original-case status remain open",
+  "builds_on": [
+    "data/analysis/slide_as_publication_cole_deep_v2.json",
+    "data/analysis/cole_publication_afterlife_delta_v3.json"
+  ],
+  "principal_discovery": {
+    "summary": "A Toovey's auction lot sold on 24 July 2025 contains 51 Arthur Cole 'Paris 1867 prize medal' slides plus one additional slide, in a mahogany case with numbered sections and a top-tray index card. Auction photographs show the first numbered positions occupied by the same subjects, in the same order, as Volume I of Studies in Microscopical Science: Yellow Fibro-Cartilage, Copper Beech, Human Bone, Umbrella Plant, Human Skin, Pikrite, Cat Spinal Cord, Bracken Fern, Human Liver, and Fucus vesiculosus. The conjunction of 52 total slides, numbered storage, index, and exact opening sequence makes this a near-certain surviving Volume I slide set.",
+    "confidence": "A++ / near-S identification of the set as Studies Volume I; A+ that the mahogany case itself is the publisher-supplied cabinet described in 1882",
+    "why_it_matters": "The project no longer has to infer the material counterpart of the bound volume only from text. A near-complete or complete cabinet-set survived into the twenty-first-century antiquarian market."
+  },
+  "auction_record": {
+    "auction_house": "Toovey's",
+    "sale_date": "2025-07-24",
+    "department": "Cameras and Scientific Instruments",
+    "lot": 1204,
+    "url": "https://www.tooveys.com/lots/601412/a-collection-of-fifty-one-victorian-paris-1867-prize-medal-microscope-slides-by-arthur-cole/",
+    "catalogue_description": "A collection of fifty-one Victorian Paris 1867 prize medal microscope slides by Arthur Cole, each with paper label, the majority numbered and with 'Cole Deum' crest, together with one other slide, contained within a mahogany case, the twelve removable trays with numbered sections, the top tray with index card.",
+    "hammer_price_gbp": 160,
+    "image_urls_observed": [
+      "https://www.tooveys.com/lots/601412/1204.jpg",
+      "https://www.tooveys.com/lots/601412/1204-1.jpg"
+    ],
+    "source_status": "auction catalogue and photographs; buyer identity unavailable in public record"
+  },
+  "visual_crosswalk_opening_tray": [
+    {
+      "slot": 1,
+      "studies_issue": 1,
+      "studies_subject": "Yellow Fibro-Cartilage, longitudinal vertical section of pinna of ear of cow",
+      "auction_photo_reading": "YELLOW FIBRO-CARTILAGE",
+      "match": "exact diagnostic subject",
+      "confidence": "high"
+    },
+    {
+      "slot": 2,
+      "studies_issue": 2,
+      "studies_subject": "Copper Beech, transverse section of dicotyledonous stem",
+      "auction_photo_reading": "COPPER BEECH",
+      "match": "exact diagnostic subject",
+      "confidence": "high"
+    },
+    {
+      "slot": 3,
+      "studies_issue": 3,
+      "studies_subject": "Human Bone, transverse section of compact tissue",
+      "auction_photo_reading": "handwritten/partly legible human-bone label in the No. 3 position",
+      "match": "sequence-consistent",
+      "confidence": "medium-high"
+    },
+    {
+      "slot": 4,
+      "studies_issue": 4,
+      "studies_subject": "Umbrella Plant, transverse section of monocotyledonous stem",
+      "auction_photo_reading": "UMBRELLA PLANT",
+      "match": "exact diagnostic subject",
+      "confidence": "high"
+    },
+    {
+      "slot": 5,
+      "studies_issue": 5,
+      "studies_subject": "Human Skin, vertical section of sole of foot",
+      "auction_photo_reading": "HUMAN SKIN / sole-foot wording visible",
+      "match": "exact/near-exact",
+      "confidence": "high"
+    },
+    {
+      "slot": 6,
+      "studies_issue": 6,
+      "studies_subject": "Pikrite, Inchcolm, Firth of Forth",
+      "auction_photo_reading": "Pikrite / Inchcolm wording visible in No. 6 position",
+      "match": "diagnostic petrological subject and locality",
+      "confidence": "high"
+    },
+    {
+      "slot": 7,
+      "studies_issue": 7,
+      "studies_subject": "Cat Spinal Cord, dorsal region",
+      "auction_photo_reading": "spinal-cord / cat wording visible in No. 7 position",
+      "match": "sequence-consistent exact subject",
+      "confidence": "high"
+    },
+    {
+      "slot": 8,
+      "studies_issue": 8,
+      "studies_subject": "Bracken Fern, transverse section of rachis",
+      "auction_photo_reading": "BRACKEN FERN / rachis wording visible",
+      "match": "exact diagnostic subject",
+      "confidence": "high"
+    },
+    {
+      "slot": 9,
+      "studies_issue": 9,
+      "studies_subject": "Human Liver, vertical section",
+      "auction_photo_reading": "HUMAN LIVER",
+      "match": "exact diagnostic subject",
+      "confidence": "high"
+    },
+    {
+      "slot": 10,
+      "studies_issue": 10,
+      "studies_subject": "Fucus vesiculosus, transverse section of thallus",
+      "auction_photo_reading": "FUCUS VESICULOSUS / T.S. thallus wording visible",
+      "match": "exact diagnostic subject",
+      "confidence": "high"
+    }
+  ],
+  "primary_1882_design_evidence": {
+    "source": "Journal of the Royal Microscopical Society contemporary notice/prospectus, 1882",
+    "textual_facts": [
+      "The drawings and letterpress were to be uniform in size.",
+      "A preface and index would be added.",
+      "A suitable case would be supplied at the end of each year in which the separate paper numbers could be bound.",
+      "Small cabinets would also be supplied to contain the preparations.",
+      "The preparations would be numbered and arranged so that any object could be readily found by referring to the letterpress, and vice versa."
+    ],
+    "interpretation": "Cole designed two coordinated end-of-year storage forms from the beginning: a bound paper sequence and an indexed cabinet sequence. Their unity depended on shared numbering and cross-reference, not on permanent physical attachment."
+  },
+  "thesis_upgrade": {
+    "previous": "trade commodity -> published preparation -> institutional re-addressing -> selective recombination",
+    "revised": "trade commodity -> synchronized serial issue -> paired paper/object archive -> institutional re-addressing -> selective recombination",
+    "strongest_concept": "referential binding",
+    "definition": "The print and glass components could occupy separate containers while remaining one publication because a common numbering/indexing system made each component a retrieval key for the other.",
+    "key_sentence_1": "Cole's publication was physically divided but referentially bound.",
+    "key_sentence_2": "Paper was bound as a volume; glass was bound by an index.",
+    "key_sentence_3": "The publication's unity was therefore produced by cross-reference as much as by co-presence.",
+    "institutional_consequence": "Quekett's later Library/Cabinet split did not create physical separation from nothing. It institutionalized a dual-container architecture already anticipated by the serial, while risking the loss of the crosswalk that had made the two containers one publication."
+  },
+  "comparison_with_croydon_1890": {
+    "cole_original_address": "issue/slide number, fixed to serial sequence and cross-referenced to letterpress",
+    "croydon_address": "letter + number cabinet coordinate, deliberately mutable to permit insertion and withdrawal of spoiled slides",
+    "transformation": "The same kind of object moved from a publication index designed to preserve issue relations to a collection index designed to maintain an evolving cabinet.",
+    "best_sentence": "What changed in the afterlife was less the physical separateness of book and slide than the indexing regime that related them."
+  },
+  "bibliographic_implication": {
+    "claim": "A conventional catalogue record for the bound book captures only one of two publisher-designed archival outcomes.",
+    "why": "The 1882 prospectus explicitly anticipates a paper case/binding and a numbered slide cabinet. The 2025 auction provides a surviving material analogue of the second outcome.",
+    "research_payoff": "This makes the case directly relevant to bibliography and book history: the problem is not simply that an unusual book once came with objects, but that the publication was designed to persist in two differently housed yet mutually indexed material forms."
+  },
+  "new_object_level_questions": [
+    "Which one of the 52 slides in the 2025 lot was catalogued as the 'one other slide' rather than as Arthur Cole?",
+    "Does that slide correspond to a known issue made by Martin J. Cole or to a later replacement?",
+    "Do all surviving lower labels preserve issue numbers 1-52?",
+    "Does the index card list the two interleaved tracks separately, and does it preserve the 26 histological versus botanical/petrological architecture?",
+    "Is the mahogany cabinet demonstrably one of the 'small cabinets' promised to subscribers in the 1882 prospectus?",
+    "Are there maker, retailer, cabinet-maker or subscriber marks on the case, trays or reverse of index card?",
+    "Can Toovey's forward a research enquiry to the 2025 buyer without disclosing buyer identity?"
+  ],
+  "next_actions": [
+    {
+      "priority": 1,
+      "action": "Obtain/archive all seven Toovey's lot photographs at full resolution and transcribe every visible slide label, tray number and index-card entry.",
+      "expected_payoff": "Can build a full 1-52 surviving-object crosswalk and identify the non-Arthur-Cole slide."
+    },
+    {
+      "priority": 2,
+      "action": "Contact Toovey's with a research-only request asking whether they can forward correspondence to the purchaser of Lot 1204, 24 July 2025.",
+      "expected_payoff": "Could secure current-owner photographs of all 52 slides, index card, case construction and provenance marks without requesting personal data."
+    },
+    {
+      "priority": 3,
+      "action": "Compare the auction cabinet's construction and index layout with any surviving publisher advertisements, price lists, or other complete Studies sets.",
+      "expected_payoff": "Can promote original-subscriber-cabinet identification from A+ to S."
+    },
+    {
+      "priority": 4,
+      "action": "Use the complete set as the baseline for Croydon and Quekett re-addressing crosswalks.",
+      "expected_payoff": "Distinguishes original serial labels from later institutional shelf/cabinet identifiers."
+    }
+  ],
+  "guards": [
+    "The Toovey's catalogue does not itself call the lot Studies in Microscopical Science. Identification rests on the 52-object count, numbered/indexed cabinet, and the photographed sequence matching Studies issue subjects.",
+    "Do not call the mahogany case original publisher-supplied until construction, labels, provenance or comparison with another subscriber cabinet confirms it.",
+    "Do not assume the 'one other slide' is a replacement; it may reflect cataloguer attribution limits or a legitimate contribution by another preparer.",
+    "Do not infer a private buyer's identity from auction records. A research enquiry should ask the auction house to forward correspondence.",
+    "Do not revise the 53-plate/52-issue No. 6a hypothesis from this slide count: the publication could have 53 printed plates and 52 distributed preparations."
+  ]
+}
