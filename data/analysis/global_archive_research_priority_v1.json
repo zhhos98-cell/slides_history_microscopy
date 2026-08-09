@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0-global-archive-priority",
+  "schema_version": "1.1.0-global-archive-priority",
   "generated": "2026-08-10",
   "purpose": "Turn the public source registry into an executable research router. Priority is based on the probability that an archive can close an existing object-text-circulation question, not on collection size or institutional prestige.",
   "priority_rules": [
@@ -23,8 +23,8 @@
     {
       "target": "Quekett Microscopical Club archive and slide collection",
       "research_question": "Can Cole's Studies in Microscopical Science preparations be reconnected to issue numbers after the Library/Cabinet split?",
-      "existing_corpus_bridge": ["1883 Quekett report: completed volume in Library", "1883 report: accompanying specimens possessed by subscription in Cabinet", "Cole Volume I issue matrix", "2025 surviving 52-slide set comparator"],
-      "documents_to_seek": ["slide cabinet catalogue", "subscription register", "accession/donation book", "labels and tray numbers", "annual report working papers"],
+      "existing_corpus_bridge": ["1883 Quekett report: completed volume in Library", "1883 report: accompanying specimens possessed by subscription in Cabinet", "Cole Volume I issue matrix", "2025 surviving 52-slide set comparator", "Quekett archive label transcriptions and tray photographs"],
+      "documents_to_seek": ["slide database/Excel transcription", "subscription register", "accession/donation book", "labels and tray numbers", "annual report working papers"],
       "object_fields_to_capture": ["Cole label", "issue/slide number", "subject", "cabinet address", "retailer label", "replacement status"],
       "expected_payoff": "Direct test of referential binding and institutional re-addressing.",
       "priority": "S"
@@ -45,6 +45,15 @@
       "documents_to_seek": ["preparation department accounts", "order books", "outgoing correspondence", "copybooks", "shipment registers", "price-list drafts", "Waters correspondence"],
       "object_fields_to_capture": ["catalogue number", "quantity", "price", "recipient", "date", "shipping method", "preparer", "specimen source"],
       "expected_payoff": "Could move Naples from catalogue ↔ exhibition closure to transaction-level circulation history.",
+      "priority": "S"
+    },
+    {
+      "target": "Museo de La Plata — División Ficología + Archivo Histórico",
+      "research_question": "Can the surviving Tempère & Peragallo and Möller diatom series be reconnected to their nineteenth-century numbering, acquisition/exchange history and documentary apparatus?",
+      "existing_corpus_bridge": ["Tempère & Peragallo selected as Cole comparator", "Möller trade/catalogue evidence", "Museo de La Plata explicitly preserves both named collections", "Historical Archive preserves Museum correspondence from 1884 onward"],
+      "documents_to_seek": ["slide labels and numbering", "series catalogues", "acquisition registers", "incoming/outgoing correspondence", "exchange records", "old departmental inventories", "Frenguelli annotations or later recataloguing records"],
+      "object_fields_to_capture": ["series number", "taxon", "locality", "maker/preparer", "publisher/dealer", "old museum number", "current collection number", "acquisition date", "correspondent"],
+      "expected_payoff": "A surviving object + numbered-series + institutional-archive comparator to Cole in one repository; potentially the cleanest way to test a second model of slide publication.",
       "priority": "S"
     }
   ],
@@ -91,35 +100,18 @@
     }
   ],
   "tier_3_global_extension": [
-    {
-      "target": "University of Padua — Giovanni Canestrini arachnological slides",
-      "question": "Can maker/contributor labels and type revision recover exchange among Canestrini and other European arachnologists?",
-      "priority": "A"
-    },
-    {
-      "target": "MNHN micropalaeontology collection and archives",
-      "question": "Can raw sediment, isolated specimen, type slide, drawing and field note be followed as one evidential transformation chain?",
-      "priority": "A"
-    },
-    {
-      "target": "Smithsonian — Conger/Thomas Christian Richmond research files",
-      "question": "Which nineteenth-century American slide makers, exchanges and society events can be recovered by reversing Conger's later historical reconstruction back into contemporary sources?",
-      "priority": "A"
-    },
-    {
-      "target": "National Museum of Nature and Science, Japan — microalgae herbarium",
-      "question": "Which named subcollections preserve historical slide + sketch/photographic-plate/database crosswalks, and do any reach the nineteenth-century Japanese preparation trade found in the bibliography?",
-      "priority": "B+ until historical subcollection closure"
-    },
-    {
-      "target": "Te Papa — Natural History stores + Te Papa Archives",
-      "question": "Can Colonial Museum/Hector records be connected to present slide holdings or nineteenth-century microscopy acquisition routes?",
-      "priority": "B+ until named slide-series bridge"
-    }
+    {"target": "University of Padua — Giovanni Canestrini arachnological slides", "question": "Can maker/contributor labels and type revision recover exchange among Canestrini and other European arachnologists?", "priority": "A"},
+    {"target": "MNHN micropalaeontology collection and archives", "question": "Can raw sediment, isolated specimen, type slide, drawing and field note be followed as one evidential transformation chain?", "priority": "A"},
+    {"target": "Smithsonian — Conger/Thomas Christian Richmond research files", "question": "Which nineteenth-century American slide makers, exchanges and society events can be recovered by reversing Conger's later historical reconstruction back into contemporary sources?", "priority": "A"},
+    {"target": "National Museum of Nature and Science, Japan — microalgae herbarium", "question": "Which named subcollections preserve historical slide + sketch/photographic-plate/database crosswalks, and do any reach the nineteenth-century Japanese preparation trade found in the bibliography?", "priority": "B+ until historical subcollection closure"},
+    {"target": "Te Papa — Natural History stores + Te Papa Archives", "question": "Can Colonial Museum/Hector records be connected to present slide holdings or nineteenth-century microscopy acquisition routes?", "priority": "B+ until named slide-series bridge"},
+    {"target": "Iziko South African Museum — Entomology slides", "question": "Which named nineteenth-century subcollections, if any, survive among the aggregate microscope-slide holdings?", "priority": "B+ until named slide-level closure"},
+    {"target": "UCT — Bolus Herbarium / Harry Bolus Papers", "question": "Can botanical correspondence and collecting registers produce a slide/preparation-specific microscopy bridge in late nineteenth-century southern Africa?", "priority": "B until slide-specific hit"}
   ],
   "recommended_next_actions": [
     "Do not broaden the source registry merely for geographic symmetry; add repositories when they expose a recoverable documentary apparatus.",
-    "Start archive-level extraction with Oxford RMS and Quekett because the current corpus already supplies transaction/event anchors.",
+    "Search the Quekett label transcription/database before requesting new photography; existing metadata and tray photographs may answer the first Cole-survival question cheaply.",
+    "Treat Museo de La Plata as the first Tempère & Peragallo object-level comparator because the named series and an institutional archive coexist there.",
     "Use Elcock as the first maker-workshop case because tools, materials, labels, unfinished specimens and finished slides survive together.",
     "Use Grunow/Farlow/MNHN as controlled comparators for different numbering and indexing systems after the Cole article architecture is stable.",
     "For each archive visit or enquiry, request old catalogues/registers and current cabinet/tray crosswalks before requesting broad digitisation."
