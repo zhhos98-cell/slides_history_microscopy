@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0.0-institutional-slide-teaching-ecologies",
+  "generated": "2026-08-10",
+  "title": "Preparation, Instrument, Course, Cabinet: institutional teaching ecologies of nineteenth-century microscopy",
+  "research_problem": "Histories of microscopy often foreground instruments, methods, or disciplinary ideas separately. The source registry now exposes institutions in which preparations, microscopes, course records, catalogues, storage systems and publications can be reconstructed as coordinated teaching infrastructures.",
+  "working_claim": "Practical microscopy was institutionally produced through different documentary and material ecologies. A preparation became teachable when it was made or acquired, entered an inventory or catalogue, could be located, was coordinated with an instrument and course sequence, and could survive repeated handling. These systems varied sharply by institution; a global history therefore need not be organized as a simple diffusion of microscope technology from one centre to another.",
+  "cases": [
+    {
+      "case": "University of Tokyo — Anatomy Department",
+      "period": "1873–1887",
+      "evidence_state": "paper system identified; page-level extraction pending",
+      "components": {
+        "course": "Histology course diary, 1882–1884 (record no. 110)",
+        "preparation_inventory": "Anatomical preparation quantity ledger, 1878–1882 (no. 118)",
+        "instrument_inventory": "Microscope and instrument index, 1879–1881 (no. 119)",
+        "production": "Catalogue of manufactured histology and embryology items, 1880–1883 (no. 120)",
+        "practical_work": "Practical microscopy miscellany, 1882–1884 (no. 121)",
+        "microscope_records": "Microscope records, 1873–1884 and 1883 (nos. 122–123)",
+        "later_inventory": "Instrument survey book, 1887 (no. 127)"
+      },
+      "best_question": "Can one preparation category or numbered item be followed across manufacture/quantity records, practical microscopy, instrument inventory and course chronology?",
+      "distinctive_feature": "A dense departmental paper ecology records preparation production and use even before a surviving nineteenth-century slide set has been identified.",
+      "risk": "Do not infer surviving object identity from ledger titles; page images are required."
+    },
+    {
+      "case": "University of Coimbra — Costa Simões",
+      "period": "1872–1873",
+      "evidence_state": "published course/catalogue exists; survival of original preparations unresolved",
+      "components": {
+        "course": "Programme of the chair of Histology and General Physiology",
+        "preparation_inventory": "Catalogue of the collection of microscopic preparations",
+        "apparatus_inventory": "Catalogue of experimental-physiology apparatus",
+        "illustration": "92 original engravings in the 1873 publication",
+        "visual_afterlife": "Later historical photograph of the Histology room with microscopes",
+        "institutional_history": "Later documentary literature on the Histology Institute and its microscopes"
+      },
+      "best_question": "Why were microscopic preparations and physiology apparatus catalogued together with the course programme, and how did that printed inventory structure practical teaching?",
+      "distinctive_feature": "The pedagogical system was itself published. Unlike Tokyo's internal ledgers, Coimbra presents course, preparation collection and apparatus as a public institutional catalogue.",
+      "risk": "Do not imply the 1873 physical slides survive until object-level custody is verified."
+    },
+    {
+      "case": "University of Cambridge — Balfour / Zoology",
+      "period": "1870s–1880s",
+      "evidence_state": "surviving serial sections + apparatus + museum documentation; archival crosswalk pending",
+      "components": {
+        "preparations": "Francis Maitland Balfour embryological serial sections survive in the University Museum of Zoology",
+        "object_documentation": "Museum notes that many historical collections retain collector catalogues/notebooks and some remain in original cabinets",
+        "optics": "Balfour microscope objectives and accessories survive at the Whipple Museum, including Zeiss and Gundlach optics",
+        "sectioning_apparatus": "A 1870s Rudolf Jung sliding microtome survives from the Department of Zoology",
+        "method_context": "Cambridge departmental histories connect Balfour's school to serial-section microtomy",
+        "publication": "Embryological serial sections were produced to support anatomical sequence and published interpretation"
+      },
+      "best_question": "Can particular Balfour serial sections be linked to sectioning apparatus, objectives, original series order and published figures or descriptions?",
+      "distinctive_feature": "The physical production chain is unusually reconstructable because sectioned objects and relevant apparatus both survive.",
+      "risk": "Shared departmental provenance does not by itself prove a given microtome or objective made a specific slide."
+    },
+    {
+      "case": "University of Würzburg — Albert von Kölliker",
+      "period": "mid–late nineteenth century",
+      "evidence_state": "historical sections attributed to Kölliker survive; catalogue/course crosswalk pending",
+      "components": {
+        "preparations": "Oldest sections in the Anatomy Institute histology collection are attributed to Albert von Kölliker",
+        "teaching": "University histories identify Kölliker with microscopy courses and histological teaching",
+        "institution": "Anatomy collections preserve historical teaching material",
+        "publication": "Kölliker's histological research and teaching provide a printed context for comparison"
+      },
+      "best_question": "What did a microscopy course require at the object level, and can surviving sections be mapped to course or publication categories?",
+      "distinctive_feature": "A mid-century teaching collection offers a chronological counterpoint to later highly bureaucratized Tokyo/Coimbra systems.",
+      "risk": "Current public descriptions are collection-level; item labels and historical catalogues are needed."
+    },
+    {
+      "case": "University of Melbourne — Tiegs Museum",
+      "period": "from 1887",
+      "evidence_state": "historical slide collection and departmental documents survive; item-level nineteenth-century extraction pending",
+      "components": {
+        "institution": "Zoology museum founded in 1887",
+        "preparations": "Extensive microscope-slide collection",
+        "actors": "Walter Baldwin Spencer and other departmental researchers contributed slides",
+        "paper": "Reprints and other historical documents survive with the collection",
+        "teaching": "Museum developed as a departmental zoological teaching collection"
+      },
+      "best_question": "How did a newly founded colonial university zoology department build a slide collection from research and teaching contributions?",
+      "distinctive_feature": "A southern-hemisphere departmental collection can be studied on its own institutional terms rather than as the endpoint of British slide diffusion.",
+      "risk": "The public aggregate includes later material; nineteenth-century slides must be identified by creator/date."
+    },
+    {
+      "case": "Harvard — Charles Sedgwick Minot / Harvard Embryological Collection",
+      "period": "late nineteenth–early twentieth century",
+      "evidence_state": "physical serial sections + original card catalogue/drawings + database + papers survive",
+      "components": {
+        "preparations": "About 2,500 embryo series on about 30,000 slides",
+        "series_logic": "Thin sections ordered in sagittal, frontal and transverse series",
+        "catalogue": "Original card catalogue and line drawings survive and have been scanned",
+        "identifiers": "Modern records retain current MCZ number, previous HEC number and other historical identifiers",
+        "methods": "Object records can preserve section plane, stain, thickness, date and preparator",
+        "publication": "Records may cite the publication in which a series was figured or described",
+        "papers": "Minot correspondence and embryological research notes survive separately at Countway"
+      },
+      "best_question": "How did serial sectioning become a durable research/teaching archive through cards, drawings, numbers and publication links?",
+      "distinctive_feature": "This is the most mature current example of an institutional crosswalk that preserves old and new addresses rather than erasing them.",
+      "risk": "Much of the collection extends into the early twentieth century; nineteenth-century subset must be date-filtered."
+    }
+  ],
+  "comparison_dimensions": [
+    {"dimension": "primary coordination medium", "Tokyo": "internal ledger/register", "Coimbra": "published course + catalogue", "Cambridge": "serial preparations + apparatus + collector documentation", "Würzburg": "teaching collection + course tradition", "Melbourne": "departmental museum collection", "Harvard Minot": "serial sections + card catalogue + drawings"},
+    {"dimension": "object survival", "Tokyo": "unverified for named nineteenth-century items", "Coimbra": "unverified for 1873 catalogue items", "Cambridge": "strong", "Würzburg": "strong at collection level", "Melbourne": "strong, nineteenth-century subset pending", "Harvard Minot": "strong"},
+    {"dimension": "paper survival", "Tokyo": "strong", "Coimbra": "strong published source + later institutional documentation", "Cambridge": "promising", "Würzburg": "to be established item-by-item", "Melbourne": "historical documents present", "Harvard Minot": "strong"},
+    {"dimension": "instrument relation", "Tokyo": "explicit instrument registers", "Coimbra": "apparatus catalogue integrated with preparation catalogue", "Cambridge": "surviving objectives and microtome", "Würzburg": "course/instrument relation to recover", "Melbourne": "not yet extracted", "Harvard Minot": "microtome history important but object-level instrument crosswalk separate"},
+    {"dimension": "seriality", "Tokyo": "inventory/course sequence", "Coimbra": "catalogue/class sequence", "Cambridge": "embryological serial sections", "Würzburg": "unknown", "Melbourne": "collection aggregation", "Harvard Minot": "anatomical serial section sequence"}
+  ],
+  "research_payoff": {
+    "first_order_argument": "The teaching history of microscope slides can be written as the coordination of preparations, instruments, courses and retrieval systems. The same practical technology generated different institutional documentary forms: ledgers in Tokyo, a published apparatus/preparation catalogue in Coimbra, surviving slide-apparatus chains in Cambridge, and card-catalogued serial anatomy at Harvard.",
+    "anti_diffusion_guard": "Geographic comparison should not be framed as Britain/Europe inventing a standardized system that other institutions simply received. The comparandum is how each institution made preparations reproducibly locatable and usable for practical teaching.",
+    "best_immediate_sources": ["Tokyo nos. 110 and 118–123", "Coimbra 1873 catalogue", "Cambridge Balfour slide inventory and apparatus provenance", "Harvard HEC nineteenth-century records"],
+    "likely_article_seed": "From Preparation to Course: Making Microscopy Teachable in Nineteenth-Century Institutions"
+  },
+  "extraction_schema": ["institution", "course_or_subject", "date", "preparation_id_or_category", "quantity", "maker_or_preparator", "method", "instrument_id_or_type", "apparatus_relation", "catalogue_or_ledger_address", "cabinet_or_storage_address", "student_or_user_relation", "publication_relation", "survival_state", "source_reference", "crosswalk_confidence"]
+}
