@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0.0-slide-addressing-systems",
+  "generated": "2026-08-10",
+  "title": "From Issue Numbers to Archival Call Numbers: comparative addressing systems for microscope-slide collections",
+  "research_problem": "Microscope slides survive historically because successive people and institutions make them retrievable. The same physical preparation can move through commercial, serial, laboratory, cabinet, museum, and archival address systems. Those address changes alter what relations remain visible.",
+  "working_claim": "A microscope slide becomes historically legible through addresses. Numbers, labels, trays, ledgers, cards, catalogues and call numbers are not ancillary metadata: they are infrastructures that bind a fragile object to texts, people, places, methods and other objects. When an address system changes, some relations are preserved, some are translated, and some disappear.",
+  "guard": "Address is used analytically for an explicit retrieval or cross-reference coordinate. It does not imply that every historical number served the same function, and it must not collapse catalogue numbers, accession numbers, serial numbers, cabinet coordinates, archive signaturae, and modern database IDs into one namespace.",
+  "cases": [
+    {
+      "case": "Arthur C. Cole — Studies in Microscopical Science",
+      "period": "1882–1880s afterlife",
+      "address_chain": [
+        {"system": "commercial identity", "address": "maker/dealer + subject description", "function": "sell prepared objects before the serial"},
+        {"system": "serial publication", "address": "issue number + plate + text + distributed preparation", "function": "synchronize glass with recurring publication time"},
+        {"system": "subscriber cabinet", "address": "numbered preparation indexed back to letterpress", "function": "make a growing physical set retrievable after paper issues are bound"},
+        {"system": "institutional custody", "address": "Library versus Cabinet", "function": "separate paper and glass by collection category"},
+        {"system": "club cabinet", "address": "new letter + number coordinate, e.g. Croydon Y1", "function": "allow insertion of new slides and withdrawal of spoiled slides"}
+      ],
+      "diagnostic_feature": "The publication was physically divided but referentially bound. Later cabinet systems could preserve the object while replacing the serial address that made it part of a publication.",
+      "best_evidence": ["1882 prospectus and cabinet design", "Volume I issue matrix", "Quekett Library/Cabinet report", "Croydon mutable cabinet catalogue", "2025 near-complete 52-slide cabinet set"],
+      "status": "core case"
+    },
+    {
+      "case": "Cajal Legacy",
+      "period": "late nineteenth century to present",
+      "address_chain": [
+        {"system": "original laboratory storage", "address": "Armario de Preparaciones AP.x + bandeja number/name", "function": "organize active research/teaching preparations"},
+        {"system": "successive institutional inventories", "address": "Gamundi / Manzano / other inventory numbers", "function": "recount and administratively control the legacy"},
+        {"system": "legacy reference", "address": "LC number", "function": "stable modern object reference"},
+        {"system": "archive storage", "address": "signatura such as E5.Caja17.Bandeja10.B82820", "function": "locate the physical object within present archival custody"},
+        {"system": "digital catalogue", "address": "Simurg persistent record", "function": "recombine original and later addresses in one public record"}
+      ],
+      "diagnostic_feature": "Unlike Cole, where the historical crosswalk risks being lost, Cajal's modern catalogue explicitly preserves multiple obsolete and current addresses together. The record therefore documents re-addressing rather than hiding it.",
+      "best_evidence": ["Simurg records with original cabinet/tray", "multiple inventory numbers", "LC reference", "archival signatura", "condition/custody notes"],
+      "status": "strongest public-metadata comparator"
+    },
+    {
+      "case": "University of Tokyo Anatomy Department",
+      "period": "1873–1887",
+      "address_chain": [
+        {"system": "preparation inventory", "address": "解剖用プレパラート品數簿", "function": "count/manage anatomical preparations"},
+        {"system": "manufacture catalogue", "address": "組織学及胎生学的製造品目録", "function": "register items produced for histology and embryology"},
+        {"system": "instrument inventory", "address": "顕微鏡及器械目次 / 器械及器具調査簿", "function": "coordinate microscopes and apparatus"},
+        {"system": "working record", "address": "實地顕微鏡雑録 / 顕微鏡記録", "function": "record practical microscopy activity"},
+        {"system": "course chronology", "address": "組織学クールス日記", "function": "place preparations/instruments inside teaching time"}
+      ],
+      "diagnostic_feature": "The archival unit is not a surviving cabinet but a coordinated documentary ecology. Preparation manufacture, quantity, instruments, practice and teaching were separately recorded by one department, allowing the institutional life of slides to be reconstructed without starting from present museum objects.",
+      "best_evidence": ["Medical Library Anatomy Department records nos. 110 and 118–123"],
+      "status": "S-tier archive target; item-level crosswalk awaits page images"
+    },
+    {
+      "case": "Filippo Pacini — Florence",
+      "period": "mid–late nineteenth century",
+      "address_chain": [
+        {"system": "object label", "address": "date + reagent/method + descriptive annotation", "function": "attach experimental and interpretive history directly to glass"},
+        {"system": "publication reference", "address": "label citation to published memoir/page", "function": "bind preparation to printed argument"},
+        {"system": "material intervention", "address": "label note recording remounting", "function": "preserve the chronology of repair/reformatting"},
+        {"system": "museum catalogue", "address": "histological collection catalogue/storage", "function": "maintain the preparation after Pacini's death"},
+        {"system": "manuscript fonds", "address": "BNCF Pacini manuscript units + 1889 historical catalogue", "function": "provide a separate paper route into research and correspondence"}
+      ],
+      "diagnostic_feature": "The slide label itself can combine experiment record, interpretive note, bibliographic reference and later material history. It is less a short title than a portable micro-archive.",
+      "best_evidence": ["University of Florence Pacini histology collection descriptions", "cholera preparation label citing 1854 publication", "remounted-after-seven-years note", "BNCF 23-unit Pacini fonds"],
+      "status": "high-value object↔manuscript target"
+    },
+    {
+      "case": "Albert Grunow — Vienna",
+      "period": "nineteenth century; collection deposited 1899",
+      "address_chain": [
+        {"system": "sample identity", "address": "sample number", "function": "coordinate raw/unmounted material"},
+        {"system": "microscope preparation", "address": "slide and label", "function": "make selected material microscopically accessible"},
+        {"system": "worked-sample catalogue", "address": "catalogue entry", "function": "record which samples were studied"},
+        {"system": "drawing/annotated book", "address": "sample numbers carried into drawings and annotations", "function": "link object to visual and textual interpretation"},
+        {"system": "museum/type research", "address": "current collection/type identification", "function": "recover original/type material through the historical cross-media numbers"}
+      ],
+      "diagnostic_feature": "A sample number can act as a cross-media address linking unmounted matter, glass, drawing, book and later taxonomic work.",
+      "best_evidence": ["NHM Vienna description of Grunow collection and documentary apparatus"],
+      "status": "A+ comparator"
+    },
+    {
+      "case": "Tempère & Peragallo / Möller — Museo de La Plata",
+      "period": "late nineteenth–early twentieth century to present",
+      "address_chain": [
+        {"system": "published/commercial series", "address": "numbered slide series + taxon/locality", "function": "make preparations collectible, orderable and comparable across distributed sets"},
+        {"system": "private/institutional acquisition", "address": "acquisition or exchange record — to be recovered", "function": "move series into Museo de La Plata"},
+        {"system": "museum collection", "address": "current Ficología inventory / box or tray", "function": "integrate historical series into departmental custody"},
+        {"system": "historical archive", "address": "museum correspondence/departmental files", "function": "potentially recover the transaction that created the museum holding"}
+      ],
+      "diagnostic_feature": "This is the best current comparator for Cole because both systems distribute numbered preparations, but Tempère–Peragallo is expected to organize glass through a serial/taxonomic collection logic rather than synchronized weekly print issues.",
+      "best_evidence": ["Museo de La Plata Ficología named Tempère & Peragallo and Möller collections", "Museo Historical Archive from 1884"],
+      "status": "S-tier closure target; current series inventory required"
+    },
+    {
+      "case": "Henri Van Heurck scientific estate",
+      "period": "nineteenth century to twenty-first-century custody",
+      "address_chain": [
+        {"system": "integrated private scientific collection", "address": "Van Heurck's own library/herbarium/diatoms/instruments/microscopes", "function": "keep multiple working media within one scientific estate"},
+        {"system": "municipal acquisition", "address": "City of Antwerp estate acquisition, 1910", "function": "convert private collection into public heritage"},
+        {"system": "museum division", "address": "scientific versus botanical holdings", "function": "divide estate by modern collection category"},
+        {"system": "later redistribution", "address": "books → Hendrik Conscience; botanical objects/diatoms → Meise; scientific instruments/microscopes → Ghent", "function": "assign different media to specialist institutions"}
+      ],
+      "diagnostic_feature": "Re-addressing occurs at estate scale. Modern disciplinary custody can preserve components extremely well while destroying the convenience of studying the original working collection as one relational system.",
+      "best_evidence": ["University of Antwerp heritage history", "Meise herbarium/Van Heurck collection descriptions"],
+      "status": "A+ distributed-collection comparator"
+    },
+    {
+      "case": "Edward Heron-Allen foraminifera — NHM London",
+      "period": "specimens from 1873 onward; later museum registration",
+      "address_chain": [
+        {"system": "expedition/field origin", "address": "expedition + station/locality", "function": "locate collected material geographically and operationally"},
+        {"system": "specialist slide collection", "address": "Heron-Allen slide arrangement", "function": "make foraminifera material available for study"},
+        {"system": "museum registration", "address": "catalogue/registration number + donor", "function": "integrate collection into NHM custody"},
+        {"system": "downloadable dataset", "address": "spreadsheet/database record", "function": "make historic slide provenance computationally searchable"}
+      ],
+      "diagnostic_feature": "Expedition provenance and later museum registration coexist at scale, offering a tractable route for studying how field material becomes a slide collection and then a dataset.",
+      "best_evidence": ["NHM 740-slide Heron-Allen catalogue", "NHM collection database with registration and donor fields"],
+      "status": "A comparator"
+    }
+  ],
+  "comparative_dimensions": [
+    {
+      "dimension": "What is being addressed?",
+      "values": ["published issue", "physical slide", "raw sample", "instrument", "laboratory batch", "museum object", "archive file", "distributed estate"]
+    },
+    {
+      "dimension": "What makes the address useful?",
+      "values": ["chronology", "taxonomy", "locality", "method", "storage position", "ownership/custody", "publication cross-reference", "administrative control"]
+    },
+    {
+      "dimension": "Is the address fixed or mutable?",
+      "values": ["fixed serial sequence", "mutable cabinet slot", "successive inventory number", "persistent sample number", "archival call number"]
+    },
+    {
+      "dimension": "What event changes the address?",
+      "values": ["binding", "subscription completion", "donation", "purchase", "institutional transfer", "remounting", "recataloguing", "collection division", "digitisation"]
+    },
+    {
+      "dimension": "What relation is at risk?",
+      "values": ["object↔text", "object↔image", "slide↔raw sample", "slide↔maker", "slide↔transaction", "object↔original cabinet", "component↔scientist estate"]
+    }
+  ],
+  "research_consequences": [
+    "Do not normalize historical identifiers into one master number. Store every namespace and the evidence for transitions between them.",
+    "A missing crosswalk is itself a historical result: the object may survive while the relation that made it usable in an earlier system has disappeared.",
+    "Collection catalogues should be read as active technologies of retrieval and maintenance, not passive descriptions of holdings.",
+    "Labels deserve transcription as documents. Pacini and Cajal show that labels can contain method, time, interpretation, storage history and publication relations.",
+    "Cabinet order and archival order answer different questions. A cabinet can optimize use or replacement; an archive can optimize custody; a publication can optimize serial reading. Moving between them can change the epistemic identity of the same piece of glass.",
+    "The global comparison does not need identical institutions. Its controlled variable is the act of making physical microscopic preparations retrievable across changing documentary systems."
+  ],
+  "article_or_book_payoff": {
+    "cole_article": "Keep Cole as the main historical case. Cajal, Pacini, Tempère–Peragallo and Grunow should appear only as short comparative endpoints unless the article is expanded into a broader history of material publication.",
+    "slides_project": "Use 'address history' as a derived analytical layer across the object survey: preserve original number, series number, label number, cabinet/tray, accession, old catalogue, present accession/database ID, and documented transitions.",
+    "future_article": "A separate comparative paper could study how scientific collections survive by changing addresses, using Cole/Croydon, Cajal, Pacini, Grunow, Van Heurck and La Plata as structurally different cases."
+  },
+  "next_extraction_schema": [
+    "object_or_series_id",
+    "address_system_name",
+    "address_value_verbatim",
+    "address_type",
+    "date_or_period_active",
+    "assigned_by_actor_or_institution",
+    "purpose_of_address",
+    "source_reference",
+    "previous_address",
+    "next_address",
+    "transition_event",
+    "crosswalk_status",
+    "relation_preserved",
+    "relation_lost_or_uncertain",
+    "notes"
+  ]
+}
