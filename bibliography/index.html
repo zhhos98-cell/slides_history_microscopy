@@ -6,7 +6,24 @@
   <meta name="description" content="A slide-locked working bibliography for the material and social history of physical microscope slides: mounting, makers, circulation, collections, provenance, conservation, and material analysis.">
   <title>Bibliography · Microscope Slides in Motion</title>
   <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="bibliography.css?v=20260809-1">
+  <link rel="stylesheet" href="bibliography.css?v=20260809-2">
+  <style>
+    .bib-export { display:grid; grid-template-columns:180px minmax(0,1fr); gap:clamp(38px,8vw,120px); padding:34px 0 44px; border-bottom:1px solid var(--bib-line-strong); }
+    .bib-export h2 { margin:0; color:var(--bib-ink); font-size:clamp(1.8rem,3.3vw,2.8rem); line-height:1.05; font-weight:500; letter-spacing:-.025em; }
+    .bib-export-copy > p { max-width:820px; margin:0 0 18px; color:rgba(245,239,232,.72); }
+    .bib-export-toolbar { display:grid; grid-template-columns:minmax(190px,.7fr) 2fr; gap:1px; border:1px solid var(--bib-line-strong); background:var(--bib-line-strong); font-family:Arial,Helvetica,sans-serif; }
+    .bib-export-toolbar label { display:flex; flex-direction:column; gap:6px; padding:12px 14px; background:rgba(29,23,20,.96); }
+    .bib-export-toolbar label span { color:var(--bib-muted); font-size:.59rem; font-weight:700; letter-spacing:.10em; text-transform:uppercase; }
+    .bib-export-toolbar select { min-height:28px; padding:0; border:0; outline:0; background:transparent; color:var(--bib-ink); color-scheme:dark; font:inherit; font-size:.79rem; }
+    .bib-export-buttons { display:grid; grid-template-columns:repeat(6,minmax(74px,1fr)); gap:1px; background:var(--bib-line-strong); }
+    .bib-export-buttons button { min-height:58px; border:0; background:rgba(29,23,20,.96); color:var(--bib-accent); cursor:pointer; font:700 .62rem/1 Arial,Helvetica,sans-serif; letter-spacing:.08em; text-transform:uppercase; }
+    .bib-export-buttons button:hover { background:rgba(212,161,116,.15); }
+    .bib-export-note, .bib-export-status { font-family:Arial,Helvetica,sans-serif; font-size:.66rem; line-height:1.55; }
+    .bib-export-note { margin-top:14px !important; color:var(--bib-muted) !important; }
+    .bib-export-status { margin:8px 0 0 !important; color:var(--bib-accent) !important; letter-spacing:.05em; text-transform:uppercase; }
+    @media (max-width:900px) { .bib-export { grid-template-columns:1fr; gap:18px; } .bib-export-toolbar { grid-template-columns:1fr; } .bib-export-buttons { grid-template-columns:repeat(3,1fr); } }
+    @media (max-width:680px) { .bib-export-buttons { grid-template-columns:repeat(2,1fr); } }
+  </style>
 </head>
 <body class="bib-page">
   <header class="subpage-header">
@@ -69,6 +86,35 @@
       <p>Ascending chronology within each section · language shown per entry.</p>
     </div>
 
+    <section class="bib-export" aria-labelledby="export-title">
+      <div>
+        <p class="eyebrow">Export &amp; reuse</p>
+        <h2 id="export-title">The bibliography underneath the page.</h2>
+      </div>
+      <div class="bib-export-copy">
+        <p>Download the complete bibliography, or the current filtered view, directly from the same CSV rows that render this page. CSV, TSV and JSON preserve the project schema. CSL JSON, BibTeX and RIS provide portable citation-manager exports; the formatted citation and project note are retained so that no row-level evidence is silently discarded.</p>
+        <div class="bib-export-toolbar">
+          <label>
+            <span>Export scope</span>
+            <select id="bib-export-scope">
+              <option value="all">Complete bibliography</option>
+              <option value="filtered">Current filtered view</option>
+            </select>
+          </label>
+          <div class="bib-export-buttons" aria-label="Download bibliography">
+            <button type="button" data-bib-export="csv">CSV</button>
+            <button type="button" data-bib-export="tsv">TSV</button>
+            <button type="button" data-bib-export="json">JSON</button>
+            <button type="button" data-bib-export="csl-json">CSL JSON</button>
+            <button type="button" data-bib-export="bibtex">BibTeX</button>
+            <button type="button" data-bib-export="ris">RIS</button>
+          </div>
+        </div>
+        <p class="bib-export-note">For Zotero, individual web-record capture remains the richest route when a publisher or repository exposes structured metadata. The CSL JSON and RIS exports are useful for batch intake; DOI and stable URLs are carried over where present.</p>
+        <p id="bib-export-status" class="bib-export-status" aria-live="polite">Waiting for bibliography data…</p>
+      </div>
+    </section>
+
     <section class="bib-section" id="research" aria-labelledby="research-title">
       <div class="bib-section-head">
         <p class="eyebrow">Research literature</p>
@@ -105,7 +151,7 @@
         <p class="eyebrow">Public data</p>
         <h2 id="data-title">One source of truth.</h2>
       </div>
-      <p>The page is rendered from five UTF-8 CSV chunks listed in <a href="bibliography-manifest.json">bibliography-manifest.json ↗</a>. The manifest fixes the release counts and makes the public data files explicit; the page and the downloadable records are generated from the same rows.</p>
+      <p>The page is rendered from five UTF-8 CSV chunks listed in <a href="bibliography-manifest.json">bibliography-manifest.json ↗</a>. The manifest fixes the release counts and declares the portable export formats. Full and filtered downloads are generated in the browser from those same rows, so the public page, the raw data and the citation-manager exports remain synchronized.</p>
     </section>
   </main>
 
@@ -114,6 +160,6 @@
     <span>Working bibliography · slide-locked pass 03 · 9 August 2026</span>
   </footer>
 
-  <script src="bibliography.js?v=20260809-3"></script>
+  <script src="bibliography.js?v=20260809-4"></script>
 </body>
 </html>
