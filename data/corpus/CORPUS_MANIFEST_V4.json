@@ -1,0 +1,70 @@
+{
+  "schema": "microscopy-site-backend-manifest-v4",
+  "created": "2026-08-09",
+  "scope": "site-facing metadata/results index over seven canonical microscopy masters; bulky text/OCR and large record-level tables omitted",
+  "counts": {
+    "core_documents": 142,
+    "core_page_records": 49277,
+    "core_occurrences": 50744,
+    "extension_documents": 60,
+    "structured_ocr_sources": 2,
+    "extension_fulltext_characters_omitted": 73073904,
+    "bna_records": 9365,
+    "bna_event_clusters": 930,
+    "bna_newspaper_yield_rows": 995,
+    "bna_query_yield_rows": 43,
+    "bna_year_yield_rows": 71,
+    "research_outputs": 22
+  },
+  "files": {
+    "core_document_chunks": [
+      "CORE_DOCUMENTS_V4_01.json",
+      "CORE_DOCUMENTS_V4_02.json",
+      "CORE_DOCUMENTS_V4_03.json",
+      "CORE_DOCUMENTS_V4_04.json",
+      "CORE_DOCUMENTS_V4_05.json",
+      "CORE_DOCUMENTS_V4_06.json",
+      "CORE_DOCUMENTS_V4_07.json"
+    ],
+    "extension_document_chunks": [
+      "EXTENDED_DOCUMENTS_V4_01.json",
+      "EXTENDED_DOCUMENTS_V4_02.json",
+      "EXTENDED_DOCUMENTS_V4_03.json",
+      "EXTENDED_DOCUMENTS_V4_04.json"
+    ],
+    "bna_meta": "BNA_META_V4.json",
+    "bna_query_yield": "BNA_QUERY_YIELD_V4.json",
+    "bna_year_yield": "BNA_YEAR_YIELD_V4.json",
+    "research_outputs": "RESEARCH_OUTPUTS_V4.json"
+  },
+  "masters": {
+    "01A_UK_Microscopy_Core_Early_Central_1844-1877.json": {
+      "bytes": 35491720,
+      "sha256": "bb771f4785460585a1ac31b0cca8f2160641d65728269d873df94361d92e0e97"
+    },
+    "01B_UK_Microscopy_Core_Professional_1869-1886.json": {
+      "bytes": 52368771,
+      "sha256": "408012cdd465eaee8738342843976d9c62643ecb4a35159028129909c46d1903"
+    },
+    "01C_UK_Microscopy_Core_Clubs_Popular_Local_1865-1886.json": {
+      "bytes": 57918177,
+      "sha256": "5af24e5d3b289b7ca013d811a49e3c3a2513726df72dd1cd161674868204aa32"
+    },
+    "02A_UK_Microscopy_Extensions_1847-1867.json": {
+      "bytes": 37010355,
+      "sha256": "9fec637129d527f79f7cc57486824d63f44630a5b2e465cd295bf92242194fdf"
+    },
+    "02B_UK_Microscopy_Extensions_1868-1875.json": {
+      "bytes": 24069361,
+      "sha256": "349facb393d48d2a9b0018286f2f8f3eb6731a02a8290b1bab2027da663b0127"
+    },
+    "02C_UK_Microscopy_Extensions_1876-1883_and_Special_OCR.json": {
+      "bytes": 21296992,
+      "sha256": "f9eedf05d7b78d673dcca904f227787317b854486addfe3e64cb20dd82d15638"
+    },
+    "03_UK_Microscopy_BNA_MASTER.json": {
+      "bytes": 27290162,
+      "sha256": "2a9d5c4fce17cfdb155074d7144e7f4b56d463c1ebf0c76f7e017b99f00fcad6"
+    }
+  }
+}
