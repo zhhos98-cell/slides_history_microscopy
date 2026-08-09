@@ -1,0 +1,159 @@
+{
+  "schema_version": "3.0.0-global-archive-priority",
+  "generated": "2026-08-10",
+  "purpose": "Reorder archive work by closure potential after expanding the source registry through Cambridge, Coimbra, Würzburg, Manchester, Melbourne, Jena and Dundee. Priority is based on the chance of connecting a preparation to a historical address, transaction, publication, teaching sequence, apparatus, or collection system.",
+  "rules": [
+    "Do not rank by collection size, institutional prestige, or geographic novelty.",
+    "Prefer a bounded historical system with named ledgers, catalogues, trays, labels, serial sections, or maker identities.",
+    "Keep object survival and documentary survival separate: either side can remain when the other is lost.",
+    "Preserve conflicting collection counts as dated source states rather than harmonising them silently.",
+    "For teaching collections, capture the relation among preparations, instruments, course order, student use, and storage rather than counting slides alone.",
+    "For commercial/private cabinets, capture maker, subject, label, tray position, date, locality, retailer, and any historical catalogue number before interpreting ownership or exchange."
+  ],
+  "tier_S_immediate_closure": [
+    {
+      "target_id": "GB-QMC-ARCHIVES-SLIDES",
+      "target": "Quekett Microscopical Club",
+      "why_now": "Existing Cole evidence already supplies the publication side of the crosswalk; the cheapest unresolved step is searching the Club's label transcription and cabinet documentation for surviving Cole preparations.",
+      "first_action": "Search Cole / Martin J. Cole / Prize Medal / Studies and diagnostic Volume I subjects in existing label data before requesting new photography.",
+      "closure": "historical subscription → cabinet entry → surviving preparation"
+    },
+    {
+      "target_id": "GB-HSM-OXFORD-RMS-ARCHIVE",
+      "target": "Oxford History of Science Museum — RMS archive and slide cabinet",
+      "why_now": "The project already has itemised RMS receipt, donation and exhibition events; Oxford preserves both the institutional archive and the large surviving RMS cabinet.",
+      "first_action": "Request old slide indexes/catalogues and query two or three already itemised corpus events before broad archival work.",
+      "closure": "journal event → society record → surviving slide"
+    },
+    {
+      "target_id": "JP-UTOKYO-ANATOMY-MICROSCOPY-RECORDS",
+      "target": "University of Tokyo Medical Library — Anatomy Department records",
+      "why_now": "The archival sequence is already bounded by record numbers and dates: course diary, preparation quantity ledger, manufactured-item catalogue, microscope/instrument index and practical microscopy records.",
+      "first_action": "Request page images or digitisation for nos. 110 and 118–123, preserving page order and covers/labels.",
+      "closure": "manufacture/inventory → microscope/apparatus → practical use → course chronology"
+    },
+    {
+      "target_id": "GB-CAMBRIDGE-ZOO-HISTORICAL-SLIDES",
+      "target": "University Museum of Zoology Cambridge — Balfour/Darwin historical slide systems",
+      "why_now": "The Museum explicitly preserves historical slides together with collector catalogues/notebooks and, in some cases, original cabinets. Balfour's surviving serial sections can also be paired with surviving microscopy apparatus and publication captions.",
+      "first_action": "Ask for the Balfour slide-series inventory, current cabinet/box order, any original labels/catalogues, and object-level links to the Whipple Balfour apparatus.",
+      "closure": "serial section → apparatus/production technique → publication → current museum address"
+    },
+    {
+      "target_id": "IT-SZN-HISTORICAL-ARCHIVES",
+      "target": "Stazione Zoologica Anton Dohrn Historical Archives",
+      "why_now": "The Naples catalogue and 1880 RMS twelve-slide shipment already close nine subjects strongly; an internal account/order/dispatch record could turn this into transaction-level history.",
+      "first_action": "Search 1879–1881 copybooks, preparation-department accounts and Waters correspondence against the nine matched catalogue numbers.",
+      "closure": "catalogue offering → internal transaction → RMS shipment"
+    },
+    {
+      "target_id": "AR-MLP-FICOLOGIA-DIATOMS",
+      "target": "Museo de La Plata — Tempère & Peragallo / Möller",
+      "why_now": "Numbered historical series survive in the same institution that preserves museum correspondence and departmental records from the 1880s onward.",
+      "first_action": "Obtain current box/tray inventory and label photographs before searching archive correspondence for acquisition or exchange.",
+      "closure": "series number → museum address → acquisition/exchange record"
+    },
+    {
+      "target_id": "GB-WHIPPLE-ELCOCK",
+      "target": "Whipple Museum — Charles Elcock working archive",
+      "why_now": "Raw specimens, unfinished material, tools, stains, labels, finished slides and cabinets survive together.",
+      "first_action": "Build an association map from accession records and object groupings before selecting representative workflows for high-resolution documentation.",
+      "closure": "raw material → preparation operation → label → finished slide → cabinet/commercial object"
+    }
+  ],
+  "tier_A_high_value_comparators": [
+    {
+      "target_id": "PT-COIMBRA-HISTOLOGY-1873",
+      "priority": "A+",
+      "target": "University of Coimbra — Costa Simões histology/physiology teaching system",
+      "question": "How were course content, microscopic preparations and experimental-physiology apparatus catalogued as one pedagogical system in 1873?",
+      "next_step": "Parse the 1873 catalogue row by row and compare its internal categories with the course programme and surviving visual/institutional documentation. Verify whether any original preparations or apparatus survive before making object-continuity claims."
+    },
+    {
+      "target_id": "DE-WURZBURG-KOELLIKER-HISTOLOGY",
+      "priority": "A+",
+      "target": "Würzburg — Kölliker histology collection",
+      "question": "Can surviving early histological sections be connected to Kölliker's microscopy teaching, methods and publications?",
+      "next_step": "Request an inventory of slides attributed to Kölliker, label images, historical catalogue references, and any course/institute records that preserve original ordering or use."
+    },
+    {
+      "target_id": "GB-MANCHESTER-GIBSON-CABINET",
+      "priority": "A+",
+      "target": "Manchester — Gibson Victorian cabinet",
+      "question": "Can labelled private-cabinet slides be reverse-matched to nineteenth-century commercial suppliers and catalogues?",
+      "next_step": "Obtain the tray-by-tray report or structured transcription. Preserve the published tray-count discrepancy: a 2023 University article describes 22 trays, while a 2024 article describes 25 numbered trays. Treat both as dated descriptions until the current inventory is checked."
+    },
+    {
+      "target_id": "AU-MELBOURNE-TIEGS-HISTORICAL-SLIDES",
+      "priority": "A+",
+      "target": "University of Melbourne — Tiegs Museum",
+      "question": "How did a zoology department founded in 1887 use and retain microscope slides contributed by Walter Baldwin Spencer and later researchers?",
+      "next_step": "Request the historical-slide inventory by creator/date, any original departmental registers, and the relation between slide holdings, reprints and teaching records."
+    },
+    {
+      "target_id": "ES-MNCN-CAJAL-LEGACY",
+      "priority": "A+",
+      "target": "Cajal Legacy",
+      "question": "How does one physical preparation accumulate laboratory, inventory, legacy, archival and digital addresses?",
+      "next_step": "Sample a bounded set and reconstruct every identifier namespace with dates and administrative context."
+    },
+    {
+      "target_id": "IT-FLORENCE-PACINI-HISTOLOGY",
+      "priority": "A+",
+      "target": "Pacini preparations + BNCF manuscripts",
+      "question": "How can a slide label carry method, date, interpretation, publication reference and remounting history at once?",
+      "next_step": "Obtain front/back images and full catalogue data for a small cholera/histology sample, then crosswalk to the 1889 manuscript catalogue."
+    },
+    {
+      "target_id": "AT-NHMW-GRUNOW-DIATOMS",
+      "priority": "A+",
+      "target": "Vienna — Grunow",
+      "question": "How does a sample number work across raw material, slide, catalogue, drawing and annotated book?",
+      "next_step": "Sample one documented number through every surviving medium rather than starting with a global inventory."
+    },
+    {
+      "target_id": "BE-VAN-HEURCK-DISTRIBUTED-ESTATE",
+      "priority": "A+",
+      "target": "Van Heurck distributed estate",
+      "question": "What relations are lost when one integrated scientific estate is split among libraries, botanical collections and instrument museums?",
+      "next_step": "Reconstruct the 1910 acquisition and later transfers with one cross-institutional provenance table."
+    },
+    {
+      "target_id": "GB-DUNDEE-VICTORIAN-MICROSLIDES",
+      "priority": "A",
+      "target": "Dundee Victorian slides",
+      "question": "Can named Watson & Sons and Hornell & Sinel objects be matched to catalogue/periodical series descriptions?",
+      "next_step": "Capture full labels, series numbers and collection coordinates for the published examples and then search the UK corpus."
+    },
+    {
+      "target_id": "DE-JENA-HAECKEL-MICROPREP-CORRESPONDENCE",
+      "priority": "A",
+      "target": "Haeckel online correspondence",
+      "question": "How did preparations and microscopic glass slides move through gift, purchase, research loan and specimen exchange?",
+      "next_step": "Run a bounded TEI keyword harvest for Präparat*, Mikroskop*, Glastäfelchen, Objektträger, Radiolar*, Ankauf, Versand and preparator names; extract sender/recipient/date/object/relation."
+    },
+    {
+      "target_id": "AU-MELBOURNE-GRAYSON-RULING-ARCHIVE",
+      "priority": "A",
+      "target": "Grayson ruling-engine survival / paper loss",
+      "question": "What can and cannot be reconstructed when the instrument survives but the maker's research papers were destroyed?",
+      "next_step": "Map surviving engine, photographs, known test rulings, later William Stone records and printed publications while marking the destroyed-paper gap explicitly."
+    }
+  ],
+  "tier_B_hold_until_named_bridge": [
+    "Kew microscope-slide collection: highly structured but primarily established in the 1930s; use only if a named nineteenth-century transferred subcollection is identified.",
+    "Zoological Survey of India aggregate slide/type holdings: institutional lineage reaches Asiatic Society/Indian Museum collections, but do not infer that current slide holdings are nineteenth-century without a named accession or type series.",
+    "Charité historical preparation tools and Virchow collections: important microscopy/pathology context, but promote only when a surviving microscopic preparation or explicit slide catalogue is identified.",
+    "Edinburgh Anatomical Museum records: strong nineteenth-century museum archive, but keep outside the slide-first layer until microscopic slide/preparation series are explicitly documented."
+  ],
+  "execution_order": [
+    "Quekett/Oxford RMS first because existing project IDs already permit direct object closure with minimal new digitisation.",
+    "Tokyo second because the record-number sequence is bounded and could generate an independent institutional-history paper.",
+    "Cambridge Balfour next because slides, sectioning apparatus, historical documentation and publication form a rare integrated production chain.",
+    "Naples and La Plata next because existing catalogue/series work already supplies item-level anchors.",
+    "Coimbra and Würzburg then build the comparative teaching axis; both should be approached through inventories/catalogues before broad archival requests.",
+    "Manchester/Dundee then feed the commercial-maker crosswalk; use surviving labels to decide which trade catalogues deserve full extraction.",
+    "Haeckel is best treated as a bounded digital corpus harvest, not an open-ended biographical archive search.",
+    "Grayson remains a methodological control for archival asymmetry rather than a conventional provenance closure."
+  ]
+}
