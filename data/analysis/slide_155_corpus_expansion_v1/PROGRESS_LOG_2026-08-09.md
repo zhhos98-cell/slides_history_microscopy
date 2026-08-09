@@ -1,9 +1,12 @@
 # Microscope-slide corpus expansion — progress log
 
 Date: 2026-08-09
-Branch: `slide-survey-actions-pilot`
+Repository: `zhhos98-cell/slides_history_microscopy`
+Branch: `main`
 
 This log records derived analytical work after the frozen survey closure. It does not reopen or modify the `CLOSED_2026-08-09` census.
+
+Migration note: on 2026-08-09 the microscope-slide project was separated from the former `slide-survey-actions-pilot` branch of `zhhos98-cell/Blachka_corpus`. This repository is now the canonical project home.
 
 ## 1. Frozen survey sealed
 
@@ -134,7 +137,13 @@ New bounded events added without open-ended discovery:
 - **11 November 1884, Birmingham Biological Section** — T. Bolton exhibited `preserved specimens from the zoological stations at Naples`; the source separately lists mounted specimens from Watson, Ward, C. Vance Smith, Joshua and Vize.
 - **May 1886, RMS second Conversazione** — C. Baker exhibited `Marine Objects from Zoological Station, Naples`; exact object type and count are unstated. The date heading OCR reads `bth May, 1886`, probably 5 May, but the exact day is deliberately left unasserted pending page-image verification.
 
-## 11. Current next step
+## 11. Standalone repository migration
+
+The complete microscope-slide branch snapshot was migrated into `zhhos98-cell/slides_history_microscopy` on 2026-08-09. Survey data, closure metadata, derived analysis, targeted evidence, documentation and scripts moved together. The root README was rewritten as a microscope-slide-only project README, and Actions were reconfigured to operate directly on the new repository's `main` branch.
+
+The predecessor repository remains historical provenance for earlier run IDs and artifacts; new project work should be recorded here.
+
+## 12. Current next step
 
 Continue only bounded reverse matching around explicit Naples relations. Priority is now lower because the highest-yield 1880 shipment has already produced item-level mappings, while the 1881 Crisp, 1882 Baker and 1883 Bell nineteen-slide contexts have been checked without a detailed list.
 
