@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0-material-slide-publication-forms",
+  "generated": "2026-08-10",
+  "title": "Publishing glass: distinct material publication forms for microscope slides",
+  "research_problem": "The Cole case shows that a slide can be part of a serial publication. The wider source base shows several other ways in which prepared microscopic objects were issued, replicated, numbered, catalogued and made retrievable. These forms should be compared without calling every distributed slide a 'publication'.",
+  "definition_guard": "Use 'material publication' only when distribution is structured by an explicit repeatable issue/series/set system, public catalogue, or replicated numbering scheme. A unique slide sent in correspondence, a private cabinet, a teaching collection, and a museum accession are circulation forms but are not automatically publications.",
+  "forms": [
+    {
+      "form": "synchronized serial issue",
+      "case": "Arthur C. Cole, Studies in Microscopical Science",
+      "unit": "one issue combining preparation + letterpress + image",
+      "replication": "subscribers receive materially similar but explicitly non-identical biological preparations",
+      "address": "issue number; later cabinet number/index",
+      "time_structure": "weekly full stream made from two interleaved fortnightly tracks; later monthly sections",
+      "relation_to_print": "simultaneous and directive: prose tells the subscriber what to inspect in the accompanying preparation",
+      "distinctive_problem": "glass copies cannot be identical in the way printed copies can, so plate/text calibrate material variability",
+      "evidence_strength": "S"
+    },
+    {
+      "form": "replicated numbered exsiccata/slide set",
+      "case": "Farlow Herbarium published diatom collections, including nineteenth-century slide series",
+      "unit": "numbered specimen/slide within a named published collection",
+      "replication": "the same set-specific serial number is distributed in replicate collections to different institutions or users",
+      "address": "collection name + serial number",
+      "time_structure": "set/edition distribution rather than recurring periodical cadence",
+      "relation_to_print": "catalogue/list/card or accompanying documentation can identify each number; print need not be issued weekly with the object",
+      "distinctive_problem": "replicate sets make the number portable across geographically separate collections; later institutional catalogues may preserve or replace it",
+      "evidence_strength": "S at collection-form level"
+    },
+    {
+      "form": "commercial catalogue offer",
+      "case": "Norman 1872, Bourgogne 1862, Möller and other preparation catalogues",
+      "unit": "orderable preparation or preparation category",
+      "replication": "maker may produce multiple examples of the advertised object, but catalogue row does not guarantee a fixed edition identity",
+      "address": "catalogue title/number or subject description; maker/retailer label",
+      "time_structure": "stock/list logic",
+      "relation_to_print": "catalogue describes what can be purchased; the purchased slide may later retain only fragments of catalogue wording",
+      "distinctive_problem": "catalogue identity, commodity identity and physical object identity must be distinguished",
+      "evidence_strength": "S for catalogue systems; object matching varies"
+    },
+    {
+      "form": "serial anatomical archive",
+      "case": "Harvard Embryological Collection / Minot",
+      "unit": "ordered histological sections from one embryo or specimen",
+      "replication": "sections are sequential parts of one anatomical series rather than copies distributed to subscribers",
+      "address": "series/card number + slide/part sequence; later HEC and MCZ identifiers",
+      "time_structure": "anatomical sequence, not publishing cadence",
+      "relation_to_print": "specific series can be cited/figured in publications, but the collection is primarily a research archive",
+      "distinctive_problem": "seriality alone does not make a publication; this is a useful control against overextending the Cole thesis",
+      "evidence_strength": "S"
+    },
+    {
+      "form": "numbered commercial/scientific distributed series",
+      "case": "Tempère & Peragallo / Möller diatom sets",
+      "unit": "numbered slide tied to taxon/locality/sample",
+      "replication": "expected distributed set logic; exact edition/replicate architecture to verify from series documentation and surviving La Plata set",
+      "address": "series number + taxon/locality",
+      "time_structure": "accumulating numbered collection",
+      "relation_to_print": "catalogues/provenance tables potentially map numbers to slides",
+      "distinctive_problem": "needs object-level and documentary verification before being described with the same precision as Farlow's explicitly documented published collections",
+      "evidence_strength": "A+ pending series-level collation"
+    },
+    {
+      "form": "unique gift/exchange preparation",
+      "case": "Haeckel correspondence, society donations, private exchanges",
+      "unit": "one or several physical preparations sent between named people/institutions",
+      "replication": "none required",
+      "address": "letter date/sender/recipient + object description; later label or accession",
+      "time_structure": "event/transaction",
+      "relation_to_print": "may later support research/publication but is not issued as a repeatable public series",
+      "distinctive_problem": "circulation should not be redescribed as publication merely because the object moves",
+      "evidence_strength": "S as a negative/control category"
+    }
+  ],
+  "diagnostic_questions": [
+    "Was there an explicitly named series, set, issue or catalogue?",
+    "Could more than one recipient obtain an object under the same public address?",
+    "Was the address stable across distributed copies/replicates?",
+    "Did text/image/documentation accompany the object synchronously, or only describe it in a separate catalogue?",
+    "Was the material object meant to be read/observed in a prescribed sequence?",
+    "Does the surviving museum number preserve the original distribution address or replace it?",
+    "Are two slides with the same number intended as replicas, serial sections, catalogue variants, or entirely different address namespaces?"
+  ],
+  "comparative_payoff": {
+    "cole_article": "Cole remains distinctive because print, image and preparation are synchronized at issue level, and subscriber preparations are allowed to vary materially while remaining publication equivalents.",
+    "farlow_comparator": "Farlow's published/unique collection distinction supplies an explicit historical-collection ontology: replicated numbered sets versus unique collections acquired by gift, exchange or purchase. This is an unusually strong external control for defining material publication.",
+    "tempere_next_step": "Use La Plata to establish whether Tempère & Peragallo's surviving numbers behave like replicated published-set addresses, catalogue numbers, or a different hybrid.",
+    "book_history_implication": "Bibliographic description of material publications needs fields for physical component, replicated-set identity, serial number, accompanying print, distribution form and surviving crosswalk; title/author/date alone are insufficient."
+  },
+  "schema": ["publication_form", "series_title", "issuer_or_maker", "date_range", "material_unit", "print_unit", "image_unit", "address_namespace", "replication_model", "cadence_or_sequence", "distribution_mode", "price_or_subscription", "recipient_model", "crosswalk_document", "surviving_replicates", "later_catalogue_address", "evidence_grade", "notes"]
+}
