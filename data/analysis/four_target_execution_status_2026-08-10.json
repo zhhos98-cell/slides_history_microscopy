@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0-four-target-execution",
+  "generated": "2026-08-10",
+  "purpose": "Execution status for the four bounded high-yield tasks selected after the global archive sweep. This is a research status file, not a public progress counter.",
+  "targets": [
+    {
+      "target": "St Andrews — Charles Elcock letters, 6–8 March 1884",
+      "output": "data/analysis/elcock_standrews_1884_letters_v5.json",
+      "result": "Exact archive locator closed at ms21974-ms21975. The catalogue explicitly states that the correspondence refers to Challenger expedition samples. The decisive Challenger passage itself is not transcribed in the indexed record, so sender/sample/station/purpose remain open until page images are obtained.",
+      "grade": "S archive locator; A+/S-candidate content bridge",
+      "next_bounded_action": "Obtain/transcribe ms21974-ms21975 only; no broad St Andrews search needed."
+    },
+    {
+      "target": "NHM — HMS Challenger sediment/preparation dataset",
+      "output": "data/analysis/challenger_dataset_row_harvest_v2.json",
+      "result": "Diagnostic preparation-level harvest completed from official resource documentation and the published collection study: M/subnumber addressing, 105-drawer slide cabinet, multiple preparation forms, Haeckel annotation, Norman preparation, Voigt/Hochgesang preparations, and the 127-preparation 1920 return event are now structured. Full 4,723-row spreadsheet harvest was not possible in this runtime because the binary resource was not retrieved.",
+      "grade": "S address architecture; A+/S diagnostic objects; full-table harvest open",
+      "next_bounded_action": "When the resource binary is available, ingest all rows and subset preparation/slide terms plus named preparators without early exit."
+    },
+    {
+      "target": "Balfour — full plate-caption objective harvest",
+      "output": "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
+      "result": "Systematic plate-caption pass across Memorial Edition volume I completed at designation level. Secure surviving-set/publication matches now include aa, a, A, B, C/c and E. The previous first-pass negative for E is superseded. Historical captions also use CC, D, DD, F and immersion/numbered optics that are not silently mapped to current surviving lenses.",
+      "grade": "S designation/publication layer; exact physical lens-to-figure identity open",
+      "next_bounded_action": "Search Zeiss serial/dispatch records for 573, 1295, 710, 780 and 542, then query surviving Balfour section series by figure taxon/stage."
+    },
+    {
+      "target": "Naples catalogue row 383 ↔ St Andrews Delphinus phocaena BPM/1/T8/6",
+      "output": "data/analysis/naples_row383_page_verification_v3.json",
+      "result": "Official object record and BHL catalogue container reverified. 'Panis 383' remains exact St Andrews transcription and 383 remains structurally inside the derived Mammalia range 373–405. The individual historical row/image was not recovered in this pass, so catalogue-number identity remains unclosed.",
+      "grade": "A candidate only for 383; no S-level object-row closure",
+      "next_bounded_action": "Retrieve BHL/IA page containing rows 382–384 and compare verbatim wording before any further Naples expansion."
+    }
+  ],
+  "net_result": "One task produced a substantial S-level publication/instrument closure (Balfour), one produced an S-level address architecture plus diagnostic object harvest (Challenger), one narrowed an archival bridge to two exact letters (Elcock), and one remained deliberately unresolved after a failed page-level retrieval test (Naples).",
+  "methodological_note": "A failed bounded verification is retained as a result when it prevents a false object identity. Do not promote catalogue-number, station, or instrument-object identity from structural plausibility alone."
+}
