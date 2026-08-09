@@ -1,10 +1,10 @@
 {
-  "version": "slide-locked-pass-08",
-  "date": "2026-08-09",
-  "total_entries": 82,
-  "research": 62,
-  "primary": 20,
-  "publication_languages": 7,
+  "version": "slide-locked-pass-09",
+  "date": "2026-08-10",
+  "total_entries": 89,
+  "research": 63,
+  "primary": 26,
+  "publication_languages": 10,
   "chunks": [
     "bibliography-01.csv",
     "bibliography-02.csv",
@@ -15,7 +15,8 @@
     "bibliography-07.csv",
     "bibliography-08.csv",
     "bibliography-09.csv",
-    "bibliography-10.csv"
+    "bibliography-10.csv",
+    "bibliography-11.csv"
   ],
   "schema_fields": [
     "id",
