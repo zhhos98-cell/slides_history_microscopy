@@ -72,7 +72,7 @@ function applyFilters(){
   const section=document.getElementById('bib-section-filter').value;
   const tag=document.getElementById('bib-tag-filter').value;
   state.filtered=state.rows.filter(row=>(!section||row.section===section)&&(!tag||splitTags(row.tags).includes(tag))&&(!q||haystack(row).includes(q)));
-  document.getElementById('bib-result-count').textContent=`${state.filtered.length} of ${state.rows.length} verified entries`;
+  document.getElementById('bib-result-count').textContent=`${state.filtered.length} of ${state.rows.length} verified slide-locked entries`;
   renderSection('research','research-list','research');
   renderSection('primary','primary-list','primary');
 }
@@ -103,7 +103,7 @@ async function init(){
     const research=state.rows.filter(r=>r.section==='research').length;
     const primary=state.rows.filter(r=>r.section==='primary').length;
     const languages=new Set(state.rows.map(r=>r.language).filter(Boolean));
-    if(state.rows.length!==60||research!==39||primary!==21||languages.size!==6)throw new Error(`bibliography contract mismatch: ${state.rows.length}/${research}/${primary}/${languages.size}`);
+    if(state.rows.length!==40||research!==33||primary!==7||languages.size!==6)throw new Error(`bibliography contract mismatch: ${state.rows.length}/${research}/${primary}/${languages.size}`);
     state.filtered=[...state.rows];
     populateTags();
     bindControls();
