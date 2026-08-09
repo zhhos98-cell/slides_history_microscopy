@@ -38,7 +38,7 @@ function parseLinks(value){
 }
 
 function haystack(row){
-  return [row.authors,row.title,row.citation,row.type,row.tags,row.note].join(' ').toLowerCase();
+  return [row.authors,row.title,row.citation,row.type,row.language,row.tags,row.note].join(' ').toLowerCase();
 }
 
 function renderLinks(row){
@@ -54,7 +54,7 @@ function renderEntry(row){
     <div>
       <h3>${escapeHTML(row.citation)}</h3>
       <p class="bib-note">${escapeHTML(row.note)}</p>
-      <p class="bib-meta"><span class="type">${escapeHTML(row.type)}</span>${tags.map(t=>`<span>${escapeHTML(t)}</span>`).join('')}</p>
+      <p class="bib-meta"><span class="type">${escapeHTML(row.type)}</span><span>${escapeHTML(row.language||'Language unspecified')}</span>${tags.map(t=>`<span>${escapeHTML(t)}</span>`).join('')}</p>
       ${renderLinks(row)}
     </div>
   </article>`;
@@ -102,7 +102,8 @@ async function init(){
     state.rows=parseCSV(await response.text());
     const research=state.rows.filter(r=>r.section==='research').length;
     const primary=state.rows.filter(r=>r.section==='primary').length;
-    if(state.rows.length!==44||research!==31||primary!==13)throw new Error(`bibliography contract mismatch: ${state.rows.length}/${research}/${primary}`);
+    const languages=new Set(state.rows.map(r=>r.language).filter(Boolean));
+    if(state.rows.length!==60||research!==39||primary!==21||languages.size!==6)throw new Error(`bibliography contract mismatch: ${state.rows.length}/${research}/${primary}/${languages.size}`);
     state.filtered=[...state.rows];
     populateTags();
     bindControls();
