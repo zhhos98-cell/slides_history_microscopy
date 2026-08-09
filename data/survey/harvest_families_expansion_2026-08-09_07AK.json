@@ -1,0 +1,15 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v31-07AK",
+  "assignments": {
+    "specialized_collection_catalogue": [
+      "farlow_cheever_catalogue"
+    ],
+    "institution_collection_record": [
+      "east_ayrshire_blackwood_petrology"
+    ],
+    "literature_or_project_evidence": [
+      "nms_peach_palaeobotany",
+      "smg_human_remains_inventory_pdf"
+    ]
+  }
+}

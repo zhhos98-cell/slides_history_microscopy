@@ -1,0 +1,232 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v2",
+  "purpose": "Adapter expansion for 07C global microscope-slide survey entries, with harvest-family assignments for later batch implementation.",
+  "guards": [
+    "Fetch public metadata only; do not bulk-download images.",
+    "Preserve source relationship language and collection-level uncertainty.",
+    "Do not infer item identity from taxon/name overlap alone.",
+    "Keep non-glass or mixed-material slide types explicitly marked rather than silently normalized."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "standrews_collection_record",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "University of St Andrews Libraries and Museums",
+      "target": "single collection record with stable collection ID",
+      "expected_terms": ["Microscope Slides", "BP:C79", "D'Arcy Wentworth Thompson", "Möller"],
+      "item_url_pattern": "collections.st-andrews.ac.uk/collection/{slug}/{id}",
+      "promotion_rule": "Preserve collection ID, named users/contributors and commercial mounters; do not invent item count."
+    },
+    {
+      "site_adapter": "grosvenor_collection_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "Grosvenor Museum",
+      "target": "historic named diatom collection page",
+      "expected_terms": ["2000", "diatom", "Stolterforth", "Challenger"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve donor, stated count and expedition provenance."
+    },
+    {
+      "site_adapter": "cambridge_museums_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "University of Cambridge Museums",
+      "target": "collection overview with associated microscope slides",
+      "expected_terms": ["Cambridge University Herbarium", "microscope slides", "collections"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use only as collection-presence evidence until a dedicated slide catalogue or count is found."
+    },
+    {
+      "site_adapter": "osu_herbarium_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "Ohio State University Museum of Biological Diversity Herbarium",
+      "target": "diatom collection section",
+      "expected_terms": ["6,700", "diatoms", "microscope slides", "wooden cabinets"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract count, cabinet structure and collector list as separate evidence fields."
+    },
+    {
+      "site_adapter": "nybg_structural_botany_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "New York Botanical Garden",
+      "target": "Structural Botany slide collection page",
+      "expected_terms": ["Microscope Slides", "Bassett Maguire", "4,000", "pollen"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve named subcollections and donation/research provenance."
+    },
+    {
+      "site_adapter": "farlow_diatom_catalogue",
+      "harvest_family": "specialized_collection_catalogue",
+      "status": "active_metadata",
+      "institution_scope": "Harvard Farlow Herbarium",
+      "target": "annotated diatom collection catalogue",
+      "expected_terms": ["30,000", "microscope slides", "Published Collections", "Unique Collections"],
+      "item_url_pattern": "diatoms.hsites.harvard.edu/{collection_slug}",
+      "promotion_rule": "Preserve published-exsiccata versus unique-collection distinction and set-specific serial numbers."
+    },
+    {
+      "site_adapter": "cu_boulder_diatom_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "University of Colorado Museum of Natural History",
+      "target": "diatom collection overview",
+      "expected_terms": ["Diatom Collections", "historical collection", "Kociolek", "slides"],
+      "item_url_pattern": "",
+      "promotion_rule": "Keep historical exsiccata and modern Kociolek collection as separate acquisition strata."
+    },
+    {
+      "site_adapter": "smithsonian_algae_static",
+      "harvest_family": "collection_page_plus_search_portal",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian National Museum of Natural History",
+      "target": "Algae Herbarium page plus Botany Collections Search",
+      "expected_terms": ["microscope slides", "Algal Collection", "mounted", "Collections Search"],
+      "item_url_pattern": "collections.nmnh.si.edu/search/botany/",
+      "promotion_rule": "Separate collection-page claims from item/search records; preserve preparation type and accession data."
+    },
+    {
+      "site_adapter": "reimer_diatom_literature",
+      "harvest_family": "literature_or_project_evidence",
+      "status": "active_metadata",
+      "institution_scope": "Iowa Lakeside Laboratory / USGS",
+      "target": "Reimer Diatom Herbarium collection article",
+      "expected_terms": ["3,280", "permanent diatom slides", "card catalogue", "holotypes"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract count, index structure and label conventions; current institutional register remains separate."
+    },
+    {
+      "site_adapter": "ubc_spencer_collection",
+      "harvest_family": "collection_page_plus_search_portal",
+      "status": "active_metadata",
+      "institution_scope": "University of British Columbia Spencer Entomological Collection",
+      "target": "Spencer Slide Collection and linked gallery/search",
+      "expected_terms": ["Spencer Slide", "8,000", "microscope slides", "fleas", "lice"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve G.J.S. Spencer personal-collection identity and link gallery records without flattening them into one item count unless pagination confirms it."
+    },
+    {
+      "site_adapter": "cmn_palaeobiology_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "Canadian Museum of Nature",
+      "target": "palaeobiology collection page",
+      "expected_terms": ["fungal", "slides", "1100", "reference collection"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve approximate count and reference-collection scope; do not equate mounted examples with unique slide count unless source wording permits."
+    },
+    {
+      "site_adapter": "mcgill_archive_static",
+      "harvest_family": "archive_or_finding_aid_record",
+      "status": "active_metadata",
+      "institution_scope": "McGill University Archives",
+      "target": "archive feature describing boxed microscope-slide batch",
+      "expected_terms": ["forty-eight", "microscope slides", "wooden box", "Archives"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat as a coherent archival batch and future finding-aid target; preserve original-box context."
+    },
+    {
+      "site_adapter": "tiegs_museum_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "University of Melbourne Tiegs Museum",
+      "target": "museum history page",
+      "expected_terms": ["microscope slides", "Walter Baldwin Spencer", "collection"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote historical collection presence and contributor names; exact count requires museum register."
+    },
+    {
+      "site_adapter": "geoscience_australia_literature",
+      "harvest_family": "literature_or_project_evidence",
+      "status": "active_metadata",
+      "institution_scope": "Geoscience Australia",
+      "target": "slide-based collections project description",
+      "expected_terms": ["microscope slide", "collections", "thin sections", "micro fossils"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use as collection-scale existence and provenance-workflow evidence; later connect to Geoscience Australia catalogue/API."
+    },
+    {
+      "site_adapter": "natlib_mantell_record",
+      "harvest_family": "archive_or_finding_aid_record",
+      "status": "active_metadata",
+      "institution_scope": "National Library of New Zealand / Alexander Turnbull Library",
+      "target": "Mantell family archival object record",
+      "expected_terms": ["Gideon Mantell", "microscopic slides", "10 boxes", "1948"],
+      "item_url_pattern": "natlib.govt.nz/records/{record_id}",
+      "promotion_rule": "Preserve former ownership, box count and existence of the 1948 slide list; do not infer individual slide count."
+    },
+    {
+      "site_adapter": "mfn_micropaleontology_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "Museum fuer Naturkunde Berlin",
+      "target": "Micropaleontology collections page",
+      "expected_terms": ["40,000", "30,000", "Lamont", "slides"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract acquisition date, radiolarian/diatom subcounts, named preparers/leaders and research-program context."
+    },
+    {
+      "site_adapter": "nhmd_desmid_static",
+      "harvest_family": "specialized_collection_catalogue",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum of Denmark / University of Copenhagen",
+      "target": "digitised Danish desmid collections",
+      "expected_terms": ["510", "microscope slides", "Jacobsen", "Børgesen"],
+      "item_url_pattern": "desmid.ku.dk/{path}",
+      "promotion_rule": "Preserve historical collector/publication strata and follow searchable digitised slide records."
+    },
+    {
+      "site_adapter": "nrm_gbif_dataset",
+      "harvest_family": "dataset_api_or_dwca",
+      "status": "active_metadata",
+      "institution_scope": "Swedish Museum of Natural History",
+      "target": "GBIF Sweden invertebrate dataset",
+      "expected_terms": ["microscope slides", "500000", "Invertebrates Collection", "Darwin Core"],
+      "item_url_pattern": "GBIF occurrence",
+      "promotion_rule": "Use dataset exports to filter preparation/preservation fields; report slide subset only if fields support it."
+    },
+    {
+      "site_adapter": "nhmw_scale_insect_literature",
+      "harvest_family": "literature_or_project_evidence",
+      "status": "active_metadata",
+      "institution_scope": "Naturhistorisches Museum Wien",
+      "target": "museum-journal article with slide inventory tables",
+      "expected_terms": ["600 microscope slides", "labels", "types", "remounting"],
+      "item_url_pattern": "",
+      "promotion_rule": "Parse species/type tables and label-field description; do not promote article row numbers as museum accession numbers."
+    },
+    {
+      "site_adapter": "caup_diatom_static",
+      "harvest_family": "specialized_collection_catalogue",
+      "status": "active_metadata",
+      "institution_scope": "Charles University Department of Botany",
+      "target": "permanent diatom slide lists",
+      "expected_terms": ["permanent diatom slides", "taxa", "localities", "digitalizing"],
+      "item_url_pattern": "botany.natur.cuni.cz/algo/{path}",
+      "promotion_rule": "Harvest taxon and locality list pages as index-level records; keep item count unresolved until lists are enumerated."
+    },
+    {
+      "site_adapter": "kahaku_mrc_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "National Museum of Nature and Science Tokyo",
+      "target": "Micropaleontological Reference Center programme page",
+      "expected_terms": ["microscope slides", "microfossil", "Reference Centers", "distribute"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve reference-center and distribution function; exact holdings/count require MRC or Science Museum Net data."
+    },
+    {
+      "site_adapter": "iziko_entomology_static",
+      "harvest_family": "institution_collection_record",
+      "status": "active_metadata",
+      "institution_scope": "Iziko Museums of South Africa",
+      "target": "Entomology collection page",
+      "expected_terms": ["5 644", "microscope slides", "Specify6", "Entomology"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract stated slide count, database context and taxonomic collection scope; later identify public Specify endpoint if available."
+    }
+  ]
+}

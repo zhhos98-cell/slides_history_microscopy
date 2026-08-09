@@ -1,0 +1,15 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v26-07AB-19c-brady-parker",
+  "purpose": "Adapters for nineteenth-century Brady and Parker slide collections with catalogue, remounting, reference-set, and acquisition evidence.",
+  "guards": [
+    "Track original slide number and later new-slide number separately where specimens were remounted.",
+    "Distributed reference sets in Vienna and London are distinct physical holdings even when derived from the same Challenger material.",
+    "Preserve original arrival boxes and current rehousing as different physical states."
+  ],
+  "adapters": [
+    {"site_adapter":"gnm_gs_brady_catalogue_literature","status":"active_metadata","institution_scope":"Great North Museum Hancock George Stewardson Brady collections","target":"peer-reviewed catalogue study manuscript notebook and subsequent museum catalogue discovery","expected_terms":["3471 Records","Ostracoda 2470","uncatalogued","original slide","new slide"],"item_url_pattern":"","promotion_rule":"Extract slide number taxon locality collector publication type status loan and remounting fields; model specimens moving from original to new slides as explicit events and isolate pre-1900 records."},
+    {"site_adapter":"nhmw_hb_brady_reference_slides","status":"active_metadata","institution_scope":"Naturhistorisches Museum Wien Micropalaeontology Collection","target":"official collection page plus peer-reviewed historical type/reference-slide study","expected_terms":["Brady","435","1887","Challenger","Porcupine"],"item_url_pattern":"","promotion_rule":"Treat the 435-slide 1887 gift as a bounded reference set and capture accession/type/station metadata without merging it into London Brady holdings."},
+    {"site_adapter":"nhm_micropal_history_literature","status":"active_metadata","institution_scope":"Natural History Museum London Micropalaeontology Collection","target":"2026 peer-reviewed NHM collection history plus Data Portal and legacy registers","expected_terms":["Brady","1888","Challenger","Foraminiferal slides","Parker"],"item_url_pattern":"","promotion_rule":"Use acquisition chronology to split Carpenter Brady Parker and later collections; follow Data Portal/register identifiers without inferring counts from department aggregates."},
+    {"site_adapter":"nhm_wk_parker_catalogue_literature","status":"active_metadata","institution_scope":"Natural History Museum London W.K. Parker Foraminifera Collection","target":"1992 museum catalogue handwritten T.R. Jones catalogue and current collection history","expected_terms":["W.K. Parker","1892","foraminifera","catalogue","slides"],"item_url_pattern":"","promotion_rule":"Extract slide/catalogue/locality/publication relations and record purchase curation cost original wooden boxes and later rehousing as separate acquisition/curation/material-state events."}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "slide-survey-targeted-deep-normalisation-v1",
+  "run_id": 31287016342,
+  "run_number": 4,
+  "workflow_conclusion": "cancelled",
+  "combined_artifact": "slide-metadata-targeted-deep-4",
+  "combined_artifact_id": 9030222733,
+  "combined_artifact_sha256": "96d06a4077b2af803959e536cb66c7509b5058f418879429cc77e4d8bca64808",
+  "normalisation_policy": "Preserve enumerated object/table evidence without extending the CLOSED_2026-08-09 discovery or strict census. Collection-level dates do not automatically date each object.",
+  "completed_institutions": 7,
+  "bundle_totals": {
+    "fetched": 289,
+    "errors": 11,
+    "catalogue_rows": 6666
+  },
+  "datasets": {
+    "copenhagen_desmid_objects": {
+      "records": 510,
+      "hoff_unique_ids": 400,
+      "boergesen_unique_ids": 110,
+      "id_overlap": 0,
+      "note": "One SNM_ID may carry multiple species labels; these are retained as a list."
+    },
+    "farlow_cheever_position_rows": {
+      "source_rows": 3363,
+      "unique_box_slide_tokens": 3362,
+      "position_collisions": [
+        {
+          "box": "B16",
+          "slide_token": "97",
+          "source_rows": 2
+        }
+      ],
+      "boxes_present": [
+        "B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9", "B10",
+        "B11", "B12", "B13", "B14", "B15", "B16", "B17", "B18", "B19", "B20",
+        "B26", "B27", "B28", "B29", "B30", "B31", "B32", "B33", "B34", "B35",
+        "B36", "B37", "B38", "B39", "B40"
+      ],
+      "boxes_not_harvested": ["B21", "B22", "B23", "B24", "B25"],
+      "partial_or_non_100_row_boxes": {
+        "B16": 101,
+        "B17": 99,
+        "B26": 29,
+        "B28": 99,
+        "B34": 77,
+        "B36": 58
+      },
+      "note": "Mixed-period current index. Rows are position evidence, not automatic nineteenth-century object dates."
+    },
+    "st_andrews_bell_pettigrew_hierarchy": {
+      "rows": 20,
+      "note": "Collection hierarchy rows; source date ranges remain source wording."
+    },
+    "ansp_symbiota_review_pool": {
+      "rows": 749,
+      "note": "Review-only. The query label 'pre-1900' did not reliably constrain dates; post-1900 records such as 1938 Preston Smith were returned."
+    },
+    "ucl_whipple_mcz_targeted_pages": {
+      "rows": 12,
+      "note": "Metadata-page evidence retaining identifiers, relationship candidates and quantity candidates for manual contextual review."
+    }
+  },
+  "sorbonne": {
+    "disposition": "ignored_partial_run",
+    "artifact_id": 9030220884,
+    "artifact_size_bytes": 1962885,
+    "note": "The Sorbonne job was interrupted after raw pages were written and did not produce a complete summary/records layer. It is intentionally excluded from normalised evidence."
+  },
+  "closure_boundary": {
+    "canonical_discovery_entries": 307,
+    "frozen_strict_19c_entries": 155,
+    "new_discoveries_from_harvest": "do not add silently; require later reopening/version"
+  }
+}

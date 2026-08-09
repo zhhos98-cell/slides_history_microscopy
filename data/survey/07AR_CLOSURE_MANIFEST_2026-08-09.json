@@ -1,0 +1,127 @@
+{
+  "schema_version": "slide-survey-closure-v1-07AR",
+  "status": "CLOSED_2026-08-09",
+  "date": "2026-08-09",
+  "branch": "slide-survey-actions-pilot",
+  "scope": {
+    "spatial": "global",
+    "historical": "1800-1899"
+  },
+  "final_counts": {
+    "raw_modular_ledger_rows_pre_closure": 328,
+    "superseded_distinct_alias_rows": 20,
+    "same_entry_id_duplicate_occurrences": 1,
+    "canonical_discovery_entries": 307,
+    "provisional_strict_entries_pre_closure": 177,
+    "strict_duplicate_occurrences_collapsed": 21,
+    "strict_rows_demoted_to_possible_19c": 1,
+    "canonical_strict_19c_entries": 155,
+    "strict_data_batches": "07K-07AQ",
+    "closure_batch": "07AR",
+    "rows_added_in_07AR": 0
+  },
+  "canonicalisation": {
+    "alias_map": "data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json",
+    "merge_script": "scripts/prepare_survey_inputs.py",
+    "method": "Skip the 20 superseded distinct-ID aliases during runtime merge; collapse repeated entry_id values using the existing seen-entry check.",
+    "raw_batch_policy": "Do not delete historical modular batch rows; preserve them as an audit trail."
+  },
+  "same_entry_id_duplicate": {
+    "entry_id": "DE-MFN-HUBRECHT-EMBRYOLOGY-LATE19C",
+    "batches": ["07S", "07AN"],
+    "resolution": "One canonical runtime row through entry_id de-duplication."
+  },
+  "held_out_dispositions": [
+    {
+      "lead": "Pieter Harting / Universiteitsmuseum Utrecht",
+      "entry_id": "NL-UMU-PIETER-HARTING-PREPARATIONS-19C",
+      "status": "POSSIBLE_19C",
+      "resolution": "Retain in discovery; exclude from strict slide layer because the public source confirms surviving Harting preparations but does not close them specifically as glass microscope slides.",
+      "source": "https://umu.nl/pieter-harting/"
+    },
+    {
+      "lead": "Walther Flemming / Kiel",
+      "status": "EXCLUDED_NO_SURVIVING_SLIDE_NODE",
+      "resolution": "Correct closure-stage shorthand from Flemming/Lund to Flemming/Kiel. Kiel institutional history states that anatomical writings and preparations were lost when the institute was destroyed in 1944.",
+      "source": "https://www.uni-kiel.de/ps/cgi-bin/unizeit/data/uz-46/pdf/uz-46.pdf"
+    },
+    {
+      "lead": "King's College London Museum of Life Sciences",
+      "status": "HELD_OUT",
+      "resolution": "Museum-wide holdings include microscope slides and specimens dating from the early nineteenth century onward, but public pages do not identify a closed nineteenth-century slide subset. The Dawes two-cabinet slide collection is explicitly mid-twentieth-century and therefore out of period.",
+      "sources": [
+        "https://www.kcl.ac.uk/lsm/centre-for-education/museums/museum-of-life-sciences",
+        "https://www.kcl.ac.uk/its-no-fluke"
+      ]
+    },
+    {
+      "lead": "Perroncito veterinary/parasitology collection",
+      "status": "HELD_OUT",
+      "resolution": "Earlier audit remains in force: nineteenth-century collection dating and histological-preparation evidence are not yet closed onto the same surviving slide objects."
+    }
+  ],
+  "quantity_namespaces": [
+    "individual slide or microscopic preparation",
+    "current surviving slide total",
+    "historical dated inventory/acquisition state",
+    "serial-set position",
+    "embryo/specimen series",
+    "catalogue/sample/accession/register identifier",
+    "box/tray/drawer/cabinet count",
+    "cabinet capacity or slot count",
+    "specimen/taxon/locality/raw-sample count",
+    "drawing/photograph/negative count",
+    "digital image/database-row count",
+    "mixed-period parent-collection total"
+  ],
+  "relationship_namespaces": [
+    "prepared by",
+    "mounted by",
+    "collected by",
+    "assembled by",
+    "used by",
+    "sent to",
+    "received by",
+    "exchanged by",
+    "presented to",
+    "donated by",
+    "purchased by",
+    "sold by",
+    "distributed by",
+    "lent by",
+    "transferred from",
+    "from the collection of",
+    "belonging to",
+    "held by",
+    "catalogued by",
+    "digitised by",
+    "inscribed",
+    "labelled by",
+    "part of",
+    "from the period of"
+  ],
+  "intentional_hierarchies": [
+    "John Tomes child series vs combined Tomes father-son parent collection",
+    "MNHN Comparative Anatomy parent vs Gervais/Schmidt subcollections",
+    "RAMM Sladen/Carpenter aggregate vs W. B. Carpenter foraminifera subcorpus",
+    "Freiberg parent thin-section collection vs 30-section Fuess set",
+    "Bell-Pettigrew parent vs named maker/contributor groups",
+    "Heddle parent collection vs Blarney item",
+    "NHM parent/Data-Portal collections vs independently identified historical acquisitions",
+    "distributed diatom set copies at separate institutions",
+    "NMS Nicol/Forbes holding vs BGS Hooker/Nicol holding"
+  ],
+  "validation": {
+    "fresh_final_check_run_observed_at_manifest_creation": false,
+    "claim": "The closure is a data-audit freeze, not a claim that a fresh final GitHub Actions run passed. Check-run status is queried after the final manifest commit.",
+    "last_known_historical_workflow_success": "An older slide-survey workflow run succeeded on an earlier Aug 7 head; it is not evidence for the 07AR head."
+  },
+  "closure_files": {
+    "audit": "data/survey/07AR_CLOSURE_AUDIT_2026-08-09.md",
+    "alias_map": "data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json",
+    "manifest": "data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json",
+    "scope_overrides": "data/survey/scope_19c_overrides.json",
+    "readme": "README.md"
+  },
+  "reopening_policy": "Any later discovery, corrected attribution, new institutional reply, newly digitised register, or revised item count must enter a later version/reopening rather than silently extending this CLOSED_2026-08-09 state."
+}

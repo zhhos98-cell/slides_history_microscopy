@@ -1,0 +1,9 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v8-07N-19c",
+  "assignments": {
+    "institution_collection_record": [
+      "umu_collection_story_static",
+      "nhmw_archive_static"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v35-07AK-19c-personal-collections",
+  "purpose": "Adapters for strict nineteenth-century personal and institutional slide collections recovered through item-level shelf lists, current local-authority collection records, museum audit literature and bounded institutional inventories.",
+  "guards": [
+    "Do not project mixed-period current collection totals wholly into the nineteenth century; isolate pre-1900 objects from explicit labels, dates and maker chronology.",
+    "Keep current physical arrangement separate from original provenance where material from one historical collection is intentionally intermixed inside another.",
+    "Retrospective modern accession or registration dates document later museum control and must not be substituted for historical object-production or collection-entry dates.",
+    "Preserve non-standard early slide dimensions and homemade glass formats rather than normalising them to the later 76 x 26 mm standard.",
+    "A named historical user is not automatically the preparer or maker; preserve use, preparation and custody as separate relations."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "farlow_cheever_catalogue",
+      "status": "active_metadata",
+      "institution_scope": "Harvard Farlow Herbarium Clarence A. Cheever diatom collection",
+      "target": "official Cheever collection page, forty box shelf lists and locality index",
+      "expected_terms": ["Clarence A. Cheever", "About 10,000 slides", "B1-B40", "1872", "1889", "1899"],
+      "item_url_pattern": "diatoms.hsites.harvard.edu/{record}",
+      "promotion_rule": "Harvest box/slide positions, label text, maker, locality and explicit date fields to isolate nineteenth-century slides; retain Terry and other provenance annotations where current Cheever arrangement contains intermixed material."
+    },
+    {
+      "site_adapter": "east_ayrshire_blackwood_petrology",
+      "status": "active_metadata",
+      "institution_scope": "East Ayrshire Natural Sciences / Dick Institute James Blackwood collection",
+      "target": "current Future Museum collector page plus East Ayrshire collection-development strategy",
+      "expected_terms": ["James Blackwood", "1000 slides", "1500 specimens", "Heddle", "1893"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture the 1000-slide-to-rock collection relation, Heddle manuscript notebook and Blackwood's pre-1893 collection formation; model post-1901 Dick Institute custody as a separate later museum event."
+    },
+    {
+      "site_adapter": "nms_peach_palaeobotany",
+      "status": "active_metadata",
+      "institution_scope": "National Museums Scotland Charles W. Peach palaeobotanical microscope slides",
+      "target": "Geological Curator collection audit and NMS retrospective accession NMS.G.2007.28",
+      "expected_terms": ["Pettycur", "30 glass slides", "1871", "NMS.G.2007.28", "Peach"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat the thirty 1871 Pettycur slides as a bounded subseries; capture handwritten labels, variable slide formats and accompanying paper documentation while keeping the 1999 microscope acquisition and 2007 retrospective slide registration as separate modern custody/documentation events."
+    },
+    {
+      "site_adapter": "smg_human_remains_inventory_pdf",
+      "status": "active_metadata",
+      "institution_scope": "Science Museum Group historical human-remains/microscope-slide inventory",
+      "target": "institutional human-remains inventory entry and collection-search endpoint for Y1996.148.2",
+      "expected_terms": ["Y1996.148.2", "J.E. Wilson", "Manchester Dental Hospital", "1855-1865", "Glass slides"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve object number, date range, Manchester Dental Hospital provenance and use-by relation exactly as catalogued; do not infer maker, slide count or specimen subject until an underlying item record or images provide them."
+    }
+  ]
+}

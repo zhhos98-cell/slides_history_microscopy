@@ -1,0 +1,67 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v33-07AI-19c-europe-recovery",
+  "purpose": "Adapters for nineteenth-century European comparative-anatomy, paleohistology, petrography, acarology and university-teaching slide collections recovered through deep collection-history search.",
+  "guards": [
+    "Do not convert mixed preparation totals into microscope-slide totals when a collection contains dry, fluid, mounted or other media.",
+    "Preserve production or set date separately from institutional acquisition date; a nineteenth-century commercial set can enter its present institution after 1900.",
+    "Preserve missing, rediscovered, transferred and wartime-loss states as events rather than silently normalising the present collection.",
+    "Current section totals in long-lived university collections are dated present states and are not nineteenth-century subtotals.",
+    "Keep preparator, research user, collection attribution and current custody as separate relations where historical labels or studies distinguish them."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "venice_trois_anatomy_static",
+      "status": "active_metadata",
+      "institution_scope": "Museo di Storia Naturale di Venezia Giancarlo Ligabue Enrico Filippo Trois collection",
+      "target": "official comparative-anatomy collection page plus published conservation and inventory study",
+      "expected_terms": ["Enrico Filippo Trois", "1866-1918", "2,000", "microscope", "preparations"],
+      "item_url_pattern": "",
+      "promotion_rule": "Recover inventory records classified as microscopic preparations and isolate 1866-1899 objects; preserve dry, fluid and slide preparations as separate media and posthumous transfer to the Venice museum as a later custody event."
+    },
+    {
+      "site_adapter": "mnhn_gervais_histology_literature",
+      "status": "active_metadata",
+      "institution_scope": "MNHN Comparative Anatomy Paul Gervais historical histology collection",
+      "target": "peer-reviewed fish-skeleton histology reassessment and related paleohistological rediscovery study",
+      "expected_terms": ["Paul Gervais", "forty", "thin sections", "still present", "Museum"],
+      "item_url_pattern": "",
+      "promotion_rule": "Enumerate the explicitly surviving 40 fish skeletal sections and their historical labels while keeping the separate fossil/eggshell/tooth/bone Gervais corpus distinct until inventory overlap is resolved."
+    },
+    {
+      "site_adapter": "coimbra_krantz_thin_sections_literature",
+      "status": "active_metadata",
+      "institution_scope": "University of Coimbra Science Museum Krantz rock thin-section collection",
+      "target": "University of Coimbra Press collection study and surviving 1897 catalogue",
+      "expected_terms": ["248", "250", "Krantz", "1897", "325 marks"],
+      "item_url_pattern": "",
+      "promotion_rule": "Model 250 original set positions and 248 present survivors, preserve the May 1897 catalogue and price, and retain uncertainty over whether Coimbra acquired its copy in the late nineteenth or early twentieth century."
+    },
+    {
+      "site_adapter": "uzh_bauer_ichthyosaur_literature",
+      "status": "active_metadata",
+      "institution_scope": "University of Zurich palaeontological collections Franz Bauer ichthyosaur tooth sections",
+      "target": "2011 Swiss Journal of Geosciences rediscovery study",
+      "expected_terms": ["nine petrographic slides", "1898", "Franz Bauer", "Zurich", "World War II"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture all nine surviving slide identities and sequence, Munich/BSPG origin, 1898 dissertation use and 2010 Zurich rediscovery; leave the historical transfer mechanism unresolved until archival evidence is found."
+    },
+    {
+      "site_adapter": "portici_costa_mite_static",
+      "status": "active_metadata",
+      "institution_scope": "MUSA Reggia di Portici Filippo Silvestri Entomological Museum Achille Costa material",
+      "target": "official museum history and DiSSCo-ITINERIS collection record",
+      "expected_terms": ["Achille Costa", "1876", "one thousand", "microscopic preparations", "mites"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat the approximately 1000 mite microscopic preparations as the bounded nineteenth-century Costa corpus and keep later Berlese/Silvestri and current taxonomic holdings separate."
+    },
+    {
+      "site_adapter": "spbsu_zootomy_micropreps_literature",
+      "status": "active_metadata",
+      "institution_scope": "Saint Petersburg State University zoological microscopic-preparation collection",
+      "target": "2025 SPbSU bioresource-collections review and referenced electronic catalogue",
+      "expected_terms": ["mid-19th century", "1896", "Shevyakov", "Red", "1,870", "electronic catalogue"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use the review to establish nineteenth-century collection formation, then isolate pre-1900 items from the electronic catalogue or internal records; keep Red Blue Green and personal-collection present totals as separate modern states."
+    }
+  ]
+}

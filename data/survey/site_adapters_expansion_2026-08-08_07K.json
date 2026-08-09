@@ -1,0 +1,57 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v9-07K-19c",
+  "purpose": "Adapters for the first strict nineteenth-century survey batch. Every 07K entry has an explicit 1800-1899 object, maker, collection, trade, use, or provenance node.",
+  "guards": [
+    "Current museum infrastructure may be modern; the harvested historical object or batch must retain its explicit nineteenth-century date/provenance anchor.",
+    "Preserve later museum acquisition, donation, sale and rediscovery as separate custody events rather than replacing the nineteenth-century object date.",
+    "Do not collapse maker, preparer, seller, owner/collector, donor and current holder into one relation.",
+    "Use JSON or IIIF metadata where advertised, but do not fetch image binaries in the census workflow."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "smg_object_json_iiif",
+      "status": "active_metadata",
+      "institution_scope": "Science Museum Group Collection",
+      "target": "bounded nineteenth-century microscope-slide object/case records",
+      "expected_terms": ["microscope slide", "Made", "Object Number", "Download catalogue entry as json", "IIIF"],
+      "item_url_pattern": "collection.sciencemuseumgroup.org.uk/objects/{object_slug}",
+      "promotion_rule": "Capture parent case/set, child records, object number, maker/preparer, made date and current collection separately; follow advertised JSON/IIIF metadata only."
+    },
+    {
+      "site_adapter": "ohsu_digital_collection_iiif",
+      "status": "active_metadata",
+      "institution_scope": "OHSU Historical Collections & Archives digital collections",
+      "target": "Medical Museum Collection microscope-slide case records",
+      "expected_terms": ["Microscope slides", "ca. 1880-1900", "approximately 94", "Box 42", "IIIF"],
+      "item_url_pattern": "digitalcollections.ohsu.edu/record/{id}",
+      "promotion_rule": "Keep object date, later donor/date, box number, chest structure, label state and IIIF manifest as distinct fields."
+    },
+    {
+      "site_adapter": "nmah_object_iiif",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian National Museum of American History",
+      "target": "bounded historical microscope-slide object/set records",
+      "expected_terms": ["Microscope Slides", "ID Number", "Accession Number", "IIIF"],
+      "item_url_pattern": "americanhistory.si.edu/collections/object/{record_id}",
+      "promotion_rule": "Capture inscription-based attribution, accession/catalogue IDs, physical box/set structure and related maker/place/date fields without upgrading probable attribution to certainty."
+    },
+    {
+      "site_adapter": "whipple_object_static",
+      "status": "active_metadata",
+      "institution_scope": "Whipple Museum of the History of Science",
+      "target": "historical microscope-slide cases and individually significant labelled slides",
+      "expected_terms": ["Accession No", "microscope slide", "Earliest Date", "Latest Date", "Provenance"],
+      "item_url_pattern": "collections.whipplemuseum.cam.ac.uk/objects/{id}",
+      "promotion_rule": "Capture accession number, bounded date range, maker/seller labels, case/tray structure, damage/broken-slide notes and museum purchase provenance."
+    },
+    {
+      "site_adapter": "rmg_object_static",
+      "status": "active_metadata",
+      "institution_scope": "Royal Museums Greenwich",
+      "target": "Herschel-family microscope-slide and cabinet-context records",
+      "expected_terms": ["Microscope slide", "1880", "15-drawer cabinet", "Herschel family"],
+      "item_url_pattern": "rmg.co.uk/collections/objects/{object_id}",
+      "promotion_rule": "Preserve the household cabinet provenance, successive-generation use, individual handwritten labels and modern discovery/custody as separate events."
+    }
+  ]
+}

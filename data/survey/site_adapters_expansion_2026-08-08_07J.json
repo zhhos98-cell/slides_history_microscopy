@@ -1,0 +1,83 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v8-07J",
+  "purpose": "Adapters for Google-discovered and official-source-verified microscope-slide collection nodes added in 07J.",
+  "guards": [
+    "Use broad web search for discovery but promote only after verifying an institutional or authoritative collection source.",
+    "Keep photographic slides, pinned specimens, wet lots, thin sections and microscope slides as separate media/count scopes.",
+    "For distributed exsiccata slide sets, treat each fascicle and recipient holding as separate batch/provenance layers."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "unam_insect_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Instituto de Biologia UNAM insect collections",
+      "target": "official insect collection page with named collection subsections",
+      "expected_terms": ["Thysanoptera", "35000", "preparaciones microscópicas", "bálsamo de Canadá"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract each named insect collection separately and preserve microscopic-preparation counts independently from type/species totals."
+    },
+    {
+      "site_adapter": "fiocruz_ceioc_static",
+      "status": "active_metadata",
+      "institution_scope": "Colecao Entomologica do Instituto Oswaldo Cruz",
+      "target": "official CEIOC collection history and historical collection summary",
+      "expected_terms": ["lâminas", "Otávio Mangabeira", "1.632", "coleções históricas"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat each closed historical collection as a named batch; preserve slide, alcohol-tube, pinned and other preservation counts separately and follow catalogue/speciesLink only when collection identity persists."
+    },
+    {
+      "site_adapter": "mzusp_hemiptera_static",
+      "status": "active_metadata",
+      "institution_scope": "Museu de Zoologia da Universidade de Sao Paulo Hemiptera",
+      "target": "official Hemiptera laboratory/collection page",
+      "expected_terms": ["8000", "lâminas", "120.000", "500 gavetas"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract slide count as its own preservation category; retain steel-cabinet/drawer description as collection-wide physical context."
+    },
+    {
+      "site_adapter": "usp_labmicro_static",
+      "status": "active_metadata",
+      "institution_scope": "Universidade de Sao Paulo Laboratorio de Microarqueologia",
+      "target": "official collection page for micromorphology thin sections",
+      "expected_terms": ["400", "seções delgadas", "micromorfologia", "América do Sul"],
+      "item_url_pattern": "",
+      "promotion_rule": "Type these records explicitly as archaeological micromorphology thin sections and preserve site/project/experimental-series relations."
+    },
+    {
+      "site_adapter": "unal_unab_static",
+      "status": "active_metadata",
+      "institution_scope": "Universidad Nacional de Colombia Museo Entomologico UNAB",
+      "target": "official museum page listing five named component collections",
+      "expected_terms": ["Colección de Láminas", "180.000", "Collembola", "préstamo"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote the named Coleccion de Laminas as a collection node while keeping the 180,000 total museum specimens out of the slide-count field."
+    },
+    {
+      "site_adapter": "ui_archaeology_palynology_static",
+      "status": "active_metadata",
+      "institution_scope": "University of Ibadan Department of Archaeology and Anthropology",
+      "target": "official department page describing museum, laboratories and teaching collections",
+      "expected_terms": ["3000 microscope slides", "pollen grains", "spores", "Nigerian plants"],
+      "item_url_pattern": "",
+      "promotion_rule": "Keep the 3,000+ microscope pollen/spore slides separate from the independently stated 3,000+ 35mm transparencies."
+    },
+    {
+      "site_adapter": "kahaku_watanabe_diatom_db",
+      "status": "active_metadata",
+      "institution_scope": "National Museum of Nature and Science Tokyo microalgae herbarium",
+      "target": "Toshiharu Watanabe freshwater diatom collection database and collection history",
+      "expected_terms": ["2002", "2009", "スライド", "データベース"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve staged donation events and use database records to connect slide/original material to species composition and the cited 2005 monograph."
+    },
+    {
+      "site_adapter": "kahaku_algae_exsiccatae_static",
+      "status": "active_metadata",
+      "institution_scope": "National Museum of Nature and Science Tokyo freshwater algae exsiccata series",
+      "target": "official Algae Aquae Dulcis Japonicae Exsiccatae series page",
+      "expected_terms": ["20", "永久プレパラート", "30", "交換"],
+      "item_url_pattern": "",
+      "promotion_rule": "Model each 20-slide fascicle as a published set and each recipient institution as a potential provenance edge; do not infer survival of recipient copies without object-side confirmation."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v29-07AI",
+  "assignments": {
+    "institution_collection_record": [
+      "venice_trois_anatomy_static",
+      "portici_costa_mite_static"
+    ],
+    "literature_or_project_evidence": [
+      "mnhn_gervais_histology_literature",
+      "coimbra_krantz_thin_sections_literature",
+      "uzh_bauer_ichthyosaur_literature",
+      "spbsu_zootomy_micropreps_literature"
+    ]
+  }
+}

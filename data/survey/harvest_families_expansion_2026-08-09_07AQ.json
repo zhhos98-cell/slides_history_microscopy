@@ -1,0 +1,18 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v37-07AQ",
+  "assignments": {
+    "institution_collection_record": [
+      "meduni_vienna_josephinum_histopathology"
+    ],
+    "specialized_collection_catalogue": [
+      "yale_peabody_lentz_historical_slides"
+    ],
+    "collection_page_plus_search_portal": [
+      "mnhn_comparative_anatomy_histology",
+      "ucl_grant_historical_slide_collection"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "smg_wellcome_a651330_slide_pieces"
+    ]
+  }
+}

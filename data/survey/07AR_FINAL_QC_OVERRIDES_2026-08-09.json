@@ -1,0 +1,49 @@
+{
+  "schema_version": "slide-survey-final-qc-overrides-v1-07AR",
+  "status": "CLOSED_2026-08-09",
+  "purpose": "Apply final export-only presentation and quantity-namespace clarifications without changing the frozen 155-entry membership or rewriting the modular audit trail.",
+  "rules": [
+    "Institution normalization changes only current-institution display strings; source rows remain unchanged.",
+    "Serial-set endpoints remain serial namespaces and are not presented as extant institutional slide counts unless the source independently states a surviving total.",
+    "Mixed-period group totals are explicitly qualified when they could otherwise be mistaken for a nineteenth-century subtotal.",
+    "No relationship, attribution, date, source URL, provenance grade, or membership decision is changed by this overlay."
+  ],
+  "institution_value_map": {
+    "Powerhouse Museum / Powerhouse Collection": "Powerhouse Collection",
+    "Museum fuer Naturkunde Berlin": "Museum für Naturkunde Berlin",
+    "Museum national d'Histoire naturelle Paris": "Muséum national d'Histoire naturelle, Paris",
+    "Muséum national d'Histoire naturelle Paris": "Muséum national d'Histoire naturelle, Paris",
+    "Museum national d'Histoire naturelle Paris Laboratory of Comparative Anatomy": "Muséum national d'Histoire naturelle, Paris",
+    "The Hunterian University of Glasgow": "The Hunterian, University of Glasgow",
+    "Whipple Museum of the History of Science University of Cambridge": "Whipple Museum of the History of Science, University of Cambridge",
+    "Farlow Herbarium Harvard University": "Farlow Herbarium, Harvard University",
+    "Farlow Herbarium Harvard University Herbaria and Libraries": "Farlow Herbarium, Harvard University",
+    "Harvard Museum of Comparative Zoology": "Museum of Comparative Zoology, Harvard University",
+    "Harvard University Museum of Comparative Zoology (MCZ)": "Museum of Comparative Zoology, Harvard University",
+    "Hunterian Museum / Royal College of Surgeons of England": "Hunterian Museum, Royal College of Surgeons of England",
+    "Royal College of Surgeons of England / Hunterian Museum": "Hunterian Museum, Royal College of Surgeons of England"
+  },
+  "entry_field_overrides": {
+    "US-FARLOW-CLEVE-MOLLER-DIATOMS-1877": {
+      "stated_count": "published serial range 1-324 across Parts I-VI; extant Farlow copy count not independently stated"
+    },
+    "US-FARLOW-EULENSTEIN-DIATOMACEARUM-1867": {
+      "stated_count": "Farlow holds copies of Century I editions 1 and 2, each using serial range 1-100; 23 Century II slides are explicitly surviving and individually listed"
+    },
+    "US-FARLOW-HL-SMITH-DIATOMACEARUM-1876": {
+      "stated_count": "published serial range 1-750: centuries I-VI use 1-600 and supplement 601-750; extant Farlow copy count not independently stated"
+    },
+    "US-FARLOW-VAN-HEURCK-GRUNOW-TYPES-1882": {
+      "stated_count": "published serial range 1-550 across series I-XXII; extant Farlow copy count not independently stated"
+    },
+    "US-FARLOW-KITTON-NORFOLK-DIATOMS-1885": {
+      "stated_count": "published serial range 1-100 across series I-IV; extant Farlow copy count not independently stated"
+    },
+    "US-ANSP-CLEVE-MOLLER-324-1877-1882": {
+      "stated_count": "published serial range 1-324; current extant total of the ANSP institutional copy not independently stated"
+    },
+    "UK-STANDREWS-MCINTOSH-SLIDES-1860": {
+      "stated_count": "62 slides in the current mixed-period 1860-1931 group; nineteenth-century subtotal unresolved"
+    }
+  }
+}

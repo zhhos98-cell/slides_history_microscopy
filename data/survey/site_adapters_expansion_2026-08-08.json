@@ -1,0 +1,74 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v1",
+  "purpose": "Adapter expansion for 07B global microscope-slide survey entries. These entries remain metadata-only and collection-scale.",
+  "guards": [
+    "Fetch metadata pages only; do not bulk-download images.",
+    "Do not collapse relationship phrases into ownership.",
+    "Keep microscope slides separate from 35mm slides and other slide media."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "nhm_phthiraptera_literature",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London",
+      "target": "Phthiraptera microscope slide digitisation literature page",
+      "expected_terms": ["Phthiraptera", "70,663", "microscope slides", "barcode", "CMS"],
+      "item_url_pattern": "data.nhm.ac.uk/object/{uuid}",
+      "promotion_rule": "Promote as a specific high-volume subcollection and workflow bridge; data-portal object links still require separate extraction."
+    },
+    {
+      "site_adapter": "hunterian_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Hunterian Museum / Royal College of Surgeons of England",
+      "target": "Microscope Slide Collection page",
+      "expected_terms": ["Microscope Slide Collection", "Quekett", "RCSMS", "prepared"],
+      "item_url_pattern": "hunterianmuseum.org/objects/{RCSMS_id}",
+      "promotion_rule": "Preserve RCSMS identifiers and named preparers; do not flatten preparation or collection into ownership."
+    },
+    {
+      "site_adapter": "kcl_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "King's College London Museum of Life Sciences",
+      "target": "Museum of Life Sciences collection page",
+      "expected_terms": ["Microscope Slide Collection", "Dawes", "cabinets", "Museum of Life Sciences"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote named cabinet/collection evidence; separate microscope slides from 35mm slides."
+    },
+    {
+      "site_adapter": "manchester_gibson_literature",
+      "status": "active_metadata",
+      "institution_scope": "University of Manchester Museum of Medicine and Health",
+      "target": "Gibson microscope slide collection article",
+      "expected_terms": ["681 slides", "twenty-five numbered trays", "thirty-four different suppliers", "donated", "Arthur Gibson"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture 681-slide count, 25-tray cabinet structure, supplier labels and donation history; preserve uncertainty about the original pre-Gibson owner."
+    },
+    {
+      "site_adapter": "mcz_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Harvard Museum of Comparative Zoology",
+      "target": "MCZ Microscope Slide Collection page",
+      "expected_terms": ["Microscope Slide Collection", "Museum of Comparative Zoology", "slides"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote official MCZ collection endpoint and related data links; keep separate from Harvard Blaschka glass-model records."
+    },
+    {
+      "site_adapter": "florida_museum_static",
+      "status": "active_metadata",
+      "institution_scope": "Florida Museum of Natural History",
+      "target": "Paleobotany and palynology collection page",
+      "expected_terms": ["palynological", "slides", "wood", "microscope slides"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote explicit palynology and wood slide counts as collection-scale botanical evidence."
+    },
+    {
+      "site_adapter": "mnhn_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Museum national d'Histoire naturelle Paris",
+      "target": "MNHN official collection page",
+      "expected_terms": ["microscope slides", "type collection", "MNHN", "meiofauna"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote official collection pages with explicit slide counts and type-collection structure."
+    }
+  ]
+}

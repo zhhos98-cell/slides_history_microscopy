@@ -1,0 +1,77 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v34-07AJ-19c-working-collections",
+  "purpose": "Adapters for nineteenth-century working slide collections and teaching histotheques recovered through deep institutional and collection-history search, including Deby, Giacomini, Siena, Milan veterinary histology and Oscar Schmidt's distributed sponge-slide network.",
+  "guards": [
+    "Historical acquisition totals are dated states and must not be presented as current survivor counts without item-level inventory evidence.",
+    "Nested collections and published exsiccata sets inside a larger acquisition must not be double-counted against the parent aggregate.",
+    "Do not attribute every preparation in a museum section to the named scientist when the source distinguishes personal material from former-institute or later collection layers.",
+    "Keep histological preparations as a qualified preparation class where a source does not explicitly document standard rectangular glass-slide mounting.",
+    "Preserve custom slide formats, purpose-built histotheques, lost labels and modern remounting/re-preparation as object-history evidence rather than normalising them away.",
+    "Distributed slides by one maker are separate physical holdings at each institution; do not merge Strasbourg, Paris, Copenhagen or London copies into one object count."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "nhm_deby_diatom_historical",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London Julien Marc Deby historical diatom acquisition",
+      "target": "current NHM Diatom Collection/Data Portal plus British Museum historical collection history",
+      "expected_terms": ["Julien Marc Deby", "12,541", "1893", "Hardman", "Donkin", "type slides"],
+      "item_url_pattern": "data.nhm.ac.uk/object/{uuid}",
+      "promotion_rule": "Model 12541 as the 1893 purchase state, preserve named nested personal collections and distributed sets as components, and derive any present-survivor subtotal only from current NHM records."
+    },
+    {
+      "site_adapter": "turin_giacomini_histology_archive",
+      "status": "active_metadata",
+      "institution_scope": "University of Turin Luigi Rolando Human Anatomy Museum Carlo Giacomini microscopic preparations",
+      "target": "official museum collection studies plus ASIATo preparation registers and archival files",
+      "expected_terms": ["Carlo Giacomini", "sezioni istologiche", "preparati microscopici", "1881", "1887-1896", "istoteca"],
+      "item_url_pattern": "atom.unito.it/{record}",
+      "promotion_rule": "Crosswalk surviving nervous-system and embryo histology preparations to institute registers, embryo identifiers, publications, special microscope/coverslip procurement and archive files; keep large in-toto sections separate from smaller histological slides."
+    },
+    {
+      "site_adapter": "milan_vet_histology_static",
+      "status": "active_metadata",
+      "institution_scope": "University of Milan Veterinary Anatomical Museum historical histological preparations",
+      "target": "official university museum-system page and DIVAS inventory discovery",
+      "expected_terms": ["preparati istologici", "metà dell'Ottocento", "Museo Anatomico", "Scienze veterinarie"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use the official collection chronology as a nineteenth-century existence node and locate the museum inventory before assigning slide counts or glass-mount format; keep the >1500 mixed anatomical-preparation total out of slide arithmetic."
+    },
+    {
+      "site_adapter": "siena_comparini_histology_static",
+      "status": "active_metadata",
+      "institution_scope": "University of Siena Leonetto Comparini Human Anatomy Museum",
+      "target": "official museum history, present collection page and historical histotheque inventory",
+      "expected_terms": ["Gabbrielli", "Barth di Lipsia", "centinaio", "preparazioni microscopiche", "istoteche"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve the Gabbrielli donation and approximately 100 Barth purchase as separate historical acquisition layers, then identify current survivors from period histotheques and inventory labels instead of projecting historical counts into the present."
+    },
+    {
+      "site_adapter": "strasbourg_schmidt_spicule_slides",
+      "status": "active_metadata",
+      "institution_scope": "Musée Zoologique de Strasbourg Oscar Schmidt sponge-slide collection",
+      "target": "2025 Journal of the History of Collections direct inventory of Schmidt slides and parallel envelope/dry collections",
+      "expected_terms": ["497 slides", "Oscar Schmidt", "MZS Po1876", "spicule preparations", "4.6 cm", "Strasbourg"],
+      "item_url_pattern": "",
+      "promotion_rule": "Enumerate all 497 Schmidt-made slides by museum identifier/slot where available and link matching envelopes, dry specimens, localities and type status; keep later slides made from Schmidt material and modern lectotype preparations outside the historical count."
+    },
+    {
+      "site_adapter": "mnhn_schmidt_spicule_slides",
+      "status": "active_metadata",
+      "institution_scope": "MNHN Paris Oscar Schmidt sponge spicule slides",
+      "target": "2025 cross-institution Schmidt study plus MNHN Porifera inventory",
+      "expected_terms": ["14 slides", "Schmidt", "MNHN", "spicule"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat 14 as the current physical Schmidt-slide subset reported in the 2025 study; recover museum identifiers, type relations and transfer histories without adding them to the Strasbourg 497 count."
+    },
+    {
+      "site_adapter": "copenhagen_schmidt_spicule_slides",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum of Denmark / ZMUC Oscar Schmidt sponge spicule slides",
+      "target": "2025 cross-institution Schmidt study plus Copenhagen zoological collection inventory",
+      "expected_terms": ["94 slides", "Schmidt", "ZMUC", "Copenhagen"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat 94 as the current Copenhagen physical holding and recover item identifiers and acquisition/exchange routes; keep the institutional subset distinct from Strasbourg and Paris."
+    }
+  ]
+}

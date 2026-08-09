@@ -1,0 +1,58 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v32-07AH-19c-oxford-madrid-bale",
+  "purpose": "Adapters for a bounded Oxford palaeobotanical teaching-slide catalogue, newly located and recovered historical MNCN preparation layers, a nineteenth-century Madrid school teaching collection, and item-level W. M. Bale hydroid microslides at Museums Victoria.",
+  "guards": [
+    "Do not turn pre-1912 acquisition counts into nineteenth-century counts without item-level dating.",
+    "Keep newly located mixed historical/current preparation batches as mixed until inventory records isolate the historical subset.",
+    "Preserve uncertain historical assignments explicitly, including MNCN sponge slides whose nineteenth-century attribution rests on label form, staining or numerical annotations rather than dates.",
+    "Keep episcopic projection slides, lantern slides and other glass projection media separate from microscopic preparations even when one teaching museum preserves both.",
+    "For type-slide databases, use identification, collection and preparation dates where available rather than treating a taxon author year by itself as the object date."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "oxford_palaeobot_brahms",
+      "status": "active_metadata",
+      "institution_scope": "Oxford University Herbaria OXF Palaeobotox collection",
+      "target": "BRAHMS catalogue of 115 palaeobotanical microscope slides with slide images and notebook cross-links",
+      "expected_terms": ["115", "microscope slides", "101", "notebook", "Lomax", "lost"],
+      "item_url_pattern": "herbaria.plants.ox.ac.uk/bol/palaeobotox/{record}",
+      "promotion_rule": "Harvest slide-level names, images, notes, makers and acquisition evidence to isolate the late-nineteenth-century teaching subset; preserve nine apparently lost slides and the later 1929 Hemingway tranche separately."
+    },
+    {
+      "site_adapter": "mncn_arthropods_19c_static",
+      "status": "active_metadata",
+      "institution_scope": "Museo Nacional de Ciencias Naturales CSIC Arthropod Collection",
+      "target": "official arthropod collection page and inventory/database discovery for the recently located >10000 preparation batch",
+      "expected_terms": ["10.000", "preparaciones microscópicas", "finales del siglo XIX", "colecciones actuales", "Decápodos"],
+      "item_url_pattern": "",
+      "promotion_rule": "Retain >10000 as the newly located mixed batch state and separate late-nineteenth-century preparations from the unspecified current-author component before historical counting."
+    },
+    {
+      "site_adapter": "mncn_sponges_graellsia",
+      "status": "active_metadata",
+      "institution_scope": "Museo Nacional de Ciencias Naturales CSIC historical sponge collection",
+      "target": "2017 Graellsia collection study and underlying MNCN Invertebrate Collection database records",
+      "expected_terms": ["350", "90 %", "preparaciones microscópicas", "1896", "1897", "400"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture the roughly 350 late-nineteenth-century samples and >90% slide proportion, label/staining fields, Santander and Naples subgroups, and 55 doubtful datings; keep the >400 late-19th/early-20th recovery state separate."
+    },
+    {
+      "site_adapter": "ies_san_isidro_19c_static",
+      "status": "active_metadata",
+      "institution_scope": "IES San Isidro Madrid historical museum and Natural History Cabinet",
+      "target": "official EducaMadrid museum page and future cabinet catalogue",
+      "expected_terms": ["preparaciones microscópicas del siglo XIX", "Cajal", "microscopio", "diapositivas epidoscópicas", "gabinete de Historia Natural"],
+      "item_url_pattern": "",
+      "promotion_rule": "Establish the nineteenth-century microscopic-preparation teaching collection while excluding the separate approximately 300 episcopic glass projection slides and later microscope apparatus; seek item inventory and label-level records."
+    },
+    {
+      "site_adapter": "museumsvictoria_bale_microslides",
+      "status": "active_metadata",
+      "institution_scope": "Museums Victoria W. M. Bale Collection",
+      "target": "public specimen database filtered to W. M. Bale Collection, microslide nature/form and pre-1900 identification/collection dates",
+      "expected_terms": ["W.M. Bale Collection", "Nature: microslide", "Form: microslide", "Syntype", "Date Identified"],
+      "item_url_pattern": "collections.museumsvictoria.com.au/specimens/{id}",
+      "promotion_rule": "Enumerate pre-1900 Bale-collection microslides through item records, preserving type status, F registration number, identifier, collector, locality, depth and collection date; exclude later records even when the taxon name was published in the nineteenth century."
+    }
+  ]
+}

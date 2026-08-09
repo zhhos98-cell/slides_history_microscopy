@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v1",
+  "assignments": {
+    "institution_collection_record": [
+      "unam_cnac_static",
+      "fiocruz_ceioc_static",
+      "nrm_herbarium_static",
+      "nrm_diatom_static",
+      "steinhardt_paleobiology_static",
+      "arc_nca_mite_static",
+      "arc_ncn_nematode_static",
+      "arc_sanc_insect_static",
+      "arc_vet_vector_static"
+    ]
+  }
+}

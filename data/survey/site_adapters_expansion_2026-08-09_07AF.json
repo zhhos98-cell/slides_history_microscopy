@@ -1,0 +1,67 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v30-07AF-19c-early-cabinets-maker-sets",
+  "purpose": "Adapters for early Ypelaar cabinets and sets, nineteenth-century institutional collection formation, a transnational Australian slide box, NHM Thysanoptera digitisation and the Albert Mann diatom corpus. Science Museum Group rows reuse the existing smg_object_json_iiif adapter.",
+  "guards": [
+    "Preserve early circular bone- or ivory-mounted microscopic preparations as historically specific slide/preparation formats rather than silently normalising them to later rectangular glass slides.",
+    "Do not convert original cabinet counts or later accession totals into current surviving counts without inventory evidence.",
+    "Keep human-remains catalogue classifications and child-record hierarchies intact for bounded anatomical slide cases.",
+    "Keep biological preparations, microphotographs, crude samples, negatives and lantern slides as separate media even when they survive in one collection or box.",
+    "A modern collection total does not establish a nineteenth-century slide subtotal; use labels, dates, accession records and publication-linked items to isolate the historical layer."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "boerhaave_ypelaar_cabinet_static",
+      "status": "active_metadata",
+      "institution_scope": "Rijksmuseum Boerhaave Abraham Ypelaar / Nicolaas van Staphorst cabinet",
+      "target": "official museum story, signed handwritten catalogue and collection-catalogue endpoint",
+      "expected_terms": ["eight hundred", "nineteen drawers", "Ypelaar", "Nicolaas van Staphorst", "1,400 guilders"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture the original 800-specimen/19-drawer arrangement, Ypelaar attribution, Van Staphorst commission and purchase price; enumerate current surviving mounts only if the museum catalogue exposes them."
+    },
+    {
+      "site_adapter": "yale_ypelaar_lentz_static",
+      "status": "active_metadata",
+      "institution_scope": "Yale Peabody Museum Lentz Collection Ypelaar microscope-slide set",
+      "target": "Yale exhibition catalogue and eventual Peabody object record for the complete 24-slide set",
+      "expected_terms": ["Set of 24 Microscope Slides", "AYpelaar & comp", "1808", "1811", "Lentz Collection"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve the complete 24-object set, circular ivory-mount format, signature, materials and specimen-origin metadata; distinguish current Lentz/Yale custody from original workshop production."
+    },
+    {
+      "site_adapter": "rcsed_early_micropreps_history",
+      "status": "active_metadata",
+      "institution_scope": "Royal College of Surgeons of Edinburgh early microscopic preparation collection",
+      "target": "official museum history plus inventory discovery for preparations dating from 1850",
+      "expected_terms": ["earliest", "1850", "microscopic preparations", "Hamlin Lee", "unknown"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve unknown maker status and only record Hamlin Lee as a qualified possibility; locate surviving inventory/preparation records before asserting glass-slide counts."
+    },
+    {
+      "site_adapter": "powerhouse_prepared_19_static",
+      "status": "active_metadata",
+      "institution_scope": "Powerhouse Museum H9118 prepared microscope-slide box",
+      "target": "official object 255204 with individual slide descriptions and acquisition metadata",
+      "expected_terms": ["Prepared microscope slides (19)", "1860-1898", "J B Dancer", "W Watson", "G R Kerr"],
+      "item_url_pattern": "collection.powerhouse.com.au/object/{id}",
+      "promotion_rule": "Capture all nineteen positions where descriptions permit, including explicit 1860/1890/1892/1896/1898 dates and maker labels; keep microphotographs distinct from biological preparations and preserve 1974 gift as later custody."
+    },
+    {
+      "site_adapter": "nhm_thysanoptera_dataset",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London Thysanoptera slide collection",
+      "target": "official small-orders history plus 2022 complete slide-mounted Thysanoptera Data Portal dataset",
+      "expected_terms": ["112,000", "mostly of microscope slide preparations", "Francis Walker", "Thysanoptera Slide Collection", "Data Matrix"],
+      "item_url_pattern": "data.nhm.ac.uk/object/{uuid}",
+      "promotion_rule": "Use item labels, barcodes, collection dates, type status and accession metadata to identify the Francis Walker/pre-1875 layer; do not equate 112000 specimens with a slide count or historical subtotal."
+    },
+    {
+      "site_adapter": "smithsonian_mann_diatom_literature",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian / U.S. National Museum Albert Mann Diatom Collection",
+      "target": "USNM annual report, Mann Albatross publications and Smithsonian Archives Mann/Conger records",
+      "expected_terms": ["8,000 slides", "10,000 samples", "Albert Mann", "Albatross", "Carnegie Institution"],
+      "item_url_pattern": "",
+      "promotion_rule": "Retain the 8000-slide figure as the 1944 accession state, separate all other media, and isolate pre-1900 slides through 1894 mounted-specimen publications, 1899-1900 laboratory work, labels and archive records."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v24-07Z-19c-protist-malaria",
+  "purpose": "Adapters for strict nineteenth-century Wallich and Ronald Ross microscope-slide nodes recovered through deep object/archive cross-search.",
+  "guards": [
+    "Do not assume that the current NHM Wallich collection is identical to the 1867 Royal Microscopical Society donation; test collection identity through specimen numbers labels drawings manuscripts and acquisition records.",
+    "Preserve conflicting source dates for Ross slides rather than normalising them away.",
+    "Treat later re-examination digitisation and museum custody as events attached to historical slides."
+  ],
+  "adapters": [
+    {"site_adapter":"nhm_wallich_protist_static","status":"active_metadata","institution_scope":"Natural History Museum London Protist Collection","target":"official current protist collection page plus NHM Data Portal and archive catalogue","expected_terms":["25,000","Wallich collection","microscope slides","Data Portal"],"item_url_pattern":"data.nhm.ac.uk/object/{uuid}","promotion_rule":"Enumerate records explicitly attributed to the Wallich collection and compare specimen identifiers/provenance against the 1867 RMS 1031-slide gift and the 1912 J.C. Stevens purchase proposal before asserting continuity."},
+    {"site_adapter":"lshtm_ross_malaria_slides","status":"active_metadata","institution_scope":"London School of Hygiene & Tropical Medicine Ross Collection","target":"official Ross archive catalogue and LSHTM pages documenting the surviving malaria slide box","expected_terms":["malarial slides","1890s","wooden box","1897","Ross"],"item_url_pattern":"calmview.lshtm.ac.uk/calmview/{record}","promotion_rule":"Enumerate box/slide records if exposed and connect them to Ross notebook/correspondence; preserve 1890s versus 1900 wording as source-specific dating until individual labels resolve it."}
+  ]
+}

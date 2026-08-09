@@ -1,0 +1,127 @@
+{
+  "schema_version": "slide-survey-targeted-harvest-profiles-v1",
+  "purpose": "Third-wave catalogue-specific recipes selected only after two reconnaissance Actions runs. These recipes prefer bounded enumeration of known catalogue structures over broad crawling.",
+  "defaults": {
+    "absolute_request_cap": 140,
+    "max_bytes": 4000000,
+    "max_pdf_bytes": 5000000,
+    "text_sample_chars": 24000
+  },
+  "adapters": {
+    "standrews_items": {
+      "institution_key": "university-of-st-andrews-libraries-and-museums",
+      "strategy": "targeted_bfs",
+      "request_budget": 130,
+      "allowed_hosts": ["collections.st-andrews.ac.uk"],
+      "extra_seed_urls": [
+        "https://collections.st-andrews.ac.uk/group/bell-pettigrew-zoology-microscope-slide-collection/2053389",
+        "https://collections.st-andrews.ac.uk/search/?query=ParentIRN:2053389&form=tabular&mode=query&query_type=query_and&sort=metaID"
+      ],
+      "follow_url_regex": ["/item/", "/group/", "/collection/", "[?&]page="],
+      "relevance_terms": ["microscope slide", "microscope slides", "bell pettigrew", "charles elcock", "mcintosh", "berlese", "stazione zoologica"]
+    },
+    "farlow_series": {
+      "institution_key": "farlow-herbarium",
+      "strategy": "targeted_bfs",
+      "request_budget": 80,
+      "allowed_hosts": ["diatoms.hsites.harvard.edu"],
+      "extra_seed_urls": [
+        "https://diatoms.hsites.harvard.edu/published-collections",
+        "https://diatoms.hsites.harvard.edu/unique-collections",
+        "https://diatoms.hsites.harvard.edu/eulenstein",
+        "https://diatoms.hsites.harvard.edu/smith",
+        "https://diatoms.hsites.harvard.edu/cleve-m%C3%B6ller",
+        "https://diatoms.hsites.harvard.edu/bailey-collection",
+        "https://diatoms.hsites.harvard.edu/boston-society-collection",
+        "https://diatoms.hsites.harvard.edu/cheever-collection",
+        "https://diatoms.hsites.harvard.edu/terry-collection"
+      ],
+      "follow_url_regex": ["/(?:cheever|terry|bailey|boston|eulenstein|smith|cleve|published|unique)[^?#]*$"],
+      "relevance_terms": ["slide", "slides", "box", "series", "locality", "mounter", "mounted", "prepared", "collection"]
+    },
+    "whipple_related": {
+      "institution_key": "whipple-museum-of-the-history-of-science-university-of-cambridge",
+      "strategy": "targeted_bfs",
+      "request_budget": 90,
+      "allowed_hosts": ["collections.whipplemuseum.cam.ac.uk"],
+      "extra_seed_urls": [
+        "https://collections.whipplemuseum.cam.ac.uk/objects/13828",
+        "https://collections.whipplemuseum.cam.ac.uk/objects/14938/",
+        "https://collections.whipplemuseum.cam.ac.uk/objects/15311/",
+        "https://collections.whipplemuseum.cam.ac.uk/objects/11653/"
+      ],
+      "follow_url_regex": ["/objects/\\d+/?$"],
+      "relevance_terms": ["microscope slide", "microscope slides", "dancer", "wheeler", "elcock", "microphotograph", "slide cabinet"]
+    },
+    "sorbonne_histology": {
+      "institution_key": "sorbonne-universite-medical-and-pathological-anatomy-collections",
+      "strategy": "sorbonne_histology",
+      "request_budget": 130,
+      "allowed_hosts": ["colluniv.sorbonne-universite.fr"],
+      "extra_seed_urls": [
+        "https://colluniv.sorbonne-universite.fr/collections_medicales/",
+        "https://colluniv.sorbonne-universite.fr/recherche/*/f:isPartOf--collection=Collections+m%C3%A9dicales+et+d%27anatomie+pathologique/"
+      ],
+      "follow_url_regex": ["typologie=Lame\\+histologique", "fonds=(?:Fondation\\+Dejerine|Dejerine)", "/document/ark:/82426/", "[?&](?:page|start|offset)="],
+      "relevance_terms": ["lame histologique", "fondation dejerine", "dejerine", "su.md", "anatomie pathologique"]
+    },
+    "ansp_diatom": {
+      "institution_key": "academy-of-natural-sciences-of-drexel-university",
+      "strategy": "symbiota_post",
+      "request_budget": 130,
+      "allowed_hosts": ["diatom.symbiota.org"],
+      "post_url": "https://diatom.symbiota.org/portal/collections/list.php",
+      "post_requests": [
+        {"label": "Smith pre-1900", "data": {"collector": "Smith", "eventdate2": "1899-12-31", "db[]": ["1"], "display-format-pref": "table", "includeothercatnum": "1"}},
+        {"label": "Cleve pre-1900", "data": {"collector": "Cleve", "eventdate2": "1899-12-31", "db[]": ["1"], "display-format-pref": "table", "includeothercatnum": "1"}},
+        {"label": "Moller pre-1900", "data": {"collector": "Moller", "eventdate2": "1899-12-31", "db[]": ["1"], "display-format-pref": "table", "includeothercatnum": "1"}},
+        {"label": "Kitton pre-1900", "data": {"collector": "Kitton", "eventdate2": "1899-12-31", "db[]": ["1"], "display-format-pref": "table", "includeothercatnum": "1"}}
+      ],
+      "follow_url_regex": ["/portal/collections/individual/index.php", "[?&](?:page|offset|start)="],
+      "relevance_terms": ["collector", "catalog number", "other catalog", "diatom", "smith", "cleve", "moller", "kitton"]
+    },
+    "copenhagen_desmid": {
+      "institution_key": "natural-history-museum-of-denmark-university-of-copenhagen",
+      "strategy": "form_post",
+      "request_budget": 45,
+      "allowed_hosts": ["desmid.ku.dk", "www2.bio.ku.dk", "bio.ku.dk"],
+      "extra_seed_urls": ["https://desmid.ku.dk/english/search/"],
+      "post_url": "http://www2.bio.ku.dk/cms/desmid/english/result.asp",
+      "post_requests": [
+        {"label": "Hoff collection", "data": {"Collection": "Hoff, R. T."}},
+        {"label": "Boergesen collection", "data": {"Collection": "Børgesen, F."}}
+      ],
+      "follow_url_regex": ["(?:detail|record|show|slide).*\\.asp", "[?&](?:ID|Id|id|SNM_ID)="],
+      "relevance_terms": ["snm slide no.", "hoff", "børgesen", "species", "locality", "collection"]
+    },
+    "mcz_slides": {
+      "institution_key": "harvard-mcz",
+      "strategy": "targeted_bfs",
+      "request_budget": 45,
+      "allowed_hosts": ["www.mcz.harvard.edu", "mczbase.mcz.harvard.edu"],
+      "extra_seed_urls": [
+        "https://www.mcz.harvard.edu/microscope-slide-collection",
+        "https://www.mcz.harvard.edu/harvard-embryological-collection",
+        "https://www.mcz.harvard.edu/special-collections",
+        "https://mczbase.mcz.harvard.edu/grouping/showNamedCollection.cfm?underscore_collection_id=1762"
+      ],
+      "follow_url_regex": ["showNamedCollection\\.cfm", "(?:Specimen|guid|catalog|collection).*\\.cfm", "[?&](?:page|offset|start)="],
+      "relevance_terms": ["microscope slide", "slide collection", "embryological", "named collection", "historical collection"]
+    },
+    "ucl_provenance": {
+      "institution_key": "ucl-grant-museum-of-zoology",
+      "strategy": "fixed_pages",
+      "request_budget": 8,
+      "allowed_hosts": ["blogs.ucl.ac.uk"],
+      "extra_seed_urls": [
+        "https://blogs.ucl.ac.uk/museums/2013/02/11/the-micrarium-a-place-for-tiny-things-opens/",
+        "https://blogs.ucl.ac.uk/museums/2013/02/13/heck-thats-cool/",
+        "http://blogs.ucl.ac.uk/museums/2013/02/15/i-spy-with-my-little-eye/",
+        "https://blogs.ucl.ac.uk/museums/2014/03/13/on-the-origin-of-our-specimens-the-hill-years/",
+        "http://blogs.ucl.ac.uk/museums/2013/02/12/underwhelming-fossil-fish-of-the-month-february/"
+      ],
+      "follow_url_regex": [],
+      "relevance_terms": ["microscope slide", "j.p.h.", "j.p. hill", "prepared", "transferred", "geology department", "micrarium"]
+    }
+  }
+}

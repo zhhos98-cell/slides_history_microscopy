@@ -1,0 +1,17 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v5-07J",
+  "assignments": {
+    "institution_collection_record": [
+      "unam_insect_collection_static",
+      "fiocruz_ceioc_static",
+      "mzusp_hemiptera_static",
+      "usp_labmicro_static",
+      "unal_unab_static",
+      "ui_archaeology_palynology_static"
+    ],
+    "specialized_collection_catalogue": [
+      "kahaku_watanabe_diatom_db",
+      "kahaku_algae_exsiccatae_static"
+    ]
+  }
+}

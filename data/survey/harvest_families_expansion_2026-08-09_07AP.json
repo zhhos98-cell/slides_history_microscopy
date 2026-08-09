@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v36-07AP",
+  "assignments": {
+    "institution_collection_record": [
+      "wuerzburg_boveri_ascaris_1890s",
+      "mcz_darwin_dana_leptogorgia_slide",
+      "unistra_meteorite_thin_sections"
+    ],
+    "collection_page_plus_search_portal": [
+      "sorbonne_dejerine_histology"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "nmah_fasoldt_test_plate_1884"
+    ]
+  }
+}

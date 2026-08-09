@@ -1,0 +1,31 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v1",
+  "assignments": {
+    "institution_collection_record": [
+      "smithsonian_diptera_static",
+      "umn_insect_collection_static",
+      "bohart_tardigrade_static",
+      "calacademy_entomology_static",
+      "lsu_lsam_static",
+      "smithsonian_wood_policy_static",
+      "mlp_entomology_static",
+      "museunacional_ufrj_archaeobotany_static",
+      "nwafu_donation_static",
+      "shiga_medical_museum_static",
+      "padua_arachnology_static",
+      "porto_xylarium_static",
+      "nm_prague_hemiptera_static",
+      "mncn_nematology_static",
+      "uw_zoological_collections_static"
+    ],
+    "specialized_collection_catalogue": [
+      "tohoku_saitoh_database"
+    ],
+    "literature_or_project_evidence": [
+      "uga_arthropod_history_static",
+      "ntu_tcm_slide_project_static",
+      "hnhm_diatom_literature",
+      "uj_paleobotany_literature"
+    ]
+  }
+}

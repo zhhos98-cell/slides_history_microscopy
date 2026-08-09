@@ -1,0 +1,19 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v12-07P-19c",
+  "purpose": "Adapter addition for strict nineteenth-century NMS accession evidence; existing Science Museum Group and Whipple adapters are reused.",
+  "guards": [
+    "Treat museum accession subpoints as item identities only when the source explicitly documents the parent box/set relationship.",
+    "Do not infer slide makers or specimen subjects where the curatorial source only establishes count, date and accession hierarchy."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "nms_curatorial_literature",
+      "status": "active_metadata",
+      "institution_scope": "National Museums Scotland Science and Technology collections",
+      "target": "museum-authored curatorial research describing extant collection database records",
+      "expected_terms": ["T.1997.67.1", "seventy-two microscope slides", "late 19th century", "National Museums Scotland"],
+      "item_url_pattern": "T.1997.67.{subpoint}",
+      "promotion_rule": "Capture exact parent/subpoint accession structure, stated count and date; seek a current NMS catalogue endpoint before enriching maker/specimen-level fields."
+    }
+  ]
+}

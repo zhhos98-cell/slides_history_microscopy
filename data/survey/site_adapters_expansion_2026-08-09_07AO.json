@@ -1,0 +1,93 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v39-07AO-19c-register-series-survivors",
+  "purpose": "Adapters for five strict nineteenth-century microscope-slide nodes emphasizing surviving scientific estates, serial teaching/research collections, historical register states, and bounded maker sets.",
+  "guards": [
+    "A present collection total spanning the nineteenth and twentieth centuries must not be projected backwards; isolate pre-1900 material by series date, publication, label, register, creator chronology or item record.",
+    "Historical catalogue or section-number ranges are identifier namespaces, not automatically physical slide counts. Never subtract endpoints to manufacture a quantity.",
+    "An explicit nineteenth-century institutional count is a dated historical state, not a present survival count unless current object records close that continuity.",
+    "Person-name inscriptions and estate attribution preserve the source's level of certainty; do not upgrade 'probably by' or 'from the work of' into 'prepared by'.",
+    "Collection-scale proportions such as 'around one third' are not converted into exact nineteenth-century counts when the subcollection extends beyond 1899.",
+    "Box count, embryo-series count, microscopic-preparation count and individual glass-slide count remain separate quantity namespaces."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "rki_koch_scientific_estate_micropreparations",
+      "status": "active_metadata",
+      "institution_scope": "Robert Koch Institute scientific estate / Robert Koch microscopic preparations",
+      "target": "official RKI Robert Koch history pages, historical-image pages and institutional publications describing the scientific estate",
+      "expected_terms": [
+        "wissenschaftliche Nachlass",
+        "mikroskopische Präparate",
+        "Robert Koch",
+        "einige hundert",
+        "Robert Koch-Institut"
+      ],
+      "item_url_pattern": "rki.de/DE/Institut/Das-RKI/Geschichte/Robert-Koch/*",
+      "promotion_rule": "Recover preparation labels, research episode and dates when available; retain 'several hundred microscopic preparations' as an estate-wide mixed-period state and promote only explicitly pre-1900 preparations to dated CORE_19C item rows."
+    },
+    {
+      "site_adapter": "mnhn_van_tieghem_histotheque",
+      "status": "active_metadata",
+      "institution_scope": "MNHN Histothèque / Philippe Van Tieghem and pupils historical core",
+      "target": "official Histothèque collection page, SONNERAT-linked records, publication references and type-material links",
+      "expected_terms": [
+        "67,000",
+        "Philippe Van Tieghem",
+        "1875",
+        "1914",
+        "third",
+        "histological slides",
+        "thin sections"
+      ],
+      "item_url_pattern": "mnhn.fr/*histology*; science.mnhn.fr/*",
+      "promotion_rule": "Use slide labels, linked publications, type material and dates to isolate 1875-1899 preparations. Keep the current >67,000 total and the 1875-1914 'around one third' core as separate collection-scale claims."
+    },
+    {
+      "site_adapter": "mcz_harvard_embryological_collection",
+      "status": "active_metadata",
+      "institution_scope": "Harvard Museum of Comparative Zoology Harvard Embryological Collection",
+      "target": "official HEC page, MCZ microscope-slide collection pages and MCZbase series/specimen records",
+      "expected_terms": [
+        "Harvard Embryological Collection",
+        "Charles Sedgwick Minot",
+        "2,500",
+        "30,000",
+        "late 19th",
+        "early 20th"
+      ],
+      "item_url_pattern": "mczbase.mcz.harvard.edu/*",
+      "promotion_rule": "Resolve embryo-series identifiers and series dates in MCZbase; preserve approximately 2,500 series and approximately 30,000 slides as whole-collection mixed-period totals and isolate only explicitly pre-1900 series for nineteenth-century item counts."
+    },
+    {
+      "site_adapter": "nmhm_army_medical_museum_microscopical_section",
+      "status": "active_metadata",
+      "institution_scope": "National Museum of Health and Medicine / Army Medical Museum Microscopical Section (III)",
+      "target": "official OHA curatorial logbook finding aids, 1867 Medical and Microscopical catalogue, reception registers, institutional histories and current slide-collection pages",
+      "expected_terms": [
+        "Microscopical Section (III)",
+        "prepared microscopic tissue sections",
+        "7,275",
+        "Joseph Janvier Woodward",
+        "Edward Curtis",
+        "1867"
+      ],
+      "item_url_pattern": "medicalmuseum.health.mil/assets/documents/collections/archives/*",
+      "promotion_rule": "Capture explicit nineteenth-century register entries, dates, preparers/referrers and section identifiers. Keep the 7,275-specimen 1876 state explicit, never infer quantities from section-number endpoints, and treat present survival as unresolved until a current object/accession record is matched."
+    },
+    {
+      "site_adapter": "nmah_bourgogne_two_box_slide_set",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian National Museum of American History Joseph Bourgogne-attributed microscope-slide set",
+      "target": "official NMAH object record MG.217544.01 and associated Smithsonian identifiers/images",
+      "expected_terms": [
+        "BOURGOGNE",
+        "Joseph Bourgogne",
+        "MG.217544.01",
+        "two boxes",
+        "international exhibitions"
+      ],
+      "item_url_pattern": "americanhistory.si.edu/collections/object/{record}",
+      "promotion_rule": "Preserve the catalogue's 'probably' attribution to Joseph Bourgogne, two-box physical structure and stable Smithsonian IDs; recover individual slide subjects/count only from direct images or curatorial records rather than box dimensions."
+    }
+  ]
+}

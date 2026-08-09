@@ -1,0 +1,11 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v16-07V",
+  "assignments": {
+    "institution_collection_record": [
+      "glasgow_heddle_blarney_static"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "smg_historical_assemblage_json_iiif"
+    ]
+  }
+}

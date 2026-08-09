@@ -1,0 +1,58 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v37-07AM-19c-collection-cabinets",
+  "purpose": "Adapters for five strict nineteenth-century microscope-slide collection nodes with explicit surviving physical holdings, cabinet/subcollection structure, or item identifiers.",
+  "guards": [
+    "Keep historical collection states separate from present surviving totals; a nineteenth-century purchase count, a present surviving count and a cabinet capacity are different quantities.",
+    "Do not flatten 'produced or collected by' into 'prepared by'; Quekett and other historical collectors incorporated material made by multiple preparators.",
+    "Mixed-period collections that begin before 1900 require a separately recoverable nineteenth-century layer; current totals extending into the twentieth century are not nineteenth-century counts.",
+    "Current object numbers and accession identifiers document museum custody and cataloguing, not original nineteenth-century sequence or ownership.",
+    "Preserve current cabinet, tray, division, handwritten-ledger and item-register structures because they may encode later rearrangement as well as historical order."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "rcseng_quekett_microscope_slides",
+      "status": "active_metadata",
+      "institution_scope": "Royal College of Surgeons of England / Hunterian Museum John Thomas Quekett microscope-slide subcollection",
+      "target": "Hunterian microscope-slide collection page, RCS collections policy, RCS Quekett history pages and SurgiCat item records",
+      "expected_terms": ["John Thomas Quekett", "12,000", "2,500", "RCSMS/Quekett", "1846", "SurgiCat"],
+      "item_url_pattern": "adlib.rcseng.ac.uk/Details/*",
+      "promotion_rule": "Harvest RCSMS/Quekett identifiers, division/series structure, object labels and source-specimen relations when exposed; preserve the 1846 purchase of 2,500 preparations as a historical state and the approximately 12,000 surviving produced-or-collected slides as a distinct present subcollection state."
+    },
+    {
+      "site_adapter": "smg_y2001_223_slide_cabinet",
+      "status": "active_metadata",
+      "institution_scope": "Science Museum Group microscope-slide cabinet Y2001.223",
+      "target": "official SMG object page, JSON catalogue entry, parts hierarchy and IIIF manifest",
+      "expected_terms": ["Y2001.223", "Y2001.223/1", "Y2001.223/2", "1867", "1900", "microscope slides cabinet"],
+      "item_url_pattern": "collection.sciencemuseumgroup.org.uk/objects/{record}",
+      "promotion_rule": "Capture compound-object and part identifiers, maker/date statements, material categories and IIIF metadata; retain the slide batch as a large but uncounted historical collection and do not infer a count from cabinet dimensions."
+    },
+    {
+      "site_adapter": "manchester_chaffers_diatoms",
+      "status": "active_metadata",
+      "institution_scope": "Manchester Museum Sydney/Sidney Chaffers diatom slide collection",
+      "target": "peer-reviewed University of Manchester collection study plus University museum/public-engagement references to current Manchester Museum custody",
+      "expected_terms": ["Sydney Chaffers", "Sidney Chaffers", "1895", "1904", "six cabinets", "Manchester Museum"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture cabinet structure, Chaffers-prepared versus commercially acquired slides and any dated labels or accession records exposed by Manchester Museum; isolate pre-1900 slides from the 1895-1904 formation span rather than treating all six cabinets as nineteenth-century."
+    },
+    {
+      "site_adapter": "whipple_2385b_slide_case",
+      "status": "active_metadata",
+      "institution_scope": "Whipple Museum case of microscope slides accession 2385B",
+      "target": "official Whipple Museum object record for case 2385B and linked catalogue metadata",
+      "expected_terms": ["2385B", "1840", "1870", "Pritchard", "IB 1860", "three lift out slide trays"],
+      "item_url_pattern": "collections.whipplemuseum.cam.ac.uk/objects/{record}",
+      "promotion_rule": "Preserve the mixed commercial and homemade character, Pritchard-labelled subgroup, three-tray physical structure, 'IB 1860' monogram and 1978 Sotheby's acquisition as separate preparation, collection and custody evidence; leave the exact extant slide count unresolved."
+    },
+    {
+      "site_adapter": "glasgow_hunterian_heddle_thinsections",
+      "status": "active_metadata",
+      "institution_scope": "University of Glasgow Hunterian Matthew Forster Heddle rock and mineral thin-section collection",
+      "target": "official University of Glasgow Hunterian digitisation/history pages and older handwritten geological-slide ledgers",
+      "expected_terms": ["Matthew Forster Heddle", "40,000 geological microscope slides", "Blarney Stone", "Stonehenge", "1850", "1880"],
+      "item_url_pattern": "",
+      "promotion_rule": "Recover Heddle-attributed thin sections and ledger references item by item where possible; keep the Heddle subtotal unresolved inside the Hunterian's approximately 40,000 geological-slide collection and do not attribute preparation to Heddle when the source only establishes collection or acquisition."
+    }
+  ]
+}

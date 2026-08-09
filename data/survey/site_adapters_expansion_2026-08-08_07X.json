@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v22-07X-19c-rms-sorby",
+  "purpose": "Adapters for strict nineteenth-century society, early-geology, and Sorby experimental slide collections recovered through deep search.",
+  "guards": [
+    "Separate Royal Microscopical Society and Quekett Microscopical Club holdings; they are distinct collections with different custody histories.",
+    "Preserve historical count states separately from present aggregates.",
+    "Keep experiment date publication date later loan/bequest rediscovery and current custody as separate events."
+  ],
+  "adapters": [
+    {"site_adapter":"oxford_hsm_rms_slide_cabinet","status":"active_metadata","institution_scope":"History of Science Museum Oxford / Royal Microscopical Society","target":"Small Worlds catalogue/exhibition and microscope-slide catalogue discovery","expected_terms":["ten thousand slides","three-quarters","Royal Microscopical Society","1860","1930"],"item_url_pattern":"","promotion_rule":"Treat the single RMS cabinet as a physical collection node and isolate 1860-1899 specimen records before historical counting."},
+    {"site_adapter":"qmc_slide_archive","status":"manual_metadata","institution_scope":"Quekett Microscopical Club slide collection at NHM London","target":"club archives slide database and historical collection listings","expected_terms":["20,000+","slide collection","archives","database"],"item_url_pattern":"","promotion_rule":"Capture current aggregate and historical dated states separately; follow donated-collection listings and cabinet records without conflating QMC with RMS."},
+    {"site_adapter":"nms_nicol_forbes_historical_slides","status":"active_metadata","institution_scope":"National Museums Scotland historical microscopy records","target":"curated heritage record for early Edinburgh geological microscope slides","expected_terms":["1831","1833","1836","William Nicol","Forbes","Fossil Wood"],"item_url_pattern":"","promotion_rule":"Extract each illustrated slide's date specimen and provenance relation; preserve purchase from Nicol and Forbes-collection attribution separately."},
+    {"site_adapter":"sheffield_sorby_metallurgy_literature","status":"active_metadata","institution_scope":"University of Sheffield / South Yorkshire Industrial History Society Sorby metallurgy collections","target":"annotated catalogue of extant glass-mounted metallurgical specimens","expected_terms":["115 metallurgical specimens","22 specimens","glass-mounted","1863","1865"],"item_url_pattern":"","promotion_rule":"Model specimen catalogue entries and the two current custody groups separately; retain later Arnold loan/bequest and 1987 rediscovery events."},
+    {"site_adapter":"sheffield_sorby_chemical_precipitates_literature","status":"active_metadata","institution_scope":"University of Sheffield Sorby experimental preparations","target":"institutional-repository article documenting the rediscovered Chemical Precipitates box","expected_terms":["sixty","40 mm square","1852","1858","2011","Chemical Precipitates"],"item_url_pattern":"","promotion_rule":"Extract individual engraved slide number/date/experiment notes where available and treat conventional versus cavity slides and balsam deterioration separately."}
+  ]
+}

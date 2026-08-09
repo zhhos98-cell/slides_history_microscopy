@@ -1,0 +1,18 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v34-07AN",
+  "assignments": {
+    "collection_page_plus_search_portal": [
+      "rcseng_tomes_dental_histology"
+    ],
+    "specialized_collection_catalogue": [
+      "qmc_historical_slide_collection"
+    ],
+    "institution_collection_record": [
+      "mfn_hubrecht_embryology"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "ohsu_medical_museum_94_slide_case",
+      "smg_manchester_litphil_pritchard_1835"
+    ]
+  }
+}

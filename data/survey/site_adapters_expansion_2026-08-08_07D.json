@@ -1,0 +1,156 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v2-07D",
+  "purpose": "Adapter expansion for 07D global microscope-slide survey entries, prioritising Asia, southern Africa, Iberia, Smithsonian subcollections, and named historical batches.",
+  "guards": [
+    "Fetch metadata pages only; do not bulk-download specimen images.",
+    "Preserve source relationship phrases and collection-level counts without converting them into ownership or item totals.",
+    "When one institutional page contains several slide subcollections, keep each explicit count and taxonomic scope separate.",
+    "Historical counts remain dated historical states and must not be projected into current holdings."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "kyoto_rish_xylarium_static",
+      "status": "active_metadata",
+      "institution_scope": "Kyoto University RISH Xylarium",
+      "target": "official Xylarium page",
+      "expected_terms": ["9,563 microscope slides", "Xylarium", "wood specimens", "transverse", "radial", "tangential"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve the linkage between wood specimen and three-section microscope preparation; treat exchange statements as network evidence."
+    },
+    {
+      "site_adapter": "nus_lkcnhm_static",
+      "status": "active_metadata",
+      "institution_scope": "Lee Kong Chian Natural History Museum",
+      "target": "official museum articles and collection pages naming the Microscope Slide Collection",
+      "expected_terms": ["Microscope Slide Collection", "Curator", "Lee Kong Chian Natural History Museum"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use official curator/collection language to establish collection existence; exact count and catalogue endpoint remain separate discovery tasks."
+    },
+    {
+      "site_adapter": "wits_fossil_collections_static",
+      "status": "active_metadata",
+      "institution_scope": "Wits Evolutionary Studies Institute",
+      "target": "official fossil collections page",
+      "expected_terms": ["Bone Histological Slide Collection", "Palynological Slides Collection", "microscope slides", "catalogued", "filed"],
+      "item_url_pattern": "",
+      "promotion_rule": "Keep bone histology and palynology as separate project-derived slide collections; preserve report/grid-reference links where stated."
+    },
+    {
+      "site_adapter": "upm_wood_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Universidad Politecnica de Madrid wood collection",
+      "target": "official university museum collection page",
+      "expected_terms": ["preparaciones microscópicas", "maderas", "Index Xylariorum", "Kew", "Madison"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve both stated 1,300+ and 1,400+ preparation figures as source layers and capture institutional exchange links."
+    },
+    {
+      "site_adapter": "ucm_entomology_static",
+      "status": "active_metadata",
+      "institution_scope": "Universidad Complutense de Madrid Entomology Museum",
+      "target": "official museum collection page",
+      "expected_terms": ["preparaciones microscópicas", "Entomología", "Gómez-Menor", "ácaros", "tisanópteros"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture named historical collections and microscope-preparation scope; do not invent a count where none is stated."
+    },
+    {
+      "site_adapter": "mncn_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Museo Nacional de Ciencias Naturales CSIC",
+      "target": "official scientific collection pages",
+      "expected_terms": ["preparaciones microscópicas", "colección", "Museo Nacional de Ciencias Naturales"],
+      "item_url_pattern": "",
+      "promotion_rule": "Keep entomology, arthropods, tardigrades, phoronids and other explicitly counted preparation subcollections separate."
+    },
+    {
+      "site_adapter": "mncn_caballero_history",
+      "status": "active_metadata",
+      "institution_scope": "Museo Nacional de Ciencias Naturales CSIC",
+      "target": "Caballero y Bellido diatom collection history",
+      "expected_terms": ["205 preparaciones", "202 preparaciones", "1929", "1987", "2014", "Caballero"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve acquisition, original packing, rediscovery and later-found batch as separate dated provenance events."
+    },
+    {
+      "site_adapter": "museo_cajal_official",
+      "status": "active_metadata",
+      "institution_scope": "Museo Cajal / CSIC",
+      "target": "official legal and museum documentation of the Cajal legacy",
+      "expected_terms": ["preparaciones microscópicas", "armarios", "Instituto Cajal", "Legado Cajal"],
+      "item_url_pattern": "",
+      "promotion_rule": "Do not convert the total Legado object count into a microscope-slide count; preserve testamentary custody wording."
+    },
+    {
+      "site_adapter": "smithsonian_entomology_static",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian National Museum of Natural History Entomology",
+      "target": "official Smithsonian collection/research pages with slide-mounted subcollection counts",
+      "expected_terms": ["microscope slide", "slides", "primary types", "collection"],
+      "item_url_pattern": "",
+      "promotion_rule": "Keep Aleyrodidae, Psyllid, Aphidoidea and Coccoidea slide counts and type subsets as distinct collection nodes."
+    },
+    {
+      "site_adapter": "smithsonian_lepidoptera_literature",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian NMNH Lepidoptera",
+      "target": "official Smithsonian programme report describing microscope-slide inventory work",
+      "expected_terms": ["120,000 microscope slides", "Lepidoptera Microscope Slide Collection", "laboratory notebooks", "inventory"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use as collection-scale and notebook-to-inventory evidence; item-level identifiers require the current NMNH catalogue."
+    },
+    {
+      "site_adapter": "notre_dame_biodiversity_static",
+      "status": "active_metadata",
+      "institution_scope": "University of Notre Dame Museum of Biodiversity",
+      "target": "official arthropod collection page",
+      "expected_terms": ["microscope slide collection", "prepared slide sets", "medical entomology", "public health"],
+      "item_url_pattern": "",
+      "promotion_rule": "Promote collection function and subject sets even without an explicit count."
+    },
+    {
+      "site_adapter": "nz_dominion_museum_report",
+      "status": "active_metadata",
+      "institution_scope": "Dominion Museum / Museum of New Zealand Te Papa Tongarewa",
+      "target": "historical official museum report",
+      "expected_terms": ["microscope slide collection", "Collembola", "2,000 slides", "arranged", "classified"],
+      "item_url_pattern": "collections.tepapa.govt.nz/object/{id}",
+      "promotion_rule": "Treat 2,000+ as a dated 1947 collection state; current Te Papa item records can corroborate survival but not current total."
+    },
+    {
+      "site_adapter": "tepapa_blog_collection",
+      "status": "active_metadata",
+      "institution_scope": "Museum of New Zealand Te Papa Tongarewa",
+      "target": "official curatorial blog documenting microscope-slide acquisitions and recataloguing",
+      "expected_terms": ["nearly 1,000 slides", "Phil Bishop acquisition", "Bruce Waldman", "lab books", "microscope slides"],
+      "item_url_pattern": "collections.tepapa.govt.nz/object/{id}",
+      "promotion_rule": "Capture batch, lab-book and code-crosswalk evidence; do not infer a one-to-one slide-to-specimen mapping."
+    },
+    {
+      "site_adapter": "standrews_group_static",
+      "status": "active_metadata",
+      "institution_scope": "University of St Andrews Bell-Pettigrew Zoology microscope slide collection",
+      "target": "hierarchical group records within the Bell-Pettigrew collection",
+      "expected_terms": ["microscope slides", "Collection", "Extent", "Hierarchy"],
+      "item_url_pattern": "collections.st-andrews.ac.uk/group/{slug}/{id}",
+      "promotion_rule": "Preserve group hierarchy, exact extent, box/sleeve location, creator and shared label/cabinet evidence."
+    },
+    {
+      "site_adapter": "dundee_zoology_static",
+      "status": "active_metadata",
+      "institution_scope": "University of Dundee Zoology Museum",
+      "target": "official microscope-slide selection page",
+      "expected_terms": ["Microscope Slides", "DUNUC", "Hornell", "Flatters", "Watsons"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use displayed object IDs and named commercial series as item/batch anchors; do not infer total holdings."
+    },
+    {
+      "site_adapter": "mcz_named_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Harvard Museum of Comparative Zoology MCZbase",
+      "target": "InSliDE named collection/project page",
+      "expected_terms": ["50,500 microscope slides", "Specimen Records", "Specimen Images", "Rehousing and Digitization"],
+      "item_url_pattern": "mczbase.mcz.harvard.edu/guid/{guid}",
+      "promotion_rule": "Use live named-collection result counts as harvestable records while keeping project target count distinct from records currently exposed."
+    }
+  ]
+}

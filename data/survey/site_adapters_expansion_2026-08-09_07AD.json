@@ -1,0 +1,120 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v28-07AD-19c-global-cabinets-diatoms",
+  "purpose": "Adapters for strict nineteenth-century global slide collections recovered through the next deep-search census, with emphasis on named cabinets, diatom networks, institutional batches, historical transfers and current digital catalogues.",
+  "guards": [
+    "Do not project mixed nineteenth/twentieth-century totals wholly into the nineteenth century; isolate pre-1900 records from dates, labels, makers or bounded set chronology.",
+    "Preserve collection attribution, preparation, use, purchase, bequest, donation and later institutional transfer as separate relationship claims.",
+    "Do not equate digital image counts, catalogue-number ranges or accession suffix ranges with physical slide counts unless the source explicitly establishes that equivalence.",
+    "Replicated exsiccata serial numbers identify corresponding set positions across institutions; never sum shared serial-number schemes as unique historical types without a copy-level question."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "ku_desmid_portal",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum of Denmark / University of Copenhagen Danish desmid collections",
+      "target": "dedicated digitised Jacobsen Hoff and Børgesen desmid collection portal",
+      "expected_terms": ["510 microscope slides", "J. P. Jacobsen", "Richard T. Hoff", "Børgesen", "1888", "1889"],
+      "item_url_pattern": "desmid.ku.dk/{record}",
+      "promotion_rule": "Enumerate the digitised slide records while preserving collector and publication relationships; keep the present 510 combined count distinct from per-collector subtotals."
+    },
+    {
+      "site_adapter": "hnhm_pantocsek_diatom",
+      "status": "active_metadata",
+      "institution_scope": "Hungarian Natural History Museum Pantocsek diatom collection",
+      "target": "official Algae Collection page plus continuous BP-HNHM-ALG-D catalogue and the 2025 collection study",
+      "expected_terms": ["918", "1049", "Pantocsek", "BP-HNHM-ALG-D", "Second World War", "Krenner"],
+      "item_url_pattern": "",
+      "promotion_rule": "Retain the official 918-preparation statement and the 2025 1049-slide catalogue statement as an unresolved count-scope conflict; capture 1917 purchase, wartime loss and restoration as separate events."
+    },
+    {
+      "site_adapter": "charles_prague_algae_db",
+      "status": "active_metadata",
+      "institution_scope": "Charles University Prague historical German University algal permanent-slide collection",
+      "target": "CAUP image database and permanent-slide lists by taxon and locality",
+      "expected_terms": ["German University", "second half of the 19th century", "permanent slides", "J D Möller", "J Bourgogne"],
+      "item_url_pattern": "botany.natur.cuni.cz/algo/database/{record}",
+      "promotion_rule": "Use maker, locality, label and date evidence to isolate pre-1900 physical slides; do not treat 1710 digital images or 1129 database specimens as a direct slide count."
+    },
+    {
+      "site_adapter": "osu_diatom_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Ohio State University Museum of Biological Diversity Herbarium diatom slide collection",
+      "target": "official collection page and collector-organized cabinet metadata",
+      "expected_terms": ["6,700", "mounted slides", "ornate wooden cabinets", "M. A. Booth", "H. van Heurck", "H. L. Smith"],
+      "item_url_pattern": "",
+      "promotion_rule": "Treat 6700 as the current mixed-period aggregate and recover nineteenth-century subsets through named collectors, slide labels, cabinet structure and distributed-set chronology."
+    },
+    {
+      "site_adapter": "smithsonian_nmah_booth_iiif",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian National Museum of American History Mary Ann Booth slide batch",
+      "target": "NMAH object record, IIIF manifest and images for nmah_1837093",
+      "expected_terms": ["Microscope Slides (9)", "M.A. Booth", "Longmeadow", "ZZ.RSN79634Z84"],
+      "item_url_pattern": "americanhistory.si.edu/collections/object/{record}",
+      "promotion_rule": "Capture all nine labelled slides and IIIF metadata; retain pre-1898 Longmeadow dating as external specialist label chronology rather than an official Smithsonian date."
+    },
+    {
+      "site_adapter": "springfield_booth_archive_literature",
+      "status": "active_metadata",
+      "institution_scope": "Springfield Science Museum Mary Ann Booth mounted-slide and photomicrograph archive",
+      "target": "peer-reviewed Booth collection history and museum/archive endpoint discovery",
+      "expected_terms": ["mounted microscope slides", "Springfield Science Museum", "final will", "currently archived"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use the scholarly bequest statement to locate a current archive inventory; keep photomicrographs separate from physical microscope slides and the 1922 bequest separate from nineteenth-century production."
+    },
+    {
+      "site_adapter": "ansp_diatom_portal",
+      "status": "active_metadata",
+      "institution_scope": "Academy of Natural Sciences of Drexel University Diatom Herbarium",
+      "target": "ANSP Symbiota Diatom Portal collection hierarchy and item records",
+      "expected_terms": ["H.L. Smith", "701 slides", "William Smith", "320 slides", "Cleve and Möller", "324 slides"],
+      "item_url_pattern": "diatom.symbiota.org/portal/{record}",
+      "promotion_rule": "Harvest collection hierarchy, slide/set numbers, labels, localities and provenance. Preserve H.L. Smith's original working collection separately from distributed exsiccatae, and preserve ANSP copies of published sets as copy-level holdings."
+    },
+    {
+      "site_adapter": "meise_van_heurck_static",
+      "status": "active_metadata",
+      "institution_scope": "Meise Botanic Garden Henri Van Heurck diatom collection",
+      "target": "Antwerp institutional heritage history, current Meise research references, catalogue-card and type-slide discovery",
+      "expected_terms": ["Henri Van Heurck", "large diatom collection", "1910", "19,000", "AWH", "BR"],
+      "item_url_pattern": "",
+      "promotion_rule": "Model private assembly, 1910 municipal purchase/division and later botanical transfer to Meise separately; retain the >19000 figure as a dated 2007 collection statement until a current inventory is recovered."
+    },
+    {
+      "site_adapter": "nhm_diatom_data_portal",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London Diatom Collection",
+      "target": "official diatom collection page plus NHM Data Portal microscope-preparation records",
+      "expected_terms": ["150,000", "microscope slide collections", "early nineteenth century", "Diatom BM", "Collection kind"],
+      "item_url_pattern": "data.nhm.ac.uk/object/{uuid}",
+      "promotion_rule": "Filter Data Portal records by preparation kind, collection date, collector and named historical set to calculate any pre-1900 subset; never use the 300000 all-material total as a slide count."
+    },
+    {
+      "site_adapter": "powerhouse_botanical_slides_static",
+      "status": "active_metadata",
+      "institution_scope": "Powerhouse Museum Technological Museum botanical research slide batch",
+      "target": "official Powerhouse object 87236 / 88/718 batch record",
+      "expected_terms": ["approx 466", "microscope slides", "botanical specimens", "Technological Museum", "1880-1920"],
+      "item_url_pattern": "collection.powerhouse.com.au/object/{id}",
+      "promotion_rule": "Preserve the approximately 466-slide batch as a bounded 1880-1920 state and isolate pre-1900 slides only where labels, internal lists or item dates permit."
+    },
+    {
+      "site_adapter": "canterbury_symes_static",
+      "status": "active_metadata",
+      "institution_scope": "Canterbury Museum William Henry Symes microscope-slide box",
+      "target": "University of Canterbury collection story and Canterbury Museum accession 2003.96.1, 41-62",
+      "expected_terms": ["William Henry Symes", "late nineteenth century", "wooden box", "microscope slides", "2003.96.1"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture the box, slide records and descendant-to-museum custody chain if catalogue access is found; do not convert accession suffixes 41-62 into a slide count without item records."
+    },
+    {
+      "site_adapter": "sdnhm_hartshorn_bolles_finding_aid",
+      "status": "active_metadata",
+      "institution_scope": "San Diego Natural History Museum Research Library Hartshorn-Bolles Microscope Slide Collection",
+      "target": "OAC finding aid LA.2020.0306 and selected digital items",
+      "expected_terms": ["approximately 2000", "50 drawers", "mid to late 19th century", "Bolles", "Hartshorn"],
+      "item_url_pattern": "oac.cdlib.org/findaid/{record}",
+      "promotion_rule": "Harvest cabinet/drawer hierarchy, selected item labels and preparer/retailer names; retain Bolles teaching use, transfer to Hartshorn and 1963 museum donation as distinct provenance events."
+    }
+  ]
+}

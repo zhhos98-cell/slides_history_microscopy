@@ -1,0 +1,29 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v11-07N-19c",
+  "purpose": "Adapters for strict nineteenth-century Utrecht and Vienna collection-story/archive nodes. The existing Powerhouse adapter is reused.",
+  "guards": [
+    "Treat published/distributed set counts, surviving set counts, and later museum custody as separate layers.",
+    "For person-attributed preparations, preserve the institution's attribution language and do not invent exact preparation dates or quantities.",
+    "Follow archive/correspondence links as provenance evidence but do not convert archival letter counts into object counts."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "umu_collection_story_static",
+      "status": "active_metadata",
+      "institution_scope": "Universiteitsmuseum Utrecht",
+      "target": "official collection stories for surviving nineteenth-century microscopic preparations",
+      "expected_terms": ["preparaten", "microscop", "collectie", "Universiteitsmuseum"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture named maker/researcher, set structure, publication/distribution dates, correspondence/archive hooks and current museum custody. For Cinchona preserve 125+25 surviving sets separately from six originally distributed pairs."
+    },
+    {
+      "site_adapter": "nhmw_archive_static",
+      "status": "active_metadata",
+      "institution_scope": "Naturhistorisches Museum Wien Archive for History of Science",
+      "target": "official archive pages describing historical material-object collections",
+      "expected_terms": ["mikroskopischen Präparate", "Ferdinand", "Archiv", "Wissenschaftsgeschichte"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture creator attribution and archive custody; leave count null unless a slide-level or container inventory is recovered."
+    }
+  ]
+}

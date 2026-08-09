@@ -1,0 +1,12 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v10-07R-19c",
+  "assignments": {
+    "specialized_collection_catalogue": [
+      "rbge_historical_diatom_static",
+      "nhmw_grunow_specialist"
+    ],
+    "collection_page_plus_search_portal": [
+      "nhm_data_portal_collector_query"
+    ]
+  }
+}

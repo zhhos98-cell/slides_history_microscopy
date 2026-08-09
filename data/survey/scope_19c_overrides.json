@@ -1,0 +1,46 @@
+{
+  "schema_version": "slide-survey-19c-scope-overrides-v3-07AR",
+  "rule": "Overrides are used only where the survey row's free-text date field is insufficient or potentially misleading. CORE_19C requires a source-backed nineteenth-century object/collection/provenance node, and the frozen microscope-slide catalogue additionally requires the surviving object medium to be closed strongly enough for inclusion.",
+  "overrides": {
+    "UK-WELLCOME-TIMOTHY-LEWIS": {
+      "status": "CORE_19C",
+      "reason": "The source is a 1958 exhibition photograph, but the described apparatus and microscope slides are attributed as belonging to Timothy Lewis (1841-1886); the source date is modern while the object/provenance node is nineteenth-century."
+    },
+    "US-YALE-PEABODY-INVERTEBRATE-SLIDES": {
+      "status": "CORE_19C",
+      "reason": "The collection is explicitly described as developing over nearly 150 years, placing the beginning of the surviving slide corpus in the nineteenth century; later rehousing is a modern custody event."
+    },
+    "US-MCZ-INSLIDE-PROJECT": {
+      "status": "CORE_19C",
+      "reason": "Harvard's 2026 collection account explicitly identifies surviving MCZ microscope slides mounted by Nathan Banks in 1891 and William Morton Wheeler for his 1893 thesis, and states that some of the roughly 50,000 invertebrate slides are more than 150 years old. The current digitisation project is modern infrastructure around a corpus containing explicit nineteenth-century objects."
+    },
+    "NL-UMU-PIETER-HARTING-PREPARATIONS-19C": {
+      "status": "POSSIBLE_19C",
+      "reason": "UMU explicitly says that a few preparations of Pieter Harting survive and separately documents his nineteenth-century microscopy teaching and collecting, but the public source does not close those surviving preparations specifically as glass microscope slides. Retain as a discovery/held-out node rather than in the frozen strict slide layer."
+    },
+    "KR-NNIBR-PERMANENT-TYPE-SLIDES": {
+      "status": "OUT_OF_SCOPE",
+      "reason": "The recovered permanent type/voucher slide evidence is twenty-first-century taxonomy and has no nineteenth-century provenance node."
+    },
+    "CL-MNHN-COCCOIDEA-DONATION-SLIDES": {
+      "status": "OUT_OF_SCOPE",
+      "reason": "The verified donation event is 2016 and the survey row currently establishes no nineteenth-century object or collection history."
+    },
+    "BR-USP-LABMICRO-MICROMORPHOLOGY-THIN-SECTIONS": {
+      "status": "OUT_OF_SCOPE",
+      "reason": "Modern archaeological micromorphology reference collection; useful method comparator but no nineteenth-century slide/provenance node is established."
+    },
+    "CO-UNAL-UNAB-SLIDE-COLLECTION": {
+      "status": "OUT_OF_SCOPE",
+      "reason": "The museum and named slide collection are documented as a modern collection structure beginning in 2001; no nineteenth-century node is yet established."
+    },
+    "JP-KAHAKU-WATANABE-DIATOM-SLIDES": {
+      "status": "OUT_OF_SCOPE",
+      "reason": "The verified collection-transfer events are 2002 and 2009 and the collection is twentieth/twenty-first-century research material."
+    },
+    "JP-KAHAKU-FRESHWATER-ALGAE-EXSICCATAE-SLIDES": {
+      "status": "OUT_OF_SCOPE",
+      "reason": "The recovered exsiccata slide-distribution series is modern and currently has no nineteenth-century predecessor set in evidence."
+    }
+  }
+}

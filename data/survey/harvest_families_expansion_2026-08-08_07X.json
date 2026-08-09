@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v18-07X",
+  "assignments": {
+    "institution_collection_record": [
+      "oxford_hsm_rms_slide_cabinet",
+      "nms_nicol_forbes_historical_slides"
+    ],
+    "manual_or_endpoint_discovery": [
+      "qmc_slide_archive"
+    ],
+    "literature_or_project_evidence": [
+      "sheffield_sorby_metallurgy_literature",
+      "sheffield_sorby_chemical_precipitates_literature"
+    ]
+  }
+}

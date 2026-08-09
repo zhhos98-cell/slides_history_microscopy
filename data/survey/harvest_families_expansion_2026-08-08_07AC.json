@@ -1,0 +1,12 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v23-07AC",
+  "assignments": {
+    "institution_collection_record": [
+      "nhmw_ferdinand_archive_static"
+    ],
+    "literature_or_project_evidence": [
+      "nhm_williamson_foram_literature",
+      "nhm_carpenter_eozoon_literature"
+    ]
+  }
+}

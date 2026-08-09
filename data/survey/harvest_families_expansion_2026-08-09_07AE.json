@@ -1,0 +1,17 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v25-07AE",
+  "assignments": {
+    "literature_or_project_evidence": [
+      "manchester_gibson_collection_literature",
+      "haeckel_jena_messina_literature",
+      "nhm_haeckel_radiolaria_literature",
+      "nhm_castracane_challenger_literature"
+    ],
+    "collection_page_plus_search_portal": [
+      "standrews_bell_pettigrew_slides"
+    ],
+    "specialized_collection_catalogue": [
+      "farlow_kitton_catalogue"
+    ]
+  }
+}

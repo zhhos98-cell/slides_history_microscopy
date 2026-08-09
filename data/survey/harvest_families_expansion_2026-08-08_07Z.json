@@ -1,0 +1,11 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v20-07Z",
+  "assignments": {
+    "collection_page_plus_search_portal": [
+      "nhm_wallich_protist_static"
+    ],
+    "archive_or_finding_aid_record": [
+      "lshtm_ross_malaria_slides"
+    ]
+  }
+}

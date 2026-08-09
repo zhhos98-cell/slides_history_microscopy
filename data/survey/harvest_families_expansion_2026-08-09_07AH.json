@@ -1,0 +1,18 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v28-07AH",
+  "assignments": {
+    "specialized_collection_catalogue": [
+      "oxford_palaeobot_brahms"
+    ],
+    "institution_collection_record": [
+      "mncn_arthropods_19c_static",
+      "ies_san_isidro_19c_static"
+    ],
+    "literature_or_project_evidence": [
+      "mncn_sponges_graellsia"
+    ],
+    "collection_page_plus_search_portal": [
+      "museumsvictoria_bale_microslides"
+    ]
+  }
+}

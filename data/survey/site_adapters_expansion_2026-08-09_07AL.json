@@ -1,0 +1,58 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v36-07AL-19c-historical-collections",
+  "purpose": "Adapters for five strict nineteenth-century microscope-slide collection nodes recovered through current institutional collection pages, historical collection catalogues and institutional research publications.",
+  "guards": [
+    "Do not project mixed-period current repository totals wholly into the nineteenth century; preserve explicit nineteenth-century formation evidence separately from later accumulation.",
+    "Keep sample, specimen, slide and current stable-identifier counts in separate namespaces; do not convert sample numbers into slide counts.",
+    "A present institutional arrangement may combine material from several historical custody strata; preserve deposit, transfer, permanent loan, later accession and present holding as distinct events.",
+    "Historical labels or names on slides do not by themselves prove preparation by the named person; preserve preparation, use, ownership and custody as separate relations.",
+    "Approximate collection-scale terms such as 'hundreds', 'large collection' and 'about 300' remain approximate until a register or item-level enumeration is recovered."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "nhmw_grunow_diatom_collection",
+      "status": "active_metadata",
+      "institution_scope": "Naturhistorisches Museum Wien Herbarium W Albert Grunow diatom collection",
+      "target": "official NHM Vienna Grunow digitisation page, catalogue/sample numbering systems and JACQ stable identifiers",
+      "expected_terms": ["Albert Grunow", "1899", "3,278 sample numbers", "ca 1,400", "slides", "JACQ"],
+      "item_url_pattern": "",
+      "promotion_rule": "Harvest explicit sample numbers, slide references, preparation type and current QR/JACQ identifiers when exposed; keep 3,278 catalogue sample numbers distinct from the approximately 1,400 extant Grunow slides."
+    },
+    {
+      "site_adapter": "rbge_walker_arnott_diatoms",
+      "status": "active_metadata",
+      "institution_scope": "Royal Botanic Garden Edinburgh G.A. Walker Arnott diatom slides and unmounted material",
+      "target": "RBGE current diatom collection page plus Algae World photographed catalogues for Large and Small tube sequences",
+      "expected_terms": ["G.A. Walker Arnott", "1850s", "Larger tubes", "Smaller tubes", "permanent loan", "isotypes"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture Large-tube and S-prefixed Small-tube sample/slide numbering, label metadata and historical correspondents; preserve Glasgow to Scottish Marine Biological Association to RBGE permanent-loan custody separately from original Arnott collection formation."
+    },
+    {
+      "site_adapter": "sedgwick_harker_petrology",
+      "status": "active_metadata",
+      "institution_scope": "Sedgwick Museum of Earth Sciences Igneous and Metamorphic Petrology Harker Collection",
+      "target": "current Sedgwick petrology collection page, institutional archive/catalogue and Virtual Microscope Harker history",
+      "expected_terms": ["Alfred Harker", "1880s", "thin sections", "160,000", "250,000", "42,000"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use explicit nineteenth-century Harker dates and specimen/slide records for CORE_19C; treat current 160,000 hand specimens and 250,000 thin sections as mixed-period repository totals and leave the nineteenth-century thin-section subtotal unresolved."
+    },
+    {
+      "site_adapter": "oxford_dunn_ritchie_sutcliffe_pdf",
+      "status": "active_metadata",
+      "institution_scope": "University of Oxford Sir William Dunn School of Pathology Percy Temple Sutcliffe / James Ritchie early teaching slides",
+      "target": "institutional Fusion newsletter PDF documenting 1897 practical pathology teaching and the rediscovered Sutcliffe slide collection",
+      "expected_terms": ["Percy Temple Sutcliffe", "about 300 microscope slides", "Pathology Oxford", "J. Ritchie", "1897"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve the explicit 1897 practical-teaching context, approximately 300-slide rediscovery and label phrases; do not assert that every slide was made in 1897 or personally prepared by Ritchie without item-level dates or maker evidence."
+    },
+    {
+      "site_adapter": "bgs_hooker_nicol_fossil_wood",
+      "status": "active_metadata",
+      "institution_scope": "British Geological Survey Joseph D. Hooker unregistered fossil-plant thin-section collection",
+      "target": "BGS Earthwise collection page and its full list of P-numbered thin sections",
+      "expected_terms": ["Joseph Hooker", "1846", "hundreds", "thin sections", "William Nicol", "P775", "P776"],
+      "item_url_pattern": "earthwise.bgs.ac.uk/index.php/Joseph_D._Hooker_slide_collection",
+      "promotion_rule": "Harvest P-numbered examples, locality, collector/preparer statements and dates; keep the collection-scale 'hundreds' approximate and distinguish Hooker assembly, Nicol preparation, Darwin-Hooker exchange and current BGS registration."
+    }
+  ]
+}

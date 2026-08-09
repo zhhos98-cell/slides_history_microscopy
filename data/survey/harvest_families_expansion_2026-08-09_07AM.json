@@ -1,0 +1,18 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v33-07AM",
+  "assignments": {
+    "collection_page_plus_search_portal": [
+      "rcseng_quekett_microscope_slides"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "smg_y2001_223_slide_cabinet"
+    ],
+    "institution_collection_record": [
+      "whipple_2385b_slide_case"
+    ],
+    "literature_or_project_evidence": [
+      "manchester_chaffers_diatoms",
+      "glasgow_hunterian_heddle_thinsections"
+    ]
+  }
+}

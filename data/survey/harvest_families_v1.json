@@ -1,0 +1,83 @@
+{
+  "schema_version": "slide-survey-harvest-families-v1",
+  "purpose": "Batch-level harvest contracts for global microscope-slide collection survey entries. Families define common extraction behaviour; site adapters retain institution-specific URLs, terms, and promotion rules.",
+  "global_guards": [
+    "Metadata first. Do not bulk-download specimen images.",
+    "Do not bypass login, anti-bot, paywall, robots, or access controls.",
+    "Preserve source wording for prepared by, mounted by, collected by, donated by, held by, digitised by, used by, received by, belonging to, and related claims.",
+    "Do not turn a collection-level count into an item-level inventory unless the source exposes item records.",
+    "Do not infer object identity from taxon, collector, or catalogue-number similarity alone.",
+    "Keep lantern slides, photographic slides, glass plate negatives, 35mm slides, plastic slides, petrographic thin sections, and microscope glass slides as distinct media/status values."
+  ],
+  "families": [
+    {
+      "family": "institution_collection_record",
+      "phase": "A",
+      "strategy": "Fetch one authoritative institution collection page and extract collection-scale evidence only.",
+      "fields": ["page_title", "institution", "collection_name", "stated_count", "count_scope", "date_range", "named_people", "relationship_phrases", "subject_scope", "physical_structure", "label_or_identifier_notes", "linked_catalogue_urls", "source_url", "source_sha256"],
+      "follow_links": "Only same-institution links explicitly labelled collection, catalogue, database, find a specimen, inventory, or related collection.",
+      "stop_rule": "Do not recursively crawl generic navigation or news pages.",
+      "adapter_keys": ["nhm_collection_static", "kew_collection_static", "kew_digitisation_static", "oumnh_project_static", "hunterian_collection_static", "kcl_collection_static", "mcz_collection_static", "florida_museum_static", "mnhn_collection_static", "standrews_collection_record", "grosvenor_collection_static", "cambridge_museums_static", "osu_herbarium_static", "nybg_structural_botany_static", "cu_boulder_diatom_static", "cmn_palaeobiology_static", "tiegs_museum_static", "mfn_micropaleontology_static", "kahaku_mrc_static", "iziko_entomology_static", "bsm_database_static", "naturalis_collection_static", "senckenberg_virmisco_static", "kyoto_rish_xylarium_static", "nus_lkcnhm_static", "wits_fossil_collections_static", "upm_wood_collection_static", "ucm_entomology_static", "mncn_collection_static", "museo_cajal_official", "smithsonian_entomology_static", "notre_dame_biodiversity_static", "standrews_group_static", "dundee_zoology_static", "bsip_museum_static", "macn_paleopalynology_static", "museo_la_plata_entomology_static", "stromness_kellock_static", "nhm_palynology_static", "nhm_nannofossil_static", "smithsonian_stri_palynology_static"]
+    },
+    {
+      "family": "collection_page_plus_search_portal",
+      "phase": "B",
+      "strategy": "Capture the authoritative collection page first, then enumerate only the linked search/gallery records that can be tied back to that collection.",
+      "fields": ["collection_record", "search_endpoint", "result_count", "item_id", "item_url", "title_or_taxon", "collector_or_preparer", "date", "locality", "type_status", "slide_media", "label_text_or_transcription", "container_or_batch", "source_relation_to_collection"],
+      "pagination": "Enumerate stable result pages or API cursors; checkpoint each page and deduplicate on institution-local item ID.",
+      "stop_rule": "Stop when the collection filter is lost or results become generic institution-wide search hits.",
+      "adapter_keys": ["smithsonian_search", "smithsonian_algae_static", "wellcome_search", "ubc_spencer_collection", "mcz_named_collection_static", "usp_litolab_thin_sections"]
+    },
+    {
+      "family": "specialized_collection_catalogue",
+      "phase": "B",
+      "strategy": "Traverse a bounded specialist catalogue whose internal hierarchy is itself historical evidence.",
+      "fields": ["collection_or_series", "subcollection", "set_or_exsiccata", "serial_number", "collector", "preparer", "taxon", "locality", "date", "publication_relation", "gift_exchange_purchase_phrase", "item_or_set_url", "label_text", "notes"],
+      "pagination": "Follow catalogue/list links on the same host; preserve parent-child hierarchy and source ordering.",
+      "stop_rule": "Never flatten replicated published sets and unique unpublished collections into one undifferentiated item list.",
+      "adapter_keys": ["farlow_diatom_catalogue", "nhmd_desmid_static", "caup_diatom_static", "smithsonian_pollengeo_catalogue"]
+    },
+    {
+      "family": "dataset_api_or_dwca",
+      "phase": "B",
+      "strategy": "Use official API, Darwin Core Archive, or dataset export and filter for microscope-slide preparation/material fields before creating item stubs.",
+      "fields": ["dataset_id", "occurrence_id", "catalog_number", "basis_of_record", "preparations", "type_status", "scientific_name", "recorded_by", "event_date", "locality", "institution_code", "collection_code", "media_metadata_only"],
+      "pagination": "Prefer downloadable DwC-A or documented API cursors over HTML scraping.",
+      "stop_rule": "If the dataset does not expose a reliable slide/preparations discriminator, retain dataset-level evidence and do not claim a slide-item count.",
+      "adapter_keys": ["nrm_gbif_dataset"]
+    },
+    {
+      "family": "archive_or_finding_aid_record",
+      "phase": "A",
+      "strategy": "Extract archival hierarchy, creators, extent, boxes/drawers, dates, former ownership, acquisition/donation language, and linked container lists.",
+      "fields": ["repository", "collection_title", "creator", "date_range", "extent", "box_count", "drawer_count", "scope_content", "former_owner", "donor_or_transfer_phrase", "container_list", "related_finding_aid", "digitized_items", "reference_code"],
+      "follow_links": "Follow only container lists, finding-aid sections, and digitised items explicitly nested under the target collection.",
+      "stop_rule": "Do not infer number of individual slides from number of boxes or archival objects.",
+      "adapter_keys": ["oac_finding_aid", "natlib_mantell_record", "mcgill_archive_static"]
+    },
+    {
+      "family": "literature_or_project_evidence",
+      "phase": "A",
+      "strategy": "Use a paper, museum journal article, project report, legal record, institutional story, or curatorial article to establish collection existence, counts, label fields, digitisation method, conservation state, or dated collection status; keep it distinct from an official item register.",
+      "fields": ["citation", "institution", "collection_name", "stated_count", "survey_date", "table_or_figure_reference", "label_fields_described", "condition_or_conservation_notes", "digitisation_workflow", "named_people", "claimed_object_register_link", "verification_needed"],
+      "stop_rule": "Do not promote literature table row numbers, figure numbers, programme totals, aggregate legacy counts, species counts, locality counts, or OCR artefacts into museum identifiers or slide counts.",
+      "adapter_keys": ["nhm_phthiraptera_literature", "manchester_gibson_literature", "mnhn_deflandre_literature_manual", "reimer_diatom_literature", "geoscience_australia_literature", "nhmw_scale_insect_literature", "mncn_caballero_history", "smithsonian_lepidoptera_literature", "nz_dominion_museum_report", "tepapa_blog_collection", "chile_mnhn_sgopm_report", "smithsonian_denver_pollen_static"]
+    },
+    {
+      "family": "item_catalogue_json_or_iiif",
+      "phase": "C",
+      "strategy": "Use item-page JSON or IIIF metadata endpoints when the institution explicitly exposes them; harvest metadata manifests, not image binaries.",
+      "fields": ["object_id", "accession_number", "title", "object_type", "maker", "credit_or_donor", "date", "materials", "measurements", "description", "json_url", "iiif_manifest_url", "collection_context"],
+      "pagination": "Start from a bounded collection/search result and follow item records; use JSON/manifest URLs advertised by the item page.",
+      "stop_rule": "Do not request IIIF image tiles or full-resolution derivatives in the survey workflow.",
+      "adapter_keys": ["smg_object_type_search", "museums_victoria_object_static"]
+    },
+    {
+      "family": "manual_or_endpoint_discovery",
+      "phase": "0",
+      "strategy": "Keep the candidate in the survey while locating a stable catalogue, API, finding aid, or collection page. No automated harvest yet.",
+      "fields": ["candidate_institution", "candidate_collection", "known_evidence", "missing_endpoint", "next_search_terms"],
+      "adapter_keys": ["rms_quekett_manual", "mczbase_manual", "cornell_candidate_manual", "mnhn_deflandre_literature_manual"]
+    }
+  ]
+}

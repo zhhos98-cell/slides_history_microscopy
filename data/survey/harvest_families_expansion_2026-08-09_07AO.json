@@ -1,0 +1,18 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v35-07AO",
+  "assignments": {
+    "institution_collection_record": [
+      "rki_koch_scientific_estate_micropreparations"
+    ],
+    "collection_page_plus_search_portal": [
+      "mnhn_van_tieghem_histotheque",
+      "mcz_harvard_embryological_collection"
+    ],
+    "archive_or_finding_aid_record": [
+      "nmhm_army_medical_museum_microscopical_section"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "nmah_bourgogne_two_box_slide_set"
+    ]
+  }
+}

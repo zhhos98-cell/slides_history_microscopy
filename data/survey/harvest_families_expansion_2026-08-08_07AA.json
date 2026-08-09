@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v21-07AA",
+  "assignments": {
+    "literature_or_project_evidence": [
+      "bmm_virchow_catalogue_pdf"
+    ],
+    "institution_collection_record": [
+      "apothekenmuseum_sautermeister_static",
+      "mnhn_botany_histotheque_static",
+      "hu_zoological_teaching_collection"
+    ],
+    "dataset_api_or_dwca": [
+      "nhm_busk_bryozoa_portal"
+    ]
+  }
+}

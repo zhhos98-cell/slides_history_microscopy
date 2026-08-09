@@ -1,0 +1,39 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v31-07AG-19c-nz-ie-se",
+  "purpose": "Adapters for a bounded early Mantell slide case in New Zealand custody, a late-Victorian Birr Castle cabinet in the Irish national instrument inventory, and P. T. Cleve's original diatom-preparation corpus at the Swedish Museum of Natural History.",
+  "guards": [
+    "Do not convert cabinet storage capacity into surviving slide count.",
+    "Preserve presentation, collection attribution, commercial preparation/supply and later institutional custody as separate relations.",
+    "Keep original/personal Cleve material distinct from replicated Cleve & Möller published sets held by multiple institutions.",
+    "For mixed late-nineteenth/early-twentieth-century cabinets, isolate the pre-1900 subset through labels, maker chronology or other dated object evidence before counting."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "natlib_mantell_object_record",
+      "status": "active_metadata",
+      "institution_scope": "National Library of New Zealand Mantell family object collection",
+      "target": "official Objects-0728 record for the ten-slide Mantell case",
+      "expected_terms": ["10 microscope slides", "Objects-0728", "Mantell", "Mr Reade's Xanthidia", "leather-bound case"],
+      "item_url_pattern": "natlib.govt.nz/records/{record}",
+      "promotion_rule": "Capture the ten-slide bounded group, case initials, subject range and the explicit J. B. Reade-to-Mantell presentation relation; do not flatten presented slides into generic Mantell authorship."
+    },
+    {
+      "site_adapter": "irish_inventory_birr_pdf",
+      "status": "active_metadata",
+      "institution_scope": "Birr Castle microscope-slide cabinet in the Irish National Inventory of Historic Scientific Instruments",
+      "target": "inventory item 2354 / BIR040 and any linked Birr object documentation",
+      "expected_terms": ["BIR040", "MICROSCOPE SLIDES", "W. WATSON & SONS", "19 drawers", "76 x 26"],
+      "item_url_pattern": "",
+      "promotion_rule": "Record cabinet dimensions, drawer structure and Watson labels while keeping the 19 x 16 slot capacity distinct from extant slide count; isolate 1882-1899 objects from the mixed late-19th/early-20th dating."
+    },
+    {
+      "site_adapter": "nrm_pt_cleve_diatoms_static",
+      "status": "active_metadata",
+      "institution_scope": "Swedish Museum of Natural History P. T. Cleve diatom collection",
+      "target": "official NRM diatom collection page plus item/subcollection endpoint discovery",
+      "expected_terms": ["P. T. Cleve", "microscope preparations", "large collection", "Vega", "nineteenth century"],
+      "item_url_pattern": "",
+      "promotion_rule": "Recover Cleve-labelled microscope preparations and expedition-linked items; preserve processed/raw samples as separate media and keep this personal collection distinct from Cleve & Möller replicate sets."
+    }
+  ]
+}

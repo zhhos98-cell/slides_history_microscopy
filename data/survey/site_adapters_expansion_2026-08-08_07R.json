@@ -1,0 +1,38 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v13-07R-19c",
+  "purpose": "Adapters for strict nineteenth-century RBGE Walker Arnott, NHM William Smith, and NHMW Grunow collection nodes.",
+  "guards": [
+    "Preserve former institutional custody and current custody separately when historic collections have moved between repositories.",
+    "For mixed-period institutional portals, enumerate only records tied to the named nineteenth-century collector or collection filter; never inherit the whole museum slide count.",
+    "Preserve original sample/accession/slide numbering systems because they provide crosswalks to catalogues, drawings, publications, and replicate sets."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "rbge_historical_diatom_static",
+      "status": "active_metadata",
+      "institution_scope": "Royal Botanic Garden Edinburgh historical diatom collections",
+      "target": "Walker Arnott collection page and downloadable Large/Small series catalogues",
+      "expected_terms": ["Walker Arnott", "Large", "Small", "slides", "1850s"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture Large-tube and S-prefixed Small-tube identifiers, current RBGE sequence, former Glasgow/SMBA custody, correspondence-derived material, isotype status, and links to NHM-held historical catalogues."
+    },
+    {
+      "site_adapter": "nhm_data_portal_collector_query",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London Data Portal",
+      "target": "named nineteenth-century collector microscope-preparation records within collection-specimens",
+      "expected_terms": ["Microscope", "Recorded by", "Catalogue number", "Occurrence ID"],
+      "item_url_pattern": "data.nhm.ac.uk/object/{uuid}",
+      "promotion_rule": "Enumerate only records where the named collector/recorded-by filter remains explicit; capture catalogue number, barcode, collection date, type status, locality, occurrence ID and IIIF metadata."
+    },
+    {
+      "site_adapter": "nhmw_grunow_specialist",
+      "status": "active_metadata",
+      "institution_scope": "Naturhistorisches Museum Wien Grunow diatom collection",
+      "target": "specialist collection guide for Grunow slides, accession books, exsiccatae, samples and drawings",
+      "expected_terms": ["Grunow", "accession", "microscope slides", "Cleve", "Van Heurck"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve accession-book sample number, slide number, original-sample relation, drawing relation, published-set identity and current cabinet structure; do not collapse samples, slides and exsiccata envelopes into one item type."
+    }
+  ]
+}

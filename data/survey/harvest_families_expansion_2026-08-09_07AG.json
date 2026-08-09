@@ -1,0 +1,12 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v27-07AG",
+  "assignments": {
+    "institution_collection_record": [
+      "natlib_mantell_object_record",
+      "nrm_pt_cleve_diatoms_static"
+    ],
+    "archive_or_finding_aid_record": [
+      "irish_inventory_birr_pdf"
+    ]
+  }
+}

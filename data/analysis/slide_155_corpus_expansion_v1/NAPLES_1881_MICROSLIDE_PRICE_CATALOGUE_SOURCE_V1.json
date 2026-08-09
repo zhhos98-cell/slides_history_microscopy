@@ -1,0 +1,51 @@
+{
+  "schema_version": "slide-object-text-primary-source-v1",
+  "status": "PRIMARY_SOURCE_LOCATED_PARSE_PENDING",
+  "object_entry_id": "UK-STANDREWS-NAPOLI-FRITZ-MEYER-SLIDES-1881",
+  "source": {
+    "title": "Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate",
+    "author_as_catalogued_by_bhl": "Anton Dohrn",
+    "journal": "Mittheilungen aus der Zoologischen Station zu Neapel",
+    "volume": "2",
+    "year": 1881,
+    "printed_pages": "238-253",
+    "page_count": 16,
+    "publisher": "Wilhelm Engelmann, Leipzig",
+    "bhl_item_id": 37442,
+    "bhl_item_url": "https://www.biodiversitylibrary.org/item/37442",
+    "bhl_article_start_url": "https://www.biodiversitylibrary.org/page/9678021",
+    "internet_archive_identifier": "mittheilungenaus02staz",
+    "copyright_status_bhl": "NOT_IN_COPYRIGHT"
+  },
+  "object_side_crosscheck": {
+    "source": "University of St Andrews, Bell-Pettigrew Zoology microscope slide collection, BPM/1/FM",
+    "url": "https://collections.st-andrews.ac.uk/group/stazione-zoologica-napoli-zoological-microscope-slides/2001884",
+    "catalogue_description": "sixteen-page 1881 catalogue",
+    "catalogue_offering_count": 423,
+    "price_currency_as_described": "gold francs",
+    "survival_note": "St Andrews states that relatively few Naples slides survive and that Fritz Meyer appears to have mounted most surviving examples."
+  },
+  "quantity_namespace": {
+    "value": 423,
+    "namespace": "historical_catalogue_offering_count",
+    "unit": "different microscope-slide/preparation offerings",
+    "explicit_exclusion": "This is not a surviving-slide count, not a current institutional total, and not evidence that 423 physical slides survive at St Andrews or elsewhere."
+  },
+  "relationship_claims_supported": [
+    "offered/distributed by Stazione Zoologica Napoli",
+    "priced for purchase/order",
+    "historical catalogue of microscope preparations"
+  ],
+  "existing_textual_bridges": [
+    "JRMS 1880 p.700: Naples preparation department managed by Fritz Meyer; large-scale preparation; list forthcoming",
+    "Quekett 1882 p.194: chick-embryo specimens explicitly prepared by Fritz Meyer"
+  ],
+  "parse_state": {
+    "full_primary_container_located": true,
+    "article_page_range_closed": true,
+    "full_row_level_ocr_recovered": false,
+    "catalogue_rows_parsed": false,
+    "reason": "BHL exposes the full public-domain article and text/download controls, but row-level OCR for pp.238-253 was not recoverable through the current tool path in this pass."
+  },
+  "next_action": "No further discovery is needed. If row-level prices/taxa are required, manually download or inspect BHL/Internet Archive pp.238-253 and parse the 16-page catalogue as a bounded source-ingest task."
+}

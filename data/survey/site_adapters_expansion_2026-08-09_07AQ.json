@@ -1,0 +1,60 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v41-07AQ-19c-closure-discovery",
+  "purpose": "Penultimate discovery adapters for five strict nineteenth-century microscope-slide nodes selected for closure value: explicit historical histology formation, a bounded Yale historical slide corpus, a major MNHN parent collection with a documented nineteenth-century layer, a UCL teaching-slide layer tied to mid-century dealers, and a strictly dated Science Museum Group object.",
+  "guards": [
+    "Current parent-collection totals spanning later periods must not be projected backward into the nineteenth century; retain the explicit historical layer and leave its subtotal unresolved unless item records close it.",
+    "Display subset, whole collection, historical subset and bounded museum object are separate quantity namespaces. In particular, the UCL Micrarium display is not the Grant Museum total and neither is automatically the nineteenth-century subset.",
+    "A collection foundation date or broad period of growth does not date every slide. Promote individual historical slides only when date, creator, publication, dealer, label or catalogue evidence closes the item.",
+    "Institutional wording such as 'from Weichselbaum's time' or curatorial attribution to slides bought 'by the likes of' Robert Edmund Grant must be preserved at that level and must not be upgraded to direct preparation attribution.",
+    "A strictly dated object-level museum record may enter CORE_19C even when exact preparer and individual glass-piece count are unresolved; object count and slide-piece count remain separate.",
+    "Keep nested historical subcollections distinct from their present parent aggregates when they already carry separate physical or provenance identities in the survey.",
+    "Keep Josephinum histopathology separate from the Narrenturm Pathological-Anatomical Collection because current custody/collection descriptions are not interchangeable."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "meduni_vienna_josephinum_histopathology",
+      "status": "active_metadata",
+      "institution_scope": "Medical University of Vienna Josephinum historical histopathology collection / Weichselbaum-era sections",
+      "target": "official MedUni Vienna Institute of Pathology history and Josephinum medical-history collection records",
+      "expected_terms": ["Josephinum", "histologischen Präparaten", "histopathologischen Schnitten", "Weichselbaum", "1893", "Mikroskopie"],
+      "item_url_pattern": "pathologie.meduniwien.ac.at/*; josephinum.ac.at/*",
+      "promotion_rule": "Use Josephinum inventory, labels and institute-era documentation to isolate preparations explicitly dated 1893-1899. Retain the official phrase that a collection of histopathological sections from Weichselbaum's period survives, without assigning preparation to Weichselbaum unless an item record does so."
+    },
+    {
+      "site_adapter": "yale_peabody_lentz_historical_slides",
+      "status": "active_metadata",
+      "institution_scope": "Yale Peabody Museum Lentz Microscopy and Histology Collection",
+      "target": "official Yale collection page and Yale-hosted Lentz Microscopy and Technology Collection guide",
+      "expected_terms": ["Lentz", "over 4,000 slides", "nineteenth century slides", "slide sets", "cabinets", "c1820-2008"],
+      "item_url_pattern": "peabody.yale.edu/*",
+      "promotion_rule": "Extract historically grouped nineteenth-century slides, sets and cabinets from the Yale-hosted guide and museum records. Keep the over-4,000 total as a mixed c.1820-2008 collection figure and do not manufacture a nineteenth-century subtotal."
+    },
+    {
+      "site_adapter": "mnhn_comparative_anatomy_histology",
+      "status": "active_metadata",
+      "institution_scope": "MNHN Comparative Anatomy histological-slide collection",
+      "target": "official Comparative Anatomy collection page and linked MNHN collections database",
+      "expected_terms": ["100,000 histological slides", "second half of the 19th century", "thousands", "Comparative Anatomy", "Cuvier"],
+      "item_url_pattern": "mnhn.fr/*comparative-anatomy*; science.mnhn.fr/*",
+      "promotion_rule": "Use item creator, acquisition, date, taxon and preparation metadata to isolate the thousands of slides added during the second half of the nineteenth century. Keep the present over-100,000 total as a mixed historical-to-modern parent aggregate and retain already catalogued historical subcollections as distinct nested nodes."
+    },
+    {
+      "site_adapter": "ucl_grant_historical_slide_collection",
+      "status": "active_metadata",
+      "institution_scope": "UCL Grant Museum microscope-slide collection and Micrarium historical teaching-slide layer",
+      "target": "official Grant Museum Micrarium page, UCL Culture curatorial history and museum catalogue records",
+      "expected_terms": ["20,000 microscope slides", "2,300", "2,323", "Robert Edmund Grant", "slide dealers", "mid-nineteenth century"],
+      "item_url_pattern": "ucl.ac.uk/museums-collections/*; blogs.ucl.ac.uk/museums/*",
+      "promotion_rule": "Recover maker/dealer labels and catalogue IDs for older patterned slides identified by UCL as a mid-nineteenth-century teaching/research layer. Preserve the museum's curatorial attribution wording and keep the 20,000 collection total, 2,300/2,323 display count and nineteenth-century subset separate."
+    },
+    {
+      "site_adapter": "smg_wellcome_a651330_slide_pieces",
+      "status": "active_metadata",
+      "institution_scope": "Science Museum Group A651330 selection of microscope slide pieces",
+      "target": "official SMG object page, JSON catalogue data and IIIF manifest",
+      "expected_terms": ["A651330", "1850-1900", "Selection of microscope slide pieces", "John Richardson and Co.", "Leicester"],
+      "item_url_pattern": "collection.sciencemuseumgroup.org.uk/objects/{record}",
+      "promotion_rule": "Preserve the catalogue's strict 1850-1900 date range, reused cardboard-box context and bounded object identity. Do not infer exact glass-piece count or microscope-slide preparer from the box maker, dimensions or images unless catalogue/label evidence states them."
+    }
+  ]
+}

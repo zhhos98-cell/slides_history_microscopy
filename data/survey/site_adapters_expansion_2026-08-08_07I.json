@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v7-07I",
+  "purpose": "Adapters for Yale, Harvard vertebrate histology, Korean type-slide repositories, Turkish nematology and Chilean donation records added in 07I.",
+  "guards": [
+    "Collection project pages may establish scale and physical rehousing even when item cataloguing is incomplete.",
+    "Repeated literature depositions may establish a repository node, but never manufacture an aggregate slide count from accession-number examples.",
+    "Government project reports describing loss, reorganisation and new preparation must preserve those events separately.",
+    "Donation news establishes a transfer event and recipient collection, not an unstated item count."
+  ],
+  "adapters": [
+    {"site_adapter":"yale_peabody_hidden_collection","status":"active_metadata","institution_scope":"Yale Peabody Museum Invertebrate Zoology","target":"CLIR hidden-collections project record","expected_terms":["50,000","microscope slide","archival cabinets","catalog"],"item_url_pattern":"","promotion_rule":"Capture historical scale, physical curation, archival-cabinet transfer and future database plan; seek Peabody item endpoint separately."},
+    {"site_adapter":"nnibr_type_slide_literature","status":"manual_placeholder","institution_scope":"Nakdonggang National Institute of Biological Resources","target":"peer-reviewed permanent type/voucher slide depositions","expected_terms":["permanent slide","NNIBR","holotype","deposited"],"item_url_pattern":"","promotion_rule":"Preserve institutional identifiers and taxonomic deposit events as item anchors; aggregate count remains null until an official repository export is found."},
+    {"site_adapter":"turkey_nazife_tuatay_nematology_report","status":"manual_placeholder","institution_scope":"Nazife Tuatay Plant Protection Museum / Central Research Institute for Plant Protection","target":"official TAGEM nematology project report","expected_terms":["nematod","koleksiyon","preparat","95"],"item_url_pattern":"","promotion_rule":"Capture existing preparations, documented losses, reorganisation, newly prepared taxa and catalogue creation as separate lifecycle events."},
+    {"site_adapter":"chile_mnhn_coccoidea_donation","status":"active_metadata","institution_scope":"Museo Nacional de Historia Natural de Chile Entomology","target":"official donation record","expected_terms":["donacion","preparaciones microscopicas","COLBICS","2016"],"item_url_pattern":"","promotion_rule":"Capture donor, project, collection date/geography and recipient; leave physical count null unless accession records provide it."}
+  ]
+}

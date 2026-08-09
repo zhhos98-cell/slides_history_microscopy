@@ -1,0 +1,14 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v6-07K-19c",
+  "assignments": {
+    "item_catalogue_json_or_iiif": [
+      "smg_object_json_iiif",
+      "ohsu_digital_collection_iiif",
+      "nmah_object_iiif"
+    ],
+    "institution_collection_record": [
+      "whipple_object_static",
+      "rmg_object_static"
+    ]
+  }
+}

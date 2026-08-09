@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v19-07U-19c-histology",
+  "purpose": "Adapters for strict nineteenth-century histology collections recovered through deep multilingual search.",
+  "guards": [
+    "Keep laboratory preparation date separate from later remounting annotation museum acquisition or legal bequest.",
+    "Where a named collection spans 1900 isolate pre-1900 slides through labels methods publications or item dates before counting.",
+    "Do not merge wooden glass cardboard or other support formats into a single undifferentiated slide-material field."
+  ],
+  "adapters": [
+    {"site_adapter":"pavia_golgi_slides_literature","status":"active_metadata","institution_scope":"University Museum System Pavia Golgi collections","target":"official Golgi Room plus peer-reviewed 38-slide study","expected_terms":["38 slides","1899","1877","wooden","glass"],"item_url_pattern":"","promotion_rule":"Extract each surviving slide tissue support label signature/date and later annotation; retain official museum custody separately from laboratory preparation."},
+    {"site_adapter":"cajal_personal_histology_literature","status":"active_metadata","institution_scope":"Museo Cajal / CSIC","target":"official legal legacy documentation plus scholarly histological-slide catalogue studies","expected_terms":["preparaciones microscópicas","4529","1877","1897","Madrid"],"item_url_pattern":"","promotion_rule":"Use label styles city periods staining method and publication links to isolate pre-1900 slides; retain 1931 bequest and current inventory totals as later layers."},
+    {"site_adapter":"florence_pacini_histology_static","status":"active_metadata","institution_scope":"University of Florence Museo Anatomico Fiorentino","target":"official museum account of Pacini catalogued histological preparations","expected_terms":["preparati istologici","vetrini","1854","1863","1865","rimontata"],"item_url_pattern":"","promotion_rule":"Capture date reagent observation and remounting statements from labels; preserve the 1854 preparation and seven-years-later remounting as separate events."},
+    {"site_adapter":"sorbonne_dejerine_histology_portal","status":"active_metadata","institution_scope":"Sorbonne Universite medical collections / Fondation Dejerine","target":"official collection brochure and SorbonNum+ item portal","expected_terms":["lames histologiques","Dejerine","Anatomie des centres nerveux","1895"],"item_url_pattern":"","promotion_rule":"Traverse item records and publication/case links; isolate 1895-1899 neurological slides rather than treating the full twentieth-century-extended foundation as nineteenth-century."},
+    {"site_adapter":"mnhn_comparative_anatomy_static","status":"active_metadata","institution_scope":"MNHN Comparative Anatomy collection","target":"official collection history plus portal discovery for dated histological slides","expected_terms":["lames histologiques","seconde moitié du XIXe siècle","anatomie comparée"],"item_url_pattern":"","promotion_rule":"Use the collection page only as a nineteenth-century existence node; promote item counts only after portal-level date and material confirmation."}
+  ]
+}

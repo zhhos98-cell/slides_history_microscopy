@@ -1,0 +1,53 @@
+{
+  "schema": "naples_microscope_slide_catalogue_parse_v1",
+  "status": "PARSED_423_OCR_TEXT_V1_PRICE_PARTIAL",
+  "source": {
+    "title": "Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate",
+    "author_attribution": "Anton Dohrn",
+    "source_signature_date": "August 1880",
+    "volume_context": "Mittheilungen aus der Zoologischen Station zu Neapel, Bd. 2 (1880-1881)",
+    "article_pages": "238-253",
+    "numbered_catalogue_pages": "242-253",
+    "bhl_item": "37442",
+    "internet_archive_identifier": "mittheilungenaus02staz"
+  },
+  "quantity_namespace": {
+    "catalogue_offerings": 423,
+    "meaning": "historical numbered catalogue offerings; not surviving slides and not a present institutional total"
+  },
+  "historical_group_counts": {
+    "Protozoa": 4,
+    "Coelenterata": 33,
+    "Echinodermata": 49,
+    "Vermes": 33,
+    "Arthropoda": 57,
+    "Mollusca [source classification]": 54,
+    "Vertebrata": 193
+  },
+  "vertebrate_subgroup_counts": {
+    "Pisces": 61,
+    "Amphibia": 12,
+    "Reptilia": 4,
+    "Aves": 65,
+    "Mammalia": 33,
+    "Homo": 18
+  },
+  "price_extraction": {
+    "secure_row_prices": 148,
+    "unresolved_due_to_ocr_table_layout": 275,
+    "secure_parsed_min_gold_francs": 0.5,
+    "secure_parsed_median_gold_francs": 2.0,
+    "warning": "Do not infer the catalogue price maximum from the securely parsed subset. Detached OCR price columns contain higher values that are not safely row-aligned."
+  },
+  "review": {
+    "manual_reconstruction_ranges": ["1-33", "94-125", "169-238"],
+    "specific_alignment_review": "223-230 Cephalopoda",
+    "page_image_needed_for": "complete price-level quantitative analysis and publication-level verification of column-scrambled rows"
+  },
+  "attribution_rule": "Fritz Meyer directed/organized the preparation department; the catalogue does not establish that he personally prepared all 423 offerings.",
+  "derived_artifact_names": [
+    "NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.xlsx",
+    "NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.csv",
+    "NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.jsonl"
+  ]
+}

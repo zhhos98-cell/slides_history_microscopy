@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v32-07AL",
+  "assignments": {
+    "specialized_collection_catalogue": [
+      "nhmw_grunow_diatom_collection",
+      "rbge_walker_arnott_diatoms"
+    ],
+    "institution_collection_record": [
+      "sedgwick_harker_petrology",
+      "bgs_hooker_nicol_fossil_wood"
+    ],
+    "literature_or_project_evidence": [
+      "oxford_dunn_ritchie_sutcliffe_pdf"
+    ]
+  }
+}

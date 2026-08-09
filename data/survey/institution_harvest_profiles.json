@@ -1,0 +1,207 @@
+{
+  "schema_version": "slide-survey-institution-harvest-profiles-v1",
+  "purpose": "Institution-specific bounded metadata profiles. Explicit profiles handle the high-yield systems; every remaining automatable strict institution receives a generic fallback profile selected from its survey automation mode.",
+  "defaults": {
+    "page_budget": 12,
+    "absolute_page_cap": 120,
+    "max_bytes": 4000000
+  },
+  "profiles": {
+    "smg": {
+      "institution_patterns": ["Science Museum Group"],
+      "match_hosts": ["collection.sciencemuseumgroup.org.uk"],
+      "allowed_hosts": ["collection.sciencemuseumgroup.org.uk"],
+      "page_budget": 70,
+      "tags": ["high-yield", "uk", "object-catalogue"],
+      "follow_anchor_terms": ["JSON", "IIIF", "object", "collection", "part", "microscope slide"],
+      "follow_url_regex": ["/objects/", "iiif", "manifest", "\\.json(?:$|\\?)", "/api/"],
+      "deny_url_regex": ["/images?/", "/events?/"]
+    },
+    "nhm_london": {
+      "institution_patterns": ["Natural History Museum London", "Natural History Museum, London"],
+      "match_hosts": ["nhm.ac.uk", "data.nhm.ac.uk"],
+      "allowed_hosts": ["nhm.ac.uk", "data.nhm.ac.uk"],
+      "page_budget": 80,
+      "tags": ["high-yield", "uk", "portal"],
+      "follow_anchor_terms": ["Data Portal", "dataset", "catalogue", "collection", "specimen", "download", "object"],
+      "follow_url_regex": ["data\\.nhm\\.ac\\.uk/(?:object|dataset|resource)", "/our-science/services/collections/", "\\.(?:json|csv)(?:$|\\?)", "download"],
+      "deny_url_regex": ["/images?/", "/visit/", "/events?/"]
+    },
+    "farlow": {
+      "institution_patterns": ["Farlow Herbarium"],
+      "match_hosts": ["diatoms.hsites.harvard.edu"],
+      "allowed_hosts": ["diatoms.hsites.harvard.edu"],
+      "page_budget": 100,
+      "tags": ["high-yield", "diatoms", "specialist-catalogue"],
+      "follow_anchor_terms": ["slide", "collection", "catalogue", "series", "box", "localities", "bibliography"],
+      "follow_url_regex": ["diatoms\\.hsites\\.harvard\\.edu/", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/user/", "/login"]
+    },
+    "standrews": {
+      "institution_patterns": ["University of St Andrews Libraries and Museums"],
+      "match_hosts": ["collections.st-andrews.ac.uk"],
+      "allowed_hosts": ["collections.st-andrews.ac.uk"],
+      "page_budget": 80,
+      "tags": ["high-yield", "uk", "group-catalogue"],
+      "follow_anchor_terms": ["object", "group", "microscope", "slide", "collection", "related"],
+      "follow_url_regex": ["collections\\.st-andrews\\.ac\\.uk/(?:group|item|object|collection)/"],
+      "deny_url_regex": ["/search\\?"]
+    },
+    "ohsu": {
+      "institution_patterns": ["Oregon Health & Science University"],
+      "match_hosts": ["digitalcollections.ohsu.edu"],
+      "allowed_hosts": ["digitalcollections.ohsu.edu"],
+      "page_budget": 35,
+      "tags": ["high-yield", "digital-collection", "iiif"],
+      "follow_anchor_terms": ["IIIF", "manifest", "metadata", "download", "record"],
+      "follow_url_regex": ["/record/\\d+", "iiif", "manifest", "\\.json(?:$|\\?)"],
+      "deny_url_regex": ["/thumbnail", "/image"]
+    },
+    "powerhouse": {
+      "institution_patterns": ["Powerhouse"],
+      "match_hosts": ["collection.powerhouse.com.au"],
+      "allowed_hosts": ["collection.powerhouse.com.au"],
+      "page_budget": 45,
+      "tags": ["high-yield", "object-catalogue"],
+      "follow_anchor_terms": ["object", "collection", "related", "maker", "prepared"],
+      "follow_url_regex": ["collection\\.powerhouse\\.com\\.au/object/\\d+", "\\.json(?:$|\\?)", "/api/"],
+      "deny_url_regex": ["/media/", "/image"]
+    },
+    "whipple": {
+      "institution_patterns": ["Whipple Museum"],
+      "match_hosts": ["collections.whipplemuseum.cam.ac.uk"],
+      "allowed_hosts": ["collections.whipplemuseum.cam.ac.uk"],
+      "page_budget": 45,
+      "tags": ["high-yield", "uk", "object-catalogue"],
+      "follow_anchor_terms": ["object", "related", "collection", "microscope slide"],
+      "follow_url_regex": ["collections\\.whipplemuseum\\.cam\\.ac\\.uk/objects/\\d+"],
+      "deny_url_regex": ["/media/", "/search"]
+    },
+    "smithsonian": {
+      "institution_patterns": ["Smithsonian National Museum", "National Museum of American History", "Smithsonian"],
+      "match_hosts": ["americanhistory.si.edu", "repository.si.edu"],
+      "allowed_hosts": ["americanhistory.si.edu", "repository.si.edu", "si.edu"],
+      "page_budget": 55,
+      "tags": ["high-yield", "object-catalogue"],
+      "follow_anchor_terms": ["object", "collection", "metadata", "download", "IIIF", "manifest"],
+      "follow_url_regex": ["/collections/object/", "iiif", "manifest", "\\.json(?:$|\\?)", "repository\\.si\\.edu"],
+      "deny_url_regex": ["/images?/", "/events?/"]
+    },
+    "museums_victoria": {
+      "institution_patterns": ["Museums Victoria"],
+      "match_hosts": ["collections.museumsvictoria.com.au"],
+      "allowed_hosts": ["collections.museumsvictoria.com.au"],
+      "page_budget": 55,
+      "tags": ["high-yield", "object-catalogue"],
+      "follow_anchor_terms": ["specimen", "collection", "type", "registration", "related"],
+      "follow_url_regex": ["collections\\.museumsvictoria\\.com\\.au/(?:specimens|items|collections)/"],
+      "deny_url_regex": ["/images?/", "/search"]
+    },
+    "mnhn_paris": {
+      "institution_patterns": ["Muséum national d'Histoire naturelle", "Museum national d'Histoire naturelle", "MNHN"],
+      "match_hosts": ["mnhn.fr", "science.mnhn.fr"],
+      "allowed_hosts": ["mnhn.fr", "science.mnhn.fr"],
+      "page_budget": 65,
+      "tags": ["high-yield", "collection-portal"],
+      "follow_anchor_terms": ["collection", "catalogue", "base de données", "database", "specimen", "inventaire"],
+      "follow_url_regex": ["science\\.mnhn\\.fr/", "/collection", "/collections", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/visiter", "/agenda", "/image"]
+    },
+    "rbge": {
+      "institution_patterns": ["Royal Botanic Garden Edinburgh"],
+      "match_hosts": ["rbge.org.uk", "websites.rbge.org.uk"],
+      "allowed_hosts": ["rbge.org.uk", "websites.rbge.org.uk"],
+      "page_budget": 60,
+      "tags": ["high-yield", "diatoms", "finding-aid"],
+      "follow_anchor_terms": ["catalogue", "slides", "download", "PDF", "collection", "large", "small"],
+      "follow_url_regex": ["websites\\.rbge\\.org\\.uk/algae/", "\\.pdf(?:$|\\?)", "/collections/"],
+      "deny_url_regex": ["/images?/", "/news/"]
+    },
+    "nhmw": {
+      "institution_patterns": ["Naturhistorisches Museum Wien"],
+      "match_hosts": ["nhm-wien.ac.at", "nhm.at"],
+      "allowed_hosts": ["nhm-wien.ac.at", "nhm.at"],
+      "page_budget": 50,
+      "tags": ["high-yield", "collection-record"],
+      "follow_anchor_terms": ["collection", "Sammlung", "catalogue", "digital", "micropalaeontology", "diatom"],
+      "follow_url_regex": ["/collections?/", "/forschung/", "/research/", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/shop/", "/events?/"]
+    },
+    "rcs_hunterian": {
+      "institution_patterns": ["Royal College of Surgeons of England", "Hunterian Museum"],
+      "match_hosts": ["hunterianmuseum.org", "rcseng.ac.uk"],
+      "allowed_hosts": ["hunterianmuseum.org", "rcseng.ac.uk"],
+      "page_budget": 55,
+      "tags": ["high-yield", "uk", "collection-catalogue"],
+      "follow_anchor_terms": ["microscope slide", "collection", "object", "catalogue", "exhibition"],
+      "follow_url_regex": ["hunterianmuseum\\.org/(?:collections|objects|exhibitions)/", "rcseng\\.ac\\.uk/.*quekett", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/visit/", "/events?/"]
+    },
+    "cambridge_museums": {
+      "institution_patterns": ["University Museum of Zoology Cambridge", "Sedgwick Museum"],
+      "match_hosts": ["museum.zoo.cam.ac.uk", "sedgwickmuseum.cam.ac.uk", "virtualmicroscope.org"],
+      "allowed_hosts": ["museum.zoo.cam.ac.uk", "sedgwickmuseum.cam.ac.uk", "virtualmicroscope.org"],
+      "page_budget": 50,
+      "tags": ["high-yield", "uk", "collection-record"],
+      "follow_anchor_terms": ["collection", "catalogue", "slide", "thin section", "specimen", "virtual microscope"],
+      "follow_url_regex": ["/collections", "/objects", "virtualmicroscope\\.org/content/", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/events?/"]
+    },
+    "oxford": {
+      "institution_patterns": ["University of Oxford", "Oxford University", "History of Science Museum"],
+      "match_hosts": ["mhs.ox.ac.uk", "path.ox.ac.uk", "herbaria.plants.ox.ac.uk"],
+      "allowed_hosts": ["mhs.ox.ac.uk", "path.ox.ac.uk", "herbaria.plants.ox.ac.uk"],
+      "page_budget": 55,
+      "tags": ["high-yield", "uk", "mixed-catalogue"],
+      "follow_anchor_terms": ["catalogue", "slide", "collection", "record", "notebook", "PDF"],
+      "follow_url_regex": ["herbaria\\.plants\\.ox\\.ac\\.uk/bol/", "mhs\\.ox\\.ac\\.uk/", "path\\.ox\\.ac\\.uk/.*\\.pdf", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/events?/", "/news/"]
+    },
+    "bgs": {
+      "institution_patterns": ["British Geological Survey"],
+      "match_hosts": ["earthwise.bgs.ac.uk", "bgs.ac.uk"],
+      "allowed_hosts": ["earthwise.bgs.ac.uk", "bgs.ac.uk"],
+      "page_budget": 40,
+      "tags": ["high-yield", "uk", "geology"],
+      "follow_anchor_terms": ["slide", "thin section", "collection", "P775", "P776", "catalogue"],
+      "follow_url_regex": ["earthwise\\.bgs\\.ac\\.uk/", "/collection", "\\.pdf(?:$|\\?)"],
+      "deny_url_regex": ["/images?/"]
+    },
+    "generic_structured": {
+      "fallback": true,
+      "page_budget": 24,
+      "tags": ["fallback"],
+      "allowed_hosts": [],
+      "follow_anchor_terms": ["JSON", "IIIF", "manifest", "metadata", "object", "record", "download"],
+      "follow_url_regex": ["iiif", "manifest", "\\.json(?:$|\\?)", "/api/", "/record/", "/object/"],
+      "deny_url_regex": ["\\.(?:jpg|jpeg|png|gif|webp)(?:$|\\?)"]
+    },
+    "generic_catalogue": {
+      "fallback": true,
+      "page_budget": 24,
+      "tags": ["fallback"],
+      "allowed_hosts": [],
+      "follow_anchor_terms": ["catalogue", "collection", "record", "object", "specimen", "slide", "next"],
+      "follow_url_regex": ["/(?:catalog|collection|record|object|specimen|slide)/", "[?&](?:page|offset|start)="],
+      "deny_url_regex": ["/login"]
+    },
+    "generic_document": {
+      "fallback": true,
+      "page_budget": 12,
+      "tags": ["fallback"],
+      "allowed_hosts": [],
+      "follow_anchor_terms": ["PDF", "finding aid", "catalogue", "inventory", "download"],
+      "follow_url_regex": ["\\.pdf(?:$|\\?)", "/download", "/finding", "/inventory"],
+      "deny_url_regex": []
+    },
+    "generic_seed": {
+      "fallback": true,
+      "page_budget": 10,
+      "tags": ["fallback"],
+      "allowed_hosts": [],
+      "follow_anchor_terms": ["collection", "catalogue", "database", "object", "record", "specimen"],
+      "follow_url_regex": ["/(?:collection|catalog|database|object|record|specimen)/"],
+      "deny_url_regex": ["/news/", "/events?/", "/visit/"]
+    }
+  }
+}

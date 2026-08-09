@@ -1,0 +1,59 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v40-07AP-19c-publication-provenance-series",
+  "purpose": "Adapters for five strict nineteenth-century microscope-slide nodes where surviving slides can be tied to publication use, named exchange, exact maker labels, or historically bounded teaching/research formation.",
+  "guards": [
+    "A mixed collection that extends after 1899 must be split by dated slide, publication, label, series or creator chronology; do not project later totals into the nineteenth century.",
+    "A provenance phrase such as 'sent to X from Y' establishes transfer direction but does not establish that Y prepared or mounted the slide.",
+    "A person-lifetime boundary may bound the latest possible transfer date when the source explicitly names the historical sender, but it is not an exact manufacture or exchange date.",
+    "A catalogued object or batch is not automatically equal to one glass slide; retain object-count and slide-count namespaces separately unless the museum explicitly states both.",
+    "Current surviving totals such as 64 meteorite thin sections or more than 600 Boveri preparations are not nineteenth-century totals when the documented collection spans 1900 or later.",
+    "Slides used to document a publication, slides prepared by a named person, and slides merely preserved in that person's foundation are distinct relationships and must remain distinct."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "wuerzburg_boveri_ascaris_1890s",
+      "status": "active_metadata",
+      "institution_scope": "University of Würzburg Theodor Boveri original Ascaris microscope-slide series",
+      "target": "official Würzburg collection/exhibition pages plus the peer-reviewed rediscovery study for the pre-1900 Ascaris slides",
+      "expected_terms": ["Theodor Boveri", "Ascaris", "1894", "1898", "microscope slides", "handwritten", "centrosomes"],
+      "item_url_pattern": "uni-wuerzburg.de/*; biozentrum.uni-wuerzburg.de/*",
+      "promotion_rule": "Use handwritten dates, folder labels, row/section references and publication linkage to isolate the 1894-1898 Ascaris material. Keep the university's more-than-600 surviving Boveri preparations as a whole-collection figure because most counted slides are 1901-1914 sea-urchin work."
+    },
+    {
+      "site_adapter": "sorbonne_dejerine_histology",
+      "status": "active_metadata",
+      "institution_scope": "Sorbonne Université Fondation Dejerine histological-slide collection",
+      "target": "SorbonNum+ medical collections, SU.MD inventories, official Dupuytren/Dejerine heritage pages and publication-linked case records",
+      "expected_terms": ["Fondation Dejerine", "lames histologiques", "Jules Dejerine", "Augusta Dejerine-Klumpke", "1895", "SU.MD"],
+      "item_url_pattern": "colluniv.sorbonne-universite.fr/*; patrimoine.sorbonne-universite.fr/*",
+      "promotion_rule": "Isolate pre-1900 slides through SU.MD inventory records and explicit links to nineteenth-century cases/publications, especially the 1895 Anatomie des centres nerveux; do not treat the entire Fondation Dejerine as nineteenth-century because the couple's work continued after 1900."
+    },
+    {
+      "site_adapter": "nmah_fasoldt_test_plate_1884",
+      "status": "active_metadata",
+      "institution_scope": "Smithsonian NMAH Charles Fasoldt microscope test plate dated April 1884",
+      "target": "official NMAH object record MG.M-09770.01, structured identifiers, images and IIIF manifest",
+      "expected_terms": ["MG.M-09770.01", "Charles Fasoldt", "Albany", "April 1884", "test plate", "copied by"],
+      "item_url_pattern": "americanhistory.si.edu/collections/object/{record}",
+      "promotion_rule": "Preserve the exact maker/place/date wording from the paper label and the NMAH object identifiers. Do not infer the number of glass pieces in the catalogued batch from measurements or object-type wording."
+    },
+    {
+      "site_adapter": "mcz_darwin_dana_leptogorgia_slide",
+      "status": "active_metadata",
+      "institution_scope": "Harvard MCZ historical Leptogorgia slide sent from Charles Darwin to James D. Dana",
+      "target": "official MCZ microscope-slide collection pages and future MCZbase invertebrate item records",
+      "expected_terms": ["Leptogorgia", "James D. Dana", "Charles Darwin", "sent to", "microscope slide"],
+      "item_url_pattern": "mcz.harvard.edu/*; mczbase.mcz.harvard.edu/*",
+      "promotion_rule": "Keep the source relation exactly as a transfer/provenance claim. The slide is securely nineteenth-century because the explicitly named sender was Darwin, but exact date, preparer and mounting attribution remain unresolved until an item record or correspondence closes them."
+    },
+    {
+      "site_adapter": "unistra_meteorite_thin_sections",
+      "status": "active_metadata",
+      "institution_scope": "Université de Strasbourg historical meteorite petrographic thin-section collection",
+      "target": "official Musée de minéralogie meteorite collection pages, EOST institutional history and surviving thin-section inventory",
+      "expected_terms": ["64 lames", "Emile Cohen", "Wilhelm Brühns", "Voigt-Hochgesang", "Krantz", "1882", "météorites"],
+      "item_url_pattern": "musee-mineralogie.unistra.fr/*; eost.unistra.fr/*",
+      "promotion_rule": "Use Cohen's 1878-1885 Strasbourg tenure, teaching from 1882, supplier labels and any surviving inventory dates to isolate nineteenth-century thin sections. Keep the 64 currently identified slides as a present collection-level total because acquisitions continued around 1900 and later."
+    }
+  ]
+}

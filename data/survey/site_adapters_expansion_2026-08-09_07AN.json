@@ -1,0 +1,58 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v38-07AN-19c-institutional-historical-series",
+  "purpose": "Adapters for five strict nineteenth-century microscope-slide nodes where current custody can be tied to a dated institutional collection state, an original historical series, or a bounded surviving case.",
+  "guards": [
+    "A current combined collection may contain nineteenth- and twentieth-century material; isolate the historical layer by creator, date, label, catalogue or original series rather than projecting the current total backwards.",
+    "Keep source-specific counts when current institutional summaries and historical collection literature use different attributions or totals; do not silently reconcile them.",
+    "Historical society collection size and present society holdings are separate dated states. A nineteenth-century count is not a present-survival count unless an item register closes that relation.",
+    "Original creator/preparer, later collector, donor and current custodian are distinct roles. A modern donation date does not date the microscope slides.",
+    "For compound embryological collections, preserve original subcollection and catalogue structure rather than treating a present aggregate preparation total as the Hubrecht nineteenth-century total."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "rcseng_tomes_dental_histology",
+      "status": "active_metadata",
+      "institution_scope": "Royal College of Surgeons of England John and Charles Tomes dental histology slide collection",
+      "target": "Hunterian microscope-slide and odontological collection pages, RCS dental-history page, SurgiCat records and Tomes collection literature",
+      "expected_terms": ["John Tomes", "Charles Tomes", "original histology slides", "1,800", "1,880", "RCSMS", "1920"],
+      "item_url_pattern": "adlib.rcseng.ac.uk/Details/*",
+      "promotion_rule": "Recover John-versus-Charles creator attribution, RCSMS/item numbers, specimen taxon and dates slide by slide; retain c.1,880 combined and c.1,800 Charles-attributed published counts as source-specific claims until the item register resolves them, and isolate John's securely pre-1895 material for CORE_19C."
+    },
+    {
+      "site_adapter": "qmc_historical_slide_collection",
+      "status": "active_metadata",
+      "institution_scope": "Quekett Microscopical Club historical slide collection and archives",
+      "target": "QMC public archives pages, historical slide database project and published institutional history",
+      "expected_terms": ["20,000+", "slide collection", "1865", "1873", "2,000 preparations", "exchange"],
+      "item_url_pattern": "archives.quekett.org/{record}",
+      "promotion_rule": "Capture present database/tray records when public, donor/preparer labels and nineteenth-century accession or exchange evidence; preserve the over-2,000 preparation state by 1873 separately from the present 20,000-plus slide holdings."
+    },
+    {
+      "site_adapter": "mfn_hubrecht_embryology",
+      "status": "active_metadata",
+      "institution_scope": "Museum für Naturkunde Berlin Embryology Collection / Ambrosius Hubrecht historical core",
+      "target": "official Embryology Collection page, original Hubrecht catalogues and current subcollection documentation",
+      "expected_terms": ["Ambrosius Hubrecht", "end of the 19th century", "80,000 histological preparations", "original catalogues", "histological slide series"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use original Hubrecht catalogues and series documentation to isolate late-nineteenth-century embryos and histological slide series; treat the current 80,000-preparation figure as the aggregate Embryology Collection including later Hill, Bolk, Kükenthal, Spemann and other material."
+    },
+    {
+      "site_adapter": "ohsu_medical_museum_94_slide_case",
+      "status": "active_metadata",
+      "institution_scope": "OHSU Historical Collections & Archives Medical Museum Collection microscope-slide case",
+      "target": "official OHSU Digital Collections record, Medical Museum Collection Box 42 metadata and IIIF manifest",
+      "expected_terms": ["ca. 1880-1900", "approximately 94 specimen slides", "Medical Museum Collection", "Box 42", "John C. Brougher", "1976"],
+      "item_url_pattern": "digitalcollections.ohsu.edu/record/{record}",
+      "promotion_rule": "Preserve the approximately 94-slide nineteenth-century physical case as the object state and the February 1976 Brougher donation as a later custody event; harvest labels and IIIF images without inferring original ownership from the donor."
+    },
+    {
+      "site_adapter": "smg_manchester_litphil_pritchard_1835",
+      "status": "active_metadata",
+      "institution_scope": "Science Museum Group Manchester Literary & Philosophical Society Andrew Pritchard slide case",
+      "target": "official SMG object page, JSON catalogue entry and IIIF manifest for Y1997.6.14",
+      "expected_terms": ["Y1997.6.14", "Andrew Pritchard", "eleven microscope slides", "1835", "Manchester Literary & Philosophical Society"],
+      "item_url_pattern": "collection.sciencemuseumgroup.org.uk/objects/{record}",
+      "promotion_rule": "Treat the eleven-slide 1835 leather case as one bounded surviving set and preserve its later Manchester Literary & Philosophical Society and Science Museum Group custody separately from Pritchard manufacture."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v19-07Y",
+  "assignments": {
+    "collection_page_plus_search_portal": [
+      "mcz_hec_collection_static"
+    ],
+    "archive_or_finding_aid_record": [
+      "mcgill_adams_finding_aid"
+    ],
+    "institution_collection_record": [
+      "michigan_tech_ihsi_static",
+      "nsw_heritage_petrology_static"
+    ]
+  }
+}

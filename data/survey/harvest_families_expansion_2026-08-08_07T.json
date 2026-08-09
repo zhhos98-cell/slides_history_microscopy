@@ -1,0 +1,19 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v14-07T",
+  "assignments": {
+    "institution_collection_record": [
+      "cambridge_zoology_darwin_static",
+      "mnhn_porifera_topsent_static",
+      "otago_haeckel_challenger_static",
+      "leeds_microscope_collection_news",
+      "jena_anatomical_history_static"
+    ],
+    "literature_or_project_evidence": [
+      "ramm_carpenter_catalogue_literature",
+      "ramm_sladen_linnean_pdf"
+    ],
+    "dataset_api_or_dwca": [
+      "nhm_challenger_sediment_dataset"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v22-07AB",
+  "assignments": {
+    "literature_or_project_evidence": [
+      "gnm_gs_brady_catalogue_literature",
+      "nhm_micropal_history_literature",
+      "nhm_wk_parker_catalogue_literature"
+    ],
+    "institution_collection_record": [
+      "nhmw_hb_brady_reference_slides"
+    ]
+  }
+}

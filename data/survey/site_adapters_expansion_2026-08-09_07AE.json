@@ -1,0 +1,66 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v29-07AE-19c-cabinets-radiolaria",
+  "purpose": "Adapters for strict nineteenth-century slide cabinets, university teaching collections, Haeckel/Castracane microfossil collections and a bounded Farlow exsiccata set.",
+  "guards": [
+    "Keep historical production dates, inferred collection-formation phases and later donations or museum accessions separate.",
+    "Do not turn species counts, accession suffixes or digital-image totals into physical slide counts.",
+    "Keep replicated teaching or exsiccata sets at copy level; serial numbers shared between institutions do not imply one physical object.",
+    "Separate original nineteenth-century slides from modern topotype or isotype slides newly prepared from surviving source samples."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "manchester_gibson_collection_literature",
+      "status": "active_metadata",
+      "institution_scope": "University of Manchester Museum of Medicine and Health Gibson microscope slide collection",
+      "target": "peer-reviewed 2025 collection study plus referenced MMH tray and slide records",
+      "expected_terms": ["681 slides", "1889-98", "25 numbered trays", "thirty-four", "Arthur Gibson"],
+      "item_url_pattern": "",
+      "promotion_rule": "Recover MMH tray/position records and dated slide labels, isolate pre-1900 objects, and preserve the undocumented original ownership plus probable Southport collecting context as an inference rather than a fact."
+    },
+    {
+      "site_adapter": "standrews_bell_pettigrew_slides",
+      "status": "active_metadata",
+      "institution_scope": "University of St Andrews Bell-Pettigrew Zoology microscope slide collection",
+      "target": "official BPM/1 and BP:C79 collection hierarchy with maker/contributor subgroups",
+      "expected_terms": ["since c. 1840", "BPM/1", "glass Zoological mounts", "William Carmichael McIntosh", "D'Arcy Wentworth Thompson"],
+      "item_url_pattern": "collections.st-andrews.ac.uk/{record}",
+      "promotion_rule": "Traverse subgroup and item hierarchy for creators, makers, dates and labels; isolate nineteenth-century records without projecting the whole long-lived university teaching collection backwards."
+    },
+    {
+      "site_adapter": "haeckel_jena_messina_literature",
+      "status": "active_metadata",
+      "institution_scope": "Ernst-Haeckel-Haus Jena Messina radiolarian research slides",
+      "target": "Joint Haeckel and Ehrenberg Project monograph and bounded two-box Messina 1859 study corpus",
+      "expected_terms": ["Messina 1859", "two wooden", "microscopic slides", "Ernst-Haeckel Haus", "digitally captured"],
+      "item_url_pattern": "",
+      "promotion_rule": "Preserve the two research boxes, species/publication links and any recoverable slide identifiers; keep them distinct from distributed Haeckel teaching-slide sets."
+    },
+    {
+      "site_adapter": "nhm_haeckel_radiolaria_literature",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London Haeckel radiolarian slide collection",
+      "target": "Joint Haeckel and Ehrenberg Project slide list, locality table and digital captures",
+      "expected_terms": ["seven sets of 34", "teaching slides", "plankton radiolarian slides", "Challenger", "digitally captured"],
+      "item_url_pattern": "",
+      "promotion_rule": "Model 238 teaching-slide objects as seven replicated 34-slide sets while keeping the additional plankton-slide corpus separately counted; capture station/locality and preservation information from project tables."
+    },
+    {
+      "site_adapter": "nhm_castracane_challenger_literature",
+      "status": "active_metadata",
+      "institution_scope": "Natural History Museum London Castracane HMS Challenger diatom collection",
+      "target": "illustrated type catalogue and Joint Haeckel and Ehrenberg Project collection description",
+      "expected_terms": ["143 microscope slides", "Castracane", "H.M.S. Challenger", "23 slides", "17 type specimens"],
+      "item_url_pattern": "",
+      "promotion_rule": "Enumerate the bounded 143-slide historical corpus with type annotations and locality labels; keep 27 modern slides newly prepared from original Challenger subsamples outside the nineteenth-century count."
+    },
+    {
+      "site_adapter": "farlow_kitton_catalogue",
+      "status": "active_metadata",
+      "institution_scope": "Harvard Farlow Herbarium Kitton Norfolk Diatoms",
+      "target": "official annotated catalogue for Kitton numbers 1-100 and manuscript-catalogue cross-reference",
+      "expected_terms": ["Norfolk Diatoms", "1-100", "1885", "strewn mounts", "General Collection 2201-2300"],
+      "item_url_pattern": "diatoms.hsites.harvard.edu/{record}",
+      "promotion_rule": "Harvest all 100 set positions with taxa/localities and manuscript links while treating Farlow as one physical institutional copy of a replicated set also held at BM."
+    }
+  ]
+}

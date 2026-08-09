@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v15-07U",
+  "assignments": {
+    "institution_collection_record": [
+      "florence_pacini_histology_static",
+      "mnhn_comparative_anatomy_static"
+    ],
+    "collection_page_plus_search_portal": [
+      "sorbonne_dejerine_histology_portal"
+    ],
+    "literature_or_project_evidence": [
+      "pavia_golgi_slides_literature",
+      "cajal_personal_histology_literature"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v17-07W",
+  "assignments": {
+    "institution_collection_record": [
+      "cambridge_zoology_historical_sections",
+      "nhmw_micropalaeontology_static"
+    ],
+    "specialized_collection_catalogue": [
+      "freiberg_thin_section_portal"
+    ]
+  }
+}

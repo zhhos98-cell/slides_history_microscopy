@@ -1,0 +1,106 @@
+{
+  "schema_version": "slide-survey-superseded-aliases-v1-07AR",
+  "status": "CLOSED_2026-08-09",
+  "purpose": "Preserve the modular batch audit trail while excluding cross-batch duplicate aliases from the frozen canonical merge.",
+  "rule": "Only rows that resolve to the same physical collection, case, cabinet, set, or parent collection are superseded. Parent-child, distributed-copy, bounded-subset, and distinct-custody nodes remain separate.",
+  "superseded_entry_ids": {
+    "AU-POWERHOUSE-PREPARED-SLIDES-19-1860-1898": {
+      "canonical_entry_id": "AU-POWERHOUSE-BOX-19-SLIDES-1860",
+      "reason": "Same Powerhouse object 255204 / H9118 and same bounded 19-slide box."
+    },
+    "US-HARVARD-FARLOW-KITTON-NORFOLK-100-1885": {
+      "canonical_entry_id": "US-FARLOW-KITTON-NORFOLK-DIATOMS-1885",
+      "reason": "Same Farlow institutional copy of Kitton's 100-slide Norfolk Diatoms set."
+    },
+    "UK-RBGE-WALKER-ARNOTT-DIATOM-SLIDES-1850S": {
+      "canonical_entry_id": "UK-RBGE-WALKER-ARNOTT-DIATOMS-1850S",
+      "reason": "Same surviving Walker Arnott collection at RBGE; later row has the fuller custody and catalogue-range description."
+    },
+    "AT-NHMW-GRUNOW-DIATOM-SLIDES-19C": {
+      "canonical_entry_id": "AT-NHMW-GRUNOW-DIATOMS-1899",
+      "reason": "Same Albert Grunow collection at Herbarium W; later row incorporates the 1899 deposit and ca. 1,400 extant-slide state."
+    },
+    "UK-RCS-QUEKETT-12000-1840-1861": {
+      "canonical_entry_id": "UK-RCS-QUEKETT-2500-1846",
+      "reason": "Same John Thomas Quekett RCS/Hunterian collection represented as two dated collection states. The canonical node retains the 1846 purchase state; later/current counts remain source-specific evidence, not an additional physical collection."
+    },
+    "UK-SMG-Y2001-223-CABINET-1867-1900": {
+      "canonical_entry_id": "UK-SMG-MICROSCOPE-SLIDE-CABINET-1867-1900",
+      "reason": "Same Science Museum Group object Y2001.223."
+    },
+    "UK-MANCHESTER-CHAFFERS-DIATOMS-1895-1904": {
+      "canonical_entry_id": "UK-MANCHESTER-CHAFFERS-DIATOM-CABINETS-1895-1904",
+      "reason": "Same Sydney/Sidney Chaffers six-cabinet diatom collection at Manchester Museum."
+    },
+    "UK-CAM-WHIPPLE-2385B-PRITCHARD-1840-1870": {
+      "canonical_entry_id": "UK-WHIPPLE-PRITCHARD-CASE-1840-1870",
+      "reason": "Same Whipple object 13828 / accession 2385B, the three-tray case containing Pritchard-labelled and other slides."
+    },
+    "UK-QMC-HISTORICAL-SLIDE-COLLECTION-1865-1899": {
+      "canonical_entry_id": "UK-QMC-SLIDE-COLLECTION-1865-1873",
+      "reason": "Same Quekett Microscopical Club historical slide collection and archive."
+    },
+    "US-OHSU-MEDICAL-MUSEUM-94-SLIDES-1880-1900": {
+      "canonical_entry_id": "US-OHSU-MEDICAL-MUSEUM-94-1880-1900",
+      "reason": "Same OHSU Digital Collections record 4487 / Medical Museum Collection Box 42."
+    },
+    "UK-SMG-MANLITPHIL-PRITCHARD-11-1835": {
+      "canonical_entry_id": "UK-SMG-PRITCHARD-11-SLIDES-1835",
+      "reason": "Same Science Museum Group object co8410935, the eleven-slide Andrew Pritchard leather case."
+    },
+    "FR-MNHN-VAN-TIEGHEM-HISTOTHEQUE-1875-1914": {
+      "canonical_entry_id": "FR-MNHN-VAN-TIEGHEM-HISTOTHEQUE-1875-1899",
+      "reason": "Same Van Tieghem core of the MNHN Histothèque; the 1875-1914 extent is a mixed-period state of the same collection."
+    },
+    "US-HARVARD-MCZ-MINOT-HEC-LATE19C-EARLY20C": {
+      "canonical_entry_id": "US-MCZ-HARVARD-EMBRYOLOGICAL-COLLECTION-LATE19C",
+      "reason": "Same Harvard Embryological Collection / Minot series at MCZ."
+    },
+    "US-NMAH-BOURGOGNE-TWO-BOX-SLIDE-SET-PRE1879": {
+      "canonical_entry_id": "US-NMAH-BOURGOGNE-SLIDE-SET",
+      "reason": "Same Smithsonian NMAH object nmah_723375 / accession 217544, two boxes of BOURGOGNE-inscribed slides."
+    },
+    "US-NMAH-FASOLDT-TEST-PLATE-1884": {
+      "canonical_entry_id": "US-NMAH-FASOLDT-MICROSCOPE-SLIDE-1884",
+      "reason": "Same Smithsonian NMAH object nmah_723377 / M-09770, dated April 1884."
+    },
+    "FR-SORBONNE-DEJERINE-HISTOLOGY-1890S-MIXED": {
+      "canonical_entry_id": "FR-SORBONNE-DEJERINE-HISTOLOGY-1895",
+      "reason": "Same Fondation Dejerine histological-slide collection; nineteenth-century publication-linked layer is already represented."
+    },
+    "US-YALE-PEABODY-LENTZ-HISTORICAL-SLIDES-C1820-2008-MIXED": {
+      "canonical_entry_id": "US-YALE-LENTZ-MICROSCOPY-SLIDES-19C",
+      "reason": "Same Yale Peabody Lentz Microscopy and Histology Collection."
+    },
+    "FR-MNHN-COMPARATIVE-ANATOMY-HISTOLOGY-19C-20C-MIXED": {
+      "canonical_entry_id": "FR-MNHN-COMPARATIVE-ANATOMY-HISTOLOGY-19C",
+      "reason": "Same MNHN Comparative Anatomy parent histological-slide collection."
+    },
+    "UK-SMG-WELLCOME-A651330-SLIDE-PIECES-1850-1900": {
+      "canonical_entry_id": "UK-SMG-MICROSCOPE-SLIDE-PIECES-1850-1900",
+      "reason": "Same Science Museum Group object A651330 / co117745."
+    },
+    "AT-NHMW-FERDINAND-I-MICROPREPS-19C": {
+      "canonical_entry_id": "AT-NHMW-FERDINAND-I-MICROPREPS-C1850",
+      "reason": "Same Emperor Ferdinand I microscopic-preparation corpus in the NHMW archive; later row provides the more specific c.1850 and scale evidence."
+    }
+  },
+  "same_entry_id_duplicate_batches": [
+    {
+      "entry_id": "DE-MFN-HUBRECHT-EMBRYOLOGY-LATE19C",
+      "occurrences": ["07S", "07AN"],
+      "resolution": "Collapsed automatically by prepare_survey_inputs.py entry_id de-duplication; no second canonical node."
+    }
+  ],
+  "intentional_non_duplicates": [
+    "John Tomes personally prepared slides and the combined Tomes father-son collection are retained as bounded child versus parent series.",
+    "MNHN Comparative Anatomy parent and named Gervais/Schmidt subcollections are retained as parent-child nodes.",
+    "RAMM Sladen/Carpenter aggregate and W. B. Carpenter foraminifera subcorpus are retained hierarchically.",
+    "Freiberg parent thin-section collection and the 30-section Fuess set are retained hierarchically.",
+    "Bell-Pettigrew parent collection and named maker/contributor groups are retained hierarchically.",
+    "Published diatom sets at different institutions remain distinct physical copies even when serial numbers are identical.",
+    "NHM data-portal parent collections and named historical acquisitions remain separate when the latter have independent physical/provenance identity.",
+    "Heddle parent collection and the single Blarney slide are retained as collection versus item nodes.",
+    "Nicol/Forbes slides at NMS and Hooker/Nicol fossil-wood slides at BGS are separate surviving institutional holdings."
+  ]
+}

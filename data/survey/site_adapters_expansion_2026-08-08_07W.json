@@ -1,0 +1,14 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v21-07W-19c-embryology-petrography",
+  "purpose": "Adapters for nineteenth-century embryology and petrography collections recovered through deep search.",
+  "guards": [
+    "Do not convert mixed-period institutional totals into nineteenth-century slide counts.",
+    "Preserve parent collection and named historical child-set hierarchy.",
+    "Where institutional and scholarly dates differ retain both source layers until object-level dating resolves them."
+  ],
+  "adapters": [
+    {"site_adapter":"cambridge_zoology_historical_sections","status":"active_metadata","institution_scope":"University Museum of Zoology Cambridge","target":"official historical microscope-slide collections and catalogue discovery","expected_terms":["Balfour","embryological sections","microscopical techniques","microtome"],"item_url_pattern":"","promotion_rule":"Treat Balfour's sections as a named historical corpus and seek item-level slide/catalogue records before asserting totals."},
+    {"site_adapter":"freiberg_thin_section_portal","status":"active_metadata","institution_scope":"TU Bergakademie Freiberg Geoscientific Collections","target":"AQUiLA thin-section portal and digitised collection records","expected_terms":["45.000","Dünnschliffe","1870","Fuess","Karteikarte"],"item_url_pattern":"webapp.senckenberg.de/aquila-freiberg/{record}","promotion_rule":"Filter by date maker provenance and collection series; retain the 30-section Fuess child set separately from the mixed 45,000-object parent collection."},
+    {"site_adapter":"nhmw_micropalaeontology_static","status":"active_metadata","institution_scope":"Naturhistorisches Museum Wien Micropalaeontology Collection","target":"official collection page and downstream specimen database discovery","expected_terms":["50,000","microslides","Reuss","Karrer","Brady","Goës"],"item_url_pattern":"","promotion_rule":"Separate microslides thin sections flasks and rock samples; filter named nineteenth-century collectors and expedition material before counting."}
+  ]
+}

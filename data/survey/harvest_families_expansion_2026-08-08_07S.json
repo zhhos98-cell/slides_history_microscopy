@@ -1,0 +1,13 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v13-07S",
+  "assignments": {
+    "institution_collection_record": [
+      "mfn_embryology_static",
+      "ohiohistory_sullivant_story"
+    ],
+    "literature_or_project_evidence": [
+      "rcsed_museum_history_pdf",
+      "manchester_chaffers_literature"
+    ]
+  }
+}

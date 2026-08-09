@@ -1,0 +1,20 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v30-07AJ",
+  "assignments": {
+    "dataset_api_or_dwca": [
+      "nhm_deby_diatom_historical"
+    ],
+    "archive_or_finding_aid_record": [
+      "turin_giacomini_histology_archive"
+    ],
+    "institution_collection_record": [
+      "milan_vet_histology_static",
+      "siena_comparini_histology_static"
+    ],
+    "literature_or_project_evidence": [
+      "strasbourg_schmidt_spicule_slides",
+      "mnhn_schmidt_spicule_slides",
+      "copenhagen_schmidt_spicule_slides"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v23-07Y-19c-na-nsw",
+  "purpose": "Adapters for strict nineteenth-century embryology petrography and geological-survey slide collections recovered by deep search.",
+  "guards": [
+    "Do not convert mixed nineteenth/twentieth-century collection totals into nineteenth-century slide counts.",
+    "Keep microscope slides separate from lantern slides glass negatives and other visual media in archival fonds.",
+    "Preserve label-damage recataloguing transfer and rehousing as events rather than silently replacing earlier metadata states."
+  ],
+  "adapters": [
+    {"site_adapter":"mcz_hec_collection_static","status":"active_metadata","institution_scope":"Harvard Museum of Comparative Zoology Harvard Embryological Collection","target":"official collection page MCZbase and scanned original card catalogue","expected_terms":["30,000 microscope slides","2500","late 19th","card catalog","storage cabinets"],"item_url_pattern":"mczbase.mcz.harvard.edu/{record}","promotion_rule":"Use series/item and card-catalogue dates to isolate pre-1900 embryos; preserve 1992 split transfer and current cabinet replacement separately."},
+    {"site_adapter":"mcgill_adams_finding_aid","status":"active_metadata","institution_scope":"McGill University Archives Frank Dawson Adams Fonds","target":"fonds and container descriptions for rock-deformation experimental materials","expected_terms":["1896-1912","petrographic microscope slides","notebooks","rock deformation"],"item_url_pattern":"archivalcollections.library.mcgill.ca/{information_object}","promotion_rule":"Separate petrographic microscope slides from lantern slides negatives and photographs; tie slides to notebook/experiment containers where descriptions permit and isolate pre-1900 material."},
+    {"site_adapter":"michigan_tech_ihsi_static","status":"active_metadata","institution_scope":"A.E. Seaman Mineral Museum / Michigan Tech historic scientific instruments","target":"physical-object inventory record for Michigan Mining School petrographic slide box","expected_terms":["c. 1890","Michigan Mining School","Glass, paper, mineral","NAME","LOC"],"item_url_pattern":"ihsi.omeka.net/items/show/{id}","promotion_rule":"Capture box dimensions label template and surviving slide metadata; retain the 1901-02 8887 thin-section figure only as a later institutional state."},
+    {"site_adapter":"nsw_heritage_petrology_static","status":"active_metadata","institution_scope":"Geological Survey of New South Wales Petrology Collection","target":"State Heritage Register collection history and catalogue chronology","expected_terms":["late 1880s","Thin Section Collection","1893","silverfish","T1-T16000"],"item_url_pattern":"","promotion_rule":"Model thin-section collection formation annual production label damage and recataloguing as dated events; isolate nineteenth-century T numbers before counting and preserve current metal-cabinet storage separately."}
+  ]
+}

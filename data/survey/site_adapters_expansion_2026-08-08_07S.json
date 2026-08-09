@@ -1,0 +1,47 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v17-07S-19c-deep-search",
+  "purpose": "Adapters for strict nineteenth-century nodes recovered through deep high-recall web discovery and then verified against institutional or authoritative sources.",
+  "guards": [
+    "Search-engine discovery never promotes a record by itself; retain only the verified institutional or authoritative source URL.",
+    "A present-day total for a mixed historical collection is not a nineteenth-century slide count; isolate dated subsets downstream.",
+    "Preserve object, cabinet, catalogue, donation, damage, publication and later custody events as separate claims."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "rcsed_museum_history_pdf",
+      "status": "manual_metadata",
+      "institution_scope": "Royal College of Surgeons of Edinburgh Museum",
+      "target": "official museum-history PDF and cited committee-record chronology",
+      "expected_terms": ["cupboard for microscopical preparations", "1890", "tumours", "rocking microtome", "photomicrographs"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture cupboard purchase and dated institutional microscopy decisions as collection-formation events; do not invent glass-slide counts where the history says only microscopical preparations."
+    },
+    {
+      "site_adapter": "mfn_embryology_static",
+      "status": "active_metadata",
+      "institution_scope": "Museum fuer Naturkunde Berlin Embryology Collection",
+      "target": "official embryology collection page and historical catalogue context",
+      "expected_terms": ["80,000 histological", "end of the 19th century", "Ambrosius Hubrecht", "original catalogues", "slide series"],
+      "item_url_pattern": "",
+      "promotion_rule": "Model Hubrecht as the nineteenth-century founding subcollection and treat the present 80,000-preparation total as a mixed later aggregate until catalogue-level dates isolate historical series."
+    },
+    {
+      "site_adapter": "ohiohistory_sullivant_story",
+      "status": "active_metadata",
+      "institution_scope": "Ohio History Connection Natural History Museum Collections",
+      "target": "official curator-authored Sullivant microscope-slide cabinet story",
+      "expected_terms": ["William S. Sullivant", "nine", "drawers", "Bourgogne", "1928"],
+      "item_url_pattern": "",
+      "promotion_rule": "Extract cabinet/drawer structure, named commercial preparers, Sullivant association and descendants' 1928 donation separately; keep maker attribution based on wrappers/labels auditable."
+    },
+    {
+      "site_adapter": "manchester_chaffers_literature",
+      "status": "active_metadata",
+      "institution_scope": "Manchester Museum Sydney Chaffers diatom collection",
+      "target": "peer-reviewed collection-history article establishing current museum custody and six-cabinet structure",
+      "expected_terms": ["Sydney Chaffers", "1895", "1904", "six cabinets", "Manchester Museum"],
+      "item_url_pattern": "",
+      "promotion_rule": "Use the article to establish collection formation and cabinet structure; isolate individual 1895-1899 slides before calculating a nineteenth-century item total."
+    }
+  ]
+}

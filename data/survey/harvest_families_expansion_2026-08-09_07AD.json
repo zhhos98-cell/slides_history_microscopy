@@ -1,0 +1,29 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v24-07AD",
+  "assignments": {
+    "specialized_collection_catalogue": [
+      "ku_desmid_portal",
+      "charles_prague_algae_db",
+      "ansp_diatom_portal"
+    ],
+    "institution_collection_record": [
+      "hnhm_pantocsek_diatom",
+      "osu_diatom_collection_static",
+      "meise_van_heurck_static",
+      "powerhouse_botanical_slides_static",
+      "canterbury_symes_static"
+    ],
+    "item_catalogue_json_or_iiif": [
+      "smithsonian_nmah_booth_iiif"
+    ],
+    "literature_or_project_evidence": [
+      "springfield_booth_archive_literature"
+    ],
+    "dataset_api_or_dwca": [
+      "nhm_diatom_data_portal"
+    ],
+    "archive_or_finding_aid_record": [
+      "sdnhm_hartshorn_bolles_finding_aid"
+    ]
+  }
+}

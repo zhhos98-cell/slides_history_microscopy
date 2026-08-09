@@ -1,0 +1,14 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v27-07AC-19c-personal-foram",
+  "purpose": "Adapters for strict nineteenth-century personal microscopic preparations and NHM foraminiferal/pseudofossil collections recovered through deep search.",
+  "guards": [
+    "Do not equate historical production totals with current surviving totals.",
+    "Preserve sample-to-slide derivation and later departmental transfer separately from original preparation and accession.",
+    "Use publication-linked slides and syntypes as item anchors without inferring a total from species counts."
+  ],
+  "adapters": [
+    {"site_adapter":"nhmw_ferdinand_archive_static","status":"active_metadata","institution_scope":"Naturhistorisches Museum Wien Archive for the History of Science","target":"official archive treasures and selected physical-object records for Ferdinand I preparations","expected_terms":["thousands","microscopic specimens","Ferdinand","around 1850","algae"],"item_url_pattern":"","promotion_rule":"Capture illustrated/selected surviving preparations and personal preparation attribution; keep original thousands-made statement distinct from current surviving count and later didactic museum use."},
+    {"site_adapter":"nhm_williamson_foram_literature","status":"active_metadata","institution_scope":"Natural History Museum London Williamson Foraminifera collection","target":"peer-reviewed Williamson slide study plus NHM registers/Data Portal discovery","expected_terms":["Williamson slides","Natural History Museum","1858","syntypes"],"item_url_pattern":"","promotion_rule":"Extract surviving publication-linked slide/species records and current catalogue identifiers; retain 1896 museum arrival as later custody event and do not infer slide total from taxa."},
+    {"site_adapter":"nhm_carpenter_eozoon_literature","status":"active_metadata","institution_scope":"Natural History Museum London W.B. Carpenter Eozoon collection","target":"peer-reviewed conservation/collection study and NHM catalogue discovery","expected_terms":["more than 1000 slides","1892","1949","Eozoon","Carpenter"],"item_url_pattern":"","promotion_rule":"Model sample-to-slide production, 1892 donation, multiple storage locations, 1949 departmental transfer and current split custody as separate events; enumerate extant slides/samples only from catalogue or inventory evidence."}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v4-07F",
+  "purpose": "Adapters for Asian institutional slide collections added in 07F.",
+  "guards": [
+    "Treat section-wide specimen totals and slide-subset totals as separate count scopes.",
+    "Preserve dated current holdings statistics and update dates.",
+    "Where a source says slides exist for many specimens without a count, retain existence and pairing evidence but leave slide count null."
+  ],
+  "adapters": [
+    {"site_adapter":"zsi_section_static","status":"active_metadata","institution_scope":"Zoological Survey of India","target":"official section collection pages","expected_terms":["slides","type collections","species","holdings"],"item_url_pattern":"","promotion_rule":"Extract each explicitly stated slide count and type subset separately; preserve contradictory or awkward count wording rather than silently reconciling it."},
+    {"site_adapter":"taiwan_nmns_holdings_static","status":"active_metadata","institution_scope":"National Museum of Natural Science Taiwan","target":"current holdings statistics page","expected_terms":["孢粉玻片標本","植物切片標本","典藏數量","2026"],"item_url_pattern":"","promotion_rule":"Capture category count, taxon count and update date; keep plant-section media qualified until item records confirm glass mounting."},
+    {"site_adapter":"taiwan_nmns_donation_static","status":"active_metadata","institution_scope":"National Museum of Natural Science Taiwan","target":"official donation and acquisition news records","expected_terms":["6,274","玻片標本","連日清","1965","2008"],"item_url_pattern":"","promotion_rule":"Capture named collector, collection period, taxonomic scope, geographic proportions, pre-accession sorting, donation and museum intake as separate events."},
+    {"site_adapter":"kahaku_microalgae_static","status":"active_metadata","institution_scope":"National Museum of Nature and Science Tokyo Botany","target":"microalgae herbarium collection and database page","expected_terms":["21,457","プレパラート","コレクション","データベース"],"item_url_pattern":"","promotion_rule":"Capture current prepared-slide count, named personal collections and linked specialist databases; separate dried liquid and EM specimen categories."},
+    {"site_adapter":"kahaku_zoology_static","status":"active_metadata","institution_scope":"National Museum of Nature and Science Tokyo Zoology","target":"zoology specimen collection page","expected_terms":["permanent slides","specimen slides","Hoshino Collection","cnidocytes"],"item_url_pattern":"","promotion_rule":"Capture slide existence, paired specimen/preparation structure and named collection history without converting whole-collection counts into slide counts."}
+  ]
+}

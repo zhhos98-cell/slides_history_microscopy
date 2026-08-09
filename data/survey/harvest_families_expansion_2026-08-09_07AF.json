@@ -1,0 +1,22 @@
+{
+  "schema_version": "slide-survey-harvest-family-expansion-v26-07AF",
+  "assignments": {
+    "institution_collection_record": [
+      "boerhaave_ypelaar_cabinet_static",
+      "yale_ypelaar_lentz_static",
+      "powerhouse_prepared_19_static"
+    ],
+    "literature_or_project_evidence": [
+      "rcsed_early_micropreps_history",
+      "smithsonian_mann_diatom_literature"
+    ],
+    "dataset_api_or_dwca": [
+      "nhm_thysanoptera_dataset"
+    ]
+  },
+  "reused_existing_assignments": {
+    "item_catalogue_json_or_iiif": [
+      "smg_object_json_iiif"
+    ]
+  }
+}

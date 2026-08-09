@@ -1,0 +1,13 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v20-07V-19c-assemblages",
+  "purpose": "Adapters for nineteenth-century microscope-slide assemblages recovered through deep search, including cabinet, instrument, thin-section, and later-rediscovery contexts.",
+  "guards": [
+    "Do not infer that all components in a present museum parent record formed one historical assemblage unless the source establishes that provenance.",
+    "Preserve unknown maker/acquisition routes explicitly instead of filling them from associated collectors.",
+    "Keep geological thin sections, microphotographs, biological preparations, and instrument-component slides as distinct media subtypes."
+  ],
+  "adapters": [
+    {"site_adapter":"glasgow_heddle_blarney_static","status":"active_metadata","institution_scope":"The Hunterian University of Glasgow","target":"official curatorial story and geological-slide catalogue discovery for Heddle/Blarney material","expected_terms":["Blarney","microscope slide","Heddle","40,000","ledger"],"item_url_pattern":"","promotion_rule":"Capture the specific slide, probable date, Heddle collection attribution, handwritten-ledger context and later rediscovery; leave maker and acquisition route null where the source says they are unknown."},
+    {"site_adapter":"smg_historical_assemblage_json_iiif","status":"active_metadata","institution_scope":"Science Museum Group Collection","target":"bounded historical microscope-slide cabinets and instrument-plus-slide parent/child records","expected_terms":["microscope slide","cabinet","parts","Object Number","IIIF"],"item_url_pattern":"collection.sciencemuseumgroup.org.uk/objects/{object_slug}","promotion_rule":"Traverse the advertised parent/part hierarchy and keep cabinet, instrument, microphotograph and slide components separate; never promote current parent grouping into original historical association without evidence."}
+  ]
+}

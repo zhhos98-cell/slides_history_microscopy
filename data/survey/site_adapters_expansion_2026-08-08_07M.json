@@ -1,0 +1,20 @@
+{
+  "schema_version": "slide-survey-site-adapter-expansion-v10-07M-19c",
+  "purpose": "Adapter addition for strict nineteenth-century batch 07M; existing St Andrews and Science Museum Group adapters are reused.",
+  "guards": [
+    "For mixed-period collections, retain the total collection count but only promote item/set/cabinet records with nineteenth-century evidence into the active historical item layer.",
+    "Keep microphotographic microscope slides distinct from lantern slides and general photographic transparencies.",
+    "Catalogue offering counts are trade evidence and must not be substituted for current survivor counts."
+  ],
+  "adapters": [
+    {
+      "site_adapter": "yale_lentz_collection_static",
+      "status": "active_metadata",
+      "institution_scope": "Yale Peabody Museum History of Science and Technology",
+      "target": "official Lentz Microscopy and Histology Collection page and linked collection guide",
+      "expected_terms": ["Lentz", "microscope slides", "collection", "History of Science"],
+      "item_url_pattern": "",
+      "promotion_rule": "Capture the current collection-level slide total and links to the official guide/search system; downstream item promotion requires explicit nineteenth-century slide, set or cabinet dating."
+    }
+  ]
+}
