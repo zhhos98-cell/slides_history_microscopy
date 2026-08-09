@@ -1,0 +1,94 @@
+{
+  "schema_version": "2.0.0-balfour-full-caption-harvest",
+  "generated": "2026-08-10",
+  "title": "Francis Maitland Balfour: complete plate-caption optical-designation harvest across Memorial Edition volume I",
+  "builds_on": "data/analysis/balfour_objective_publication_crosswalk_v1.json",
+  "status": "FULL_MACHINE_READABLE_PLATE_CAPTION_PASS_COMPLETE__DESIGNATION_LEVEL",
+  "primary_source": {
+    "citation": "The Works of Francis Maitland Balfour, vol. I, Separate Memoirs, Memorial Edition, ed. M. Foster and Adam Sedgwick (Cambridge/London, 1885)",
+    "url": "https://www.gutenberg.org/files/41357/41357-h/41357-h.htm",
+    "editorial_structure": "The editors state that volume I contains Balfour's scattered original papers and the Elasmobranch monograph in chronological order; plate explanations are repeated in volume I and in volume IV. The Peripatus memoir was published after Balfour's death from his notes and drawings with additions by Moseley and Sedgwick.",
+    "method": "Read the plate-caption suites in volume I as dated/publication-linked evidence of objective designation, ocular, specimen/stage, preparation/reagent and image-making apparatus. A designation match is a use/access record for an optical class, not proof that a specific surviving lens made a specific figure."
+  },
+  "plate_group_harvest": [
+    {"plates":"1-5","named_zeiss_designations":[],"result":"No named Zeiss objective detected in the machine-readable plate explanations; captions use description and/or magnification without the later letter-designation grammar.","grade":"A+ negative within this edition"},
+    {"plate":"6","named_zeiss_designations":[],"result":"No named Zeiss objective detected."},
+    {"plate":"7","named_zeiss_designations":[],"result":"Magnifications are given, but no named Zeiss objective detected."},
+    {"plates":"8-9","named_zeiss_designations":[],"result":"No named Zeiss objective detected."},
+    {"plate":"10","named_zeiss_designations":[],"result":"Magnifications are given, but no named Zeiss objective detected."},
+    {"plate":"11","named_zeiss_designations":["C","A"],"examples":["Zeiss C, ocular 1","Zeiss A, ocular 1"],"grade":"S text-level"},
+    {"plate":"12","named_zeiss_designations":["C","F","immersion No. 2","A"],"examples":["Zeiss C, ocular 1 and 3","Zeiss F, ocular 2","Zeiss immersion No. 2, ocular 1","Zeiss A, ocular 1"],"grade":"S text-level"},
+    {"plate":"13","named_zeiss_designations":["A","B","D","aa","C"],"examples":["Zeiss A ocular 1/2","Zeiss B ocular 2","Zeiss D ocular 2","Zeiss aa ocular 2","Zeiss C ocular 1"],"grade":"S text-level"},
+    {"plate":"14","named_zeiss_designations":["CC"],"examples":["Zeiss CC, ocular 1/2"],"grade":"S text-level"},
+    {"plates":"15-17","named_zeiss_designations":["a","A","B"],"result":"Repeated lower-case a plus A and B designations occur across the section series.","grade":"S text-level"},
+    {"plate":"18","named_zeiss_designations":["B","A","C"],"examples":["Zeiss B ocular 2","Zeiss A ocular 1/2","Zeiss C ocular 2"],"grade":"S text-level"},
+    {"plate":"19","named_zeiss_designations":["A","aa","C","B","D"],"grade":"S text-level"},
+    {"plate":"20","named_zeiss_designations":["aa"],"examples":["Zeiss aa ocular 2/3"],"grade":"S text-level"},
+    {"plate":"21","named_zeiss_designations":["B","A"],"examples":["Zeiss B ocular 2","Zeiss A ocular 2"],"grade":"S text-level"},
+    {"plates":"22-23","original_memoir_year":1875,"named_zeiss_designations":["CC"],"examples":["Zeiss CC ocular 1/2 used repeatedly in camera-drawn Pristiurus sections"],"grade":"S text-level"},
+    {"plate":"24","original_memoir_year":1878,"named_zeiss_designations":["C","aa","A","E","DD"],"examples":["Zeiss E ocular 2 appears in ovarian-section figures; Zeiss DD ocular 2 is also explicit"],"grade":"S text-level"},
+    {"plate":"25","original_memoir_year":1878,"named_zeiss_designations":["F","B","E","C","A","DD"],"grade":"S text-level"},
+    {"plate":"26","original_memoir_year":1878,"named_zeiss_designations":["A","DD"],"result":"Rabbit ovary figures repeatedly use A and DD, especially DD ocular 2.","grade":"S text-level"},
+    {"plates":"27-28","named_zeiss_designations":["2","B","C"],"note":"Preserve the printed 'Zeiss 2, ocul. 3' verbatim. Do not silently normalize it to 'immersion No. 2' without source-specific evidence.","grade":"S text-level"},
+    {"plate":"29","named_zeiss_designations":[],"result":"Magnifications are present; no named Zeiss objective detected."},
+    {"plates":"30-32","named_zeiss_designations":[],"result":"No named Zeiss objective detected in the Araneina caption suite."},
+    {"plate":"33","named_zeiss_designations":[],"result":"Magnifications only; no named Zeiss objective detected."},
+    {"plates":"34-42","named_zeiss_designations":[],"result":"No named Zeiss objective detected in the Lepidosteus caption suite of this edition."},
+    {"plates":"43-45","named_zeiss_designations":[],"result":"No named Zeiss objective detected in the renewed Chick/germinal-layer caption suite of this edition."},
+    {"plates":"46-48","named_zeiss_designations":[],"result":"No named Zeiss objective detected in these Peripatus plate explanations."},
+    {"plate":"49","publication_status":"posthumous memoir from Balfour notes/drawings with editorial additions","named_zeiss_designations":["aa"],"image_apparatus":["Hartnack camera"],"grade":"A+/S with authorship-of-caption guard"},
+    {"plate":"50","publication_status":"posthumous memoir","named_zeiss_designations":["A"],"image_apparatus":["Hartnack camera"],"grade":"A+/S with authorship-of-caption guard"},
+    {"plate":"51","publication_status":"posthumous memoir","named_zeiss_designations":["aa","C","A"],"image_apparatus":["Hartnack camera"],"grade":"A+/S with authorship-of-caption guard"},
+    {"plate":"52","publication_status":"posthumous memoir","named_zeiss_designations":["B","E","immersion 2"],"examples":["Zeiss B + Hartnack camera","Zeiss E ocular 2","Zeiss immersion 2 ocular 2"],"note":"Several captions explicitly say the figures came from rough drawings by Prof. Balfour.","grade":"A+/S with figure-authorship detail"},
+    {"plate":"53","publication_status":"posthumous memoir","named_zeiss_designations":["A","c"],"image_apparatus":["Camera Oberhaus.","Camera"],"examples":["Fig. 37 from a rough drawing left by Professor Balfour: Zeiss A, Camera Oberhaus.","Figs. 40-42 drawings by Professor Balfour: Zeiss c, Camera"],"grade":"S for those explicitly attributed drawings"}
+  ],
+  "historical_optical_vocabulary_detected": [
+    "Zeiss aa",
+    "Zeiss a",
+    "Zeiss A",
+    "Zeiss B",
+    "Zeiss C/c",
+    "Zeiss CC",
+    "Zeiss D",
+    "Zeiss DD",
+    "Zeiss E",
+    "Zeiss F",
+    "Zeiss 2",
+    "Zeiss immersion No. 2 / immersion 2"
+  ],
+  "surviving_whipple_set_crosswalk": {
+    "source": "Whipple Museum L2021.IN049.4",
+    "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15618/",
+    "surviving_designations": ["aa","a","A","C/c","C","B","J","E","3 mm homogeneous immersion apochromat","Gundlach 2-inch"],
+    "secure_designation_level_matches_to_print": ["aa","a","A","B","C/c","E"],
+    "historically_printed_but_no_corresponding_item_in_listed_surviving_set": ["CC","D","DD","F"],
+    "historically_printed_optics_requiring_non_equivalence_guard": [
+      "Zeiss immersion No. 2 / immersion 2",
+      "Zeiss 2"
+    ],
+    "surviving_items_without_caption_hit_in_volume_I": ["Zeiss J","Gundlach 2-inch"],
+    "critical_correction_from_v1": "The earlier first-pass negative for E is obsolete. Plates 24-25 and posthumous Peripatus Plate 52 explicitly use Zeiss E; a surviving Zeiss E objective marked 780 / 0.16 therefore has a secure designation-level publication match.",
+    "identity_guard": "Letter/designation agreement does not identify a surviving physical lens with a figure. Serial/engraved-number or dispatch/correspondence evidence is required for exact object identity."
+  },
+  "chronological_result": {
+    "earliest_secure_named_designation_in_this_harvest": "Zeiss CC in the 1875 spinal-nerve memoir (Plates 22-23)",
+    "by_1878": "The published optical repertoire includes at least A, B, C, D, DD, E, F, aa, CC and an immersion No. 2 reference across the monograph/ovary work.",
+    "interpretation": "Plate captions are not ornamental metadata. They provide dated operational addresses linking a section/preparation to an objective class, ocular and sometimes a camera or reagent."
+  },
+  "negative_controls": [
+    "No 'Gundlach' string is detected in the machine-readable volume-I text.",
+    "No secure volume-I plate-caption hit for the surviving Zeiss J has been established.",
+    "The surviving 3 mm homogeneous-immersion apochromat must not be equated with the earlier printed 'immersion No. 2' merely because both are immersion objectives."
+  ],
+  "grading": {
+    "full_caption_designation_harvest": "S for what the Memorial Edition text explicitly prints",
+    "designation_to_surviving_set_crosswalk": "S at class/designation level for aa/a/A/B/C/E",
+    "specific_surviving_lens_to_specific_figure": "OPEN"
+  },
+  "next": [
+    "Search Zeiss production/dispatch records for surviving engraved/serial numbers 573, 1295, 710, 780 and 542.",
+    "For figures with secure objective + specimen/stage wording, query Cambridge surviving Balfour serial sections by taxon/stage before any broad request.",
+    "Preserve camera references separately from objective designations; Hartnack/Oberhauser camera names form another apparatus-to-image address layer."
+  ],
+  "research_payoff": "This closes the first systematic publication-side harvest. The strongest new result is that objective-letter designations create a repeatable bridge from published image to instrument class, while the surviving Whipple set preserves enough of the same designation vocabulary to reconstruct Balfour's optical repertoire without pretending that designation equality proves physical lens identity."
+}
