@@ -1,0 +1,80 @@
+{
+  "schema_version": "5.0.0-cole-quekett-archive-delta",
+  "generated": "2026-08-10",
+  "title": "Cole after publication: Quekett evidence, surviving set knowledge, and the archive route",
+  "builds_on": [
+    "data/analysis/slide_as_publication_cole_deep_v2.json",
+    "data/analysis/cole_publication_afterlife_delta_v3.json",
+    "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v4.json"
+  ],
+  "new_external_evidence": [
+    {
+      "source": "Brian M. Davidson, 'Brian Davidson’s favourite microscopy books', Quekett Journal of Microscopy 39 (2004), 737–740, reproduced on Quekett website",
+      "url": "https://www.quekett.org/resources/recommended-books/dozen/favourite-davidson",
+      "evidence": "Davidson states that a proportion of slides by A. C. Cole and Martin Cole were sold in sets; many 'Prize Medal' preparations carry numbers and/or set information on the lower label. He describes Volume I of Studies in Microscopical Science as based on a set of 52 of Martin Cole's slides and explicitly describes selecting one of the 52 slides and studying it with the relevant page to hand.",
+      "claim_updates": [
+        "The 52-slide Volume I set was recognized within the Quekett historical-microscopy community as a coherent set paired to the book.",
+        "Martin J. Cole's preparation labour receives strong later specialist attribution for the Volume I set, consistent with the bound Volume I preface crediting Martin for the preparations.",
+        "Numbers/set information on surviving Prize Medal labels are a historically meaningful retrieval feature, not merely modern collector annotations."
+      ],
+      "grade": "A+ corroboration; not a substitute for contemporary production records"
+    },
+    {
+      "source": "Quekett Microscopical Club Archives website",
+      "url": "https://archives.quekett.org/",
+      "evidence": "The Club describes archives and collections including more than 20,000 slides, photographs, members' notebooks and minutes. It states that label data from some slides have already been transcribed into Excel and that photographs of several trays exist; a searchable slide-database demonstration was created.",
+      "claim_updates": [
+        "The Cole question can be pursued by label-level database/search work before requesting broad digitisation.",
+        "The archive preserves exactly the kinds of materials needed to reconnect serial numbering, maker labels, cabinet coordinates and institutional custody: slides, labels, tray photographs, minutes and notebooks."
+      ],
+      "grade": "S for archive capability; Cole-specific survival remains open until searched"
+    },
+    {
+      "source": "History of Science Museum, Oxford, manuscript summary list",
+      "url": "https://www.hsm.ox.ac.uk/manuscripts",
+      "evidence": "MSS Royal Microscopical Society includes, among other items, a catalogue of microscope slides of molluscs mounted by H. M. Gwatkin (1883–90), microscopical notebooks and correspondence, drawings, and other collected manuscripts. The Society's internal records are separately preserved as MSS RMS Archive, with continuing additions; the Museum directs detailed enquiries to the archivist.",
+      "claim_updates": [
+        "RMS archive research should distinguish collected manuscripts from the Society's own internal archive.",
+        "Slide catalogues themselves survive as archival genres inside the RMS manuscript collections, strengthening the expectation that cabinet/index history can be reconstructed for some series."
+      ],
+      "grade": "S for archive structure; no Cole-specific internal file yet identified"
+    }
+  ],
+  "production_attribution_update": {
+    "previous_guard": "Volume I preface credits Martin J. Cole while one contemporary review wording appeared to attribute cutting/mounting to Arthur Cole; preserve layers separately.",
+    "revised_assessment": "Martin J. Cole should now be treated as the strongest named preparer attribution for the Volume I set because the contemporary bound preface credits him and later Quekett specialist Davidson independently identifies the basis of the book as 52 Martin Cole slides. Arthur C. Cole remains editor, commercial principal and part of the wider Cole & Son preparation business. Do not erase possible shared/family labour without production records.",
+    "grade": "A+"
+  },
+  "tooveys_set_update": {
+    "effect": "Davidson's description materially strengthens the identification of the 2025 Toovey's 52-slide cabinet as a Studies Volume I set: the observed total and opening sequence now align with an independently described historical/collector convention of a 52-slide Martin Cole set.",
+    "remaining_open_questions": [
+      "whether the auction mahogany cabinet is an original publisher/Cole-supplied cabinet or a later case",
+      "which slide is the auctioneer's 'one other slide' outside the 51 Arthur Cole-labelled examples",
+      "whether all 52 positions preserve original issue order throughout the cabinet",
+      "whether the index card is contemporary with first issue, later Cole-family use, or later collecting"
+    ]
+  },
+  "archive_search_protocol": {
+    "quekett_first": [
+      "Search label transcription/database for Cole, A. C. Cole, Arthur Cole, Martin J. Cole, St Domingo House, Prize Medal, Studies in Microscopical Science.",
+      "Search subjects from diagnostic Volume I positions: Yellow Fibro-Cartilage, Copper Beech, Pikrite Inchcolm, Cat Spinal Cord, Fucus vesiculosus, Corstorphine Hill, Lairg, Portsoy, Lizard.",
+      "Request tray photographs and existing Excel rows only for positive matches before asking for new object photography.",
+      "Crosswalk any maker/number/subject hit against Volume I issue sequence and the Toovey's index/set."
+    ],
+    "oxford_second": [
+      "Ask the HSM archivist whether MSS RMS Archive preserves nineteenth-century cabinet, slide, donation, subscription or accession registers.",
+      "Ask specifically for records around 1882–1884 relating to receipt/subscription of Cole's Studies and preparations.",
+      "Search for transfer/deposit documentation that may explain the relation between RMS manuscript/library holdings and the large RMS slide cabinet now at HSM."
+    ]
+  },
+  "article_payoff": {
+    "revised_key_sentence": "The hybrid publication did not disappear when paper and glass were separated; its survival depended on whether numbers, labels, indexes and institutional catalogues continued to preserve the relation between them.",
+    "methodological_consequence": "The archive question is therefore not merely 'where are the slides?' but 'which retrieval system still remembers that these slides were publication components?'"
+  },
+  "guards": [
+    "Do not treat Davidson 2004 as contemporary proof of every production detail; use it as informed later specialist corroboration.",
+    "Do not state that Quekett currently holds the Cole Volume I set until a database, label or object-level match is obtained.",
+    "Do not assume the RMS internal archive contains a Cole subscription file merely because the archive survives.",
+    "Do not merge the Quekett archive with the Oxford RMS archive: these are distinct institutional repositories and histories."
+  ]
+}
