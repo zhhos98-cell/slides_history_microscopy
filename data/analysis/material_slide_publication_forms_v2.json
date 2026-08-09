@@ -1,0 +1,134 @@
+{
+  "schema_version": "2.0.0-material-slide-publication-forms",
+  "generated": "2026-08-10",
+  "title": "Publishing, selling, sequencing, and indexing glass: a stricter taxonomy of microscope-slide forms",
+  "supersedes_for_analysis": "data/analysis/material_slide_publication_forms_v1.json",
+  "research_problem": "Recent Cole, Elcock, Harvard and archive runs make it possible to separate several forms that all look superficially like 'numbered slide series' but perform different work. The central distinction is whether a material address organizes public replication/distribution, anatomical succession, commercial comparison, or later reference retrieval.",
+  "strict_publication_test": [
+    "There is an explicit issue/set/series/catalogue architecture available beyond one private holder.",
+    "More than one recipient can in principle obtain a material unit under the same public address or product identity.",
+    "The address is part of distribution, not merely a later museum accession or private cabinet coordinate.",
+    "If physical copies vary, contemporary actors still treat them as equivalents within the issue/set/product system."
+  ],
+  "forms": [
+    {
+      "form": "synchronized material serial publication",
+      "case": "Arthur C. Cole, Studies in Microscopical Science",
+      "publication_status": "yes",
+      "unit": "issue = preparation + letterpress + plate/image",
+      "address": "issue number",
+      "replication": "subscriber preparations are equivalent publication units despite acknowledged biological non-identity",
+      "retrieval": "paper issue and numbered glass cabinet cross-reference one another after binding",
+      "distinctive_mechanism": "serial time organizes attention and distribution",
+      "grade": "S"
+    },
+    {
+      "form": "replicated numbered published collection / exsiccata-like set",
+      "case": "Farlow historical published diatom collections",
+      "publication_status": "yes when repository documentation establishes replicated published sets",
+      "unit": "numbered slide/specimen in named collection",
+      "address": "set title + stable serial number",
+      "replication": "same set number can occur in geographically separate replicate collections",
+      "retrieval": "catalogue/card/list maps number to object",
+      "distinctive_mechanism": "portable numbering stabilizes a distributed set without periodical cadence",
+      "grade": "S at documented set level"
+    },
+    {
+      "form": "commercial comparative Type Slide",
+      "case": "Charles Elcock Type Slides",
+      "publication_status": "commercial distributed knowledge object; use 'material publication' only if accompanying catalogue/set architecture is directly verified",
+      "unit": "one slide containing many named forms, e.g. advertised fifty-species Foraminifera Type Slides",
+      "address": "Type Slide number/category + numbered/spatial internal matrix",
+      "replication": "multiple sale copies implied by product advertising and distributed survival; exact copy-equivalence remains to be collated",
+      "retrieval": "species names/matrix on glass; contemporary review reportedly adds a printed catalogue/key, awaiting direct BHL verification",
+      "distinctive_mechanism": "classification is spatialized and compressed into one purchasable field of comparison",
+      "grade": "S for commercial Type Slide form; A+ for printed-key architecture until direct review transcription"
+    },
+    {
+      "form": "commercial catalogue offering",
+      "case": "Norman, Bourgogne, Wheeler, Watson and related trade lists",
+      "publication_status": "catalogue is publication; each purchased preparation is not automatically an edition copy",
+      "unit": "orderable subject/preparation or category",
+      "address": "catalogue wording/row + maker/business identity",
+      "replication": "multiple examples may be prepared, but stable physical equivalence cannot be assumed",
+      "retrieval": "surviving labels may preserve catalogue wording, maker marks, retailer labels and collector numbers",
+      "distinctive_mechanism": "stock and orderability rather than serial/set replication",
+      "grade": "S for catalogue system; object matching item-specific"
+    },
+    {
+      "form": "serial anatomical preparation",
+      "case": "Harvard Embryological Collection / Minot and Balfour serial sections",
+      "publication_status": "no by seriality alone",
+      "unit": "successive physical sections from one embryo/specimen",
+      "address": "series/section position + collection number",
+      "replication": "parts are successive anatomical slices, not copies distributed under one public address",
+      "retrieval": "card catalogue, drawings, old/new identifiers, technique and publication links",
+      "distinctive_mechanism": "anatomical continuity organizes the sequence",
+      "grade": "S negative/control category"
+    },
+    {
+      "form": "indexed research reference Type Slide archive",
+      "case": "Heron-Allen & Earland Type Slide Collection",
+      "publication_status": "research reference collection; individual TS slides may underlie publications but the archive itself should not be called a material publication without distribution evidence",
+      "unit": "faunal association Type Slide, some with up to many species",
+      "address": "TS number + numbered internal squares",
+      "replication": "primarily one curated reference archive, not demonstrated replicated distribution",
+      "retrieval": "loose-leaf Keys + card index + internal slide numbering",
+      "distinctive_mechanism": "cumulative research taxonomy and publication reference rather than commercial issue cadence",
+      "historical_connection": "some earliest slides are marked Charles Elcock, Belfast; Elcock mounting practice is recorded in the collection history",
+      "grade": "S for archive architecture"
+    },
+    {
+      "form": "numbered commercial/scientific diatom series",
+      "case": "Tempère & Peragallo / Möller",
+      "publication_status": "open",
+      "unit": "numbered slide associated with taxon/locality/sample",
+      "address": "series number + scientific description",
+      "replication": "distributed-set logic is probable but exact editions/replicates require collation",
+      "retrieval": "catalogue/provenance tables and museum inventory are the target crosswalks",
+      "distinctive_mechanism": "taxonomic/geographical accumulation",
+      "grade": "A+ pending La Plata series inventory and publication collation"
+    },
+    {
+      "form": "unique exchange/gift preparation",
+      "case": "Haeckel correspondence, club exchange and direct donations",
+      "publication_status": "no",
+      "unit": "one object or bounded collection sent between named parties",
+      "address": "letter/transaction + label, later accession",
+      "replication": "none required",
+      "retrieval": "correspondence and later custody",
+      "distinctive_mechanism": "social or scientific transfer event",
+      "grade": "S negative/control category"
+    }
+  ],
+  "decisive_comparisons": [
+    {
+      "comparison": "Cole vs Minot",
+      "result": "Both use seriality, but Cole's sequence is distributive/publication time and Minot's is anatomical continuity."
+    },
+    {
+      "comparison": "Cole vs Elcock",
+      "result": "Cole distributes attention through time; Elcock compresses comparative attention into one spatial matrix."
+    },
+    {
+      "comparison": "Elcock vs Heron-Allen/Earland",
+      "result": "Both use Type Slide language/form and indexed specimen fields, but one is documented as a commercial product while the later archive is a cumulative research reference system. Connection does not erase the difference in distribution model."
+    },
+    {
+      "comparison": "Norman/Wheeler catalogues vs published sets",
+      "result": "A catalogue makes an object orderable but does not by itself make every resulting slide a stable edition copy."
+    }
+  ],
+  "database_fields_added": [
+    "distribution_address",
+    "internal_specimen_address",
+    "replication_model",
+    "public_availability_model",
+    "accompanying_key_or_catalogue",
+    "copy_equivalence_claimed_by_historical_actor",
+    "publication_status",
+    "publication_status_evidence",
+    "later_reference_archive_status"
+  ],
+  "research_payoff": "The project can now discuss material publication without inflating every numbered or circulating preparation into 'publication'. This makes Cole more distinctive, Elcock more precise, and Tempère–Peragallo a testable open category rather than a foregone comparison."
+}
