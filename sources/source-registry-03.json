@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Microscope Slides in Motion — source and archive registry supplement 03",
+  "records": [
+    {
+      "id": "GB-HSM-OXFORD-RMS-ARCHIVE",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "Oxford",
+      "institution": "History of Science Museum, University of Oxford",
+      "collection": "MSS Royal Microscopical Society and MSS RMS Archive",
+      "type": "society archive + manuscript collection",
+      "relation": "direct",
+      "date_scope": "1713–1930s for collected manuscripts; Society archive from 1839 onward",
+      "holdings": "The Museum preserves manuscripts collected by the Royal Microscopical Society, chiefly papers and drawings of microscopists and naturalists, as well as the Society's continuing institutional archive. Listed material includes microscopical drawings, correspondence and other papers; the internal Society records are catalogued separately as MSS RMS Archive.",
+      "research_use": "Primary archival route behind the project's RMS journal/event corpus. Minutes, institutional records, manuscripts and drawings can be used to move from published meeting reports toward acquisition, donation, exhibition and collection-management evidence.",
+      "access": "Archival consultation through the History of Science Museum; detailed RMS Archive enquiries are directed to the Museum archivist.",
+      "url": "https://www.hsm.ox.ac.uk/manuscripts",
+      "tags": ["Royal Microscopical Society", "RMS", "manuscripts", "drawings", "institutional archive", "Oxford"]
+    },
+    {
+      "id": "GB-HSM-OXFORD-RMS-SLIDES",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "Oxford",
+      "institution": "History of Science Museum, University of Oxford",
+      "collection": "Royal Microscopical Society microscope-slide collection",
+      "type": "society slide collection",
+      "relation": "direct",
+      "date_scope": "principally 1860–1930",
+      "holdings": "The Museum describes a collection of roughly ten thousand microscope slides. More than three quarters were contained in a single cabinet on permanent loan from the Royal Microscopical Society, with preparations dating mainly from 1860 to 1930.",
+      "research_use": "One of the strongest surviving endpoints for RMS donations and maker series recorded in nineteenth-century journals. The cabinet provides a direct route from published donation notices and maker names to surviving preparations and later museum cataloguing.",
+      "access": "Collection research through the History of Science Museum; an earlier cataloguing project and exhibition provide public digital interpretation.",
+      "url": "https://www.mhs.ox.ac.uk/smallworlds/exhibition/",
+      "tags": ["Royal Microscopical Society", "RMS", "slides", "cabinet", "makers", "Oxford"]
+    },
+    {
+      "id": "GB-SMG-HISTORICAL-SLIDE-CABINET",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "London",
+      "institution": "Science Museum Group",
+      "collection": "Historical microscope-slide cabinet Y2001.223/1",
+      "type": "historical slide collection + digital object records",
+      "relation": "direct",
+      "date_scope": "1867–1900",
+      "holdings": "Science Museum Group records a large cabinet of slides by various makers prepared between 1867 and 1900, including animal material and geological thin sections. The catalogue exposes collection metadata online and provides JSON and IIIF downloads.",
+      "research_use": "A digitally tractable mixed-maker cabinet for testing maker attribution, subject groupings, geological and zoological preparation, later cabinet assembly, and crosswalks to trade catalogues or society records.",
+      "access": "Collection record, data download and IIIF manifest online; object research through Science Museum Group.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8411854/microscope-slides-cabinet",
+      "tags": ["Science Museum", "cabinet", "mixed makers", "thin sections", "IIIF", "London"]
+    },
+    {
+      "id": "GB-ROYAL-SOCIETY-ARCHIVES",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "London",
+      "institution": "The Royal Society",
+      "collection": "Archives, printed works, and Science in the Making",
+      "type": "scientific society archive + digital portal",
+      "relation": "contextual",
+      "date_scope": "1660–present",
+      "holdings": "The Royal Society preserves personal papers, scientific papers and correspondence, administrative records, museum objects and a major historical library. Its catalogue and Science in the Making platform expose archival material and digitised manuscripts associated with Fellows and Society business.",
+      "research_use": "Contextual route for microscopists who were Fellows, instrument and preparation discussions communicated to the Society, and correspondence that can connect microscopy to broader scientific institutions. Slide-specific identity must be demonstrated record by record.",
+      "access": "Archive and library catalogues are online; reading-room consultation and digital manuscripts are available under Royal Society access procedures.",
+      "url": "https://www.royalsociety.org/about-us/what-we-do/collections/",
+      "secondary_url": "https://makingscience.royalsociety.org/about",
+      "tags": ["Royal Society", "correspondence", "Fellows", "digital manuscripts", "London"]
+    }
+  ]
+}
