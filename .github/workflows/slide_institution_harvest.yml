@@ -1,0 +1,174 @@
+name: slide-institution-harvest
+
+on:
+  workflow_dispatch:
+    inputs:
+      bundle:
+        description: "Targeted-deep enumerates the catalogues that proved high-yield in reconnaissance."
+        required: true
+        default: "targeted-deep"
+        type: choice
+        options:
+          - targeted-deep
+          - remaining-automatable
+          - high-yield
+          - all-automatable
+          - uk-high-yield
+          - diatoms
+          - medical-histology
+          - geology-petrology
+          - single
+      institution_key:
+        description: "Only used when bundle=single. Use the canonical key from the matrix artifact."
+        required: false
+        default: ""
+        type: string
+      mode:
+        description: "Use full for targeted-deep. dry-run remains available for the generic institution harvester."
+        required: true
+        default: "full"
+        type: choice
+        options:
+          - full
+          - dry-run
+      depth:
+        description: "Request-budget multiplier. balanced is recommended; targeted-deep is already catalogue-specific."
+        required: true
+        default: "balanced"
+        type: choice
+        options:
+          - quick
+          - balanced
+          - deep
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+      institution_count: ${{ steps.matrix.outputs.institution_count }}
+
+    steps:
+      - name: Check out standalone slide repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Prepare frozen canonical survey
+        run: |
+          python scripts/prepare_survey_inputs.py
+          python scripts/validate_survey.py
+          python scripts/audit_19c_scope.py
+
+      - name: Build institution matrix
+        id: matrix
+        run: |
+          python scripts/build_institution_matrix.py \
+            --bundle "${{ inputs.bundle }}" \
+            --institution-key "${{ inputs.institution_key }}" \
+            --github-output "$GITHUB_OUTPUT"
+
+      - name: Upload plan
+        uses: actions/upload-artifact@v4
+        with:
+          name: institution-harvest-plan
+          path: |
+            outputs/institution_harvest_matrix.json
+            outputs/prepare_survey_inputs.json
+            outputs/scope_19c_audit.json
+            outputs/scope_19c_audit.md
+          retention-days: 30
+
+  harvest:
+    needs: plan
+    if: ${{ needs.plan.outputs.institution_count != '0' }}
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    steps:
+      - name: Check out standalone slide repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install metadata parsers
+        run: python -m pip install --disable-pip-version-check --quiet pypdf
+
+      - name: Prepare frozen canonical survey
+        run: |
+          python scripts/prepare_survey_inputs.py
+          python scripts/audit_19c_scope.py
+
+      - name: Harvest ${{ matrix.institution }}
+        shell: bash
+        run: |
+          if [[ "${{ inputs.bundle }}" == "targeted-deep" ]]; then
+            if [[ "${{ inputs.mode }}" != "full" ]]; then
+              echo "targeted-deep is an enumeration run; choose mode=full" >&2
+              exit 2
+            fi
+            python scripts/harvest_targeted.py \
+              --institution-key "${{ matrix.institution_key }}" \
+              --adapter "${{ matrix.targeted_adapter }}" \
+              --depth "${{ inputs.depth }}"
+          else
+            python scripts/harvest_institution.py \
+              --institution-key "${{ matrix.institution_key }}" \
+              --profile "${{ matrix.profile }}" \
+              --mode "${{ inputs.mode }}" \
+              --depth "${{ inputs.depth }}"
+          fi
+
+      - name: Upload institution metadata
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: institution-${{ matrix.institution_key }}
+          path: |
+            outputs/institution_harvest/${{ matrix.institution_key }}/
+            outputs/targeted_harvest/${{ matrix.institution_key }}/
+          retention-days: 30
+          if-no-files-found: warn
+
+  aggregate:
+    needs:
+      - plan
+      - harvest
+    if: ${{ always() && needs.plan.outputs.institution_count != '0' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out standalone slide repository
+        uses: actions/checkout@v6
+
+      - name: Download all institution artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: institution-*
+          path: bundle
+          merge-multiple: false
+
+      - name: Build one bundle index
+        run: python scripts/aggregate_institution_harvest.py --root bundle --out bundle/bundle_index.json
+
+      - name: Upload combined metadata bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: slide-metadata-${{ inputs.bundle }}-${{ github.run_number }}
+          path: bundle/
+          retention-days: 30
