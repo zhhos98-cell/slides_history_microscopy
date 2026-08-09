@@ -1,0 +1,21 @@
+# Generated runtime outputs
+outputs/
+data/normalized/
+artifacts/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary exports
+*.tmp
+*.temp
+*.bak
