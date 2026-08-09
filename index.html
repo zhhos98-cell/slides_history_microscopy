@@ -85,7 +85,7 @@
   </div>
 
   <div class="corpus-panel bna-panel">
-    <div class="panel-head"><div><p class="mini-label">British Newspaper Archive</p><h3>9,365 article records, compactly represented.</h3></div><p>The Pages layer publishes all 43 query-yield rows plus master-level counts for 930 event clusters, 995 newspaper-yield rows and 71 year rows. Article-level OCR and record payloads remain in the hashed canonical BNA master.</p></div>
+    <div class="panel-head"><div><p class="mini-label">British Newspaper Archive</p><h3>9,365 article records, compactly represented.</h3></div><p>The compact publication layer contains all 43 query-yield rows, all 71 year-yield rows, all 930 event clusters and all 995 newspaper-yield rows. The interactive panel below browses the query-yield layer; the complete derived tables are linked in the data ledger. Article-level OCR and record payloads remain in the hashed canonical BNA master.</p></div>
     <div id="bna-controls">
       <div class="filters corpus-filters bna-query-filters"><label class="search-field"><span>Search query families</span><input id="bna-search" type="search" placeholder="commerce, auction, mounting, slides…" /></label></div>
       <p id="bna-master-note" class="backend-note">Loading BNA master summary…</p><div class="explorer-meta"><p id="bna-count">Preparing BNA query yields…</p><button class="text-button" id="bna-reset" type="button">Reset filters</button></div>
@@ -94,12 +94,13 @@
   </div>
 
   <div class="data-ledger">
-    <a href="data/corpus/CORPUS_MANIFEST_V4.json"><b>Corpus manifest</b><span>seven master hashes · counts · omission rules · JSON ↗</span></a>
+    <a href="data/corpus/CORPUS_MANIFEST_V5.json"><b>Current corpus manifest</b><span>seven master hashes · counts · omission rules · JSON ↗</span></a>
     <a href="data/corpus/CORE_DOCUMENTS_V4_01.json"><b>Core registry</b><span>142 bibliographic entries across seven chunks · JSON ↗</span></a>
     <a href="data/corpus/EXTENDED_DOCUMENTS_V4_01.json"><b>Extension registry</b><span>60 texts + 2 structured OCR sources · JSON ↗</span></a>
-    <a href="data/corpus/BNA_META_V4.json"><b>BNA summary</b><span>9,365 records · derived-layer counts · omission ledger · JSON ↗</span></a>
+    <a href="data/corpus/BNA_DERIVED_INDEX_V5.json"><b>BNA derived index</b><span>930 event clusters · 995 newspaper rows · JSON ↗</span></a>
+    <a href="data/corpus/BNA_META_V4.json"><b>BNA source-master summary</b><span>9,365 article records · omission ledger · JSON ↗</span></a>
     <a href="data/corpus/RESEARCH_OUTPUTS_V4.json"><b>Research output ledger</b><span>22 current outputs · JSON ↗</span></a>
-    <a href="data/corpus/README.md"><b>Corpus publication notes</b><span>what is present and what remains in source masters · MD ↗</span></a>
+    <a href="data/corpus/README.md"><b>Corpus publication notes</b><span>schema · version composition · omission policy · MD ↗</span></a>
   </div>
 </section>
 
@@ -125,8 +126,8 @@
 
 <section class="section method-section" id="method">
   <div class="section-label"><span>08</span> Method</div>
-  <div class="method-grid"><div class="method-copy"><h2>Evidence first; relations and storage layers remain typed.</h2><p>The public site now mirrors the backend architecture: frozen object census, compact corpus metadata, research outputs, and large archival text masters remain distinct. The website can grow without turning presentation data into a new source of truth.</p></div><ol class="method-steps"><li><span>1</span><div><b>Preserve identities.</b><p>Document IDs, record IDs, occurrence locators, hashes and source URLs move with the compact export.</p></div></li><li><span>2</span><div><b>Omit bulk text selectively.</b><p>Page OCR and long raw previews stay in canonical masters when the site only needs navigational metadata.</p></div></li><li><span>3</span><div><b>Publish structured findings.</b><p>Extracted actors, events, prices, practices, clusters and crosswalks remain browseable.</p></div></li><li><span>4</span><div><b>Keep claims reversible.</b><p>Every derived relation points back to a source or a bounded research note with explicit limits.</p></div></li></ol></div>
-  <div class="source-links"><a href="data/corpus/CORPUS_MANIFEST_V4.json"><span>Backend corpus manifest</span><b>JSON ↗</b></a><a href="data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json"><span>Closure manifest</span><b>JSON ↗</b></a><a href="data/analysis/slide_155_corpus_expansion_v1/README.md"><span>Corpus expansion notes</span><b>MD ↗</b></a><a href="data/corpus/RESEARCH_OUTPUTS_V4.json"><span>Research output index</span><b>JSON ↗</b></a></div>
+  <div class="method-grid"><div class="method-copy"><h2>Evidence first; relations and storage layers remain typed.</h2><p>The public site mirrors the backend architecture: frozen object census, compact corpus metadata, research outputs, and large archival text masters remain distinct. The website can grow without turning presentation data into a new source of truth.</p></div><ol class="method-steps"><li><span>1</span><div><b>Preserve identities.</b><p>Document IDs, record IDs, occurrence locators, hashes and source URLs move with the compact export.</p></div></li><li><span>2</span><div><b>Omit bulk text selectively.</b><p>Page OCR and long raw previews stay in canonical masters when the site only needs navigational metadata.</p></div></li><li><span>3</span><div><b>Publish structured findings.</b><p>Extracted actors, events, prices, practices, clusters and crosswalks remain browseable.</p></div></li><li><span>4</span><div><b>Keep claims reversible.</b><p>Every derived relation points back to a source or a bounded research note with explicit limits.</p></div></li></ol></div>
+  <div class="source-links"><a href="data/corpus/CORPUS_MANIFEST_V5.json"><span>Backend corpus manifest</span><b>JSON ↗</b></a><a href="data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json"><span>Closure manifest</span><b>JSON ↗</b></a><a href="data/analysis/slide_155_corpus_expansion_v1/README.md"><span>Corpus expansion notes</span><b>MD ↗</b></a><a href="data/corpus/RESEARCH_OUTPUTS_V4.json"><span>Research output index</span><b>JSON ↗</b></a></div>
 </section>
 </main>
 
