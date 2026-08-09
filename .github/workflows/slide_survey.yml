@@ -1,0 +1,66 @@
+name: slide-survey
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode: dry-run validates/plans only; full fetches bounded public metadata. Frozen strict 155 membership is always enforced."
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run
+          - full
+  pull_request:
+    paths:
+      - "data/survey/**"
+      - "scripts/**"
+      - "docs/19C_SCOPE_RULES.md"
+      - ".github/workflows/slide_survey.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out standalone slide repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Prepare modular survey inputs
+        run: python scripts/prepare_survey_inputs.py
+
+      - name: Validate full survey table
+        run: python scripts/validate_survey.py
+
+      - name: Audit nineteenth-century scope
+        run: python scripts/audit_19c_scope.py
+
+      - name: Restrict runtime survey to frozen strict membership
+        run: python scripts/apply_19c_scope.py
+
+      - name: Build nineteenth-century harvest batches
+        run: python scripts/build_harvest_batches.py
+
+      - name: Build nineteenth-century harvest plan
+        run: python scripts/harvest_catalogue.py --mode "${{ github.event.inputs.mode || 'dry-run' }}"
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: slide-survey-reports
+          path: |
+            outputs/*.md
+            outputs/*.json
+            outputs/*.csv
+            data/normalized/*.json
+            data/normalized/*.jsonl
+          retention-days: 30
