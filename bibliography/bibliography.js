@@ -72,7 +72,7 @@ function applyFilters(){
   const section=document.getElementById('bib-section-filter').value;
   const tag=document.getElementById('bib-tag-filter').value;
   state.filtered=state.rows.filter(row=>(!section||row.section===section)&&(!tag||splitTags(row.tags).includes(tag))&&(!q||haystack(row).includes(q)));
-  document.getElementById('bib-result-count').textContent=`${state.filtered.length} of ${state.rows.length} verified entries`;
+  document.getElementById('bib-result-count').textContent=`${state.filtered.length} of ${state.rows.length} verified slide-locked entries`;
   renderSection('research','research-list','research');
   renderSection('primary','primary-list','primary');
 }
@@ -97,13 +97,19 @@ function bindControls(){
 
 async function init(){
   try{
-    const response=await fetch('bibliography.csv',{cache:'no-store'});
-    if(!response.ok)throw new Error(`HTTP ${response.status}`);
-    state.rows=parseCSV(await response.text());
+    const manifestResponse=await fetch('bibliography-manifest.json',{cache:'no-store'});
+    if(!manifestResponse.ok)throw new Error(`manifest HTTP ${manifestResponse.status}`);
+    const manifest=await manifestResponse.json();
+    const parts=await Promise.all(manifest.chunks.map(async path=>{
+      const response=await fetch(path,{cache:'no-store'});
+      if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);
+      return parseCSV(await response.text());
+    }));
+    state.rows=parts.flat();
     const research=state.rows.filter(r=>r.section==='research').length;
     const primary=state.rows.filter(r=>r.section==='primary').length;
     const languages=new Set(state.rows.map(r=>r.language).filter(Boolean));
-    if(state.rows.length!==60||research!==39||primary!==21||languages.size!==6)throw new Error(`bibliography contract mismatch: ${state.rows.length}/${research}/${primary}/${languages.size}`);
+    if(state.rows.length!==manifest.total_entries||research!==manifest.research||primary!==manifest.primary||languages.size!==manifest.publication_languages)throw new Error(`bibliography contract mismatch: ${state.rows.length}/${research}/${primary}/${languages.size}`);
     state.filtered=[...state.rows];
     populateTags();
     bindControls();
