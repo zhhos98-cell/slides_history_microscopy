@@ -1,0 +1,114 @@
+{
+  "schema_version": "3.0.0-elcock-type-slide-genealogy",
+  "generated": "2026-08-10",
+  "title": "Charles Elcock after the Type Slide: keys, distributed copies, Challenger material, and the Heron-Allen/Earland reference-slide lineage",
+  "builds_on": [
+    "data/analysis/elcock_type_slides_s_grade_closure_v1.json",
+    "data/analysis/elcock_type_slides_market_display_delta_v2.json"
+  ],
+  "core_result": "Elcock's Type Slide can now be followed beyond the advertised product and retained Whipple cabinet into three additional documentary/material directions: a surviving paper-key apparatus inside the Whipple accession, independently surviving labelled Type Slides at St Andrews, and a later foraminiferal Type Slide system at the Natural History Museum whose earliest mounts include Elcock-labelled preparations and retain Elcock's mounting-medium practice. A 2024 auction also exposes a second putative Elcock working cabinet containing Challenger soundings, blank slides and mounting equipment, but that provenance remains market-source evidence pending institutional verification.",
+  "whipple_internal_documentary_apparatus": {
+    "repository": "Whipple Museum of the History of Science",
+    "accession": "Wh.6601",
+    "source_url": "https://collections.whipplemuseum.cam.ac.uk/objects/15311/",
+    "items": [
+      {
+        "part": "6601.10",
+        "description": "Folded rough manuscript sheet described by the museum as appearing to list specimens on certain slide/s.",
+        "research_value": "Highest-priority candidate for a surviving workshop crosswalk between slide composition and paper list/key.",
+        "evidence_grade": "S for object description; function as Type Slide key remains A until image/transcription"
+      },
+      {
+        "part": "6601.11",
+        "description": "Folded printed taxonomic list of molluscan groups and Latin names with manuscript score marks and fractional numbers.",
+        "research_value": "Shows printed taxonomy being annotated inside Elcock's working archive; relation to Type Slides is unproven.",
+        "evidence_grade": "S for object description; B+ for Type Slide relevance"
+      },
+      {
+        "part": "6601.7",
+        "description": "Terquem, Les Foraminifères de l’Éocène des Environs de Paris, inscribed Charles Elcock Belfast 1882/1884.",
+        "research_value": "Direct evidence that printed specialist taxonomy occupied the same retained working archive as Foraminifera slides and Type Slide drawers.",
+        "evidence_grade": "S"
+      }
+    ],
+    "next_request": "Ask first for high-resolution images of 6601.10, 6601.11, drawers 9–12, and representative Type Slide specimens. This is more diagnostic than broad digitisation of all 617 parts."
+  },
+  "st_andrews_distributed_copies": {
+    "repository": "University of St Andrews Libraries and Museums — Bell Pettigrew Zoology microscope slide collection",
+    "source_url": "https://collections.st-andrews.ac.uk/group/charles-elcock-microscope-slides/2084218",
+    "survival": "Six Elcock slides remain in sleeve 5/P/2 with printed TYPE SLIDE / SELECTED BY CHARLES ELCOCK, BELFAST / OSTRACODA wording.",
+    "recorded_species": [
+      "Cythere darwini",
+      "Cythere goujoni",
+      "Cythere jonesii",
+      "Cythere scutigera",
+      "Cythere? Hong Kong",
+      "Cythere convexa"
+    ],
+    "interpretation": "The Type Slide label language circulated outside Elcock's retained workshop archive and was applied to an Ostracoda series, strengthening the case that 'Type Slide' was a repeatable product/form rather than only the two advertised fifty-species Foraminifera examples.",
+    "guard": "The St Andrews record numbers 13, 14, 17, 18, 19 and 20 are collection/hierarchy addresses unless label images prove they are Elcock commercial series numbers."
+  },
+  "paper_key_problem": {
+    "historical_review_lead": "A contemporary 1882 review of Elcock's Type Slides in the Journal of the Postal Microscopical Society is reported to describe fifty species arranged in squares with the species names visible in the field and a clear printed catalogue accompanying each slide to help locate forms.",
+    "primary_route": "The full Journal of the Postal Microscopical Society, vol. 1 (1882), is openly available in Biodiversity Heritage Library; the page-level review must be transcribed directly before treating the printed-catalogue wording as S-grade.",
+    "bhl_url": "https://www.biodiversitylibrary.org/bibliography/8124",
+    "current_grade": "A+ pending direct page-image/OCR verification",
+    "why_it_matters": "If verified, the Type Slide was explicitly a glass-plus-key system: the spatial matrix on the slide and printed catalogue jointly made fifty named specimens retrievable."
+  },
+  "heron_allen_earland_lineage": {
+    "source": "R. L. Hodgkinson, The Heron-Allen & Earland Type Slide Collection of Foraminifera in the British Museum (Natural History), Journal of Micropalaeontology 8 (1989), 149–156",
+    "doi": "10.1144/jm.8.2.149",
+    "open_url": "https://jm.copernicus.org/articles/8/149/1989/",
+    "documented_features": [
+      "The collection contains 874 faunal Type Slides, generally addressed with TS numbers, accompanied by loose-leaf Keys and a card index.",
+      "The slides are mostly faunal associations; squares on the black background are usually numbered.",
+      "Some of the earliest slides are marked 'Charles Elcock, Belfast'.",
+      "The paper identifies gum arabic diluted with glycerine as the treatment used on Elcock slides.",
+      "The biographical discussion states that Heron-Allen counted Charles Elcock as a friend."
+    ],
+    "inference": "Elcock's practice sits inside the prehistory of the Heron-Allen/Earland Type Slide system at the level of personal connection, surviving Elcock-labelled slides, and mounting technique. The later system greatly expands the key/index architecture: Type Slide number + numbered internal fields + loose-leaf Keys + card index.",
+    "guard": "Do not claim that Heron-Allen/Earland copied or directly inherited Elcock's commercial Type Slide format until correspondence or an explicit statement establishes transmission. The current evidence supports connection and continuity, not a proven line of invention.",
+    "article_payoff": "This creates a long-duration comparator for how a commercial miniature reference collection could become a research reference archive whose physical slide and paper Keys remained co-dependent."
+  },
+  "challenger_cabinet_market_lead": {
+    "source_type": "auction catalogue / provenance lead",
+    "auction": "Flints Auctions, The Fine Collectors Sale, 9 October 2024, Lot 249",
+    "url": "https://www.flintsauctions.com/auction/lot/lot-249---an-important-microscope-slide-cabinet-of-hms-challenger-soundings-owned-by-charles-elcock/?lot=34175&sd=1",
+    "reported_contents": [
+      "Mahogany cabinet, c.1880, with an Elcock-family label inside the door.",
+      "Top drawer with slides, including examples attributed to Elcock and one described as from the HMS Challenger Expedition.",
+      "Bottom drawer with hand-blown bottles/vials of Challenger soundings labelled with dates, depths and locations that the auctioneer says correspond to Wyville Thomson's 1878 charts.",
+      "Eight drawers of blank diatom slides and mounting equipment."
+    ],
+    "sale_result": "£3,375 including buyer's premium",
+    "research_value": "If provenance and labels hold, this is a second surviving workshop/supply cabinet that joins expedition sediment, raw soundings, blank slides, mounting apparatus and finished preparations. It would make the transformation from Challenger material into microscopic slide objects directly visible.",
+    "guard": "Auction description is not yet institutional verification. Do not merge this cabinet with Wh.6601, do not infer that all bottles/slides were used or prepared by Elcock, and do not treat the auctioneer's chart match as independently verified until labels are transcribed against Challenger documentation.",
+    "next": [
+      "Save/download the auction's high-resolution images and transcribe every bottle/slide label.",
+      "Compare sounding dates/depths/localities against Challenger station tables or Wyville Thomson 1878.",
+      "Search Elcock correspondence/periodical notes for Challenger, Wyville Thomson, Murray, Brady, soundings and deep-sea Foraminifera.",
+      "If necessary, ask Flints whether they can forward a research request for additional label images; purchaser identity is not required."
+    ]
+  },
+  "collector_network_lead": {
+    "source_type": "auction catalogue",
+    "source": "Charles Miller Ltd, 2020/2021 sales of the personal microscope-slide collection of Fred Enock",
+    "reported_fact": "Alongside approximately 136 Enock preparations, the descended collection contained about 162 slides by other makers, including Charles Elcock, Norman, Topping and Watson.",
+    "research_value": "Shows at minimum that maker-labelled slides could accumulate in another professional preparer's personal collection, opening a secondary collector/professional network route.",
+    "guard": "The sale does not establish when or how Enock acquired the Elcock slides."
+  },
+  "revised_first_order_argument": "Elcock's Type Slide was not simply a densely mounted specimen. It was a retrieval technology: taxonomy was miniaturized into a spatially indexed field, reinforced by paper lists/keys, sold as a recognizable product, displayed publicly, demanded on the secondary market, and later absorbed into larger reference collections. The historical problem is therefore how classification was made materially searchable on and around a piece of glass.",
+  "comparison_to_cole": {
+    "Cole": "issue number synchronizes one distributed preparation with print and plate across serial time",
+    "Elcock": "Type Slide number/category plus internal matrix organizes many named forms across one spatial field",
+    "Heron_Allen_Earland": "TS number plus numbered internal fields, loose-leaf Keys and card index turns many faunal-association slides into a cumulative reference archive",
+    "shared_problem": "how to make variable microscopic material repeatedly findable and comparable"
+  },
+  "priority_actions": [
+    "Directly verify the 1882 review/page in BHL.",
+    "Acquire Whipple images for 6601.10, 6601.11 and drawers 9–12.",
+    "Capture St Andrews images of the six Ostracoda Type Slides.",
+    "Transcribe Flints Challenger-cabinet labels before making any provenance claim.",
+    "Search Heron-Allen/Earland correspondence or memoirs for explicit references to Elcock's Type Slides."
+  ]
+}
