@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0-slide-archive-survival-asymmetry",
+  "generated": "2026-08-10",
+  "title": "Object survives, relation disappears: asymmetrical survival in microscope-slide archives",
+  "research_problem": "Survival is usually treated as a binary property of the object. The source survey shows that physical slides, instruments, labels, indexes, transaction records, working papers, publication crosswalks and original collection order survive independently. A slide may survive while the relation that once made it intelligible does not, and the reverse is also possible.",
+  "working_claim": "The historical recoverability of a microscope preparation depends on at least three independent survivals: the object, the documentary apparatus, and the crosswalk connecting them. Collection history is therefore partly a history of relation survival, not simply object preservation.",
+  "variables": [
+    "physical_object_survival",
+    "label_survival",
+    "original_order_survival",
+    "working_papers_survival",
+    "catalogue_or_index_survival",
+    "transaction_record_survival",
+    "instrument_or_tool_survival",
+    "publication_survival",
+    "crosswalk_survival",
+    "later_recataloguing_quality"
+  ],
+  "cases": [
+    {
+      "case": "Cole — Studies in Microscopical Science",
+      "survival_pattern": {
+        "physical_slides": "strong for at least one near-complete private set; institutional examples unresolved",
+        "print": "strong",
+        "original_publication_crosswalk": "recoverable from numbering and contemporary descriptions but vulnerable after cabinet/library separation",
+        "institutional_order": "Quekett/Oxford evidence pending",
+        "transaction_records": "partial"
+      },
+      "lesson": "The book can survive perfectly while the glass component becomes bibliographically invisible. Object and print survival do not guarantee survival of the relation that made them one publication."
+    },
+    {
+      "case": "Cajal Legacy",
+      "survival_pattern": {
+        "physical_slides": "strong",
+        "labels": "strong",
+        "original_cabinet_addresses": "preserved in catalogue metadata",
+        "successive_inventory_numbers": "preserved",
+        "modern_archival_address": "preserved",
+        "digital_crosswalk": "strong"
+      },
+      "lesson": "Later cataloguing can preserve obsolete addresses rather than overwrite them. This is a positive-control case for relation survival."
+    },
+    {
+      "case": "Henry J. Grayson — Melbourne",
+      "survival_pattern": {
+        "instrument": "ruling engine survives",
+        "photographs": "survive",
+        "published work": "survives",
+        "research_notebooks_and_papers": "reported destroyed shortly after death",
+        "later_user_archive": "William Stone route survives"
+      },
+      "lesson": "Instrument survival can coexist with loss of the maker's operational paper trail. Downstream archives can document later use without restoring the missing maker-level chain."
+    },
+    {
+      "case": "Henri Van Heurck estate",
+      "survival_pattern": {
+        "books": "survive in one institutional route",
+        "botanical_and_diatom_material": "survive in another",
+        "microscopes_and_scientific_instruments": "survive elsewhere",
+        "integrated_private_collection_order": "largely broken by disciplinary redistribution",
+        "transfer_history": "partly reconstructable"
+      },
+      "lesson": "All major components can survive while the original working collection ceases to exist as a retrievable whole. Preservation by specialization can produce relational loss."
+    },
+    {
+      "case": "Pacini — Florence",
+      "survival_pattern": {
+        "slides": "strong",
+        "labels": "rich experimental/publication/remounting information survives on object",
+        "manuscripts": "survive separately at BNCF",
+        "historical_manuscript_catalogue": "survives",
+        "cross_institution_object_manuscript_crosswalk": "to be reconstructed"
+      },
+      "lesson": "The object label can carry enough documentary information to bridge institutional separation after a scientist's papers and preparations diverge."
+    },
+    {
+      "case": "Harvard Embryological Collection",
+      "survival_pattern": {
+        "serial_sections": "strong",
+        "original_card_catalogue": "strong and digitised",
+        "line_drawings": "strong and linked",
+        "historical_numbers": "preserved alongside current numbers",
+        "publication_citations": "object-level links possible",
+        "scientist_papers": "separate but accessible"
+      },
+      "lesson": "A maintained crosswalk allows a collection to change storage, institution and database without severing the series from its documentary apparatus."
+    },
+    {
+      "case": "Whipple Pritchard mixed cabinet",
+      "survival_pattern": {
+        "cabinet": "survives",
+        "commercial_labels": "survive on some mounts",
+        "homemade_slides": "survive",
+        "broken_slides_and_slide_papers": "survive",
+        "original_owner/history": "limited compared with material survival"
+      },
+      "lesson": "Material residues can preserve cabinet ecology even when provenance is weak. Broken slides and loose papers should be treated as evidence of maintenance and use rather than discarded as noise."
+    }
+  ],
+  "survival_types": [
+    {"type": "object-rich / paper-poor", "examples": ["Grayson instrument survival", "some mixed private cabinets"], "research_strategy": "extract material traces, labels, repairs and later-use records; make the documentary gap explicit"},
+    {"type": "paper-rich / object-open", "examples": ["Tokyo Anatomy ledgers", "Coimbra 1873 catalogue"], "research_strategy": "reconstruct historical system from records while refusing to claim surviving object continuity without a physical match"},
+    {"type": "object-rich / crosswalk-rich", "examples": ["Cajal", "Harvard Embryological Collection", "Grunow potentially"], "research_strategy": "model identifier transitions and relation preservation at item level"},
+    {"type": "component-rich / integrated-order-poor", "examples": ["Van Heurck distributed estate", "Cole after institutional Library/Cabinet separation"], "research_strategy": "reconstruct the former relational system across present repositories"}
+  ],
+  "method_consequences": [
+    "Do not use 'survives' as a single field. Record what survives and at what relational level.",
+    "A later catalogue that preserves old numbers is historical evidence of deliberate relation maintenance.",
+    "A missing crosswalk is not merely a data deficiency; it may be the result of institutional reclassification, transfer, binding, reboxing or disciplinary division.",
+    "A destroyed archive should not be backfilled from later secondary reconstructions without marking the inferential distance.",
+    "Broken slides, remounting notes, replacement objects and empty cabinet slots can be evidence of use and maintenance.",
+    "Digital cataloguing is a new survival event: it can recombine formerly separated identifiers, but may also flatten historical namespaces if poorly designed."
+  ],
+  "derived_schema": ["entity_id", "component_type", "survival_state", "survival_date_or_assessment", "current_repository", "historical_repository", "historical_address", "current_address", "crosswalk_exists", "crosswalk_source", "relation_preserved", "relation_lost", "loss_or_transition_event", "evidence_grade", "notes"]
+}
