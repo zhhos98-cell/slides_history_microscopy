@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0-uk-us-object-to-corpus",
+  "generated": "2026-08-10",
+  "status": "PARKED_FOR_LATER_READING",
+  "purpose": "Use the surviving-object GitHub layer to decide which British, and only narrowly relevant American, historical sources deserve future ingestion into the main nineteenth-century microscopy corpus. This replaces broad geographic expansion as the active research direction.",
+  "scope": {
+    "core": "United Kingdom microscopy, especially nineteenth-century slide preparation, circulation, commerce, teaching, comparison, and material publication.",
+    "secondary": "United States only where British sources already cite, review, exchange, purchase, or otherwise connect to the American object/text system.",
+    "paused": "Further global slide-bibliography expansion for geographic completeness.",
+    "global_bibliography_state": "slide-locked-pass-17; 197 verified entries; no pass-18 merge.",
+    "frozen_object_survey_state": "307 discovery nodes / 155 strict nineteenth-century nodes; CLOSED_2026-08-09"
+  },
+  "working_model": {
+    "historical_corpus": "discursive/event layer: journals, catalogues, advertisements, correspondence, society proceedings, manuals and period texts",
+    "github_object_layer": "surviving-object reverse index: labels, series numbers, cabinet positions, collection catalogues, accession systems, archival cards and present custody",
+    "ingestion_rule": "Add a source to the historical corpus only when the surviving-object layer changes the historical question or closes a high-value object-text relation. Modern museum pages remain metadata/evidence pointers rather than nineteenth-century corpus text."
+  },
+  "new_knowledge_from_crosswalk": [
+    {
+      "theme": "addressability",
+      "result": "Slides acquire successive addresses: glass geometry and finder coordinates, maker labels, series/catalogue numbers, cabinet positions, society inventories and later museum accessions. This makes retrieval and re-addressing a historical problem rather than a metadata nuisance."
+    },
+    {
+      "theme": "object-plus-text circulation",
+      "result": "Postal Microscopical Society circuits linked travelling slides to manuscript books, notes, drawings, damage liability, valuation, packing and postage. The circulating epistemic unit was larger than the slide alone."
+    },
+    {
+      "theme": "epistemic reuse of commercial slides",
+      "result": "Named Norman and Topping preparations were later used as reference/test objects for judging objectives. Commercial identity could stabilize an object enough for optical comparison after purchase."
+    },
+    {
+      "theme": "commercial-production chain",
+      "result": "Elcock now links field collection, washing/separation, mounting media, postal-society interpretation, standardized Foraminifera Type Slides, price, retailer network and surviving Whipple workshop material."
+    },
+    {
+      "theme": "material publication taxonomy",
+      "result": "Cole's synchronized preparation-plus-text serial, Elcock's commercial comparative Type Slide, ordinary catalogue offerings, replicated published sets and anatomical serial sections must remain analytically distinct. Numbering or circulation alone does not make a slide a publication."
+    }
+  ],
+  "future_corpus_ingestion_priorities": [
+    {
+      "rank": 1,
+      "target": "Arthur C. Cole, Studies in Microscopical Science, vols. I-II",
+      "region": "UK",
+      "status": "LOCAL_SOURCE_AVAILABLE",
+      "source_pointer": "studiesinmicrosc01cole_djvu.zip",
+      "why": "Current corpus is rich in notices and reviews of Cole but comparatively weak in Cole's own preparation-by-preparation text. Full ingestion can recover issue order, preparation methods, mounting materials, slide/coverslip standards and the synchronized relation among preparation, plate and letterpress.",
+      "special_question": "Preserve source-level attribution differences between A. C. Cole and Martin J. Cole rather than harmonizing preparator responsibility.",
+      "action_when_resumed": "Unpack both volumes, structure by issue/preparation, deduplicate against UK master corpora, ingest only genuinely new passages/records."
+    },
+    {
+      "rank": 2,
+      "target": "Microscopical News and Northern Microscopist, vol. IV (1884)",
+      "region": "UK",
+      "status": "VOLUME_INGESTION_TARGET",
+      "why": "The exact Charles Collins Jr. 'Fish Scales' notice is located at p. 109, but a full-volume pass is preferable because surrounding trade notices, mounting practice and local-society material may add more than the single known hit.",
+      "action_when_resumed": "Acquire/ingest the whole 1884 volume, not p.109 alone; deduplicate against existing Northern regional material."
+    },
+    {
+      "rank": 3,
+      "target": "H. L. Smith, Diatomacearum Species Typicae, Century III notice/article",
+      "region": "US connected through UK reception",
+      "status": "LOCATED_VOLUME_TEXT_PENDING",
+      "why": "The correct 1878 American Journal of Microscopy and Popular Science volume is located, while the UK corpus already preserves a detailed Century I bridge describing 100 slides, five pasteboard trays, numbered catalogue/labels, diamond-written numbers and exchanged material.",
+      "action_when_resumed": "Recover the Century III pages only; do not start a general US microscopy sweep."
+    },
+    {
+      "rank": 4,
+      "target": "Frederic Kitton, Norfolk Diatoms Series III-IV",
+      "region": "UK",
+      "status": "SOURCE_COMPLETION_TARGET",
+      "why": "Series I-II are already textually closed while surviving Farlow evidence shows the larger I-IV / nos. 1-100 system. III-IV prospectus/notices would complete the publication/distribution sequence efficiently.",
+      "action_when_resumed": "Search contemporary prospectuses, exchange columns and reviews for Series III-IV; preserve set number versus physical-copy count."
+    },
+    {
+      "rank": 5,
+      "target": "John Thomas Norman 1872 catalogue + St Andrews labels",
+      "region": "UK",
+      "status": "CATALOGUE_OBJECT_CROSSWALK_TARGET",
+      "why": "The 2,584-offering catalogue, surviving Norman-labelled slides, secondary exchange and later use of Norman preparations as objective-test objects can produce a catalogue commodity → surviving object → epistemic reuse chain.",
+      "action_when_resumed": "Transcribe catalogue rows and St Andrews labels, then search the UK corpus by exact subject/maker wording."
+    },
+    {
+      "rank": 6,
+      "target": "Andrew Pritchard 1837 preparation catalogue + Whipple cabinet",
+      "region": "UK",
+      "status": "EARLY_COMMERCIAL_SYSTEM_TARGET",
+      "why": "Later UK reporting already preserves prices/categories for transparent, opaque, dozen and fossil-wood preparations; the Whipple cabinet retains Pritchard-labelled commercial mounts alongside homemade and broken slides.",
+      "action_when_resumed": "Locate the original 1837 catalogue, then compare advertised categories with surviving labels, case/tray architecture and later cabinet reuse."
+    }
+  ],
+  "object_metadata_only_targets": [
+    {
+      "target": "Whipple Charles Elcock archive",
+      "use": "labels, raw packets, tools, mounting media, unfinished material and finished slides as reverse-index evidence; do not ingest museum prose into the historical corpus"
+    },
+    {
+      "target": "Oxford History of Science Museum / RMS cabinet and archive",
+      "use": "close already itemized journal receipt/exhibition events to old society indexes and surviving slide identifiers"
+    },
+    {
+      "target": "Quekett Microscopical Club slide cabinets",
+      "use": "search Cole and other already-known publication/product names in label/cabinet data before requesting new digitization"
+    },
+    {
+      "target": "Farlow historical slide sets",
+      "use": "replicate/set-number evidence and item addresses; historical American text only where it intersects UK reception/exchange"
+    },
+    {
+      "target": "Harvard Embryological Collection / Minot",
+      "use": "cards, series/section positions and technical crosswalk as a narrow US comparator, not a new US corpus"
+    },
+    {
+      "target": "Bailey / Boston Society of Natural History",
+      "use": "follow the already-present 1857 British bequest notice only if accession/catalogue evidence for the collection survives"
+    },
+    {
+      "target": "Oscar W. Richards Collection, Smithsonian NMAH",
+      "use": "reverse bibliography for trade literature, advertisements and company history; do not ingest the retrospective archive wholesale"
+    }
+  ],
+  "stop_rules": [
+    "Do not continue global bibliography expansion for coverage alone.",
+    "Do not treat modern museum collection descriptions as nineteenth-century corpus text.",
+    "Do not start broad US microscopy harvesting; follow only UK-linked American actors/series.",
+    "Do not open new medium domains such as geological thin sections without a separate scope decision.",
+    "Do not spend substantial time on source acquisition until the project is actively resumed for reading/writing."
+  ],
+  "resume_trigger": "When the microscopy project becomes an active reading/writing priority, begin with Cole rather than with further discovery."
+}
