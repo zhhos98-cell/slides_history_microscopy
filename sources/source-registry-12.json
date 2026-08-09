@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Microscope Slides in Motion — source and archive registry supplement 12",
+  "records": [
+    {
+      "id": "GB-STANDREWS-ELCOCK-DWT-LETTERS",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "St Andrews",
+      "institution": "University of St Andrews Libraries and Museums — Special Collections",
+      "collection": "D'Arcy Wentworth Thompson papers: Charles Elcock correspondence, ms21974-ms21975",
+      "type": "scientist correspondence + Challenger-sample reference",
+      "relation": "direct",
+      "date_scope": "6–8 March 1884",
+      "holdings": "Two autograph letters from Charles Elcock in Belfast to D'Arcy Wentworth Thompson, with one rubbing. The catalogue describes discussion of Irish natural-history specimens and explicitly notes references to Challenger expedition samples.",
+      "research_use": "A high-priority documentary bridge between Elcock and expedition-derived microscopic material. Full transcription may identify the source, nature, station/locality or intended use of Challenger samples and can be checked against the Whipple Elcock slides and the official NHM Challenger dataset.",
+      "access": "Item-level archive record online; manuscript consultation and reproduction through St Andrews Special Collections.",
+      "url": "https://collections.st-andrews.ac.uk/item/darcy-wentworth-thompson-letters/2055455",
+      "tags": ["Elcock", "D'Arcy Thompson", "Challenger", "correspondence", "Belfast", "St Andrews", "samples"]
+    },
+    {
+      "id": "GB-PRIVATE-ELCOCK-FORUM-2020",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "private-market route",
+      "institution": "Forum Auctions — former Elcock family archive lot",
+      "collection": "Charles Elcock / Charles Ernest Elcock archive sold as Lot 67 in 2020",
+      "type": "auctioned scientific/family archive + slides + samples + manuscript notes",
+      "relation": "contextual",
+      "date_scope": "nineteenth-century Charles Elcock material mixed with later family papers; sold 2020",
+      "holdings": "The 2020 auction description records marine and sand samples, glass slides, manuscript notes and drawings, an offprint of Elcock's rare-Foraminifera paper with associated working material, photographs, rubbings, and later family correspondence/manuscripts. The lot sold for a £1,500 hammer price; current custody is not public in the catalogue.",
+      "research_use": "Evidence that Elcock-related working and family material continued to circulate through the private market after part of his personal archive entered the Whipple. Useful for reconstructing posthumous archival dispersal and for locating lost documentary crosswalks if the present holder ever becomes reachable.",
+      "access": "Auction catalogue publicly available; present private custody unresolved.",
+      "url": "https://www.forumauctions.co.uk/71097/Microscope-Slide-Maker.-Elcock-Charles-naturalist-museum-curator-and-professional-microscope-slide-maker-amp-Charles-Ernest-Elcock-architect-of-hospitals-Archive-including-58-collection-of-marin?auction_no=1064&view=lot_detail",
+      "tags": ["Elcock", "private archive", "auction", "slides", "samples", "manuscripts", "archive dispersal"]
+    },
+    {
+      "id": "GB-PRIVATE-ELCOCK-CHALLENGER-FLINTS-2024",
+      "region": "United Kingdom & Ireland",
+      "country": "United Kingdom",
+      "city": "private-market route",
+      "institution": "Flints Auctions — former Elcock cabinet",
+      "collection": "Microscope-slide cabinet with material described as H.M.S. Challenger soundings, Lot 249 (2024)",
+      "type": "auctioned workshop cabinet + historical samples + slides + mounting equipment",
+      "relation": "contextual",
+      "date_scope": "cabinet described c.1880; sold 2024",
+      "holdings": "The auction catalogue describes a mahogany cabinet carrying an Elcock-family label, finished microscope slides, one slide identified as Challenger material, hand-blown bottles/vials of soundings labelled with dates, depths and localities, and eight drawers of blank diatom slides and mounting equipment. It sold for £3,375 including buyer's premium.",
+      "research_use": "A potentially exceptional raw-material→slide workshop chain, but the claimed Challenger identities require independent verification. High-resolution label transcription can be tested against the Natural History Museum's official Challenger station/sediment dataset rather than relying on the auction narrative.",
+      "access": "Auction catalogue and images online; present purchaser/custody not public.",
+      "url": "https://www.flintsauctions.com/auction/lot/lot-249---an-important-microscope-slide-cabinet-of-hms-challenger-soundings-owned-by-charles-elcock/?lot=34175&sd=1",
+      "tags": ["Elcock", "Challenger", "soundings", "cabinet", "auction", "mounting", "provenance test"]
+    }
+  ]
+}
