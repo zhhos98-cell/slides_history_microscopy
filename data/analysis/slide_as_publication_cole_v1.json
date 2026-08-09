@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0.0-slide-as-publication-cole",
+  "created": "2026-08-09",
+  "research_question": "How did a microscope slide become part of a serial publication rather than merely an illustration or teaching aid?",
+  "case": "Arthur C. Cole, Studies in Microscopical Science",
+  "status": "primary-text ingested; Tempere-Peragallo comparator still pending",
+  "uploaded_source": {
+    "filename": "studiesinmicrosc01cole_djvu.zip",
+    "sha256": "e0a148d1dd6f165565788ded586d5258b28a627d990bf4ec08c5c2b1f40b2f3f",
+    "contents": [
+      {
+        "filename": "studiesinmicrosc01cole_djvu.txt",
+        "sha256": "8552ac9b9fd654c320b328b050bc60cb680be891eb39121f0291ac77ea3c9141",
+        "bytes": 1087751,
+        "role": "Volume I OCR"
+      },
+      {
+        "filename": "studiesinmicrosc02cole_djvu.txt",
+        "sha256": "e03c411d5f608b1f39cc917b9387f09e15484ea8d6bed24ddc0008e70b89d786",
+        "bytes": 685015,
+        "role": "Volume II OCR"
+      },
+      {
+        "filename": "mdp-39015065854914-1-1786270994.txt",
+        "sha256": "98e19dc7b3572e5b5a27d9716fea372bef432d5170cbdea1ebe7f866219abe92",
+        "bytes": 1657,
+        "role": "HathiTrust metadata shell"
+      }
+    ]
+  },
+  "primary_evidence": [
+    {
+      "evidence_id": "COLE-V1-POSTAL-DAMAGE",
+      "source": "studiesinmicrosc01cole_djvu.txt",
+      "local_lines": "2077-2083",
+      "printed_context": "Answers to Correspondents, immediately before p. 28 review material",
+      "quote": "The Editor acknowledges the receipt of one or two complaints that the journal was delivered in a crushed condition, having been doubled up so as to permit of being pushed into letter boxes. He would be glad if subscribers would instruct their postmen to deliver their parcels at the door, and not put them into the letter box.",
+      "supports": [
+        "the serial travelled as a physical parcel rather than as print alone",
+        "postal handling could damage the publication package",
+        "subscriber instructions were used to manage material risk"
+      ]
+    },
+    {
+      "evidence_id": "COLE-V1-WEEKLY-SUBSCRIBER-PACKAGE",
+      "source": "studiesinmicrosc01cole_djvu.txt",
+      "local_lines": "2097-2123",
+      "printed_page": 28,
+      "quote": "Cole intended the work to issue weekly; regular subscribers were to receive letterpress, a coloured lithograph, and a microscopical preparation for comparison and study.",
+      "supports": [
+        "weekly serial cadence",
+        "subscriber model",
+        "co-distribution of printed description, image and physical preparation",
+        "comparison and study as the stated use of the physical preparation"
+      ]
+    },
+    {
+      "evidence_id": "COLE-V1-PUBLICATION-UNIT",
+      "source": "studiesinmicrosc01cole_djvu.txt",
+      "local_lines": "2126-2139",
+      "printed_page": 28,
+      "quote": "The Studies were described as a series of papers issued weekly, each consisting of descriptive letterpress, an illustration, and at the same time a prepared section of the same object, cut and mounted by Cole.",
+      "supports": [
+        "the slide was specified as part of each serial issue",
+        "object, image and text referred to the same specimen type",
+        "the prepared section was distributed synchronously with the paper"
+      ]
+    },
+    {
+      "evidence_id": "COLE-V2-PRODUCTION-LABOUR",
+      "source": "studiesinmicrosc02cole_djvu.txt",
+      "local_lines": "127-156",
+      "year": 1884,
+      "quote": "Cole's preface credits Edward T. Draper for drawings from the preparations and states that the preparations were made by Cole and his son Martin J. Cole, Instructor in Practical Microscopy at the Birkbeck Institution.",
+      "supports": [
+        "publication depended on distributed specialist labour",
+        "drawing was made from preparations rather than functioning as an independent image stream",
+        "the material production of slides was a named part of editorial production"
+      ]
+    },
+    {
+      "evidence_id": "COLE-V2-ISSUE-SLIDE-INTERNAL-REFERENCE",
+      "source": "studiesinmicrosc02cole_djvu.txt",
+      "local_lines": "972-977",
+      "quote": "The preparation which accompanies this number has been stained according to the method...",
+      "supports": [
+        "the text internally addresses the physical preparation as an issue-bound companion",
+        "the preparation is used to connect reading with method and observation"
+      ]
+    }
+  ],
+  "corpus_crosswalk": [
+    {
+      "record_id": "R26862",
+      "source": "Journal of the Royal Microscopical Society",
+      "year": 1882,
+      "page": 534,
+      "evidence": "Advertisement calls Studies in Microscopical Science a weekly periodical for students, teachers, professors and the medical profession, and says each number is illustrated and accompanied by a microscopical preparation.",
+      "function": "contemporary prospectus / commercial definition of the publication unit"
+    },
+    {
+      "record_id": "R48705",
+      "source": "microscopy club/popular corpus review",
+      "year": 1883,
+      "page": 62,
+      "evidence": "Review states that Volume I had fifty-three lithographic plates, was delivered alternately to weekly subscribers, and that slides accompanied the studies and were prepared and mounted by Cole.",
+      "function": "retrospective confirmation of weekly delivery and slide-text pairing"
+    },
+    {
+      "source": "Journal of the Royal Microscopical Society / 1883 advertisement",
+      "page": 592,
+      "evidence": "The restructured second phase offered separate Animal Histology and Botanical Histology sections in monthly numbers at annual subscriptions of one guinea each; Popular Microscopy also ran monthly, with each number containing a preparation, lithograph and descriptive letterpress.",
+      "function": "evidence that the publication model was reorganised from weekly seriality into sectional monthly subscriptions"
+    },
+    {
+      "record_id": "R49265",
+      "source": "club/popular periodical advertisement",
+      "year": 1885,
+      "evidence": "Volume III advertising says slides could already be bought in profusion but a guide to their intelligent examination had been lacking; the work continued in four sections and was sold through prospectus/subscription channels.",
+      "function": "explicit statement of the problem the slide-text publication claimed to solve"
+    },
+    {
+      "source": "Microscopical News",
+      "year": 1883,
+      "evidence": "A notice reports that the Studies had resumed and that No. 4 contained a dissertation on cell theory illustrated with two plates.",
+      "function": "evidence of interruption/resumption and serial-number circulation"
+    },
+    {
+      "source": "Belfast Naturalists' Field Club proceedings",
+      "year_context": "1884-1885",
+      "evidence": "A member exhibited Studies in Microscopical Science at a club meeting alongside microscopic drawings and preparations.",
+      "function": "evidence that the serial circulated onward into collective display and club use"
+    }
+  ],
+  "publication_architecture": {
+    "phase_1": {
+      "date": "1882-1883",
+      "cadence": "weekly",
+      "unit": [
+        "descriptive letterpress",
+        "coloured/lithographic plate",
+        "prepared microscope slide/section"
+      ],
+      "delivery": "subscriber parcel/post",
+      "risk": "crushing/folding during letter-box delivery",
+      "use": "comparison, study and intelligent examination"
+    },
+    "phase_2": {
+      "date": "1883-1884 onward",
+      "cadence": "monthly by section",
+      "sections": [
+        "Animal Histology",
+        "Botanical Histology",
+        "Popular Microscopy"
+      ],
+      "price": "£1 1s annual subscription per advertised section in 1883",
+      "unit": [
+        "preparation",
+        "lithograph",
+        "descriptive letterpress and methods"
+      ],
+      "interpretive_note": "The commercial/editorial architecture changed while the object-text coupling remained stable."
+    }
+  },
+  "first_order_claims": [
+    {
+      "claim": "The slide was a serial publication component.",
+      "grade": "S",
+      "reason": "Primary text, advertisements and contemporary reviews all define each issue through the co-presence of text, image and prepared slide."
+    },
+    {
+      "claim": "Postal infrastructure materially shaped the publication.",
+      "grade": "S",
+      "reason": "Cole records subscriber complaints about crushed issues and instructs postmen to deliver parcels at the door rather than fold them into letter boxes."
+    },
+    {
+      "claim": "The publication sold interpretation together with objects, not objects alone.",
+      "grade": "S",
+      "reason": "Contemporary advertising and reviews explicitly contrast the profusion of purchasable slides with the lack of guidance for intelligent examination."
+    },
+    {
+      "claim": "Serial form was adjustable without dissolving the slide-text relation.",
+      "grade": "A+",
+      "reason": "The work moved from weekly issues to monthly sectional subscriptions while retaining preparation + image + letterpress as its recurrent unit."
+    }
+  ],
+  "research_payoff": {
+    "stronger_than_generic_slide_circulation": "Cole shows a slide being formatted as an issue-bound publication object with cadence, subscription, editorial labour, postal risk, accompanying text and image, and later sectional reorganisation.",
+    "article_hook": "A serial publication could be physically incomplete if its slide was damaged or detached even when the printed pages survived.",
+    "comparison_targets": [
+      "Tempere-Peragallo numbered diatom series",
+      "Thomas Bolton living-organism subscription bottles",
+      "commercial slide catalogues and boxed student sets",
+      "Postal Microscopical Society circulation systems"
+    ]
+  },
+  "next_extraction": [
+    "reconstruct Volume I issue/preparation sequence and identify whether all 52/53 numbers can be paired to named preparations",
+    "extract all phrases of the form 'accompanies this number', 'sent with this number', 'issued herewith', and explicit preparation numbers from Volumes I-II",
+    "map changes in cadence, subscription price, publisher/distributor and section structure",
+    "cross-search Cole, Martin J. Cole, St. Domingo House and issue titles in BNA and local society records",
+    "add Tempere-Peragallo as a numbered-series comparator when the downloaded source is available"
+  ],
+  "guards": [
+    "Do not infer that every bound surviving volume originally retains its distributed slides; the OCR proves the publication plan and textual references, not survival of each physical preparation in the scanned copy.",
+    "Do not collapse weekly Volume I and later monthly sectional arrangements into one unchanged subscription format.",
+    "Do not equate a slide accompanying an issue with a mere illustration: contemporary sources explicitly describe it as a preparation supplied to subscribers for comparison and study."
+  ]
+}
