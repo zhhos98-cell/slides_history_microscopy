@@ -6,11 +6,11 @@
   "targets": [
     {
       "rank": 1,
-      "target": "Charles Elcock — Whipple + St Andrews + Type Slide documentary lineage",
-      "status": "S+; commercial product, market reception and distributed survival already closed at series/form level",
-      "closed": "1885 Type Slide Nos. 1–2 advertisements and retailer network match Whipple drawers explicitly labelled TYPE SLIDE No. 1/2; 1885 display and wanted/exchange evidence show public recognition and secondary demand; St Andrews preserves six independent TYPE SLIDE / OSTRACODA examples; Whipple retains a manuscript sheet (6601.10) apparently listing specimens on slide/s; the later Heron-Allen/Earland Type Slide Collection includes some earliest slides marked Charles Elcock and preserves a key/index architecture.",
-      "next": "Verify the 1882 Postal Microscopical Society review directly in BHL; request high-resolution Whipple 6601.10, 6601.11, drawers 9–12 and representative Type Slides. Transcribe the 2024 Flints Challenger-cabinet labels before making provenance claims and test them against the official NHM Challenger dataset.",
-      "payoff": "Collection/preparation method → spatial taxonomic matrix → printed/list key → retail product → display/secondary demand → workshop reference archive → distributed reference-collection afterlife."
+      "target": "Charles Elcock — Whipple + St Andrews correspondence/slides + Challenger/Type Slide lineage",
+      "status": "S+; commercial product, expedition-material bridge, market reception and distributed survival all documented at series/collection level",
+      "closed": "Type Slide advertisements/retailers match Whipple TYPE SLIDE No.1/2 drawers; contemporary display and wanted/exchange evidence show public recognition and secondary demand; St Andrews preserves six independent TYPE SLIDE / OSTRACODA examples; Whipple retains a manuscript specimen-list sheet; Heron-Allen/Earland's later Type Slide archive includes some earliest slides marked Charles Elcock. Crucially, St Andrews ms21974-ms21975 are two Elcock letters dated 6–8 March 1884 whose catalogue explicitly notes references to Challenger expedition samples, while Whipple independently preserves Challenger-derived material among Elcock's slides and the 1910 Belfast obituary says Challenger samples were forwarded to him for examination.",
+      "next": "Request St Andrews ms21974-ms21975 first: they are now the cheapest direct route into who sent Elcock Challenger material and why. In parallel verify the 1882 Type Slide review in BHL and request Whipple 6601.10/6601.11 + drawers 9–12. Only after that transcribe/test the 2024 Flints Challenger cabinet against NHM station data.",
+      "payoff": "Expedition sample → correspondence → workshop preparation → spatial taxonomic/key system → commercial product → public/secondary market → retained workshop archive → posthumous dispersal."
     },
     {
       "rank": 2,
@@ -56,9 +56,9 @@
       "rank": 7,
       "target": "Stazione Zoologica Anton Dohrn + St Andrews surviving Naples slides",
       "status": "S; catalogue/shipment bridge plus surviving external collection",
-      "closed": "Nine of the twelve June 1880 RMS slides strongly match numbered Naples catalogue offerings. St Andrews independently preserves a named Stazione Zoologica slide group and identifies Fritz Meyer as a major preparer of surviving examples.",
-      "next": "Search 1879–1881 preparation-department accounts/copybooks/A. W. Waters correspondence; transcribe St Andrews Naples labels and test apparent numerical inscriptions against catalogue numbers without assuming identity.",
-      "payoff": "Catalogue → internal order/dispatch → British shipment/use → independently surviving institutional slides."
+      "closed": "Nine of the twelve June 1880 RMS slides strongly match numbered Naples catalogue offerings. St Andrews independently preserves a named Stazione Zoologica slide group and identifies Fritz Meyer as a major preparer of surviving examples. Delphinus phocaena BPM/1/T8/6 carries manuscript 'Panis 383'; number 383 is structurally plausible inside the derived Mammalia catalogue band, but the catalogue row has not yet been verified.",
+      "next": "Inspect catalogue row 383 before broadening the Naples search. Then search 1879–1881 preparation-department accounts/copybooks/A. W. Waters correspondence and transcribe St Andrews labels systematically.",
+      "payoff": "Catalogue → internal order/dispatch → British shipment/use → independently surviving institutional slides, with a possible first object-level catalogue-number closure."
     },
     {
       "rank": 8,
@@ -100,7 +100,9 @@
     }
   ],
   "method_files": [
+    "data/analysis/retrievability_cross_media_infrastructure_v1.json",
     "data/analysis/challenger_station_preparations_address_chain_v1.json",
+    "data/analysis/elcock_archive_dispersal_and_challenger_correspondence_v4.json",
     "data/analysis/elcock_type_slide_genealogy_and_challenger_v3.json",
     "data/analysis/trade_slide_attribution_layers_v1.json",
     "data/analysis/balfour_objective_publication_crosswalk_v1.json",
