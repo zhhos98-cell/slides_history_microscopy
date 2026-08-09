@@ -10,6 +10,6 @@
 - `BNA_EVENT_CLUSTERS_COMPACT_V5_01.json` … `_05.json` — complete event-cluster table.
 - `BNA_NEWSPAPER_YIELD_COMPACT_V5_01.json` … `_05.json` — complete newspaper-yield table.
 - `RESEARCH_OUTPUTS_V4.json` — 22 current research outputs.
-- `PUBLICATION_CHECK_2026-08-09.json` — compact publication count check for the earlier v4 pass; v5 extends its derived BNA coverage without changing the frozen object census.
+- `PUBLICATION_CHECK_V5_2026-08-09.json` — complete compact-publication count check.
 
 Large page/article/full-text payloads remain in the seven canonical masters and are fingerprinted by the manifest.
