@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0.0",
+  "research_object": "Nineteenth-century commercial microscope-slide catalogues as transaction systems",
+  "created": "2026-08-09",
+  "scope": "Catalogue-level and circulation-level structure only. No catalogue row is inferred unless the underlying list has been inspected.",
+  "source_basis": {
+    "bibliography_files": [
+      "bibliography/bibliography-07.csv",
+      "bibliography/bibliography-08.csv"
+    ],
+    "corpus_files_checked": [
+      "01A_UK_Microscopy_Core_Early_Central_1844-1877.json",
+      "01B_UK_Microscopy_Core_Professional_1869-1886.json",
+      "01C_UK_Microscopy_Core_Clubs_Popular_Local_1865-1886.json",
+      "02A_UK_Microscopy_Extensions_1847-1867.json",
+      "02B_UK_Microscopy_Extensions_1868-1875.json",
+      "02C_UK_Microscopy_Extensions_1876-1883_and_Special_OCR.json",
+      "03_UK_Microscopy_BNA_MASTER.json"
+    ]
+  },
+  "catalogue_sources": [
+    {
+      "catalogue_id": "CAT-AMADIO-1858-1864",
+      "maker_or_firm": "J. Amadio",
+      "dates": [1858, 1864],
+      "country": "Britain",
+      "source_status": "catalogues reported and reproduced in later Topping research; full row extraction pending",
+      "bibliography_anchor": "lit_lynk_topping_2018",
+      "known_catalogue_features": [
+        "numbered retail lists can be cross-read with surviving preparations",
+        "maker and retailer evidence is usable for attribution"
+      ],
+      "fulltext_or_images_needed": true,
+      "priority": "S"
+    },
+    {
+      "catalogue_id": "CAT-BOURGOGNE-1862",
+      "maker_or_firm": "Joseph Bourgogne",
+      "date": 1862,
+      "place": "Paris",
+      "country": "France",
+      "title": "Prix Courant des Préparations Microscopiques",
+      "bibliography_anchor": "src_bourgogne_1862",
+      "known_catalogue_features": [
+        "mounted microscope preparations",
+        "differentiated quality grades",
+        "multiple slide formats",
+        "pricing"
+      ],
+      "row_count": null,
+      "fulltext_or_images_needed": true,
+      "priority": "S"
+    },
+    {
+      "catalogue_id": "CAT-MOLLER-1868",
+      "maker_or_firm": "J. D. Möller",
+      "date": 1868,
+      "place": "Berlin",
+      "country": "Germany",
+      "title": "Preis-Verzeichniss Mikroskopischer Präparate: Utensilien und Materialien zur Anfertigung derselben",
+      "pages": 31,
+      "bibliography_anchor": "src_moller_1868",
+      "known_catalogue_features": [
+        "microscopic preparations",
+        "tools and materials for making preparations",
+        "price-list format"
+      ],
+      "fulltext_or_images_needed": true,
+      "priority": "A"
+    },
+    {
+      "catalogue_id": "CAT-NORMAN-1872",
+      "maker_or_firm": "John Thomas Norman",
+      "date": 1872,
+      "country": "Britain",
+      "title": "A Classified List of First-Class Microscopic Objects, with Many Unique, Rare & Interesting Specimens",
+      "bibliography_anchor": "src_norman_1872",
+      "known_catalogue_features": [
+        "2,584 mounted objects listed for sale",
+        "classified commercial list"
+      ],
+      "listed_object_count": 2584,
+      "fulltext_or_images_needed": true,
+      "priority": "S"
+    },
+    {
+      "catalogue_id": "CAT-WHEELER-1880",
+      "maker_or_firm": "Edmund Wheeler",
+      "date": 1880,
+      "country": "Britain",
+      "title": "A Classified List of First-Class Microscopic Objects, with Many New, Rare and Interesting Specimens",
+      "edition": "8th",
+      "pages": 32,
+      "bibliography_anchor": "src_wheeler_1880",
+      "known_catalogue_features": [
+        "priced list",
+        "microscopic objects manufactured by Wheeler",
+        "commercial address: 48 Tollington Road, Holloway"
+      ],
+      "fulltext_or_images_needed": true,
+      "priority": "S"
+    },
+    {
+      "catalogue_id": "CAT-WATSON-1885",
+      "maker_or_firm": "W. Watson & Sons",
+      "date": 1885,
+      "country": "Britain",
+      "title": "A Classified List of First-Class Microscopic Objects Affording Instructive Illustrations in Anatomy, Physiology, Botany, Entomology, Geology & Mineralogy",
+      "pages": 39,
+      "bibliography_anchor": "src_watson_1885",
+      "known_catalogue_features": [
+        "prepared microscopic objects",
+        "subject categories tied to teaching markets"
+      ],
+      "fulltext_or_images_needed": true,
+      "priority": "S"
+    }
+  ],
+  "bna_crosswalk_events": [
+    {
+      "event_id": "BNA-AMADIO-1860-OBJECT-PRICES",
+      "date": "1860-10-31",
+      "record_id": "BNA-d8eac2cdfa62b5ea",
+      "newspaper": "Cheltenham Examiner",
+      "place": "Cheltenham, Gloucestershire, England",
+      "actor": "J. Amadio",
+      "event_type": "retail_price_advertisement",
+      "evidence": "Microscopic objects advertised at three price bands per dozen; OCR reads 6s., 12s. and 18s. per dozen.",
+      "guard": "The OCR should be checked against the page image before treating every price character as final."
+    },
+    {
+      "event_id": "BNA-AMADIO-1860-STUDENT-BOX",
+      "date": "1860-03-09",
+      "record_id": "BNA-cd0e57081087169d",
+      "newspaper": "The Scotsman",
+      "place": "Edinburgh, Midlothian, Scotland",
+      "actor": "J. Amadio",
+      "event_type": "boxed_set_advertisement",
+      "quantity": 72,
+      "quantity_unit": "specimens",
+      "packaging": "polished mahogany box with racks, brass lock and key",
+      "intended_user": "student",
+      "evidence": "The advertisement describes six dozen specimens produced under Amadio's immediate superintendence."
+    },
+    {
+      "event_id": "BNA-AMADIO-1867-STUDENT-BOX-PRICE",
+      "date": "1867-04-13",
+      "record_id": "BNA-d8699fed1f4acbed",
+      "newspaper": "Commercial Journal",
+      "place": "Dublin, Ireland",
+      "actor": "J. Amadio",
+      "event_type": "boxed_set_price_advertisement",
+      "price_raw": "£4 18s 6d",
+      "packaging": "box fitted with racks, brass lock and key",
+      "intended_user": "student",
+      "evidence": "Direct BNA preview price for Amadio's Students' Box of Microscopic Preparations."
+    },
+    {
+      "event_id": "BNA-AMADIO-1867-CATALOGUE-BOOKS",
+      "date": "1867-08-24",
+      "record_id": "BNA-930a8e37ab1b9d85",
+      "newspaper": "Dublin Advertising Gazette",
+      "place": "Dublin, Ireland",
+      "actor": "J. Amadio",
+      "event_type": "retail_bundle_and_catalogue_advertisement",
+      "evidence": "Students' Box of Microscopic Preparations advertised alongside catalogue and books on using the microscope."
+    },
+    {
+      "event_id": "BNA-BOURGOGNE-1851-GREAT-EXHIBITION",
+      "date": "1851-10-18",
+      "record_id": "BNA-dfb7708d5cc07c5c",
+      "newspaper": "Illustrated London News",
+      "place": "London, England",
+      "actor": "J. Bourgogne",
+      "event_type": "international_exhibition_award_listing",
+      "evidence": "Great Exhibition jury list identifies Bourgogne of France with microscopic preparations."
+    },
+    {
+      "event_id": "BNA-BOURGOGNE-1865-SOCIETY-USE",
+      "date": "1865-05-11",
+      "record_id": "BNA-a8718e74f42aabec",
+      "newspaper": "Birmingham Daily Post",
+      "place": "Birmingham, Warwickshire, England",
+      "actor": "Bourgogne",
+      "event_type": "society_demonstration_use",
+      "evidence": "A local microscopy paper was illustrated by numerous preparations attributed to Bourgogne."
+    },
+    {
+      "event_id": "BNA-NORMAN-1862-INTERNATIONAL-EXHIBITION",
+      "date": "1862-06-20",
+      "record_id": "BNA-c104425f73dfb4c9",
+      "newspaper": "Illustrated Berwick Journal",
+      "place": "Berwick-upon-Tweed, England",
+      "actor": "John Thomas Norman",
+      "event_type": "international_exhibition_display",
+      "evidence": "Syndicated exhibition report describes Norman showing a large series of microscopic slides with sections and preparations across many kinds of objects."
+    },
+    {
+      "event_id": "BNA-NORMAN-1864-DIRECT-RETAIL",
+      "date": "1864-12-03",
+      "record_id": "BNA-e5049433b06e633a",
+      "newspaper": "The Queen",
+      "place": "London, England",
+      "actor": "J. T. Norman",
+      "event_type": "consumer_recommendation_and_address",
+      "address": "178 City Road, London, E.C.",
+      "evidence": "Reader advice recommends Norman for glass slides and other microscopy articles."
+    },
+    {
+      "event_id": "BNA-WHEELER-1866-MANUFACTURE",
+      "date": "1866-03-30",
+      "record_id": "BNA-267d9932ed16b590",
+      "newspaper": "Dover Express",
+      "place": "Dover, Kent, England",
+      "actor": "Edmund Wheeler",
+      "event_type": "manufacture_and_public_display",
+      "evidence": "Wheeler is described as devoting himself to microscope manufacture and preparation of microscopic objects; hundreds of his objects were lent for display."
+    },
+    {
+      "event_id": "BNA-WHEELER-1879-THOUSAND-PREPARATIONS",
+      "date": "1879-05-17",
+      "record_id": "BNA-fe59cc9b71951c1e",
+      "newspaper": "Leicester Chronicle",
+      "place": "Leicester, England",
+      "actor": "Edmund Wheeler",
+      "event_type": "scientific_society_exhibition",
+      "quantity": 1000,
+      "quantity_unit": "microscopic preparations",
+      "evidence": "Announcement states that Wheeler of London would exhibit one thousand microscopic preparations, 'no two alike'."
+    },
+    {
+      "event_id": "BNA-WATSON-1870-CATALOGUE-EXCHANGE",
+      "date": "1870-10-03",
+      "record_id": "BNA-e3d3ec3d6e84a6aa",
+      "newspaper": "London Evening Standard",
+      "place": "London, England",
+      "actor": "W. Watson and Son",
+      "event_type": "catalogue_advertisement_and_exchange",
+      "address": "313 Holborn, London",
+      "evidence": "Advertisement lists microscopes and slides, states purchases and exchanges, and offers a catalogue for three stamps.",
+      "guard": "This is evidence for an earlier Watson trade catalogue, but it should not be equated automatically with the 1885 dedicated slide catalogue."
+    },
+    {
+      "event_id": "BNA-WATSON-1886-SOCIETY-LOAN",
+      "date": "1886-03-27",
+      "record_id": "BNA-9ab0851fc826e70e",
+      "newspaper": "Chatham, Rochester and Brompton Observer",
+      "place": "Chatham, Kent, England",
+      "actor": "Watson & Son",
+      "event_type": "society_loan",
+      "evidence": "Microscopic slides lent by Watson & Son and C. Baker & Son for a Rochester Naturalists' Club entertainment."
+    },
+    {
+      "event_id": "BNA-WATSON-1887-SOIREE-DISPLAY",
+      "date": "1887-07-09",
+      "record_id": "BNA-5cf4d35a118a300d",
+      "newspaper": "Middlesex County Times",
+      "place": "London, England",
+      "actor": "Watson and Son",
+      "event_type": "public_soiree_display",
+      "evidence": "The firm showed microscopes and a series of soiree slides including diatoms and butterfly scales."
+    },
+    {
+      "event_id": "BNA-SECONDHAND-1886-MAKER-BUNDLE",
+      "date": "1886-11-25",
+      "record_id": "BNA-ebfac3f52b2948b0",
+      "newspaper": "Bradford Daily Telegraph",
+      "place": "Bradford, Yorkshire, England",
+      "event_type": "secondhand_resale",
+      "quantity_raw": "25 dozen microscopic slides",
+      "maker_names": [
+        "Enoch",
+        "Topping",
+        "Norman",
+        "Bourgogne"
+      ],
+      "evidence": "Second-hand microscope advertisement sells a large slide lot by named makers; a near-duplicate 27 November advertisement also includes Wheeler.",
+      "interpretive_value": "Maker names remain saleable provenance/value descriptors decades after initial production."
+    }
+  ],
+  "corpus_negatives_and_guards": [
+    {
+      "name": "J. D. Möller",
+      "result": "No direct BNA retail hit recovered in the current BNA master under Möller/Moller variants.",
+      "note": "Core periodical corpus contains many Möller probe/type-plate references; these should be separated from commercial prepared-slide catalogue evidence."
+    },
+    {
+      "name": "W. Watson & Sons",
+      "result": "BNA contains Watson trade and exhibition material, but not every Watson occurrence belongs to the firm.",
+      "note": "Require firm/address/context matching before promotion."
+    }
+  ],
+  "derived_circulation_modes": [
+    "priced individual or dozen lots",
+    "boxed student sets",
+    "classified catalogues",
+    "international exhibitions",
+    "scientific-society demonstrations",
+    "society loans",
+    "public soirées",
+    "purchases and exchanges",
+    "second-hand resale"
+  ],
+  "catalogue_row_extraction_schema": [
+    "catalogue_id",
+    "page",
+    "catalogue_number",
+    "subject_category_raw",
+    "specimen_or_object_raw",
+    "taxon_raw",
+    "preparation_type",
+    "maker_or_mounter",
+    "mounting_medium",
+    "slide_format",
+    "coverslip_or_cell_format",
+    "quality_grade",
+    "unit_price_raw",
+    "currency",
+    "quantity_basis",
+    "boxed_set_or_series",
+    "accessories_or_packaging",
+    "commercial_address",
+    "dealer_or_agent",
+    "postage_or_shipping_terms",
+    "intended_user_or_market",
+    "surviving_slide_crosswalk",
+    "BNA_crosswalk",
+    "notes"
+  ],
+  "research_payoff": {
+    "first_order_claim": "Commercial slide catalogues should be treated as one state in a longer transaction history, not as static inventories. The same makers and preparations move through priced retail, boxed pedagogy, exhibitions, society lending, exchange and second-hand resale.",
+    "strongest_current_case": "Amadio already supplies quantity, packaging, intended user and price in newspaper advertising; Norman, Bourgogne, Wheeler and Watson show complementary circulation modes that can be cross-read against their catalogues.",
+    "next_fulltext_order": [
+      "Amadio 1858/1864 catalogues",
+      "Bourgogne 1862",
+      "Norman 1872",
+      "Wheeler 1880",
+      "Watson 1885",
+      "Möller 1868"
+    ]
+  }
+}
