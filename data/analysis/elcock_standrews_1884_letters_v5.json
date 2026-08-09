@@ -1,0 +1,74 @@
+{
+  "schema_version": "5.0.0-elcock-st-andrews-letters",
+  "generated": "2026-08-10",
+  "title": "Charles Elcock to D'Arcy Thompson, 6–8 March 1884: exact archive locator and Challenger extraction target",
+  "builds_on": "data/analysis/elcock_archive_dispersal_and_challenger_correspondence_v4.json",
+  "status": "EXACT_ARCHIVE_LOCATOR_CLOSED__LETTER_CONTENT_NOT_YET_TRANSCRIBED",
+  "repository": {
+    "institution": "University of St Andrews Libraries and Museums",
+    "collection": "Papers of D'Arcy Wentworth Thompson",
+    "series": "Correspondence files",
+    "id": "ms21974-ms21975",
+    "url": "https://collections.st-andrews.ac.uk/item/darcy-wentworth-thompson-letters/2055455",
+    "date": "6 March - 8 March 1884",
+    "extent": "2 autograph letters signed, 3pp to 4pp, plus 1 rubbing image, 1p",
+    "sender": "Charles Elcock, Belfast",
+    "recipient": "D'Arcy Wentworth Thompson"
+  },
+  "catalogue_supported_content": {
+    "main_theme": "Archaeology/antiquarian study, especially authenticity of a medal allegedly found in a peat bog at Oughterard, County Kildare.",
+    "natural_history_component": "General discussion of Irish specimens, studies and developments.",
+    "explicit_named_reference": "Challenger expedition samples",
+    "other_named_reference": "Brien Boru",
+    "document_note": "The St Andrews catalogue identifies ms21974 as a rubbing image of the medal, 1p. The catalogue groups the two letters and rubbing under ms21974-ms21975; it does not expose a transcript of the Challenger passage in the indexed public description."
+  },
+  "what_is_now_secure": [
+    "Elcock personally corresponded with D'Arcy Thompson in March 1884.",
+    "The archive catalogue explicitly states that these letters refer to Challenger expedition samples.",
+    "The correspondence is contemporaneous with Elcock's active foraminiferal preparation work and predates the 1885 Type Slide advertising evidence already in the corpus.",
+    "This is a direct archival route into Elcock's Challenger relation rather than a later auction-family attribution."
+  ],
+  "what_is_not_yet_secure": [
+    "Who supplied the Challenger samples to Elcock.",
+    "Which Challenger stations, localities, depths or sample numbers were involved.",
+    "What type of material was sent.",
+    "Whether the samples were supplied for identification, mounting, comparison, sale, exchange or another purpose.",
+    "Whether any Challenger-derived material entered the commercial Type Slides.",
+    "Whether the material described in these letters can be identified with any Whipple, Flints or other surviving Elcock object."
+  ],
+  "image_transcription_request": {
+    "priority": "P0",
+    "request": "Page images or a transcription of ms21974-ms21975, preserving page order, versos, enclosures and any marginal annotations.",
+    "extract_verbatim_fields": [
+      "all Challenger-related wording",
+      "sender/source of samples",
+      "sample type",
+      "station/locality/depth/date/number",
+      "quantity or container",
+      "purpose of sending",
+      "identification or taxonomic names",
+      "preparation/mounting action",
+      "return/retention instructions",
+      "named intermediaries such as Murray or museum staff",
+      "references to labels, lists, parcels or prior correspondence"
+    ],
+    "guard": "Keep medal/rubbing discussion analytically separate from the natural-history passage unless the letters themselves connect them."
+  },
+  "related_independent_evidence": [
+    {
+      "source": "Whipple Museum Wh.6601",
+      "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15311/",
+      "relation": "Whipple states that Elcock's retained working/reference archive contains material from Challenger, Porcupine and Knight Errant surveys."
+    },
+    {
+      "source": "Belfast Municipal Art Gallery and Museum, Quarterly Notes, no. XVI, June 1910, obituary",
+      "relation": "Later institutional obituary states that Challenger Deep-Sea Dredging Expedition samples were forwarded to Elcock for examination; original text remains a separate verification target."
+    }
+  ],
+  "grading": {
+    "archive_locator": "S",
+    "challenger_relation_at_correspondence_level": "A+/S-candidate pending letter images",
+    "station_or_object_level_closure": "OPEN"
+  },
+  "research_payoff": "The question has narrowed from whether Elcock handled Challenger material to what exactly the March 1884 letters say about that handling. If the letters name source, station/sample or scientific purpose, the expedition-material bridge can move from catalogue-level relation to a first-order transaction/workflow chain."
+}
