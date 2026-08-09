@@ -1,0 +1,119 @@
+{
+  "schema_version": "2.0.0-challenger-diagnostic-row-harvest",
+  "generated": "2026-08-10",
+  "title": "NHM HMS Challenger sediment/preparation collection: diagnostic object-level harvest and address crosswalk",
+  "builds_on": "data/analysis/challenger_station_preparations_address_chain_v1.json",
+  "status": "DIAGNOSTIC_OBJECT_LEVEL_HARVEST_COMPLETE__FULL_4723_ROW_XLSX_HARVEST_BLOCKED_IN_CURRENT_RUNTIME",
+  "official_resource": {
+    "dataset": "Listing of HMS Challenger Sediment Collection",
+    "resource": "Sir John Murray's Challenger Sediment Collection",
+    "institution": "Natural History Museum, London",
+    "dataset_doi": "10.5519/50h9e977",
+    "resource_id": "38ed7710-be94-4481-b23a-6bb728dd6c88",
+    "resource_url": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection/resource/38ed7710-be94-4481-b23a-6bb728dd6c88",
+    "paper_doi": "10.1080/08912963.2025.2506185",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2025.03.21.644325v1",
+    "count_states": {
+      "dataset_abstract": 4713,
+      "current_portal_record_statistics": 4723,
+      "rule": "Preserve these as different dated catalogue/documentary states. Do not silently normalize one to the other."
+    },
+    "resource_metadata_note": "The portal currently describes the resource with XLSX media type while also exposing 'CSV' format labels in resource metadata. Treat the downloadable file format as a versioned portal property rather than a historical collection fact."
+  },
+  "published_dataset_field_schema_confirmed": [
+    "Sort number",
+    "IRN Catalogue of first (base) record",
+    "Base registration number",
+    "Original record sample quantity details",
+    "Nature of Bottom",
+    "Date Visited",
+    "Station number",
+    "Water body",
+    "Extra land mass based detail",
+    "Lat – given",
+    "Long – given",
+    "Georef Lat",
+    "Georef Long",
+    "Site Summary Data",
+    "NHM Site irn"
+  ],
+  "registration_address_rule": {
+    "M_prefix": "Museum-added Murray Collection registration namespace after transfer into BM(NH)/NHM custody.",
+    "base_plus_bracket": "M base number generally groups material from a sampling site; bracketed subnumber addresses an individual object/preparation within that base record.",
+    "non_bijective_examples": [
+      "M.120 represents material from Challenger Stations 95 and 96.",
+      "Station 149B spans M.175-M.177.",
+      "M.408 is associated with Station 338."
+    ],
+    "interpretation": "Station ↔ M number is a crosswalk, not a guaranteed one-to-one identity."
+  },
+  "diagnostic_preparation_records": [
+    {"registration":"PM ZF 9977","object_type":"plankton slide","preparator_or_annotation":null,"grade":"A+ from published collection figure"},
+    {"registration":"M.31(7)","object_type":"mineral-particle preparation","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.55(10)","object_type":"open sounding strew","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.56(21)","object_type":"deposit section mounted in copal","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.61(7)","object_type":"preparation after acid treatment","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.96(5)","object_type":"sounding strew in Canada balsam","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.166(17)","object_type":"wooden cavity slide with loose sediment","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.184(9)","object_type":"rock thin section","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.191(29)","object_type":"preparation after nitric acid","preparator_or_annotation":"annotation by Ernst Haeckel","grade":"S/A+ diagnostic named intervention"},
+    {"registration":"M.194(66)","object_type":"section of nodule","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.208(23)","object_type":"microscopic preparation","preparator_or_annotation":"made in Göttingen by Voigt & Hochgesang / firm attribution in published collection history","grade":"A+"},
+    {"registration":"M.238(12)","object_type":"casts of Foraminifera","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.353(xx)","object_type":"wooden cavity slide with fragments of nodules","preparator_or_annotation":null,"grade":"A; bracketed subnumber unresolved in available text"},
+    {"registration":"M.357(136)","object_type":"cosmic spherules in Canada balsam","preparator_or_annotation":null,"grade":"A+"},
+    {"registration":"M.368(57)","object_type":"nodule preparation","preparator_or_annotation":"Voigt and Hochgesang","grade":"A+"},
+    {"registration":"M.408(65)","station":"338","object_type":"planktonic foraminifera preparation","preparator_or_annotation":"Norman","grade":"S/A+ diagnostic maker + station/base crosswalk"},
+    {"registration":"M.344(169)","object_type":"open / thickly cut section of nodule","preparator_or_annotation":null,"grade":"A+"}
+  ],
+  "specialist_return_event": {
+    "date": "22 November 1920",
+    "quantity": 127,
+    "objects": "micro-preparations of mineral particles",
+    "route": "returned to the British Museum through Dr A. Schoep, University of Ghent",
+    "interpretation": "The collection includes later specialist working subsets that returned to museum custody; this is not simply an untouched shipboard sediment archive.",
+    "guard": "Published historical reconstruction associates this group with Renard-linked work, but a direct publication-to-each-slide crosswalk remains open."
+  },
+  "physical_storage": {
+    "slide_cabinet": "105-drawer cabinet stored separately from the main sediment collection at South Kensington",
+    "formats": [
+      "sediment embedded in resin and sectioned",
+      "circular glass cavity preparations",
+      "wooden cavities with glass covers",
+      "loose sediment on Canada balsam",
+      "thin sections of nodules and rocks"
+    ],
+    "payoff": "A single historical sample can acquire multiple physical and documentary derivatives, so object form must be harvested alongside station and registration address."
+  },
+  "address_chain_v2": [
+    "Challenger station / sounding",
+    "date + locality + depth + collecting method",
+    "raw sediment or tow-net material",
+    "shipboard / specialist preparation",
+    "Murray working collection",
+    "M base registration",
+    "bracketed item/subnumber",
+    "preparation format and named preparator/annotation",
+    "105-drawer slide-cabinet position",
+    "digital dataset record",
+    "modern CT/analytical resource where applicable"
+  ],
+  "row_harvest_limit": {
+    "problem": "The official resource is downloadable but no datastore table/view is exposed on the resource page, and the binary resource could not be retrieved in this runtime. Therefore this file does not claim a complete 4,723-row spreadsheet harvest.",
+    "completed_instead": "Object-level records and field architecture explicitly exposed in the official resource documentation and accompanying published collection study were harvested as a diagnostic layer.",
+    "next_when_binary_available": [
+      "Load every row without early exit.",
+      "Subset records whose object/container/preparation wording indicates slide, preparation, thin section, strew, cavity or mounted material.",
+      "Search all free-text columns for Haeckel, Norman, Voigt, Hochgesang, Schoep, Renard and other named preparators/annotators.",
+      "Preserve M base and bracketed subnumber separately.",
+      "Build station → M base → item → preparation-form → specialist → publication fields."
+    ]
+  },
+  "grading": {
+    "address_architecture": "S",
+    "named_diagnostic_object_records": "A+/S",
+    "complete_dataset_row_harvest": "OPEN",
+    "external_Elcock_station_match": "OPEN pending high-resolution auction labels"
+  },
+  "research_payoff": "The Challenger material now demonstrates a genuinely non-bijective address system. Field station numbers, museum M registrations and preparation subnumbers overlap without collapsing into one namespace. Named preparations by Haeckel, Norman and Voigt/Hochgesang make the slide cabinet a history of specialist interventions rather than merely a storage residue."
+}
