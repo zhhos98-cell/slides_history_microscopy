@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0-elcock-type-slides-closure",
+  "generated": "2026-08-10",
+  "title": "Charles Elcock Type Slides: advertisement → retailer network → surviving workshop cabinet",
+  "status": "S-grade series-level closure; individual sold-copy provenance remains open",
+  "core_result": "The 1885 Postal Microscopical Society advertisement and the surviving Whipple Elcock archive describe the same named commercial product, Type Slide No. 1 and Type Slide No. 2. The advertisement states the product structure and price; the surviving workshop cabinet retains drawers explicitly labelled for those two Type Slides and numerous Elcock foraminifera preparations.",
+  "historical_product": {
+    "source_records": ["R49267", "R49279"],
+    "year": 1885,
+    "periodical": "Journal of Microscopy and Natural Science / Postal Microscopical Society context",
+    "advertised_name": ["TYPE SLIDES No. 1", "TYPE SLIDES No. 2"],
+    "maker_attribution": "Selected by Charles Elcock",
+    "composition": "Each advertised Type Slide contains fifty named species/pieces, with the species name visible with the specimen in the field of view.",
+    "price": "Twenty shillings each",
+    "future_product": "Other slides were stated to be in preparation; special series for students and lecturers were also offered.",
+    "retailers": [
+      "Beck & Beck, Cornhill, London",
+      "Watson & Sons, 313 High Holborn, London",
+      "Charles Collins, 157 Great Portland Street, London",
+      "E. Ward, 249 Oxford Street, Manchester",
+      "Alfred Allen, 1 Cambridge Place, Bath"
+    ]
+  },
+  "surviving_archive": {
+    "repository": "Whipple Museum of the History of Science, University of Cambridge",
+    "accession": "Wh.6601",
+    "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15311/",
+    "principal_cabinet": "6601.1",
+    "cabinet_structure": "Large mahogany slide cabinet with 24 custom-fitted drawers containing a large number of mounted Foraminifera slides.",
+    "surviving_type_slide_addresses": [
+      {"drawer": 9, "label": "TYPE SLIDE, No. 1."},
+      {"drawer": 10, "label": "TYPE SLIDE, No. 1."},
+      {"drawer": 11, "label": "TYPE SLIDE, No. 2."},
+      {"drawer": 12, "label": "TYPE SLIDE, No. 2."}
+    ],
+    "other_drawer_label": {"drawer": 4, "label": "Chalk Foraminifera"},
+    "slide_structure": "Foraminifera are commonly mounted in groups on black rectangular matrices; each square in the grid carries a printed number. Slides use removable glass cover sleeves. Some carry printed species/maker labels; others manuscript labels.",
+    "archive_scope": "The wider accession comprises 617 parts and includes another large slide/materials cabinet, smaller fitted cabinets, tools, staining materials, mountable specimens, labelled packets, drawings, books and ephemera.",
+    "provenance_guard": "Whipple states that the collection is believed to represent materials remaining in Elcock's possession at death and later descended through the family/private market before 2015 acquisition. This makes it a workshop/reference archive, not proof that the drawers are customer-returned sold copies."
+  },
+  "preceding_workflow_evidence": [
+    {
+      "record_id": "R48474",
+      "year": 1883,
+      "event": "Elcock describes collecting abundant Foraminifera at Southport and practical washing/drying/floating preparation steps.",
+      "function": "raw-material acquisition and processing"
+    },
+    {
+      "record_ids": ["R48643", "R48644", "R48648"],
+      "year": 1884,
+      "event": "Postal Microscopical Society review describes multiple Elcock Foraminifera communications studied in connection with circulating slides and classifies the subjects he treated.",
+      "function": "slide + note teaching/research circulation"
+    },
+    {
+      "record_id": "R48652",
+      "year": 1884,
+      "event": "Elcock contributes a note on gum for mounting Foraminifera.",
+      "function": "mounting method"
+    }
+  ],
+  "closed_chain": [
+    "collect/receive Foraminifera material",
+    "wash/dry/float/process",
+    "mount and arrange specimens",
+    "coordinate slides with explanatory notes in postal-society circulation",
+    "standardize a fifty-species named Type Slide",
+    "advertise Type Slide Nos. 1 and 2 at 20 shillings each",
+    "distribute through a multi-city retailer network",
+    "retain workshop/reference examples organized in drawers labelled Type Slide No. 1 / No. 2",
+    "survive as Whipple accession Wh.6601"
+  ],
+  "research_claims": [
+    {
+      "claim": "Elcock's Type Slide was a standardized commercial knowledge object rather than merely a decorative arrangement.",
+      "basis": "Fifty species were individually named in the field, slides were numbered as product types, priced uniformly, and routed through multiple retailers.",
+      "grade": "S"
+    },
+    {
+      "claim": "The surviving Whipple archive preserves the commercial series architecture itself.",
+      "basis": "Cabinet drawers explicitly retain Type Slide No. 1 and Type Slide No. 2 labels matching the advertised product names.",
+      "grade": "S"
+    },
+    {
+      "claim": "Elcock's practice linked field collection, preparation technique, society pedagogy and retail manufacture.",
+      "basis": "1883–1885 corpus records plus the material workshop archive.",
+      "grade": "S at actor/practice level"
+    },
+    {
+      "claim": "The product name remained an internal workshop address after commercial release.",
+      "basis": "Type Slide names appear as drawer addresses inside Elcock's retained cabinet.",
+      "grade": "S"
+    }
+  ],
+  "why_it_matters": "Elcock is now one of the strongest cases in the project because commodity form, classification, microscopic legibility, retail distribution and surviving workshop organization can be connected without relying on biography. The product was simultaneously a slide, a miniature named collection, a teaching aid and a priceable retail object.",
+  "relation_to_cole": {
+    "Cole": "publishes a preparation through serial time: issue number binds text/image/slide.",
+    "Elcock": "publishes/classifies a miniature collection inside one slide: Type Slide number binds fifty labelled specimens into a retail unit.",
+    "comparison": "Both convert material variability into a repeatable commercial/intellectual unit, but the address sits at different scales: Cole's issue sequence versus Elcock's numbered product and within-slide species matrix."
+  },
+  "next_object_level_work": [
+    "Obtain high-resolution photographs of drawers 9–12 and representative Type Slides.",
+    "Transcribe every printed matrix number and species label on surviving Type Slide Nos. 1 and 2.",
+    "Determine whether two drawers per Type Slide represent duplicate/reference copies, components, variants, or simply storage overflow.",
+    "Compare surviving fifty-species composition with any printed list/advertisement beyond the general 1885 notice.",
+    "Search Whipple paper material for price lists, retailer correspondence, orders or specimen lists.",
+    "Search UK corpus for retailer-specific advertisements naming Elcock, and for customer reports of Type Slide Nos. 1 or 2.",
+    "Keep workshop/reference examples separate from sold/customer copies unless provenance closes the identity."
+  ]
+}
