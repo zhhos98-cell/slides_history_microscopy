@@ -1,0 +1,52 @@
+{
+  "schema_version": "2.0.0-trade-object-closure-delta",
+  "generated": "2026-08-10",
+  "builds_on": "data/analysis/trade_catalogue_circulation_matrix_v1.json",
+  "purpose": "Extend the trade-catalogue analysis from printed offerings and circulation events to surviving material endpoints.",
+  "principal_findings": [
+    {
+      "maker": "Joseph Bourgogne",
+      "printed_anchor": "Bourgogne's 1862 catalogue is already treated in the trade matrix as evidence for quality grades, formats and prices of microscopic preparations.",
+      "surviving_endpoint": "National Museum of American History preserves a boxed set of microscope slides inscribed BOURGOGNE; the museum attributes the inscription probably to Joseph Bourgogne.",
+      "new_chain": "priced/graded trade catalogue → named commercial maker → later surviving boxed set",
+      "current_limit": "The public object record does not expose a row-level transcription of subjects, catalogue numbers, grades, or original purchase provenance. Catalogue-to-object identity remains unclosed until the slides and labels are transcribed.",
+      "next_action": "Request or derive high-resolution label/subject transcription for the NMAH set and compare against the 1862 catalogue row schema.",
+      "fields_to_compare": ["subject", "label wording", "mount format", "quality/grade language", "catalogue number", "price category", "box order", "retailer/dealer marks"],
+      "priority": "A+ because the physical endpoint already exists and the printed catalogue is already in the corpus"
+    },
+    {
+      "maker_or_system": "Nobert / Charles Fasoldt test plates",
+      "printed_anchor": "The bibliography and trade/technical corpus already include nineteenth-century test-plate and microscopical-ruling literature, including Australian Grayson material and references to Nobert/Möller standards.",
+      "surviving_endpoint": "NMAH preserves an 1884 Charles Fasoldt test slide and glass-plate photomicrographs produced from a Nobert nineteen-band test plate; the museum reconstructs Barnard's 1867 acquisition and Woodward/Curtis observations in 1868–1869.",
+      "new_chain": "precision-made test slide → acquisition → microscope-resolution experiment → photomicrographic derivative → publication/dispute → museum object",
+      "research_payoff": "This establishes a second commodity/object regime distinct from specimen preparations. The slide is a metrological standard whose value lies in repeatable optical difficulty rather than biological identity.",
+      "comparison_to_trade_slides": "Bourgogne/Cole preparations ask what specimen can be seen and interpreted; test plates ask what the microscope can resolve. Both circulate as glass objects, but their epistemic work and valuation criteria differ.",
+      "priority": "A comparator"
+    }
+  ],
+  "revised_trade_argument": {
+    "previous": "catalogue → price/package → retail → exhibition/society use → exchange → second-hand resale",
+    "expanded": "catalogue → price/package → retail → use/exhibition → exchange/resale → surviving object → modern recataloguing",
+    "claim": "Trade catalogues are most analytically powerful when treated as one address system among several. A priced catalogue names an object as a commodity; a surviving museum record names it as a collection object. The research problem is to recover the crosswalk between those identities."
+  },
+  "object_first_extraction_rule": [
+    "For every named maker already present in the trade matrix, search current museum databases for surviving sets before adding more general trade literature.",
+    "Prioritize boxed or numbered sets because order can preserve catalogue or series structure.",
+    "Do not infer that a museum set was purchased from the exact catalogue edition merely because maker and subject match.",
+    "Transcribe labels verbatim before normalizing taxon, anatomy, locality, or maker names.",
+    "Preserve museum accession and catalogue numbers separately from historical maker/catalogue numbers."
+  ],
+  "next_maker_targets": [
+    {"maker":"Bourgogne","status":"surviving NMAH set found; deep object transcription next"},
+    {"maker":"Norman","status":"search for bounded surviving numbered/catalogued sets tied to the 2,584-object catalogue"},
+    {"maker":"Wheeler","status":"search surviving boxes/series after corpus evidence for 1,000-preparation exhibition and later trade"},
+    {"maker":"Watson","status":"search commercial/teaching sets with catalogue or retailer labels"},
+    {"maker":"Möller","status":"surviving La Plata historical collection already identified; series/label inventory next"},
+    {"maker":"Cole","status":"near-complete Volume I cabinet set and institutional comparators already identified"}
+  ],
+  "source_records": [
+    "sources/source-registry-07.json#US-NMAH-BOURGOGNE-SLIDES",
+    "sources/source-registry-07.json#US-NMAH-TEST-PLATES",
+    "sources/source-registry-05.json#AR-MLP-FICOLOGIA-DIATOMS"
+  ]
+}
