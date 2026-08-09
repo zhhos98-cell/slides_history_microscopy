@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0-challenger-station-preparations",
+  "generated": "2026-08-10",
+  "title": "From Station to Slide to Dataset: H.M.S. Challenger preparations as an address history",
+  "research_question": "How did Challenger material become microscopically usable, geographically retrievable and scientifically reinterpretable as it moved from shipboard station numbers through prepared slides, specialist publications, Edinburgh custody, British Museum/NHM registration, cabinet storage, digital cataloguing and CT analysis?",
+  "core_result": "The Challenger case closes a much longer transformation chain than an ordinary slide-transfer event. Haeckel's 1887 primary report explicitly credits John Murray with making carmine-stained Canada-balsam preparations on the spot and says he examined about one thousand such preparations from 168 stations. The present NHM collection preserves sediment and derived preparations with collection/preparation metadata, including a physically separate slide cabinet. Modern CT work can now show that some historical collecting labels describe materially mixed samples rather than pure surface assemblages. The historical address is therefore not merely provenance: it is part of how the sample was interpreted, and it can itself become an object of revision.",
+  "primary_historical_source": {
+    "source": "Ernst Haeckel, Report on the Radiolaria Collected by H.M.S. Challenger During the Years 1873-76, Zoology vol. XVIII (1887)",
+    "open_text": "https://www.gutenberg.org/files/44525/44525-h/44525-h.htm",
+    "supported_facts": [
+      "John Murray prepared important Radiolaria material on the spot by carmine staining and Canada-balsam mounting.",
+      "A single preparation, Haeckel says of Station 271, could contain twenty or thirty and sometimes fifty new species.",
+      "The material used for such preparations came from tow-net collecting at the surface and at different bathymetric zones.",
+      "Haeckel says he examined about one thousand preparations from 168 different Challenger stations.",
+      "He also received about one hundred bottles containing bottom deposits and tow-net collections."
+    ],
+    "interpretive_payoff": "Station number already functioned as a scientific address joining locality/bathymetric context, collected matter, prepared glass and later taxonomic publication."
+  },
+  "current_collection_dataset": {
+    "institution": "Natural History Museum, London",
+    "dataset": "Listing of HMS Challenger Sediment Collection",
+    "dataset_url": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection",
+    "resource_url": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection/resource/38ed7710-be94-4481-b23a-6bb728dd6c88",
+    "dataset_doi": "10.5519/50h9e977",
+    "paper_doi": "10.1080/08912963.2025.2506185",
+    "temporal_extent": "1873-1876",
+    "current_resource_state": {
+      "dataset_abstract_count": 4713,
+      "resource_record_count": 4723,
+      "last_dataset_update": "2026-05-21",
+      "interpretation": "The abstract count and current resource-row count differ. Preserve both as dated/versioned states; do not silently normalize one to the other."
+    },
+    "documented_scope": "Bottles, tubes, boxes and slides containing sediment and derived preparations, with collecting and preparation data from dredges, trawls, soundings, anchor mud and shallower-water collections.",
+    "research_value": "The dataset makes station/locality, collection method, preparation and current object address computationally cross-searchable, enabling tests against external Challenger material such as auction or museum holdings."
+  },
+  "slide_cabinet_and_specialist_interventions": {
+    "source": "Miller and Jouet-Sarkany 2025, Historical Biology / 2025 preprint version",
+    "paper_url": "https://www.tandfonline.com/doi/full/10.1080/08912963.2025.2506185",
+    "preprint_url": "https://www.biorxiv.org/content/10.1101/2025.03.21.644325v1",
+    "documented_features": [
+      "Slides are stored in a 105-drawer cabinet away from the main sediment collection at South Kensington.",
+      "Slide formats include sediment embedded in resin and sectioned, circular glass cavities, wooden cavities with glass covers, loose sediment on Canada balsam and thin sections of nodules/rocks.",
+      "A preparation M.191(29) is described as having an annotation by Ernst Haeckel.",
+      "A preparation M.408(65) of planktonic foraminifera is attributed to the slide maker Norman.",
+      "A preparation M.357(136) is attributed to Voigt and Hochgesang.",
+      "A group of 127 mineral-particle micro-preparations was returned to the British Museum in 1920 through A. Schoep."
+    ],
+    "research_payoff": "The collection does not preserve a single homogeneous 'Challenger slide' form. It preserves a history of specialist interventions and preparation formats, including named preparators who also belong to the commercial slide world."
+  },
+  "custodial_chain": {
+    "source": "Miller and Jouet-Sarkany historical account",
+    "stages": [
+      {"period":"1873-1876","address_system":"Challenger station / collection method / depth / locality","function":"field and shipboard scientific coordinate"},
+      {"period":"1870s-1880s","address_system":"prepared slide/bottle + specialist working reference","function":"taxonomic and analytical study, including Haeckel's Radiolaria work"},
+      {"period":"post-cruise Edinburgh","address_system":"Murray/Challenger Office collection organization","function":"post-expedition research and report production"},
+      {"period":"1890","address_system":"45 Frederick Street, Edinburgh","function":"collection housing"},
+      {"period":"1904","address_system":"Villa Medusa","function":"later Murray collection housing"},
+      {"period":"1919-1921","address_system":"transfer appraisal and British Museum (Natural History) custody","function":"conversion from Murray working collection to museum collection"},
+      {"period":"museum custody","address_system":"M registration + subnumber + physical slide-cabinet drawer","function":"institutional registration and retrieval"},
+      {"period":"2024-2026 dataset","address_system":"NHM digital resource row + persistent dataset DOI","function":"computational retrieval and cross-collection comparison"},
+      {"period":"modern CT","address_system":"station-linked scan dataset","function":"non-destructive re-analysis of internal sample composition"}
+    ]
+  },
+  "ct_afterlife": {
+    "institution": "Natural History Museum / collaborating researchers",
+    "dataset_url": "https://data.nhm.ac.uk/dataset/ct-scans-of-h-m-s-challenger-sediments",
+    "study_scope": "All 21 available samples labelled as tow-net at dredge, weights, or trawl in the described modern study.",
+    "finding": "Micro-CT found that most studied samples contain benthic foraminifera, fragments and detrital quartz, implying resuspended bottom material rather than exclusively surface-derived assemblages; the authors distinguish surface tow-net samples from deep-water tow-net samples incorporating seafloor material.",
+    "methodological_payoff": "A historical label or collecting-method address is evidence, but not an infallible description of material composition. Modern non-destructive analysis can revise what an old address is taken to mean without destroying the object.",
+    "guard": "Do not project this result onto every Challenger tow-net or slide. It applies to the studied 21-sample subset and raises a collection-wide interpretive question."
+  },
+  "address_chain": [
+    "station number",
+    "collection method + depth + locality",
+    "shipboard preparation",
+    "specialist slide/bottle working set",
+    "published taxonomic reference",
+    "Edinburgh/Murray collection address",
+    "British Museum/NHM registration number",
+    "slide cabinet/drawer",
+    "digital dataset row",
+    "CT scan resource"
+  ],
+  "relation_survival": {
+    "preserved": [
+      "station/locality context for large parts of the collection",
+      "collection/preparation metadata",
+      "many original registration and subnumber systems",
+      "some named specialist/preparator interventions",
+      "current physical and digital addresses"
+    ],
+    "at_risk_or_transformed": [
+      "slides physically stored away from main sediments can obscure raw-material ↔ preparation adjacency",
+      "successive M numbers/subnumbers and collection reorganizations require crosswalks",
+      "historical collection-method labels may not fully describe material composition",
+      "different published/current collection counts represent versioned catalogue states rather than one timeless total"
+    ]
+  },
+  "comparison_to_existing_cases": {
+    "Cole": "Cole uses issue number to make distributed glass part of publication; Challenger uses station number to keep microscopic preparations tied to expedition geography and collecting conditions.",
+    "Elcock": "Elcock turns classification into a compact commercial Type Slide; Challenger turns geographically sampled matter into specialist preparations whose station context remains epistemically necessary.",
+    "Naples": "Naples begins from an institutional catalogue and commercial/teaching distribution; Challenger begins from expedition collection and later specialist allocation.",
+    "Cajal_HEC": "Like Cajal and HEC, Challenger demonstrates multiple successive address namespaces, but adds a field-geographical address and modern reinterpretation of what that address materially contained."
+  },
+  "elcock_challenger_test": {
+    "external_lead": "Flints Auctions 2024 Elcock-family cabinet described as containing Challenger soundings, slides, blank mounts and mounting equipment.",
+    "test_protocol": [
+      "Transcribe each auction bottle/slide label verbatim from high-resolution images.",
+      "Extract date, depth, locality/station wording, collection method and any original number.",
+      "Query the official NHM Challenger dataset by those fields without assuming shared physical identity.",
+      "Check published Challenger station tables/Deep Sea Deposits records where labels are ambiguous.",
+      "Classify matches as exact station/context, bounded candidate, or unresolved.",
+      "Only after this should the cabinet be described as a documented derivative of a particular Challenger station/sample."
+    ],
+    "payoff": "The official dataset provides precisely the external reference system needed to test an auction provenance claim without relying on auction-house narrative alone."
+  },
+  "research_claims": [
+    {"claim":"A Challenger station number could bind collection context, prepared glass and later taxonomic publication into one recoverable scientific chain.","grade":"S/A+","basis":"Haeckel primary report + current NHM dataset; item-level examples still require row work"},
+    {"claim":"Slide preparation happened as part of expeditionary knowledge production, not only after specimens reached metropolitan laboratories.","grade":"S","basis":"Haeckel explicitly credits John Murray with on-the-spot carmine/Canada-balsam preparations"},
+    {"claim":"Later specialist and museum practices added new material forms and addresses without erasing every expedition address.","grade":"S/A+","basis":"NHM historical collection study and dataset"},
+    {"claim":"Modern imaging can change the interpretation of historical collection-method labels while preserving the specimens.","grade":"S for the 21-sample CT study","basis":"NHM CT dataset/study description"}
+  ],
+  "next_work": [
+    "Harvest the NHM Challenger dataset locally and subset records whose object/container type indicates slide or micro-preparation.",
+    "Extract every record naming Haeckel, Norman, Voigt/Hochgesang or another preparator/annotator.",
+    "Build station → preparation → publication crosswalk for a small diagnostic set, starting with Station 271 and M.191(29)/M.408(65).",
+    "Use the same dataset to test Flints' Elcock Challenger-cabinet labels once high-resolution images are available.",
+    "Keep abstract count 4,713 and current resource rows 4,723 as separate versioned metadata states."
+  ]
+}
