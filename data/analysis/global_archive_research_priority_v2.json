@@ -1,0 +1,192 @@
+{
+  "schema_version": "2.0.0-global-archive-priority",
+  "generated": "2026-08-10",
+  "purpose": "Convert the global source registry into a research programme ordered by closure potential. Priority reflects the chance that a repository can connect a surviving preparation to an older address, transaction, publication, working record, or collection system; collection size alone is irrelevant.",
+  "method_rules": [
+    "Start from a named actor, series, cabinet, ledger, catalogue, transaction, or surviving object.",
+    "Prefer repositories where physical preparations and documentary apparatus coexist or can be cross-referenced.",
+    "Request historical indexes, registers, labels, tray/cabinet coordinates, and accession crosswalks before requesting broad digitisation.",
+    "Preserve each identifier namespace separately: publication number, maker number, slide label, cabinet/tray coordinate, accession number, archival call number, current database ID.",
+    "Treat remounting, renumbering, transfer, recataloguing, and institutional division as historical events rather than data-cleaning problems.",
+    "A repository-level collection description does not establish nineteenth-century object identity.",
+    "Use later retrospective archives as routers to contemporary evidence, not as substitutes for nineteenth-century records."
+  ],
+  "tier_S_close_existing_questions": [
+    {
+      "target_id": "GB-QMC-ARCHIVES-SLIDES",
+      "target": "Quekett Microscopical Club archive and slide collection",
+      "question": "Can Arthur C. Cole's Studies in Microscopical Science preparations be reconnected to their serial issue numbers after storage in the Club cabinet?",
+      "known_anchor": ["1883 annual report places completed print volume in Library", "same report says accompanying preparations were possessed by subscription in Cabinet", "Volume I 52-item issue matrix", "near-certain surviving private Volume I cabinet set photographed in 2025"],
+      "first_request": ["search existing slide-label transcription for Cole / Martin J. Cole / Prize Medal / Studies", "return matching rows and any existing tray photographs", "identify old cabinet catalogue or subscription/acquisition entry if extant"],
+      "capture_fields": ["label transcription", "maker attribution", "serial or slide number", "subject", "tray/cabinet address", "old catalogue number", "current storage", "retailer label", "replacement/missing status"],
+      "success_condition": "At least one surviving Club preparation can be mapped to a Studies issue or a historical cabinet entry without relying only on subject similarity.",
+      "article_payoff": "Direct evidence for referential binding and institutional re-addressing."
+    },
+    {
+      "target_id": "GB-HSM-OXFORD-RMS-ARCHIVE",
+      "target": "History of Science Museum, Oxford — Royal Microscopical Society archive and slide cabinet",
+      "question": "Can published RMS donation/exhibition notices be joined to institutional acquisition records and surviving preparations?",
+      "known_anchor": ["large RMS cabinet survives in Oxford", "RMS manuscript and institutional archives are preserved at the museum", "project corpus already contains itemised nineteenth-century donation and exhibition events"],
+      "first_request": ["old slide catalogues/indexes and cabinet lists", "accession/donation registers", "minutes or correspondence for selected corpus events", "current catalogue crosswalk for named makers/series"],
+      "capture_fields": ["journal event ID", "donor/sender", "maker", "subject", "historical number", "cabinet/tray", "current accession", "date acquired", "transfer/deposit date"],
+      "success_condition": "A named journal event is connected through a museum/society record to a surviving object or bounded series.",
+      "article_payoff": "Text → institution → object closure at a scale unavailable from journal reports alone."
+    },
+    {
+      "target_id": "JP-UTOKYO-ANATOMY-MICROSCOPY-RECORDS",
+      "target": "University of Tokyo Medical Library — Anatomy Department microscopy records",
+      "question": "How were preparations manufactured, counted, indexed, taught with, and coordinated with microscopes in an 1870s–1880s Japanese medical department?",
+      "known_anchor": ["preparation quantity ledger 1878–1882", "microscope/instrument index 1879–1881", "manufactured histology/embryology catalogue 1880–1883", "practical microscopy miscellany 1882–1884", "microscope records 1873–1884", "histology course diary 1882–1884"],
+      "first_request": ["digitisation or page images of nos. 118–123 and 110", "confirm internal structure, columns, numbering systems and creator/office labels", "identify related purchase, expenditure, foreign-supplier, or student-use records"],
+      "capture_fields": ["date", "preparation title", "quantity", "maker/manufacturer", "department", "instrument number", "supplier", "price if present", "course/use", "ledger/catalogue number"],
+      "success_condition": "At least one preparation category or numbered item can be followed across production/inventory and teaching/instrument records.",
+      "article_payoff": "A non-European institutional production system that can be analysed without treating global history as diffusion from Britain."
+    },
+    {
+      "target_id": "IT-SZN-HISTORICAL-ARCHIVES",
+      "target": "Stazione Zoologica Anton Dohrn Historical Archives",
+      "question": "Can the 1880 Naples preparation catalogue and the twelve-slide RMS shipment be connected to internal order, account, correspondence, or dispatch records?",
+      "known_anchor": ["423 numbered catalogue offerings", "9 June 1880 RMS receipt of twelve slides", "nine exact/strong catalogue-to-shipment matches", "A. W. Waters named intermediary"],
+      "first_request": ["preparation-department account/order books around 1879–1881", "outgoing copybooks and correspondence", "Waters correspondence", "shipment/register entries", "catalogue drafts or price-list records"],
+      "capture_fields": ["catalogue number", "item", "quantity", "price", "recipient", "intermediary", "date", "dispatch method", "preparer", "specimen source"],
+      "success_condition": "One RMS object or shipment is linked to an internal commercial/administrative record.",
+      "article_payoff": "Moves the Naples case from catalogue↔exhibition matching to transaction-level circulation history."
+    },
+    {
+      "target_id": "AR-MLP-FICOLOGIA-DIATOMS",
+      "target": "Museo de La Plata — Tempère & Peragallo and Möller diatom series + Historical Archive",
+      "question": "How were numbered commercial/scientific diatom series preserved, reclassified, and institutionally re-addressed after entering a museum in Argentina?",
+      "known_anchor": ["surviving Tempère & Peragallo and Möller historical collections", "museum Historical Archive begins with institutional records from 1884", "correspondence and departmental records can potentially document acquisition/exchange"],
+      "first_request": ["current inventory or box/tray list for Tempère & Peragallo", "photographs of labels and series numbers", "acquisition provenance", "archive searches for Tempère, Peragallo, Möller and relevant departmental correspondence"],
+      "capture_fields": ["series number", "taxon", "locality", "maker/dealer", "original label", "current number", "box/tray", "acquisition date", "correspondent", "exchange/donation/purchase relation"],
+      "success_condition": "A numbered historical series entry is joined to its museum address and, ideally, an acquisition record.",
+      "article_payoff": "Best comparator to Cole for a publication/series organized by numbered specimens rather than synchronized weekly issues."
+    },
+    {
+      "target_id": "GB-WHIPPLE-ELCOCK",
+      "target": "Whipple Museum — Charles Elcock working archive",
+      "question": "How did a professional slide preparer's workshop connect raw specimens, tools, staining/mounting materials, labels, finished preparations, cabinets, and commercial identity?",
+      "known_anchor": ["surviving slide cabinets", "finished histological/foraminifera slides", "tools and materials", "labels and ephemera", "unfinished/preparatory material"],
+      "first_request": ["collection-level association map or accession list", "high-resolution label/ephemera images", "tool/material grouping provenance", "any price lists or correspondence"],
+      "capture_fields": ["object ID", "association/grouping", "raw specimen", "mounting medium", "stain", "tool", "label template", "finished slide", "cabinet coordinate", "printed commercial evidence"],
+      "success_condition": "A bounded workflow can be reconstructed from unfinished/raw material through preparation and labelling to storage or sale.",
+      "article_payoff": "Workshop ecology and division of labour at material rather than biographical scale."
+    },
+    {
+      "target_id": "ES-MNCN-CAJAL-LEGACY",
+      "target": "MNCN/CSIC — Cajal Legacy microscopic preparations",
+      "question": "What happens to the identity of a preparation when successive laboratory, museum, inventory and archival systems all assign addresses to the same slide?",
+      "known_anchor": ["Simurg exposes original preparation-cabinet and tray coordinates", "individual slides can carry several inventory/reference numbers", "current archival call numbers are exposed", "labels, techniques and condition assessments are preserved"],
+      "first_request": ["export/search strategy for microscopic-preparation records", "field-level mapping of original location, inventory namespaces and current call numbers", "historical inventory/cataloguing documentation explaining each numbering layer"],
+      "capture_fields": ["creator", "method", "label text", "original cabinet", "original tray", "Gamundi number", "Manzano number", "other inventory", "LC reference", "archival signatura", "condition date", "deposit/custody date"],
+      "success_condition": "A sample of slides can be reconstructed through each recorded identifier regime with dates/administrative context for the transitions.",
+      "article_payoff": "The clearest object-level comparator for 're-addressing' because old and new addresses coexist in the public catalogue."
+    },
+    {
+      "target_id": "IT-FLORENCE-PACINI-HISTOLOGY",
+      "target": "University of Florence + BNCF — Filippo Pacini preparations and manuscripts",
+      "question": "How did labels, remounting, manuscripts, and publication references keep experimental history attached to a microscopic preparation?",
+      "known_anchor": ["histological slides retain dates, reagents and interpretive annotations", "cholera slide labels cite Pacini's 1854 publication", "at least one slide explicitly records remounting after seven years", "BNCF preserves 23-unit Pacini manuscript fonds with an 1889 historical catalogue"],
+      "first_request": ["complete Pacini histology slide inventory or catalogue", "cholera slide images front/back", "cross-reference against 1889 manuscript catalogue", "records of remounting/conservation if extant"],
+      "capture_fields": ["slide catalogue number", "date", "reagent/method", "label text", "publication citation", "remounting date", "manuscript reference", "current storage"],
+      "success_condition": "At least one preparation is connected to a manuscript/published description and its later material intervention history.",
+      "article_payoff": "Shows that the label can function as laboratory note, citation apparatus and conservation history on one object."
+    }
+  ],
+  "tier_A_build_controlled_comparators": [
+    {
+      "target_id": "AT-NHMW-GRUNOW-DIATOMS",
+      "target": "NHM Vienna — Albert Grunow diatom collection",
+      "question": "How did sample numbers coordinate raw material, slides, drawings, catalogues, annotated books and published figures?",
+      "comparison": "Cole issue number; Cajal cabinet/tray; Tempère–Peragallo series number",
+      "priority": "A+"
+    },
+    {
+      "target_id": "BE-VAN-HEURCK-DISTRIBUTED-ESTATE",
+      "target": "Henri Van Heurck scientific estate across Antwerp, Meise and Ghent",
+      "question": "How did one integrated nineteenth-century working collection become distributed among institutions according to modern material and disciplinary categories?",
+      "comparison": "Cole Library/Cabinet bifurcation at estate scale",
+      "priority": "A+"
+    },
+    {
+      "target_id": "IT-PAVIA-GOLGI-SLIDES-ARCHIVE",
+      "target": "University of Pavia — Golgi preparations and archive",
+      "question": "How are original slides, drawings, manuscripts and instruments kept relationally legible inside a scientist museum?",
+      "comparison": "Cajal and Pacini scientist-legacy architectures",
+      "priority": "A+"
+    },
+    {
+      "target_id": "FR-MNHN-HISTOTHEQUE-VAN-TIEGHEM",
+      "target": "MNHN Histothèque — Van Tieghem collection",
+      "question": "What happens when the preparation itself becomes the surviving visual documentation for work whose publication carried no figure or photograph?",
+      "comparison": "Reverse of Cole: slide preserves visual evidence where print lacks it",
+      "priority": "A+"
+    },
+    {
+      "target_id": "CA-MCGILL-NHSM-MMS-FONDS",
+      "target": "Montreal Microscopical Society / Natural History Society of Montreal",
+      "question": "How were acquisitions, exchanges, displays and catalogues organized in a North American microscopical society?",
+      "comparison": "Quekett and RMS society infrastructures",
+      "priority": "A+"
+    },
+    {
+      "target_id": "GB-NHM-HERON-ALLEN-FORAMINIFERA",
+      "target": "NHM — Heron-Allen foraminifera collection",
+      "question": "How did expedition material acquire slide, donor, registration and later museum catalogue identities?",
+      "comparison": "Field/specimen → slide → museum address transformation",
+      "priority": "A"
+    },
+    {
+      "target_id": "CA-MCGILL-FRANK-DAWSON-ADAMS",
+      "target": "McGill — Frank Dawson Adams fonds",
+      "question": "How did petrographic thin sections work inside an experimental chain of rock deformation, apparatus, notebooks and photography?",
+      "comparison": "Sorby and Cole petrological sections beyond commercial circulation",
+      "priority": "A"
+    },
+    {
+      "target_id": "NL-UTRECHT-HARTING-MICROSCOPY",
+      "target": "Utrecht — Harting microscopy collection",
+      "question": "How did preparations and instrument collections become part of practical microscopy teaching and collection mapping in the mid nineteenth century?",
+      "comparison": "Tokyo institutional teaching records; Cole subscriber pedagogy",
+      "priority": "A"
+    }
+  ],
+  "tier_B_route_only_until_specific_bridge": [
+    {
+      "target_id": "US-NMAH-RICHARDS-MICROSCOPY-ARCHIVE",
+      "reason": "Retrospective archive rich in trade and historical material; use for source discovery, then return to contemporary evidence.",
+      "upgrade_trigger": "A folder or document identifies a specific nineteenth-century maker, catalogue, transaction or surviving slide set absent from the current corpus."
+    },
+    {
+      "target_id": "JP-KAHaku-MICROALGAE",
+      "reason": "Large and well-documented modern microalgae slide infrastructure, but aggregate holdings do not establish nineteenth-century subcollections.",
+      "upgrade_trigger": "Named historical subcollection or pre-1900 slide provenance is identified."
+    },
+    {
+      "target_id": "NZ-TEPAPA-NATURAL-HISTORY-ARCHIVES",
+      "reason": "Strong institutional archive and present slide stores; current object-to-nineteenth-century bridge remains open.",
+      "upgrade_trigger": "Colonial Museum/Hector acquisition record connects to a named surviving slide or series."
+    },
+    {
+      "target_id": "ZA-IZIKO-ENTOMOLOGY-SLIDES",
+      "reason": "Historical collection roots plus aggregate microscope-slide holdings; named nineteenth-century slide subcollection remains unresolved.",
+      "upgrade_trigger": "Maker, collector, accession batch or type series securely dates surviving slides to the nineteenth century."
+    },
+    {
+      "target_id": "ZA-UCT-BOLUS-ARCHIVE",
+      "reason": "High-value nineteenth-century botanical correspondence network but no slide-specific bridge yet.",
+      "upgrade_trigger": "Microscopic preparations, slide exchange, mounting supply or named microscopy correspondence is located."
+    }
+  ],
+  "execution_order": [
+    "1. Quekett label transcription + Oxford RMS catalogue queries: cheapest route to immediate Cole/object closure.",
+    "2. University of Tokyo nos. 110 and 118–123: request page images or digitisation because the record sequence already defines a bounded corpus.",
+    "3. La Plata Tempère–Peragallo/Möller inventory + archive name search: establishes the strongest non-British numbered-series comparator.",
+    "4. Cajal Simurg field extraction: can be run largely from public metadata before any archive enquiry.",
+    "5. Pacini object/manuscript crosswalk: small enough for item-level reconstruction and unusually rich in labels/remounting evidence.",
+    "6. Naples internal accounts/correspondence: potentially closes an already mature catalogue-to-RMS transaction case.",
+    "7. Elcock material-workflow extraction: workshop case rather than another circulation case.",
+    "8. Grunow / Van Heurck / Golgi / Van Tieghem / Montreal as controlled comparators after the core mechanisms are stable."
+  ],
+  "stop_rule": "Do not continue global enumeration for its own sake. Reopen discovery only when a current research question names a missing geography, actor, medium, or institutional mechanism that the present registry cannot test."
+}
