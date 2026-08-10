@@ -1,0 +1,75 @@
+{
+  "schema_version": "2.0.0-grunow-sample-level-closure",
+  "generated": "2026-08-11",
+  "title": "Albert Grunow diatom collection: sample-level cross-media closure from historical curation instructions",
+  "status": "S-level historical cross-media addressing architecture; current digital object-level crosswalk still open",
+  "primary_sources": [
+    {
+      "source": "Schuster et al., An introduction to the catalogue of Albert Grunow's 19th century diatom collection at W including a palaeographic aid, Annalen NHM Wien B 125 (2023), pp. 101-122",
+      "institution": "Naturhistorisches Museum Wien",
+      "url": "https://www.nhm-wien.ac.at/verlag/wissenschaftliche_publikationen/annalen_serie_b/125_2023"
+    },
+    {
+      "source": "Supplementary Information: transcription and images of Grunow's eleven-page curation instructions",
+      "institution": "Naturhistorisches Museum Wien",
+      "url": "https://verlag.nhm-wien.ac.at/pdfs/125B_101122_Schuster_SI.pdf"
+    }
+  ],
+  "sample_cases": [
+    {
+      "sample_number": "274",
+      "historical_locality": "Jauling bei Berndorf",
+      "taxonomic_pointer": "Navicula ambigua forma Craticula",
+      "media_states_explicit_in_Grunow_instructions": [
+        "catalogue entry",
+        "one or two glass preparations",
+        "material in bottle"
+      ],
+      "maintenance_instruction": "If bottled material has dried, Grunow instructs the curator to boil it with nitric acid, remove acid by repeated decantation with distilled water, spread onto cover slips and remount; size fractions could be separated by washing/elutriation.",
+      "research_use": "Direct sample-level evidence that one number coordinated preserved raw mass and finished glass preparations and also encoded a recipe for recreating usable preparations from deteriorated stored material.",
+      "grade": "S"
+    },
+    {
+      "sample_number": "1363",
+      "historical_locality": "Cagliari",
+      "taxon": "Mastogloia Braunii",
+      "slide_variant": "b",
+      "historical_slide_coordinate": "12.9 / 32.9",
+      "drawing_relation": "Grunow explains that a drawing labelled '1363. b (Cagliari) 12.9/32.9' points back to the exact valve on the second preparation of sample 1363.",
+      "magnification_relation": "The same instructions explain how drawing annotations such as 900/P.O.1 and 1540 magnification record the optical conditions of observation/drawing.",
+      "research_use": "A single historical sample number crosses locality, preparation identity, slide variant, microscope-stage coordinate and drawing metadata.",
+      "grade": "S"
+    },
+    {
+      "sample_number": "3073",
+      "historical_group": "fossil Hungarian deposits",
+      "slide_variant": "b",
+      "recorded_valves": [
+        {"taxon_or_note": "Navicula gemmata fragment", "coordinate": "18 / 45.8"},
+        {"taxon_or_note": "Actinoptychus Moronensis (schön)", "coordinate": "13.8 / 42.1", "drawing_status": "circled coordinate means already drawn"},
+        {"taxon_or_note": "Navicula n. sp.?", "coordinate": "8.3 / 44.3", "drawing_status": "circled coordinate means already drawn"}
+      ],
+      "research_use": "Shows the catalogue functioning as a retrievable microscope map: taxonomic observations were stored as coordinates on a named preparation, and a graphical mark recorded whether the located valve had already been drawn.",
+      "grade": "S"
+    }
+  ],
+  "system_level_findings": [
+    "Grunow's catalogue is ordered by sample numbers and explicitly distinguishes herbarium material, glass preparations and acid-treated/bottled material.",
+    "Multiple glass preparations of one sample can be distinguished by letters and by green strokes in the historical catalogue system.",
+    "Older preparations could carry pasted scales; later preparations were localised by aligning the upper-left slide corner to a millimetre scale whose zero coincided with microscope focus.",
+    "Drawing sheets retained preparation numbers, valve coordinates, striation measurements and magnification/optical annotations so that published or drawn forms could be returned to the original specimen.",
+    "Grunow explicitly instructed successors on rescuing dried bottle material and remaking preparations, so the archive preserves not only addresses but maintenance procedures for reproducing the slide state.",
+    "Bottle-material entries whose underline weakened or disappeared could signal that the bottle had been used up, lost its label or been discarded; absence was therefore itself encoded in the catalogue."
+  ],
+  "upgrade_decision": {
+    "previous": "S-level collection-system architecture",
+    "new": "S-level sample-level historical closure for representative sample numbers 274, 1363 and 3073",
+    "reason": "The historical curation instructions provide explicit, sample-numbered crosswalks among stored material, glass preparations, microscope coordinates and drawings rather than merely describing the collection in aggregate."
+  },
+  "guard": [
+    "No current JACQ or NHM persistent record for sample 274, 1363 or 3073 was located in this pass, so the chain currently closes historically rather than through a modern digital object ID.",
+    "Sample 274 proves bottle material + glass preparations; sample 1363 proves slide coordinate + drawing; sample 3073 proves coordinate + drawing status. Do not silently merge these into a claim that every individual sample preserves every medium.",
+    "Mastogloia Braunii spelling is retained from Grunow's historical instruction; taxonomic modernisation is outside this provenance audit."
+  ],
+  "next_exact_step": "Ask NHM Wien for current collection coordinates or catalogue scans for samples 274, 1363 and 3073, prioritising 1363b and 3073b. A single present-day object record would extend the historical chain into current museum address space."
+}
