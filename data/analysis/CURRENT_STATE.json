@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0-analysis-current-state",
+  "schema_version": "1.0.1-analysis-current-state",
   "generated": "2026-08-10",
   "status": "CANONICAL_CURRENT_ANALYSIS_STATE",
   "purpose": "Single machine-readable authority pointer for the current microscope-slide analysis state. Historical snapshots remain in the repository for audit, but this file identifies which outputs are current and which earlier states are superseded.",
@@ -43,6 +43,7 @@
   "current_authority_files": {
     "human_direction": "CURRENT_DIRECTION.md",
     "operational_router": "data/analysis/global_archive_research_priority_CURRENT.json",
+    "residual_audit": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
     "local_source_availability": "data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json",
     "naples_383_closure": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
     "cole_primary_structure": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
@@ -65,14 +66,14 @@
     {
       "file": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
       "state": "HISTORICAL_BATCH_SNAPSHOT",
-      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json",
-      "reason": "Later residual/local-source passes reduced the queue and closed Naples 383."
+      "superseded_by": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
+      "reason": "The residual/local-source pass removed the Naples candidate and reduced the terminal queue to four exact-source requests."
     },
     {
       "file": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
-      "state": "HISTORICAL_RESIDUAL_SNAPSHOT",
+      "state": "CURRENT_DATED_RESIDUAL_AUDIT__NOT_LIVE_ROUTER",
       "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json",
-      "reason": "The v3 residual queue still contained Naples 383 before local OCR closed it."
+      "reason": "The v3 file accurately records the four-item terminal residual state, but operational routing belongs to the _CURRENT router."
     },
     {
       "file": "data/analysis/four_target_execution_status_2026-08-10.json",
