@@ -1,5 +1,4 @@
-const sourceState={records:[],filtered:[]};
-const sourceFiles=['source-registry.json','source-registry-02.json','source-registry-03.json'];
+const sourceState={records:[],filtered:[],manifest:null};
 
 function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[c]);}
 function words(r){return [r.institution,r.collection,r.country,r.city,r.type,r.relation,r.date_scope,r.holdings,r.research_use,(r.tags||[]).join(' ')].join(' ').toLowerCase();}
@@ -65,11 +64,26 @@ function downloadCSV(){
 
 async function initSources(){
   try{
+    const manifestResponse=await fetch('source-registry-manifest.json',{cache:'no-store'});
+    if(!manifestResponse.ok)throw new Error(`source-registry-manifest.json: HTTP ${manifestResponse.status}`);
+    const manifest=await manifestResponse.json();
+    sourceState.manifest=manifest;
+    const sourceFiles=manifest.chunks||[];
+    if(!sourceFiles.length)throw new Error('source registry manifest contains no chunks');
+
     const payloads=await Promise.all(sourceFiles.map(async path=>{
       const response=await fetch(path,{cache:'no-store'});if(!response.ok)throw new Error(`${path}: HTTP ${response.status}`);
       return response.json();
     }));
-    sourceState.records=payloads.flatMap(data=>data.records||[]);
+
+    const superseded=new Set(Object.keys(manifest.superseded_ids||{}));
+    const allRecords=payloads.flatMap(data=>data.records||[]);
+    sourceState.records=allRecords.filter(r=>!superseded.has(r.id));
+
+    if(manifest.counts?.canonical_records!=null&&sourceState.records.length!==manifest.counts.canonical_records){
+      throw new Error(`canonical source count ${sourceState.records.length} != manifest ${manifest.counts.canonical_records}`);
+    }
+
     sourceState.filtered=[...sourceState.records];
     fillSelect('source-region',sourceState.records.map(r=>r.region));
     fillSelect('source-type',sourceState.records.map(r=>r.type));
