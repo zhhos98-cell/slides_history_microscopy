@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0-naples-dealer-network-upgrade",
+  "generated": "2026-08-11",
+  "title": "Stazione Zoologica Napoli microscopic preparations: 1882–1884 dealer-network upgrade",
+  "status": "PRIMARY_REPORT_LOCATED__DEALER_NETWORK_A++__PAGES_130_131_VERIFICATION_PENDING",
+  "builds_on": [
+    "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+    "data/analysis/slide_155_corpus_expansion_v1/NAPLES_1881_MICROSLIDE_PRICE_CATALOGUE_SOURCE_V1.json"
+  ],
+  "already_closed": {
+    "catalogue": "1880/1881 Naples price list offers 423 microscopic preparations as numbered products.",
+    "object_example": "St Andrews BPM/1/T8/6 closes surviving Naples object ↔ catalogue offering 383 (Delphinus phocaena — Penis), with Panis/Penis transcription guard.",
+    "claim_level": "S/A++ for catalogue-offering identity; individual-copy shipment history remains open."
+  },
+  "primary_report_locator": {
+    "title": "Bericht über die Zoologische Station während der Jahre 1882-1884",
+    "container": "Mittheilungen aus der Zoologischen Station zu Neapel, Bd. 6",
+    "year": 1886,
+    "pages": "93-148",
+    "dealer_sales_passage_reported_at": "130-131",
+    "bhl_bibliography": "https://www.biodiversitylibrary.org/bibliography/8813",
+    "bhl_volume": "https://www.biodiversitylibrary.org/page/9694918",
+    "copyright": "NOT_IN_COPYRIGHT",
+    "verification_state": "The primary report and page range are located, but the dealer-sales table/text on pp. 130-131 has not yet been independently transcribed from the BHL page images in this pass."
+  },
+  "secondary_extraction_pending_primary_verification": {
+    "source": "Brian Stevenson, 'Stazione Zoologica Napoli / Fritz Meyer', Microscopist.net, citing Mittheilungen 1886, vol. 6, pp. 130-131",
+    "claims": [
+      {
+        "claim": "The Station sold 225 microscope slides to Edmund Wheeler in February 1882.",
+        "grade": "A++ pending direct page-130/131 verification"
+      },
+      {
+        "claim": "The 1882-1884 sales list includes Edmund Wheeler, R. & J. Beck (London), Edward Ward (Manchester), Gustav Schneider (Basel), and Charles Baker (London).",
+        "grade": "A++ pending direct page-130/131 verification"
+      },
+      {
+        "claim": "The report characterizes sales to Wheeler, Beck, Ward and Schneider as commission sales; Baker's purchase is interpreted by Stevenson as probably intended for resale.",
+        "grade": "A++ for the four reported commission relationships pending direct primary verification; A for Baker resale interpretation"
+      },
+      {
+        "claim": "The Station stopped producing further microscopic preparations because sales did not cover costs.",
+        "grade": "A++ pending direct primary verification"
+      }
+    ],
+    "guard": "These statements are useful locators and working extractions, but are not promoted to S until the German primary passage on pp. 130-131 is visually or textually checked."
+  },
+  "trade_network_interpretation": {
+    "mechanism": "research station production → numbered catalogue commodity → bulk/commission sale to established microscope-slide and optical dealers → potential resale into dispersed private and institutional collections",
+    "significance": "Naples preparations were not only direct research-station outputs. At least part of the commercial programme appears to have used existing dealer infrastructures, allowing a Station product number to circulate through a second commercial address layer.",
+    "comparison": "This is structurally different from Cole's subscriber serial and Elcock's maker/dealer network: the producer is a research institution that attempts to monetize standardized microscopic preparations through external trade intermediaries.",
+    "claim_level": "A++ mechanism pending primary dealer-table verification"
+  },
+  "archive_bridge": {
+    "repository": "Historical Archive of the Stazione Zoologica Anton Dohrn (ASZN)",
+    "official_scope": ["correspondence", "general affairs registers", "copybooks", "manuscripts", "institutional administrative and scientific records"],
+    "research_value": "The archive categories are exactly those likely to retain order, invoice, dispatch, commission or dealer correspondence capable of turning the 1882-1884 sales summary into transaction-level histories.",
+    "grade": "S archive locator; contents of specific dealer files not yet inspected"
+  },
+  "named_archive_queries": [
+    "Edmund Wheeler / Whaler, February 1882, 225 preparations",
+    "R. & J. Beck, London",
+    "Edward Ward, Manchester",
+    "Gustav Schneider, Basel",
+    "Charles Baker, London",
+    "mikroskopische Präparate / Präparaten-Verkauf / Commission / Rechnung / Versand / Bestellung / Copialettere 1882-1884"
+  ],
+  "critical_guards": [
+    "Do not attach St Andrews BPM/1/T8/6 or any other surviving copy to Wheeler, Beck, Ward, Schneider or Baker without individual-copy provenance.",
+    "Do not convert a catalogue offering number into a unique serial number; multiple physical copies could correspond to one offering.",
+    "Do not treat Baker as a documented commission reseller until the primary report wording is checked; Stevenson labels resale there as probable.",
+    "Do not assign post-1880 slides to Fritz Meyer merely from Naples provenance; Meyer died in 1880 and later Station production continued under other hands."
+  ],
+  "next": [
+    "Visually inspect Mittheilungen Bd. 6 (1886), pp. 130-131 and transcribe the complete dealer-sales passage/table verbatim enough to close names, quantities, dates, commission wording and the profitability statement.",
+    "Then query ASZN correspondence/copybooks/accounts for the five named dealers, starting with Wheeler February 1882 because quantity and month are already bounded.",
+    "Only after transaction records are found, compare dealer stock catalogues/labels to surviving Naples slides for resale traces."
+  ]
+}
