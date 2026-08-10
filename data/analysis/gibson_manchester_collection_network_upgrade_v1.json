@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0-gibson-manchester-collection-network-upgrade",
+  "generated": "2026-08-10",
+  "title": "The Gibson microscope-slide cabinet as a surviving mixed commercial and society network: Manchester 2025 evidence upgrade",
+  "status": "S_OBJECT_AND_ADDRESS_ARCHITECTURE__A_PLUS_PLUS_S_CANDIDATE_SOUTHPORT_SOCIETY_PROVENANCE",
+  "builds_on": [
+    "data/analysis/surviving_commercial_slide_cabinets_crosswalk_v1.json",
+    "data/analysis/global_archive_research_priority_v3.json",
+    "sources/source-registry-08.json#GB-MANCHESTER-GIBSON-CABINET"
+  ],
+  "principal_source": {
+    "citation": "David Sigee, Stephanie Seville and Peter Mohr, 'The Gibson microscope slide collection in the Museum of Medicine and Health, University of Manchester', Journal of the History of Collections 37.3 (2025), 507–529",
+    "doi": "10.1093/jhc/fhaf035",
+    "url": "https://academic.oup.com/jhc/article/37/3/507/8653474",
+    "source_status": "peer-reviewed open-access collection study; slide-by-slide examination by the authors"
+  },
+  "principal_upgrade": {
+    "previous_state": "A+ private Victorian cabinet comparator; tray-count conflict and supplier structure incompletely resolved",
+    "new_state": "The 2025 peer-reviewed study supplies a quantified object-level architecture: 681 slides in 25 numbered trays, each slide addressed by tray position, 34 named suppliers, 86% producer-labelled, and a strongly north-western supplier network. This is sufficient for S-level survival of the mixed cabinet and its address/supplier architecture. The proposed derivation from the Southport Society of Natural Science remains an evidence-based historical inference rather than a documented provenance chain.",
+    "grade": {
+      "surviving_cabinet_and_position_architecture": "S",
+      "supplier_network_and_quantified_composition": "S",
+      "southport_society_derivation": "A++/S-candidate",
+      "individual_historical_purchase_events": "OPEN unless separately documented",
+      "catalogue_row_to_individual_slide_crosswalk": "A+/S-candidate for selected makers; not yet executed systematically"
+    }
+  },
+  "physical_and_address_architecture": {
+    "total_slides": 681,
+    "numbered_trays": 25,
+    "slides_per_tray_range": "24–30",
+    "cabinet": "glass-fronted mahogany cabinet",
+    "address_rule": "Each slide is listed by number in relation to its position within a tray.",
+    "dated_slides": 301,
+    "dated_object_range": "1867–1926",
+    "formation_phases_reported": [
+      {"phase": 1, "date_range": "1867–1886", "share_percent": 8},
+      {"phase": 2, "date_range": "1889–1898", "share_percent": 88},
+      {"phase": 3, "date_range": "1903–1926", "share_percent": 4}
+    ],
+    "guard": "Dates on slides are production dates, not necessarily acquisition dates. The article itself treats multi-phase collection as probable rather than proven."
+  },
+  "supplier_network": {
+    "named_agents_total": 34,
+    "producer_labelled_share_percent": 86,
+    "largest_contributors": [
+      {"name": "F. J. Baildon", "slides": 155, "share_percent": 23},
+      {"name": "G. W. Chaster", "slides": 93, "share_percent": 14},
+      {"name": "W. Watson & Sons", "slides": 79, "share_percent": 12},
+      {"name": "R. Jones", "slides": 77, "share_percent": 11}
+    ],
+    "top_four_combined_share_percent": 60,
+    "north_west_suppliers": {
+      "supplier_count": 14,
+      "locations": {"Southport": 8, "Manchester": 4, "Liverpool": 2},
+      "collection_share_percent": 62
+    },
+    "southport_society_members_named_in_source": 12,
+    "cross_project_minor_makers": [
+      {"name": "Cole Deum", "slides": 1, "interpretation": "direct mixed-cabinet endpoint for the Cole commercial/publication maker namespace; subject/number still needs slide-level record"},
+      {"name": "Norman preparer", "slides": 2, "interpretation": "direct surviving Norman-labelled/preparer endpoint; catalogue-row identity remains open"},
+      {"name": "E. Wheeler", "slides": 1, "interpretation": "slide 1.4 is published in the article and can be tied to Wheeler trade/catalogue research"}
+    ]
+  },
+  "diagnostic_objects": [
+    {
+      "address": "1.4",
+      "object": "Sulphate of cadmium",
+      "supplier": "E. Wheeler",
+      "label_address": "48 Tollington Road, Holloway, London",
+      "date": 1880,
+      "label_instruction": "For Polariscope",
+      "research_value": "A single commercial preparation simultaneously preserves maker, retail address, date, object identity and viewing instruction; high-value target for Wheeler catalogue reverse matching."
+    },
+    {
+      "address": "3.21",
+      "object": "Marine diatoms, Challenger Expedition",
+      "supplier": "F. J. Baildon",
+      "supplier_place": "Southport",
+      "date": 1874,
+      "label_locality": "Lat. 55.55 S, Long. 108.35 E, Depth 1950 fath.",
+      "source_interpretation": "The article identifies the material with Challenger Expedition sample no. 157, 3 March 1874.",
+      "research_value": "Creates a bounded Challenger -> distributed raw/sample material -> local slide preparer -> private/society cabinet route independent of the NHM sediment cabinet."
+    }
+  ],
+  "southport_society_bridge": {
+    "secure_facts": [
+      "The dominant dated acquisition/production phase, 1889–1898, overlaps the foundation and early years of the Southport Society of Natural Science in 1890.",
+      "A substantial share of slides came from Southport and the surrounding north-west.",
+      "Twelve north-west suppliers listed in the article are recorded as members of the Southport Society of Natural Science; F. J. Baildon was a founder member and four-time president.",
+      "The cabinet predates Arthur Gibson, who moved to Southport only in 1948 and donated the collection to the museum in 1977."
+    ],
+    "article_inference": "The authors state that it seems likely the collection represents an accumulation of slides donated by members of the society and made available for general viewing, analogous to a microscopical-club internal collection.",
+    "grade": "A++/S-candidate",
+    "what_would_close_S": [
+      "Southport Society accession/donation/cabinet list",
+      "historical society inventory naming cabinet contents or slide donors",
+      "ownership label or cabinet mark tying the cabinet directly to the society",
+      "documented transfer from the society or a member into Gibson's custody"
+    ],
+    "guard": "Do not rewrite the article's 'seems likely' derivation as documented society ownership."
+  },
+  "correction_to_previous_backend": {
+    "tray_count": "Use 25 numbered trays as the current authoritative physical description. The earlier University blog statement of 22 trays is superseded for current analytical use by the 2024 collection description and especially the 2025 peer-reviewed slide-by-slide study.",
+    "priority": "Promote Gibson from A+ comparator to S-level surviving mixed-cabinet/address/supplier-network case."
+  },
+  "analytical_payoff": {
+    "core_mechanism": "A mixed cabinet can preserve transaction residues through a durable conjunction of tray address, producer label, specimen identity, locality, date and preparation/viewing instruction even when original purchase events are lost.",
+    "comparison_with_cole": "Cole's cabinet preserves a publisher-designed serial address system. Gibson preserves a later mixed address system that composes many makers and amateur suppliers into one local collection. The contrast separates publication binding from collection binding.",
+    "comparison_with_norman": "Two Norman-preparer slides create a small but direct surviving endpoint for the Norman commercial-maker layer outside St Andrews; they do not replace the need for the 1872 catalogue/item export crosswalk.",
+    "comparison_with_challenger": "The Baildon slide shows expedition material acquiring a new maker and cabinet address after collection, useful for studying how a sample becomes a commercial/private preparation."
+  },
+  "next_bounded_actions": [
+    {
+      "rank": 1,
+      "action": "Obtain/export the Museum of Medicine and Health tray-by-tray slide list or database rows for all 681 positions.",
+      "payoff": "Would permit exact maker/subject/date/locality reverse crosswalk against the UK corpus and trade catalogues without new discovery."
+    },
+    {
+      "rank": 2,
+      "action": "Extract the 79 Watson & Sons slides, 2 Norman slides, 1 Cole Deum slide, and 1 Wheeler slide as a bounded cross-project subset.",
+      "payoff": "Could close several catalogue/publication-to-surviving-object relations cheaply."
+    },
+    {
+      "rank": 3,
+      "action": "Search/request Southport Society of Natural Science reports, cabinet/inventory records or provenance documentation only for evidence capable of proving cabinet ownership/formation.",
+      "payoff": "Could promote the society-provenance layer from A++ to S."
+    }
+  ],
+  "stop_rule": "Do not broaden into a new Manchester/Southport collection survey. The high-value remaining work is row export, selected-maker crosswalk and direct society-provenance documentation."
+}
