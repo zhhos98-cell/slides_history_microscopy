@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0-repository-state",
+  "schema_version": "1.0.1-repository-state",
   "generated": "2026-08-10",
   "status": "CANONICAL_REPOSITORY_STATE",
   "purpose": "Top-level authority map for the microscope-slide repository. This file identifies the current state of each evidence/publication layer while preserving older versioned files as audit history.",
@@ -49,7 +49,8 @@
       "rule": "Harvest evidence enriches frozen nodes and cannot reopen census membership."
     },
     "website": {
-      "authority": "index.html + site.js + bibliography/ + sources/",
+      "authority": "index.html",
+      "related_files": ["site.js", "bibliography/index.html", "sources/index.html", "pages-version.txt"],
       "status": "PRESENTATION_LAYER",
       "rule": "Pages cards and labels never override survey, source, or analysis authority."
     }
