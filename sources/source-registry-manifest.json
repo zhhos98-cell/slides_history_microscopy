@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "title": "Microscope Slides in Motion — source registry manifest",
   "status": "CURRENT_SOURCE_REGISTRY_AUTHORITY",
   "chunks": [
@@ -19,7 +19,8 @@
   "counts": {
     "raw_records_across_chunks": 87,
     "superseded_duplicate_route_ids": 3,
-    "canonical_records": 84
+    "excluded_out_of_scope_ids": 1,
+    "canonical_records": 83
   },
   "superseded_ids": {
     "ZA-IZIKO-ENTOMOLOGY": {
@@ -33,6 +34,11 @@
     "NZ-TEPAPA-COLLECTIONS-ARCHIVES": {
       "canonical_id": "NZ-TEPAPA-NATURAL-HISTORY-ARCHIVES",
       "reason": "Same Te Papa natural-history/archive route and same primary URL; later record adds explicit Colonial Museum/Hector chronology and is the fuller canonical route."
+    }
+  },
+  "excluded_ids": {
+    "GB-SHEFFIELD-SORBY": {
+      "reason": "Cross-project residue. Sorby is intentionally outside the current microscope-slide project scope and must not appear in canonical/public source routing. The raw row remains only as audit history."
     }
   },
   "retained_shared_url_relations": [
@@ -67,5 +73,5 @@
     "tags"
   ],
   "relation_values": ["direct", "contextual", "portal"],
-  "note": "This registry is a research-routing layer and does not alter the frozen surviving-object census. Chunks preserve additive audit history; public/current consumers must suppress superseded_ids and use canonical_records. A shared URL is not itself a duplicate when it functions as a parent, institutional, or secondary route for distinct records."
+  "note": "This registry is a research-routing layer and does not alter the frozen surviving-object census. Chunks preserve additive audit history; public/current consumers must suppress both superseded_ids and excluded_ids and use canonical_records. A shared URL is not itself a duplicate when it functions as a parent, institutional, or secondary route for distinct records."
 }
