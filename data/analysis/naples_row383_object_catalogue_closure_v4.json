@@ -1,0 +1,55 @@
+{
+  "schema_version": "4.0.0-naples-row383-object-catalogue-closure",
+  "generated": "2026-08-10",
+  "title": "Naples catalogue offering 383 ↔ St Andrews BPM/1/T8/6",
+  "status": "CATALOGUE_OFFERING_IDENTITY_CLOSED__INDIVIDUAL_COPY_HISTORY_OPEN",
+  "builds_on": "data/analysis/naples_row383_page_verification_v3.json",
+  "decisive_source": {
+    "local_primary_ocr": "mittheilungenaus02staz_djvu.txt",
+    "derived_structured_file": "NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.xlsx / Catalogue_423",
+    "historical_source": "Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate, Mittheilungen aus der Zoologischen Station zu Neapel, Bd. II, signed August 1880, numbered catalogue pp. 242-253",
+    "printed_page": 253,
+    "verbatim_sequence": [
+      "382. Delphinus phocaena L. Milz",
+      "383. - - Penis",
+      "384. - - Hode",
+      "385. - - Niere"
+    ],
+    "ditto_reading": "Rows 383-385 inherit the taxon Delphinus phocaena L. from the immediately preceding explicit row. Catalogue offering 383 is therefore Delphinus phocaena L. — Penis."
+  },
+  "surviving_object": {
+    "repository": "University of St Andrews Libraries and Museums",
+    "collection": "Bell-Pettigrew Zoology microscope slide collection",
+    "parent": "Stazione Zoologica, Napoli, zoological microscope slides",
+    "id": "BPM/1/T8/6",
+    "title": "Delphinus phocaena",
+    "left_label": "Delphinus phocaena",
+    "right_label_public_transcription": "Panis 383",
+    "station_labels": "light-orange STAZIONE ZOOLOG / NAPOLI labels",
+    "former_address": "12/D/3",
+    "current_address": "BPM/1/T8/6; pigeon-hole T8"
+  },
+  "crosswalk": {
+    "institutional_origin": "match: Stazione Zoologica Napoli",
+    "taxon": "match: Delphinus phocaena",
+    "catalogue_number": "exact numeric match: 383",
+    "anatomical_wording": "near-match requiring transcription guard: catalogue has Penis; St Andrews public record transcribes the handwritten object label as Panis",
+    "result": "The conjunction of station provenance, taxon and exact number identifies BPM/1/T8/6 as an extant instance corresponding to catalogue offering 383. The one-letter Panis/Penis discrepancy remains a label-transcription issue and is not silently corrected."
+  },
+  "claim_levels": {
+    "catalogue_offering_383_definition": "S: Delphinus phocaena L., Penis",
+    "surviving_slide_corresponds_to_offering_383": "S/A++: strongly closed by independent station + taxon + exact-number agreement, with a one-letter anatomical-label transcription discrepancy",
+    "surviving_slide_is_the_same_individual_copy_as_any_1880_or_1881_shipment": "NOT_ASSERTED",
+    "manufacture_date_of_surviving_copy": "OPEN",
+    "preparator_of_surviving_copy": "OPEN unless separate object/source evidence closes it",
+    "price_for_row_383": "OPEN because OCR table-column alignment remains unresolved"
+  },
+  "critical_guards": [
+    "Do not silently normalize the St Andrews catalogue transcription 'Panis' to 'Penis'. The historical price-list row reads Penis; the object catalogue reads Panis. Preserve both source states.",
+    "Catalogue no. 383 is a product/offering address, not a unique physical serial number. Closing the offering identity does not establish which production batch or shipment produced the surviving St Andrews slide.",
+    "Do not infer Fritz Meyer personally prepared BPM/1/T8/6 merely because he directed/organized the Naples preparation department.",
+    "Do not assign a price until the page/table columns are visually checked; row text identity is independent of unresolved price alignment."
+  ],
+  "research_payoff": "This is the first strong surviving-object ↔ exact Naples catalogue-offering closure in the St Andrews group. The slide carries a catalogue-like product address through institutional dispersal: the same taxon and number survive alongside Naples labels, while later St Andrews storage adds further addresses. It upgrades the Naples case from catalogue → British shipment plus separate surviving group to a direct catalogue offering → surviving institutional object relation, without conflating offering identity with individual-copy provenance.",
+  "next": "No further web search is needed for row 383. Only inspect the slide image if resolving the Panis/Penis handwriting matters to a publication claim, or a page image if row-383 price is required."
+}
