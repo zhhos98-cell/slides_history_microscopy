@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0-analysis-current-state",
+  "generated": "2026-08-10",
+  "status": "CANONICAL_CURRENT_ANALYSIS_STATE",
+  "purpose": "Single machine-readable authority pointer for the current microscope-slide analysis state. Historical snapshots remain in the repository for audit, but this file identifies which outputs are current and which earlier states are superseded.",
+  "frozen_survey": {
+    "discovery_nodes": 307,
+    "strict_nineteenth_century_nodes": 155,
+    "status": "CLOSED_2026-08-09"
+  },
+  "bibliography": {
+    "version": "slide-locked-pass-19",
+    "total_entries": 206,
+    "research_entries": 88,
+    "primary_object_entries": 118,
+    "publication_languages": 19,
+    "status": "PARKED_AS_AUDIT_PUBLIC_STATE"
+  },
+  "research_mode": "UK_US_EUROPE_CLOSURE_ONLY",
+  "public_web_discovery_queue": [],
+  "exact_source_request_queue": [
+    {
+      "rank": 1,
+      "target": "Charles Elcock — St Andrews ms21974-ms21975",
+      "source_needed": "page images or transcription of the two letters"
+    },
+    {
+      "rank": 2,
+      "target": "NHM HMS Challenger dataset",
+      "source_needed": "current 4,723-row resource binary"
+    },
+    {
+      "rank": 3,
+      "target": "Balfour surviving Zeiss objectives",
+      "source_needed": "ZEISS archive/accessory evidence for objective engravings 573, 1295, 710, 780, 542"
+    },
+    {
+      "rank": 4,
+      "target": "John Thomas Norman 1872 catalogue → St Andrews",
+      "source_needed": "complete Norman item/export layer with current addresses and label transcriptions"
+    }
+  ],
+  "current_authority_files": {
+    "human_direction": "CURRENT_DIRECTION.md",
+    "operational_router": "data/analysis/global_archive_research_priority_CURRENT.json",
+    "local_source_availability": "data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json",
+    "naples_383_closure": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+    "cole_primary_structure": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
+    "challenger_current_diagnostic_layer": "data/analysis/challenger_dataset_row_harvest_v2.json",
+    "balfour_publication_side": "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
+    "elcock_archive_locator": "data/analysis/elcock_standrews_1884_letters_v5.json"
+  },
+  "supersession_map": [
+    {
+      "file": "data/analysis/naples_row383_page_verification_v3.json",
+      "state": "SUPERSEDED_HISTORICAL_NEGATIVE_CHECK",
+      "superseded_by": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+      "reason": "Local primary OCR later recovered rows 382-385 and closed offering 383."
+    },
+    {
+      "file": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v1.json",
+      "state": "HISTORICAL_BATCH_SNAPSHOT",
+      "superseded_by": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json"
+    },
+    {
+      "file": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
+      "state": "HISTORICAL_BATCH_SNAPSHOT",
+      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json",
+      "reason": "Later residual/local-source passes reduced the queue and closed Naples 383."
+    },
+    {
+      "file": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
+      "state": "HISTORICAL_RESIDUAL_SNAPSHOT",
+      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json",
+      "reason": "The v3 residual queue still contained Naples 383 before local OCR closed it."
+    },
+    {
+      "file": "data/analysis/four_target_execution_status_2026-08-10.json",
+      "state": "HISTORICAL_EXECUTION_SNAPSHOT",
+      "superseded_by": "data/analysis/CURRENT_STATE.json"
+    },
+    {
+      "file": "docs/UK_US_RETURN_TO_CORE_2026-08-10.md",
+      "state": "HISTORICAL_DIRECTION_SNAPSHOT",
+      "superseded_by": "CURRENT_DIRECTION.md",
+      "reason": "It records the earlier pass-17 pause before passes 18-19 and the later closure work."
+    }
+  ],
+  "closed_or_substantially_closed_relations": [
+    "Arthur C. Cole vols I-II material-publication architecture",
+    "Cole Volume I surviving 52-slide material counterpart at near-S level",
+    "Charles Collins Jr. 1884/1885 series/event/survival chain",
+    "H. L. Smith Century III set architecture",
+    "Frederic Kitton Series III-IV set architecture",
+    "Andrew Pritchard 1835 catalogue/date/object bridge",
+    "John Thomas Norman collection-level exhibition → catalogue → survival chain",
+    "NHM Challenger address/dataset architecture and named diagnostic preparations",
+    "Balfour objective designation → publication-caption layer",
+    "Harvard Embryological Collection / Minot control architecture",
+    "Quekett/Oxford Cole archive-capability route",
+    "Naples catalogue offering 383 → St Andrews BPM/1/T8/6"
+  ],
+  "quantity_invariants": [
+    "307 discovery nodes and 155 strict nineteenth-century nodes are frozen census namespaces.",
+    "206 bibliography entries are bibliographic records, not objects.",
+    "423 Naples catalogue offerings are offerings, not surviving slides.",
+    "4,723 Challenger dataset records and 4,713 physical containers/objects are separate count states.",
+    "Serial positions, catalogue numbers, accession numbers, slide counts, preparation counts and cabinet capacities are never collapsed without explicit evidence."
+  ],
+  "cleanup_policy": {
+    "delete_historical_snapshots": false,
+    "reason": "Versioned analytical files are part of the audit trail. Cleaning means clarifying current authority, supersession and count namespaces rather than deleting evidentiary history.",
+    "resume_rule": "Resume a target only when an exact requested source arrives or creates a new bounded identifier."
+  }
+}
