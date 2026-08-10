@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0-cajal-simurg-multi-address-upgrade",
+  "generated": "2026-08-11",
+  "title": "Cajal Legacy: original cabinet addresses, successive inventories, archival storage and digital recombination",
+  "status": "S_LEVEL_PUBLIC_METADATA_ADDRESS_HISTORY",
+  "builds_on": [
+    "sources/source-registry-06.json#ES-MNCN-CAJAL-LEGACY",
+    "data/analysis/slide_archive_addressing_systems_v1.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "A+ comparator / strongest public-metadata re-addressing candidate",
+    "new_state": "S-level public-metadata address history. Simurg records expose, for the same surviving slide, original cabinet and tray coordinates, successive institutional inventory namespaces, a modern LC reference, a present archival signatura, condition/custody notes, and a persistent digital record.",
+    "guard": "S applies to the documented address-history architecture and selected records. It does not mean every preparation in the Legado has been exhaustively crosswalked or that all original cabinet coordinates are contemporaneous with Cajal's own active laboratory use."
+  },
+  "institutional_context": {
+    "current_custodian": "Museo Nacional de Ciencias Naturales, CSIC",
+    "deposit_date": "2023-06-08 for the sampled preparations",
+    "collection_scale": "MNCN describes the Legado Cajal as more than 28,000 scientific and personal objects, including histological preparations, drawings, documents, photographs, instruments and furniture.",
+    "surviving_storage_context": "The MNCN exhibition includes historical cabinets used to store scientific preparations, reinforcing that cabinet coordinates are part of a surviving material storage system rather than purely retrospective database fields.",
+    "sources": [
+      "https://www.mncn.csic.es/es/colecciones/documentacion/legado-cajal",
+      "https://www.mncn.csic.es/es/visita-el-mncn/exposiciones/el-legado-historico-de-santiago-ramon-y-cajal"
+    ]
+  },
+  "sample_records": [
+    {
+      "simurg": "https://simurg.csic.es/view/2062897",
+      "creator": "Santiago Ramón y Cajal",
+      "date": "1903",
+      "subject": "Glía de la corteza cerebral",
+      "label_note": "Muger / caliente / 23 horas",
+      "original_address": "Armario de Preparaciones AP.3, bandeja 19, 'corteza cer. normal'",
+      "inventory_namespaces": {"Gamundi": "01869", "Manzano": "3756", "other": "80057", "LC": "LC10378"},
+      "current_signatura": "E1.Caja1.Bandeja3.B80057"
+    },
+    {
+      "simurg": "https://simurg.csic.es/view/2064651/",
+      "creator": "Santiago Ramón y Cajal",
+      "subject": "Hipófisis humana",
+      "method": "Nitrato de plata reducido",
+      "original_address": "AP.3, bandeja 9, 'médula, epéndimo'",
+      "inventory_namespaces": {"Gamundi": "01859", "Manzano": "3540", "other": "80514", "LC": "LC10841"},
+      "current_signatura": "E1.Caja3.Bandeja8.C80514"
+    },
+    {
+      "simurg": "https://simurg.csic.es/view/2064883/",
+      "creator": "Santiago Ramón y Cajal",
+      "subject": "Corte sagital del encéfalo del ratón",
+      "method": "Nitrato de plata reducido",
+      "label_note": "14 / sagital",
+      "original_address": "AP.3, bandeja 39, 'calamar y vertebrados, interiores'",
+      "inventory_namespaces": {"Gamundi": "01889", "other": "80209", "LC": "LC10621"},
+      "current_signatura": "E1.Caja2.Bandeja2.C80209"
+    },
+    {
+      "simurg": "https://simurg.csic.es/view/9918478448404201",
+      "creator": "Santiago Ramón y Cajal",
+      "subject": "Gato operado",
+      "method": "Nitrato de plata reducido",
+      "label_note": "gato de / 25 dias / herida de / 24 horas",
+      "original_address": "AP.3, bandeja 4, 'selección neurofibrillas'",
+      "inventory_namespaces": {"Gamundi": "01854", "other": "80629", "LC": "LC10920"},
+      "current_signatura": "E1.Caja4.Bandeja4.C80629"
+    },
+    {
+      "simurg": "https://simurg.csic.es/view/2062843/",
+      "creator": "Santiago Ramón y Cajal",
+      "subject": "Perro joven, autolisis",
+      "method": "Nitrato de plata reducido",
+      "label_note": "Perro joven / Autolisis / 8 horas estufa / cámara húmeda / sin sol",
+      "original_address": "AP.3, bandeja 15, 'selección Golgi'",
+      "inventory_namespaces": {"Gamundi": "01865", "other": "80403", "LC": "LC10455"},
+      "current_signatura": "E1.Caja3.Bandeja2.D80403"
+    },
+    {
+      "simurg": "https://simurg.csic.es/view/9918478523504201",
+      "creator": "Dr. Sigmund / commercial preparation",
+      "subject": "Oreja de gato, membrana del tímpano, sección transversal",
+      "maker_label": "Prof. Dr. Sigmund / Histologia / Physiologica / Stuttgart / Carl Zeiss",
+      "catalogue_note": "Simurg describes it as a commercial preparation possibly used by Cajal for histology teaching.",
+      "original_address": "AP.1, bandeja 57",
+      "inventory_namespaces": {"Gamundi": "01607", "Manzano": "2535", "other": "82522", "LC": "LC13538"},
+      "current_signatura": "E4.Caja16.Bandeja6.A82522",
+      "guard": "Possible teaching use is the catalogue's interpretation, not a demonstrated historical transaction or course record."
+    }
+  ],
+  "address_chain": [
+    "physical slide + handwritten/printed label",
+    "Armario de Preparaciones AP.x + numbered/named bandeja",
+    "Gamundi inventory number",
+    "Manzano inventory number where present",
+    "other historical inventory number",
+    "LC reference number",
+    "present archive signatura (Estantería/Caja/Bandeja/object code)",
+    "Simurg persistent digital record"
+  ],
+  "research_result": "Cajal is now the cleanest public example in the project of a modern catalogue preserving obsolete and current address systems simultaneously. The database does not erase re-cataloguing; it exposes the crosswalk. This makes the preparation's history of retrieval directly studyable without first reconstructing it from dispersed paper records.",
+  "comparison_with_cole": "Cole's nineteenth-century index binds a serial publication to fixed cabinet addresses and survives despite replacement slides. Cajal's Simurg layer performs a later archival operation: it binds one physical slide to several successive historical and modern namespaces. Cole shows address persistence within a publication; Cajal shows address translation across institutional regimes.",
+  "next_action": "Sample one original AP tray as a bounded unit and export every surviving slide in that tray to test whether the historical tray category itself can be reconstructed as an active research or teaching grouping, rather than treating records individually.",
+  "stop_rule": "No broad Cajal biography is needed. Continue only with a bounded AP tray, a named teaching-commercial subset, or a manuscript/drawing crosswalk that changes the historical function of an address."
+}
