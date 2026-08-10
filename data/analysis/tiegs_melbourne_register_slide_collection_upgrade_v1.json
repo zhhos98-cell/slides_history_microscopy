@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0-tiegs-melbourne-register-slide-upgrade",
+  "generated": "2026-08-11",
+  "title": "University of Melbourne Tiegs Museum: pre-register teaching collection, 1893 specimen register, surviving slide collection and modern re-addressing",
+  "status": "S_MUSEUM_REGISTER_AND_SLIDE_COLLECTION_ARCHITECTURE__SLIDE_TO_REGISTER_CROSSWALK_OPEN",
+  "builds_on": [
+    "sources/source-registry-08.json#AU-MELBOURNE-TIEGS-HISTORICAL-SLIDES",
+    "data/analysis/institutional_slide_teaching_ecologies_v1.json",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "The Tiegs Museum was an A+ comparator because an extensive historical microscope-slide collection and Spencer-related material were known to survive, but nineteenth-century item-level addressing had not been reconstructed.",
+    "new_state": "University historical research identifies the actual departmental Register of Specimens, begun in 1893, and shows how a teaching collection founded in 1887 accumulated for six years before formal cataloguing. Current University documentation independently confirms an extensive microscope-slide collection with Spencer and former-researcher contributions. A current Victorian Collections object demonstrates that old register/batch information can still be translated into a modern MUZD identifier, though the available example is a skeleton rather than a slide.",
+    "grade": {
+      "museum_and_teaching_collection_survival": "S",
+      "microscope_slide_collection_survival": "S collection-level",
+      "historical_register_identity_and_start_date": "S",
+      "old_register_to_modern_MUZD_object_readdressing": "S demonstrated on a non-slide object",
+      "Spencer_or_other_nineteenth_century_slide_to_historical_register": "OPEN",
+      "nineteenth_century_slide_subset": "A+/S-candidate pending inventory/labels"
+    }
+  },
+  "institutional_architecture": {
+    "museum_founded": 1887,
+    "founding_context": "Walter Baldwin Spencer specified a Biology building with laboratories, live-animal/dissection space, aquarium and greenhouse. Because National Museum specimens were considered too valuable for student handling, Spencer built a separate teaching collection for actual use.",
+    "current_slide_endpoint": "The University states that the Tiegs Museum retains an extensive microscope-slide collection, including contributions from Walter Baldwin Spencer and other former departmental researchers, and that the museum remains important to undergraduate teaching.",
+    "register": {
+      "title": "Register of Specimens in the Museum of the Biological School, University of Melbourne",
+      "start": 1893,
+      "function": "Catalogue of most of the museum collection and the principal primary source for the museum's early history.",
+      "pre_register_gap": "The collection began in 1887, but aside from sketchy labels there was no systematic written record for about six years.",
+      "example_of_retroactive_addressing": "A shell collected by Spencer in Queensland in 1892 was entered later as register entry 159; the object therefore existed before its formal catalogue address.",
+      "first_recorded_entry": "Entry 1, Bufo vulgaris, donated by Mr Boulanger / British Museum, 1893.",
+      "international_batch_example": "Prague Museum exchange, 1902, register entries 1208–1217, noted as received named.",
+      "recording_limit": "The historical account repeatedly notes incomplete metadata and later losses/disposals; the register is a powerful address system but was never a complete transparent mirror of the physical collection."
+    }
+  },
+  "modern_readdressing_demonstration": {
+    "object": "Grey Currawong mounted skeleton",
+    "current_identifier": "MUZD1116",
+    "historical_record_state": "Recorded with a batch transferred from the 'Nat. Sc. Dept' in September 1899; Frederick McCoy is entered as identifier. Current catalogue reconstructs the batch as MUZD1113–1126.",
+    "physical_mark": "An older accession number '2259' is written on the sternum.",
+    "significance": "The object demonstrates how historical register/batch information and an older physical number are carried into the modern MUZD namespace.",
+    "guard": "This object is a skeleton, not a microscope slide. It proves the museum's re-addressing practice, not the slide-specific crosswalk."
+  },
+  "research_mechanism": {
+    "chain": "working teaching collection before formal catalogue -> 1893 register address -> later transfers/reclassification -> modern MUZD address",
+    "strong_claim": "At Melbourne, cataloguing followed collecting. The 1893 register imposed a retrievable institutional address on a teaching collection that had already existed for six years, and modern cataloguing can still preserve or reconstruct older batch and object addresses.",
+    "slide_specific_question": "Can one Spencer or other nineteenth-century microscope slide be followed from surviving label -> 1893 register or later departmental register -> current storage/MUZD address?",
+    "comparison": {
+      "Cole": "address system designed with the publication from the outset",
+      "Cajal": "successive institutional addresses accumulate around the same preparation",
+      "Tiegs": "formal institutional address arrives after collection growth and retrospectively orders a pre-existing teaching collection"
+    }
+  },
+  "critical_guards": [
+    "Do not assume the 1893 specimen register contains every historical microscope slide; the source itself describes incomplete early recordkeeping.",
+    "Do not infer that every current Spencer-attributed slide dates to the nineteenth century without maker/date/label evidence.",
+    "Do not use the MUZD1116 skeleton as slide provenance; it is a control demonstrating the museum's address translation practice.",
+    "Keep collection survival, nineteenth-century subset identification and item-level register crosswalk as separate evidential layers."
+  ],
+  "next_bounded_actions": [
+    "Request/export the microscope-slide inventory filtered by creator/contributor Spencer and date before 1900, including label text and current box/tray/storage address.",
+    "For two or three nineteenth-century slide candidates, query the 1893 Register and any later departmental slide registers using subject, donor/preparator, locality and old number.",
+    "Photograph front/back labels before any broad Melbourne archival search; use those exact terms against the Register and Registrar correspondence."
+  ],
+  "sources": [
+    "https://biosciences.unimelb.edu.au/engage/tiegs-museum/history-of-the-museum",
+    "https://biosciences.unimelb.edu.au/__data/assets/pdf_file/0006/2857758/A-History-of-the-Tiegs-Museum-1887-1959.pdf",
+    "https://victoriancollections.net.au/items/59d30f0121ea6b1898a1f754"
+  ]
+}
