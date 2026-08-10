@@ -2,7 +2,9 @@
 
 Date: 2026-08-10
 
-Status: **PARKED FOR LATER READING**
+Status: **HISTORICAL SNAPSHOT — SUPERSEDED**
+
+> This note records the pass-17 decision point and is retained as an audit snapshot. It is no longer the operational research router. Passes 18–19 were subsequently merged, the bibliography reached 206 entries, and the project moved to closure-only work. Current authority is `CURRENT_DIRECTION.md`, `data/analysis/CURRENT_STATE.json`, and `data/analysis/global_archive_research_priority_CURRENT.json`. One factual correction is applied below: Pritchard's preparation-list target is 1835, not 1837.
 
 ## Decision
 
@@ -60,7 +62,7 @@ See `data/analysis/material_slide_publication_forms_v2.json` for the stricter ta
 
 5. **John Thomas Norman 1872 catalogue + St Andrews labels.** Crosswalk catalogue wording to surviving labels and then to UK corpus reuse, including the use of Norman preparations as objective-test objects.
 
-6. **Andrew Pritchard 1837 catalogue + Whipple cabinet.** Locate the original catalogue and compare advertised categories/prices to surviving Pritchard-labelled commercial mounts, homemade preparations, broken slides and cabinet structure.
+6. **Andrew Pritchard 1835 preparation catalogue + Whipple cabinet.** Locate the original 1835 preparation list and compare advertised categories/prices to surviving Pritchard-labelled commercial mounts, homemade preparations, broken slides and cabinet structure. The earlier 1837 date in this project note was a conflation with _Micrographia_.
 
 Machine-readable priorities are in `data/analysis/uk_us_object_to_corpus_expansion_v1.json`.
 
@@ -81,4 +83,4 @@ For the US, the working rule is **British connection first**. H. L. Smith/Farlow
 
 ## Resume point
 
-When the project is actively resumed, **start by reading and structuring Cole**, not by discovering more collections.
+Historical note only: at this decision point the intended resume task was Cole. Cole vols. I–II and the subsequent closure batch have since been completed; consult the current-state files instead of using this section as a live queue.
