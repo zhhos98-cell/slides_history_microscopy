@@ -1,12 +1,18 @@
-# Frozen 155 → UK microscopy corpus expansion queue — v1
+# Frozen 155 → UK microscopy corpus expansion — current status
 
-This is a **derived routing and evidence layer** over the sealed `CLOSED_2026-08-09` 155-entry microscope-slide catalogue. It does not alter the frozen catalogue or reopen discovery.
+This directory is a **derived object↔text routing and evidence layer** over the sealed `CLOSED_2026-08-09` 155-node surviving-object catalogue. It does not alter frozen membership, source wording or object provenance claims.
 
-The purpose is to use surviving-object nodes to decide what textual material is worth adding next to the nineteenth-century microscopy corpus, and then to record object↔text closures without rewriting the source catalogue.
+Before using any queue/status file here, consult:
 
-## Current text corpus used for routing
+1. `../CURRENT_STATE.json` — canonical current analysis state;
+2. `../global_archive_research_priority_CURRENT.json` — live request-only router;
+3. this directory for the underlying object↔text evidence and historical routing snapshots.
 
-Literal routing checks and contextual verification use the seven current UK microscopy masters:
+The current state is **public-web closure exhausted**. General periodical/source discovery is parked. Four exact-source requests remain elsewhere in the analysis layer: the two Elcock letters, the NHM Challenger binary, ZEISS archive/accessory evidence for Balfour, and the St Andrews Norman item/export layer.
+
+## Historical corpus basis
+
+The routing work was built against seven UK microscopy masters:
 
 - `01A_UK_Microscopy_Core_Early_Central_1844-1877`
 - `01B_UK_Microscopy_Core_Professional_1869-1886`
@@ -16,124 +22,60 @@ Literal routing checks and contextual verification use the seven current UK micr
 - `02C_UK_Microscopy_Extensions_1876-1883_and_Special_OCR`
 - `03_UK_Microscopy_BNA_MASTER`
 
-The practical corpus window is therefore treated as approximately **1844-1886**. A node wholly after 1886 or before 1844 receives a priority penalty unless its historical chain crosses into the current corpus window.
+Literal actor/name matches in those masters were routing signals only. Contextual reading was required before a relation became evidence. The same discipline applies to object reverse matching: shared taxon, maker, number or institution is insufficient by itself to establish physical identity.
 
-## Important limitation
-
-`exact actor` and `distinctive surname` signals are routing evidence only. They are fixed-string/OCR presence tests, not verified historical hits. Counts can be inflated by repeated metadata, indexes, OCR duplicates, or repeated source units. Every positive signal still requires inspection of the actual text context before it becomes evidence.
-
-The same rule applies to catalogue reverse matching: taxon, stage and preparation-language matches are candidates until a contextual source record establishes Naples provenance or another explicit relation. Shared taxonomy alone never establishes physical-object identity.
-
-## Queue structure
-
-The external planning workbook/CSV separates four tracks:
-
-1. **Expansion gaps** — event-rich, trade-rich, or serial-set object nodes with no or weak reliable actor signal in the present textual corpus.
-2. **Immediate bridges** — object nodes whose named actors already have exact literal signals in the current corpus, making them strong candidates for rapid object↔text closure.
-3. **Serial sets** — published/distributed numbered preparations, kept separate because serial endpoints are not surviving-slide totals.
-4. **Custody gaps** — surviving nodes for which the museum-facing object source gives present custody but no explicit historical acquisition/transfer route.
-
-The queue also stores suggested source families, bounded search strings, event hooks, corpus-window fit, and manual status fields.
-
-## v1 routing counts
-
-- 155 frozen object nodes routed.
-- Priority: **7 P1**, **30 P2**, **38 P3**, **80 P4**.
-- Actor-routing signal: **25 strong exact**, **14 moderate exact**, **12 weak exact**, **30 multi-corpus surname-only**, **6 surname-only**, **68 no reliable actor signal**.
-- 21 nodes form the first `Expansion_Gaps` sheet after current-window and canonical-saturation adjustments.
-- 32 nodes form the first `Immediate_Bridges` sheet.
-- 7 nodes are isolated as published/distributed `Serial_Sets`.
-- 76 nodes are marked as `Custody_Gaps`.
-
-## First contextual verification pass
-
-The literal-routing layer understated several actors because initials, OCR variants and name forms disrupted exact matching. Contextual reading validated the object-first method quickly.
+## Current closures represented in this directory
 
 ### Eulenstein
 
-QJMS 1867 pp. 64-65 describes two series, slide format, labelling, five 100-species parts and ordering through R. & J. Beck. *Science-Gossip* 1867 p. 188 describes five sections of 100 mounted slides and solicits English diatom gatherings. QJMS 1869 pp. 325-326 records Eulenstein's purchase of the late Dr Arnott's diatom material and his readiness to issue series from it. The 1869 Arnott event is retained as related circulation evidence, not silently equated with the surviving 1867 Farlow set.
+The 1867 QJMS and *Science-Gossip* records close the published-series programme, slide format, labels, five 100-species parts, ordering through R. & J. Beck and solicitation of English diatom material. The 1869 Arnott-material event remains a related later circulation event and is not silently identified with a surviving 1867 Farlow set.
 
-### Charles Collins
+### Charles Collins Jr.
 
-*Science-Gossip* 1884 p. 87 identifies the issuing slide maker as Charles Collins Jr., nephew of the microscope maker. An 1885 advertisement in the *Journal of Microscopy and Natural Science* lists three priced `Special` Micro Slide series and states that Collins Jr.'s slides were stocked at the senior Collins shop. *Microscopical News and Northern Microscopist* IV (1884), p. 109, `Fish Scales`, is bibliographically located through a source-specific transcription; the primary scan remains optional.
+The object↔text chain is closed at series/event/survival level. *Science-Gossip* identifies Charles Collins Jr. as the issuing slide maker; the 1885 advertisement gives priced `Special` series and the Great Portland Street retail route; the 1884 `Fish Scales` notice is bibliographically located at *Microscopical News and Northern Microscopist* IV, p.109. A primary scan of that single notice is now **optional context**, not an active closure requirement.
 
 ### H. L. Smith
 
-The RMS cabinet report records 146 diatom slides presented by Smith in 1867; these predate the 1876-1888 published set and remain separate. Quekett 1876 p. 177 contains Smith's mounting method. The *Monthly Microscopical Journal* XVII (1877), pp. 100-101, directly describes Century I: 100 slides, five pasteboard trays, numbered catalogue/labels, diamond-written slide numbers, and material obtained from Smith's own gatherings, the de Brébisson collection, and exchange or otherwise. The August 1878 Century III item is bibliographically located in the *American Journal of Microscopy and Popular Science*, vol. 3; its primary page text remains unparsed.
+Century I is directly closed in British reception: 100 slides, five pasteboard trays, numbered catalogue/labels and diamond-written slide numbers. Century II reception is also documented. Surviving Farlow architecture fixes Century III at nos. 201–300. The exact August 1878 Century III notice is **optional reception chronology**, not an active discovery target. The 146 slides given to the RMS in 1867 remain a separate earlier event.
 
-### Kitton
+### Frederic Kitton
 
-*Science-Gossip* 1884 p. 260 reports the first Norfolk Diatomaceae series issued in a case, with named slides and catalogue; the 1885 volume p. 18 reports the second series of the `Century`. Quekett 1885 p. 178 links the set to Kitton's broader Norfolk diatom work. A direct contemporary source for Series III-IV remains optional rather than urgent.
+Contemporary notices close Series I and II; surviving Farlow architecture closes the full Series I–IV / nos.1–100 structure, with III = 51–75 and IV = 76–100. A Series III–IV launch prospectus is optional chronology only.
 
-## Naples / Fritz Meyer P1 sequence
+### Naples / Stazione Zoologica
 
-The Naples target has moved from discovery to a product-level historical corpus.
+The August 1880 price catalogue is fully parsed as **423 historical catalogue offerings**. This is an offering namespace, not a surviving-slide total. The UK circulation layer distinguishes finished slides, preserved specimens, British remanufacture and method circulation.
 
-### Source and parse
+For the 9 June 1880 Royal Microscopical Society shipment, twelve physical slides are named. Nine map exactly/strongly to catalogue offerings `42, 43, 67, 68, 71, 72, 86, 182, 186`; three remain bounded at `5|6`, `43–49`, and `231|232`. This closes a catalogue-offering → named British shipment/exhibition relation. It does **not** establish that any surviving St Andrews slide is one of those twelve June 1880 objects.
 
-The primary source is Anton Dohrn, `Preis-Verzeichniss der mikroskopischen Präparate, welche durch die Zoologische Station zu Neapel zu beziehen sind`, *Mittheilungen aus der Zoologischen Station zu Neapel*, Bd. II, pp. 238-253. The catalogue is signed **Neapel, August 1880**. The numbered offerings run 1-423.
+A separate surviving-object relation is now closed from the locally held primary catalogue. Printed p.253 reads:
 
-The uploaded IA DJVU text was parsed into **423 sequential historical catalogue offerings**. The 423 figure is a catalogue-offering count, not a surviving-slide total. Source-group counts are Protozoa 4; Coelenterata 33; Echinodermata 49; Vermes 33; Arthropoda 57; Mollusca in the source classification 54; Vertebrata 193. Price extraction remains partial: 148 row prices are securely aligned and 275 remain unresolved because OCR detached or reordered table columns.
+- `382. Delphinus phocaena L. Milz`
+- `383. -- Penis`
+- `384. -- Hode`
+- `385. -- Niere`
 
-The parse manifest is `NAPLES_1880_CATALOGUE_423_PARSE_MANIFEST_V1.json`.
+By ditto continuation, offering 383 is `Delphinus phocaena L., Penis`. St Andrews `BPM/1/T8/6` independently carries Stazione Zoologica Napoli labels, `Delphinus phocaena`, and the public right-label transcription `Panis 383`. This closes **catalogue offering 383 → surviving St Andrews object** at catalogue-offering identity level. It does not establish manufacture date, preparator, price or identity with a particular shipment copy. Preserve `Penis` and `Panis` as separate source readings. Current grading is in `../naples_row383_object_catalogue_closure_v4.json`.
 
-### British circulation crosswalk
+## Files and authority
 
-The bounded UK pass now records **eleven distinct object/specimen circulation or exhibition events**, plus separate catalogue-reception and method-circulation layers. The event layer distinguishes finished slides, preserved/biological specimens, off-catalogue British remanufacture, and preparation-method circulation.
+- `OBJECT_TEXT_BRIDGES_V1.csv` — verified bridge evidence and historical next-action prose. Treat status/next-action fields as dated routing metadata when they conflict with `../CURRENT_STATE.json`.
+- `OPEN_PRIMARY_SOURCE_TARGETS_V1.csv` — retained v1 target table, now normalized to current CLOSED / OPTIONAL / PARKED dispositions. It is no longer an active search queue.
+- `NAPLES_1880_CATALOGUE_423_PARSE_MANIFEST_V1.json` — authoritative manifest for the 423-offering parse.
+- `NAPLES_1880_UK_CIRCULATION_CROSSWALK_V1.csv` — bounded UK circulation/exhibition event layer.
+- `NAPLES_1880_UK_CIRCULATION_CROSSWALK_V1_README.md` — method and correction notes.
+- `NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv` — twelve-slide RMS shipment crosswalk.
+- `P1_TARGETS_1_2_OUTCOME_2026-08-09.md`, `P1_TARGET_3_NAPLES_1881_OUTCOME_2026-08-09.md`, `PROGRESS_LOG_2026-08-09.md` — historical dated research snapshots.
 
-A correction is important: the *Field* notice of 24 February 1883 reports a **Zoological Society** Bell exhibition of a selection of Naples preparations. It is separate from the **14 March 1883 RMS** event in which Bell explained **nineteen slides** received from Naples. Physical overlap is possible but remains `NOT_ASSERTED`.
+## Historical v1 routing snapshot
 
-New bounded events include T. Bolton's **11 November 1884 Birmingham** exhibition of `preserved specimens from the zoological stations at Naples`, and C. Baker's **May 1886 RMS** `Marine Objects from Zoological Station, Naples`. Neither wording is silently converted into `slides`.
+The original routing pass classified all 155 frozen nodes as 7 P1, 30 P2, 38 P3 and 80 P4; it generated 21 initial expansion gaps, 32 immediate bridges, 7 serial sets and 76 custody gaps. Those counts describe the **initial routing state**, not the present task queue. They are retained because they document how the object-first method was constructed.
 
-The event layer is `NAPLES_1880_UK_CIRCULATION_CROSSWALK_V1.csv` with methodological notes in `NAPLES_1880_UK_CIRCULATION_CROSSWALK_V1_README.md`.
+## Working rules
 
-### First item-level catalogue → Britain closure
-
-A reverse taxon/preparation pass recovered the detailed list for the **9 June 1880 Royal Microscopical Society** shipment.
-
-- `R24204`, JRMS printed p. 733: the Station donated **12 slides** through A. W. Waters; Mr Crisp called attention to them and they were exhibited under microscopes.
-- `R24207`, printed p. 736: all twelve slides are named.
-
-Comparison with the 423 catalogue yields **nine exact/strong item matches**:
-
-`42, 43, 67, 68, 71, 72, 86, 182, 186`.
-
-Three further slides are bounded but unresolved at item level:
-
-- *Amphioxus lanceolatus* → `231|232`;
-- *Ascetta bianca* → `5|6`;
-- *Asteracanthion/Asterias glacialis* larva → developmental block `43-49`.
-
-The exact row-level mapping is `NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv`.
-
-This is the first defensible `catalogue offering → named British physical slide shipment/exhibition` closure in the Naples pass. It is **not** yet a three-point `catalogue → Britain → surviving St Andrews object` identity. `same_physical_object_as_st_andrews` remains `NOT_ASSERTED` throughout.
-
-### Bounded negative results matter
-
-Immediate-context checks around the 1881 Crisp RMS selection, the 1882 C. Baker RMS Conversazione display and the 14 March 1883 Bell nineteen-slide RMS event did **not** recover a detailed Naples item list. Their catalogue-item identity therefore remains unresolved. These are recorded as bounded negative checks rather than prompts for open-ended crawling.
-
-## Working files
-
-- `OBJECT_TEXT_BRIDGES_V1.csv` — contextually verified object↔text bridges.
-- `OPEN_PRIMARY_SOURCE_TARGETS_V1.csv` — bounded source targets and resolved statuses.
-- `P1_TARGETS_1_2_OUTCOME_2026-08-09.md` — Smith/Collins source pass.
-- `P1_TARGET_3_NAPLES_1881_OUTCOME_2026-08-09.md` — Naples source location, parse and follow-up.
-- `NAPLES_1880_CATALOGUE_423_PARSE_MANIFEST_V1.json` — 423-row parse manifest.
-- `NAPLES_1880_UK_CIRCULATION_CROSSWALK_V1.csv` — UK object/specimen-circulation event layer.
-- `NAPLES_1880_UK_CIRCULATION_CROSSWALK_V1_README.md` — crosswalk method, correction log and interpretation.
-- `NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv` — twelve-slide RMS shipment mapped to catalogue items.
-- `PROGRESS_LOG_2026-08-09.md` — compact dated research log.
-
-## Recommended use
-
-For each queue row:
-
-1. run bounded actor/object/event or taxon/preparation queries;
-2. inspect the actual text context;
-3. record source ID, page/date, and the exact relationship asserted;
-4. distinguish `EXACT`, bounded family/programme correspondence, and unresolved identity;
-5. add genuinely new source units to the text corpus;
-6. never infer preparation from ownership/use or slides from generic `objects/specimens`;
-7. never collapse serial endpoints, cabinet capacities, current aggregates, catalogue offerings, database rows or surviving slides into one quantity namespace.
-
-This layer is intended to replace open-ended periodical sweeping with object-generated and catalogue-generated event-specific corpus expansion.
+- Inspect source context before promoting a name/OCR/taxon match to evidence.
+- Keep exact identity, bounded programme correspondence and unresolved identity distinct.
+- Keep catalogue offering, shipment object, surviving object, accession, serial position and database row in separate namespaces.
+- Never infer preparation from ownership/use or `slides` from generic `objects/specimens`.
+- When a chain is already sufficient for attribution, chronology, object identity or mechanism, additional prospectus/page hunting becomes optional rather than an automatic task.
+- Do not use this directory to restart broad global or US corpus harvesting.
