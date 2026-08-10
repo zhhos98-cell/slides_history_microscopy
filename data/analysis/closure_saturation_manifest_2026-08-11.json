@@ -1,0 +1,181 @@
+{
+  "schema_version": "1.0.0-closure-saturation-manifest",
+  "generated": "2026-08-11",
+  "status": "ANALYTICAL_SATURATION_REACHED__DISCOVERY_STOP__WRITE_FROM_CLOSED_CHAINS",
+  "purpose": "Freeze the 2026-08-10/11 upgrade sweep at the point where additional public discovery has sharply diminishing evidential return. Preserve exact-source residuals without converting them into a new open-ended search programme.",
+  "principles": [
+    "A case is promoted for an evidential mechanism, not for geographic coverage or collection size.",
+    "S at architecture or collection level does not imply item-level transaction closure.",
+    "Historical numbering, catalogue addresses, museum accessions, slide numbers, cabinet positions and modern digital IDs remain separate namespaces unless a source explicitly links them.",
+    "Resume a parked case only when a bounded source can change attribution, chronology, object identity, custody or mechanism."
+  ],
+  "major_closed_or_promoted_cases": [
+    {
+      "case": "Arthur C. Cole / Toovey's Volume I cabinet",
+      "state": "S set/cabinet address architecture; publisher-supplied subscriber-cabinet provenance still guarded",
+      "authority": [
+        "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v5_fullres_audit.json",
+        "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v6_cabinet_audit.json"
+      ],
+      "mechanism": "publication identity stabilized by fixed numbered wooden slots and index despite later preparation replacement/mismatch"
+    },
+    {
+      "case": "Quekett Microscopical Club",
+      "state": "S historical cabinet/circulation/reference architecture; item continuity to the current 20,000+ slide collection open",
+      "authority": "data/analysis/quekett_club_cabinet_circulation_authority_upgrade_v1.json",
+      "mechanism": "donation/exchange -> cabinet incorporation -> named authority -> free circulation -> supplementary textual instruction"
+    },
+    {
+      "case": "Hunterian / John Thomas Quekett",
+      "state": "S acquisition/teaching/catalogue/surviving-address architecture; selected catalogue-to-slide items A++/S-candidate pending direct primary cross-check",
+      "authority": "data/analysis/hunterian_quekett_catalogue_address_survival_upgrade_v1.json",
+      "mechanism": "preparation corpus -> institutional purchase -> demonstration -> printed catalogue -> historical alphanumeric address -> current museum address"
+    },
+    {
+      "case": "Charles Elcock / Whipple",
+      "state": "S workshop-to-market system; exact St Andrews Challenger correspondence remains request-only",
+      "authority": "data/analysis/elcock_whipple_workshop_to_market_upgrade_v1.json",
+      "mechanism": "raw material -> preparation operations -> type slide -> price/dealer network -> retained workshop exemplars/tools"
+    },
+    {
+      "case": "Oxford HSM / RMS cabinet",
+      "state": "S collection survival and museum re-addressing architecture; historical manuscript-catalogue to surviving-slide item bridge open",
+      "authority": "data/analysis/oxford_hsm_rms_cabinet_database_upgrade_v1.json",
+      "mechanism": "society cabinet/catalogue -> museum container/drawer/slide/specimen database"
+    },
+    {
+      "case": "Cajal Legacy",
+      "state": "S multi-address object histories",
+      "authority": "data/analysis/cajal_simurg_multi_address_upgrade_v1.json",
+      "mechanism": "one preparation translated across laboratory cabinet, successive inventories, legacy/archive and digital catalogue addresses"
+    },
+    {
+      "case": "Grunow / NHM Vienna",
+      "state": "S collection-system architecture plus representative historical sample-level closure",
+      "authority": [
+        "data/analysis/grunow_vienna_crossmedia_numbering_upgrade_v1.json",
+        "data/analysis/grunow_vienna_sample_level_closure_v2.json"
+      ],
+      "mechanism": "one sample number crosses raw material, slide variants, microscope coordinates, drawings, annotated books and remaking instructions"
+    },
+    {
+      "case": "Pacini / Florence",
+      "state": "S object-label-publication-remounting chain",
+      "authority": "data/analysis/pacini_florence_slide_publication_remounting_upgrade_v1.json",
+      "mechanism": "preparation identity persists through replacement of the glass carrier because case/publication address and historical label travel with it"
+    },
+    {
+      "case": "Van Heurck distributed estate",
+      "state": "S estate/re-addressing chain; item-level cross-institutional identity still open",
+      "authority": "data/analysis/van_heurck_distributed_estate_readdressing_upgrade_v1.json",
+      "mechanism": "integrated scientific estate repeatedly split and reassembled by museum, library, botanical and digital namespaces"
+    },
+    {
+      "case": "Henry J. Grayson / Melbourne",
+      "state": "S surviving test-plate and provenance chain; specific engine-to-plate identity open",
+      "authority": "data/analysis/grayson_melbourne_test_ruling_object_archive_upgrade_v1.json",
+      "mechanism": "numerical ruling scale preserves optical-reference function while wrappers and museum identifiers preserve custody history"
+    },
+    {
+      "case": "University of Tokyo Anatomy Department",
+      "state": "S archive architecture plus S surviving instrument endpoint; exact instrument-register crosswalk open",
+      "authority": "data/analysis/utokyo_anatomy_microscopy_object_archive_upgrade_v1.json",
+      "mechanism": "preparation quantities/manufacture -> instrument index/records -> practical microscopy -> course chronology -> surviving teaching microscope"
+    },
+    {
+      "case": "Museo de La Plata / Möller and Tempère & Peragallo",
+      "state": "S surviving numbered reference-series architecture and current scientific afterlife; acquisition transaction and nineteenth-century edition specificity partly open",
+      "authority": "data/analysis/laplata_moller_tempere_peragallo_series_upgrade_v1.json",
+      "mechanism": "distributed serial numbers remain bibliographically and taxonomically actionable after absorption into a research collection"
+    },
+    {
+      "case": "Manchester Gibson cabinet",
+      "state": "S mixed-cabinet collection/network architecture",
+      "authority": "data/analysis/gibson_manchester_collection_network_upgrade_v1.json",
+      "mechanism": "tray address preserves accumulation across commercial makers, local society networks and expedition-derived preparations"
+    },
+    {
+      "case": "Dundee Hornell & Sinel / Watson",
+      "state": "S institutional survival of a maker-attributed 20-slide series and S Watson object endpoint; relation to the advertised 14-slide subscription remains guarded",
+      "authority": "data/analysis/dundee_hornell_sinel_watson_series_upgrade_v1.json",
+      "mechanism": "surviving numbered maker series exposes the difference between museum series identity and printed subscription architecture"
+    },
+    {
+      "case": "Kölliker / Würzburg",
+      "state": "S collection survival plus institutional microscopy-teaching architecture; item-to-publication closure open",
+      "authority": "data/analysis/koelliker_wuerzburg_histology_teaching_survival_upgrade_v1.json",
+      "mechanism": "surviving early histological sections embedded in practical microscopy courses and purpose-designed laboratory space"
+    },
+    {
+      "case": "Coimbra / Costa Simões 1873",
+      "state": "S primary-source pedagogical architecture; surviving-object continuity open",
+      "authority": "data/analysis/coimbra_costa_simoes_1873_teaching_system_upgrade_v1.json",
+      "mechanism": "course programme, microscopic preparations and physiology apparatus catalogued as one teaching system"
+    },
+    {
+      "case": "Haeckel correspondence",
+      "state": "S selected correspondence events; whole-corpus exhaustiveness open",
+      "authority": "data/analysis/haeckel_correspondence_microprep_circulation_upgrade_v1.json",
+      "mechanism": "transaction grammar of making, requesting, sending, inspecting, buying, returning, identifying, delegating, reporting, reimbursing, giving and viewing"
+    },
+    {
+      "case": "Balfour / Cambridge optics",
+      "state": "S published objective-use architecture plus S chronological exclusion of later apochromat from Balfour's lifetime; exact objective dispatch provenance open",
+      "authority": "data/analysis/balfour_optics_composite_set_correction_v2.json",
+      "mechanism": "publication captions delimit historically possible instrument use more tightly than later museum grouping"
+    },
+    {
+      "case": "Naples Stazione Zoologica",
+      "state": "S catalogue-to-object closure for offering 383; dealer-network layer A++ pending direct primary-page verification/transaction records",
+      "authority": [
+        "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+        "data/analysis/naples_1882_1884_dealer_network_upgrade_v1.json"
+      ],
+      "mechanism": "research-station preparations become numbered commodities and enter commission/bulk dealer networks"
+    },
+    {
+      "case": "Tiegs Museum / Melbourne",
+      "state": "S register architecture and collection-level slide survival; pre-1900 slide-to-register item crosswalk open",
+      "authority": "data/analysis/tiegs_melbourne_register_slide_collection_upgrade_v1.json",
+      "mechanism": "working collection precedes formal register; later numbering re-addresses older objects into a controlled institutional system"
+    },
+    {
+      "case": "Bourgogne / Smithsonian",
+      "state": "S surviving maker-attributed set identity; West Point accession bridge A++/S-candidate pending accession file/catalog card",
+      "authority": "data/analysis/bourgogne_nmah_west_point_accession_bridge_v1.json",
+      "mechanism": "commercial prepared slides are later absorbed into an institutional apparatus/accession system"
+    }
+  ],
+  "request_only_residuals": [
+    "St Andrews ms21974-ms21975 exact Elcock letters",
+    "NHM current 4,723-row Challenger dataset binary",
+    "ZEISS archive/accessory dispatch evidence for Balfour objective engravings",
+    "St Andrews Norman complete item/export layer",
+    "Oxford RMS historical catalogue-to-current slide item crosswalk",
+    "Hunterian Quekett 1850 catalogue pages for selected surviving catalogue numbers",
+    "Naples 1882-1884 primary report/account/copybook pages for dealer transactions",
+    "Tokyo Anatomy nos. 119/122/123 for Medical Faculty microscope no. 1",
+    "La Plata Frenguelli acquisition records and edition-level Tempère & Peragallo inventory",
+    "Bourgogne accession 217544 file/catalog cards and full slide photography"
+  ],
+  "stop_rule": "No further broad public-web or geographic sweep. New research resumes only from an exact source arrival, a user-supplied object/image, or a newly bounded identifier. Default next phase is synthesis, argument construction and writing.",
+  "interpretive_payoff": {
+    "address_forms": [
+      "publication address persistence",
+      "circulation-cabinet address",
+      "printed catalogue address",
+      "successive institutional address translation",
+      "cross-media sample number",
+      "museum re-addressing after estate dispersal",
+      "technical reference scale plus custody inscription",
+      "delayed registration of pre-existing objects"
+    ],
+    "maintenance_forms": [
+      "replacement of a preparation within a fixed slot",
+      "remounting onto new glass",
+      "recataloguing into new institutional namespaces",
+      "preservation of object identity through wrapper/label/catalogue even after maker context is lost"
+    ],
+    "core_historical_claim": "Microscope preparations were stabilized as knowledge objects by systems of addresses, catalogues, cabinets, labels, series, registers and maintenance practices. Those systems could survive, translate or repair material discontinuity, and they often preserve a richer operational history than the glass object alone."
+  }
+}
