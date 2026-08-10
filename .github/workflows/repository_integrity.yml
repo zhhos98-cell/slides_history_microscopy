@@ -1,0 +1,27 @@
+name: repository-integrity
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "REPOSITORY_STATE.json"
+      - "CURRENT_DIRECTION.md"
+      - "bibliography/**"
+      - "sources/**"
+      - "data/**"
+      - "scripts/validate_repository_state.py"
+      - ".github/workflows/repository_integrity.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate repository authority and publication state
+        run: python scripts/validate_repository_state.py
