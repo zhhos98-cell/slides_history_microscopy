@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0.0-van-heurck-distributed-estate-upgrade",
+  "generated": "2026-08-11",
+  "title": "Henri Van Heurck scientific estate: integrated microscopy system, repeated museum re-addressing, and later cross-institutional dispersal",
+  "status": "S_LEVEL_HISTORICAL_ESTATE_AND_READRESSING_CHAIN__ITEM_LEVEL_CURRENT_CROSSWALK_OPEN",
+  "builds_on": [
+    "sources/source-registry-06.json#BE-VAN-HEURCK-DISTRIBUTED-ESTATE",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "A+ comparator: large scientific estate known to have been split among Antwerp, Meise, Ghent and the Hendrik Conscience Heritage Library",
+    "new_state": "The 1968 illustrated inventory provides a contemporaneous museum-level account of the estate as one integrated scientific patrimony containing more than 19,000 microscopic preparations, raw and cleaned diatom material, herbarium, teaching materia medica, scientific library, physical instruments, historical microscopes and optical accessories. It also documents successive moves, temporary packing/storage, catalogue creation, conservation, and an internal address system linking text entries to a provisional catalogue, photographic negatives, enlarged positives and albums. Current institutional pages then document the later division of this formerly integrated estate among library, botanical/diatom and instrument repositories.",
+    "grade": {
+      "integrated_scientific_estate_identity": "S",
+      "microscopic_preparation_collection_scale_and_character": "S — 1968 inventory states >19,000 preparations, mainly diatoms, plus cleaned and uncleaned diatom material",
+      "1909_city_acquisition": "S — 1968 inventory and current Antwerp/Conscience institutional histories identify acquisition by the City of Antwerp after Van Heurck's death",
+      "1926_1964_readdressing_chain": "S — the 1968 inventory explicitly records museum transfer, closure/packing, threatened dispersal, provisional cataloguing, long-term loan and re-ordering/conservation",
+      "internal_1960s_catalogue_photo_address_system": "S — the inventory explains that page-bottom codes point to provisional catalogue, photographic negative, enlarged positive and album",
+      "twenty_first_century_cross_institutional_split": "S at collection level — University of Antwerp and current recipient institutions document books to Hendrik Conscience Heritage Library, botanical/diatom material to Meise, and scientific instruments/microscopes to Ghent",
+      "item_level_old_to_current_identifier_crosswalk": "A+/S-candidate — one or more objects/preparations still need to be followed through historical inventory codes into current recipient catalogues"
+    }
+  },
+  "historical_estate_components_1968": {
+    "source": "Edward Frison, Geillustreerde inventaris van de historische microscopen, onderdelen en uitrusting (Henri Van Heurck Museum / Koninklijke Maatschappij voor Dierkunde van Antwerpen, 1968)",
+    "direct_pdf": "https://medialibrary.uantwerpen.be/oldcontent/container52396/files/Frison%20-%201968%20-%20Geillustreerde%20inventaris.pdf",
+    "components": [
+      ">19,000 microscopic preparations, mainly diatoms",
+      "cleaned and uncleaned diatom material collected by major nineteenth-century diatomists",
+      "large teaching drug/materia-medica collection used for more than thirty years in medico-commercial botany instruction",
+      "Sieber-von Reichenbach-Van Heurck historical herbarium",
+      "large scientific library",
+      "rich eighteenth- and nineteenth-century physical-instrument collection",
+      "historical microscopes, optical parts and laboratory equipment"
+    ],
+    "interpretive_value": "The estate was historically hybrid. Slides, raw samples, books, teaching material, microscopes and optical/instrumental apparatus were not separate retrospective categories; they were parts of one scientific patrimony before later institutions split them by material and disciplinary type."
+  },
+  "readdressing_timeline": [
+    {
+      "date": "1909",
+      "event": "After Van Heurck's death, the scientific estate was acquired by the City of Antwerp.",
+      "grade": "S"
+    },
+    {
+      "date": "1926",
+      "event": "All collections except the physical instruments were transferred to the Botanical Garden Museum.",
+      "grade": "S"
+    },
+    {
+      "date": "1934-1949",
+      "event": "The Henri Van Heurck museum functioned until its rooms were requisitioned; collections were then packed and stored in different places.",
+      "grade": "S"
+    },
+    {
+      "date": "ca. 1958",
+      "event": "The collections faced threatened dispersal; Frison states that a major breakup and departure from Antwerp was narrowly prevented.",
+      "grade": "S"
+    },
+    {
+      "date": "1959-1960",
+      "event": "A provisional descriptive catalogue of microscopes and optical apparatus was created for municipal/commission use.",
+      "grade": "S"
+    },
+    {
+      "date": "1963-1964",
+      "event": "The Royal Zoological Society of Antwerp received the collections on long-term loan; microscopes, parts and laboratory equipment were reordered, cleaned and where possible returned to usable condition.",
+      "grade": "S"
+    },
+    {
+      "date": "1968",
+      "event": "Frison's illustrated inventory published a structured museum description and explicitly linked catalogue text to internal provisional-catalogue and photographic address systems.",
+      "grade": "S"
+    },
+    {
+      "date": "1985",
+      "event": "Scientific instruments were transferred to RUCA for inventory and restoration within the AWIE collaboration.",
+      "grade": "S",
+      "source": "University of Antwerp heritage history"
+    },
+    {
+      "date": "early twenty-first century",
+      "event": "The formerly integrated collection was distributed on loan across Belgium: books to Hendrik Conscience Heritage Library, botanical objects to Meise, scientific instruments including microscopes to Ghent.",
+      "grade": "S at collection level",
+      "source": "University of Antwerp heritage history"
+    },
+    {
+      "date": "2006",
+      "event": "Meise states that the City of Antwerp transferred/donated more than 300,000 Van Heurck herbarium specimens to the Botanic Garden; the current herbarium includes diatoms, microscopic preparations and other botanical artefacts.",
+      "grade": "S at recipient-collection level"
+    }
+  ],
+  "address_architecture": {
+    "1968_inventory_statement": "Each text page carries letters and numbers intended for museum service; these refer to the provisional catalogue, photographic negative, enlarged positive and the album in which the image is filed.",
+    "interpretation": "Before the twenty-first-century institutional dispersal, the collection had already been converted into a multi-namespace museum information system: object -> catalogue entry -> negative -> print -> album. Later redistribution added recipient-institution namespaces on top of those earlier addresses.",
+    "guard": "Do not assume those 1960s codes survive in current Ghent or Meise records until one object is explicitly crosswalked."
+  },
+  "current_recipient_states": {
+    "hendrik_conscience_heritage_library": {
+      "state": "Current institutional page identifies the Van Heurck library as part of its scientific collections. A limited subset of books/overprints required to unlock/manage the diatom and herbarium collections was loaned to Meise; those items were marked in the Meise catalogue with the siglum 'Fonds Van Heurck'.",
+      "authority": "https://consciencebibliotheek.be/nl/pagina/henri-van-heurck"
+    },
+    "meise_botanic_garden": {
+      "state": "Current institutional pages identify Van Heurck as a major nineteenth-century collector; the herbarium contains microscopic preparations and a historical Van Heurck diatom collection. Meise's algae page states that its herbarium contains about 35,000 diatom specimens including the Van Heurck collection.",
+      "authority": "https://www.plantentuinmeise.be/en/herbarium-9y25"
+    },
+    "ghent_museum_history_of_sciences": {
+      "state": "University of Antwerp states that the scientific instruments went to the Museum for the History of Sciences in Ghent and that the microscopes can be seen there. Ghent's academic bibliography records a 2009 museum exhibition catalogue on microscopy explicitly keyworded Van Heurck.",
+      "authority": "https://www.uantwerpen.be/en/projects/archives-heritage-library-university-antwerp/academic-heritage-university-antwerp/history/"
+    }
+  },
+  "historical_guard": {
+    "count_state": "Frison's 1968 figure of >19,000 microscopic preparations and Meise's current ca. 35,000-diatom aggregate should remain separate dated collection states; the latter is not a direct replacement count for the former.",
+    "ownership_language": "Institutional pages use different verbs for acquisition, donation and loan at different moments. Preserve the stated legal/custodial language by source and date.",
+    "estate_integrity": "The estate was already moved, packed, reorganised and partly displayed before its recent inter-institutional distribution. 'Original order' cannot be presumed from current repository arrangement."
+  },
+  "research_payoff": {
+    "core_mechanism": "A scientific estate can survive by being repeatedly re-addressed while simultaneously losing the relations that once made slides, raw material, instruments, books and teaching collections legible as one working system.",
+    "comparison_with_cole": "Cole preserves a bounded serial publication through durable slot/index addresses. Van Heurck shows the opposite scale: one integrated scientific estate is repeatedly reclassified by museum and disciplinary infrastructures until its components occupy different institutions.",
+    "comparison_with_gibson": "Gibson is a mixed private cabinet whose local tray order preserves supplier networks; Van Heurck is a scientist's integrated working estate whose later institutional order progressively separates material types."
+  },
+  "exact_next_actions": [
+    {
+      "rank": 1,
+      "action": "Select one microscope entry from Frison 1968 and locate the same instrument in the current Ghent museum catalogue/display, preserving all historical and current identifiers."
+    },
+    {
+      "rank": 2,
+      "action": "Select one named/numbered Van Heurck diatom preparation or type sample in Meise and reconstruct its raw-sample, slide, historical collection and current herbarium identifiers."
+    },
+    {
+      "rank": 3,
+      "action": "Use Bibliotheca Van Heurckiana (1975) plus current Conscience/Meise catalogue sigla to trace one book that moved with the diatom/herbarium research function."
+    }
+  ],
+  "stop_rule": "No broad Van Heurck biography is required. Continue only through item-level identifier crosswalks capable of showing which relations survived the estate's repeated institutional repartition."
+}
