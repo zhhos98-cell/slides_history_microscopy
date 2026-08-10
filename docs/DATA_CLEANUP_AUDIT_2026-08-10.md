@@ -59,6 +59,17 @@ The surviving St Andrews object `BPM/1/T8/6` has Stazione Zoologica Napoli label
 
 `CURRENT_DIRECTION.md` now points first to `data/analysis/CURRENT_STATE.json` and the live `_CURRENT` router. Batch v1/v2 and residual v3 files are listed as audit snapshots rather than active task queues.
 
+### 7. Consistency validator added
+
+Added `scripts/validate_current_analysis_state.py`. It checks the current-state manifest against:
+
+- `07AR_CLOSURE_MANIFEST_2026-08-09.json` for 307/155 and closed-survey status;
+- `bibliography/bibliography-manifest.json` for pass-19 counts and arithmetic;
+- `global_archive_research_priority_CURRENT.json` for the empty public-web queue and four exact-source requests;
+- `naples_row383_object_catalogue_closure_v4.json` to ensure Naples 383 stays closed and cannot leak back into the live request queue.
+
+The script is deliberately narrow: it validates current routing/count authority and does not rewrite source data.
+
 ## Deliberately not deleted
 
 The following classes remain in place:
