@@ -1,8 +1,9 @@
 {
-  "schema_version": "1.0.1-analysis-current-state",
+  "schema_version": "1.1.0-analysis-current-state",
   "generated": "2026-08-10",
   "status": "CANONICAL_CURRENT_ANALYSIS_STATE",
   "purpose": "Single machine-readable authority pointer for the current microscope-slide analysis state. Historical snapshots remain in the repository for audit, but this file identifies which outputs are current and which earlier states are superseded.",
+  "repository_authority": "REPOSITORY_STATE.json",
   "frozen_survey": {
     "discovery_nodes": 307,
     "strict_nineteenth_century_nodes": 155,
@@ -14,9 +15,15 @@
     "research_entries": 88,
     "primary_object_entries": 118,
     "publication_languages": 19,
-    "status": "PARKED_AS_AUDIT_PUBLIC_STATE"
+    "status": "PARKED_AS_AUDIT_PUBLIC_STATE",
+    "authority": "bibliography/bibliography-manifest.json"
   },
-  "research_mode": "UK_US_EUROPE_CLOSURE_ONLY",
+  "corpus_publication": {
+    "authority": "data/corpus/CORPUS_MANIFEST_V6.json",
+    "research_output_index": "data/corpus/RESEARCH_OUTPUTS_V6.json",
+    "status": "COMPACT_PUBLICATION_LAYER__NOT_ANALYSIS_AUTHORITY"
+  },
+  "research_mode": "UK_US_EUROPE_CLOSURE_ONLY__ANALYSIS_AND_WRITING",
   "public_web_discovery_queue": [],
   "exact_source_request_queue": [
     {
@@ -41,10 +48,13 @@
     }
   ],
   "current_authority_files": {
+    "repository_state": "REPOSITORY_STATE.json",
     "human_direction": "CURRENT_DIRECTION.md",
     "operational_router": "data/analysis/global_archive_research_priority_CURRENT.json",
     "residual_audit": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
     "local_source_availability": "data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json",
+    "slide_155_analysis_manifest": "data/analysis/slide_155_analysis_v1/manifest.json",
+    "corpus_expansion_status": "data/analysis/slide_155_corpus_expansion_v1/README.md",
     "naples_383_closure": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
     "cole_primary_structure": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
     "challenger_current_diagnostic_layer": "data/analysis/challenger_dataset_row_harvest_v2.json",
@@ -81,12 +91,40 @@
       "superseded_by": "data/analysis/CURRENT_STATE.json"
     },
     {
+      "file": "data/analysis/global_archive_research_priority_v1.json",
+      "state": "HISTORICAL_ROUTER_SNAPSHOT",
+      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json"
+    },
+    {
+      "file": "data/analysis/global_archive_research_priority_v2.json",
+      "state": "HISTORICAL_ROUTER_SNAPSHOT",
+      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json"
+    },
+    {
+      "file": "data/analysis/global_archive_research_priority_v3.json",
+      "state": "HISTORICAL_ROUTER_SNAPSHOT",
+      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json"
+    },
+    {
+      "file": "data/analysis/material_slide_publication_forms_v1.json",
+      "state": "HISTORICAL_TAXONOMY_VERSION",
+      "superseded_by": "data/analysis/material_slide_publication_forms_v2.json"
+    },
+    {
       "file": "docs/UK_US_RETURN_TO_CORE_2026-08-10.md",
       "state": "HISTORICAL_DIRECTION_SNAPSHOT",
       "superseded_by": "CURRENT_DIRECTION.md",
       "reason": "It records the earlier pass-17 pause before passes 18-19 and the later closure work."
     }
   ],
+  "generated_layer_state": {
+    "slide_155_analysis": {
+      "manifest": "data/analysis/slide_155_analysis_v1/manifest.json",
+      "generated_row_output": "outputs/SLIDE_155_ANALYSIS_LAYER_V1.csv",
+      "committed_row_output": null,
+      "expected_rows": 155
+    }
+  },
   "closed_or_substantially_closed_relations": [
     "Arthur C. Cole vols I-II material-publication architecture",
     "Cole Volume I surviving 52-slide material counterpart at near-S level",
@@ -111,6 +149,7 @@
   "cleanup_policy": {
     "delete_historical_snapshots": false,
     "reason": "Versioned analytical files are part of the audit trail. Cleaning means clarifying current authority, supersession and count namespaces rather than deleting evidentiary history.",
-    "resume_rule": "Resume a target only when an exact requested source arrives or creates a new bounded identifier."
+    "resume_rule": "Resume a target only when an exact requested source arrives or creates a new bounded identifier.",
+    "repository_integrity_validator": "scripts/validate_repository_state.py"
   }
 }
