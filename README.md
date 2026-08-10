@@ -114,9 +114,9 @@ A. M. Carter's 2018 study of C. J. van der Horst's elephant-shrew research suppl
 
 ## UK / US / Europe closure state — 2026-08-10
 
-The public indexed closure pass is exhausted. Cole vols. I–II, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, the Challenger address/dataset architecture, Balfour's publication/designation layer, and Minot/HEC as a control are closed or substantially closed at the level required for historical argument. The remaining five edges are **request-only**, recorded in `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json` and `data/analysis/global_archive_research_priority_CURRENT.json`.
+The public indexed closure pass is exhausted. Cole vols. I–II, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, the Challenger address/dataset architecture, Balfour's publication/designation layer, Minot/HEC as a control, and Naples catalogue offering 383 are closed or substantially closed at the level required for historical argument. The remaining **four edges are request-only**, recorded in `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json` and `data/analysis/global_archive_research_priority_CURRENT.json`.
 
-Those residuals are: St Andrews `ms21974–ms21975` page images; the current NHM Challenger 4,723-row resource binary; ZEISS archive guidance for Balfour objective engravings `573, 1295, 710, 780, 542`; a complete St Andrews Norman item/export layer; and one BHL/Internet Archive page image containing Naples catalogue rows 382–384. Do not repeat broad discovery searches for them. Resume a chain only when the exact source arrives or supplies a new bounded identifier.
+Those residuals are: St Andrews `ms21974–ms21975` page images; the current NHM Challenger 4,723-row resource binary; ZEISS archive guidance for Balfour objective engravings `573, 1295, 710, 780, 542`; and a complete St Andrews Norman item/export layer. Do not repeat broad discovery searches for them. Resume a chain only when the exact source arrives or supplies a new bounded identifier.
 
 ## Object-to-text corpus expansion
 
@@ -152,7 +152,9 @@ Three further slides remain bounded: `5|6`, `43–49`, and `231|232`.
 
 The row-level mapping is `data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv`.
 
-This is a defensible `catalogue offering → named British physical slide shipment/exhibition` closure. It does **not** establish that any of those 1880 RMS slides is the same physical object as a surviving St Andrews slide. That third identity point remains `NOT_ASSERTED`.
+A separate local-primary-source pass now closes **catalogue offering 383 → surviving St Andrews slide BPM/1/T8/6**. Printed p.253 reads `382. Delphinus phocaena L. Milz`, `383. -- Penis`, `384. -- Hode`, `385. -- Niere`; the ditto convention therefore makes 383 `Delphinus phocaena L., Penis`. The St Andrews slide independently retains Stazione Zoologica Napoli labels, `Delphinus phocaena`, and the public transcription `Panis 383`. Station, taxon and exact number close the offering identity; the `Panis`/`Penis` discrepancy is retained, and no unique manufacture/shipment identity is inferred. Full guards are in `data/analysis/naples_row383_object_catalogue_closure_v4.json`.
+
+The June 1880 RMS crosswalk remains a defensible `catalogue offering → named British physical slide shipment/exhibition` closure. It does **not** establish that any of those twelve 1880 RMS slides is the same individual physical object as a surviving St Andrews slide. The row-383 closure is different: it identifies a surviving St Andrews object with a catalogue offering/address, while leaving its individual-copy chronology open.
 
 The same audit separates the February 1883 Zoological Society Bell event from the 14 March 1883 RMS nineteen-slide event, and preserves later source language such as `preserved specimens` and `Marine Objects` without silently converting it into slide status.
 
