@@ -6,6 +6,12 @@ Standalone research repository for the global nineteenth-century microscope-slid
 
 This repository was separated on 2026-08-09 from the former `slide-survey-actions-pilot` branch of `zhhos98-cell/Blachka_corpus`. From this migration onward, **this repository and its `main` branch are the canonical home of the microscope-slide project**. The Blaschka project is not part of this repository.
 
+## Current authority
+
+`REPOSITORY_STATE.json` is the top-level machine-readable authority map. It identifies the current survey, bibliography, analysis, corpus, source-registry and evidence manifests while preserving older versioned files as audit history. For active research status, it resolves to `data/analysis/CURRENT_STATE.json` and `data/analysis/global_archive_research_priority_CURRENT.json`.
+
+Current operational state: **public-web discovery queue = 0; exact-source request queue = 4**. General geographic expansion is parked; the active mode is analysis/writing plus exact-source access when one of the four residuals becomes available.
+
 ## Frozen global survey — 2026-08-09
 
 - Status: **CLOSED_2026-08-09**.
@@ -54,27 +60,31 @@ Quantity namespaces also remain separate. A slide count, microscopic-preparation
 ### Evidence and analysis
 
 - `data/evidence/targeted_deep_4/` — final targeted-harvest evidence normalization and manual residuals; enrichment only, never census reopening.
-- `data/analysis/slide_155_analysis_v1/` — read-only analytical classification layer over the 155 surviving-object/provenance nodes.
-- `data/analysis/slide_155_corpus_expansion_v1/` — object-to-text routing, verified bridges, source targets, Naples catalogue parsing, and circulation crosswalks.
+- `data/analysis/CURRENT_STATE.json` — canonical current analysis state and supersession map.
+- `data/analysis/slide_155_analysis_v1/` — derived analytical classification schema over the 155 surviving-object/provenance nodes; its manifest records the generated/noncommitted row artifact.
+- `data/analysis/slide_155_corpus_expansion_v1/` — object-to-text routing, verified bridges, source-target dispositions, Naples catalogue parsing, and circulation crosswalks.
+
+### Public bibliography, sources and corpus
+
+- `bibliography/bibliography-manifest.json` — current pass-19 bibliography authority: 206 records across 22 row chunks.
+- `sources/source-registry-manifest.json` — additive source-routing authority.
+- `data/corpus/CORPUS_MANIFEST_V6.json` — current compact corpus/publication manifest.
+- `data/corpus/RESEARCH_OUTPUTS_V6.json` — 41 curated current/foundational public research outputs.
 
 ### Documentation and scripts
 
 - `docs/19C_SCOPE_RULES.md` — nineteenth-century scope rules.
 - `docs/SLIDE_SURVEY_PRIORITY_RULES.md` — survey/priority rules.
-- `docs/BIBLIOGRAPHY_PASS12_FRANCE_BELGIUM_AUSTRIA_2026-08-10.md` — pass-12 bibliography audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS13_COLONIAL_TROPICAL_MEDICINE_2026-08-10.md` — pass-13 colonial/tropical-medicine material-object audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS14_EAST_SE_ASIA_2026-08-10.md` — pass-14 East/Southeast Asia slide bibliography audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS15_LATIN_AMERICA_2026-08-10.md` — pass-15 Latin America slide bibliography audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS16_CENTRAL_EASTERN_EUROPE_2026-08-10.md` — pass-16 Central/Eastern Europe slide bibliography audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS17_IBERIA_2026-08-10.md` — pass-17 Iberia slide bibliography audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS18_SOUTH_ASIA_SINGAPORE_SOUTHERN_AFRICA_2026-08-10.md` — pass-18 South Asia, Singapore and southern-Africa slide bibliography audit and exclusions.
-- `docs/BIBLIOGRAPHY_PASS19_WITS_VANDERHORST_MOSSMAN_2026-08-10.md` — pass-19 Wits Van der Horst → Mossman collection bridge.
-- `docs/UK_US_EUROPE_CLOSURE_RESIDUALS_2026-08-10_V3.md` — terminal public-web closure audit and exact-source request queue.
+- `docs/BIBLIOGRAPHY_PASS12_FRANCE_BELGIUM_AUSTRIA_2026-08-10.md` through `docs/BIBLIOGRAPHY_PASS19_WITS_VANDERHORST_MOSSMAN_2026-08-10.md` — bibliography pass audits and exclusions.
+- `docs/UK_US_EUROPE_CLOSURE_RESIDUALS_2026-08-10_V3.md` — terminal public-web closure audit and exact-source request state.
+- `docs/DATA_CLEANUP_AUDIT_2026-08-10.md` — analysis/data authority cleanup.
+- `docs/REPOSITORY_ORGANIZATION_AUDIT_2026-08-10.md` — whole-repository organization audit.
 - `scripts/prepare_survey_inputs.py` — merges modular inputs while applying frozen alias handling.
 - `scripts/build_frozen_strict_membership.py` — rebuilds and asserts the immutable 155-entry membership.
 - `scripts/export_frozen_catalogue.py` — exports the sealed 155-row catalogue and manifest.
 - `scripts/build_slide_analysis_layer.py` — builds the derived analysis layer.
 - `scripts/validate_survey.py` — validates survey schema and evidential language.
+- `scripts/validate_repository_state.py` — validates cross-layer authority, counts, queues and publication pointers.
 - `scripts/audit_19c_scope.py` — diagnostic temporal/medium classifier.
 - `scripts/apply_19c_scope.py` — restricts runtime processing to the frozen membership.
 - `scripts/build_harvest_batches.py` — builds nineteenth-century harvest batches.
@@ -94,29 +104,30 @@ High-value structured evidence includes Copenhagen's 510 unique SNM slide identi
 
 The frozen catalogue is treated as a **read-only object/provenance corpus**. Analytical fields live in a separate layer and never rewrite the source wording or frozen membership.
 
-The first derived layer classifies nodes by unit level, production period, subject cluster, institutional/commercial context, circulation mode, count namespace and historical actor role. It is intended to support comparative research without pretending that single slides, bounded sets, cabinets, named collections and mixed-period institutional layers are commensurable counts.
+The first derived layer classifies nodes by unit level, production period, subject cluster, institutional/commercial context, circulation mode, count namespace and historical actor role. `data/analysis/slide_155_analysis_v1/manifest.json` now makes explicit that the row-level output is generated under `outputs/` and is not currently committed as a canonical derived CSV.
 
 ## Slide-locked bibliography — pass 19 (2026-08-10)
 
 The public bibliography is now at **`slide-locked-pass-19`**: **206 verified entries**, comprising **88 research/collection/conservation studies** and **118 historical primary/object records**, across **19 publication languages**. The machine-readable source of truth is `bibliography/bibliography-manifest.json`; the row data are split across `bibliography-01.csv` through `bibliography-22.csv`. The Pages bibliography reads the manifest dynamically and exports CSV, TSV, JSON, CSL JSON, BibTeX and RIS from the same rows.
 
+`bibliography/bibliography.csv` is retained as a predecessor partial static index and is not the current 206-row authority. See `bibliography/README.md`.
+
 The admission rule remains deliberately narrow: **physical slide first**. A source enters only when microscope slides, slide-mounted preparations, their mounting/material system, a dedicated preparation catalogue/series or technical text, a surviving slide collection, a preparation-centred register/file, or a direct transfer/request for slides does substantive evidentiary work. General microscopy histories, laboratory regulations, instrument histories, disease reports and broad manuals remain outside the bibliography when preparations are only incidental.
 
-Passes 10–17 established the institutional-register, German trade/production, France/Belgium/Austria, colonial tropical-medicine, East/Southeast Asian, Latin American, Central/Eastern European and Iberian modules. Their full inclusion/exclusion notes remain in the dedicated pass audit files listed above.
-
-Pass 18 added **six verified records**: five primary/object records and one research study. India gained a bounded zoological teaching collection at Hansraj College with **561 permanent slides** and a published category structure. Sri Lanka gained two dedicated museum slide collections at the University of Colombo and University of Sri Jayewardenepura; neither publishes a slide total, so their larger museum-wide specimen counts remain separate. Singapore gained a physical-to-digital teaching bridge through Krishnan, Rahmanzadeh and Dheen's 2024 NUS-HALO study, which digitised **160 histology slides across 13 organ systems** selected from the Department of Anatomy's existing collection. Southern Africa gained UCT's long-used student histopathology set, described across object records as about **100 slides**, plus Cecil Jackson's 1936 Onderstepoort programme for a complete collection of microscopic pathological preparations. The India Office 1851 file, Timothy Lewis slide display and J. C. Wagner cabinet were duplicate-checked against pass 13 and not re-entered.
-
-Pass 19 follows one unusually strong collection bridge instead of broad geographic harvesting. Wits Life Sciences Museum currently records **41,000 Van der Horst histology slides of embryological material**, mainly chordate and mammalian vertebrate, with complete card-catalogue documentation, about 60% computer-database coverage and some field notes. Wits' historical account separately describes the collection as built under Professors Van der Horst and Balinsky and exceeding 40,000 slides; these are treated as different documentary states of the same collection rather than added together.
-
-A. M. Carter's 2018 study of C. J. van der Horst's elephant-shrew research supplies the afterlife bridge: Carter explicitly acknowledges access to **Van der Horst slides curated as part of the Harland W. Mossman Embryological Collection at the University of Wisconsin Zoological Museum**. UW independently identifies the Mossman collection as a repository of microscope slides and preserved anatomical material, especially vertebrate reproductive systems. The public sources do not give the Van der Horst subset size, transfer date, transfer agent, accession series, or whether the Wisconsin material consists of originals or duplicate preparations; those remain open rather than being reconstructed by inference. Full notes are in `docs/BIBLIOGRAPHY_PASS19_WITS_VANDERHORST_MOSSMAN_2026-08-10.md`.
-
-**Bibliographic expansion is now parked.** Passes 18–19 remain part of the audit trail, but they do not define an active geographic frontier. Current research returns to already-open UK / narrowly linked US / European chains and stops public-web searching once only exact source access remains.
+Passes 10–17 established the institutional-register, German trade/production, France/Belgium/Austria, colonial tropical-medicine, East/Southeast Asian, Latin American, Central/Eastern European and Iberian modules. Passes 18–19 remain completed audit history. **Bibliographic expansion is now parked** and does not define an active geographic frontier.
 
 ## UK / US / Europe closure state — 2026-08-10
 
-The public indexed closure pass is exhausted. Cole vols. I–II, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, the Challenger address/dataset architecture, Balfour's publication/designation layer, Minot/HEC as a control, and Naples catalogue offering 383 are closed or substantially closed at the level required for historical argument. The remaining **four edges are request-only**, recorded in `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json` and `data/analysis/global_archive_research_priority_CURRENT.json`.
+The public indexed closure pass is exhausted. Cole vols. I–II, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, the Challenger address/dataset architecture, Balfour's publication/designation layer, Minot/HEC as a control, and Naples catalogue offering 383 are closed or substantially closed at the level required for historical argument.
 
-Those residuals are: St Andrews `ms21974–ms21975` page images; the current NHM Challenger 4,723-row resource binary; ZEISS archive guidance for Balfour objective engravings `573, 1295, 710, 780, 542`; and a complete St Andrews Norman item/export layer. Do not repeat broad discovery searches for them. Resume a chain only when the exact source arrives or supplies a new bounded identifier.
+The remaining **four edges are request-only**:
+
+1. St Andrews `ms21974–ms21975` page images/transcription;
+2. current NHM Challenger 4,723-row resource binary;
+3. ZEISS archive guidance for Balfour objective engravings `573, 1295, 710, 780, 542`;
+4. complete St Andrews Norman item/export layer.
+
+Do not repeat broad discovery searches for them. Resume a chain only when the exact source arrives or supplies a new bounded identifier.
 
 ## Object-to-text corpus expansion
 
@@ -127,7 +138,7 @@ The working principle is bidirectional:
 - **text → object**: a historical source records manufacture, sale, exchange, use, gift, transfer or exhibition; surviving objects are sought;
 - **object → text**: a surviving node supplies actors, dates, series names, taxa or relations that generate bounded textual searches.
 
-Positive OCR/name matches are routing signals only until the actual historical context is read.
+Positive OCR/name matches are routing signals only until the actual historical context is read. The old `OPEN_PRIMARY_SOURCE_TARGETS_V1.csv` has been normalized to current CLOSED / OPTIONAL / PARKED dispositions and is no longer an active search queue.
 
 ## Naples 1880 catalogue module
 
@@ -139,34 +150,24 @@ The catalogue establishes Fritz Meyer as director/organizer of the preparation d
 
 ### Naples → Britain circulation
 
-The bounded UK crosswalk currently records **eleven distinct object/specimen circulation or exhibition events**, plus separate catalogue-reception and method-circulation evidence. It distinguishes finished-slide circulation, preserved/biological specimen circulation, British remanufacture of Naples specimens, and circulation of preparation methods.
+The bounded UK crosswalk records **eleven distinct object/specimen circulation or exhibition events**, plus separate catalogue-reception and method-circulation evidence. It distinguishes finished-slide circulation, preserved/biological specimen circulation, British remanufacture of Naples specimens, and circulation of preparation methods.
 
-A reverse taxon/preparation pass produced the first item-level catalogue-to-Britain closure. For the **9 June 1880 Royal Microscopical Society** shipment:
-
-- `R24204`, JRMS p. 733 records `Zoological Station of Naples—12 slides`, sent through A. W. Waters and exhibited under microscopes;
-- `R24207`, JRMS p. 736 lists the twelve physical slides individually.
-
-Comparison with the 423 offerings yields **nine exact/strong item matches**: `42, 43, 67, 68, 71, 72, 86, 182, 186`.
-
-Three further slides remain bounded: `5|6`, `43–49`, and `231|232`.
+For the **9 June 1880 Royal Microscopical Society** shipment, `R24204` records twelve slides and `R24207` lists them individually. Comparison with the 423 offerings yields **nine exact/strong item matches**: `42, 43, 67, 68, 71, 72, 86, 182, 186`. Three further slides remain bounded: `5|6`, `43–49`, and `231|232`.
 
 The row-level mapping is `data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv`.
 
-A separate local-primary-source pass now closes **catalogue offering 383 → surviving St Andrews slide BPM/1/T8/6**. Printed p.253 reads `382. Delphinus phocaena L. Milz`, `383. -- Penis`, `384. -- Hode`, `385. -- Niere`; the ditto convention therefore makes 383 `Delphinus phocaena L., Penis`. The St Andrews slide independently retains Stazione Zoologica Napoli labels, `Delphinus phocaena`, and the public transcription `Panis 383`. Station, taxon and exact number close the offering identity; the `Panis`/`Penis` discrepancy is retained, and no unique manufacture/shipment identity is inferred. Full guards are in `data/analysis/naples_row383_object_catalogue_closure_v4.json`.
+A separate local-primary-source pass closes **catalogue offering 383 → surviving St Andrews slide BPM/1/T8/6**. Printed p.253 reads `382. Delphinus phocaena L. Milz`, `383. -- Penis`, `384. -- Hode`, `385. -- Niere`; the ditto convention therefore makes 383 `Delphinus phocaena L., Penis`. The St Andrews slide independently retains Stazione Zoologica Napoli labels, `Delphinus phocaena`, and the public transcription `Panis 383`. Station, taxon and exact number close the offering identity; the `Panis`/`Penis` discrepancy is retained, and no unique manufacture/shipment identity is inferred. Full guards are in `data/analysis/naples_row383_object_catalogue_closure_v4.json`.
 
 The June 1880 RMS crosswalk remains a defensible `catalogue offering → named British physical slide shipment/exhibition` closure. It does **not** establish that any of those twelve 1880 RMS slides is the same individual physical object as a surviving St Andrews slide. The row-383 closure is different: it identifies a surviving St Andrews object with a catalogue offering/address, while leaving its individual-copy chronology open.
 
-The same audit separates the February 1883 Zoological Society Bell event from the 14 March 1883 RMS nineteen-slide event, and preserves later source language such as `preserved specimens` and `Marine Objects` without silently converting it into slide status.
-
-A compact research log is maintained at `data/analysis/slide_155_corpus_expansion_v1/PROGRESS_LOG_2026-08-09.md`.
-
 ## GitHub Actions
 
-The standalone repository keeps Actions as reproducible infrastructure, not as a mandate for further crawling:
+The repository keeps Actions as reproducible infrastructure, not as a mandate for further crawling:
 
-- `slide-survey` — validation/planning over the frozen survey.
-- `slide-export-frozen-catalogue` — reproduces the sealed 155-entry catalogue and membership audit.
-- `slide-institution-harvest` — bounded institution metadata harvesting retained for explicit future research uses.
+- `slide-survey` — validation/planning over the frozen survey;
+- `slide-export-frozen-catalogue` — reproduces the sealed 155-entry catalogue and membership audit;
+- `slide-institution-harvest` — manual bounded institution metadata harvesting retained for explicit future research uses;
+- `repository-integrity` — validates current cross-layer authority, counts, queues and publication pointers on pull requests or manual dispatch.
 
 All workflows operate on this repository's `main` branch. They no longer depend on the predecessor repository or the former `slide-survey-actions-pilot` branch.
 
