@@ -1,122 +1,104 @@
 {
-  "schema_version": "current-global-archive-router",
+  "schema_version": "2.0.0-current-closure-router",
   "updated": "2026-08-10",
-  "purpose": "Current operational router for archive and collection work. This file supersedes earlier priority snapshots for day-to-day research. It does not alter the frozen surviving-object census.",
-  "principle": "Prioritize the next source that can close a relation, not the next institution that can add a collection name.",
-  "targets": [
+  "status": "ACTIVE_CLOSURE_ONLY",
+  "purpose": "Operational router after the decision to stop geographic infrastructure-building and close only already-open UK/US/European relations.",
+  "principle": "Prioritize the next source that can change attribution, chronology, object identity or mechanism. Do not prioritize another institution merely because it adds coverage.",
+  "scope": {
+    "primary": "UK nineteenth-century microscopy",
+    "secondary": "US only where a UK-linked relation is already open",
+    "europe": "already-open continental-European chains only",
+    "parked": "new non-UK/US/Europe geographic infrastructures and general global bibliography discovery",
+    "frozen_survey": "307 discovery / 155 strict nineteenth-century nodes — CLOSED_2026-08-09",
+    "bibliography": "pass 19 / 206 entries remains audit/public state; no further geographic pass is active"
+  },
+  "active_targets": [
     {
       "rank": 1,
-      "target": "Charles Elcock — Whipple + St Andrews correspondence/slides + Challenger/Type Slide lineage",
-      "status": "S+; commercial product, expedition-material bridge, market reception and distributed survival all documented at series/collection level",
-      "closed": "Type Slide advertisements/retailers match Whipple TYPE SLIDE No.1/2 drawers; contemporary display and wanted/exchange evidence show public recognition and secondary demand; St Andrews preserves six independent TYPE SLIDE / OSTRACODA examples; Whipple retains a manuscript specimen-list sheet; Heron-Allen/Earland's later Type Slide archive includes some earliest slides marked Charles Elcock. Crucially, St Andrews ms21974-ms21975 are two Elcock letters dated 6–8 March 1884 whose catalogue explicitly notes references to Challenger expedition samples, while Whipple independently preserves Challenger-derived material among Elcock's slides and the 1910 Belfast obituary says Challenger samples were forwarded to him for examination.",
-      "next": "Request St Andrews ms21974-ms21975 first: they are now the cheapest direct route into who sent Elcock Challenger material and why. In parallel verify the 1882 Type Slide review in BHL and request Whipple 6601.10/6601.11 + drawers 9–12. Only after that transcribe/test the 2024 Flints Challenger cabinet against NHM station data.",
-      "payoff": "Expedition sample → correspondence → workshop preparation → spatial taxonomic/key system → commercial product → public/secondary market → retained workshop archive → posthumous dispersal."
+      "target": "Charles Elcock — St Andrews ms21974-ms21975",
+      "status": "S archive locator; content transcription open",
+      "next": "Obtain/transcribe only the two 6–8 March 1884 letters. Use them to test sender/sample/station/purpose of the Challenger-material bridge.",
+      "stop": "No broad St Andrews or Elcock discovery."
     },
     {
       "rank": 2,
-      "target": "Quekett Microscopical Club + Oxford RMS collections",
-      "status": "S; cheapest immediate Cole/object closure",
-      "closed": "Cole publication architecture and institutional Library/Cabinet separation are documented; major society slide collections survive.",
-      "next": "Search existing QMC label transcription for Cole/Martin/Prize Medal/Studies and diagnostic Volume I subjects; query Oxford old slide indexes against a small set of itemised RMS events.",
-      "payoff": "Published issue/donation event → historical cabinet record → surviving slide."
+      "target": "NHM HMS Challenger dataset",
+      "status": "S dataset/address architecture; full binary row harvest open",
+      "next": "When the XLSX is retrievable, ingest all 4,723 rows without early exit; subset slide/preparation terms and named preparators, preserving 4,723 dataset records versus 4,713 physical containers/objects.",
+      "stop": "No fresh general Challenger web sweep."
     },
     {
       "rank": 3,
-      "target": "Natural History Museum — H.M.S. Challenger sediment and microscopic-preparation archive",
-      "status": "S+; immediately harvestable field-to-slide-to-dataset chain",
-      "closed": "Haeckel's 1887 primary report says John Murray made carmine-stained Canada-balsam preparations on the spot and that Haeckel examined about 1,000 preparations from 168 stations. NHM preserves the sediment/derived-preparation collection, a separate 105-drawer slide cabinet, registration/subnumber layers and an open dataset; named slides include Haeckel-annotated and Norman-prepared examples. Modern CT analysis re-evaluates the material meaning of some historical collecting labels.",
-      "next": "Download/harvest the NHM resource and subset slide/micro-preparation records. Extract all records naming Haeckel, Norman, Voigt/Hochgesang and other preparators; build station → preparation → publication crosswalks starting with Station 271 and known M-number examples. Use dataset fields to test external Challenger claims such as the Elcock auction cabinet.",
-      "payoff": "Station/depth/method → shipboard preparation → specialist publication → Edinburgh custody → museum registration/cabinet → dataset → CT reinterpretation."
+      "target": "Balfour objectives / plate captions / serial sections",
+      "status": "S designation-publication layer; exact physical lens identity open",
+      "next": "Search exact Zeiss numbers 573, 1295, 710, 780, 542 in production/dispatch records if number lookup is possible, then query surviving sections only for figures with matching taxon/stage.",
+      "stop": "Do not broaden to general Zeiss or Cambridge instrument history."
     },
     {
       "rank": 4,
-      "target": "University of Tokyo Medical Library — Anatomy Department nos. 110, 118–123",
-      "status": "S; bounded archival system",
-      "closed": "Course diary, preparation quantity ledger, manufactured histology/embryology catalogue, microscope/instrument index and practical microscopy records are identified as a coherent 1870s–1880s sequence.",
-      "next": "Acquire page images with covers and original order; extract columns/numbering first; then test preparation categories across production, instrument and teaching records.",
-      "payoff": "Potential independent paper on institutional production of practical microscopy in Meiji Japan."
+      "target": "John Thomas Norman 1872 catalogue → St Andrews",
+      "status": "A+ collection chain; item crosswalk open",
+      "next": "Proceed only if a complete Norman item/export list becomes available; then match exact catalogue wording to physical label layers.",
+      "stop": "Do not reconstruct item identity from taxonomy or maker label alone."
     },
     {
       "rank": 5,
-      "target": "Cambridge Museum of Zoology / Whipple — Balfour objectives, serial sections and microtome",
-      "status": "S+ route; publication captions can potentially date instrument acquisition",
-      "closed": "Balfour embryological sections survive; Whipple preserves a Balfour objective set with Zeiss/Gundlach designations and serial/engraved numbers; the museum states that acquisition dates for some lenses can be traced through plate-caption mentions. A pre-1880 Rudolf Jung sliding microtome from Zoology is the type Foster and Balfour described as the microtome they were most accustomed to.",
-      "next": "Extract every objective/magnification reference from Balfour plate captions before broad archive requests. Crosswalk those printed references to objective markings, then taxon/stage and surviving slide-series candidates. Treat 1882 F.M.B. engravings as potentially commemorative.",
-      "payoff": "Objective address → dated plate caption → anatomical preparation/series → surviving section."
-    },
-    {
-      "rank": 6,
-      "target": "Harvard Embryological Collection + Charles Sedgwick Minot papers",
-      "status": "S/A+; rich public crosswalk and strongest seriality-without-publication control",
-      "closed": "HEC preserves serial sections, original card catalogue, line drawings, previous HEC numbers, current MCZ numbers, technique fields, publication citations and ledger links.",
-      "next": "Date-filter HEC records to pre-1900 first; sample complete series through old HEC number → card/drawing → technique/preparator → publication → current MCZ number.",
-      "payoff": "Anatomical seriality is not automatically material publication; HEC is a positive control for relation survival under recataloguing."
-    },
-    {
-      "rank": 7,
-      "target": "Stazione Zoologica Anton Dohrn + St Andrews surviving Naples slides",
-      "status": "S; catalogue/shipment bridge plus surviving external collection",
-      "closed": "Nine of the twelve June 1880 RMS slides strongly match numbered Naples catalogue offerings. St Andrews independently preserves a named Stazione Zoologica slide group and identifies Fritz Meyer as a major preparer of surviving examples. Delphinus phocaena BPM/1/T8/6 carries manuscript 'Panis 383'; number 383 is structurally plausible inside the derived Mammalia catalogue band, but the catalogue row has not yet been verified.",
-      "next": "Inspect catalogue row 383 before broadening the Naples search. Then search 1879–1881 preparation-department accounts/copybooks/A. W. Waters correspondence and transcribe St Andrews labels systematically.",
-      "payoff": "Catalogue → internal order/dispatch → British shipment/use → independently surviving institutional slides, with a possible first object-level catalogue-number closure."
-    },
-    {
-      "rank": 8,
-      "target": "Museo de La Plata — Tempère & Peragallo / Möller + Historical Archive",
-      "status": "S; best Cole distributed-series comparator",
-      "closed": "Named historical slide series survive in the same museum that preserves institutional correspondence from 1884 onward.",
-      "next": "Get current series inventory and label/box photographs first; search acquisition/exchange correspondence by exact names and series numbers.",
-      "payoff": "Published/numbered series → acquisition → museum re-addressing."
-    },
-    {
-      "rank": 9,
-      "target": "St Andrews Norman + Whipple Wheeler/Watson trade-attribution layer",
-      "status": "S; catalogue-to-object route expanded into maker/retailer/collector attribution",
-      "closed": "Norman's 1872 list can be reversed against surviving St Andrews labels, while the Whipple Wheeler 'Planet Mars' slide retains maker mark, Watson retailer label, collector number and current accession.",
-      "next": "Transcribe physical label layering before catalogue matching; use exact historical subject wording and keep maker, business, retailer and collector namespaces separate.",
-      "payoff": "Trade history becomes multi-layer attribution rather than a single maker field."
-    },
-    {
-      "rank": 10,
-      "target": "Berlese St Andrews subset + Florence CREA main collection",
-      "status": "A+; bounded numbered distributed-collection problem",
-      "closed": "St Andrews preserves 67 similarly mounted COLLEZIONI BERLESE slides in two boxes, with visible numbers spanning 37–194 and Italian localities; the principal Berlese Collection is preserved in Florence.",
-      "next": "Identify the historical catalogue/key behind the St Andrews numbers, photograph/transcribe all 67 labels and determine the route by which the subset left the main Berlese collection.",
-      "payoff": "Numbered specialist collection → institutional division → distributed surviving subset."
+      "target": "Naples row 383 → BPM/1/T8/6",
+      "status": "A candidate",
+      "next": "One bounded historical page-image check for rows 382–384.",
+      "stop": "If the page remains unavailable, park; no broad Naples expansion."
     }
   ],
-  "secondary_queue": [
-    "University of Coimbra — row-level parse of Costa Simões 1873 before archival enquiry.",
-    "Manchester Gibson / Whipple Pritchard / Dundee maker series — labels first, catalogues second.",
-    "Van Heurck distributed estate — retain as estate-scale collection-disassembly comparator.",
-    "Pacini/Cajal/Golgi — use as controlled label/address/scientist-legacy comparators rather than expanding all three at once."
-  ],
-  "completed_bounded_harvests": [
+  "closed_or_demoted": [
     {
-      "target": "Ernst Haeckel Online Briefedition",
-      "file": "data/analysis/haeckel_micropreparation_correspondence_harvest_v1.json",
-      "result": "Five primary letters establish distinct material relations: preparation for repeat viewing, raw-material consignment, field preservation failure, professional preparator send-on-approval sale, and gift of a Radiolaria glass collection.",
-      "stop_rule": "Reopen only for a named preparator, Radiolaria set, transaction, shipment or surviving collection bridge."
+      "target": "Arthur C. Cole vols I-II",
+      "status": "S primary-source architecture CLOSED",
+      "output": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json"
+    },
+    {
+      "target": "Cole Volume I 52-slide surviving material set",
+      "status": "A++ near-S material counterpart; full provenance optional"
+    },
+    {
+      "target": "Charles Collins Jr. 1884/1885 series",
+      "status": "S series/event/survival CLOSED; whole-volume ingestion optional"
+    },
+    {
+      "target": "H. L. Smith Century III",
+      "status": "S set architecture CLOSED; exact 1878 notice optional"
+    },
+    {
+      "target": "Frederic Kitton Series III-IV",
+      "status": "S set architecture CLOSED; launch prospectus optional"
+    },
+    {
+      "target": "Andrew Pritchard",
+      "status": "S date/object bridge CLOSED; preparation-list date corrected to 1835; row-level matching optional"
+    },
+    {
+      "target": "Quekett/Oxford Cole archive route",
+      "status": "archive capability/corroboration established; Cole-specific institutional search optional"
+    },
+    {
+      "target": "Harvard Embryological Collection / Minot",
+      "status": "S control architecture CLOSED; broad/pre-1900 harvest parked unless a specific UK-linked argument needs it"
+    },
+    {
+      "target": "Balfour full plate-caption harvest",
+      "status": "S publication-side harvest CLOSED; retained as active only for exact serial/object identity"
     }
   ],
-  "method_files": [
-    "data/analysis/retrievability_cross_media_infrastructure_v1.json",
-    "data/analysis/challenger_station_preparations_address_chain_v1.json",
-    "data/analysis/elcock_archive_dispersal_and_challenger_correspondence_v4.json",
-    "data/analysis/elcock_type_slide_genealogy_and_challenger_v3.json",
-    "data/analysis/trade_slide_attribution_layers_v1.json",
-    "data/analysis/balfour_objective_publication_crosswalk_v1.json",
-    "data/analysis/minot_hec_public_crosswalk_sample_v1.json",
-    "data/analysis/material_slide_publication_forms_v2.json",
-    "data/analysis/slide_archive_addressing_systems_v1.json",
-    "data/analysis/institutional_slide_teaching_ecologies_v1.json"
+  "parked_previous_global_targets": [
+    "University of Tokyo Medical Library Anatomy Department system",
+    "Museo de La Plata Tempère & Peragallo / Möller archive route",
+    "new South Asia / Africa / Latin America / East-Southeast Asia collection-register discovery",
+    "general national/geographic searching for representativeness"
   ],
-  "hold": [
-    "Kew aggregate slide collection until a named nineteenth-century transferred subcollection is found.",
-    "Zoological Survey of India aggregate slide/type holdings until a pre-1900 accession or named slide series is closed.",
-    "Charité/Virchow material until slide-specific preparations or catalogues are identified.",
-    "Edinburgh anatomy collections until a microscope-slide/preparation series is explicit.",
-    "General national/geographic searching unless it supplies a new mechanism or closes a current actor/series.",
-    "Additional broad Haeckel keyword harvesting unless a named object/preparator route emerges."
+  "reference_outputs": [
+    "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
+    "docs/UK_US_EUROPE_CLOSURE_BATCH_2026-08-10.md",
+    "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
+    "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
+    "data/analysis/minot_hec_public_crosswalk_sample_v1.json"
   ]
 }
