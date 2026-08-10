@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0-elcock-workshop-market-upgrade",
+  "generated": "2026-08-11",
+  "title": "Charles Elcock: raw material, preparation practice, Type Slide commerce, and surviving workshop archive",
+  "target_id": "GB-WHIPPLE-ELCOCK",
+  "status": "S_LEVEL_WORKSHOP_TO_MARKET_SYSTEM__INDIVIDUAL_RETAIL_COPY_HISTORY_OPEN",
+  "core_result": "The Elcock case now closes a rare nineteenth-century chain from collectable/raw foraminiferal material and documented manipulation, through public reputation and a standardized priced Type Slide product distributed by named agents, to a surviving personal workshop archive containing Type Slide drawers, retained slides, tools, stains, mounting materials, raw specimens, books and notes.",
+  "official_current_sources": [
+    {
+      "institution": "Whipple Museum of the History of Science, University of Cambridge",
+      "url": "https://www.whipplemuseum.cam.ac.uk/explore-whipple-collections/microscopes/foraminifera-slides-and-working-tools-microscope-slide-maker",
+      "supports": [
+        "Elcock as Belfast-based professional slide maker",
+        "Whipple acquisition of his personal archive in 2015",
+        "transition from amateur naturalist to professional commerce",
+        "sale through agents in London, Manchester and Bath by 1880",
+        "Type Slides at twenty shillings, each with fifty species and microscopic scientific names",
+        "surviving archive as a combined corpus of slides, tools, stains, mountable materials, papers and books",
+        "surviving expedition-derived material including Challenger, Porcupine and Knight Errant"
+      ]
+    },
+    {
+      "institution": "Whipple Museum Collections Online",
+      "accession": "Wh.6601 / 6601",
+      "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15311/",
+      "supports": [
+        "archive dated 1872-1910",
+        "purchase by the Whipple in 2015 after apparent family descent",
+        "6601.1: 24-drawer cabinet, 617 parts, all apparently Elcock-made foraminifera slides",
+        "drawer labels TYPE SLIDE, No. 1 on drawers 9-10 and TYPE SLIDE, No. 2 on drawers 11-12",
+        "6601.2: mixed slide + workshop-material cabinet with tools, stains, supplies, raw/mountable specimens and collected packets",
+        "6601.3: twelve fitted trays, six slides per tray, with taxon/locality/depth information on many labels",
+        "6601.7: Terquem volume inscribed Charles Elcock Belfast, 1882/1884"
+      ]
+    }
+  ],
+  "project_primary_text_bridges": [
+    {
+      "source": "03_UK_Microscopy_BNA_MASTER.json",
+      "date": "1880-04-17 / 1880-04-24",
+      "event": "Belfast Naturalists' Field Club prize reporting",
+      "evidence": "Contemporaneous Belfast newspaper reports state that prize no. 14 went to Charles Elcock for a set of twenty-five microscopic slides.",
+      "function": "public reputation / judged slide set"
+    },
+    {
+      "source": "01C_UK_Microscopy_Core_Clubs_Popular_Local_1865-1886.json",
+      "record_id": "R49267",
+      "date": "1885",
+      "event": "commercial advertisement in Journal of Microscopy and Natural Science / Postal Microscopical Society",
+      "verbatim_key_fields": [
+        "TYPE SLIDES, each containing FIFTY SPECIES",
+        "Selected by CHARLES ELCOCK",
+        "Type Slides No. 1 & No. 2 are now ready",
+        "PRICE TWENTY SHILLINGS EACH",
+        "Other slides are in preparation"
+      ],
+      "named_agents": [
+        "Beck and Beck, Cornhill, London",
+        "Watson & Sons, 313 High Holborn, London",
+        "Chas. Collins, 157 Great Portland Street, London",
+        "E. Ward, 249 Oxford Street, Manchester",
+        "Alfred Allen, 1 Cambridge Place, Bath"
+      ],
+      "function": "standardized product identity + price + dealer network"
+    },
+    {
+      "source": "02C_UK_Microscopy_Extensions_1876-1883_and_Special_OCR.json",
+      "date": "1883",
+      "event": "Microscopical News discussion of Elcock foraminifera practice",
+      "evidence": "Elcock describes collecting foraminifera from Southport ripple-mark hollows; a Sutton Bridge silt preparation contained 48 species and was described as difficult raw material; the published procedure moves through washing, drying, sieving, suspension/settling and transfer before mounting.",
+      "function": "raw material → preparative operation → mounted slide"
+    }
+  ],
+  "closed_chain": [
+    "shore/dredged/expedition material and collected packets",
+    "washing, sieving, sorting and mounting operations",
+    "judged/publicly recognized slide workmanship",
+    "standardized Type Slide Nos. 1 and 2",
+    "fifty named species per Type Slide",
+    "twenty-shilling unit price",
+    "multi-city dealer/agent network",
+    "retained Type Slide drawers and workshop exemplars",
+    "tools + stains + mounting media + raw/mountable substances",
+    "2015 museum accession preserving the workshop assemblage"
+  ],
+  "address_history": {
+    "commercial_address": "Type Slide No. 1 / No. 2 + species names + price + named sales agents",
+    "workshop_address": "custom cabinet drawers, fitted matrices, manuscript/printed specimen labels, locality/depth notes",
+    "museum_address": "Wh.6601 and child components 6601.1-6601.18",
+    "diagnostic_feature": "The commercial product identity survives inside a personal workshop archive: nineteenth-century sale language ('Type Slide No. 1/No. 2') is still physically present as drawer labels in the retained cabinet."
+  },
+  "grades": {
+    "surviving_workshop_archive_identity": "S",
+    "Type_Slide_product_identity_and_price": "S",
+    "Type_Slide_product_name_to_surviving_drawers": "S",
+    "raw_material_to_preparation_practice": "S at process level",
+    "named_agent_distribution_network": "S",
+    "specific_surviving_slide_is_a_specific_historical_retail_copy": "OPEN"
+  },
+  "critical_guards": [
+    "The Whipple narrative quotes a 1879 Belfast Naturalists' Field Club judgement; the contemporaneous BNA reports recovered by this project are dated April 1880. Preserve these as distinct dated source states rather than silently harmonising them.",
+    "The surviving Type Slide drawers identify product/workshop architecture, but the archive is believed to contain material remaining in Elcock's possession at death. Do not automatically call every surviving Type Slide a retail-sold copy returned from the market.",
+    "Catalogue/product labels are not unique-copy serial numbers. Product identity does not itself prove manufacture date or purchaser of an individual surviving slide.",
+    "Expedition names on surviving material establish source/provenance at the level supported by labels and catalogue description; do not infer a direct personal transfer from an expedition leader without separate documentation."
+  ],
+  "research_payoff": "Elcock is now one of the strongest cases in the project for joining material preparation to commerce without treating the finished slide as the beginning of the story. Unlike Cole, whose fixed publication addresses survive despite replacement, Elcock preserves the workshop behind a commercial address: raw matter, tools and technique sit physically beside standardized priced products and dealer routes.",
+  "next_high_value_closure": "Select one Type Slide from drawers 9-12 and transcribe its full printed/manuscript labels and numbered matrix. Test whether its species sequence can be matched to an advertisement, list, surviving duplicate, or buyer/institutional copy. Stop broad discovery unless a specific retail recipient or numbered counterpart appears."
+}
