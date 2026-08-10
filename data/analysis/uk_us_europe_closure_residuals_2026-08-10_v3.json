@@ -1,0 +1,87 @@
+{
+  "schema_version": "3.0.0-uk-us-europe-closure-residuals",
+  "generated": "2026-08-10",
+  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__EXACT_SOURCE_REQUESTS_ONLY",
+  "purpose": "Re-audit the remaining UK/US/European closure targets after the v2 batch and distinguish what can still be resolved from public indexed sources from what now requires an exact manuscript image, institutional export, archive lookup, binary download, or page image. This file is a stop-rule layer: it prevents repeated broad searching once the public layer has ceased to change the historical claim.",
+  "scope_rule": "No new geographic infrastructure. Continue only relations already open in the UK, narrowly linked US, or already-open European chains.",
+  "residuals": [
+    {
+      "target": "Charles Elcock to D'Arcy Wentworth Thompson, ms21974-ms21975, 6-8 March 1884",
+      "region": "UK",
+      "new_status": "REQUEST_ONLY__PUBLIC_CATALOGUE_EXHAUSTED",
+      "public_source": "https://collections.st-andrews.ac.uk/item/darcy-wentworth-thompson-letters/2055455",
+      "secure_public_result": "The St Andrews item record identifies two autograph letters signed plus one rubbing. It explicitly says the main theme is archaeological/antiquarian discussion of a medal allegedly found in a peat bog at Oughterard, County Kildare; the record separately notes natural-history discussion and references to Challenger expedition samples.",
+      "correction_to_working_expectation": "The public record does not present these as primarily Challenger letters. Challenger is an explicit referenced topic within a broader correspondence item. The existence of the reference is secure; the transaction/workflow content is not.",
+      "still_open": [
+        "verbatim Challenger passage",
+        "who supplied or forwarded the samples",
+        "sample/station/locality/depth/number",
+        "scientific purpose",
+        "retention/return or preparation instructions",
+        "relation to surviving Elcock Challenger material or Type Slides"
+      ],
+      "next": "Request/read page images of ms21974-ms21975 only. Do not continue generic Elcock/St Andrews web discovery.",
+      "grade": "S archive-item metadata; OPEN transaction content"
+    },
+    {
+      "target": "NHM HMS Challenger sediment/preparation dataset",
+      "region": "UK",
+      "new_status": "TECHNICAL_DOWNLOAD_ONLY__PUBLIC_ARCHITECTURE_CLOSED",
+      "public_dataset": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection",
+      "public_resource": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection/resource/38ed7710-be94-4481-b23a-6bb728dd6c88",
+      "secure_public_result": "The current dataset page states 4,713 physical bottles, tubes, boxes and slides/derived preparations and exposes a resource of 4,723 records. The diagnostic object harvest is already structured in challenger_dataset_row_harvest_v2.json, including M.408(65), a Norman-attributed planktonic-foraminifera preparation whose M.408 base address is associated with Station 338.",
+      "portal_metadata_guard": "Current portal surfaces are not perfectly synchronized: dataset/search surfaces expose a 21 May 2026 resource update while the resource-detail page can expose an earlier XLSX metadata state. Treat file format/update metadata as versioned portal states; do not turn that discrepancy into a collection-history claim.",
+      "still_open": "Complete no-early-exit harvest of the current 4,723-row binary resource.",
+      "next": "Download the current resource binary when retrievable and execute the already-defined full-row subset. No fresh Challenger discovery search.",
+      "grade": "S address/dataset architecture; full current table mechanical gap"
+    },
+    {
+      "target": "Francis Maitland Balfour surviving Zeiss objectives",
+      "region": "UK / Germany",
+      "new_status": "ARCHIVE_QUERY_ONLY__PUBLIC_SERIAL_SEARCH_EXHAUSTED",
+      "official_zeiss_production_lists": "https://www.zeiss.com/corporate/en/about-zeiss/past/history/archives/production-lists.html",
+      "official_zeiss_archives": "https://www.zeiss.com/corporate/en/about-zeiss/past/history/archives.html",
+      "secure_public_result": "ZEISS publishes historical production/dispatch lists for microscope stands and records recipient, delivery place, accessories, delivery date and production data. The public lists are organized around microscope/stand serial numbers; the Balfour problem concerns engraved numbers on individual surviving objectives (573, 1295, 710, 780, 542). No public indexed source found in this pass converts those objective engravings into a dispatch record.",
+      "guard": "Do not feed the objective engravings into stand-number tables as if the numbering systems were identical. A microscope dispatch entry might list objectives as accessories, but that requires a recipient/stand-level hit or archive guidance.",
+      "still_open": "Exact physical-lens provenance/dispatch identity beyond the already closed printed designation-level use record.",
+      "next": "Archive query to ZEISS with Balfour/Cambridge plus the five objective engravings, asking whether accessory/objective registers or stand dispatch entries preserve those numbers. No more generic serial-number web searching.",
+      "grade": "S publication-designation layer; exact-lens identity archive-only"
+    },
+    {
+      "target": "John Thomas Norman 1872 catalogue to St Andrews surviving slides",
+      "region": "UK",
+      "new_status": "INSTITUTIONAL_EXPORT_ONLY__NO_PUBLIC_ITEM_LAYER",
+      "official_norman_group": "https://collections.st-andrews.ac.uk/group/john-thomas-norman-zoological-microscope-slides/2001954",
+      "official_parent_collection": "https://collections.st-andrews.ac.uk/group/bell-pettigrew-zoology-microscope-slide-collection/2053389",
+      "secure_public_result": "St Andrews confirms the 1872 catalogue of 2,584 mounts and a Norman group within the Bell-Pettigrew collection. The catalogue record says the Norman slides remain in situ, scattered among the slide sleeves. The parent collection preserves original sleeve/pigeon-hole ordering and multiple label layers. The public Norman group exposes no usable numeric extent and no indexed child-item list from which a 2,584-row crosswalk can be built.",
+      "guard": "Do not manufacture an item crosswalk from taxonomy, label presence or group membership. Norman labels can also represent business stock or secondary commercial circulation, including slides sold after John Thomas Norman's lifetime.",
+      "still_open": "Complete Norman item/export list with current addresses, label transcriptions and preferably images.",
+      "next": "Proceed only after St Andrews supplies/export exposes the item layer. Until then collection-level chain remains the terminal public claim.",
+      "grade": "A+/S collection-level chain; item identity blocked by data granularity"
+    },
+    {
+      "target": "Naples catalogue row 383 to St Andrews BPM/1/T8/6",
+      "region": "Italy / UK",
+      "new_status": "PARKED_PAGE_IMAGE_ONLY",
+      "bhl_item": "https://www.biodiversitylibrary.org/item/37442",
+      "bhl_article_state": "BHL verifies the 1881 article Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate at vol. 2, pp. 238-253. The existing project parse identifies the numbered catalogue as pp. 242-253 and preserves 423 offerings.",
+      "secure_public_result": "Indexed BHL search continues to expose the article/book container but not the decisive OCR/page text for row 383. The St Andrews object-side transcription 'Panis 383' and the derived Mammalia range remain unchanged.",
+      "still_open": "Verbatim rows 382-384, especially the preparation wording and price/ditto structure of 383.",
+      "next": "One direct BHL/Internet Archive page image around the end of the catalogue. If the image cannot be retrieved, keep 383 at A-candidate and stop.",
+      "grade": "A candidate; exact object-row identity OPEN"
+    }
+  ],
+  "operational_conclusion": {
+    "public_web_targets_remaining": 0,
+    "exact_source_requests_remaining": 5,
+    "meaning": "The active internet discovery loop is closed. Every remaining edge is now an exact source-access problem, not a search-coverage problem.",
+    "request_queue": [
+      "St Andrews ms21974-ms21975 page images",
+      "NHM Challenger current resource binary",
+      "ZEISS archive/objective-number guidance for Balfour",
+      "St Andrews Norman item/export layer",
+      "BHL/IA page image containing Naples rows 382-384"
+    ],
+    "stop_rule": "Do not reopen broad web searching for any of these targets unless a requested source returns a new name, identifier, station, catalogue number, or institutional address that creates a genuinely new bounded query."
+  }
+}
