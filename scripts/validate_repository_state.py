@@ -183,15 +183,21 @@ def validate_source_registry() -> None:
 
     counts = manifest["counts"]
     superseded = manifest.get("superseded_ids", {})
+    excluded = manifest.get("excluded_ids", {})
     assert len(records) == counts["raw_records_across_chunks"] == 87
     assert len(superseded) == counts["superseded_duplicate_route_ids"] == 3
+    assert len(excluded) == counts["excluded_out_of_scope_ids"] == 1
+    assert not set(superseded).intersection(excluded), "source ID cannot be both superseded duplicate and excluded"
     for old_id, meta in superseded.items():
         assert old_id in seen, f"superseded source id missing: {old_id}"
         assert meta["canonical_id"] in seen, f"canonical source id missing: {meta['canonical_id']}"
         assert old_id != meta["canonical_id"]
+    for excluded_id in excluded:
+        assert excluded_id in seen, f"excluded source id missing from raw audit layer: {excluded_id}"
 
-    canonical_records = [record for record in records if record["id"] not in superseded]
-    assert len(canonical_records) == counts["canonical_records"] == 84
+    suppressed = set(superseded) | set(excluded)
+    canonical_records = [record for record in records if record["id"] not in suppressed]
+    assert len(canonical_records) == counts["canonical_records"] == 83
 
     record_by_id = {record["id"]: record for record in canonical_records}
     url_to_uses: dict[str, list[tuple[str, str]]] = defaultdict(list)
@@ -208,7 +214,7 @@ def validate_source_registry() -> None:
         for url, uses in sorted(duplicate_urls.items()):
             labels = " | ".join(f"{ident} [{role}] :: {record_by_id[ident]['collection']}" for ident, role in uses)
             print(f"    URL {url} => {labels}")
-    print(f"  checked {len(records)} raw source-registry records / {len(canonical_records)} canonical / {len(superseded)} superseded duplicates")
+    print(f"  checked {len(records)} raw source-registry records / {len(canonical_records)} canonical / {len(superseded)} superseded duplicates / {len(excluded)} excluded")
     assert_path("sources/README.md")
 
 
@@ -246,9 +252,10 @@ def validate_current_presentation_links() -> None:
     assert "../data/corpus/CORPUS_MANIFEST_V5.json" not in sources_index
     assert "source-registry-manifest.json" in sources_js
     assert "const sourceFiles=['source-registry.json','source-registry-02.json','source-registry-03.json']" not in sources_js
-    assert "superseded_ids" in sources_js
+    assert "superseded_ids" in sources_js and "excluded_ids" in sources_js
     assert "CORPUS_MANIFEST_V6.json" in pages
     assert "research-outputs: 41" in version
+    assert "source-registry: 83 canonical / 87 raw / 3 superseded duplicate routes / 1 excluded out-of-scope" in version
     assert "corpus-manifest: data/corpus/CORPUS_MANIFEST_V6.json" in version
 
 
