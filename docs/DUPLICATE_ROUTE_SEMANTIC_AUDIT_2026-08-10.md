@@ -32,7 +32,7 @@ It appeared in both `src_cole_studies_1883` and `src_smith_beck_transparent_1861
 
 ### Result
 
-The current 206-row bibliography now has **zero repeated DOI routes across distinct rows**. The manifest now states explicitly that a `doi.org` URL may be stored in a row only when it identifies that row's own bibliographic item.
+The current 206-row bibliography now has **zero repeated DOI routes across distinct rows**. The manifest states explicitly that a `doi.org` URL may be stored in a row only when it identifies that row's own bibliographic item.
 
 ## 2. Bibliography repeated non-DOI URLs
 
@@ -67,70 +67,38 @@ The original 87-row raw source registry produced six repeated URL groups. Here t
 
 ### Three true duplicate routes — canonicalized
 
-#### Iziko Entomology
+- `ZA-IZIKO-ENTOMOLOGY` → `ZA-IZIKO-ENTOMOLOGY-SLIDES`.
+- `AR-LAPLATA-FYCOLOGY` → `AR-MLP-FICOLOGIA-DIATOMS`.
+- `NZ-TEPAPA-COLLECTIONS-ARCHIVES` → `NZ-TEPAPA-NATURAL-HISTORY-ARCHIVES`.
 
-- superseded: `ZA-IZIKO-ENTOMOLOGY`
-- canonical: `ZA-IZIKO-ENTOMOLOGY-SLIDES`
-
-Both records point to the same Iziko Entomology page and describe the same 5,644-slide institutional endpoint. The later record adds better nineteenth-century scope, aggregate-count caution and access context.
-
-**Disposition:** keep both raw rows as audit history; suppress the older ID in current/public consumption.
-
-#### Museo de La Plata — División Ficología
-
-- superseded: `AR-LAPLATA-FYCOLOGY`
-- canonical: `AR-MLP-FICOLOGIA-DIATOMS`
-
-Both describe the same División Ficología endpoint and same primary URL. The later record preserves the same Möller / Tempère & Peragallo route while adding clearer Frenguelli and institutional detail.
-
-**Disposition:** suppress the older ID; retain the enriched later record as canonical.
-
-#### Te Papa natural-history collections / archives
-
-- superseded: `NZ-TEPAPA-COLLECTIONS-ARCHIVES`
-- canonical: `NZ-TEPAPA-NATURAL-HISTORY-ARCHIVES`
-
-Both describe the same Te Papa natural-history/archive access route and use the same primary page. The later record adds the predecessor-institution and Hector chronology needed for nineteenth-century work.
-
-**Disposition:** suppress the older ID; retain the enriched later record as canonical.
+In all three cases the later record describes the same institutional endpoint and same primary URL with fuller scope/access metadata. The older row remains in the raw chunk as audit history and is suppressed in canonical/public consumption.
 
 ### Three legitimate shared URLs — retained as separate records
 
-#### St Andrews Bell Pettigrew hierarchy
+- **St Andrews Bell Pettigrew hierarchy:** the parent collection URL is primary for `GB-STANDREWS-BELL-PETTIGREW-SLIDES` and secondary for distinct Elcock and Stazione Zoologica Napoli subcollection records.
+- **NHM Challenger:** the sediment dataset is primary for the historical preparation/collection route and secondary for the distinct CT-reassessment record.
+- **NHM Heron-Allen:** the foraminifera landing page is primary for the broader collection and secondary for the more specific Type Slide system.
 
-The Bell Pettigrew collection URL is the primary route for `GB-STANDREWS-BELL-PETTIGREW-SLIDES` and a secondary parent route for the distinct `GB-STANDREWS-ELCOCK-TYPE-SLIDES` and `GB-STANDREWS-STAZIONE-ZOOLOGICA-NAPOLI` records.
+These records remain separate because they perform different evidentiary work.
 
-**Disposition:** retain all three. This is parent collection ↔ named subcollection reuse, not duplication.
+## 4. Post-audit scope exclusion
 
-#### NHM Challenger
-
-The Challenger sediment dataset URL is primary for `GB-NHM-CHALLENGER-SEDIMENT-PREPARATIONS` and secondary for `GB-NHM-CHALLENGER-CT-REASSESSMENT`, whose own primary URL is the CT dataset.
-
-**Disposition:** retain both. They represent historical collection/preparation infrastructure and a distinct modern analytical afterlife.
-
-#### NHM Heron-Allen
-
-The NHM foraminifera landing page is primary for the broader `GB-NHM-HERON-ALLEN-FORAMINIFERA` route and secondary for the more specific `GB-NHM-HERON-ALLEN-EARLAND-TYPE-SLIDES` record, whose primary evidence is the published Type Slide collection study.
-
-**Disposition:** retain both. Broader collection and Type Slide retrieval architecture perform different evidentiary work.
-
-## 4. Canonical source-registry state
+A later whole-registry link/scope pass identified one additional problem that is conceptually different from duplication: `GB-SHEFFIELD-SORBY` was a **cross-project residue**. It is not a duplicate route and is therefore not entered in `superseded_ids`. Instead, it is now listed under `excluded_ids` in `source-registry-manifest.json`.
 
 The raw chunks remain unchanged as an audit trail:
 
 - raw records across 12 chunks: **87**;
 - superseded same-route IDs: **3**;
-- canonical source routes: **84**.
+- excluded out-of-scope IDs: **1**;
+- current canonical source routes: **83**.
 
-`source-registry-manifest.json` is now the canonicalization layer. Current/public consumers must read its `superseded_ids` map rather than simply concatenating all raw rows.
+Current/public consumers must suppress both `superseded_ids` and `excluded_ids` rather than simply concatenating the raw chunks.
 
-## 5. Public-site bug found during the audit
+## 5. Public-site loader state
 
-The public `sources/sources.js` still contained a historical hard-coded list of only three registry chunks even though the manifest now contains twelve. This meant the public Sources page was not actually rendering the full registry described by its own documentation.
+The public `sources/sources.js` previously contained a historical hard-coded list of only three registry chunks even though the manifest contains twelve. It now loads `source-registry-manifest.json`, fetches all twelve chunks, suppresses the three superseded IDs and the one excluded ID, and asserts the manifest's **83 canonical records** before rendering/exporting them.
 
-**Fix:** `sources.js` now loads `source-registry-manifest.json`, fetches all twelve chunks, suppresses the three superseded IDs, and asserts the manifest's **84 canonical records** before rendering/exporting them.
-
-This was a publication-layer bug, not a source-data loss: the later chunks were present in the repository but were not being loaded by the page.
+This was a publication-layer bug and scope-cleanup issue, not source-data loss: the later chunks and excluded raw row remain in the repository as audit history.
 
 ## 6. Resulting policy
 
@@ -141,6 +109,6 @@ Going forward:
 3. repeated non-DOI URL is only a review trigger;
 4. source-registry rows sharing a primary URL are collapsed only when they describe the same endpoint at the same evidentiary level;
 5. parent/subcollection, primary/secondary and collection/analytical-afterlife relations remain separate even when they share a URL;
-6. raw source-registry rows can remain for audit, but canonical/public consumers must apply the manifest alias map.
+6. raw source-registry rows can remain for audit, but canonical/public consumers must apply both the duplicate-supersession map and explicit scope exclusions.
 
-This completes the first semantic duplicate-route cleanup without changing the frozen 307/155 object census or the 206-entry bibliography membership.
+This completes the semantic duplicate/scope cleanup without changing the frozen 307/155 object census or the 206-entry bibliography membership.
