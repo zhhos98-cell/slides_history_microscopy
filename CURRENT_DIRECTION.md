@@ -12,7 +12,16 @@ The discovery phase is parked. The public indexed closure pass is now also **exh
 
 ## Current authority
 
-Use `data/analysis/CURRENT_STATE.json` as the canonical machine-readable analysis-state manifest and `data/analysis/global_archive_research_priority_CURRENT.json` as the live operational router. Older versioned batch/residual files remain in the repository as audit snapshots and are explicitly mapped as superseded where appropriate.
+Use `REPOSITORY_STATE.json` as the top-level authority map for the whole repository. Within the analysis layer, use `data/analysis/CURRENT_STATE.json` as the canonical machine-readable analysis-state manifest and `data/analysis/global_archive_research_priority_CURRENT.json` as the live operational router. Older versioned batch/residual files remain in the repository as audit snapshots and are explicitly mapped as superseded where appropriate.
+
+Current public-layer authorities are:
+
+- survey: `data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json`
+- bibliography: `bibliography/bibliography-manifest.json`
+- analysis: `data/analysis/CURRENT_STATE.json`
+- corpus publication: `data/corpus/CORPUS_MANIFEST_V6.json`
+- source registry: `sources/source-registry-manifest.json`
+- bounded harvest evidence: `data/evidence/targeted_deep_4/manifest.json`
 
 Current target-specific authority files include:
 
