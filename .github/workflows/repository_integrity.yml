@@ -2,13 +2,33 @@ name: repository-integrity
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "REPOSITORY_STATE.json"
+      - "CURRENT_DIRECTION.md"
+      - "README.md"
+      - "pages-version.txt"
+      - "index.html"
+      - "bibliography/**"
+      - "sources/**"
+      - "data/**"
+      - "docs/PAGES.md"
+      - "docs/REPOSITORY_ORGANIZATION_AUDIT_2026-08-10.md"
+      - "scripts/validate_repository_state.py"
+      - ".github/workflows/repository_integrity.yml"
   pull_request:
     paths:
       - "REPOSITORY_STATE.json"
       - "CURRENT_DIRECTION.md"
+      - "README.md"
+      - "pages-version.txt"
+      - "index.html"
       - "bibliography/**"
       - "sources/**"
       - "data/**"
+      - "docs/PAGES.md"
+      - "docs/REPOSITORY_ORGANIZATION_AUDIT_2026-08-10.md"
       - "scripts/validate_repository_state.py"
       - ".github/workflows/repository_integrity.yml"
 
