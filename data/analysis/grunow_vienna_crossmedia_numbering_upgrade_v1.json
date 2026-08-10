@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0.0-grunow-crossmedia-numbering-upgrade",
+  "generated": "2026-08-11",
+  "title": "Albert Grunow diatom collection at Vienna: sample numbers across raw material, slides, catalogue, drawings and annotated books",
+  "status": "S_LEVEL_COLLECTION_SYSTEM_ARCHITECTURE__ITEM_CROSSWALK_OPEN",
+  "builds_on": [
+    "data/analysis/slide_archive_addressing_systems_v1.json",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "A+ comparator; one sample number through every medium requested",
+    "new_state": "S-level collection-system architecture. NHM Vienna now publicly documents the component types, scale, numbering systems and the catalogue's cross-referential functions in enough detail to establish that sample numbers were deliberate cross-media retrieval infrastructure.",
+    "guard": "S applies to the documented architecture of Grunow's collection and catalogue. A specific sample-number chain from raw material through historical slide, drawing and annotated publication remains to be selected and closed item by item."
+  },
+  "custody_and_scale": {
+    "institution": "Naturhistorisches Museum Wien, Department of Botany, herbarium W",
+    "deposit_year": 1899,
+    "collection_role": "Grunow's diatom 'Herbar' formed the basis of the general diatom collection at W.",
+    "sample_numbers_in_catalogue": 3278,
+    "historical_slides_extant_approx": 1400,
+    "drawings_approx": 15000,
+    "taxon_names_attributed_to_grunow_approx": 3000,
+    "source": "NHM Vienna curator Tanja Schuster collection description"
+  },
+  "surviving_object_types": [
+    "unmounted diatom material and herbarium material in capsules",
+    "fossil samples in historical pill boxes",
+    "catalogue of samples studied by Grunow",
+    "historical and current microscope slides",
+    "Grunow drawings",
+    "books annotated by Grunow with sample numbers linked to illustrations"
+  ],
+  "catalogue_information_fields_documented_by_nhm": [
+    "ascending sample number",
+    "species lists",
+    "collection locality",
+    "origin of material such as marine or fossil",
+    "collector and collector number",
+    "cross-reference to exsiccata containing the same material",
+    "preparation type",
+    "coordinates of particular valves on microscope slides"
+  ],
+  "historical_curation_evidence": {
+    "instructions": "Grunow left eleven pages of instructions about the collection and catalogue. The 2023 NHM study publishes/analyses these instructions, including an English translation and palaeographic aid.",
+    "interpretive_value": "The catalogue was an active curation and retrieval instrument, not merely a later museum inventory. It coordinated sample identity across materially different states and media."
+  },
+  "address_chain": [
+    {"system": "sample/raw-material address", "value": "Grunow sample number", "function": "stabilise identity before or apart from mounting"},
+    {"system": "catalogue address", "value": "same sample number with locality/collector/material/preparation information", "function": "central cross-reference hub"},
+    {"system": "slide address", "value": "historical microscope preparation plus slide/valve coordinates where recorded", "function": "locate selected microscopic objects"},
+    {"system": "drawing address", "value": "sample number written with visual study", "function": "bind image and taxonomic observation back to material"},
+    {"system": "annotated-book address", "value": "sample numbers beside illustrations/annotations", "function": "connect published or comparative visual knowledge to source material"},
+    {"system": "modern digitisation address", "value": "QR/stable identifiers + JACQ records", "function": "translate historical cross-media structure into current collection management"}
+  ],
+  "digitisation_sequence": {
+    "first": "QR-code folders in drawing collection to assign unique stable identifiers",
+    "then": "image and transcribe taxon names on folders",
+    "next": "QR-code and image individual drawing sheets",
+    "catalogue": "catalogue pages have already been imaged; transcription is a stated next step",
+    "interpretive_note": "The modern digitisation deliberately begins from drawings because they carry sample numbers and descriptive information needed to build a taxonomic backbone for the other collection components."
+  },
+  "research_result": "Grunow is now the strongest sample-number case in the project. A single historical number can coordinate unmounted matter, mounted slides, a working catalogue, drawings and annotated books, while the modern museum adds a new stable-identifier layer without discarding the old sample-number logic.",
+  "comparison_with_cole_cajal": {
+    "Cole": "serial issue number binds paper, glass and cabinet sequence",
+    "Cajal": "modern catalogue retains successive cabinet, inventory and archival addresses for the same slide",
+    "Grunow": "sample number crosses material states and media inside one scientific working collection before later museum digitisation"
+  },
+  "exact_next_action": "Choose one sample number explicitly cited in the 2022/2023 NHM Grunow studies and close it across catalogue entry, surviving raw material/capsule, historical slide if extant, drawing, annotated book reference and current JACQ/QR identifier. Stop after one or two fully closed exemplars rather than inventorying the entire collection.",
+  "primary_sources": [
+    "https://www.nhm-wien.ac.at/en/tanja_schuster",
+    "https://www.nhm-wien.ac.at/verlag/wissenschaftliche_publikationen/annalen_serie_b/125_2023",
+    "https://www.nhm-wien.ac.at/forschung/botanik/sammlungen"
+  ]
+}
