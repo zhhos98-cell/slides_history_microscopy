@@ -34,7 +34,12 @@
   "schema_fields": ["id", "year", "section", "authors", "title", "citation", "type", "language", "tags", "note", "verification", "links"],
   "runtime_exports": ["csv", "tsv", "json", "csl-json", "bibtex", "ris"],
   "export_scopes": ["all", "filtered"],
-  "export_note": "Portable exports are generated in the browser from the same CSV rows used to render the bibliography. CSL JSON, BibTeX and RIS retain the formatted citation and project note; DOI and stable URLs are extracted from the links field where present.",
+  "export_note": "Portable exports are generated in the browser from the same CSV rows used to render the bibliography. CSL JSON, BibTeX and RIS retain the formatted citation and project note. A doi.org link may appear in a row only when it is the DOI of that row's own bibliographic item; DOI links to later works that merely cite or verify the item are excluded because the exporter treats doi.org links as item identifiers. Shared non-DOI verification URLs may legitimately support multiple distinct rows.",
+  "duplicate_route_policy": {
+    "repeated_doi_across_distinct_rows": "error until semantically resolved",
+    "repeated_non_doi_url": "allowed when one person page, issue page, institutional collection page, bibliography, or other verification route legitimately supports distinct records",
+    "audit": "docs/DUPLICATE_ROUTE_SEMANTIC_AUDIT_2026-08-10.md"
+  },
   "legacy_files": {
     "bibliography.csv": "Predecessor partial static index retained for compatibility/audit. It is not the current 206-row bibliography and must not be used as the authority for totals or comprehensive export."
   },
