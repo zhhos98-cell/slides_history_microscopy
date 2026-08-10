@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0-repository-state",
+  "generated": "2026-08-10",
+  "status": "CANONICAL_REPOSITORY_STATE",
+  "purpose": "Top-level authority map for the microscope-slide repository. This file identifies the current state of each evidence/publication layer while preserving older versioned files as audit history.",
+  "canonical_repository": "zhhos98-cell/slides_history_microscopy",
+  "branch": "main",
+  "research_mode": "ANALYSIS_AND_WRITING__EXACT_SOURCE_REQUESTS_ONLY",
+  "layers": {
+    "survey": {
+      "authority": "data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json",
+      "status": "CLOSED_2026-08-09",
+      "discovery_nodes": 307,
+      "strict_nineteenth_century_nodes": 155,
+      "rule": "Never extend frozen membership silently; modular survey batches remain an audit trail."
+    },
+    "bibliography": {
+      "authority": "bibliography/bibliography-manifest.json",
+      "version": "slide-locked-pass-19",
+      "total_entries": 206,
+      "research_entries": 88,
+      "primary_object_entries": 118,
+      "publication_languages": 19,
+      "status": "PARKED_AS_PUBLIC_AUDIT_STATE",
+      "row_storage": "bibliography/bibliography-01.csv through bibliography/bibliography-22.csv",
+      "legacy_file": "bibliography/bibliography.csv",
+      "legacy_note": "The static bibliography.csv is a predecessor partial index and is not the current 206-row authority. Use the manifest/chunks or the bibliography page exports."
+    },
+    "analysis": {
+      "authority": "data/analysis/CURRENT_STATE.json",
+      "router": "data/analysis/global_archive_research_priority_CURRENT.json",
+      "public_web_discovery_queue": 0,
+      "exact_source_request_queue": 4,
+      "status": "CURRENT_AUTHORITY_NORMALIZED"
+    },
+    "corpus": {
+      "authority": "data/corpus/CORPUS_MANIFEST_V6.json",
+      "status": "COMPACT_PUBLICATION_LAYER",
+      "rule": "Corpus registries and BNA compact tables are publication/navigation derivatives and do not override canonical source masters."
+    },
+    "source_registry": {
+      "authority": "sources/source-registry-manifest.json",
+      "status": "ADDITIVE_SOURCE_ROUTING_LAYER",
+      "rule": "Source-registry entries describe documentary routes and holdings; they are not object-census rows and are not nineteenth-century corpus text by default."
+    },
+    "evidence": {
+      "authority": "data/evidence/targeted_deep_4/manifest.json",
+      "status": "RETAINED_BOUNDED_HARVEST_EVIDENCE",
+      "rule": "Harvest evidence enriches frozen nodes and cannot reopen census membership."
+    },
+    "website": {
+      "authority": "index.html + site.js + bibliography/ + sources/",
+      "status": "PRESENTATION_LAYER",
+      "rule": "Pages cards and labels never override survey, source, or analysis authority."
+    }
+  },
+  "current_exact_source_requests": [
+    "St Andrews ms21974-ms21975 page images/transcription",
+    "NHM Challenger current 4,723-row resource binary",
+    "ZEISS archive/accessory evidence for Balfour objective engravings 573, 1295, 710, 780, 542",
+    "St Andrews Norman complete item/export layer"
+  ],
+  "closed_example_requiring_source_discrepancy_preservation": {
+    "target": "Naples catalogue offering 383 to St Andrews BPM/1/T8/6",
+    "current_file": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+    "rule": "Preserve historical catalogue 'Penis' and St Andrews transcription 'Panis' as separate source readings."
+  },
+  "generated_or_noncommitted_outputs": [
+    {
+      "layer": "data/analysis/slide_155_analysis_v1",
+      "generated_output": "outputs/SLIDE_155_ANALYSIS_LAYER_V1.csv",
+      "committed_state": "documentation + manifest only",
+      "expected_rows": 155,
+      "generator": "scripts/build_slide_analysis_layer.py"
+    },
+    {
+      "layer": "runtime survey merge",
+      "generated_output": "data/normalized/ and outputs/ runtime artifacts",
+      "committed_state": "ignored/generated",
+      "generator": "scripts/prepare_survey_inputs.py and downstream validators"
+    }
+  ],
+  "supersession_policy": {
+    "delete_historical_snapshots": false,
+    "rule": "Older dated/versioned research files remain as audit history. Current authority is resolved through this manifest and layer-specific CURRENT/manifest files, not by filename recency alone."
+  },
+  "quantity_invariants": [
+    "307 discovery nodes != 155 strict nineteenth-century nodes",
+    "206 bibliography records != physical objects",
+    "423 Naples catalogue offerings != surviving-slide total",
+    "4,723 Challenger dataset records != 4,713 physical containers/objects",
+    "serial numbers, catalogue numbers, accession numbers, slide counts, preparation counts and cabinet capacities remain distinct namespaces"
+  ],
+  "validation": {
+    "script": "scripts/validate_repository_state.py",
+    "workflow": ".github/workflows/repository_integrity.yml"
+  }
+}
