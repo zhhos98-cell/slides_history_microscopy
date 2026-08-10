@@ -1,12 +1,12 @@
 {
-  "schema_version": "1.0.0-four-target-execution",
+  "schema_version": "1.1.0-four-target-execution",
   "generated": "2026-08-10",
-  "purpose": "Execution status for the four bounded high-yield tasks selected after the global archive sweep. This is a research status file, not a public progress counter.",
+  "purpose": "Execution status for the four bounded high-yield tasks selected after the global archive sweep. This is a research status file, not a public progress counter. Naples row 383 has now been revisited against the locally held primary OCR and closed at catalogue-offering level.",
   "targets": [
     {
       "target": "St Andrews — Charles Elcock letters, 6–8 March 1884",
       "output": "data/analysis/elcock_standrews_1884_letters_v5.json",
-      "result": "Exact archive locator closed at ms21974-ms21975. The catalogue explicitly states that the correspondence refers to Challenger expedition samples. The decisive Challenger passage itself is not transcribed in the indexed record, so sender/sample/station/purpose remain open until page images are obtained.",
+      "result": "Exact archive locator closed at ms21974-ms21975. The catalogue explicitly states that the correspondence refers to Challenger expedition samples, while also identifying antiquarian/medal discussion as the main theme. The decisive Challenger passage itself is not transcribed in the indexed record, so sender/sample/station/purpose remain open until page images are obtained.",
       "grade": "S archive locator; A+/S-candidate content bridge",
       "next_bounded_action": "Obtain/transcribe ms21974-ms21975 only; no broad St Andrews search needed."
     },
@@ -22,16 +22,16 @@
       "output": "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
       "result": "Systematic plate-caption pass across Memorial Edition volume I completed at designation level. Secure surviving-set/publication matches now include aa, a, A, B, C/c and E. The previous first-pass negative for E is superseded. Historical captions also use CC, D, DD, F and immersion/numbered optics that are not silently mapped to current surviving lenses.",
       "grade": "S designation/publication layer; exact physical lens-to-figure identity open",
-      "next_bounded_action": "Search Zeiss serial/dispatch records for 573, 1295, 710, 780 and 542, then query surviving Balfour section series by figure taxon/stage."
+      "next_bounded_action": "Ask ZEISS Archives whether objective/accessory records can resolve engravings 573, 1295, 710, 780 and 542; do not treat them as stand serials."
     },
     {
       "target": "Naples catalogue row 383 ↔ St Andrews Delphinus phocaena BPM/1/T8/6",
-      "output": "data/analysis/naples_row383_page_verification_v3.json",
-      "result": "Official object record and BHL catalogue container reverified. 'Panis 383' remains exact St Andrews transcription and 383 remains structurally inside the derived Mammalia range 373–405. The individual historical row/image was not recovered in this pass, so catalogue-number identity remains unclosed.",
-      "grade": "A candidate only for 383; no S-level object-row closure",
-      "next_bounded_action": "Retrieve BHL/IA page containing rows 382–384 and compare verbatim wording before any further Naples expansion."
+      "output": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+      "result": "The locally held primary catalogue OCR on printed p.253 directly gives 382 Delphinus phocaena L. Milz, 383 ditto Penis, 384 ditto Hode and 385 ditto Niere. Offering 383 is therefore Delphinus phocaena L., Penis. The surviving St Andrews slide independently carries Stazione Zoologica Napoli labels, taxon Delphinus phocaena and right-label public transcription 'Panis 383'. Station + taxon + exact number closes the slide as an extant instance corresponding to catalogue offering 383; the Panis/Penis discrepancy remains explicit.",
+      "grade": "S/A++ catalogue-offering identity; individual-copy production/shipment history open",
+      "next_bounded_action": "No further web search. Inspect the object image only if resolving Panis/Penis handwriting matters, or a page image only if the row price is needed."
     }
   ],
-  "net_result": "One task produced a substantial S-level publication/instrument closure (Balfour), one produced an S-level address architecture plus diagnostic object harvest (Challenger), one narrowed an archival bridge to two exact letters (Elcock), and one remained deliberately unresolved after a failed page-level retrieval test (Naples).",
-  "methodological_note": "A failed bounded verification is retained as a result when it prevents a false object identity. Do not promote catalogue-number, station, or instrument-object identity from structural plausibility alone."
+  "net_result": "Balfour produced an S-level publication/instrument-designation closure; Challenger produced an S-level address architecture plus diagnostic object harvest; Elcock is narrowed to two exact letters; Naples 383 is now closed at catalogue-offering-to-surviving-object level from the local primary source. None of the remaining open edges justifies renewed broad discovery.",
+  "methodological_note": "Preserve the distinction between a catalogue offering and a unique physical serial object. The Naples closure identifies BPM/1/T8/6 with offering 383, not with a uniquely dated production batch or specific shipment copy."
 }
