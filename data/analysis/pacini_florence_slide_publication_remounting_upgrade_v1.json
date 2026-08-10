@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0.0-pacini-slide-publication-remounting-upgrade",
+  "generated": "2026-08-11",
+  "title": "Filippo Pacini at Florence: slide labels as laboratory records, publication cross-references, and nineteenth-century remounting history",
+  "status": "S_OBJECT_LABEL_PUBLICATION_AND_REPAIR_CHAIN__MANUSCRIPT_CROSSWALK_OPEN",
+  "builds_on": [
+    "sources/source-registry-06.json#IT-FLORENCE-PACINI-HISTOLOGY",
+    "sources/source-registry-06.json#IT-BNCF-PACINI-MANUSCRIPTS",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "Pacini was an A+ candidate because Florence preserves labelled histological preparations and BNCF preserves his manuscripts.",
+    "new_state": "The University of Florence's own collection history transcribes nineteenth-century Pacini slide labels that carry date, preparation information, case history, interpretive questions, direct publication references and explicit remounting history. The cholera preparation in particular closes an object -> published case -> later material repair chain without inference from secondary provenance reconstruction.",
+    "grade": {
+      "surviving_pacini_histology_collection": "S",
+      "slide_label_as_laboratory_record": "S",
+      "cholera_slide_to_1854_publication_cross_reference": "S",
+      "historical_remounting_event": "S",
+      "pacini_slide_to_bncf_manuscript_item": "A++/S-candidate; exact manuscript-item crosswalk open"
+    }
+  },
+  "official_university_collection_source": {
+    "institution": "Università degli Studi di Firenze — Museo Anatomico Fiorentino / DMSC",
+    "url": "https://www.dmsc.unifi.it/vp-94-i-preparati-del-museo-anatomico-fiorentino-articolo.html",
+    "collection_statement": "The museum describes Pacini's histological preparations as carefully catalogued and preserved in its histology collection. It states that many slides carry dates, substances used for preparation, annotations, reflections and doubts by Pacini.",
+    "object_level_examples": [
+      {
+        "subject": "Epitelioma, vertical section",
+        "label_information": "The museum transcribes a case-history label describing the patient's condition, subsequent irritation with caustics, amputation by Dr P. Puccioni, and 'Firenze, 11 Maggio 1865'.",
+        "evidentiary_function": "A slide label records clinical history and date rather than taxon/organ alone."
+      },
+      {
+        "subject": "Taenia solium",
+        "date": "1863-07-11",
+        "label_information": "The label records an anomalous triangular proglottis and Pacini's question whether the configuration was congenital or accidental.",
+        "evidentiary_function": "The mounted object carries an interpretive problem/question as part of its historical address."
+      },
+      {
+        "subject": "Asian cholera, superficial erosions of the mucosa of the small intestine",
+        "label_information": "The museum transcribes Pacini's instruction that the preparation belongs to the second case described in his memoir and directs the reader to Gazzetta medica di Firenze, 1854, p. 397. The same label states that the preparation was remounted in new glass seven years after it had been made.",
+        "evidentiary_function": "Direct object -> publication citation -> material repair/remounting event."
+      }
+    ]
+  },
+  "cholera_chain": {
+    "historical_object": "Pacini microscopic cholera preparation preserved in Florence",
+    "object_subject": "superficial erosions of the mucosa of the small intestine in Asian cholera",
+    "publication_address_on_label": "Gazzetta medica di Firenze, anno 1854, p. 397; identified by Pacini as belonging to the second case described in his memoir",
+    "repair_statement": "The label states that the preparation was remounted in new glass seven years after it had been made.",
+    "mechanism": "A preparation could change its glass support while retaining scientific identity through the label's case/publication address.",
+    "comparison_with_cole": "Cole's cabinet preserved publication identity when individual preparations were substituted; Pacini's cholera preparation preserved object identity across remounting by carrying its historical case and publication reference forward onto the repaired material object.",
+    "best_sentence": "The glass could be replaced while the preparation remained the same historical object because its case and publication address travelled with it."
+  },
+  "bncf_manuscript_layer": {
+    "institution": "Biblioteca Nazionale Centrale di Firenze",
+    "official_url": "https://bncf.cultura.gov.it/manoscritti-e-rari/",
+    "fonds": "Pacini",
+    "extent": "23 units",
+    "acquisition": "Purchased for the Biblioteca Nazionale by Desiderio Chilovi in 1885",
+    "historical_access_instrument": "Aurelio Bianchi, Relazione e catalogo dei manoscritti di Filippo Pacini esistenti nella R. Biblioteca Nazionale Centrale di Firenze, 1889",
+    "current_grade": "S fonds locator; object-to-specific-manuscript relation open",
+    "bounded_test": "Search Bianchi's 1889 catalogue and the 23-unit fonds for cholera case notes, histological preparation recipes, remounting/conservation notes and references to the specific 1854 second case."
+  },
+  "methodological_significance": {
+    "label_function": [
+      "date/address",
+      "preparation/material information",
+      "case history",
+      "interpretive note or doubt",
+      "publication citation",
+      "maintenance/remounting history"
+    ],
+    "claim": "Pacini's slide labels operate as compact laboratory and bibliographic records. They are not merely specimen names attached to glass.",
+    "repair_argument": "The remounting statement provides nineteenth-century evidence that microscopic preparations were maintainable objects whose material carrier could be renewed without erasing object identity."
+  },
+  "exact_source_actions": [
+    {
+      "rank": 1,
+      "request": "High-resolution front/back images and current catalogue identifiers for the Pacini cholera preparations, especially the slide carrying the 1854 p.397 reference and seven-year remounting statement.",
+      "upgrade_if_found": "Would permit exact paleographic transcription, present museum address and physical comparison of original/replacement labels or glass."
+    },
+    {
+      "rank": 2,
+      "request": "Bianchi 1889 Pacini manuscript catalogue plus targeted BNCF items concerning cholera preparations, histological methods and preservation/remounting.",
+      "upgrade_if_found": "Could close slide -> manuscript recipe/case note -> publication at S level."
+    },
+    {
+      "rank": 3,
+      "request": "Museum histology catalogue entries for Pacini slides including dates, substances, old/current numbers and conservation history.",
+      "upgrade_if_found": "Would turn the strong examples into a bounded series-level address and maintenance history."
+    }
+  ],
+  "guards": [
+    "The University of Florence webpage is the current source for the quoted/transcribed historical labels; full object images and catalogue IDs are still needed for independent paleographic verification.",
+    "Do not infer the exact calendar year of remounting solely by adding seven years unless the original execution date of that specific preparation is independently established.",
+    "The BNCF Pacini fonds is a separate posthumous documentary custody layer; fonds survival does not by itself prove that a specific manuscript item describes the surviving cholera slide.",
+    "Do not generalize the documented remounting event to every Pacini slide."
+  ],
+  "sources": [
+    "https://www.dmsc.unifi.it/vp-94-i-preparati-del-museo-anatomico-fiorentino-articolo.html",
+    "https://www.dmsc.unifi.it/vp-93-preparati-ed-immagini-del-museo.html",
+    "https://bncf.cultura.gov.it/manoscritti-e-rari/"
+  ]
+}
