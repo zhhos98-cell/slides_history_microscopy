@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0-slide-155-analysis-manifest",
+  "generated": "2026-08-10",
+  "status": "DOCUMENTATION_COMMITTED__ROW_ARTIFACT_REPRODUCIBLE_NOT_COMMITTED",
+  "purpose": "Clarify repository state for the first derived analytical classification over the frozen 155-node survey.",
+  "frozen_membership_rows": 155,
+  "documentation": "data/analysis/slide_155_analysis_v1/README.md",
+  "generator": "scripts/build_slide_analysis_layer.py",
+  "generated_row_output": "outputs/SLIDE_155_ANALYSIS_LAYER_V1.csv",
+  "committed_row_output": null,
+  "authority_note": "This folder does not contain a canonical 155-row derived CSV. The committed README documents the derived schema and an earlier generated run; the row artifact is intentionally treated as reproducible/generated until a reviewed export is explicitly committed.",
+  "derived_fields": [
+    "unit_level",
+    "production_period",
+    "subject_cluster",
+    "institutional_commercial_context",
+    "circulation_mode",
+    "count_namespace",
+    "historical_actor_role"
+  ],
+  "source_membership_authority": "data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json",
+  "current_analysis_authority": "data/analysis/CURRENT_STATE.json",
+  "rule": "Derived classifications may be regenerated or revised without altering the frozen survey row, source wording or 155-node membership."
+}
