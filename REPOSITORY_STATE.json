@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.1-repository-state",
+  "schema_version": "1.0.2-repository-state",
   "generated": "2026-08-10",
   "status": "CANONICAL_REPOSITORY_STATE",
   "purpose": "Top-level authority map for the microscope-slide repository. This file identifies the current state of each evidence/publication layer while preserving older versioned files as audit history.",
@@ -40,8 +40,11 @@
     },
     "source_registry": {
       "authority": "sources/source-registry-manifest.json",
-      "status": "ADDITIVE_SOURCE_ROUTING_LAYER",
-      "rule": "Source-registry entries describe documentary routes and holdings; they are not object-census rows and are not nineteenth-century corpus text by default."
+      "status": "CANONICALIZED_ADDITIVE_SOURCE_ROUTING_LAYER",
+      "raw_records": 87,
+      "superseded_duplicate_route_ids": 3,
+      "canonical_records": 84,
+      "rule": "Source-registry entries describe documentary routes and holdings; repeated URLs are semantically audited. Superseded duplicate-route IDs remain in raw chunks for audit but are suppressed by current/public consumers."
     },
     "evidence": {
       "authority": "data/evidence/targeted_deep_4/manifest.json",
@@ -88,6 +91,7 @@
   "quantity_invariants": [
     "307 discovery nodes != 155 strict nineteenth-century nodes",
     "206 bibliography records != physical objects",
+    "84 canonical source-registry routes != object-census rows",
     "423 Naples catalogue offerings != surviving-slide total",
     "4,723 Challenger dataset records != 4,713 physical containers/objects",
     "serial numbers, catalogue numbers, accession numbers, slide counts, preparation counts and cabinet capacities remain distinct namespaces"
