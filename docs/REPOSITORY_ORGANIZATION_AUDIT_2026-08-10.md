@@ -1,6 +1,6 @@
 # Repository organization audit — 2026-08-10
 
-Status: **WHOLE-REPOSITORY AUTHORITY NORMALIZED / NON-DESTRUCTIVE CLEANUP**
+Status: **WHOLE-REPOSITORY AUTHORITY NORMALIZED / ROW-LEVEL QC PASSED**
 
 This pass reviews the repository as a system rather than only the analysis folder. The aim is to make every layer legible as one of: canonical source/frozen data, current derived authority, compact publication layer, generated runtime artifact, or historical/audit snapshot. The cleanup deliberately avoids deleting modular survey batches, dated research states or bounded negative checks.
 
@@ -84,7 +84,7 @@ Added:
 - `data/corpus/RESEARCH_OUTPUTS_V6.json` — 41 curated current/foundational outputs;
 - `data/corpus/CORPUS_MANIFEST_V6.json` — current compact publication contract.
 
-V6 preserves the V5 core/extension/BNA counts and all seven source-master byte sizes/SHA-256 fingerprints. The change is limited to the research-output publication index. `RESEARCH_OUTPUTS_V4.json` remains the 22-output predecessor. `RESEARCH_OUTPUTS_V5.json` is a transient draft superseded by V6. `data/corpus/README.md` now states this authority chain explicitly.
+V6 preserves the V5 core/extension/BNA counts and all seven source-master byte sizes/SHA-256 fingerprints. The change is limited to the research-output publication index. `RESEARCH_OUTPUTS_V4.json` remains the 22-output predecessor. A transient V5 research-output draft created during the cleanup was removed because it was never an authoritative publication state. `data/corpus/README.md` now states this authority chain explicitly.
 
 ## 8. Research-state invariants preserved
 
@@ -100,29 +100,43 @@ Current public-web discovery queue remains zero. Current exact-source request qu
 
 ## 9. Repository-wide validation added
 
-Added `scripts/validate_repository_state.py` and `.github/workflows/repository_integrity.yml`. The validator checks:
+Added `scripts/validate_repository_state.py` and `.github/workflows/repository_integrity.yml`. The validator now checks both structural and row-level integrity:
 
-- top-level authority pointers exist;
-- frozen 307/155 closure counts;
-- bibliography manifest arithmetic and all 22 chunk files;
+- top-level authority pointers and related presentation files exist;
+- every committed JSON file parses;
+- frozen 307/155 closure arithmetic and 328-row pre-closure ledger state remain intact;
+- bibliography manifest arithmetic, all 22 chunks, schema headers, required fields and unique IDs;
 - analysis queue = 0 public-web / 4 exact-source requests;
-- Naples is absent from the request queue;
+- Naples is absent from the request queue while its v4 closure preserves both `Penis` and `Panis 383`;
 - the derived 155 analysis manifest explicitly records its noncommitted generated row artifact;
 - legacy corpus-expansion targets are no longer marked OPEN;
-- source-registry manifest chunks exist;
-- corpus V6 research-output count matches the indexed output list and every indexed path exists.
+- source-registry chunks, required fields, relation vocabulary and unique IDs;
+- corpus V6 research-output count, unique output paths and every indexed path;
+- live Pages/source links point to V6 and no longer expose the legacy static bibliography CSV as the current download.
 
-The workflow is manual and pull-request driven. It does not initiate new harvesting or geographic discovery.
+The workflow runs on relevant pushes to `main`, pull requests and manual dispatch. It does not initiate new harvesting or geographic discovery.
 
-## 10. What remains intentionally historical
+## 10. Row-level QC result
 
-No destructive pruning was performed. The following remain because they document the research process:
+The extended validator passed on GitHub Actions run `31362141796` (commit `5ea489a2f858abe55ff41312450463e4ee42e875`). The run reports:
+
+- **175 committed JSON files parsed successfully**;
+- **206 bibliography rows** with unique nonblank IDs and the expected 88/118 section arithmetic;
+- **87 source-registry records** with unique nonblank IDs and valid relation values;
+- all current analysis, corpus and presentation pointers resolved;
+- current exact-source queue remained four and Naples remained closed/outside it.
+
+The QC also reports repeated *routes* without treating them as duplicate records: two DOI routes and 22 exact URLs recur across bibliography records, and six URLs recur across source-registry records. These are retained for semantic review because a review DOI, institutional catalogue, archive landing page or collection URL can legitimately support more than one record. They are therefore warnings rather than automatic deletion rules. No duplicate bibliography IDs or source-registry IDs were found.
+
+## 11. What remains intentionally historical
+
+No destructive pruning was performed on evidentiary history. The following remain because they document the research process:
 
 - old global/archive priority routers;
 - closure batch v1/v2 and residual v3 snapshots;
 - failed page-retrieval checks;
 - bibliography pass audits;
-- old corpus manifests and research-output indexes;
+- old corpus manifests and the V4 research-output predecessor;
 - modular survey batches and adapter expansions;
 - dated progress logs.
 
@@ -134,4 +148,4 @@ The repository now has a clear hierarchy:
 
 **source masters / frozen survey → current derived authority → compact publication/index layers → website presentation**.
 
-Further cleanup should be row-level QC rather than another structural redesign: duplicate IDs/URLs/DOIs within the 206 bibliography rows, field nulls and schema drift, stale/dead external pointers, and contradiction scans across historical snapshots. Those checks should report discrepancies without silently rewriting source evidence.
+The next useful cleanup is no longer another structural redesign. If needed, it should be a semantic review of the small repeated-URL/DOI sets and a live-link/dead-pointer audit. Those checks should report source reuse and link decay without silently merging records or rewriting historical evidence.
