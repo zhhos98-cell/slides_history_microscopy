@@ -10,26 +10,35 @@ The discovery phase is parked. The public indexed closure pass is now also **exh
 - The analytical priority remains **object↔text↔register closure**. Public-web work stops when it ceases to change attribution, chronology, object identity or historical mechanism.
 - The GitHub collection layer remains a **reverse index into the historical corpus**, not a second general corpus.
 
-The closure state is recorded in:
+## Current authority
 
-- `data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json`
-- `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json`
-- `data/analysis/global_archive_research_priority_CURRENT.json`
+Use `data/analysis/CURRENT_STATE.json` as the canonical machine-readable analysis-state manifest and `data/analysis/global_archive_research_priority_CURRENT.json` as the live operational router. Older versioned batch/residual files remain in the repository as audit snapshots and are explicitly mapped as superseded where appropriate.
+
+Current target-specific authority files include:
+
 - `data/analysis/naples_row383_object_catalogue_closure_v4.json`
 - `data/analysis/cole_studies_vol1_2_structured_reading_v1.json`
 - `data/analysis/challenger_dataset_row_harvest_v2.json`
 - `data/analysis/balfour_plate_caption_objective_harvest_v2.json`
 - `data/analysis/elcock_standrews_1884_letters_v5.json`
+- `data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json`
 
-The v2 batch closed or substantially closed the historical architecture needed for Cole, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, Challenger at address/dataset level, Balfour at publication/designation level, and Minot/HEC as a control. A further residual pass tested the remaining edges against current public sources and local primary files.
+The earlier closure-batch and residual snapshots are retained for audit but are not live queues:
 
-That local-source pass closes a previously stubborn Naples relation. The primary catalogue OCR on printed p.253 reads `382. Delphinus phocaena L. Milz / 383. -- Penis / 384. -- Hode / 385. -- Niere`. By the catalogue's ditto convention, offering **383 = Delphinus phocaena L., Penis**. St Andrews `BPM/1/T8/6` independently carries Stazione Zoologica Napoli labels, the taxon `Delphinus phocaena`, and the public right-label transcription `Panis 383`. Station + taxon + exact catalogue number therefore closes the surviving slide as an extant instance corresponding to offering 383. The `Panis` / `Penis` one-letter discrepancy remains explicitly preserved; offering identity does not establish the manufacturing date, preparator, price, or identity with any particular shipment copy.
+- `data/analysis/uk_us_europe_closure_batch_2026-08-10_v1.json`
+- `data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json`
+- `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json`
+- `data/analysis/four_target_execution_status_2026-08-10.json`
 
-The remaining queue is therefore **four request-only items**:
+The closed architecture now covers Cole, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, Challenger at address/dataset level, Balfour at publication/designation level, Minot/HEC as a control, and Naples catalogue offering 383 to surviving St Andrews `BPM/1/T8/6`.
 
-1. St Andrews `ms21974–ms21975`: page images/transcription. The public catalogue securely records a reference to Challenger expedition samples, but also makes clear that the correspondence is principally antiquarian/medal discussion; sender, sample, station and purpose remain inside the letters.
+For Naples 383, the locally held primary catalogue OCR reads `382. Delphinus phocaena L. Milz / 383. -- Penis / 384. -- Hode / 385. -- Niere`. By ditto continuation, offering **383 = Delphinus phocaena L., Penis**. The St Andrews slide independently carries Stazione Zoologica Napoli labels, `Delphinus phocaena`, and the public right-label transcription `Panis 383`. The one-letter `Panis` / `Penis` discrepancy is preserved as a source-level transcription issue; catalogue-offering identity does not establish manufacturing date, preparator, price, or identity with a particular shipment copy.
+
+## Remaining request-only queue
+
+1. St Andrews `ms21974–ms21975`: page images/transcription. The public catalogue securely records a reference to Challenger expedition samples, but the correspondence is principally antiquarian/medal discussion; sender, sample, station and purpose remain inside the letters.
 2. NHM Challenger: current 4,723-row resource binary. The public dataset/address architecture and named diagnostic preparation examples are already structured; the residual task is mechanical full-table ingestion.
-3. Balfour/ZEISS: archive guidance for objective engravings `573, 1295, 710, 780, 542`. ZEISS's public production lists are organized around microscope/stand dispatch records and accessories; the exact objective engravings have not closed online and must not be treated as stand serials.
+3. Balfour/ZEISS: archive guidance for objective engravings `573, 1295, 710, 780, 542`. ZEISS's public production lists are organized around microscope/stand dispatch records and accessories; the objective engravings must not be treated as stand serials without archive evidence.
 4. St Andrews Norman: complete item/export layer. The public record confirms the 1872 catalogue of 2,584 mounts and says the Norman slides remain scattered in situ, but it does not expose a usable child-item list.
 
 Do not repeat broad searches for these four targets. Resume one only when the exact requested source arrives or produces a new bounded identifier. Otherwise the useful next move is historical analysis/writing from the chains already closed.
