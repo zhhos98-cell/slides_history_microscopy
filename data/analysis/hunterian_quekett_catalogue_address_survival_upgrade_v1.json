@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0.0-hunterian-quekett-catalogue-address-survival-upgrade",
+  "generated": "2026-08-11",
+  "title": "Hunterian / Royal College of Surgeons: John Thomas Quekett preparations, purchase, teaching catalogue, and surviving address layers",
+  "status": "S_COLLECTION_ACQUISITION_SURVIVAL_AND_CATALOGUE_ARCHITECTURE__SELECTED_CATALOGUE_OBJECT_CROSSWALK_A_PLUS_PLUS_S_CANDIDATE",
+  "builds_on": [
+    "SLIDE_155_ANALYSIS_LAYER_V1.xlsx#UK-RCS-QUEKETT-2500-1846",
+    "01A_UK_Microscopy_Core_Early_Central_1844-1877.json",
+    "data/analysis/slide_archive_addressing_systems_v1.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "The slide survey registered the Quekett corpus as REVIEW: 2,500 preparations purchased in 1846 and a much larger current Hunterian slide collection, but the historical teaching/catalogue and surviving address layers had not been integrated.",
+    "new_state": "RCS and project primary-source evidence jointly close the 2,500-preparation purchase, their incorporation into the College's histological museum, Quekett's 1844 annual demonstrations using the collection as an explanatory teaching resource, the 1850 printed histological catalogue, and present survival of Quekett-labelled objects carrying alphanumeric historical marks inside current RCSMS addresses. A secondary object study further identifies five J. W. Bond donations by exact 1850 catalogue numbers, creating a tightly bounded catalogue-to-object S candidate pending direct primary/current-object verification.",
+    "grade": {
+      "1846_purchase_of_2500_preparations": "S",
+      "historical_teaching_collection_function": "S",
+      "printed_catalogue_architecture_1850": "S",
+      "current_named_quekett_slide_survival": "S",
+      "historical_mark_to_current_RCSMS_address_coexistence": "S",
+      "individual_current_slide_membership_in_original_1846_purchase": "OPEN unless separately documented",
+      "bond_five_slide_catalogue_object_crosswalk": "A++/S-candidate pending direct catalogue-page and object-record inspection"
+    }
+  },
+  "historical_chain": [
+    {
+      "date_range": "1840-1843",
+      "event": "Quekett held a three-year studentship in human and comparative anatomy and made the microscopical preparations that formed his large personal/preparatory collection.",
+      "evidence_level": "S institutional history"
+    },
+    {
+      "date": 1844,
+      "event": "The College appointed Quekett to annual demonstrations for the exhibition and connected description of the collection and for explaining methods/resources of microscopical study.",
+      "project_source": "01A_UK_Microscopy_Core_Early_Central_1844-1877.json / R00933-R00934 context",
+      "evidence_level": "S primary historical account"
+    },
+    {
+      "date": 1846,
+      "event": "The College purchased Quekett's collection of 2,500 microscopical preparations; the project primary corpus states that it formed part of the histological department of the museum.",
+      "project_source": "01A_UK_Microscopy_Core_Early_Central_1844-1877.json / R00933 context",
+      "official_source": "https://www.rcseng.ac.uk/library-and-publications/library/blog/john-thomas-quekett/",
+      "evidence_level": "S"
+    },
+    {
+      "date": 1850,
+      "event": "Quekett published volume I of the Descriptive and Illustrated Catalogue of the Histological Series in the Museum of the Royal College of Surgeons, giving the collection a printed systematic address layer.",
+      "evidence_level": "S"
+    }
+  ],
+  "current_surviving_objects": {
+    "repository": "Hunterian Museum / Royal College of Surgeons of England",
+    "collection_statement": "The current microscope-slide collection contains over 15,000 slides and uses museum identifiers prefixed RCSMS. The official collection page explicitly includes slides prepared by John Thomas Quekett.",
+    "examples": [
+      {
+        "current_address": "RCSMS/Quekett/Division 2/Bb 89",
+        "historical_visible_mark": "Bb 89",
+        "label": "Vertical Section of Paddle of an Ichthyosaurus",
+        "status": "S current object plus historical mark"
+      },
+      {
+        "current_address": "RCSMS/Quekett/Division 2/Xl 144",
+        "historical_visible_mark": "Xl 144",
+        "label": "Tick of Hedgehog",
+        "status": "S current object plus historical mark"
+      },
+      {
+        "current_address": "RCSMS/Quekett/Division 2/Db 97",
+        "historical_visible_mark": "Db 97",
+        "label": "Human Stomach",
+        "status": "S current object plus historical mark"
+      }
+    ],
+    "official_source": "https://hunterianmuseum.org/collections/explore-the-collections/microscope-slide-collection"
+  },
+  "bond_selected_crosswalk": {
+    "source_type": "specialist secondary source reproducing Hunterian objects and citing exact entries in Quekett's 1850 catalogue",
+    "source": "https://microscopist.net/BondJW.html",
+    "claim_level": "A++/S-candidate until the relevant 1850 catalogue pages and current Hunterian object records/images are independently checked",
+    "objects": [
+      {"catalogue_address":"Ap24","description":"Spicula obtained from a Sponge attached to a coral found in Ceylon"},
+      {"catalogue_address":"Ap63","description":"Spicula obtained from a Sponge attached to a Coral dredged up at Ceylon"},
+      {"catalogue_address":"Ap64","description":"Spicula obtained from the same Sponge"},
+      {"catalogue_address":"At7","description":"Vertical section of the shell of an Echinus through a large tubercle"},
+      {"catalogue_address":"Au6","description":"Antenna of a male Cockchafer"}
+    ],
+    "attribution_guard": "The secondary source describes these as slides donated by J. W. Bond and states that the handwriting is Quekett's. Treat Bond as donor/preparer only to the extent directly supported; do not relabel them as Quekett-made slides simply because Quekett catalogued or labelled them."
+  },
+  "address_mechanism": {
+    "chain": "private/preparatory collection -> College purchase -> teaching/demonstration collection -> printed histological catalogue -> alphanumeric object marks -> later institutional cataloguing -> current RCSMS address",
+    "strong_claim": "The Hunterian Quekett material shows how a private maker-researcher's preparation corpus became an institutional teaching and catalogue system while older object marks remained legible inside modern museum identifiers.",
+    "comparison": {
+      "qmc": "Quekett Microscopical Club assembled heterogeneous member donations and exchange material for circulation.",
+      "hunterian_quekett": "The Royal College of Surgeons institutionalized a large bounded preparation corpus through purchase, teaching demonstrations and a printed catalogue.",
+      "cole": "Cole's numbered publication slots could survive replacement of individual preparations; the Hunterian case instead preserves layered catalogue and museum addresses on continuing physical objects."
+    }
+  },
+  "exact_next_actions": [
+    {
+      "rank": 1,
+      "action": "Read the 1850 catalogue pages for Ap24, Ap63, Ap64, At7 and Au6 directly and compare wording, donor statement and any grouping structure with current Hunterian object images/records.",
+      "upgrade_if_found": "Promotes the five Bond rows to S catalogue-entry -> surviving-object crosswalk."
+    },
+    {
+      "rank": 2,
+      "action": "When the existing RCS MS0027 enquiry progresses, target diary/notebook entries that record preparation, labelling, accession or demonstration practices rather than requesting the whole archive indiscriminately.",
+      "upgrade_if_found": "Could connect workshop/preparation operations to the catalogue and surviving objects."
+    },
+    {
+      "rank": 3,
+      "action": "Sample a few current RCSMS/Quekett objects with clearly visible historical alphanumeric marks and test whether the 1850 catalogue can be searched back to exact entries.",
+      "upgrade_if_found": "Would demonstrate multiple independent examples of old catalogue address -> current museum address translation."
+    }
+  ],
+  "guards": [
+    "Do not assume every present RCSMS/Quekett object belongs to the exact 2,500-object corpus purchased in 1846 unless object-level provenance establishes this.",
+    "Do not treat the current total of 15,000+ microscope slides as the size of Quekett's collection; it is the wider Hunterian slide collection.",
+    "Do not identify a present object solely from a similar subject name; retain exact old alphanumeric marks and catalogue wording as the primary crosswalk variables.",
+    "The five Bond catalogue/object matches remain A++/S-candidate because the exact crosswalk currently rests on a specialist secondary transcription/reproduction rather than a project-side direct inspection of both primary catalogue pages and current object records.",
+    "Do not send a duplicate broad RCS enquiry: MS0027 is already in the project's archive lead queue awaiting substantive response."
+  ],
+  "sources": [
+    "01A_UK_Microscopy_Core_Early_Central_1844-1877.json",
+    "SLIDE_155_ANALYSIS_LAYER_V1.xlsx",
+    "https://www.rcseng.ac.uk/library-and-publications/library/blog/john-thomas-quekett/",
+    "https://hunterianmuseum.org/collections/explore-the-collections/microscope-slide-collection",
+    "https://microscopist.net/BondJW.html"
+  ]
+}
