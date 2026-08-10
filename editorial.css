@@ -1,0 +1,435 @@
+/* Editorial redesign pass · 2026-08-10
+   Shared across home, bibliography, and sources. Existing page CSS remains the structural fallback. */
+
+:root{
+  --editorial-ease:cubic-bezier(.18,.78,.18,1);
+  --editorial-ease-sharp:cubic-bezier(.2,.8,.2,1);
+  --editorial-hair:rgba(243,238,231,.13);
+  --editorial-hair-strong:rgba(243,238,231,.27);
+  --editorial-ghost:rgba(243,238,231,.025);
+}
+
+body{position:relative}
+body::before{pointer-events:none}
+
+/* ---------- shared motion ---------- */
+.motion-enhanced .motion-piece{
+  opacity:0;
+  transform:translate3d(0,42px,0) skewY(.35deg);
+  clip-path:inset(0 0 18% 0);
+  transition:
+    opacity 900ms var(--editorial-ease),
+    transform 980ms var(--editorial-ease),
+    clip-path 980ms var(--editorial-ease);
+  transition-delay:var(--motion-delay,0ms);
+  will-change:transform,opacity,clip-path;
+}
+.motion-enhanced .motion-piece.motion-visible{
+  opacity:1;
+  transform:translate3d(0,0,0) skewY(0);
+  clip-path:inset(0 0 0 0);
+}
+.motion-enhanced .motion-line::after{transform:scaleX(0);transform-origin:left;transition:transform 1050ms var(--editorial-ease) 120ms}
+.motion-enhanced .motion-line.motion-visible::after{transform:scaleX(1)}
+
+/* ---------- home: atmospheric field ---------- */
+body:not(.bib-page):not(.source-page){
+  background:
+    radial-gradient(circle at 79% 13%,rgba(208,160,120,.055),transparent 30rem),
+    radial-gradient(circle at 11% 61%,rgba(118,78,58,.05),transparent 34rem),
+    linear-gradient(90deg,transparent 0 24.96%,rgba(243,238,231,.018) 25%,transparent 25.04% 49.96%,rgba(243,238,231,.018) 50%,transparent 50.04% 74.96%,rgba(243,238,231,.018) 75%,transparent 75.04%),
+    var(--paper);
+}
+body:not(.bib-page):not(.source-page) main{position:relative}
+body:not(.bib-page):not(.source-page) main::before{
+  content:"OBJECT  /  RECORD  /  ROUTE  /  USE";
+  position:absolute;
+  z-index:-1;
+  top:7rem;
+  left:50%;
+  width:100vw;
+  transform:translateX(-50%);
+  color:var(--editorial-ghost);
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:clamp(3rem,8vw,9rem);
+  font-weight:700;
+  letter-spacing:.16em;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+/* Hero: more movement, less static panel */
+.hero{min-height:96vh}
+.hero-stage{
+  background:
+    radial-gradient(circle at 74% 34%,rgba(208,160,120,.18),transparent 24%),
+    radial-gradient(circle at 57% 72%,rgba(142,92,66,.12),transparent 22%),
+    linear-gradient(145deg,#171310 0%,#30231c 49%,#15110e 100%);
+  background-size:130% 130%,130% 130%,100% 100%;
+  animation:atlas-glow 16s ease-in-out infinite alternate;
+}
+.hero-stage::before{
+  content:"";
+  position:absolute;
+  inset:-18%;
+  opacity:.34;
+  background:
+    radial-gradient(circle at 72% 42%,transparent 0 8.8rem,rgba(255,255,255,.08) 8.9rem 9rem,transparent 9.1rem 15rem,rgba(255,255,255,.045) 15.1rem 15.2rem,transparent 15.3rem),
+    linear-gradient(22deg,transparent 0 49.92%,rgba(255,255,255,.07) 50%,transparent 50.08%);
+  animation:atlas-orbit 22s linear infinite;
+}
+.hero-stage::after{opacity:.72;animation:grid-breathe 11s ease-in-out infinite alternate}
+.glass-slide{transform-origin:center;will-change:transform;box-shadow:0 42px 100px rgba(0,0,0,.28)}
+.slide-one{animation:slide-drift-one 9s ease-in-out infinite alternate}
+.slide-two{animation:slide-drift-two 11s ease-in-out infinite alternate}
+.slide-three{animation:slide-drift-three 13s ease-in-out infinite alternate}
+.hero-title-wrap{transform:translate3d(0,calc(var(--scroll-y,0) * -.018px),0)}
+.hero-title-wrap h1{position:relative;text-shadow:0 12px 45px rgba(0,0,0,.18)}
+.hero-title-wrap h1::after{
+  content:"";
+  display:block;
+  width:min(24vw,280px);
+  height:1px;
+  margin-top:34px;
+  background:linear-gradient(90deg,var(--accent),transparent);
+}
+
+@keyframes atlas-glow{from{background-position:0% 0%,100% 100%,0 0}to{background-position:16% 10%,88% 82%,0 0}}
+@keyframes atlas-orbit{to{transform:rotate(360deg)}}
+@keyframes grid-breathe{from{opacity:.32}to{opacity:.72}}
+@keyframes slide-drift-one{0%{transform:translate3d(0,0,0) rotate(8deg)}100%{transform:translate3d(-28px,17px,0) rotate(5.8deg)}}
+@keyframes slide-drift-two{0%{transform:translate3d(0,0,0) rotate(-6deg)}100%{transform:translate3d(24px,-15px,0) rotate(-8.2deg)}}
+@keyframes slide-drift-three{0%{transform:translate3d(0,0,0) rotate(4deg)}100%{transform:translate3d(-18px,-22px,0) rotate(6.4deg)}}
+
+/* Section titles draw themselves with lines rather than boxes */
+.project,.cases-intro,.catalogue,.sources,.data,.case-index,.sample{position:relative}
+.project::before,.catalogue::before,.sources::before,.data::before,.case-index::before{
+  position:absolute;
+  right:-.02em;
+  top:.16em;
+  z-index:-1;
+  color:rgba(243,238,231,.022);
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:clamp(5rem,16vw,14rem);
+  font-weight:800;
+  line-height:.8;
+  letter-spacing:-.08em;
+  pointer-events:none;
+}
+.project::before{content:"OBJECT"}.case-index::before{content:"ROUTES"}.catalogue::before{content:"CATALOGUE"}.sources::before{content:"SOURCES"}.data::before{content:"DATA"}
+.section-heading{position:relative;border-bottom:0;padding-bottom:66px}
+.section-heading::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;height:1px;
+  background:linear-gradient(90deg,var(--accent) 0 18%,var(--editorial-hair-strong) 18% 100%);
+}
+.section-heading h2{max-width:930px}
+.compact-heading::after{display:none}
+
+/* Project principles: remove 01/02/03/04 cards and let words hold the composition */
+.project-grid{border-top:0;margin-top:86px}
+.project-item{
+  position:relative;
+  min-height:min(48vh,480px);
+  grid-template-columns:150px minmax(210px,.78fr) minmax(0,1.3fr);
+  padding:64px 0 68px;
+  border-bottom:0;
+  background:transparent!important;
+  box-shadow:none!important;
+}
+.project-item::before{
+  content:"";
+  position:absolute;
+  left:0;right:0;top:0;height:1px;
+  background:linear-gradient(90deg,var(--editorial-hair-strong),transparent 82%);
+}
+.project-item::after{
+  content:"";
+  position:absolute;
+  top:0;left:0;width:74px;height:1px;background:var(--accent);
+  transform-origin:left;
+  transition:width 650ms var(--editorial-ease);
+}
+.project-item:hover::after{width:210px}
+.project-item .item-no{font-size:0;writing-mode:vertical-rl;transform:rotate(180deg);color:var(--accent);letter-spacing:.16em}
+.project-item .item-no::after{font-size:.64rem;font-weight:700}
+.project-item:nth-child(1) .item-no::after{content:"OBJECTS"}
+.project-item:nth-child(2) .item-no::after{content:"METHOD"}
+.project-item:nth-child(3) .item-no::after{content:"PUBLIC LAYER"}
+.project-item:nth-child(4) .item-no::after{content:"LIMITS"}
+.project-item h3{font-size:clamp(2rem,3.5vw,3rem)}
+.project-item p:last-child{font-size:clamp(1rem,1.5vw,1.14rem)}
+.project-item:nth-child(even) h3{transform:translateX(5vw)}
+.project-item:nth-child(even) p:last-child{transform:translateX(-1vw)}
+
+/* Research chain becomes a drawn route */
+.research-chain{position:relative;border:0;padding:34px 0 30px;gap:12px 17px;overflow:hidden}
+.research-chain::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:linear-gradient(90deg,var(--accent),var(--line),transparent)}
+.research-chain span,.research-chain b,.research-chain strong{position:relative;z-index:1;background:var(--paper);padding-inline:8px}
+.research-chain span:first-child{padding-left:0}.research-chain strong{padding-right:0}
+.evidence-key{padding-top:24px}
+
+/* Case diagram: numbers float on a single route, no three framed boxes */
+.sample{border-top:1px solid var(--editorial-hair-strong)}
+.sample::before{content:"NAPLES / LONDON";position:absolute;right:0;top:74px;color:rgba(243,238,231,.025);font:700 clamp(3.2rem,9vw,7rem)/1 Arial,Helvetica,sans-serif;letter-spacing:.04em;pointer-events:none}
+.case-visual{position:relative;border:0;padding:34px 0 42px;gap:26px;margin-bottom:82px}
+.case-visual::before{content:"";position:absolute;left:0;right:0;top:53%;height:1px;background:linear-gradient(90deg,var(--editorial-hair-strong),var(--accent),var(--editorial-hair-strong))}
+.case-visual>div{position:relative;z-index:1;min-height:150px;padding:8px 10px 8px 0;border:0;background:var(--paper)}
+.case-visual>div:nth-of-type(2){transform:translateY(22px)}
+.case-visual>div:nth-of-type(3){transform:translateY(-13px)}
+.case-visual>i{position:relative;z-index:2;font-size:1.5rem;background:var(--paper);padding:0 8px}
+.case-visual strong{font-size:clamp(3.5rem,7vw,5.5rem);letter-spacing:-.06em}
+.case-visual .accent-box{background:var(--paper);color:var(--ink);border:0}
+.case-visual .accent-box strong,.case-visual .accent-box small{color:var(--accent)}
+.case-visual .accent-box span{color:var(--muted)}
+
+.timeline .event p{transition:transform 600ms var(--editorial-ease),color 600ms ease}
+.timeline .event.is-visible p{transform:translateX(7px);color:#eee6df}
+.status{border-top:1px solid var(--editorial-hair-strong);border-bottom:1px solid var(--editorial-hair);gap:72px}
+.status>div:first-child{transform:translateY(-8px)}
+.status>div:last-child{transform:translateY(18px)}
+
+/* Further cases: one open editorial ledger, no 2x2 box grid */
+.case-grid{display:block;border:0;margin-top:72px}
+.case-grid article,.case-grid article:nth-child(odd),.case-grid article:nth-child(even){
+  position:relative;
+  display:grid;
+  grid-template-columns:180px minmax(240px,.8fr) minmax(0,1fr);
+  gap:clamp(24px,5vw,74px);
+  min-height:0;
+  padding:42px 0 46px;
+  border:0;
+  border-top:1px solid var(--editorial-hair-strong);
+}
+.case-grid article::after{content:"";position:absolute;left:0;top:-1px;width:0;height:1px;background:var(--accent);transition:width 650ms var(--editorial-ease)}
+.case-grid article:hover::after{width:30%}
+.case-grid span{font-size:0;align-self:start;margin-top:7px}
+.case-grid span::after{content:"DEVELOPING CASE";font-size:.61rem;letter-spacing:.12em;color:var(--accent)}
+.case-grid h3{margin:0;font-size:clamp(1.7rem,3vw,2.45rem)}
+.case-grid p{margin:0;max-width:520px}
+.case-grid article:nth-child(even) h3{transform:translateX(3vw)}
+
+/* Catalogue: cards become an open index */
+.catalogue,.data{border-top:1px solid var(--editorial-hair-strong)}
+.integrity-pill{border:0;padding:10px 0;position:relative}
+.integrity-pill::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--accent),transparent)}
+.filters{gap:26px;background:transparent;border:0}
+.filters label{background:transparent;border-bottom:1px solid var(--editorial-hair-strong);padding:11px 0 9px}
+.explorer-meta{border-bottom:0;padding-top:25px}
+.records-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 54px;border-left:0}
+.record-card{position:relative;min-height:300px;padding:30px 0 36px;border-right:0;border-bottom:0;border-top:1px solid var(--editorial-hair-strong);background:transparent;transition:transform 420ms var(--editorial-ease),background 420ms ease}
+.record-card::before{content:"";position:absolute;left:0;top:-1px;width:44px;height:1px;background:var(--accent);transition:width 540ms var(--editorial-ease)}
+.record-card:hover{background:transparent;transform:translateX(8px)}
+.record-card:hover::before{width:45%}
+.record-card h3{font-size:clamp(1.35rem,2vw,1.75rem)}
+.record-facts div{border-top:1px solid rgba(243,238,231,.10)}
+.empty-state{border:0;border-top:1px solid var(--editorial-hair-strong)}
+.plain-button{border:0;border-bottom:1px solid var(--accent);transition:letter-spacing 300ms ease}.plain-button:hover{letter-spacing:.13em}
+
+/* Data / source launchers as lines rather than tiles */
+.data-ledger{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px;border:0;margin-top:62px}
+.data-ledger a{position:relative;min-height:126px;padding:22px 0 24px;border:0;border-top:1px solid var(--editorial-hair-strong);transition:transform 420ms var(--editorial-ease),color 300ms ease}
+.data-ledger a::before{content:"";position:absolute;left:0;top:-1px;width:0;height:1px;background:var(--accent);transition:width 520ms var(--editorial-ease)}
+.data-ledger a:hover{background:transparent;transform:translateX(8px);color:#fff}
+.data-ledger a:hover::before{width:58%}
+.data-ledger b{font-size:clamp(1.2rem,2vw,1.55rem)}
+
+/* Existing reveal gets a more pronounced editorial wipe */
+.motion-ready .reveal{transform:translateY(58px) scale(.992);clip-path:inset(0 0 22% 0);transition:opacity 920ms var(--editorial-ease),transform 980ms var(--editorial-ease),clip-path 980ms var(--editorial-ease);will-change:transform,opacity,clip-path}
+.motion-ready .reveal.is-visible{transform:translateY(0) scale(1);clip-path:inset(0 0 0 0)}
+
+/* ---------- bibliography ---------- */
+body.bib-page{
+  overflow-x:hidden;
+  background:
+    radial-gradient(circle at 84% 5%,rgba(116,72,47,.16),transparent 31rem),
+    radial-gradient(circle at 6% 64%,rgba(118,78,58,.08),transparent 32rem),
+    linear-gradient(90deg,transparent 0 24.96%,rgba(245,239,232,.018) 25%,transparent 25.04% 49.96%,rgba(245,239,232,.018) 50%,transparent 50.04% 74.96%,rgba(245,239,232,.018) 75%,transparent 75.04%),
+    var(--bib-paper);
+}
+body.bib-page::before{
+  content:"MOUNT / LABEL / GLASS / SERIES";
+  position:fixed;
+  z-index:-1;
+  right:-5vw;
+  top:26vh;
+  transform:rotate(90deg) translateX(48%);
+  transform-origin:right top;
+  color:rgba(245,239,232,.022);
+  font:800 clamp(3rem,8vw,8rem)/1 Arial,Helvetica,sans-serif;
+  letter-spacing:.11em;
+  white-space:nowrap;
+}
+.bib-page .subpage-header{border-bottom:1px solid rgba(245,239,232,.11);box-shadow:none}
+.bib-page .subpage-nav a::after{height:1px}
+.bib-page .page-intro{
+  min-height:560px;
+  padding-top:102px;
+  padding-bottom:92px;
+  border-bottom:0;
+  overflow:visible;
+}
+.bib-page .page-intro::after{width:44%;height:1px;background:linear-gradient(90deg,var(--bib-accent),transparent)}
+.bib-page .page-intro::before{
+  content:"";
+  position:absolute;
+  z-index:0;
+  right:-42px;
+  top:82px;
+  width:min(31vw,365px);
+  height:min(22vw,245px);
+  background-image:
+    linear-gradient(rgba(29,23,20,.08),rgba(29,23,20,.20)),
+    url("https://commons.wikimedia.org/wiki/Special:FilePath/2_Microscope_slides_by_Jacob_Dolson_Cox.jpg?width=1200");
+  background-size:cover;
+  background-position:center;
+  border:1px solid rgba(245,239,232,.16);
+  box-shadow:0 28px 70px rgba(0,0,0,.22);
+  filter:sepia(.30) saturate(.78) contrast(.96);
+  opacity:.72;
+  transform:rotate(4.3deg) translate3d(0,calc(var(--scroll-y,0) * -.012px),0);
+  transition:transform 700ms var(--editorial-ease),opacity 500ms ease;
+}
+.bib-page .page-intro:hover::before{transform:rotate(2deg) translate3d(-7px,calc(var(--scroll-y,0) * -.012px),0);opacity:.88}
+.bib-page .page-intro>*{position:relative;z-index:1}
+.bib-page .page-intro h1{max-width:790px;text-shadow:0 12px 46px rgba(0,0,0,.24)}
+.bib-page .page-intro .page-dek{max-width:650px}
+.bib-page .bib-scope{position:relative;border-bottom:0;padding-top:64px;padding-bottom:92px;overflow:visible}
+.bib-page .bib-scope::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--bib-line-strong) 18% 82%,transparent)}
+.bib-page .bib-scope::before{
+  content:"";
+  position:absolute;
+  z-index:0;
+  left:-86px;
+  bottom:-56px;
+  width:min(27vw,310px);
+  height:min(19vw,220px);
+  background-image:
+    linear-gradient(rgba(29,23,20,.16),rgba(29,23,20,.28)),
+    url("https://commons.wikimedia.org/wiki/Special:FilePath/4_Microscope_slides_by_Jacob_Dolson_Cox.jpg?width=1200");
+  background-size:cover;
+  background-position:center;
+  border:1px solid rgba(245,239,232,.13);
+  box-shadow:0 26px 66px rgba(0,0,0,.18);
+  filter:sepia(.34) saturate(.78) contrast(.94);
+  opacity:.52;
+  transform:rotate(-5deg) translate3d(0,calc(var(--scroll-y,0) * .009px),0);
+}
+.bib-page .bib-scope>*{position:relative;z-index:1}
+.bib-page .scope-copy{margin-left:clamp(0px,5vw,62px)}
+.bib-page .bib-caution{padding:15px 0;border:0;border-top:1px solid rgba(212,161,116,.35);border-bottom:1px solid rgba(212,161,116,.18);background:transparent}
+
+/* Bibliography controls/export: open strips */
+.bib-page .bib-controls{gap:24px;margin-top:76px;border:0;background:transparent;grid-template-columns:1.8fr 1fr 1fr auto}
+.bib-page .bib-controls label{padding:11px 0 9px;background:transparent;border-bottom:1px solid var(--bib-line-strong)}
+.bib-page .bib-controls button{min-width:auto;padding:0 2px;border-bottom:1px solid rgba(212,161,116,.55);background:transparent;transition:letter-spacing 260ms ease}
+.bib-page .bib-controls button:hover{background:transparent;letter-spacing:.13em}
+.bib-page .bib-result-line{border-bottom:0;padding-top:22px}
+.bib-page .bib-export{position:relative;overflow:visible;border-bottom:0;padding:56px 0 64px}
+.bib-page .bib-export::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--bib-line-strong),transparent)}
+.bib-page .bib-export-toolbar{gap:26px;border:0;background:transparent;grid-template-columns:minmax(190px,.7fr) 2fr}
+.bib-page .bib-export-toolbar label{padding:11px 0;background:transparent;border-bottom:1px solid var(--bib-line-strong)}
+.bib-page .bib-export-buttons{gap:0 20px;background:transparent}
+.bib-page .bib-export-buttons button{position:relative;min-height:50px;background:transparent;border-top:1px solid var(--bib-line-strong);border-bottom:1px solid rgba(245,239,232,.08);text-align:left;padding:0;transition:padding 330ms var(--editorial-ease),color 220ms ease}
+.bib-page .bib-export-buttons button::after{content:"↗";position:absolute;right:0;opacity:.35;transition:transform 300ms var(--editorial-ease),opacity 300ms ease}
+.bib-page .bib-export-buttons button:hover{background:transparent;padding-left:7px;color:#f1bd91}
+.bib-page .bib-export-buttons button:hover::after{transform:translate(3px,-3px);opacity:1}
+
+/* Bibliography lists: let chronology act as the structure */
+.bib-page .bib-section{position:relative;border-bottom:0;padding-top:84px;padding-bottom:86px}
+.bib-page .bib-section::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--bib-line-strong),transparent 86%)}
+.bib-page .bib-section-head{margin-bottom:46px}
+.bib-page .bib-list{border-top:0}
+.bib-page .bib-entry{position:relative;grid-template-columns:116px minmax(0,1fr);gap:48px;padding:27px 0 30px;border-bottom:0;border-top:1px solid rgba(245,239,232,.12);transition:transform 380ms var(--editorial-ease),background 300ms ease}
+.bib-page .bib-entry::before{content:"";position:absolute;left:0;top:-1px;width:0;height:1px;background:var(--bib-accent);transition:width 520ms var(--editorial-ease)}
+.bib-page .bib-entry:hover{margin-inline:0;padding-inline:0;background:transparent;transform:translateX(7px)}
+.bib-page .bib-entry:hover::before{width:36%}
+.bib-page .bib-year{font-size:.69rem;letter-spacing:.11em}
+.bib-page .bib-entry h3{font-size:clamp(1.05rem,1.55vw,1.28rem)}
+.bib-page .bib-method,.bib-page .bib-data{position:relative;border-bottom:0;padding-top:82px;padding-bottom:84px}
+.bib-page .bib-method::after,.bib-page .bib-data::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--bib-line-strong),transparent)}
+
+/* ---------- sources ---------- */
+body.source-page{
+  overflow-x:hidden;
+  background:
+    radial-gradient(circle at 86% 6%,rgba(116,72,47,.17),transparent 32rem),
+    radial-gradient(circle at 8% 70%,rgba(92,63,48,.08),transparent 34rem),
+    linear-gradient(90deg,transparent 0 24.96%,rgba(245,239,232,.018) 25%,transparent 25.04% 49.96%,rgba(245,239,232,.018) 50%,transparent 50.04% 74.96%,rgba(245,239,232,.018) 75%,transparent 75.04%),
+    var(--src-paper);
+}
+body.source-page::before{
+  content:"ARCHIVE / FONDS / REGISTER / ROUTE";
+  position:fixed;
+  z-index:-1;
+  left:-5vw;
+  top:30vh;
+  transform:rotate(-90deg) translateX(-48%);
+  transform-origin:left top;
+  color:rgba(245,239,232,.022);
+  font:800 clamp(3rem,8vw,8rem)/1 Arial,Helvetica,sans-serif;
+  letter-spacing:.11em;
+  white-space:nowrap;
+}
+.source-page .subpage-header{border-bottom:1px solid rgba(245,239,232,.11)}
+.source-page .source-intro{min-height:470px;padding-top:104px;padding-bottom:88px;border-bottom:0}
+.source-page .source-intro::after{width:44%;height:1px;background:linear-gradient(90deg,var(--src-accent),transparent)}
+.source-page .source-intro h1{max-width:860px;text-shadow:0 12px 46px rgba(0,0,0,.20)}
+.source-page .source-intro::before{content:"SOURCE";position:absolute;right:0;bottom:10px;color:rgba(245,239,232,.026);font:800 clamp(5rem,17vw,13rem)/.8 Arial,Helvetica,sans-serif;letter-spacing:-.08em}
+.source-page .source-principle{position:relative;border-bottom:0;padding-top:64px;padding-bottom:66px}
+.source-page .source-principle::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,var(--src-line-strong),transparent)}
+.source-page .source-key{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:30px}
+.source-page .source-key span{position:relative;padding-top:15px;border-top:1px solid var(--src-line-strong)}
+.source-page .source-key i{border-radius:0;width:22px;height:1px;vertical-align:middle;margin-right:10px;margin-bottom:3px}
+.source-page .source-key .portal i{height:7px;width:7px;border-radius:50%}
+.source-page .corpus-strip{border-bottom:0;padding:46px 0;position:relative}
+.source-page .corpus-strip::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--src-line-strong) 18% 82%,transparent)}
+.source-page .corpus-links{gap:14px 34px}.source-page .corpus-links a{border-bottom-color:rgba(212,161,116,.22);transition:letter-spacing 260ms ease}.source-page .corpus-links a:hover{letter-spacing:.035em}
+.source-page .source-controls{grid-template-columns:2fr 1.1fr 1.1fr 1fr auto;gap:25px;border-bottom:0;padding-top:52px}
+.source-page .source-controls label{border-bottom:1px solid var(--src-line-strong)}
+.source-page .source-tools{padding-bottom:32px}
+.source-page .source-list{border-top:0}
+.source-page .source-record{position:relative;grid-template-columns:160px minmax(260px,.9fr) minmax(320px,1.35fr);gap:clamp(26px,5vw,72px);padding:38px 0 42px;border-bottom:0;border-top:1px solid var(--src-line);transition:transform 420ms var(--editorial-ease)}
+.source-page .source-record::before{content:"";position:absolute;left:0;top:-1px;width:0;height:1px;background:var(--src-accent);transition:width 520ms var(--editorial-ease)}
+.source-page .source-record:hover{transform:translateX(7px)}
+.source-page .source-record:hover::before{width:34%}
+.source-page .source-meta span{border-bottom:0;padding-bottom:0}
+.source-page .source-title h2{font-size:clamp(1.5rem,2.5vw,2.15rem)}
+.source-page .source-detail details{border-top:1px solid rgba(245,239,232,.08);padding-top:9px}
+.source-page .source-footer{border-top:1px solid var(--src-line);margin-top:84px}
+
+/* ---------- responsive ---------- */
+@media(max-width:900px){
+  .project-item{grid-template-columns:92px 1fr;min-height:0}
+  .project-item p:last-child{grid-column:2}.project-item:nth-child(even) h3,.project-item:nth-child(even) p:last-child{transform:none}
+  .case-grid article,.case-grid article:nth-child(odd),.case-grid article:nth-child(even){grid-template-columns:120px 1fr;gap:20px 32px}.case-grid p{grid-column:2}.case-grid article:nth-child(even) h3{transform:none}
+  .records-grid{grid-template-columns:1fr;gap:0}.data-ledger{grid-template-columns:1fr}
+  .bib-page .page-intro::before{right:-72px;width:300px;height:205px;opacity:.48}
+  .bib-page .bib-scope::before{left:-130px;width:250px;height:176px;opacity:.34}
+  .bib-page .bib-controls{grid-template-columns:1fr 1fr}.bib-page .bib-controls .search-field{grid-column:1/-1}
+  .bib-page .bib-export-toolbar{grid-template-columns:1fr}.bib-page .bib-export-buttons{grid-template-columns:repeat(3,1fr)}
+  .source-page .source-key{grid-template-columns:1fr}.source-page .source-record{grid-template-columns:130px 1fr}.source-page .source-detail{grid-column:2}
+}
+
+@media(max-width:700px){
+  body:not(.bib-page):not(.source-page) main::before{font-size:18vw;top:3rem}
+  .hero-stage::before{inset:-30%}.glass-slide{animation-duration:15s!important}
+  .section-heading::after{background:linear-gradient(90deg,var(--accent) 0 32%,var(--editorial-hair-strong) 32% 100%)}
+  .project-item{grid-template-columns:1fr;padding:42px 0}.project-item .item-no{grid-column:1;writing-mode:horizontal-tb;transform:none}.project-item h3,.project-item p:last-child{grid-column:1}
+  .research-chain::before{display:none}.research-chain span,.research-chain b,.research-chain strong{background:transparent;padding-inline:0}
+  .case-visual::before{left:11px;right:auto;top:0;bottom:0;width:1px;height:auto}.case-visual>div,.case-visual>div:nth-of-type(2),.case-visual>div:nth-of-type(3){transform:none;padding-left:30px;min-height:120px}.case-visual>i{margin-left:0;transform:rotate(90deg);width:max-content}
+  .case-grid article,.case-grid article:nth-child(odd),.case-grid article:nth-child(even){grid-template-columns:1fr;padding:34px 0}.case-grid p{grid-column:1}.case-grid span{margin-bottom:3px}
+  .status>div:first-child,.status>div:last-child{transform:none}.data-ledger{gap:0}
+  .bib-page .page-intro{min-height:520px;padding-top:76px}.bib-page .page-intro h1{max-width:100%}.bib-page .page-intro::before{top:auto;right:-38px;bottom:22px;width:58vw;height:36vw;opacity:.32}.bib-page .bib-scope::before{display:none}.bib-page .scope-copy{margin-left:0}
+  .bib-page .bib-controls{grid-template-columns:1fr}.bib-page .bib-export-buttons{grid-template-columns:repeat(2,1fr)}.bib-page .bib-entry{grid-template-columns:1fr;gap:7px}
+  .source-page .source-intro{min-height:430px;padding-top:70px}.source-page .source-key{grid-template-columns:1fr}.source-page .source-record{grid-template-columns:1fr}.source-page .source-detail{grid-column:1}
+  body.bib-page::before,body.source-page::before{display:none}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .hero-stage,.hero-stage::before,.hero-stage::after,.glass-slide{animation:none!important}
+  .hero-title-wrap,.bib-page .page-intro::before,.bib-page .bib-scope::before{transform:none!important}
+  .motion-enhanced .motion-piece{opacity:1!important;transform:none!important;clip-path:none!important;transition:none!important}
+  .motion-enhanced .motion-line::after{transform:none!important;transition:none!important}
+}
