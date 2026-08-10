@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0-uk-us-europe-closure-batch",
+  "generated": "2026-08-10",
+  "status": "ACTIVE_CLOSURE_ONLY",
+  "purpose": "Close already-open UK/US/European microscope-slide object-text chains in batches. Do not open new geographic infrastructures or expand the frozen global census.",
+  "scope": {
+    "active": "United Kingdom, United States only where an existing UK-linked chain is already open, and continental Europe only for already-open object/text chains.",
+    "parked": "Further South Asia, Africa, Latin America, East/Southeast Asia or other geographic expansion for coverage. Bibliography passes 18-19 remain in repository as completed audit history but do not define the active frontier.",
+    "frozen_object_survey": "307 discovery nodes / 155 strict nineteenth-century nodes — CLOSED_2026-08-09",
+    "bibliography_state": "slide-locked-pass-19; 206 verified entries; historical/public bibliography state only, not an instruction to continue geographic expansion."
+  },
+  "closure_results": [
+    {
+      "target": "Arthur C. Cole, Studies in Microscopical Science, vols. I-II",
+      "region": "UK",
+      "grade": "S_PRIMARY_SOURCE_ARCHITECTURE",
+      "status": "CLOSED_FOR_CURRENT_QUESTION",
+      "result": "Local full OCR was unpacked and structured. Vol. I (1883) has 52 numbered studies and 53 plates; its preface explicitly credits the issued microscopical preparations to Martin J. Cole. Vol. II (1884) has 36 plates; its preface separates essay, drawing, methods and preparation roles and explicitly credits the preparations jointly to Martin J. Cole and Arthur C. Cole.",
+      "guard": "Do not harmonize preparator responsibility across volumes. Vol. I and Vol. II contain different explicit attribution statements.",
+      "output": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
+      "residual": "Volumes III-IV are optional until a writing question requires them; they are no longer a prerequisite for establishing the material-publication architecture."
+    },
+    {
+      "target": "Charles Collins Jr., 1884 Fish Scales / 1885 Special Micro-Slides",
+      "region": "UK",
+      "grade": "S_SERIES_EVENT_AND_SURVIVAL",
+      "status": "CLOSED_AT_SERIES_LEVEL",
+      "result": "The UK corpus already preserves the 1884 notice as a 48-species Fish Scales series at Microscopical News IV p.109, while the 1885 JRMS/Science-Gossip layer records Collins junior’s broader Special Micro-Slides. St Andrews independently retains Collins material and explicitly associates his own fish skin/scales set with 1884.",
+      "guard": "Secondary Collins labels can occur on mounts made by others, so label attribution and preparator attribution remain distinct.",
+      "residual": "Whole-volume ingestion of Microscopical News IV is optional for surrounding trade/local context, not required to close the Collins series itself."
+    },
+    {
+      "target": "H. L. Smith, Diatomacearum Species Typicae, Century III",
+      "region": "US linked through UK reception",
+      "grade": "S_SET_ARCHITECTURE",
+      "status": "ARCHITECTURE_CLOSED_TEXTUAL_LOCATOR_OPEN",
+      "result": "Farlow’s surviving set architecture identifies Centuries I-VI as nos. 1-600, plus supplement 601-750, with 25 slides per labelled card. Century III is therefore nos. 201-300. The UK corpus independently closes the packaging/address system for Century I: 100 slides, five pasteboard trays, numbered catalogue and labels, diamond-written slide numbers; a later record closes Century II reception.",
+      "guard": "The Century III number range follows the published/surviving series architecture; do not infer that a specific surviving copy is the same physical set received in Britain without provenance evidence.",
+      "residual": "Recover the exact 1878 Century III notice/pages only if needed for reception chronology. No broad US microscopy search."
+    },
+    {
+      "target": "Frederic Kitton, Norfolk Diatoms Series III-IV",
+      "region": "UK",
+      "grade": "S_SET_ARCHITECTURE",
+      "status": "SET_STRUCTURE_CLOSED",
+      "result": "Farlow’s surviving series is explicitly Series I-IV, nos. 1-100, 25 numbers per series. Thus Series III is 51-75 and Series IV 76-100; the surviving slide set and handwritten Kitton catalogue provide the object/register layer.",
+      "guard": "Series position/count is distinct from number of distributed physical copies.",
+      "residual": "A contemporary launch/prospectus for Series III-IV would enrich distribution chronology but is not required to establish the series architecture."
+    },
+    {
+      "target": "Andrew Pritchard preparation catalogue and surviving cases",
+      "region": "UK",
+      "grade": "S_DATE_AND_OBJECT_BRIDGE",
+      "status": "DATE_CORRECTED_AND_OBJECT_BRIDGE_CLOSED",
+      "result": "The priority target is corrected from 1837 to 1835: Pritchard’s A list of two thousand microscopic objects is dated 1835. Surviving institutional objects include an 1835 London case of eleven Pritchard microscope slides and Whipple case 2385B with Pritchard catalogue labels among a mixed commercial/homemade cabinet. The 1842 second edition is a later state with new prepared objects.",
+      "guard": "1837 belongs to Micrographia and must not be used as the preparation-catalogue date. A catalogue label in a later mixed cabinet does not prove original cabinet assembly by Pritchard.",
+      "residual": "Row-level advertisement/category-to-surviving-slide matching is useful but optional after the date/object bridge is secured."
+    },
+    {
+      "target": "John Thomas Norman, 1862 exhibition → 1872 catalogue → St Andrews survival",
+      "region": "UK",
+      "grade": "A_PLUS_COLLECTION_CHAIN",
+      "status": "COLLECTION_LEVEL_CHAIN_CLOSED",
+      "result": "The corpus/BNA layer records Norman’s 1862 exhibition of a large series of microscopic preparations. St Andrews identifies Norman’s only catalogue as 1872 with 2,584 mounts and preserves a dedicated Norman group within the Bell-Pettigrew collection. These layers close exhibition, catalogue scale and institutional survival at collection level.",
+      "guard": "Norman labels can also appear in secondary commercial circulation; catalogue entry, maker/preparator identity and later retailer label remain separate claims.",
+      "residual": "Item-by-item 2,584-row catalogue-to-St Andrews crosswalk remains open because the public St Andrews group page does not expose a complete Norman item list."
+    },
+    {
+      "target": "HMS Challenger sediment/preparation collection, NHM",
+      "region": "UK",
+      "grade": "S_DATASET_AND_ADDRESS_ARCHITECTURE",
+      "status": "DATASET_ARCHITECTURE_CLOSED_FULL_ROW_HARVEST_OPEN",
+      "result": "The official NHM resource establishes a 4,723-record dataset for 4,713 physical bottles/tubes/boxes/slides and derived preparations, with collecting/preparation data. Existing diagnostic work closes M/subnumber addressing, a 105-drawer slide cabinet, named Haeckel/Norman/Voigt/Hochgesang preparation evidence, and the 127-preparation 1920 return event.",
+      "guard": "4,723 dataset records and 4,713 physical containers/objects are different namespaces and must not be collapsed.",
+      "residual": "The downloadable XLSX is a narrow technical ingestion gap; do a complete no-early-exit row harvest only when the binary is available."
+    },
+    {
+      "target": "Charles Elcock, St Andrews letters 6-8 March 1884",
+      "region": "UK",
+      "grade": "S_ARCHIVE_LOCATOR",
+      "status": "LOCATOR_CLOSED_CONTENT_TRANSCRIPTION_OPEN",
+      "result": "The exact archive target is narrowed to ms21974-ms21975; the catalogue explicitly states that the correspondence concerns Challenger expedition samples.",
+      "guard": "Catalogue metadata does not substitute for the manuscript passage. Sender/sample/station/purpose details remain unasserted until the images are read.",
+      "residual": "Obtain/transcribe only those two letters; no broad St Andrews search."
+    },
+    {
+      "target": "Naples catalogue row 383 ↔ St Andrews Delphinus phocaena BPM/1/T8/6",
+      "region": "Europe/UK",
+      "grade": "A_CANDIDATE",
+      "status": "PARKED_UNRESOLVED",
+      "result": "St Andrews preserves the object with Stazione Zoologica Napoli provenance and handwritten ‘Panis 383’; 383 remains structurally plausible inside the catalogue Mammalia range, but the historical catalogue row itself has not been recovered.",
+      "guard": "Do not promote shared number/taxon structure to physical object identity.",
+      "residual": "One bounded page-image check for rows 382-384 is enough. No more broad Naples discovery until that page is available."
+    }
+  ],
+  "batch_conclusion": {
+    "closed_or_substantially_closed": 7,
+    "parked_narrow_residuals": 2,
+    "research_policy": "Prefer closing existing object↔text↔register chains over increasing geographic coverage or collection counts.",
+    "next_batch": [
+      "Norman row-level catalogue/object matching only if item data become available",
+      "Pritchard 1835/1842 category-to-object comparison",
+      "Challenger full XLSX harvest when binary becomes retrievable",
+      "Elcock ms21974-ms21975 transcription",
+      "one bounded Naples rows 382-384 check"
+    ]
+  }
+}
