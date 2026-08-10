@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0.0-bourgogne-nmah-west-point-bridge",
+  "generated": "2026-08-10",
+  "title": "Joseph Bourgogne at NMAH: surviving commercial slide set, West Point accession cluster, and 1862 catalogue bridge",
+  "status": "PUBLIC_METADATA_BRIDGE_SUBSTANTIALLY_CLOSED__OBJECT_LABEL_TRANSCRIPTION_AND_ACCESSION_FILE_OPEN",
+  "builds_on": [
+    "data/analysis/trade_catalogue_circulation_matrix_v1.json",
+    "data/analysis/trade_catalogue_object_closure_delta_v2.json",
+    "data/analysis/surviving_commercial_slide_cabinets_crosswalk_v1.json",
+    "sources/source-registry-07.json#US-NMAH-BOURGOGNE-SLIDES"
+  ],
+  "research_question": "Can the Smithsonian boxed Bourgogne slide set be connected beyond maker attribution to a historical institutional address and then reverse-matched to Joseph Bourgogne's 1862 commercial catalogue?",
+  "principal_upgrade": {
+    "previous_state": "surviving boxed commercial endpoint attributed probably to Joseph Bourgogne; catalogue-to-object transcription open",
+    "new_state": "The set sits in Smithsonian accession 217544, an accession cluster independently documented by NMAH as scientific teaching apparatus transferred from the U.S. Military Academy at West Point to the Smithsonian in 1958. The Bourgogne set also carries historical catalog number M-09791, the same catalog-number namespace as the Beck microscope MG.M-09791 from the U.S. Military Academy. This creates a strong accession-level institutional provenance bridge, while the direct item-level accession card and slide-label inventory remain open.",
+    "grade": {
+      "surviving_set_identity": "S — NMAH directly records a two-box set with BOURGOGNE inscribed on each slide",
+      "joseph_bourgogne_attribution": "A++/S-candidate — NMAH says the inscription is probably Joseph Bourgogne; label morphology and full transcription are still required for maker-generation certainty",
+      "west_point_provenance": "A++/S-candidate — common accession 217544 is repeatedly identified by NMAH as a 1958 West Point / U.S. Military Academy transfer, but the Bourgogne object page itself currently lacks an explicit credit line",
+      "beck_microscope_association": "A++ clue — Bourgogne set catalog number M-09791 overlaps the Beck microscope ID MG.M-09791, itself explicitly from the U.S. Military Academy; direct accessory/co-storage relation requires accession/object-card confirmation",
+      "catalogue_object_crosswalk": "A+/S-candidate — 1862 catalogue architecture is known, but the NMAH slide subjects, formats, grades and box order are not publicly transcribed"
+    }
+  },
+  "direct_nmah_object_record": {
+    "institution": "National Museum of American History, Smithsonian Institution",
+    "record_title": "Microscope Slides",
+    "record_url": "https://americanhistory.si.edu/collections/object/nmah_723375",
+    "record_id": "nmah_723375",
+    "guid": "https://n2t.net/ark:/65665/ng49ca746a5-74fc-704b-e053-15f76fa0b4fa",
+    "id_number": "MG.217544.01",
+    "catalog_numbers": ["217544.01", "M-09791"],
+    "accession_number": "217544",
+    "description_fact": "NMAH states that the BOURGOGNE inscription on each slide in the set is probably that of Joseph Bourgogne, the Paris microscopist whose mounts won awards at international exhibitions.",
+    "physical_state": {
+      "container_count_visible_in_metadata": 2,
+      "box_1_dimensions": "1 9/16 x 5 1/2 x 3 7/8 in (3.96875 x 13.97 x 9.8425 cm)",
+      "box_2_dimensions": "1 9/16 x 5 1/2 x 3 7/8 in (3.96875 x 13.97 x 9.8425 cm)",
+      "slide_count": null,
+      "public_label_transcription": null,
+      "public_box_order": null
+    }
+  },
+  "accession_217544_cluster": {
+    "interpretive_status": "strong accession-level context; direct Bourgogne item transfer line still to be checked in the accession file",
+    "documented_transfer_year": 1958,
+    "documented_origin": "Department of Physics and Chemistry / U.S. Military Academy, West Point",
+    "basis": [
+      {
+        "object": "Grunow Spherometer",
+        "id_number": "MA.315739",
+        "accession": "217544",
+        "nmah_statement": "Owned by the Department of Physics and Chemistry at the United States Military Academy, West Point, and transferred to the Smithsonian in 1958.",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_904485"
+      },
+      {
+        "object": "Koenig Tonometer",
+        "id_number": "PH.315716",
+        "accession": "217544",
+        "nmah_statement": "The West Point rack and tuning forks under this accession were transferred to the Smithsonian from West Point in 1958.",
+        "url": "https://americanhistory.si.edu/collections/object/nmah_1187821"
+      },
+      {
+        "object": "Beck Improved National Monocular Microscope",
+        "id_number": "MG.M-09791",
+        "catalog_number": "M-9791",
+        "accession": "217544",
+        "nmah_statement": "NMAH states that this ca. 1890 Beck microscope came from the U.S. Military Academy.",
+        "url": "https://americanhistory.si.edu/collections/nmah_1174456"
+      },
+      {
+        "object": "Lerebours Microscope",
+        "id_number": "MG.M-09792",
+        "accession": "217544",
+        "nmah_statement": "Purchased for the U.S. Military Academy in 1829.",
+        "url": "https://americanhistory.si.edu/collections/search?edan_fq%5B0%5D=-date%3A%221900s%22&edan_q=microscope&page=0"
+      }
+    ],
+    "cluster_character": "Accession 217544 contains a broad historical teaching-apparatus transfer from West Point, including microscopes, optical apparatus, acoustical apparatus, balances, prisms and other classroom instruments. Multiple NMAH records explicitly carry U.S. Military Academy credit lines.",
+    "historical_implication": "The Bourgogne set is no longer best treated merely as an isolated museum survival. Its accession address strongly places it within a historical scientific-teaching apparatus collection assembled at West Point and transferred as a collection cluster in 1958."
+  },
+  "catalog_number_bridge": {
+    "bourgogne_set": {
+      "id": "MG.217544.01",
+      "catalog_number": "M-09791"
+    },
+    "beck_microscope": {
+      "id": "MG.M-09791",
+      "catalog_number": "M-9791",
+      "serial_number": "10198",
+      "date": "ca. 1890",
+      "provenance": "U.S. Military Academy"
+    },
+    "reading": "The shared M-09791/M-9791 historical catalog-number namespace is a high-value clue that the Bourgogne slide set and Beck microscope were once catalogued together or under a common microscope-object grouping. Current public metadata does not state whether the slides were accessories to, stored with, or merely administratively associated with that microscope.",
+    "guard": "Do not convert catalog-number overlap into an accessory or purchase-date claim without the accession 217544 file, original catalog card, or other internal NMAH documentation."
+  },
+  "bourgogne_1862_catalogue_layer": {
+    "title": "Prix Courant des Préparations Microscopiques",
+    "maker": "Joseph Bourgogne",
+    "place": "Paris",
+    "date": 1862,
+    "project_status_before_run": "known catalogue architecture; full row extraction absent",
+    "public_copy_locator": {
+      "site": "Histoire du microscope",
+      "listing": "BOURGOGNE — Catalogue vente — 1862 — fre — Ouvrir le PDF",
+      "url": "https://histoiredumicroscope.com/references/",
+      "direct_pdf_target_observed_from_viewer_wrapper": "https://histoiredumicroscope.com/wp-content/uploads/2020/11/BOURGOGNE-catalogue1862-BRIAN.pdf",
+      "retrieval_status": "PDF link located but binary not ingested in this pass"
+    },
+    "secondary_translation_and_slide_morphology": {
+      "source": "Brian Stevenson, Joseph Bourgogne / microscopist.net, drawing on Pierre Girodet's 2001 English translation",
+      "secure_for_planning_not_primary_row_claim": [
+        "The 1862 catalogue distinguishes three quality levels.",
+        "Later 1850s/early 1860s standard 1 x 3 inch slides with Bourgogne's 1855 medal label are described as the best/first-class mounts.",
+        "The catalogue also offered a much larger approximately 3.6 x 12 cm format for large whole specimens.",
+        "Projection-microscope objects used a distinct wooden-holder format."
+      ],
+      "url": "https://www.microscopist.net/BourgogneJoseph.html"
+    },
+    "primary_source_guard": "Until the 1862 PDF itself is ingested and read page-by-page, do not create catalogue row IDs, prices, subject matches or quality-grade assignments from secondary summaries alone."
+  },
+  "existing_circulation_context_retained": [
+    "1851 Great Exhibition award listing for Bourgogne microscopic preparations in the project BNA layer.",
+    "1865 Birmingham society demonstration/use of Bourgogne preparations in the project BNA layer.",
+    "1886 second-hand British sale bundle names Bourgogne alongside other professional slide makers, showing maker name retained resale value."
+  ],
+  "revised_chain": "Paris commercial preparation and graded catalogue -> surviving Bourgogne-labelled two-box set -> probable West Point teaching-collection address via accession 217544 -> Smithsonian transfer in 1958 -> modern NMAH object record",
+  "why_it_matters": {
+    "trade_history": "The surviving endpoint now has a plausible institutional-use context rather than only modern museum custody.",
+    "collection_history": "The same slide set can be addressed by maker inscription, box membership, West Point accession context, old microscope catalog number and Smithsonian object ID.",
+    "comparison_with_cole": "Cole preserves publication identity through a fixed numbered cabinet. Bourgogne potentially preserves commodity identity inside a later teaching-apparatus collection. The two cases therefore test different ways in which commercial glass objects survived institutional re-addressing."
+  },
+  "exact_source_actions": [
+    {
+      "rank": 1,
+      "request": "NMAH accession 217544 file and/or original catalog card for MG.217544.01 / M-09791",
+      "ask_for": [
+        "donor/transfer source and date",
+        "original West Point department or room/cabinet address",
+        "whether the Bourgogne boxes were catalogued with Beck microscope M-09791",
+        "any old inventory number or accession list description",
+        "slide count and box contents"
+      ],
+      "upgrade_if_found": "Could close West Point provenance and Beck-microscope association at S level."
+    },
+    {
+      "rank": 2,
+      "request": "High-resolution images of both boxes and every Bourgogne slide, front and reverse where informative",
+      "ask_for": [
+        "maker inscription verbatim",
+        "subject label verbatim",
+        "slide dimensions/format",
+        "quality/choice wording",
+        "numbers/dates/localities",
+        "box order",
+        "secondary West Point or dealer labels"
+      ],
+      "upgrade_if_found": "Enables catalogue-to-object crosswalk and maker-generation attribution."
+    },
+    {
+      "rank": 3,
+      "request": "Ingest the 1862 French catalogue PDF and extract it completely with no early exit",
+      "ask_for": [
+        "all subject rows",
+        "prices and quantity basis",
+        "quality grades",
+        "slide formats",
+        "special projection/large-object formats",
+        "commercial terms and address"
+      ],
+      "upgrade_if_found": "Turns current catalogue architecture into a row-level authority for the surviving NMAH set."
+    }
+  ],
+  "stop_rule": "No broad Bourgogne biography or global slide search is needed. Continue only with the 1862 catalogue binary, NMAH object images, or accession 217544 documentation because those are the sources capable of changing object identity, provenance or transaction structure."
+}
