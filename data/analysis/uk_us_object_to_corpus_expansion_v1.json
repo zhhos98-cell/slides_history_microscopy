@@ -1,8 +1,9 @@
 {
-  "schema_version": "1.1.0-uk-us-object-to-corpus-closure-status",
+  "schema_version": "1.2.0-uk-us-object-to-corpus-closure-status",
   "generated": "2026-08-10",
-  "status": "ACTIVE_CLOSURE_ONLY",
+  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__EXACT_SOURCE_REQUESTS_ONLY",
   "purpose": "Use surviving-object evidence as a reverse index to close existing UK, narrowly UK-linked US, and already-open European historical-source chains. Do not resume geographic discovery for coverage.",
+  "authority_note": "For live task status consult data/analysis/CURRENT_STATE.json and data/analysis/global_archive_research_priority_CURRENT.json. This file preserves the object-to-corpus chain summaries.",
   "scope": {
     "core": "United Kingdom nineteenth-century slide preparation, circulation, commerce, teaching, comparison, material publication, and surviving-object provenance.",
     "secondary": "United States only where an already-open British reception/exchange/object chain exists.",
@@ -38,7 +39,7 @@
       "rank": 3,
       "target": "H. L. Smith, Diatomacearum Species Typicae, Century III",
       "region": "US linked through UK reception",
-      "status": "CLOSED_S_SET_ARCHITECTURE_TEXTUAL_LOCATOR_OPEN",
+      "status": "CLOSED_S_SET_ARCHITECTURE_TEXTUAL_LOCATOR_OPTIONAL",
       "result": "Surviving architecture fixes Century III at nos. 201-300; UK reception closes Century I packaging/address system and Century II receipt.",
       "next": "Recover exact 1878 Century III notice/pages only if reception chronology is needed."
     },
@@ -54,7 +55,7 @@
       "rank": 5,
       "target": "John Thomas Norman 1862 exhibition / 1872 catalogue / St Andrews group",
       "region": "UK",
-      "status": "A_PLUS_COLLECTION_CHAIN_ITEM_CROSSWALK_OPEN",
+      "status": "A_PLUS_COLLECTION_CHAIN__ITEM_EXPORT_REQUEST_ONLY",
       "result": "Collection-level chain closes public exhibition, 2,584-mount catalogue scale and surviving institutional group.",
       "next": "Wait for a complete St Andrews Norman item/export layer before row-by-row catalogue matching."
     },
@@ -70,7 +71,7 @@
       "rank": 7,
       "target": "HMS Challenger sediment/preparation dataset",
       "region": "UK",
-      "status": "CLOSED_S_DATASET_ADDRESS_ARCHITECTURE_FULL_BINARY_HARVEST_OPEN",
+      "status": "CLOSED_S_DATASET_ADDRESS_ARCHITECTURE__FULL_BINARY_REQUEST_ONLY",
       "result": "Official 4,723 dataset records versus 4,713 physical containers/objects kept separate; diagnostic preparation/address architecture already structured.",
       "next": "Full no-early-exit XLSX harvest when the binary is retrievable."
     },
@@ -78,17 +79,19 @@
       "rank": 8,
       "target": "Charles Elcock St Andrews Challenger letters ms21974-ms21975",
       "region": "UK",
-      "status": "CLOSED_S_ARCHIVE_LOCATOR_TRANSCRIPTION_OPEN",
-      "result": "Exact two-letter locator closed; catalogue explicitly associates correspondence with Challenger samples.",
+      "status": "CLOSED_S_ARCHIVE_LOCATOR__MANUSCRIPT_REQUEST_ONLY",
+      "result": "Exact two-letter locator closed; catalogue explicitly records Challenger-sample references within broader antiquarian/natural-history correspondence.",
       "next": "Transcribe only ms21974-ms21975."
     },
     {
       "rank": 9,
-      "target": "Naples row 383 ↔ St Andrews BPM/1/T8/6",
+      "target": "Naples catalogue offering 383 ↔ St Andrews BPM/1/T8/6",
       "region": "Europe/UK",
-      "status": "PARKED_A_CANDIDATE",
-      "result": "Object provenance and handwritten 383 remain suggestive but historical catalogue row is unverified.",
-      "next": "One bounded rows 382-384 page-image check; no broad Naples expansion."
+      "status": "CLOSED_S_A_PLUS_PLUS_CATALOGUE_OFFERING_IDENTITY",
+      "output": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+      "result": "Local primary catalogue OCR recovers row 383 as Delphinus phocaena L., Penis by ditto continuation from row 382. The surviving St Andrews slide carries Stazione Zoologica Napoli labels, the taxon Delphinus phocaena and right-label transcription 'Panis 383'. Station + taxon + exact catalogue number close the correspondence to offering 383.",
+      "guard": "Preserve the source discrepancy 'Penis' versus St Andrews transcription 'Panis'. Offering correspondence does not prove individual manufacturing date, preparator, price or identity with a particular shipment copy.",
+      "next": "No active search. Reopen only if object photography or production/shipment records are needed for a specific argument."
     }
   ],
   "new_knowledge_from_crosswalk": [
@@ -137,7 +140,9 @@
     "Do not open broad US microscopy harvesting; follow only already-open UK-linked chains.",
     "Do not bulk-ingest modern museum prose into the nineteenth-century corpus.",
     "Do not open new medium domains such as geological thin sections without a separate scope decision.",
-    "When a chain reaches collection/series architecture sufficient for argument, downgrade residual prospectus/page hunting to optional unless it changes attribution, chronology or object identity."
+    "When a chain reaches collection/series architecture sufficient for argument, downgrade residual prospectus/page hunting to optional unless it changes attribution, chronology or object identity.",
+    "Do not repeat public-web searching for the four request-only residuals unless a new bounded identifier appears."
   ],
-  "batch_output": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v1.json"
+  "current_state": "data/analysis/CURRENT_STATE.json",
+  "current_router": "data/analysis/global_archive_research_priority_CURRENT.json"
 }
