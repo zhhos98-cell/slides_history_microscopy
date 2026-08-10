@@ -1,8 +1,8 @@
 {
-  "schema_version": "1.1.0-analysis-current-state",
-  "generated": "2026-08-10",
-  "status": "CANONICAL_CURRENT_ANALYSIS_STATE",
-  "purpose": "Single machine-readable authority pointer for the current microscope-slide analysis state. Historical snapshots remain in the repository for audit, but this file identifies which outputs are current and which earlier states are superseded.",
+  "schema_version": "1.2.0-analysis-current-state",
+  "generated": "2026-08-11",
+  "status": "CANONICAL_CURRENT_ANALYSIS_STATE__CLOSURE_SATURATION",
+  "purpose": "Single machine-readable authority pointer for the current microscope-slide analysis state after the 10–11 August upgrade sweep. Historical snapshots remain in the repository for audit; this file identifies the live synthesis state and request-only residuals.",
   "repository_authority": "REPOSITORY_STATE.json",
   "frozen_survey": {
     "discovery_nodes": 307,
@@ -23,121 +23,122 @@
     "research_output_index": "data/corpus/RESEARCH_OUTPUTS_V6.json",
     "status": "COMPACT_PUBLICATION_LAYER__NOT_ANALYSIS_AUTHORITY"
   },
-  "research_mode": "UK_US_EUROPE_CLOSURE_ONLY__ANALYSIS_AND_WRITING",
+  "research_mode": "ANALYTICAL_SATURATION__SYNTHESIS_AND_WRITING",
   "public_web_discovery_queue": [],
-  "exact_source_request_queue": [
+  "active_broad_search_queue": [],
+  "closure_authority": "data/analysis/closure_saturation_manifest_2026-08-11.json",
+  "request_only_residuals": [
     {
-      "rank": 1,
       "target": "Charles Elcock — St Andrews ms21974-ms21975",
-      "source_needed": "page images or transcription of the two letters"
+      "source_needed": "page images or transcription of the two letters",
+      "necessity_for_writing": "optional provenance refinement"
     },
     {
-      "rank": 2,
       "target": "NHM HMS Challenger dataset",
-      "source_needed": "current 4,723-row resource binary"
+      "source_needed": "current 4,723-row resource binary",
+      "necessity_for_writing": "optional complete mechanical harvest; architecture already closed"
     },
     {
-      "rank": 3,
       "target": "Balfour surviving Zeiss objectives",
-      "source_needed": "ZEISS archive/accessory evidence for objective engravings 573, 1295, 710, 780, 542"
+      "source_needed": "ZEISS archive/accessory dispatch evidence for objective engravings 573, 1295, 710, 780, 542",
+      "necessity_for_writing": "optional item-provenance refinement; publication/designation layer already S"
     },
     {
-      "rank": 4,
       "target": "John Thomas Norman 1872 catalogue → St Andrews",
-      "source_needed": "complete Norman item/export layer with current addresses and label transcriptions"
+      "source_needed": "complete Norman item/export layer with current addresses and label transcriptions",
+      "necessity_for_writing": "optional item-level closure; collection-level chain already established"
+    },
+    {
+      "target": "Oxford HSM / RMS",
+      "source_needed": "selected historical RMS manuscript-catalogue entries matched to current Small Worlds slide records",
+      "necessity_for_writing": "optional item-level proof of society-to-museum address translation"
+    },
+    {
+      "target": "Hunterian / John Thomas Quekett",
+      "source_needed": "1850 catalogue pages and current Hunterian records for selected historic catalogue numbers",
+      "necessity_for_writing": "optional promotion of selected A++ catalogue-slide bridges to direct S"
+    },
+    {
+      "target": "Stazione Zoologica Napoli dealer network",
+      "source_needed": "1882–1884 report/account/copybook pages for Wheeler, Beck, Ward, Schneider and Baker transactions",
+      "necessity_for_writing": "optional transaction-level closure; catalogue-object architecture already sufficient"
+    },
+    {
+      "target": "University of Tokyo Anatomy Department",
+      "source_needed": "call nos. 119/122/123 entries for Medical Faculty microscope no. 1 / 壹番 / Dennisrock",
+      "necessity_for_writing": "optional exact instrument-register bridge; archive system plus surviving endpoint already S"
+    },
+    {
+      "target": "Museo de La Plata / Frenguelli",
+      "source_needed": "Möller and Tempère & Peragallo acquisition records plus edition-level inventory",
+      "necessity_for_writing": "optional transaction and edition refinement"
+    },
+    {
+      "target": "Bourgogne / Smithsonian accession 217544",
+      "source_needed": "accession file/catalog cards and full slide photography",
+      "necessity_for_writing": "optional promotion of West Point bridge from A++/S-candidate"
     }
   ],
   "current_authority_files": {
     "repository_state": "REPOSITORY_STATE.json",
     "human_direction": "CURRENT_DIRECTION.md",
     "operational_router": "data/analysis/global_archive_research_priority_CURRENT.json",
-    "residual_audit": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
-    "local_source_availability": "data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json",
-    "slide_155_analysis_manifest": "data/analysis/slide_155_analysis_v1/manifest.json",
+    "closure_saturation_manifest": "data/analysis/closure_saturation_manifest_2026-08-11.json",
+    "closure_saturation_human": "docs/CLOSURE_SATURATION_2026-08-11.md",
     "corpus_expansion_status": "data/analysis/slide_155_corpus_expansion_v1/README.md",
-    "naples_383_closure": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
-    "cole_primary_structure": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
-    "challenger_current_diagnostic_layer": "data/analysis/challenger_dataset_row_harvest_v2.json",
-    "balfour_publication_side": "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
-    "elcock_archive_locator": "data/analysis/elcock_standrews_1884_letters_v5.json"
-  },
-  "supersession_map": [
-    {
-      "file": "data/analysis/naples_row383_page_verification_v3.json",
-      "state": "SUPERSEDED_HISTORICAL_NEGATIVE_CHECK",
-      "superseded_by": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
-      "reason": "Local primary OCR later recovered rows 382-385 and closed offering 383."
-    },
-    {
-      "file": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v1.json",
-      "state": "HISTORICAL_BATCH_SNAPSHOT",
-      "superseded_by": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json"
-    },
-    {
-      "file": "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
-      "state": "HISTORICAL_BATCH_SNAPSHOT",
-      "superseded_by": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
-      "reason": "The residual/local-source pass removed the Naples candidate and reduced the terminal queue to four exact-source requests."
-    },
-    {
-      "file": "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
-      "state": "CURRENT_DATED_RESIDUAL_AUDIT__NOT_LIVE_ROUTER",
-      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json",
-      "reason": "The v3 file accurately records the four-item terminal residual state, but operational routing belongs to the _CURRENT router."
-    },
-    {
-      "file": "data/analysis/four_target_execution_status_2026-08-10.json",
-      "state": "HISTORICAL_EXECUTION_SNAPSHOT",
-      "superseded_by": "data/analysis/CURRENT_STATE.json"
-    },
-    {
-      "file": "data/analysis/global_archive_research_priority_v1.json",
-      "state": "HISTORICAL_ROUTER_SNAPSHOT",
-      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json"
-    },
-    {
-      "file": "data/analysis/global_archive_research_priority_v2.json",
-      "state": "HISTORICAL_ROUTER_SNAPSHOT",
-      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json"
-    },
-    {
-      "file": "data/analysis/global_archive_research_priority_v3.json",
-      "state": "HISTORICAL_ROUTER_SNAPSHOT",
-      "superseded_by": "data/analysis/global_archive_research_priority_CURRENT.json"
-    },
-    {
-      "file": "data/analysis/material_slide_publication_forms_v1.json",
-      "state": "HISTORICAL_TAXONOMY_VERSION",
-      "superseded_by": "data/analysis/material_slide_publication_forms_v2.json"
-    },
-    {
-      "file": "docs/UK_US_RETURN_TO_CORE_2026-08-10.md",
-      "state": "HISTORICAL_DIRECTION_SNAPSHOT",
-      "superseded_by": "CURRENT_DIRECTION.md",
-      "reason": "It records the earlier pass-17 pause before passes 18-19 and the later closure work."
-    }
-  ],
-  "generated_layer_state": {
-    "slide_155_analysis": {
-      "manifest": "data/analysis/slide_155_analysis_v1/manifest.json",
-      "generated_row_output": "outputs/SLIDE_155_ANALYSIS_LAYER_V1.csv",
-      "committed_row_output": null,
-      "expected_rows": 155
-    }
+    "cole_fullres": "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v5_fullres_audit.json",
+    "cole_cabinet": "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v6_cabinet_audit.json",
+    "quekett_club": "data/analysis/quekett_club_cabinet_circulation_authority_upgrade_v1.json",
+    "hunterian_quekett": "data/analysis/hunterian_quekett_catalogue_address_survival_upgrade_v1.json",
+    "elcock_workshop_market": "data/analysis/elcock_whipple_workshop_to_market_upgrade_v1.json",
+    "oxford_rms": "data/analysis/oxford_hsm_rms_cabinet_database_upgrade_v1.json",
+    "cajal_addresses": "data/analysis/cajal_simurg_multi_address_upgrade_v1.json",
+    "grunow_sample": "data/analysis/grunow_vienna_sample_level_closure_v2.json",
+    "pacini_remounting": "data/analysis/pacini_florence_slide_publication_remounting_upgrade_v1.json",
+    "van_heurck_estate": "data/analysis/van_heurck_distributed_estate_readdressing_upgrade_v1.json",
+    "grayson_test_ruling": "data/analysis/grayson_melbourne_test_ruling_object_archive_upgrade_v1.json",
+    "tokyo_anatomy": "data/analysis/utokyo_anatomy_microscopy_object_archive_upgrade_v1.json",
+    "laplata_reference_series": "data/analysis/laplata_moller_tempere_peragallo_series_upgrade_v1.json",
+    "gibson_cabinet": "data/analysis/gibson_manchester_collection_network_upgrade_v1.json",
+    "dundee_series": "data/analysis/dundee_hornell_sinel_watson_series_upgrade_v1.json",
+    "koelliker_wurzburg": "data/analysis/koelliker_wuerzburg_histology_teaching_survival_upgrade_v1.json",
+    "coimbra_teaching": "data/analysis/coimbra_costa_simoes_1873_teaching_system_upgrade_v1.json",
+    "haeckel_circulation": "data/analysis/haeckel_correspondence_microprep_circulation_upgrade_v1.json",
+    "balfour_correction": "data/analysis/balfour_optics_composite_set_correction_v2.json",
+    "naples_object_closure": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+    "naples_dealer_network": "data/analysis/naples_1882_1884_dealer_network_upgrade_v1.json",
+    "tiegs_register": "data/analysis/tiegs_melbourne_register_slide_collection_upgrade_v1.json",
+    "bourgogne_bridge": "data/analysis/bourgogne_nmah_west_point_accession_bridge_v1.json"
   },
   "closed_or_substantially_closed_relations": [
-    "Arthur C. Cole vols I-II material-publication architecture",
-    "Cole Volume I surviving 52-slide material counterpart at near-S level",
+    "Arthur C. Cole Volumes I–II material-publication architecture and surviving Volume I cabinet/set address system",
+    "Quekett Microscopical Club cabinet circulation/reference-authority architecture",
+    "Hunterian/John Thomas Quekett acquisition-teaching-catalogue-surviving-address architecture",
+    "Charles Elcock workshop-to-market preparation system",
+    "Oxford HSM/RMS collection survival and museum re-addressing architecture",
+    "Cajal multi-generation institutional address histories",
+    "Grunow cross-media sample-number system with representative sample-level historical closure",
+    "Pacini preparation-label-publication-remounting chain",
+    "Van Heurck integrated-estate dispersal and re-addressing chain",
+    "Grayson surviving microscope test-plate and custody chain",
+    "Tokyo Anatomy archive system plus surviving teaching-microscope endpoint",
+    "La Plata Möller/Tempère & Peragallo surviving numbered reference-series architecture",
+    "Manchester Gibson mixed-cabinet network architecture",
+    "Dundee Hornell & Sinel / Watson maker-series survival",
+    "Kölliker/Würzburg collection survival and microscopy-teaching architecture",
+    "Coimbra 1873 course-preparations-apparatus pedagogical architecture",
+    "Haeckel selected correspondence transaction grammar",
+    "Balfour published optical-use architecture and chronological exclusion of later composite accession material",
+    "Naples offering 383 → St Andrews object closure and higher-level dealer-network evidence",
+    "Tiegs Museum delayed registration and re-addressing architecture",
+    "Bourgogne surviving maker-attributed set with West Point accession bridge candidate",
     "Charles Collins Jr. 1884/1885 series/event/survival chain",
     "H. L. Smith Century III set architecture",
-    "Frederic Kitton Series III-IV set architecture",
+    "Frederic Kitton Series III–IV set architecture",
     "Andrew Pritchard 1835 catalogue/date/object bridge",
     "John Thomas Norman collection-level exhibition → catalogue → survival chain",
     "NHM Challenger address/dataset architecture and named diagnostic preparations",
-    "Balfour objective designation → publication-caption layer",
-    "Harvard Embryological Collection / Minot control architecture",
-    "Quekett/Oxford Cole archive-capability route",
-    "Naples catalogue offering 383 → St Andrews BPM/1/T8/6"
+    "Harvard Embryological Collection / Minot control architecture"
   ],
   "quantity_invariants": [
     "307 discovery nodes and 155 strict nineteenth-century nodes are frozen census namespaces.",
@@ -146,10 +147,11 @@
     "4,723 Challenger dataset records and 4,713 physical containers/objects are separate count states.",
     "Serial positions, catalogue numbers, accession numbers, slide counts, preparation counts and cabinet capacities are never collapsed without explicit evidence."
   ],
+  "interpretive_core": "Microscope preparations became durable knowledge objects through address systems: numbered slots, labels, catalogues, cabinets, registers, publication references, coordinates and later museum identifiers. These systems could preserve, translate or repair identity across replacement, remounting, dispersal and institutional recataloguing.",
+  "stop_rule": "No further broad public-web, geographic or collection-count sweep. Resume research only from an exact source arrival, a user-supplied object/image, or a newly bounded identifier capable of changing attribution, chronology, object identity, custody or mechanism. Default next phase is synthesis and writing.",
   "cleanup_policy": {
     "delete_historical_snapshots": false,
-    "reason": "Versioned analytical files are part of the audit trail. Cleaning means clarifying current authority, supersession and count namespaces rather than deleting evidentiary history.",
-    "resume_rule": "Resume a target only when an exact requested source arrives or creates a new bounded identifier.",
+    "reason": "Versioned analytical files remain part of the audit trail. Current authority is established by this manifest and the closure-saturation router, not by deleting earlier states.",
     "repository_integrity_validator": "scripts/validate_repository_state.py"
   }
 }
