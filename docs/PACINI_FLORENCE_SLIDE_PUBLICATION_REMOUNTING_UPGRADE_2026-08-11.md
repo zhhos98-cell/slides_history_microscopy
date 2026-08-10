@@ -1,0 +1,13 @@
+# Pacini / Florence slide-publication-remounting upgrade — 2026-08-11
+
+The Florence Pacini case can be promoted to an **S-level object-label-publication-repair chain**. The University of Florence states that Pacini's histological slides are carefully catalogued and preserved and that many carry dates, preparation substances, annotations, reflections and doubts. The labels therefore function as compact laboratory records rather than specimen-name tags.
+
+The strongest object is a surviving microscopic cholera preparation. The museum's transcription identifies superficial erosions of the small-intestine mucosa, states that the preparation belongs to the **second case** described in Pacini's memoir, and directs the reader to **Gazzetta medica di Firenze, 1854, p. 397**. The same historical label explicitly says that the preparation was **remounted in new glass seven years after it had been made**. This closes a rare nineteenth-century chain: **preparation -> case/publication address -> material remounting -> surviving museum object**.
+
+This matters directly for the project's maintenance/re-addressing argument. In Cole, fixed cabinet addresses could outlive replacement preparations. In Pacini, the glass carrier itself could be replaced while the preparation remained historically identifiable because its case and publication address travelled with it. A useful formulation is: **the glass could be replaced while the preparation remained the same historical object because its case and publication address travelled with it.**
+
+Other Pacini slides strengthen the label-as-record point: an 1865 epitelioma preparation carries a compact clinical history and date; an 1863 *Taenia solium* preparation carries Pacini's own interpretive question about whether an abnormal form was congenital or accidental.
+
+The documentary companion is the BNCF Pacini fonds: **23 units**, acquired by the Biblioteca Nazionale in **1885**, with Aurelio Bianchi's **1889** catalogue as the historical access instrument. This layer is S as a fonds locator but remains A++/S-candidate for a direct slide-to-manuscript relation. The exact bounded test is to locate cholera case notes, preparation recipes or remounting/conservation notes in Bianchi's catalogue and the fonds.
+
+Guard: the University webpage currently supplies the historical label transcriptions. High-resolution slide images and current catalogue identifiers are still required for independent paleographic verification and exact present-object addressing; the seven-year remounting statement should not be converted into a calendar year until the original date of that specific preparation is independently fixed.
