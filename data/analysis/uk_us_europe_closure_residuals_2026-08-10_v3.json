@@ -1,8 +1,8 @@
 {
-  "schema_version": "3.0.0-uk-us-europe-closure-residuals",
+  "schema_version": "3.1.0-uk-us-europe-closure-residuals",
   "generated": "2026-08-10",
-  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__EXACT_SOURCE_REQUESTS_ONLY",
-  "purpose": "Re-audit the remaining UK/US/European closure targets after the v2 batch and distinguish what can still be resolved from public indexed sources from what now requires an exact manuscript image, institutional export, archive lookup, binary download, or page image. This file is a stop-rule layer: it prevents repeated broad searching once the public layer has ceased to change the historical claim.",
+  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__FOUR_EXACT_SOURCE_REQUESTS_ONLY",
+  "purpose": "Re-audit the remaining UK/US/European closure targets after the v2 batch and distinguish what can still be resolved from public indexed sources from what now requires an exact manuscript image, institutional export, archive lookup or binary download. A local primary-source check has now removed Naples row 383 from the residual queue.",
   "scope_rule": "No new geographic infrastructure. Continue only relations already open in the UK, narrowly linked US, or already-open European chains.",
   "residuals": [
     {
@@ -12,14 +12,7 @@
       "public_source": "https://collections.st-andrews.ac.uk/item/darcy-wentworth-thompson-letters/2055455",
       "secure_public_result": "The St Andrews item record identifies two autograph letters signed plus one rubbing. It explicitly says the main theme is archaeological/antiquarian discussion of a medal allegedly found in a peat bog at Oughterard, County Kildare; the record separately notes natural-history discussion and references to Challenger expedition samples.",
       "correction_to_working_expectation": "The public record does not present these as primarily Challenger letters. Challenger is an explicit referenced topic within a broader correspondence item. The existence of the reference is secure; the transaction/workflow content is not.",
-      "still_open": [
-        "verbatim Challenger passage",
-        "who supplied or forwarded the samples",
-        "sample/station/locality/depth/number",
-        "scientific purpose",
-        "retention/return or preparation instructions",
-        "relation to surviving Elcock Challenger material or Type Slides"
-      ],
+      "still_open": ["verbatim Challenger passage","who supplied or forwarded the samples","sample/station/locality/depth/number","scientific purpose","retention/return or preparation instructions","relation to surviving Elcock Challenger material or Type Slides"],
       "next": "Request/read page images of ms21974-ms21975 only. Do not continue generic Elcock/St Andrews web discovery.",
       "grade": "S archive-item metadata; OPEN transaction content"
     },
@@ -58,30 +51,22 @@
       "still_open": "Complete Norman item/export list with current addresses, label transcriptions and preferably images.",
       "next": "Proceed only after St Andrews supplies/export exposes the item layer. Until then collection-level chain remains the terminal public claim.",
       "grade": "A+/S collection-level chain; item identity blocked by data granularity"
-    },
+    }
+  ],
+  "newly_closed_in_residual_pass": [
     {
-      "target": "Naples catalogue row 383 to St Andrews BPM/1/T8/6",
-      "region": "Italy / UK",
-      "new_status": "PARKED_PAGE_IMAGE_ONLY",
-      "bhl_item": "https://www.biodiversitylibrary.org/item/37442",
-      "bhl_article_state": "BHL verifies the 1881 article Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate at vol. 2, pp. 238-253. The existing project parse identifies the numbered catalogue as pp. 242-253 and preserves 423 offerings.",
-      "secure_public_result": "Indexed BHL search continues to expose the article/book container but not the decisive OCR/page text for row 383. The St Andrews object-side transcription 'Panis 383' and the derived Mammalia range remain unchanged.",
-      "still_open": "Verbatim rows 382-384, especially the preparation wording and price/ditto structure of 383.",
-      "next": "One direct BHL/Internet Archive page image around the end of the catalogue. If the image cannot be retrieved, keep 383 at A-candidate and stop.",
-      "grade": "A candidate; exact object-row identity OPEN"
+      "target": "Naples catalogue offering 383 to St Andrews BPM/1/T8/6",
+      "status": "CATALOGUE_OFFERING_IDENTITY_CLOSED__INDIVIDUAL_COPY_HISTORY_OPEN",
+      "result": "The locally held primary OCR on printed p.253 reads 382 Delphinus phocaena L. Milz; 383 ditto ditto Penis; 384 ditto ditto Hode; 385 ditto ditto Niere. Thus offering 383 is Delphinus phocaena L., Penis. St Andrews BPM/1/T8/6 independently carries Naples Station labels, taxon Delphinus phocaena, and the right-label transcription 'Panis 383'. Station + taxon + exact number closes the surviving object as an instance corresponding to catalogue offering 383; Panis/Penis is retained as a one-letter source/transcription discrepancy.",
+      "output": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+      "guard": "Catalogue offering identity does not establish manufacture date, preparator, price or identity with a particular 1880/1881 shipment copy."
     }
   ],
   "operational_conclusion": {
     "public_web_targets_remaining": 0,
-    "exact_source_requests_remaining": 5,
-    "meaning": "The active internet discovery loop is closed. Every remaining edge is now an exact source-access problem, not a search-coverage problem.",
-    "request_queue": [
-      "St Andrews ms21974-ms21975 page images",
-      "NHM Challenger current resource binary",
-      "ZEISS archive/objective-number guidance for Balfour",
-      "St Andrews Norman item/export layer",
-      "BHL/IA page image containing Naples rows 382-384"
-    ],
-    "stop_rule": "Do not reopen broad web searching for any of these targets unless a requested source returns a new name, identifier, station, catalogue number, or institutional address that creates a genuinely new bounded query."
+    "exact_source_requests_remaining": 4,
+    "meaning": "The active internet discovery loop is closed. Four remaining edges are exact source-access problems; Naples 383 has moved out of the request queue through a local primary-source closure.",
+    "request_queue": ["St Andrews ms21974-ms21975 page images","NHM Challenger current resource binary","ZEISS archive/objective-number guidance for Balfour","St Andrews Norman item/export layer"],
+    "stop_rule": "Do not reopen broad web searching for any residual target unless a requested source returns a new name, identifier, station, catalogue number or institutional address that creates a genuinely new bounded query."
   }
 }
