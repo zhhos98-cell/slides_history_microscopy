@@ -1,0 +1,63 @@
+{
+  "schema_version": "6.0.0-cole-tooveys-cabinet-construction-audit",
+  "generated": "2026-08-10",
+  "title": "Toovey's Lot 1204 cabinet audit: construction, integrated index, fixed addresses, and publisher-supplied-cabinet guard",
+  "builds_on": [
+    "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v5_fullres_audit.json"
+  ],
+  "source_images": [
+    {
+      "filename": "1204.jpg",
+      "sha256": "ac073e88ad494dfa424c547c1e47d605c342ed2e5bae251cea2064508146376b",
+      "size_px": [2047, 1880],
+      "view": "case open, top lid raised and front panel dropped; top indexed tray and stacked removable trays visible"
+    },
+    {
+      "filename": "1204-6.jpg",
+      "sha256": "f024cd21d7c0239cf875769686a41295ba3ed5a09abb7510f5bf5f128986db2b",
+      "size_px": [2048, 1365],
+      "view": "case closed, exterior front and lid visible"
+    }
+  ],
+  "catalogue_layer": {
+    "auction_description_material": "mahogany case",
+    "auction_description_trays": "twelve removable trays with numbered sections, the top tray with index card",
+    "guard": "The photographs confirm a stacked removable-tray cabinet and a top indexed tray, but do not independently establish the catalogue's exact count of twelve trays because the stack is not disassembled in the cabinet views. Keep twelve as auction-catalogue evidence, not a fresh visual count."
+  },
+  "visual_construction_observations": {
+    "outer_case": "Plain rectangular reddish-brown wooden case, catalogued by Toovey's as mahogany. The exterior has a shallow moulded/bevelled lid edge and no visible decorative title plate, maker plaque, monogram, or ownership label in the supplied views.",
+    "double_opening": "The case has a hinged top lid and a separate hinged front panel that drops downward. In the open view both are open, exposing the top tray from above and the stacked tray edges from the front.",
+    "hardware": "Paired metal hinge hardware is visible for the upper lid and for the lower drop-front panel. The closed front face carries two pivoting hook/turn-type fasteners. Hardware shows ordinary age/patina; no maker stamp is legible in these views.",
+    "tray_stack": "A close-fitting stack of shallow, pale-wood removable trays occupies the interior. The tray wood is visually lighter than the outer case; wood species is not assigned from photographs.",
+    "top_tray": "The upper tray is specially configured: four slide positions flank a central rectangular recess that holds the printed INDEX card. The index is therefore housed as part of the tray architecture rather than merely laid loose on top of the collection.",
+    "address_inscription": "Slot numbers are written/inscribed directly on the pale wooden tray rails. The visible 1–4 numerals on the top tray match the same hand-applied numbering practice seen throughout the tray photographs up to 52.",
+    "access_logic": "The combination of a lift-up lid, drop-front panel, stacked removable trays, inscribed slot numbers, and a dedicated index recess creates a compact retrieval cabinet rather than a generic undivided storage box.",
+    "marks_absent_in_views": "No cabinet-maker, publisher, retailer, subscriber, institutional, or provenance mark is visible on the exterior lid, front face, inner lid surface, exposed front panel, or visible tray faces in these photographs. The unseen underside, back, tray reverses, and index-card reverse remain unchecked."
+  },
+  "interpretive_result": {
+    "purpose_built_for_studies_volume_I": {
+      "grade": "S",
+      "reason": "The cabinet's own wooden slot addresses run through the Studies 1–52 sequence and the specially fitted top tray incorporates the printed two-track index. The cabinet is therefore customized to this publication architecture at object level."
+    },
+    "period_or_contemporary_cabinet": {
+      "grade": "A+/strongly compatible",
+      "reason": "Construction, hardware, wear, and integration with the surviving slides are consistent with a nineteenth-century cabinet, but photographs alone do not securely date manufacture or exclude later custom construction around an older set."
+    },
+    "publisher_supplied_subscriber_cabinet": {
+      "grade": "A++ compatible but unclosed",
+      "reason": "The physical design is exactly compatible with the 1882 prospectus promise that small cabinets would be supplied for the preparations, and the integrated index/numbering is stronger than a generic later case. No publisher/cabinet-maker/subscriber mark or independently documented comparison cabinet has yet been recovered, so publisher supply is not promoted to fact."
+    }
+  },
+  "argument_upgrade": {
+    "material_point": "The address system is literally built into the furniture: numbers are on the tray rails and the index has its own fitted recess. Referential binding was therefore a cabinet-level material technology, not merely a relation inferred from printed prose.",
+    "best_sentence": "The cabinet did not merely contain the publication; it materialized its address system in wood, slots, and an index.",
+    "relation_to_repair": "Because the fixed addresses survive even where individual preparations were replaced or misassigned, the case demonstrates that publication identity could reside in the cabinet's durable retrieval architecture as well as in the individual slides."
+  },
+  "remaining_checks": [
+    "Photograph the underside and back of the cabinet for maker, retailer, owner, or accession marks.",
+    "Photograph the reverse of the printed index card and the undersides/reverses of the removable trays.",
+    "Measure the cabinet and tray dimensions and compare them with advertisements or surviving period slide cabinets.",
+    "Locate another documented Studies subscriber cabinet or a publisher/retailer advertisement showing the supplied cabinet form.",
+    "Do not infer the exact number of trays from the two cabinet views; retain 'twelve' as Toovey's catalogue wording until all trays are individually documented."
+  ]
+}
