@@ -2,24 +2,33 @@
 
 Updated: 2026-08-10
 
-The discovery phase is parked. The active mode is now **closure only**.
+The discovery phase is parked. The public indexed closure pass is now also **exhausted**: the remaining UK / narrowly linked US / already-open European edges are exact-source access problems rather than search problems.
 
 - Frozen surviving-object survey: **307 discovery nodes / 155 strict nineteenth-century nodes — CLOSED_2026-08-09**.
-- Public slide bibliography: **pass 19, 206 verified entries (88 research + 118 primary/object), 19 publication languages**. Passes 18–19 remain completed audit history; they do not define the next search frontier.
-- Further geographic expansion outside the existing UK / narrowly linked US / already-open European chains is paused. At the present project stage the repository should not become infrastructure-building for underrepresented regions merely to improve coverage.
-- Research emphasis is **closing existing object↔text↔register chains**: British microscopy first; the United States only where a British reception, exchange, commercial or surviving-object bridge is already open; continental Europe only where the chain is already in hand.
-- The GitHub collection layer functions as a **reverse index into the historical corpus**, not as a second general corpus.
+- Public slide bibliography: **pass 19, 206 verified entries (88 research + 118 primary/object), 19 publication languages**. Passes 18–19 remain completed audit history and do not generate a new geographic search frontier.
+- No new geographic infrastructure is active. The repository should not increase coverage merely to add countries, institutions or collection counts.
+- The analytical priority remains **object↔text↔register closure**. Public-web work stops when it ceases to change attribution, chronology, object identity or historical mechanism.
+- The GitHub collection layer remains a **reverse index into the historical corpus**, not a second general corpus.
 
-The expanded closure batch is now recorded in:
+The closure state is recorded in:
 
 - `data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json`
-- `docs/UK_US_EUROPE_CLOSURE_BATCH_2026-08-10.md`
-- `data/analysis/cole_studies_vol1_2_structured_reading_v1.json`
-- `data/analysis/uk_us_object_to_corpus_expansion_v1.json`
+- `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json`
 - `data/analysis/global_archive_research_priority_CURRENT.json`
+- `data/analysis/cole_studies_vol1_2_structured_reading_v1.json`
+- `data/analysis/challenger_dataset_row_harvest_v2.json`
+- `data/analysis/balfour_plate_caption_objective_harvest_v2.json`
+- `data/analysis/elcock_standrews_1884_letters_v5.json`
+- `data/analysis/naples_row383_page_verification_v3.json`
 
-The batch reviews thirteen existing relations. Ten are closed or substantially closed at the level needed for historical argument; Quekett/Oxford Cole and Minot/HEC are demoted to optional archive/control routes; Naples row 383 remains deliberately parked as an A-level candidate. Cole vols. I–II are closed at primary-source architecture level, and the surviving 52-slide Volume I set is near-S at material-counterpart level. Collins, H. L. Smith, Kitton and Pritchard no longer require broad source acquisition. Balfour's full plate-caption designation harvest is closed; only exact physical-lens identity remains. Challenger is a technical full-table ingestion gap, not a discovery problem. Elcock is reduced to two exact manuscript images.
+The v2 batch closed or substantially closed the historical architecture needed for Cole, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, Challenger at address/dataset level, Balfour at publication/designation level, and Minot/HEC as a control. A further residual pass tested the five remaining edges against current public sources and found no reason to keep broad searching.
 
-The active queue is therefore short: transcribe St Andrews `ms21974–ms21975`; ingest the Challenger XLSX in full when the binary is retrievable; search exact Balfour/Zeiss serial numbers and then only the matching surviving section series; do Norman item-level catalogue matching only if St Andrews exposes a complete object/export layer; and make one bounded Naples rows 382–384 page check.
+The remaining queue is therefore **request-only**:
 
-Do not restart global discovery merely to increase geographic coverage.
+1. St Andrews `ms21974–ms21975`: page images/transcription. The public catalogue securely records a reference to Challenger expedition samples, but also makes clear that the correspondence is principally antiquarian/medal discussion; sender, sample, station and purpose remain inside the letters.
+2. NHM Challenger: current 4,723-row resource binary. The public dataset/address architecture and named diagnostic preparation examples are already structured; the residual task is mechanical full-table ingestion.
+3. Balfour/ZEISS: archive guidance for objective engravings `573, 1295, 710, 780, 542`. ZEISS's public production lists are organized around microscope/stand dispatch records and accessories; the exact objective engravings have not closed online and must not be treated as stand serials.
+4. St Andrews Norman: complete item/export layer. The public record confirms the 1872 catalogue of 2,584 mounts and says the Norman slides remain scattered in situ, but it does not expose a usable child-item list.
+5. Naples row 383: one BHL/Internet Archive page image containing rows 382–384. If that page remains unavailable, the candidate stays parked at A-level.
+
+Do not repeat broad searches for these five targets. Resume one only when the exact requested source arrives or produces a new bounded identifier. Otherwise the useful next move is historical analysis/writing from the chains already closed.
