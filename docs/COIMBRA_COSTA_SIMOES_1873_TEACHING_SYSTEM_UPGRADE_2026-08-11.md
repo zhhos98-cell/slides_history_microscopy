@@ -1,0 +1,11 @@
+# Coimbra / Costa Simões 1873 teaching-system upgrade — 2026-08-11
+
+The Coimbra case can be promoted from an A+ comparator to **S-level primary-source pedagogical architecture**. Costa Simões's 1873 publication is securely digitized and its title explicitly binds three things into one chair-level documentary unit: the **1872–73 programme of Histology and General Physiology**, the **catalogue of microscopic preparations**, and the **catalogue of experimental-physiology apparatus**, illustrated with **92 original engravings**. The important point is structural: preparations and instruments were formally catalogued as the material infrastructure of the same course rather than surviving only as later museum categories.
+
+The publication is currently visible through the Bayerische Staatsbibliothek/Deutsche Digitale Bibliothek (shelfmark `Anat. 393 od`, 62-page extent state) and Google Books/Google Play (68-page extent state). Preserve 62/68 as separate digital-container states until pagination is compared. It does not affect identification of the 1873 publication.
+
+Coimbra's História da Ciência portal also preserves Augusto Bobone's **1902 photograph, `Sala de Histologia com microscópios`**, which gives a later dated visual state of a histology teaching room organized around microscopes. This is independent evidence for institutional material continuity at room level, while it does not identify any individual instrument as surviving from the 1873 catalogue.
+
+The useful comparison is now Tokyo versus Coimbra. Tokyo preserves overlapping internal ledgers for preparation quantities, manufacture, instruments, practical microscopy and course work, plus a surviving teaching microscope. Coimbra instead published course programme, preparation collection and apparatus together as one public catalogue architecture. Both make microscopic teaching administratively legible, through different documentary technologies.
+
+The next action is bounded: ingest the complete 1873 scan and extract the preparation and apparatus sections row by row, preserving catalogue order, numbers, makers, preparation types, apparatus functions and figure references. Only after that should current Coimbra collections be queried for exact row-level survival. No broad Portugal discovery pass is needed.
