@@ -1,53 +1,36 @@
 # Current direction
 
-Updated: 2026-08-10
+Updated: 2026-08-11
 
-The discovery phase is parked. The public indexed closure pass is now also **exhausted**: the remaining UK / narrowly linked US / already-open European edges are exact-source access problems rather than search problems.
+The project has reached **analytical saturation for discovery**. The 10–11 August upgrade sweep produced enough distinct, source-grounded object/document systems to stop broad searching. The default next move is historical synthesis, argument construction and writing.
 
 - Frozen surviving-object survey: **307 discovery nodes / 155 strict nineteenth-century nodes — CLOSED_2026-08-09**.
-- Public slide bibliography: **pass 19, 206 verified entries (88 research + 118 primary/object), 19 publication languages**. Passes 18–19 remain completed audit history and do not generate a new geographic search frontier.
-- No new geographic infrastructure is active. The repository should not increase coverage merely to add countries, institutions or collection counts.
-- The analytical priority remains **object↔text↔register closure**. Public-web work stops when it ceases to change attribution, chronology, object identity or historical mechanism.
-- The GitHub collection layer remains a **reverse index into the historical corpus**, not a second general corpus.
+- Public slide bibliography: **pass 19, 206 verified entries (88 research + 118 primary/object), 19 publication languages — PARKED**.
+- Public-web discovery queue: **empty**.
+- New geographic infrastructure: **parked**.
+- Resume research only from an exact source arrival, a user-supplied object/image, or a newly bounded identifier capable of changing attribution, chronology, object identity, custody or mechanism.
 
 ## Current authority
 
-Use `REPOSITORY_STATE.json` as the top-level authority map for the whole repository. Within the analysis layer, use `data/analysis/CURRENT_STATE.json` as the canonical machine-readable analysis-state manifest and `data/analysis/global_archive_research_priority_CURRENT.json` as the live operational router. Older versioned batch/residual files remain in the repository as audit snapshots and are explicitly mapped as superseded where appropriate.
+Use `REPOSITORY_STATE.json` as the repository-level authority map. Within analysis, use:
 
-Current public-layer authorities are:
+- `data/analysis/CURRENT_STATE.json` — canonical machine-readable analysis state
+- `data/analysis/global_archive_research_priority_CURRENT.json` — live operational router
+- `data/analysis/closure_saturation_manifest_2026-08-11.json` — closure/saturation authority for the latest upgrade sweep
+- `docs/CLOSURE_SATURATION_2026-08-11.md` — human-readable synthesis and stop rule
 
-- survey: `data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json`
-- bibliography: `bibliography/bibliography-manifest.json`
-- analysis: `data/analysis/CURRENT_STATE.json`
-- corpus publication: `data/corpus/CORPUS_MANIFEST_V6.json`
-- source registry: `sources/source-registry-manifest.json`
-- bounded harvest evidence: `data/evidence/targeted_deep_4/manifest.json`
+Older versioned files remain audit snapshots. They are evidence history, not active queues.
 
-Current target-specific authority files include:
+## What is now strong enough to write from
 
-- `data/analysis/naples_row383_object_catalogue_closure_v4.json`
-- `data/analysis/cole_studies_vol1_2_structured_reading_v1.json`
-- `data/analysis/challenger_dataset_row_harvest_v2.json`
-- `data/analysis/balfour_plate_caption_objective_harvest_v2.json`
-- `data/analysis/elcock_standrews_1884_letters_v5.json`
-- `data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json`
+The useful result is a set of different historical mechanisms rather than a larger collection census.
 
-The earlier closure-batch and residual snapshots are retained for audit but are not live queues:
+**Cole** gives publication-address persistence: the numbered cabinet and index can preserve the identity of a material publication even when individual preparations are replaced or misplaced. **Quekett Microscopical Club** gives cabinet circulation and named reference authority. **Hunterian/John Thomas Quekett** gives institutional purchase, teaching, printed catalogue and surviving alphanumeric addresses. **Elcock** gives a workshop-to-market chain from raw material and preparation operations to standardized type slides and dealer networks. **Oxford RMS** gives society cabinet to museum-database re-addressing. **Cajal** gives successive institutional address translation. **Grunow** gives a single sample number crossing raw material, slide variants, microscope coordinates, drawings, annotated books and remaking instructions. **Pacini** gives object identity through remounting onto new glass. **Van Heurck** gives estate dispersal and disciplinary re-addressing. **Grayson** gives optical-reference values plus custody inscriptions. **Tokyo** and **Coimbra** give two different administrative forms of microscopy teaching. **La Plata** gives numbered distributed reference series with continuing scientific afterlife. **Gibson** gives a mixed cabinet retaining supplier, local-society and expedition histories. **Tiegs** gives delayed registration of objects already in use. **Naples** gives a research-station preparation becoming a numbered commodity and entering dealer networks. **Balfour** shows that publication evidence can delimit historically possible instrument use more tightly than later museum grouping.
 
-- `data/analysis/uk_us_europe_closure_batch_2026-08-10_v1.json`
-- `data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json`
-- `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json`
-- `data/analysis/four_target_execution_status_2026-08-10.json`
+The first-order claim now has enough empirical breadth: microscope preparations became durable knowledge objects through **systems of addresses** — numbered slots, labels, catalogues, cabinets, registers, publication references, microscope coordinates and later museum identifiers. These systems could preserve, translate or repair identity across replacement, remounting, dispersal and institutional recataloguing. Material continuity was only one form of continuity.
 
-The closed architecture now covers Cole, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, Challenger at address/dataset level, Balfour at publication/designation level, Minot/HEC as a control, and Naples catalogue offering 383 to surviving St Andrews `BPM/1/T8/6`.
+## Request-only residuals
 
-For Naples 383, the locally held primary catalogue OCR reads `382. Delphinus phocaena L. Milz / 383. -- Penis / 384. -- Hode / 385. -- Niere`. By ditto continuation, offering **383 = Delphinus phocaena L., Penis**. The St Andrews slide independently carries Stazione Zoologica Napoli labels, `Delphinus phocaena`, and the public right-label transcription `Panis 383`. The one-letter `Panis` / `Penis` discrepancy is preserved as a source-level transcription issue; catalogue-offering identity does not establish manufacturing date, preparator, price, or identity with a particular shipment copy.
+The remaining high-value edges are exact-source problems, not discovery problems: St Andrews Elcock letters; the current NHM Challenger binary; ZEISS dispatch/accessory evidence for Balfour objective engravings; the Norman item/export layer; selected Oxford and Hunterian catalogue-to-object checks; Naples dealer/account pages; Tokyo microscope-register pages; La Plata acquisition records; and the Bourgogne accession file. None is required before writing from the closed chains.
 
-## Remaining request-only queue
-
-1. St Andrews `ms21974–ms21975`: page images/transcription. The public catalogue securely records a reference to Challenger expedition samples, but the correspondence is principally antiquarian/medal discussion; sender, sample, station and purpose remain inside the letters.
-2. NHM Challenger: current 4,723-row resource binary. The public dataset/address architecture and named diagnostic preparation examples are already structured; the residual task is mechanical full-table ingestion.
-3. Balfour/ZEISS: archive guidance for objective engravings `573, 1295, 710, 780, 542`. ZEISS's public production lists are organized around microscope/stand dispatch records and accessories; the objective engravings must not be treated as stand serials without archive evidence.
-4. St Andrews Norman: complete item/export layer. The public record confirms the 1872 catalogue of 2,584 mounts and says the Norman slides remain scattered in situ, but it does not expose a usable child-item list.
-
-Do not repeat broad searches for these four targets. Resume one only when the exact requested source arrives or produces a new bounded identifier. Otherwise the useful next move is historical analysis/writing from the chains already closed.
+Do not reopen broad searches for these targets. If one of the exact sources arrives, treat it as a bounded provenance/item-identity update and then return to synthesis.
