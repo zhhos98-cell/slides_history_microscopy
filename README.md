@@ -69,6 +69,7 @@ Quantity namespaces also remain separate. A slide count, microscopic-preparation
 - `docs/BIBLIOGRAPHY_PASS17_IBERIA_2026-08-10.md` — pass-17 Iberia slide bibliography audit and exclusions.
 - `docs/BIBLIOGRAPHY_PASS18_SOUTH_ASIA_SINGAPORE_SOUTHERN_AFRICA_2026-08-10.md` — pass-18 South Asia, Singapore and southern-Africa slide bibliography audit and exclusions.
 - `docs/BIBLIOGRAPHY_PASS19_WITS_VANDERHORST_MOSSMAN_2026-08-10.md` — pass-19 Wits Van der Horst → Mossman collection bridge.
+- `docs/UK_US_EUROPE_CLOSURE_RESIDUALS_2026-08-10_V3.md` — terminal public-web closure audit and exact-source request queue.
 - `scripts/prepare_survey_inputs.py` — merges modular inputs while applying frozen alias handling.
 - `scripts/build_frozen_strict_membership.py` — rebuilds and asserts the immutable 155-entry membership.
 - `scripts/export_frozen_catalogue.py` — exports the sealed 155-row catalogue and manifest.
@@ -109,7 +110,13 @@ Pass 19 follows one unusually strong collection bridge instead of broad geograph
 
 A. M. Carter's 2018 study of C. J. van der Horst's elephant-shrew research supplies the afterlife bridge: Carter explicitly acknowledges access to **Van der Horst slides curated as part of the Harland W. Mossman Embryological Collection at the University of Wisconsin Zoological Museum**. UW independently identifies the Mossman collection as a repository of microscope slides and preserved anatomical material, especially vertebrate reproductive systems. The public sources do not give the Van der Horst subset size, transfer date, transfer agent, accession series, or whether the Wisconsin material consists of originals or duplicate preparations; those remain open rather than being reconstructed by inference. Full notes are in `docs/BIBLIOGRAPHY_PASS19_WITS_VANDERHORST_MOSSMAN_2026-08-10.md`.
 
-Current search frontier: **Wits card catalogue/database and UW Mossman provenance records for the Van der Horst subset; named medical-school histology/pathology slide registers in Kolkata, Chennai, Mumbai and Sri Lanka; South African pathology registers that can connect UCT or Onderstepoort sets to dates, preparators or accession series; and residual Singapore/Hong Kong physical glass-slide collections only where a dedicated object/register layer can be recovered.** Geological thin sections remain held out pending an explicit scope decision.
+**Bibliographic expansion is now parked.** Passes 18–19 remain part of the audit trail, but they do not define an active geographic frontier. Current research returns to already-open UK / narrowly linked US / European chains and stops public-web searching once only exact source access remains.
+
+## UK / US / Europe closure state — 2026-08-10
+
+The public indexed closure pass is exhausted. Cole vols. I–II, Collins, H. L. Smith, Kitton, Pritchard, Norman at collection level, the Challenger address/dataset architecture, Balfour's publication/designation layer, and Minot/HEC as a control are closed or substantially closed at the level required for historical argument. The remaining five edges are **request-only**, recorded in `data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json` and `data/analysis/global_archive_research_priority_CURRENT.json`.
+
+Those residuals are: St Andrews `ms21974–ms21975` page images; the current NHM Challenger 4,723-row resource binary; ZEISS archive guidance for Balfour objective engravings `573, 1295, 710, 780, 542`; a complete St Andrews Norman item/export layer; and one BHL/Internet Archive page image containing Naples catalogue rows 382–384. Do not repeat broad discovery searches for them. Resume a chain only when the exact source arrives or supplies a new bounded identifier.
 
 ## Object-to-text corpus expansion
 
