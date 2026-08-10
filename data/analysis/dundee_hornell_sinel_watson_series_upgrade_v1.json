@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0-dundee-hornell-sinel-watson-series-upgrade",
+  "generated": "2026-08-10",
+  "title": "Dundee Victorian microscope slides: Hornell & Sinel twenty-slide marine series and Watson & Sons foraminifera arrangement",
+  "status": "S_INSTITUTIONAL_OBJECT_SERIES_SURVIVAL__SUBSCRIPTION_IDENTITY_OPEN",
+  "builds_on": [
+    "data/analysis/surviving_commercial_slide_cabinets_crosswalk_v1.json",
+    "sources/source-registry-08.json#GB-DUNDEE-VICTORIAN-MICROSLIDES"
+  ],
+  "primary_institutional_source": {
+    "institution": "University of Dundee Museum Collections — Zoology Museum",
+    "url": "https://app.dundee.ac.uk/museum/collections/zoology/collections/index.html",
+    "source_status": "institutional collection page with accession identifiers and object images"
+  },
+  "principal_upgrade": {
+    "previous_state": "A-level published maker examples; exact set architecture insufficiently separated from later Hornell subscription literature",
+    "new_state": "Dundee directly identifies DUNUC2986 as part of a series of 20 marine-zoological microscope slides prepared by Hornell & Sinel. This closes institutional survival of a maker-attributed twenty-slide series at S level. The same page identifies DUNUC2999 as a Watson & Sons arrangement of 16 named Foraminiferans, providing a second direct commercial-object endpoint.",
+    "grade": {
+      "hornell_sinel_twenty_slide_series_survival": "S at institutional object/series-description level",
+      "hornell_sinel_series_completeness": "OPEN — Dundee says 'part of a series', not that all twenty survive",
+      "identity_with_1893_Microscopical_Studies_in_Marine_Zoology_subscription": "OPEN / currently guarded",
+      "watson_foraminifera_object_survival": "S object-level maker attribution",
+      "watson_catalogue_row_or_named_series_identity": "OPEN"
+    }
+  },
+  "dundee_objects": [
+    {
+      "accession": "DUNUC2986",
+      "museum_heading": "MARINE SLIDES",
+      "museum_description": "Part of a series of 20 marine zoological microscopic slides prepared by Hornell & Sinel",
+      "secure_claims": [
+        "a Hornell & Sinel maker-attributed marine-zoological series existed",
+        "the institutional description gives the series extent as twenty",
+        "at least part of that series survives at Dundee under DUNUC2986"
+      ],
+      "open_fields": [
+        "number of the twenty currently surviving at Dundee",
+        "individual subject labels",
+        "series numbers on the glass slides",
+        "date/acquisition route into University College Dundee",
+        "whether these objects carry a 'Micro. Studies' or equivalent subscription label"
+      ]
+    },
+    {
+      "accession": "DUNUC2999",
+      "museum_heading": "PROTOZOA",
+      "museum_description": "Two Victorian arrangements of Protozoa; one Radiolarian Polyscystina and one of 16 named Foraminiferans; the Foraminiferans slide is prepared by Watsons & Sons",
+      "secure_claims": [
+        "surviving Watson & Sons object at Dundee",
+        "arrangement contains sixteen named foraminiferans",
+        "institutional maker attribution is explicit"
+      ],
+      "open_fields": [
+        "verbatim slide label",
+        "Watson series/catalogue number",
+        "date",
+        "whether the sixteen taxa correspond to a listed commercial arrangement in a Watson catalogue"
+      ]
+    }
+  ],
+  "subscription_comparison_guard": {
+    "secondary_research_locator": {
+      "author": "Brian Stevenson",
+      "page": "Sinel and Hornell",
+      "url": "https://www.microscopist.net/SinelHornell.html",
+      "reported_primary_anchor": "Natural Science, November 1893 advertisement"
+    },
+    "reported_1893_scheme": "The secondary research page reports that Sinel & Hornell's Microscopical Studies in Marine Zoology subscription began in November 1893 and offered fourteen microscope slides plus illustrated descriptive pamphlets for a prepaid annual subscription of 21 shillings.",
+    "count_problem": "Dundee's institutional series extent is twenty; the reported 1893 subscription extent is fourteen. These counts do not presently match.",
+    "interpretive_consequence": "Do not silently identify DUNUC2986 with Microscopical Studies in Marine Zoology. The Dundee twenty-slide set could represent a distinct commercial series, an expanded/later configuration, a composite set, or a museum reconstruction of series extent. Only slide labels, numbering, accompanying pamphlets, or a contemporary twenty-item list can decide.",
+    "primary_source_locator": "Natural Science volume 3 (1893) is available in the Biodiversity Heritage Library and Google Books; exact advertisement page/image remains to be extracted in a later bounded source pass."
+  },
+  "historical_business_context": {
+    "secure_or_secondary_context": [
+      "Sinel & Hornell operated a marine biological supply business in Jersey during the early 1890s and produced prepared slides.",
+      "A 1893 subscription scheme titled Microscopical Studies in Marine Zoology is documented in contemporary-advertisement research and later surviving publication history.",
+      "The Journal of Marine Zoology and Microscopy was published by the Jersey Biological Station in the 1890s; digitized volumes survive in the Biodiversity Heritage Library.",
+      "James Hornell's 1901 Microscopical Studies in Marine Zoology survives as a 124-page publication."
+    ],
+    "guard": "Business/publication context supports a plausible textual counterpart for Dundee's objects but does not itself identify the DUNUC2986 series."
+  },
+  "analytical_payoff": {
+    "series_form": "Dundee supplies a compact surviving example of marine zoology distributed as a numbered/finite maker series, separate from the much larger mixed Gibson cabinet and from Cole's publisher-designed serial cabinet.",
+    "maker_vs_publication_problem": "The current twenty-versus-fourteen discrepancy is analytically useful: maker series, subscription publication and museum series description may represent different address systems applied to related glass objects.",
+    "watson_comparator": "DUNUC2999 gives a single arrangement slide whose epistemic unit contains sixteen named specimens; this differs from one-specimen-per-slide series and can test how commercial catalogues valued arrangement, naming and multiplicity."
+  },
+  "next_bounded_actions": [
+    {
+      "rank": 1,
+      "action": "Obtain/read the original Dundee image and full object record for DUNUC2986, including every visible slide label and number.",
+      "payoff": "Could identify the twenty-slide series against contemporary advertisements or the Microscopical Studies subscription and determine surviving completeness."
+    },
+    {
+      "rank": 2,
+      "action": "Extract the November 1893 Natural Science advertisement from the digitized primary volume and transcribe its exact subscription terms.",
+      "payoff": "Would replace the current secondary fourteen-slide report with primary evidence and define the comparison precisely."
+    },
+    {
+      "rank": 3,
+      "action": "Read DUNUC2999 label/image and cross-search exact wording against Watson catalogues already identified in the project.",
+      "payoff": "Could close a Watson catalogue-to-surviving arrangement object."
+    }
+  ],
+  "stop_rule": "Do not broaden into a Hornell biography or general Jersey search. Continue only with DUNUC2986/2999 labels, the exact 1893 advertisement, or a contemporary item list capable of resolving the twenty-versus-fourteen series identity."
+}
