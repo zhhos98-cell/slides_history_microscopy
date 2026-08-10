@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0-utokyo-anatomy-microscopy-upgrade",
+  "generated": "2026-08-11",
+  "title": "University of Tokyo Anatomy Department: surviving microscope object plus 1873–1887 preparation, instrument and practical-microscopy archive",
+  "status": "S_ARCHIVE_SYSTEM_PLUS_S_SURVIVING_INSTRUMENT_ENDPOINT__EXACT_OBJECT_TO_LEDGER_CROSSWALK_OPEN",
+  "builds_on": [
+    "sources/source-registry-06.json#JP-UTOKYO-ANATOMY-MICROSCOPY-RECORDS",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "A bounded nineteenth-century Anatomy Department paper trail was known from the Medical Library list: preparation quantities, microscope/instrument indexes, manufactured histology/embryology items, practical microscopy, course diary and microscope records.",
+    "new_state": "The University Museum independently preserves and publicly documents the Medical Faculty's 'No. 1' optical microscope, marked '壹番' and 'T.DENNISROCK & Co LONDON', imported from Britain in the early Meiji period and explicitly used for demonstration during histology practical teaching. This creates a surviving instrument endpoint for the same institutional microscopy system represented by the Medical Library records.",
+    "grade": {
+      "archive_architecture": "S",
+      "surviving_microscope_identity": "S",
+      "integrated_anatomy_histology_microscopy_system": "A++/S-candidate",
+      "exact_microscope_to_archive_entry": "OPEN"
+    }
+  },
+  "medical_library_archive": {
+    "official_source": "https://www.lib.m.u-tokyo.ac.jp/lib/collec-kaibou.htm",
+    "collection_description": "解剖学教室関係文書 / Anatomy Department records",
+    "records": [
+      {"call_number":"110","title":"組織学クールス日記","date":"1882–1884","quantity":"1 volume","function":"histology course diary"},
+      {"call_number":"118","title":"解剖用プレパラート品數簿 第弐号","date":"1878–1882","quantity":"1 volume","function":"quantity ledger for anatomical preparations"},
+      {"call_number":"119","title":"顕微鏡及器械目次 乙","date":"1879–1881","quantity":"1 volume","function":"microscope and instrument index"},
+      {"call_number":"120","title":"組織学及胎生学的製造品目録","date":"1880–1883","quantity":"3 parts in 1 volume","function":"catalogue of manufactured histological and embryological items"},
+      {"call_number":"121","title":"實地顕微鏡雑録","date":"1882–1884","quantity":"1 volume","function":"practical microscopy miscellanea, by 顕微鏡係"},
+      {"call_number":"122","title":"顕微鏡記録","date":"1873–1884","quantity":"1 volume","function":"microscope records, 解剖局"},
+      {"call_number":"123","title":"顕微鏡記録","date":"1883","quantity":"1 volume","function":"microscope record, 解剖学教塲"},
+      {"call_number":"127","title":"器械及器具調査簿","date":"1887","quantity":"1 volume","function":"instrument and apparatus survey book"}
+    ],
+    "system_reading": "These records are not a generic departmental archive. Their dates overlap and their administrative functions divide microscopy into preparation quantity, manufactured histology/embryology objects, instrument inventory, practical microscopy and course chronology. Together they form an unusually explicit institutional address system for making, storing and using microscopic preparations."
+  },
+  "surviving_object": {
+    "official_source": "https://umdb.um.u-tokyo.ac.jp/DPastExh/Publish_db/1997UT120/chapter1/05.html",
+    "museum_source_detail": "https://umdb.um.u-tokyo.ac.jp/DKankoub/Publish_db/1997Archaeology/",
+    "object": "東京帝国大学医学部 光学顕微鏡 / Medical Faculty optical microscope",
+    "historical_designation": "医学部一号機 / Medical Faculty No. 1 microscope",
+    "visible_or_recorded_marks": ["壹番", "T.DENNISROCK & Co LONDON"],
+    "date_state": "early Meiji period; precise acquisition date not supplied on the public exhibition record",
+    "provenance": "Tokyo Imperial University Medical Faculty; current University Museum medical collections",
+    "use_statement": "The University Museum states that the instrument was used for demonstrations during histology practical teaching.",
+    "material_significance": "The object converts the Tokyo case from archive-only potential into a surviving instrument-plus-record system."
+  },
+  "historical_context": {
+    "official_university_exhibition_statement": "The Meiji medical curriculum introduced anatomy and histology (microscopic anatomy), with both taught in the first year of the medical course.",
+    "separate_zoology_comparator": "University history also documents that in the Zoology Department C. O. Whitman introduced Zeiss microscopes and a microtome around 1879–1880 and taught sectioning, staining and microscopic observation. This is a separate departmental history and should not be collapsed into the Medical Faculty Anatomy archive."
+  },
+  "research_mechanism": {
+    "chain": "preparation quantity ledger -> manufactured histology/embryology catalogue -> microscope/instrument index -> microscope records -> practical microscopy -> course diary -> surviving Medical Faculty microscope",
+    "strong_claim": "Tokyo preserves both the administrative decomposition of microscopic practice and at least one instrument from the teaching system that practice served.",
+    "best_test": "Whether the '壹番' / Medical Faculty No. 1 microscope can be found explicitly in call nos. 119, 122 or 123, with acquisition, location, user or practical-use details."
+  },
+  "exact_source_actions": [
+    {
+      "rank": 1,
+      "request": "Page images of call nos. 119, 122 and 123, beginning with index/opening pages and all entries for microscope no. 1 / 壹番 / Dennisrock or London-made microscopes.",
+      "upgrade_if_found": "Would close surviving object -> historical instrument register at S level."
+    },
+    {
+      "rank": 2,
+      "request": "Page images of nos. 118, 120 and 121 preserving complete internal order.",
+      "upgrade_if_found": "Would reconstruct preparation manufacture, quantities and practical microscopy as an operational chain rather than merely a list of archival genres."
+    },
+    {
+      "rank": 3,
+      "request": "Histology course diary no. 110, especially dates overlapping practical microscopy entries in no. 121.",
+      "upgrade_if_found": "Could bind preparation/instrument work to teaching chronology and named exercises."
+    }
+  ],
+  "guards": [
+    "Do not claim that the surviving Medical Faculty No. 1 microscope is already identified in call nos. 119/122/123; the public archive list gives titles and dates, not entry contents.",
+    "Do not use the University Museum's 'early Meiji' wording as a precise acquisition year.",
+    "Do not merge the Medical Faculty Anatomy/Histology system with the separate Zoology Department Whitman/Zeiss/microtome history without documentary linkage.",
+    "No broad Japan microscopy search is required before the bounded Anatomy Department manuscripts are read."
+  ],
+  "sources": [
+    "https://www.lib.m.u-tokyo.ac.jp/lib/collec-kaibou.htm",
+    "https://www.lib.m.u-tokyo.ac.jp/lib/collec-list.html",
+    "https://umdb.um.u-tokyo.ac.jp/DPastExh/Publish_db/1997UT120/chapter1/05.html",
+    "https://umdb.um.u-tokyo.ac.jp/DKankoub/Publish_db/1997Archaeology/03/30300.html"
+  ]
+}
