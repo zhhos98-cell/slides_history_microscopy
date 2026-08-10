@@ -1,0 +1,11 @@
+# Kölliker / Würzburg histology survival upgrade — 2026-08-11
+
+Würzburg can now be raised above the previous A+ target state. The Institute for the History of Medicine explicitly says that the Anatomy's histology collection survives and that its oldest sections are still by Albert von Kölliker. This provides an institutional surviving-object endpoint rather than only a biographical association with histology.
+
+The university's historical pages independently connect Kölliker to practical microscopy teaching. The Würzburg account of Kölliker and Virchow identifies the practical microscopy course as part of their transformation of medical teaching. A separate University of Würzburg history of the 1883 Anatomical Institute states that Kölliker participated closely in the building design and wanted large, high windows so the laboratories would receive as much light as possible for microscopy. The surviving preparations can therefore be placed inside an institutional ecology that joined slide/preparation collections, practical microscopy teaching, and purpose-designed laboratory space.
+
+The correct grade is now S-level for collection survival plus teaching architecture. Item-level closure remains open because the public material does not provide accession numbers, verbatim labels, subjects, dates, mount formats, or legacy catalogue references for individual Kölliker sections. The broad Anatomical Collection also contains bones, wet preparations and later plastinated material, so only the explicitly identified oldest histological sections should carry the Kölliker attribution.
+
+A useful local afterlife comparator is the University of Würzburg Biozentrum's surviving Theodor Boveri slide material: a handwritten folder holds twenty *Ascaris* microscope slides and the objects remain microscopically examinable. This belongs to a later generation and should remain analytically separate from Kölliker.
+
+Next exact request: a small inventory/photo set of the oldest Kölliker sections, preserving current accession, full label, subject/species, date, mounting format, storage order and historical catalogue number if present. Two or three such objects could then be crosswalked against Kölliker's histology publications and course documentation.
