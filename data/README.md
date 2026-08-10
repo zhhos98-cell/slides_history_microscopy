@@ -18,10 +18,16 @@ The modular CSV batches remain because they are the evidentiary/audit trail from
 
 Interpretive and routing outputs built over the frozen survey. These files may classify, crosswalk, prioritise or contextualise frozen nodes, but they do not rewrite source wording or membership.
 
+`analysis/CURRENT_STATE.json` is the canonical pointer for the present analytical state. Because the repository deliberately preserves versioned/dataset snapshots, consult this manifest before treating a dated analysis file as current. It records the live authority files, supersession relationships, current count invariants and the exact-source request queue.
+
 Current modules include:
 
 - `slide_155_analysis_v1/` — derived classifications over the frozen 155;
-- `slide_155_corpus_expansion_v1/` — object-to-text routing, verified bridges, source targets, Naples catalogue parsing and circulation crosswalks.
+- `slide_155_corpus_expansion_v1/` — object-to-text routing, verified bridges, source targets, Naples catalogue parsing and circulation crosswalks;
+- target-specific closure files for Cole, Challenger, Balfour, Elcock and Naples;
+- `global_archive_research_priority_CURRENT.json` — current operational router.
+
+Current operational state: public-web discovery queue = **0**; exact-source request queue = **4**. Historical versioned files remain for audit and may contain superseded intermediate conclusions.
 
 ## `evidence/` — normalised harvest evidence
 
@@ -39,15 +45,28 @@ When two layers appear to conflict, use this order:
 
 1. original/canonical source master for source text and raw record payloads;
 2. frozen survey source row plus `07AR` closure contract for object-census membership;
-3. versioned evidence/analysis file for derived historical relations or classifications;
-4. `corpus/` compact registry and GitHub Pages as navigation/presentation layers.
+3. `analysis/CURRENT_STATE.json` to identify the currently authoritative derived file;
+4. the named current versioned evidence/analysis file for the derived historical relation or classification;
+5. older versioned analytical snapshots for audit/history only;
+6. `corpus/` compact registry and GitHub Pages as navigation/presentation layers.
 
-A Pages card, compact registry row or analytical label never silently overrides the source layer beneath it.
+A Pages card, compact registry row, old routing snapshot or analytical label never silently overrides the source layer beneath it.
 
 ## Quantity discipline
 
 Do not combine slide counts, preparation counts, specimen counts, catalogue offerings, serial positions, cabinet capacities, database rows, images or mixed-period aggregates unless a source explicitly establishes that they share a quantity namespace.
 
+Important current examples:
+
+- 307 discovery nodes ≠ 155 strict nineteenth-century nodes;
+- 206 bibliography records ≠ physical objects;
+- 423 Naples catalogue offerings ≠ surviving slides;
+- 4,723 Challenger dataset rows ≠ 4,713 physical containers/objects.
+
 ## Regeneration rule
 
 Generated runtime directories (`outputs/`, `data/normalized/`, local artifacts and caches) are ignored by Git. A durable result enters the repository only when it has been reviewed and placed into a versioned survey, evidence, analysis or corpus layer.
+
+## Cleanup rule
+
+Do not delete versioned analytical files simply because a later pass supersedes them. They document negative checks, decision states and the path by which a relation was closed. Cleaning means making authority and supersession explicit, removing stale routing from current manifests, and preserving quantity namespaces—not erasing the audit trail.
