@@ -119,13 +119,9 @@ def validate_bibliography() -> None:
 
     duplicate_dois = {doi: sorted(set(ids)) for doi, ids in doi_to_ids.items() if len(set(ids)) > 1}
     duplicate_urls = {url: sorted(set(ids)) for url, ids in url_to_ids.items() if len(set(ids)) > 1}
-    if duplicate_dois:
-        print(f"  NOTE bibliography repeated DOI routes: {len(duplicate_dois)}")
-        for doi, ids in sorted(duplicate_dois.items()):
-            labels = " | ".join(f"{ident} :: {row_by_id[ident]['title']}" for ident in ids)
-            print(f"    DOI {doi} => {labels}")
+    assert not duplicate_dois, f"repeated DOI routes must be semantically resolved before export: {duplicate_dois}"
     if duplicate_urls:
-        print(f"  NOTE bibliography repeated URLs: {len(duplicate_urls)}")
+        print(f"  NOTE bibliography repeated non-DOI URLs: {len(duplicate_urls)}")
         for url, ids in sorted(duplicate_urls.items()):
             labels = " | ".join(f"{ident} :: {row_by_id[ident]['title']}" for ident in ids)
             print(f"    URL {url} => {labels}")
@@ -168,38 +164,52 @@ def validate_source_registry() -> None:
     manifest = load_json("sources/source-registry-manifest.json")
     chunks = manifest["chunks"]
     seen: set[str] = set()
-    record_by_id: dict[str, dict] = {}
-    url_to_ids: dict[str, list[str]] = defaultdict(list)
-    record_count = 0
+    records: list[dict] = []
     allowed_relations = set(manifest["relation_values"])
 
     for name in chunks:
         assert_path(f"sources/{name}")
         payload = load_json(f"sources/{name}")
-        records = payload.get("records")
-        assert isinstance(records, list), f"source registry chunk {name} has no records list"
-        for record in records:
-            record_count += 1
+        chunk_records = payload.get("records")
+        assert isinstance(chunk_records, list), f"source registry chunk {name} has no records list"
+        for record in chunk_records:
             ident = (record.get("id") or "").strip()
             assert ident and ident not in seen, f"duplicate/blank source-registry id: {ident!r}"
             seen.add(ident)
-            record_by_id[ident] = record
             for required in ["collection", "type", "relation", "url"]:
                 assert record.get(required), f"blank source-registry {required}: {ident}"
             assert record["relation"] in allowed_relations, f"invalid source relation {record['relation']!r}: {ident}"
-            url_to_ids[record["url"]].append(ident)
-            if record.get("secondary_url"):
-                url_to_ids[record["secondary_url"]].append(ident)
+            records.append(record)
 
-    assert record_count > 0
-    assert_path("sources/README.md")
-    duplicate_urls = {url: sorted(set(ids)) for url, ids in url_to_ids.items() if len(set(ids)) > 1}
+    counts = manifest["counts"]
+    superseded = manifest.get("superseded_ids", {})
+    assert len(records) == counts["raw_records_across_chunks"] == 87
+    assert len(superseded) == counts["superseded_duplicate_route_ids"] == 3
+    for old_id, meta in superseded.items():
+        assert old_id in seen, f"superseded source id missing: {old_id}"
+        assert meta["canonical_id"] in seen, f"canonical source id missing: {meta['canonical_id']}"
+        assert old_id != meta["canonical_id"]
+
+    canonical_records = [record for record in records if record["id"] not in superseded]
+    assert len(canonical_records) == counts["canonical_records"] == 84
+
+    record_by_id = {record["id"]: record for record in canonical_records}
+    url_to_uses: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    for record in canonical_records:
+        url_to_uses[record["url"]].append((record["id"], "primary"))
+        if record.get("secondary_url"):
+            url_to_uses[record["secondary_url"]].append((record["id"], "secondary"))
+
+    duplicate_urls = {url: uses for url, uses in url_to_uses.items() if len({ident for ident, _ in uses}) > 1}
+    retained = {item["url"] for item in manifest.get("retained_shared_url_relations", [])}
+    assert set(duplicate_urls) == retained, f"unclassified canonical source-registry URL reuse: {set(duplicate_urls) ^ retained}"
     if duplicate_urls:
-        print(f"  NOTE source-registry repeated URLs: {len(duplicate_urls)}")
-        for url, ids in sorted(duplicate_urls.items()):
-            labels = " | ".join(f"{ident} :: {record_by_id[ident]['collection']}" for ident in ids)
+        print(f"  NOTE canonical source-registry shared URLs: {len(duplicate_urls)}")
+        for url, uses in sorted(duplicate_urls.items()):
+            labels = " | ".join(f"{ident} [{role}] :: {record_by_id[ident]['collection']}" for ident, role in uses)
             print(f"    URL {url} => {labels}")
-    print(f"  checked {record_count} source-registry records")
+    print(f"  checked {len(records)} raw source-registry records / {len(canonical_records)} canonical / {len(superseded)} superseded duplicates")
+    assert_path("sources/README.md")
 
 
 def validate_corpus_publication() -> None:
@@ -224,15 +234,19 @@ def validate_corpus_publication() -> None:
 
 def validate_current_presentation_links() -> None:
     index = (ROOT / "index.html").read_text(encoding="utf-8")
-    sources = (ROOT / "sources/index.html").read_text(encoding="utf-8")
+    sources_index = (ROOT / "sources/index.html").read_text(encoding="utf-8")
+    sources_js = (ROOT / "sources/sources.js").read_text(encoding="utf-8")
     pages = (ROOT / "docs/PAGES.md").read_text(encoding="utf-8")
     version = (ROOT / "pages-version.txt").read_text(encoding="utf-8")
 
     assert "data/corpus/CORPUS_MANIFEST_V6.json" in index
     assert "data/corpus/CORPUS_MANIFEST_V5.json" not in index
     assert 'href="bibliography/bibliography.csv"' not in index
-    assert "../data/corpus/CORPUS_MANIFEST_V6.json" in sources
-    assert "../data/corpus/CORPUS_MANIFEST_V5.json" not in sources
+    assert "../data/corpus/CORPUS_MANIFEST_V6.json" in sources_index
+    assert "../data/corpus/CORPUS_MANIFEST_V5.json" not in sources_index
+    assert "source-registry-manifest.json" in sources_js
+    assert "const sourceFiles=['source-registry.json','source-registry-02.json','source-registry-03.json']" not in sources_js
+    assert "superseded_ids" in sources_js
     assert "CORPUS_MANIFEST_V6.json" in pages
     assert "research-outputs: 41" in version
     assert "corpus-manifest: data/corpus/CORPUS_MANIFEST_V6.json" in version
