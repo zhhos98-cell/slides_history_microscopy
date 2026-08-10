@@ -1,0 +1,55 @@
+{
+  "schema_version": "2.0.0-balfour-optics-composite-set-correction",
+  "generated": "2026-08-11",
+  "title": "Francis Maitland Balfour optics: publication-use closure plus posthumous accretion guard",
+  "builds_on": "data/analysis/balfour_objective_publication_crosswalk_v1.json",
+  "status": "S_DESIGNATION_LEVEL_USE__COMPOSITE_CURRENT_SET__EXACT_LENS_ID_OPEN",
+  "surviving_group": {
+    "repository": "Whipple Museum of the History of Science",
+    "accession": "L2021.IN049.4",
+    "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15618/",
+    "documented_provenance": "On loan from the University of Cambridge Department of Zoology; described as having belonged to Francis Maitland Balfour.",
+    "historical_box": "Wooden box engraved F. M. BALFOUR / MORPHOLOGICAL LABORATORY / 1882",
+    "relevant_object_classes": ["Zeiss aa", "Zeiss a", "Zeiss A", "Zeiss B", "Zeiss C/c", "Zeiss E", "Zeiss J", "Gundlach 2-inch", "Zeiss 3 mm homogeneous-immersion apochromat"]
+  },
+  "publication_bridge": {
+    "primary_text": "Balfour's published plate explanations repeatedly specify Zeiss objective designations and oculars for embryological sections.",
+    "examples": [
+      "Plate 11: repeated Zeiss C, ocular 1 uses for Pristiurus, Scyllium and Torpedo sections",
+      "Plate 11 and later captions: Zeiss A, ocular 1",
+      "Plate 21 and other captions: Zeiss B, ocular 2",
+      "other plates: Zeiss aa, A, C, DD, E and immersion designations"
+    ],
+    "result": "The surviving A/B/C/aa classes overlap directly with objective classes named in Balfour's publication captions. This closes Balfour's working optical repertoire at designation level, while leaving exact physical-lens identity open where serial numbers are absent from print.",
+    "grade": "S for designation-level use; A for assigning one surviving numbered lens to one particular figure"
+  },
+  "critical_new_correction": {
+    "object": "Carl Zeiss 3 mm homogeneous-immersion apochromat, aperture 1.40, engraved 542",
+    "museum_grouping": "currently included within L2021.IN049.4",
+    "chronology_conflict": "Balfour died in July 1882, while ZEISS dates its first apochromatic microscope objective to 1886.",
+    "source": "ZEISS official microscopy history / Ernst Abbe chronology",
+    "result": "This apochromat cannot have been used by Balfour. Its presence demonstrates that the current grouped object is composite or has acquired at least one posthumous addition. The accession-level description must not be projected uniformly onto every component.",
+    "grade": "S chronological exclusion"
+  },
+  "microtome_bridge": {
+    "repository": "Whipple Museum",
+    "accession": "6766",
+    "object": "Rudolf Jung sliding microtome no. 196, 1870s",
+    "url": "https://collections.whipplemuseum.cam.ac.uk/objects/15647/",
+    "departmental_provenance": "University of Cambridge Department of Zoology",
+    "text_bridge": "Whipple identifies this sliding type with the microtome described by Foster and Balfour in Elements of Embryology as the one 'we are most accustomed to'.",
+    "claim_level": "S for apparatus-type familiarity in Balfour's working milieu; exact instrument-to-slide attribution remains open"
+  },
+  "revised_interpretation": "The Balfour case is strongest when treated as a layered production archive rather than a single intact personal instrument set. Publication captions securely document objective classes in use; the Department preserves relevant microtomy apparatus and serial sections; the present optics group also contains at least one demonstrably posthumous component. This makes collection formation itself part of the evidence.",
+  "guards": [
+    "Do not treat the 1882 F.M.B. engravings automatically as acquisition dates; Whipple itself warns they may be commemorative.",
+    "Do not attribute the 3 mm apochromat to Balfour; its technology postdates his death.",
+    "Do not identify surviving numbered A/C lenses 573, 710 or 1295 as the exact lenses used for specific figures without a serial-number bridge.",
+    "Do not claim microtome 6766 cut a specific surviving Balfour series merely because its type was familiar and it came from the same department."
+  ],
+  "next": [
+    "Separate L2021.IN049.4 internally into pre-1882 plausible Balfour components versus posthumous accretions.",
+    "Search Zeiss production/dispatch records for 573, 710, 1295 and 780.",
+    "Query Cambridge Balfour serial sections against plate-caption specimen/stage terms and preparation reagents."
+  ]
+}
