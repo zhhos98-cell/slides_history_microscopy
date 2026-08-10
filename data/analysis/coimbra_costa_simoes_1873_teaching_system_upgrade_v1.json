@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0-coimbra-costa-simoes-teaching-system-upgrade",
+  "generated": "2026-08-11",
+  "title": "Costa Simões at Coimbra, 1872–1873: one printed architecture for course programme, microscopic preparations and experimental-physiology apparatus",
+  "status": "S_PRIMARY_SOURCE_PEDAGOGICAL_ARCHITECTURE__SURVIVING_1873_OBJECT_CROSSWALK_OPEN",
+  "builds_on": [
+    "sources/source-registry-08.json#PT-COIMBRA-HISTOLOGY-1873",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "A+ comparator based on the existence of an 1873 Coimbra histology/physiology programme and catalogue.",
+    "new_state": "The digitized 1873 publication itself is securely located in multiple library systems and its title formally joins the 1872–73 course programme to a catalogue of the chair's microscopic preparations and experimental-physiology apparatus, with 92 original engravings. The teaching programme, object collection and apparatus inventory were therefore intentionally published as one pedagogical/documentary unit.",
+    "grade": {
+      "primary_source_publication_identity": "S",
+      "pedagogical_architecture": "S",
+      "later_visual_survival_of_histology_microscope_room": "S as 1902 institutional visual state",
+      "survival_of_specific_1873_preparations_or_apparatus": "OPEN"
+    }
+  },
+  "primary_1873_source": {
+    "author": "A. A. da Costa Simões",
+    "title": "Programma da cadeira de histologia e de physiologia geral da Universidade de Coimbra para o anno lectivo de 1872–73, e Catalogo da collecção de preparações microscopicas e dos apparelhos de physiologia experimental desta cadeira: 92 gravuras originaes",
+    "place": "Coimbra",
+    "publisher": "Imprensa da Universidade",
+    "year": 1873,
+    "digitized_locators": [
+      {
+        "institution": "Bayerische Staatsbibliothek / Deutsche Digitale Bibliothek",
+        "shelfmark": "Anat. 393 od",
+        "extent_state": "62 pages",
+        "url": "https://www.deutsche-digitale-bibliothek.de/item/REYBKAXQSYRHF54TJCUK5MLLJYALKMUE"
+      },
+      {
+        "institution": "Google Play Books",
+        "extent_state": "68 pages",
+        "url": "https://play.google.com/store/books/details?id=sAZaAAAAcAAJ"
+      }
+    ],
+    "extent_guard": "The 62/68 page discrepancy is retained as a digital-container/extent difference until the scans are compared; it has no bearing on publication identity.",
+    "architecture_reading": "The title itself makes the course programme, microscopic-preparation collection and experimental-physiology apparatus catalogue co-components of a single chair-level publication."
+  },
+  "later_institutional_visual_state": {
+    "source": "Universidade de Coimbra, História da Ciência na UC / Alma Mater",
+    "object": "Sala de Histologia com microscópios",
+    "photographer": "Augusto Bobone",
+    "date": "1902",
+    "url": "https://am.uc.pt/historiaciencia/items?_fl=H&_l=100&_o=date&_p=1&_t=list&subject=Coimbra",
+    "evidentiary_function": "Independent later visual evidence that the Coimbra histology teaching environment remained materially organized around microscopes. It does not prove survival of any specific 1873 instrument."
+  },
+  "research_mechanism": {
+    "chain": "course programme -> microscopic preparation collection -> experimental physiology apparatus -> illustrated printed catalogue -> later histology-room visual record",
+    "claim": "At Coimbra, preparations and instruments were not merely parallel teaching aids; in 1873 they were catalogued together as the material infrastructure of one chair and attached to the year's programme of instruction.",
+    "comparison": {
+      "tokyo": "Tokyo preserves overlapping administrative ledgers for manufacture, instruments, practical microscopy and teaching, plus a surviving teaching microscope.",
+      "coimbra": "Coimbra compresses programme, preparation collection and apparatus into one published 1873 catalogue architecture.",
+      "payoff": "The pair shows two different ways an institution made microscopic teaching administratively legible: serial internal records versus a printed chair-level catalogue."
+    }
+  },
+  "next_bounded_actions": [
+    {
+      "rank": 1,
+      "action": "Ingest the complete 1873 scan and extract the preparation and apparatus catalogues row by row without early exit, preserving section order, catalogue numbering, maker names, preparation types, apparatus functions and figure references.",
+      "payoff": "Turns architectural S-grade into object-row authority and permits comparison between preparations and apparatus inside the same publication."
+    },
+    {
+      "rank": 2,
+      "action": "Query current Coimbra medical/scientific collections using the exact 1873 catalogue vocabulary, numbers and makers recovered in rank 1.",
+      "payoff": "Could close individual 1873 catalogue entries to surviving preparations or apparatus."
+    },
+    {
+      "rank": 3,
+      "action": "Use later institutional records and the 1902 histology-room photograph only after row extraction to test continuity/reorganization of the chair's material teaching environment.",
+      "payoff": "Could distinguish material continuity from later replacement while retaining a dated room-level visual state."
+    }
+  ],
+  "guards": [
+    "Do not infer survival of the original 1873 preparation collection from the existence of the 1902 histology-room photograph.",
+    "Do not infer individual catalogue rows, quantities, makers or prices until the 1873 scan is read directly.",
+    "Keep microscopic preparations and experimental-physiology apparatus as separate object namespaces even though the publication catalogues them together.",
+    "Retain the 62-page and 68-page digital extent states separately until scan pagination is checked."
+  ],
+  "sources": [
+    "https://www.deutsche-digitale-bibliothek.de/item/REYBKAXQSYRHF54TJCUK5MLLJYALKMUE",
+    "https://play.google.com/store/books/details?id=sAZaAAAAcAAJ",
+    "https://am.uc.pt/historiaciencia/items?_fl=H&_l=100&_o=date&_p=1&_t=list&subject=Coimbra"
+  ]
+}
