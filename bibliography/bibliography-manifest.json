@@ -1,13 +1,42 @@
 {
   "version": "slide-locked-pass-19",
   "date": "2026-08-10",
+  "status": "CURRENT_PUBLIC_BIBLIOGRAPHY__GEOGRAPHIC_EXPANSION_PARKED",
+  "authority_note": "This manifest plus the 22 named chunk CSVs is the machine-readable bibliography authority. The public bibliography page loads these rows and generates complete portable exports from them.",
   "total_entries": 206,
   "research": 88,
   "primary": 118,
   "publication_languages": 19,
-  "chunks": ["bibliography-01.csv","bibliography-02.csv","bibliography-03.csv","bibliography-04.csv","bibliography-05.csv","bibliography-06.csv","bibliography-07.csv","bibliography-08.csv","bibliography-09.csv","bibliography-10.csv","bibliography-11.csv","bibliography-12.csv","bibliography-13.csv","bibliography-14.csv","bibliography-15.csv","bibliography-16.csv","bibliography-17.csv","bibliography-18.csv","bibliography-19.csv","bibliography-20.csv","bibliography-21.csv","bibliography-22.csv"],
-  "schema_fields": ["id","year","section","authors","title","citation","type","language","tags","note","verification","links"],
-  "runtime_exports": ["csv","tsv","json","csl-json","bibtex","ris"],
-  "export_scopes": ["all","filtered"],
-  "export_note": "Portable exports are generated in the browser from the same CSV rows used to render the bibliography. CSL JSON, BibTeX and RIS retain the formatted citation and project note; DOI and stable URLs are extracted from the links field where present."
+  "chunks": [
+    "bibliography-01.csv",
+    "bibliography-02.csv",
+    "bibliography-03.csv",
+    "bibliography-04.csv",
+    "bibliography-05.csv",
+    "bibliography-06.csv",
+    "bibliography-07.csv",
+    "bibliography-08.csv",
+    "bibliography-09.csv",
+    "bibliography-10.csv",
+    "bibliography-11.csv",
+    "bibliography-12.csv",
+    "bibliography-13.csv",
+    "bibliography-14.csv",
+    "bibliography-15.csv",
+    "bibliography-16.csv",
+    "bibliography-17.csv",
+    "bibliography-18.csv",
+    "bibliography-19.csv",
+    "bibliography-20.csv",
+    "bibliography-21.csv",
+    "bibliography-22.csv"
+  ],
+  "schema_fields": ["id", "year", "section", "authors", "title", "citation", "type", "language", "tags", "note", "verification", "links"],
+  "runtime_exports": ["csv", "tsv", "json", "csl-json", "bibtex", "ris"],
+  "export_scopes": ["all", "filtered"],
+  "export_note": "Portable exports are generated in the browser from the same CSV rows used to render the bibliography. CSL JSON, BibTeX and RIS retain the formatted citation and project note; DOI and stable URLs are extracted from the links field where present.",
+  "legacy_files": {
+    "bibliography.csv": "Predecessor partial static index retained for compatibility/audit. It is not the current 206-row bibliography and must not be used as the authority for totals or comprehensive export."
+  },
+  "documentation": "bibliography/README.md"
 }
