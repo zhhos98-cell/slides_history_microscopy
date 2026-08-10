@@ -1,5 +1,5 @@
 slides_history_microscopy Pages
-version: 2026-08-10-repository-normalized-v3
+version: 2026-08-10-repository-normalized-v4
 object-census: CLOSED_2026-08-09 / 155
 core-documents: 142
 extension-documents: 60 + 2 structured OCR
@@ -9,7 +9,7 @@ bna-newspaper-yield-rows-published: 995
 bna-query-yield-rows: 43
 bna-year-yield-rows: 71
 research-outputs: 41
-source-registry: 84 canonical / 87 raw / 3 superseded duplicate routes
+source-registry: 83 canonical / 87 raw / 3 superseded duplicate routes / 1 excluded out-of-scope
 source-loader: manifest-driven / 12 chunks
 corpus-manifest: data/corpus/CORPUS_MANIFEST_V6.json
 repository-state: REPOSITORY_STATE.json
