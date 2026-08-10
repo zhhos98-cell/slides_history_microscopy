@@ -53,6 +53,7 @@
 
     {"category":"Public data","title":"Bibliography manifest","path":"bibliography/bibliography-manifest.json","format":"JSON","description":"Current 206-entry bibliography authority and 22 row chunks."},
     {"category":"Public data","title":"Source registry manifest","path":"sources/source-registry-manifest.json","format":"JSON","description":"Additive source-routing manifest for archives, collections and documentary routes."},
-    {"category":"Site","title":"Pages architecture","path":"docs/PAGES.md","format":"MD","description":"Website architecture, closure contract and public-layer rules."}
+    {"category":"Site","title":"Pages architecture","path":"docs/PAGES.md","format":"MD","description":"Website architecture, closure contract and public-layer rules."},
+    {"category":"Validation","title":"Repository integrity validator","path":"scripts/validate_repository_state.py","format":"PY","description":"Cross-layer validation of authority pointers, frozen counts, bibliography chunks, current queues, source-registry files and corpus publication indexes."}
   ]
 }
