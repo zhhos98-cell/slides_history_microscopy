@@ -1,0 +1,133 @@
+{
+  "schema_version": "5.0.0-cole-tooveys-full-resolution-image-audit",
+  "generated": "2026-08-10",
+  "title": "Toovey's Lot 1204 full-resolution audit: Arthur C. Cole Studies in Microscopical Science Volume I cabinet, fixed 1–52 address system, and evidence of replacement/maintenance",
+  "builds_on": [
+    "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v4.json",
+    "data/analysis/slide_as_publication_cole_deep_v2.json"
+  ],
+  "source_context": {
+    "auction_house": "Toovey's",
+    "sale_date": "2025-07-24",
+    "lot": 1204,
+    "delivery": "Original/high-resolution auction photographs supplied by Toovey's to the researcher via WeTransfer on 2026-08-10.",
+    "photographs_audited": [
+      {"filename":"1204-1.jpg","sha256":"01df2ea152b33eb6e7ea2a0eaadb18975ff26ce7ca212487ec5173aad31426b6","size_px":[2047,1918],"slots":"1-10 plus index card"},
+      {"filename":"1204-2.jpg","sha256":"d03b74e1d48383a992b50feedb9bd595a9ed038cf20fa51bb61667a219ab97be","size_px":[2048,1852],"slots":"11-22"},
+      {"filename":"1204-3.jpg","sha256":"b9746a8a15208dea707f123d6dbf7f4fcb8cd5eb5029ac133762c1ef2e984d84","size_px":[2048,1892],"slots":"23-34"},
+      {"filename":"1204-4.jpg","sha256":"fb261e6a5d247897ff12249f81029ba58f180747cc6d5c9496e4b4a8b59841cf","size_px":[2048,1909],"slots":"35-46"},
+      {"filename":"1204-5.jpg","sha256":"c5e22540ab2f1b6bc66719b257cf03874866e57252ec1113683673bca1894071","size_px":[2048,1080],"slots":"47-52"}
+    ],
+    "coverage": "Five supplied tray photographs cover every numbered position 1–52; 1204-1.jpg also shows the printed index card.",
+    "note": "The WeTransfer message stated seven items total. This audit covers the five high-resolution tray/index images supplied in the present research session; other lot images are not needed for the 1–52 slide crosswalk."
+  },
+  "principal_result": {
+    "set_identification": "S-level as a surviving Studies in Microscopical Science Volume I cabinet/set architecture: the cabinet has fixed slots 1–52, a printed index divided into odd Animal and even Botanical, &c. tracks, and the numbered surviving Cole slides overwhelmingly correspond one-for-one with the Volume I issue sequence.",
+    "cabinet_status": "A++ that this is a purpose-built Studies Volume I cabinet; publisher-supplied/subscriber-original status remains one step below S until construction/provenance comparison or a publisher/cabinet mark is found.",
+    "material_state": "The set is not a pristine 52/52 original-preparation survival. It is a maintained/repaired material volume in which the indexing and slot architecture survived while several preparations were replaced or substituted.",
+    "quantitative_audit": {
+      "occupied_numbered_slots": 52,
+      "arthur_cole_or_cole_prize_medal_slides": 51,
+      "other_maker_slides": 1,
+      "slides_with_visible_printed_issue_number_matching_slot": 46,
+      "irregular_or_unnumbered_slots": [3,5,6,7,21,42],
+      "subject_compatible_with_index": 48,
+      "clear_subject_mismatches_or_reassignments": [5,6,7,42],
+      "different_maker_subject_compatible_replacement": 21
+    }
+  },
+  "index_card": {
+    "layout": "Two-column printed index. Left column 'Animal.' contains all odd numbers 1–51; right column 'Botanical, &c.' contains all even numbers 2–52.",
+    "animal_odd": {"1":"Fibro Cartilage","3":"Human Bone","5":"Human Skin","7":"Cat, Spinal Cord","9":"Human Liver","11":"Cat, Liver","13":"Human Kidney","15":"Sheep, Kidney","17":"Human Kidney (Injected)","19":"Sheep, Bronchus","21":"Human Lung","23":"Cat, Lung (Injected)","25":"Human Thyroid Body","27":"Calf, Thymus Gland","29":"Human Pancreas","31":"Human Pancreas (Injected)","33":"Human Spleen","35":"Cat, Spleen","37":"Dog, Submaxillary Gland","39":"Dog, Tongue (Injected)","41":"Dog, Tongue (stained)","43":"Dog, Oesophagus","45":"Dog, Stomach Cardiac-end","47":"Dog, Stomach Pyloric-end","49":"Dog, Duodenum","51":"Dog, Large Intestine"},
+    "botanical_even": {"2":"Fagus cuprea","4":"Cyperus alternifolius","6":"Pikrite","8":"Pteris aquilina","10":"Fucus vesiculosus","12":"Rhododendron (leaf)","14":"Aecidium Compositarum","16":"Equisetum Arvense","18":"Taraxacum (root)","20":"Lycopodium (stem)","22":"Pilularia (stem)","24":"Pilularia, Sporocarp","26":"Dolerite","28":"Sticta pulmonacea","30":"Sticta aurata","32":"Diabase","34":"Juncus communis","36":"Euphorbia splendens","38":"Red Syenite","40":"Ficus elastica (leaf)","42":"White Syenite","44":"Ribes nigrum","46":"Pinus sylvestris (leaf)","48":"Porphyritic Basalt","50":"Serpentine Cornwall","52":"Serpentine Portsoy"},
+    "interpretive_weight": "The index independently confirms the two interleaved subscription tracks reconstructed from the bound Volume I and 1882 prospectus. It is an object-retrieval instrument, not merely a duplicate table of contents: it frequently names the actual preparation more specifically than the bound article title."
+  },
+  "full_slot_audit": [
+    {"slot":1,"visible_subject_label":"YELLOW FIBRO-CARTILAGE — Pinna of Ear of Cow","visible_lower_label":"L.V.S. Stained / Logwood and Eosin / No. 1","label_state":"printed_no","index_relation":"match"},
+    {"slot":2,"visible_subject_label":"COPPER BEECH — T.S. of Stem","visible_lower_label":"Double Stained / No. 2","label_state":"printed_no","index_relation":"match"},
+    {"slot":3,"visible_subject_label":"Human Parietal Bone [handwritten]","visible_lower_label":"Trans. Sect. [handwritten]","label_state":"unnumbered_handwritten","index_relation":"subject-compatible; specific bone"},
+    {"slot":4,"visible_subject_label":"UMBRELLA PLANT — T.S. Stem of Monocotyledon","visible_lower_label":"Double Stained / No. 4","label_state":"printed_no","index_relation":"match"},
+    {"slot":5,"visible_subject_label":"Man Femur [handwritten]","visible_lower_label":"Trans. Sect. [handwritten]","label_state":"unnumbered_handwritten","index_relation":"mismatch: index says Human Skin"},
+    {"slot":6,"visible_subject_label":"Human Voluntary Muscle [handwritten]","visible_lower_label":"V.T.S. [handwritten; remainder unclear]","label_state":"unnumbered_handwritten","index_relation":"mismatch: index says Pikrite"},
+    {"slot":7,"visible_subject_label":"Human Spinal Cord [handwritten]","visible_lower_label":"Cervical region / T. Sect. [handwritten]","label_state":"unnumbered_handwritten","index_relation":"partial mismatch: index says Cat, Spinal Cord"},
+    {"slot":8,"visible_subject_label":"BRACKEN FERN — Rachis of Frond","visible_lower_label":"T.S. / In Glycerine Jelly / No. 8","label_state":"printed_no","index_relation":"match"},
+    {"slot":9,"visible_subject_label":"HUMAN LIVER — To show Hepatic Cells","visible_lower_label":"V.S. / Stained Logwood / No. 9","label_state":"printed_no","index_relation":"match"},
+    {"slot":10,"visible_subject_label":"FUCUS VESICULOSUS — T.S. of Thallus","visible_lower_label":"Unstained / In Glycerine Jelly / No. 10","label_state":"printed_no","index_relation":"match"},
+    {"slot":11,"visible_subject_label":"LIVER OF CAT — Injected","visible_lower_label":"Hepatic Vein Red / portal vein blue / No. 11","label_state":"printed_no","index_relation":"match"},
+    {"slot":12,"visible_subject_label":"RHODODENDRON PONTICUM — T.V.S. of Leaf","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 12","label_state":"printed_no","index_relation":"match"},
+    {"slot":13,"visible_subject_label":"HUMAN KIDNEY — Vert. Sect.","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 13","label_state":"printed_no","index_relation":"match"},
+    {"slot":14,"visible_subject_label":"AECIDIUM COMPOSITARUM — Var. Tussilaginis","visible_lower_label":"In situ on Leaf / In Glycerine Jelly / No. 14","label_state":"printed_no","index_relation":"match"},
+    {"slot":15,"visible_subject_label":"KIDNEY OF SHEEP — H.S. Papillary Portion","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 15","label_state":"printed_no","index_relation":"match"},
+    {"slot":16,"visible_subject_label":"EQUISETUM ARVENSE — T.S. Aerial Stem","visible_lower_label":"Stained Carmine / In Canada Balsam / No. 16","label_state":"printed_no","index_relation":"match"},
+    {"slot":17,"visible_subject_label":"HUMAN KIDNEY — V.S. / Injected Carmine","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 17","label_state":"printed_no","index_relation":"match"},
+    {"slot":18,"visible_subject_label":"TARAXACUM OFFICINALE — T.S. of Root","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 18","label_state":"printed_no","index_relation":"match"},
+    {"slot":19,"visible_subject_label":"LUNG OF SHEEP — T.S. of Bronchus","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 19","label_state":"printed_no","index_relation":"match"},
+    {"slot":20,"visible_subject_label":"LYCOPODIUM WILDENOVII — T.S. of Stem","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 20","label_state":"printed_no","index_relation":"match"},
+    {"slot":21,"visible_subject_label":"AMOS TOPPING, PREPARER, LONDON — Section of Human Lung [handwritten]","visible_lower_label":"oval label: For Lung 21 [handwritten]","label_state":"different_maker_no_cole_issue_label","index_relation":"subject-compatible replacement; identifies auction 'one other slide'"},
+    {"slot":22,"visible_subject_label":"PILULARIA GLOBULIFERA — T.S. of Stem","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 22","label_state":"printed_no","index_relation":"match"},
+    {"slot":23,"visible_subject_label":"LUNG OF CAT — Injected Carmine","visible_lower_label":"Vert. Sect. / No. 23","label_state":"printed_no","index_relation":"match"},
+    {"slot":24,"visible_subject_label":"PILULARIA GLOBULIFERA — T.S. of Sporocarp","visible_lower_label":"Unstained / No. 24","label_state":"printed_no","index_relation":"match"},
+    {"slot":25,"visible_subject_label":"HUMAN THYROID GLAND — Trans. Sect.","visible_lower_label":"Double Stained / In Canada Balsam / No. 25","label_state":"printed_no","index_relation":"match"},
+    {"slot":26,"visible_subject_label":"DOLERITE — Dalmahoy Hill","visible_lower_label":"Hard Section / In Canada Balsam / No. 26","label_state":"printed_no","index_relation":"match"},
+    {"slot":27,"visible_subject_label":"CALF THYMUS GLAND — Hor. Sect.","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 27","label_state":"printed_no","index_relation":"match"},
+    {"slot":28,"visible_subject_label":"LICHEN — Sticta pulmonacea — T.S. of Thallus","visible_lower_label":"Unstained / In Canada Balsam / No. 28","label_state":"printed_no","index_relation":"match"},
+    {"slot":29,"visible_subject_label":"HUMAN PANCREAS — Trans. Sect.","visible_lower_label":"Stained Carmine / In Canada Balsam / No. 29","label_state":"printed_no","index_relation":"match"},
+    {"slot":30,"visible_subject_label":"LICHEN — Sticta aurata — T.S. of Thallus","visible_lower_label":"Unstained / In Canada Balsam / No. 30","label_state":"printed_no","index_relation":"match; closes index reading 'aurata'"},
+    {"slot":31,"visible_subject_label":"HUMAN PANCREAS — Trans. Sect.","visible_lower_label":"Injected Carmine / In Canada Balsam / No. 31","label_state":"printed_no","index_relation":"match"},
+    {"slot":32,"visible_subject_label":"DIABASE — Corstorphine Hill, Edinburgh","visible_lower_label":"Hard Section / In Canada Balsam / No. 32","label_state":"printed_no","index_relation":"match"},
+    {"slot":33,"visible_subject_label":"HUMAN SPLEEN — Vert. Sect.","visible_lower_label":"Injected & Stained / In Canada Balsam / No. 33","label_state":"printed_no","index_relation":"match"},
+    {"slot":34,"visible_subject_label":"JUNCUS COMMUNIS var. EFFUSUS — T.S. of Stem","visible_lower_label":"Stained Carmine / In Canada Balsam / No. 34","label_state":"printed_no","index_relation":"match"},
+    {"slot":35,"visible_subject_label":"SPLEEN OF CAT — Trans. Sect.","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 35","label_state":"printed_no","index_relation":"match"},
+    {"slot":36,"visible_subject_label":"EUPHORBIA SPLENDENS — L.S. of Stem","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 36","label_state":"printed_no","index_relation":"match"},
+    {"slot":37,"visible_subject_label":"SUBMAXILLARY GLAND OF DOG — Vert. Sect.","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 37","label_state":"printed_no","index_relation":"match"},
+    {"slot":38,"visible_subject_label":"RED SYENITE — Ord Hill, Sutherland","visible_lower_label":"Hard Section / In Canada Balsam / No. 38","label_state":"printed_no","index_relation":"match"},
+    {"slot":39,"visible_subject_label":"TONGUE OF DOG — V.T. Sect.","visible_lower_label":"Injected Carmine / Stained Logwood / No. 39","label_state":"printed_no","index_relation":"match"},
+    {"slot":40,"visible_subject_label":"FICUS ELASTICA — T.S. of Leaf","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 40","label_state":"printed_no","index_relation":"match"},
+    {"slot":41,"visible_subject_label":"TONGUE OF DOG — Vert. Sect.","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 41","label_state":"printed_no","index_relation":"match"},
+    {"slot":42,"visible_subject_label":"Cat — Pad of Foot [handwritten]","visible_lower_label":"Vert. Sect. [handwritten]","label_state":"unnumbered_handwritten","index_relation":"mismatch: index says White Syenite"},
+    {"slot":43,"visible_subject_label":"OESOPHAGUS OF DOG — Trans. Sect.","visible_lower_label":"Injected & Stained / In Canada Balsam / No. 43","label_state":"printed_no","index_relation":"match"},
+    {"slot":44,"visible_subject_label":"RIBES NIGRUM — T.S. of Stem","visible_lower_label":"Double Stained / In Canada Balsam / No. 44","label_state":"printed_no","index_relation":"match"},
+    {"slot":45,"visible_subject_label":"STOMACH OF DOG — T.S. Cardiac end","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 45","label_state":"printed_no","index_relation":"match"},
+    {"slot":46,"visible_subject_label":"PINUS SYLVESTRIS — T.S. of Leaf","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 46 [lower label mounted upside down]","label_state":"printed_no","index_relation":"match"},
+    {"slot":47,"visible_subject_label":"STOMACH OF DOG — T.S. Pyloric end","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 47","label_state":"printed_no","index_relation":"match"},
+    {"slot":48,"visible_subject_label":"PORPHYRITIC BASALT — Edinburgh","visible_lower_label":"Hard Section / In Canada Balsam / No. 48","label_state":"printed_no","index_relation":"match"},
+    {"slot":49,"visible_subject_label":"DUODENUM OF DOG","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 49","label_state":"printed_no","index_relation":"match"},
+    {"slot":50,"visible_subject_label":"SERPENTINE — The Lizard, Cornwall","visible_lower_label":"Hard Section / In Canada Balsam / No. 50","label_state":"printed_no","index_relation":"match"},
+    {"slot":51,"visible_subject_label":"DOG LARGE INTESTINE — Trans. Sect.","visible_lower_label":"Stained Logwood / In Canada Balsam / No. 51","label_state":"printed_no","index_relation":"match"},
+    {"slot":52,"visible_subject_label":"SERPENTINE — Portsoy","visible_lower_label":"Hard Section / In Canada Balsam / No. 52","label_state":"printed_no","index_relation":"match"}
+  ],
+  "irregular_slots": [
+    {"slot":3,"index_expected":"Human Bone","visible_slide":"Human Parietal Bone; handwritten subject and 'Trans. Sect.' lower label; no printed No. 3 visible.","assessment":"Subject-compatible but label state differs from the standardized numbered issue labels. Could be an original preparation with replaced labels or a same-subject Cole replacement. Exact object identity remains open."},
+    {"slot":5,"index_expected":"Human Skin","visible_slide":"Man Femur; handwritten labels; no printed No. 5 visible.","assessment":"Clear substitution/reassignment within the fixed slot."},
+    {"slot":6,"index_expected":"Pikrite","visible_slide":"Human Voluntary Muscle; handwritten labels; no printed No. 6 visible.","assessment":"Clear substitution/reassignment across the Animal/Botanical-&c. track boundary."},
+    {"slot":7,"index_expected":"Cat, Spinal Cord","visible_slide":"Human Spinal Cord, cervical region; handwritten labels; no printed No. 7 visible.","assessment":"Same organ class but different species/region; likely replacement or substitute."},
+    {"slot":21,"index_expected":"Human Lung","visible_slide":"Amos Topping, Preparer, London; handwritten 'Section of Human Lung'; oval lower label 'For Lung 21'.","assessment":"High-confidence identification of the auction catalogue's 'one other slide'. This is a deliberately addressed replacement for missing/absent issue 21, preserving the cabinet's fixed publication address even when maker identity changed."},
+    {"slot":42,"index_expected":"White Syenite","visible_slide":"Cat, Pad of Foot; handwritten labels; no printed No. 42 visible.","assessment":"Clear substitution/reassignment across the track boundary."}
+  ],
+  "v4_corrections": [
+    "The low-resolution v4 opening-tray reading incorrectly treated slots 5, 6 and 7 as matching Human Skin, Pikrite and Cat Spinal Cord. Full-resolution photographs show slot 5 = Man Femur, slot 6 = Human Voluntary Muscle, and slot 7 = Human Spinal Cord (cervical region).",
+    "The phrase 'near-complete or complete cabinet-set' should be refined to 'complete 1–52 cabinet architecture with a substantially surviving numbered issue set and documented replacements/substitutions'.",
+    "The 'one other slide' can now be identified with high confidence as the Amos Topping Human Lung slide in slot 21.",
+    "The uncertain index reading at no. 30 is resolved by the slide label as Sticta aurata."
+  ],
+  "thesis_upgrade": {
+    "earlier_claim":"Paper was bound as a volume; glass was bound by an index.",
+    "full_resolution_revision":"Paper was bound as a volume; glass was bound by an index whose fixed addresses could outlive individual preparations.",
+    "mechanism":"The publication's material identity resided partly in a durable 1–52 address system. Missing or unsuitable objects could be replaced while their serial positions remained stable.",
+    "best_sentence":"The cabinet preserved the publication by preserving addresses, even when it no longer preserved every original preparation.",
+    "bibliographic_consequence":"This is stronger than a simple book-plus-object survival case. The cabinet behaves as an indexed, repairable material volume: object identity, maker identity and preparation content could change locally while the publication-level sequence remained legible.",
+    "comparison_payoff":"The Toovey's cabinet provides a bridge between Cole's fixed issue numbering and later institutional cabinet systems: maintenance and substitution were already possible inside a publication architecture before later museums imposed new collection addresses."
+  },
+  "guards": [
+    "Do not infer the date or agent of any substitution from the 2025 photographs alone.",
+    "Do not assume slot 3 is a later replacement merely because its labels are handwritten; its subject remains compatible with the index.",
+    "Do not treat the four subject mismatches as evidence that the cabinet itself is later or generic. The printed index, fixed 1–52 slots and 46 numbered matching Cole slides strongly establish the Studies Volume I architecture.",
+    "Do not call the cabinet publisher-supplied with absolute certainty until a publisher/cabinet-maker mark, subscriber provenance, advertisement illustration, or comparison cabinet closes that point.",
+    "Do not identify the private 2025 buyer."
+  ],
+  "next_actions": [
+    "Archive the remaining two Toovey's high-resolution lot images if they contain case exterior, reverse, hinges, maker marks or provenance details.",
+    "Search for another surviving Studies subscriber cabinet or publisher advertisement showing cabinet/index construction.",
+    "Use the 46 printed-number slides as the secure baseline for any Quekett/Croydon object-level crosswalk; treat slots 3, 5, 6, 7, 21 and 42 as separate maintenance states."
+  ]
+}
