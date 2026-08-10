@@ -1,8 +1,8 @@
 {
-  "schema_version": "3.0.0-current-closure-router",
+  "schema_version": "3.1.0-current-closure-router",
   "updated": "2026-08-10",
-  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__EXACT_SOURCE_REQUESTS_ONLY",
-  "purpose": "Operational router after the UK/US/Europe closure pass exhausted the public indexed layer. Remaining work is source access, not discovery.",
+  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__FOUR_EXACT_SOURCE_REQUESTS_ONLY",
+  "purpose": "Operational router after the UK/US/Europe closure pass exhausted the public indexed layer. Remaining work is exact source access, not discovery. Naples row 383 has now been closed from the locally held primary catalogue OCR.",
   "principle": "A next action must be capable of changing attribution, chronology, object identity or mechanism. Geographic coverage, repeated web searching and collection-count growth are not active goals.",
   "scope": {
     "primary": "UK nineteenth-century microscopy",
@@ -41,13 +41,14 @@
       "source_needed": "complete Norman item/export layer with addresses and label transcription",
       "why": "The public group record confirms the 2,584-entry catalogue and surviving Norman group but says the slides remain scattered in situ; no usable public child-item layer is exposed.",
       "stop": "No taxonomy-based reconstruction of item identity."
-    },
+    }
+  ],
+  "newly_closed": [
     {
-      "rank": 5,
-      "target": "Naples row 383 → BPM/1/T8/6",
-      "source_needed": "BHL/Internet Archive page image containing rows 382-384",
-      "why": "Article/container and catalogue architecture are secure; row 383 itself remains unread. One page decides the claim.",
-      "stop": "If the page remains inaccessible, retain A-candidate status and park."
+      "target": "Naples catalogue offering 383 → St Andrews BPM/1/T8/6",
+      "status": "S/A++ catalogue-offering identity CLOSED",
+      "result": "Local primary OCR gives row 383 as Delphinus phocaena L., Penis by ditto continuation from row 382. The surviving St Andrews slide has Naples Station labels, Delphinus phocaena and public right-label transcription 'Panis 383'. The object therefore corresponds to catalogue offering 383; individual-copy production/shipment history remains open.",
+      "output": "data/analysis/naples_row383_object_catalogue_closure_v4.json"
     }
   ],
   "closed_or_substantially_closed": [
@@ -61,7 +62,8 @@
     "NHM Challenger address/dataset architecture and diagnostic named preparations",
     "Balfour publication-side objective designation harvest",
     "Harvard Embryological Collection / Minot control architecture",
-    "Quekett/Oxford Cole archive capability route"
+    "Quekett/Oxford Cole archive capability route",
+    "Naples catalogue offering 383 → surviving St Andrews BPM/1/T8/6 correspondence"
   ],
   "parked_previous_global_targets": [
     "University of Tokyo Medical Library Anatomy Department system",
@@ -72,11 +74,11 @@
   "reference_outputs": [
     "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
     "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
+    "data/analysis/naples_row383_object_catalogue_closure_v4.json",
     "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
     "data/analysis/challenger_dataset_row_harvest_v2.json",
     "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
-    "data/analysis/elcock_standrews_1884_letters_v5.json",
-    "data/analysis/naples_row383_page_verification_v3.json"
+    "data/analysis/elcock_standrews_1884_letters_v5.json"
   ],
-  "resume_rule": "Resume a target only when the exact requested source becomes available or supplies a new bounded identifier. Otherwise move from backend discovery to historical analysis/writing."
+  "resume_rule": "Resume a residual target only when the exact requested source becomes available or supplies a new bounded identifier. Otherwise move from backend discovery to historical analysis/writing."
 }
