@@ -2,9 +2,9 @@
 
 Date: 2026-08-10
 
-Status: **PUBLIC WEB CLOSURE EXHAUSTED / EXACT-SOURCE REQUESTS ONLY**
+Status: **PUBLIC WEB CLOSURE EXHAUSTED / FOUR EXACT-SOURCE REQUESTS ONLY**
 
-This pass does not add a new regional bibliography module and does not reopen the frozen surviving-object survey. It tests the remaining five UK / narrowly linked US / already-open European edges against the public indexed layer and asks a stricter question: can another web search still change attribution, chronology, object identity or mechanism? For all five, the answer is now no. Each residual has been reduced to one exact source or data-delivery problem.
+This pass does not add a new regional bibliography module and does not reopen the frozen surviving-object survey. It tests the residual UK / narrowly linked US / already-open European edges against both the public indexed layer and primary files already held locally. That distinction matters here: a relation that looked blocked on the web was actually closable from the project's own Naples source package.
 
 ## Elcock: the archive relation is narrower than the working shorthand
 
@@ -30,12 +30,22 @@ St Andrews independently confirms Norman's 1872 catalogue of 2,584 mounts and pr
 
 The public Norman group does not expose a usable numerical extent or indexed item list. A row-by-row catalogue-to-object crosswalk therefore cannot be responsibly reconstructed from the website. It should resume only if St Andrews supplies a complete export/item layer with addresses and labels.
 
-## Naples 383: one page or park
+## Naples 383: closed from the local primary catalogue
 
-BHL verifies the 1881 `Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate` in volume 2, pp. 238–253. The project parse already fixes 423 numbered offerings and places the numbered list on pp. 242–253. The St Andrews `Delphinus phocaena` object still carries the exact public transcription `Panis 383`, and 383 lies structurally inside the derived Mammalia block.
+The web route had stalled at the BHL article container, but the project already held the full primary OCR (`mittheilungenaus02staz_djvu.txt`) and structured 423-row catalogue. Printed p.253 reads:
 
-The decisive historical row remains unread. Indexed searching again reaches the article/book container without surfacing row 383 itself. The next action is therefore one page image containing rows 382–384. If that page cannot be obtained, the object stays an A-level candidate. Broad Naples searching stops.
+`382. Delphinus phocaena L. Milz`
+
+`383. -- Penis`
+
+`384. -- Hode`
+
+`385. -- Niere`
+
+The ditto marks carry the taxon forward, so catalogue offering **383 is Delphinus phocaena L., Penis**. St Andrews `BPM/1/T8/6` independently has Stazione Zoologica Napoli labels, the left label `Delphinus phocaena`, and the right-label public transcription `Panis 383`. The conjunction of institutional origin, taxon and exact number is sufficient to identify the surviving slide as an extant instance corresponding to catalogue offering 383. The one-letter `Panis` / `Penis` discrepancy is retained rather than corrected silently.
+
+This closes the catalogue-address relation, not the biography of the individual glass slide. The catalogue number is an offering/product address, not a unique physical serial. Manufacture date, preparator, row price and identity with any particular 1880/1881 shipment remain separate claims. Full grading and guards are in `data/analysis/naples_row383_object_catalogue_closure_v4.json`.
 
 ## Operational consequence
 
-There are now **zero active public-web discovery targets** in the closure router. Five exact-source requests remain: the two Elcock letters; the NHM Challenger resource binary; ZEISS archive guidance for the five Balfour objective engravings; a St Andrews Norman item export; and the Naples page containing rows 382–384. The backend should resume any of these only when the exact source arrives or supplies a new bounded identifier. Otherwise the evidentiary gain now lies in analysis and writing from the closed chains, not in extending the database sideways.
+There are now **zero active public-web discovery targets** in the closure router and **four exact-source requests**: the two Elcock letters; the NHM Challenger resource binary; ZEISS archive guidance for the five Balfour objective engravings; and a St Andrews Norman item export. Naples 383 has moved out of the queue. The backend should resume one of the four only when the exact source arrives or supplies a new bounded identifier. Otherwise the evidentiary gain now lies in analysis and writing from the closed chains, not in extending the database sideways.
