@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0-laplata-diatom-series-upgrade",
+  "generated": "2026-08-11",
+  "title": "Museo de La Plata: Möller and Tempère & Peragallo numbered diatom series, Frenguelli acquisition, and continuing type-reference use",
+  "status": "S_SURVIVING_NUMBERED_SERIES_AND_ACQUISITION_CONTEXT__NINETEENTH_CENTURY_EDITION_SPECIFICITY_PARTLY_OPEN",
+  "builds_on": [
+    "sources/source-registry-05.json#AR-MLP-FICOLOGIA-DIATOMS",
+    "sources/source-registry-05.json#AR-MLP-HISTORICAL-ARCHIVE",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "The Museo de La Plata was known to preserve historical Möller and Tempère & Peragallo diatom collections, but the object-level numbering, acquisition route and current scientific use were not closed.",
+    "new_state": "Recent collection research and taxonomic publications show that numbered Tempère & Peragallo second-edition slides survive at LPC and remain scientifically operative, while biographical and 2025 collection-curation evidence identifies Joaquín Frenguelli as the purchaser/acquirer of Tempère & Peragallo reference material and part of Möller's Typenplatten. A 2025 museum-team poster also quantifies the retained J. D. Möller material as 5 arranged preparations plus 117 mixed-diatom preparations.",
+    "grade": {
+      "current_collection_survival": "S",
+      "tempere_peragallo_numbered_series_survival": "S",
+      "frenguelli_acquisition_context": "A++/S-candidate",
+      "moller_collection_extent": "A++ from current museum-team research",
+      "nineteenth_century_tempere_peragallo_first_edition_survival_at_lpc": "OPEN",
+      "museum_acquisition_transaction_record": "OPEN"
+    }
+  },
+  "official_collection_state": {
+    "institution": "Museo de La Plata, Universidad Nacional de La Plata — División Ficología Dr. Sebastián A. Guarrera",
+    "official_source": "https://www.museo.fcnym.unlp.edu.ar/div_ficologia",
+    "holdings_statement": "The Division holds about 17,000 macro- and microalgal samples and explicitly names the Möller and Tempère & Peragallo collections among its significant historical microalgal holdings, dating them to the late nineteenth and early twentieth centuries.",
+    "current_repository_acronym": "LPC"
+  },
+  "numbered_tempere_peragallo_objects": [
+    {
+      "series": "Tempère & Peragallo Collection, second edition",
+      "slide": 64,
+      "locality": "Baffin Bay",
+      "current_repository": "LPC / División Ficología, Museo de La Plata",
+      "scientific_afterlife": "Examined in a modern reassessment of Thalassiosira gravida and designated as the epitype slide after comparison with Cleve's original description and figure.",
+      "evidence_source": "Sar et al., Thalassiosira rotula / T. gravida reassessment",
+      "status": "S object-series-publication crosswalk"
+    },
+    {
+      "series": "Tempère & Peragallo II",
+      "slide": 51,
+      "locality": "Joursac",
+      "current_repository": "LPC / Museo de La Plata",
+      "scientific_afterlife": "Specimens were re-examined and figured in a 2025 study of Epithemia hyndmanii type material.",
+      "evidence_source": "Kociolek et al. 2025, Epithemia hyndmanii study",
+      "status": "S object-series-current-research use"
+    }
+  ],
+  "moller_acquisition_and_extent": {
+    "historical_acquisition_reading": "A detailed Frenguelli biography states that he acquired part of J. D. Möller's Typenplatten and the Tempère & Peragallo 1907–1915 collection as reference material for his diatom research.",
+    "current_museum_team_2025": {
+      "source": "Guerrero, Delgadillo, Serino, Vouilloud & Lamaro, 'Colecciones de diatomeas adquiridas por J. Frenguelli para el Museo de La Plata', 2025 poster",
+      "moller_arranged_preparations": 5,
+      "moller_mixed_diatom_preparations": 117,
+      "total_moller_preparations_reported": 122,
+      "collection_types_named": ["Typen-Platten", "Probe-Platten"],
+      "interpretive_value": "The Möller material is no longer merely a named legacy collection; current curatorial research gives a bounded surviving extent and acquisition-through-Frenguelli context."
+    }
+  },
+  "frenguelli_bridge": {
+    "biographical_source": "Riccardi et al./UNLP historical study of Joaquín Frenguelli",
+    "facts": [
+      "Frenguelli assembled his own large numbered diatom preparation collection.",
+      "He acquired a specialized diatom library including material from major British and European diatomists.",
+      "He acquired part of Möller's Typenplatten and the Tempère & Peragallo 1907–1915 collection.",
+      "His diatom preparations, reference collections, personal library, files and scientific papers were later retained in Museo de La Plata structures."
+    ],
+    "historical_mechanism": "commercial/reference series -> private/professional acquisition by Frenguelli -> active comparative research material -> institutional retention at Museo de La Plata -> modern taxonomic reuse"
+  },
+  "archive_route": {
+    "institution": "Archivo Histórico del Museo de La Plata",
+    "official_source": "https://archivos.unlp.edu.ar/index.php/archivo-historico-del-museo-de-la-plata",
+    "holdings": "Incoming/outgoing museum correspondence from 1884–1970, administrative documentation, departmental records and Frenguelli manuscript collections.",
+    "targeted_question": "Locate purchase, invoice, dealer correspondence, donation or internal transfer records for Frenguelli's acquisition of Möller and Tempère & Peragallo material.",
+    "upgrade_if_found": "Would convert acquisition context into S transaction provenance."
+  },
+  "series_history_guard": {
+    "tempere_peragallo_first_edition": "The first Diatomées Collection was issued 1889–1895 and is a nineteenth-century numbered material publication, but the current LPC object examples recovered in this pass are from the second edition / Tempère & Peragallo II, 1907–1915.",
+    "claim_limit": "Do not silently use surviving second-edition slides 51/64 as proof that a nineteenth-century first-edition set survives at La Plata.",
+    "next_bounded_test": "Ask the División Ficología for inventory fields distinguishing Tempère & Peragallo edition, series number and box/tray order; then identify any first-edition 1889–1895 slides separately."
+  },
+  "comparison_with_cole": {
+    "cole": "Publication identity was materially stabilized by one 1–52 cabinet address system.",
+    "tempere_peragallo": "A numbered distributed diatom reference series preserved slide numbers as bibliographic/taxonomic addresses across institutions and continues to function as a reference/type resource.",
+    "moller": "Prepared diatom standards/reference sets entered later professional and museum collections as comparative tools, with maker/series identity surviving institutional re-addressing.",
+    "payoff": "La Plata supplies a different survival regime from Cole: serial numbers remain scientifically actionable even when the series is absorbed into a research collection rather than retained as one cabinet-volume."
+  },
+  "exact_source_actions": [
+    {
+      "rank": 1,
+      "request": "Current inventory/export for Möller and Tempère & Peragallo holdings at LPC, including slide number, edition/series, locality, label text, current storage address and associated loose material.",
+      "upgrade_if_found": "Closes series completeness and identifies any nineteenth-century first-edition survival."
+    },
+    {
+      "rank": 2,
+      "request": "Frenguelli acquisition documentation in the Museo de La Plata Historical Archive: purchase invoices, correspondence, notes or accession lists for Möller / Tempère / Peragallo.",
+      "upgrade_if_found": "Closes transaction provenance at S level."
+    },
+    {
+      "rank": 3,
+      "request": "Photographs of representative maker labels, especially Möller Typen-Platten / Probe-Platten and Tempère & Peragallo numbered slides.",
+      "upgrade_if_found": "Allows label morphology, numbering and current museum addressing to be compared directly."
+    }
+  ],
+  "guards": [
+    "The 122 Möller count comes from current museum-team research and should be retained as a dated collection state until an inventory export is obtained.",
+    "Do not equate a Tempère & Peragallo slide number with an LPC accession number; they are separate address namespaces.",
+    "Do not infer complete series survival from two securely documented numbered slides.",
+    "Do not collapse Frenguelli's own 2,435-preparation collection into the separately acquired Möller and Tempère & Peragallo reference sets."
+  ],
+  "sources": [
+    "https://www.museo.fcnym.unlp.edu.ar/div_ficologia",
+    "https://archivos.unlp.edu.ar/index.php/archivo-historico-del-museo-de-la-plata",
+    "https://www.researchgate.net/publication/401078212_Colecciones_de_diatomeas_adquiridas_por_J_Frenguelli_para_el_Museo_de_La_Plata",
+    "https://www.researchgate.net/publication/279537478_Joaquin_Frenguelli_vida_y_obra_cientifica",
+    "https://www.researchgate.net/publication/233068044_Thalassiosira_rotula_a_heterotypic_synonym_of_Thalassiosira_gravida_Morphological_evidence",
+    "https://www.researchgate.net/publication/399882351_Morphological_investigation_of_the_type_material_of_Epithemia_hyndmanii_WSmith_and_comments_on_the_type_of_Epithemia_proboscidea_Kutzing_and_Epithemia_smithii_Carruthers"
+  ]
+}
