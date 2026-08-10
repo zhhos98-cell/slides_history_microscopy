@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0-oxford-rms-cabinet-database-upgrade",
+  "generated": "2026-08-11",
+  "title": "History of Science Museum Oxford / Royal Microscopical Society: cabinet survival, manuscript catalogues, and digital re-addressing",
+  "target_id": "GB-HSM-OXFORD-RMS-ARCHIVE",
+  "status": "S_LEVEL_COLLECTION_AND_ADDRESS_ARCHITECTURE__HISTORICAL_ITEM_CROSSWALK_OPEN",
+  "core_result": "Oxford preserves an institutional-scale Royal Microscopical Society slide cabinet together with a hierarchical digital catalogue and a substantial RMS manuscript/archive ecology. This closes collection survival and modern re-addressing at S level, while the historical catalogue/event → specific surviving slide crosswalk remains open.",
+  "official_sources": [
+    {
+      "institution": "History of Science Museum, University of Oxford",
+      "source": "Small Worlds exhibition",
+      "url": "https://www.mhs.ox.ac.uk/smallworlds/exhibition/",
+      "supports": [
+        "Museum collection described as about ten thousand microscope slides",
+        "over three-quarters contained in one single cabinet on permanent loan from the Royal Microscopical Society",
+        "specimens in that cabinet prepared between 1860 and 1930",
+        "2007-08 exhibition followed a year-long microscopy/specimen cataloguing project"
+      ]
+    },
+    {
+      "institution": "History of Science Museum, University of Oxford",
+      "source": "Small Worlds database introduction",
+      "url": "https://www.mhs.ox.ac.uk/smallworlds/database/index.html",
+      "supports": {
+        "records": 10084,
+        "images": 1955,
+        "hierarchy": {
+          "containers": 227,
+          "drawers": 513,
+          "slides": 4293,
+          "specimens": 5051
+        },
+        "retrieval_model": "container → drawer → slide → specimen"
+      }
+    },
+    {
+      "institution": "History of Science Museum, University of Oxford",
+      "source": "Manuscripts summary list",
+      "url": "https://www.hsm.ox.ac.uk/manuscripts",
+      "supports": [
+        "MSS Royal Microscopical Society: manuscripts collected by the RMS, variously purchased/presented to the Museum in 1970 and 1991",
+        "MS 5: catalogue of microscope slides of molluscs mounted by H. M. Gwatkin, 1883-90",
+        "MS 13: catalogue of microscope slides, mainly diatoms, 1860-69",
+        "MS 18: microscope-slide catalogue entitled Histological Catalogue, 1892",
+        "MSS RMS Archive: internal archival records of the Royal Microscopical Society, deposited on loan in 1991 with continuing additions"
+      ]
+    }
+  ],
+  "digital_address_example": {
+    "source_url": "https://www.mhs.ox.ac.uk/smallworlds/database/catalogue5301.html?id=2871&type=slide",
+    "slide_id": 2871,
+    "display_address": "slide 33600-194-2871",
+    "parent_container": "Inv Num 33600",
+    "parent_drawer": "DrawerID 194",
+    "label": "Mik. Praeparat zur Physiol. Histologie von Prof. Dr Fr. Sigmund ... Stuttgart",
+    "function": "demonstrates that the modern catalogue expresses slide identity as a nested container/drawer/slide coordinate; it is an example of the database architecture, not asserted here as an RMS-cabinet item unless independently verified."
+  },
+  "address_history": [
+    {
+      "system": "RMS physical cabinet",
+      "address": "historical cabinet/drawer/slide order — exact old coordinates require recovery",
+      "function": "institutional storage and retrieval of a very large slide collection"
+    },
+    {
+      "system": "historical RMS manuscript catalogues",
+      "address": "catalogue entries for bounded slide groups such as Gwatkin molluscs, 1860-69 diatoms, and the 1892 Histological Catalogue",
+      "function": "document historical intellectual/collection ordering"
+    },
+    {
+      "system": "HSM museum inventory",
+      "address": "container inventory number + drawer ID + slide ID + specimen ID",
+      "function": "translate physical holdings into museum/database hierarchy"
+    },
+    {
+      "system": "Small Worlds digital catalogue",
+      "address": "persistent catalogue pages exposing parent-child coordinates and images",
+      "function": "make the modern re-addressed collection publicly searchable"
+    }
+  ],
+  "grades": {
+    "RMS_cabinet_survival_at_HSM": "S",
+    "institutional_scale_and_date_range": "S",
+    "modern_container_drawer_slide_specimen_database_architecture": "S",
+    "same_institution_RMS_manuscript_and_archive_ecology": "S",
+    "specific_historical_RMS_catalogue_entry_to_specific_surviving_slide": "OPEN",
+    "specific_project_journal_event_to_specific_surviving_slide": "OPEN"
+  },
+  "critical_guards": [
+    "Do not assume that every Small Worlds catalogue record belongs to the single RMS cabinet. The database covers the Museum's broader microscopical-specimen collection.",
+    "Do not assume MSS Royal Microscopical Society nos. 5, 13 or 18 are catalogues of the surviving RMS cabinet until historical numbers, maker names, subjects, drawer order or labels are compared.",
+    "The modern container/drawer/slide/specimen hierarchy is a museum/database address system created by cataloguing. It should not be back-projected as the nineteenth-century RMS storage ontology.",
+    "Permanent-loan / deposited-on-loan / purchased-presented manuscript statuses belong to different collection layers and must remain distinct."
+  ],
+  "research_payoff": "Oxford provides the institutional-scale counterpart to Cole. Cole shows a small publication-specific cabinet whose fixed numbers bind glass back to print. Oxford shows a large society cabinet that survived long enough to be translated into a modern nested database while related RMS manuscript catalogues and archival records remain available in the same museum. The next historical question is therefore not survival but crosswalk: which old catalogue address became which modern cabinet/database address?",
+  "next_bounded_actions": [
+    "Take MSS Royal Microscopical Society 5 (Gwatkin molluscs), 13 (mainly diatoms, 1860-69), or 18 (Histological Catalogue, 1892) as a bounded historical list.",
+    "Extract two or three diagnostic entries containing maker/subject/number language.",
+    "Search the Small Worlds catalogue for exact maker/subject/label matches and compare container/drawer/slide coordinates.",
+    "Promote to item-level S only where an independent historical address and modern object identity converge; otherwise retain architecture-level S."
+  ]
+}
