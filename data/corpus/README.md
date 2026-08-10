@@ -1,10 +1,12 @@
 # Microscopy corpus publication layer
 
-Compact repository/Pages export derived from seven canonical microscopy masters. This directory is a navigation and results layer, not a replacement for the source masters or the frozen surviving-object survey.
+Compact repository/Pages export derived from seven canonical microscopy masters. This directory is a navigation/results layer, not a replacement for the source masters, the frozen surviving-object survey, or the current analysis authority.
 
 ## Current manifest
 
-`CORPUS_MANIFEST_V5.json` is the current publication contract. It records:
+`CORPUS_MANIFEST_V6.json` is the current publication contract. It preserves the V5 corpus/BNA counts and source-master fingerprints while refreshing the public research-output index to the 2026-08-10 repository state.
+
+Current published counts are:
 
 - 142 core document/bibliographic entries;
 - 60 extension document entries;
@@ -13,9 +15,9 @@ Compact repository/Pages export derived from seven canonical microscopy masters.
 - 71 BNA year-yield rows;
 - 930 compact BNA event clusters;
 - 995 compact newspaper-yield rows;
-- 22 indexed research outputs.
+- 41 curated current/foundational research outputs.
 
-The manifest also records byte sizes and SHA-256 fingerprints for all seven canonical source masters.
+The seven canonical source-master byte sizes and SHA-256 fingerprints are unchanged from V5.
 
 ## Published compact files
 
@@ -24,22 +26,22 @@ The manifest also records byte sizes and SHA-256 fingerprints for all seven cano
 - `CORE_DOCUMENTS_V4_01.json` … `CORE_DOCUMENTS_V4_07.json` — all 142 core document-level entries.
 - `EXTENDED_DOCUMENTS_V4_01.json` … `EXTENDED_DOCUMENTS_V4_04.json` — all 60 extension entries plus 2 structured-OCR sources.
 
-The `V4` filenames are retained deliberately: those registry chunks were unchanged when the publication contract advanced to V5. V5 composes the unchanged V4 registries with the later complete BNA-derived export; the mixed suffixes therefore preserve derivation history rather than indicating two competing current datasets.
+The V4 filenames are deliberately retained because those registry chunks did not change when later manifest/BNA publication contracts advanced. Suffix differences preserve derivation history rather than indicating competing current datasets.
 
 ### BNA compact layers
 
 - `BNA_META_V4.json` — source-master counts and omission ledger.
 - `BNA_QUERY_YIELD_V4.json` — all 43 query-yield rows.
 - `BNA_YEAR_YIELD_V4.json` — all 71 year-yield rows.
-- `BNA_DERIVED_INDEX_V5.json` — file map for the full derived tables.
+- `BNA_DERIVED_INDEX_V5.json` — file map for the full compact derived tables.
 - `BNA_EVENT_CLUSTERS_COMPACT_V5_01.json` … `_05.json` — all 930 event clusters.
 - `BNA_NEWSPAPER_YIELD_COMPACT_V5_01.json` … `_05.json` — all 995 newspaper-yield rows.
 
-Event-cluster rows preserve cluster ID, type, record count, representative BNA record ID and exceptional clustering basis. Repeated standard clustering/review prose is stored once per chunk rather than copied into every row. Newspaper-yield rows preserve newspaper title plus A/B/C/X grade counts.
-
 ### Research outputs
 
-`RESEARCH_OUTPUTS_V4.json` indexes the current closure/audit files, 155-derived analysis, object-to-text bridges, source targets, Naples catalogue/circulation work, harvesting evidence and research logs. As with the registry chunks, the V4 filename is retained because the ledger itself did not change when the BNA-derived publication layer advanced to V5.
+`RESEARCH_OUTPUTS_V6.json` is the current curated research-output index. It includes top-level/current-state manifests, frozen-survey closure files, object↔text work, Cole/material-publication analysis, Balfour, Challenger, Elcock, Naples, trade/addressing infrastructure, reverse-index bridges, harvest evidence, bibliography/source manifests and site architecture.
+
+`RESEARCH_OUTPUTS_V4.json` is the 2026-08-09 22-output predecessor snapshot. `RESEARCH_OUTPUTS_V5.json` is a transient 2026-08-10 draft and is superseded by V6. Neither should be used for current publication counts.
 
 ## Deliberately omitted bulk
 
@@ -50,14 +52,14 @@ The following remain only in the canonical masters:
 - structured-OCR page arrays;
 - 9,365 article-level BNA record payloads and raw OCR.
 
-This is a duplication rule, not a loss rule: the V5 manifest fingerprints the source masters so the compact layer remains traceable to the bulky canonical data.
+This is a duplication rule, not a loss rule. The manifest fingerprints the source masters so the compact publication layer remains traceable to the bulky canonical data.
 
-## Schema notes
+## Authority order
 
-Core and extension registries preserve source-level identifiers and document/bibliographic metadata needed for navigation. They do not reconstruct omitted page/article/full-text payloads. BNA query/year report values remain strings when that is how the canonical report tables export them; downstream consumers may cast numeric cells for aggregation.
+For source text and raw record payloads, use the canonical masters. For frozen object membership, use `data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json`. For current derived research status, use `data/analysis/CURRENT_STATE.json`. `CORPUS_MANIFEST_V6.json` and the compact files here are publication/navigation derivatives.
 
-The frozen 155 object catalogue is a separate evidence layer with its own closure contract. No compact-corpus row changes frozen object membership.
+The frozen 155 object catalogue is therefore separate from this corpus publication layer; no compact-corpus row changes frozen membership.
 
-## Validation
+## Validation and predecessors
 
-`PUBLICATION_CHECK_V5_2026-08-09.json` records the current compact-publication counts. `CORPUS_MANIFEST_V4.json` is retained as a dated predecessor manifest for provenance; V5 is current.
+`PUBLICATION_CHECK_V5_2026-08-09.json` remains the last count check for the unchanged core/extension/BNA compact payload. `CORPUS_MANIFEST_V4.json` and `CORPUS_MANIFEST_V5.json` remain dated predecessors. Repository-level structural consistency is checked by `scripts/validate_repository_state.py`.
