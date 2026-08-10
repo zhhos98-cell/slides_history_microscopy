@@ -5,8 +5,9 @@ This script is deliberately non-destructive. It reads only current bibliography
 chunks and canonical source-registry routes, checks unique HTTP(S) URLs, and writes
 a machine-readable JSON plus a Markdown summary. It never rewrites source rows.
 
-Exit status is always zero unless the audit itself cannot run. Dead/blocked/timeout
-results are evidence for review, not CI failures.
+Exit status is always zero unless the audit itself cannot run. HTTP failures are
+review signals rather than automatic deletion rules. In particular, 404/410 and
+416 responses are retried without a Range header before classification.
 """
 
 from __future__ import annotations
@@ -26,9 +27,11 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
-USER_AGENT = "MicroscopeSlidesInMotion-LinkAudit/1.0 (+https://github.com/zhhos98-cell/slides_history_microscopy)"
+AUDIT_UA = "MicroscopeSlidesInMotion-LinkAudit/1.1 (+https://github.com/zhhos98-cell/slides_history_microscopy)"
+BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
 SOFT_REACHABLE = {401, 403, 405, 406, 409, 418, 423, 425, 429, 451}
 DEAD_CODES = {404, 410}
+RETRY_WITHOUT_RANGE = DEAD_CODES | {416}
 
 
 def load_json(rel: str) -> Any:
@@ -60,13 +63,13 @@ def parse_bibliography_urls() -> dict[str, list[dict[str, str]]]:
 
 def parse_source_registry_urls() -> dict[str, list[dict[str, str]]]:
     manifest = load_json("sources/source-registry-manifest.json")
-    superseded = set((manifest.get("superseded_ids") or {}).keys())
+    suppressed = set((manifest.get("superseded_ids") or {}).keys()) | set((manifest.get("excluded_ids") or {}).keys())
     by_url: dict[str, list[dict[str, str]]] = defaultdict(list)
     canonical_count = 0
     for chunk in manifest["chunks"]:
         payload = load_json(f"sources/{chunk}")
         for row in payload.get("records", []):
-            if row["id"] in superseded:
+            if row["id"] in suppressed:
                 continue
             canonical_count += 1
             for field in ["url", "secondary_url"]:
@@ -79,7 +82,7 @@ def parse_source_registry_urls() -> dict[str, list[dict[str, str]]]:
                     "title": row["collection"],
                     "label": field,
                 })
-    expected = manifest.get("canonical_record_count")
+    expected = (manifest.get("counts") or {}).get("canonical_records")
     if expected is not None and canonical_count != expected:
         raise RuntimeError(f"source-registry canonical count {canonical_count} != manifest {expected}")
     return by_url
@@ -91,7 +94,9 @@ def classify_http(code: int) -> str:
     if code in SOFT_REACHABLE:
         return "reachable_but_restricted"
     if code in DEAD_CODES:
-        return "dead"
+        return "dead_candidate"
+    if code == 416:
+        return "range_error_review"
     if 400 <= code < 500:
         return "client_error_review"
     if 500 <= code < 600:
@@ -99,39 +104,21 @@ def classify_http(code: int) -> str:
     return "review"
 
 
-def check_url(url: str, timeout: float) -> dict[str, Any]:
-    started = time.monotonic()
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml,application/json,text/plain,*/*;q=0.5",
-            "Range": "bytes=0-2047",
-        },
-        method="GET",
-    )
+def request_once(url: str, timeout: float, *, use_range: bool, browser_ua: bool) -> dict[str, Any]:
+    headers = {
+        "User-Agent": BROWSER_UA if browser_ua else AUDIT_UA,
+        "Accept": "text/html,application/xhtml+xml,application/json,text/plain,*/*;q=0.5",
+    }
+    if use_range:
+        headers["Range"] = "bytes=0-2047"
+    req = urllib.request.Request(url, headers=headers, method="GET")
     try:
         with urllib.request.urlopen(req, timeout=timeout) as response:
             code = int(response.getcode() or 0)
-            final_url = response.geturl()
             response.read(2048)
-            return {
-                "status": classify_http(code),
-                "http_status": code,
-                "final_url": final_url,
-                "redirected": final_url.rstrip("/") != url.rstrip("/"),
-                "elapsed_ms": round((time.monotonic() - started) * 1000),
-                "error": None,
-            }
+            return {"http_status": code, "final_url": response.geturl(), "error": None}
     except urllib.error.HTTPError as exc:
-        return {
-            "status": classify_http(exc.code),
-            "http_status": int(exc.code),
-            "final_url": exc.geturl() or url,
-            "redirected": (exc.geturl() or url).rstrip("/") != url.rstrip("/"),
-            "elapsed_ms": round((time.monotonic() - started) * 1000),
-            "error": f"HTTPError: {exc.reason}",
-        }
+        return {"http_status": int(exc.code), "final_url": exc.geturl() or url, "error": f"HTTPError: {exc.reason}"}
     except urllib.error.URLError as exc:
         reason = exc.reason
         if isinstance(reason, socket.timeout):
@@ -143,23 +130,41 @@ def check_url(url: str, timeout: float) -> dict[str, Any]:
         else:
             text = str(reason).lower()
             status = "timeout_review" if "timed out" in text else "network_error_review"
-        return {
-            "status": status,
-            "http_status": None,
-            "final_url": url,
-            "redirected": False,
-            "elapsed_ms": round((time.monotonic() - started) * 1000),
-            "error": f"URLError: {reason}",
-        }
-    except Exception as exc:  # diagnostic fallback
-        return {
-            "status": "network_error_review",
-            "http_status": None,
-            "final_url": url,
-            "redirected": False,
-            "elapsed_ms": round((time.monotonic() - started) * 1000),
-            "error": f"{type(exc).__name__}: {exc}",
-        }
+        return {"http_status": None, "final_url": url, "error": f"URLError: {reason}", "network_status": status}
+    except Exception as exc:
+        return {"http_status": None, "final_url": url, "error": f"{type(exc).__name__}: {exc}", "network_status": "network_error_review"}
+
+
+def check_url(url: str, timeout: float) -> dict[str, Any]:
+    started = time.monotonic()
+    attempts: list[dict[str, Any]] = []
+
+    first = request_once(url, timeout, use_range=True, browser_ua=False)
+    attempts.append({"mode": "range_audit_ua", **first})
+    code = first.get("http_status")
+
+    final = first
+    if code in RETRY_WITHOUT_RANGE:
+        second = request_once(url, timeout, use_range=False, browser_ua=True)
+        attempts.append({"mode": "full_browser_ua", **second})
+        final = second
+
+    final_code = final.get("http_status")
+    if final_code is None:
+        status = final.get("network_status", "network_error_review")
+    else:
+        status = classify_http(int(final_code))
+
+    final_url = final.get("final_url") or url
+    return {
+        "status": status,
+        "http_status": final_code,
+        "final_url": final_url,
+        "redirected": final_url.rstrip("/") != url.rstrip("/"),
+        "elapsed_ms": round((time.monotonic() - started) * 1000),
+        "error": final.get("error"),
+        "attempts": attempts,
+    }
 
 
 def main() -> int:
@@ -184,30 +189,26 @@ def main() -> int:
             url = pending[done]
             results[url] = done.result()
 
-    rows = []
-    for url in urls:
-        result = {"url": url, **results[url], "references": refs[url]}
-        rows.append(result)
-
+    rows = [{"url": url, **results[url], "references": refs[url]} for url in urls]
     counts = Counter(r["status"] for r in rows)
-    dead = [r for r in rows if r["status"] == "dead"]
-    review = [r for r in rows if r["status"].endswith("_review")]
+    dead_candidates = [r for r in rows if r["status"] == "dead_candidate"]
+    review = [r for r in rows if r["status"].endswith("_review") or r["status"] == "dead_candidate"]
     restricted = [r for r in rows if r["status"] == "reachable_but_restricted"]
     redirects = [r for r in rows if r["redirected"]]
 
     timestamp = datetime.now(timezone.utc).isoformat()
     payload = {
-        "schema_version": "1.0.0-external-link-audit",
+        "schema_version": "1.1.0-external-link-audit",
         "generated_utc": timestamp,
-        "scope": "Current 206-row bibliography + canonical source-registry routes only; historical snapshots excluded.",
+        "scope": "Current 206-row bibliography + canonical source-registry routes only; superseded, excluded and historical snapshot rows omitted.",
         "method": {
-            "request": "HTTP GET with small Range request, redirects followed",
+            "request": "HTTP GET with small Range request; 404/410/416 retried without Range using a browser-style user agent; redirects followed",
             "timeout_seconds": args.timeout,
             "workers": args.workers,
             "classification": {
                 "ok": "2xx/3xx",
                 "reachable_but_restricted": sorted(SOFT_REACHABLE),
-                "dead": sorted(DEAD_CODES),
+                "dead_candidate": "404/410 after no-Range retry; manual verification still required",
                 "*_review": "other 4xx/5xx/network/TLS/DNS/timeout states; manual verification required",
             },
         },
@@ -217,7 +218,7 @@ def main() -> int:
             "source_registry_unique_urls": len(src),
             "by_status": dict(sorted(counts.items())),
             "redirected": len(redirects),
-            "dead": len(dead),
+            "dead_candidates": len(dead_candidates),
             "review": len(review),
             "restricted": len(restricted),
         },
@@ -245,15 +246,16 @@ def main() -> int:
     ]
     for key, value in sorted(counts.items()):
         lines.append(f"- `{key}`: **{value}**")
-    lines.extend(["", "## Dead (404/410)", ""])
-    if dead:
-        for row in dead:
+    lines.extend(["", "## Dead candidates (404/410 after retry)", ""])
+    if dead_candidates:
+        for row in dead_candidates:
             lines.append(f"- `{row['http_status']}` {row['url']} — {fmt_refs(row)}")
     else:
         lines.append("- None.")
     lines.extend(["", "## Manual review", ""])
-    if review:
-        for row in review:
+    other_review = [r for r in review if r["status"] != "dead_candidate"]
+    if other_review:
+        for row in other_review:
             lines.append(f"- `{row['status']}` / `{row['http_status']}` {row['url']} — {fmt_refs(row)} — {row['error'] or ''}")
     else:
         lines.append("- None.")
@@ -273,7 +275,7 @@ def main() -> int:
         "",
         "## Interpretation rule",
         "",
-        "A 404/410 is a strong dead-pointer signal. 401/403/429 and similar results are retained as reachable-but-restricted because institutional anti-bot controls can block automated clients while the page remains live. Timeouts, TLS/DNS failures and 5xx responses require manual follow-up before any source row is rewritten.",
+        "No automated result deletes a source row. 404/410 becomes a dead candidate only after a second request without Range; it still requires manual confirmation. 401/403/429 and similar results are retained as reachable-but-restricted because institutional anti-bot controls can block automated clients while the page remains live. Timeouts, TLS/DNS failures and 5xx responses require manual follow-up before any source row is rewritten.",
         "",
     ])
     md_path.write_text("\n".join(lines), encoding="utf-8")
