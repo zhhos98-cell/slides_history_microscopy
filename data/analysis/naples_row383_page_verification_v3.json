@@ -1,9 +1,10 @@
 {
-  "schema_version": "3.0.0-naples-row383-verification",
+  "schema_version": "3.1.0-naples-row383-verification",
   "generated": "2026-08-10",
   "title": "Naples 1880/81 microscope-slide catalogue no. 383 ↔ St Andrews BPM/1/T8/6",
-  "builds_on": "data/analysis/naples_standrews_surviving_slide_candidates_v2.json",
-  "status": "PAGE_IMAGE_VERIFICATION_ATTEMPTED__ROW_383_TEXT_NOT_RECOVERED__CANDIDATE_REMAINS_OPEN",
+  "status": "SUPERSEDED_BY_LOCAL_PRIMARY_SOURCE_CLOSURE_V4",
+  "superseded_by": "data/analysis/naples_row383_object_catalogue_closure_v4.json",
+  "historical_note": "This file records the earlier web/page-image verification attempt. That attempt could not recover row 383 from the indexed BHL interface and therefore correctly left the candidate open at that stage. A later File Library search recovered the locally held primary OCR and structured 423-row catalogue, which directly resolve the row text. Preserve this file as an audit trail for the failed web route rather than as the current claim state.",
   "st_andrews_object": {
     "repository": "University of St Andrews Libraries and Museums",
     "collection": "Bell-Pettigrew Zoology microscope slide collection",
@@ -11,54 +12,16 @@
     "id": "BPM/1/T8/6",
     "url": "https://collections.st-andrews.ac.uk/item/delphinus-phocaena/2082616",
     "catalogued_title": "Delphinus phocaena",
-    "object_description": "A red specimen in a round specimen window with light-orange STAZIONE ZOOLOG / NAPOLI labels.",
-    "left_label": "Delphinus phocaena",
-    "right_label_transcription": "Panis 383",
-    "former_st_andrews_address": "12/D/3",
-    "current_st_andrews_address": "BPM/1/T8/6; pigeon-hole T8"
+    "right_label_transcription": "Panis 383"
   },
-  "historical_catalogue": {
-    "title": "Preis-Verzeichnis der durch die Zoologische Station zu beziehenden mikroskopischen Präparate",
-    "author_attribution": "Anton Dohrn",
-    "journal": "Mittheilungen aus der Zoologischen Station zu Neapel, vol. 2",
-    "publication_date": 1881,
-    "source_signature_date": "August 1880",
-    "article_pages": "238-253",
-    "bhl_item": "37442",
-    "bhl_url": "https://www.biodiversitylibrary.org/item/37442",
-    "internet_archive_identifier": "mittheilungenaus02staz",
-    "numbered_offerings": 423,
-    "derived_mammalia_range": "373-405",
-    "range_basis": "Sequential catalogue parsing and subgroup counts in NAPLES_1880_CATALOGUE_423_PARSE_MANIFEST_V1.json"
+  "earlier_verification_attempt": {
+    "result_at_time": "BHL/article container and Mammalia range were verified, but row 383 itself was not recovered from the indexed web interface.",
+    "correct_guard_at_time": "Do not promote shared number/taxon structure to catalogue-offering identity without reading the row."
   },
-  "verification_attempt": {
-    "successful": [
-      "Reverified the official St Andrews item record and exact manuscript label transcription 'Panis 383'.",
-      "Reverified the BHL item and article bibliographic range 238-253.",
-      "Confirmed from the existing complete catalogue parse that 383 lies inside the derived Mammalia block 373-405."
-    ],
-    "blocked": [
-      "Search-index access did not surface the individual BHL page OCR/image containing row 383.",
-      "The available web interface exposed the book/article container but not the decisive row text in a retrievable form during this pass."
-    ],
-    "result": "The numerical/taxonomic alignment remains structurally plausible but is not an item-level catalogue-number closure."
+  "later_resolution": {
+    "local_primary_source": "mittheilungenaus02staz_djvu.txt",
+    "row_sequence": ["382. Delphinus phocaena L. Milz","383. - - Penis","384. - - Hode","385. - - Niere"],
+    "current_claim": "Catalogue offering 383 is Delphinus phocaena L., Penis; BPM/1/T8/6 corresponds to offering 383 at S/A++ level from station + taxon + exact-number agreement, while the Panis/Penis transcription discrepancy remains explicit."
   },
-  "critical_guard": {
-    "do_not_expand_panis": "Do not normalize or expand the St Andrews transcription 'Panis' to pancreas, penis, an abbreviation or another anatomical term without the slide image and historical row wording.",
-    "do_not_treat_383_as_catalogue_number_yet": "The number is only a candidate Naples catalogue address until row 383 is read directly and label grammar is compared with other Station slides.",
-    "taxonomy_note": "The historical label Delphinus phocaena is sufficient for object-side comparison; modern taxonomic normalization is a separate layer and should not replace the historical wording in the crosswalk."
-  },
-  "cheap_next_test": [
-    "Retrieve the page image/OCR for catalogue row 383 from BHL item 37442 or Internet Archive mittheilungenaus02staz.",
-    "Record rows 382-384 verbatim, including price column, preparation/anatomical wording and any ditto marks.",
-    "Compare row 383 against both St Andrews Delphinus phocaena BPM/1/T8/6 and the separate St Andrews Delphinus slide BPM/1/U12/12/B/1/7 whose label explicitly includes SKIN.",
-    "Check whether other St Andrews Naples slides carry a comparable right-label number grammar before interpreting 383 as a catalogue number."
-  ],
-  "grading": {
-    "st_andrews_object_identity": "S",
-    "catalogue_structure": "S/A+",
-    "383_as_original_catalogue_number": "A candidate only",
-    "object_to_catalogue_row_closure": "OPEN"
-  },
-  "research_payoff": "The failed cheap test is still useful because it prevents a false S-level closure. The slide already preserves three distinct address layers—Naples institutional/taxonomic labelling, the unresolved '383' inscription, and successive St Andrews storage addresses. Row 383 remains the single decisive missing relation."
+  "current_grade_pointer": "See naples_row383_object_catalogue_closure_v4.json for current grading and guards."
 }
