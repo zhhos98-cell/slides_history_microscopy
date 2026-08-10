@@ -41,7 +41,7 @@ The V4 filenames are deliberately retained because those registry chunks did not
 
 `RESEARCH_OUTPUTS_V6.json` is the current curated research-output index. It includes top-level/current-state manifests, frozen-survey closure files, object↔text work, Cole/material-publication analysis, Balfour, Challenger, Elcock, Naples, trade/addressing infrastructure, reverse-index bridges, harvest evidence, bibliography/source manifests and site architecture.
 
-`RESEARCH_OUTPUTS_V4.json` is the 2026-08-09 22-output predecessor snapshot. `RESEARCH_OUTPUTS_V5.json` is a transient 2026-08-10 draft and is superseded by V6. Neither should be used for current publication counts.
+`RESEARCH_OUTPUTS_V4.json` is the 2026-08-09 22-output predecessor snapshot and remains for provenance. A transient 2026-08-10 draft between V4 and V6 was removed during repository cleanup because it was never an authoritative publication state.
 
 ## Deliberately omitted bulk
 
