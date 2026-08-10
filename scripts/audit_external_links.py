@@ -27,6 +27,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+AUDIT_SCHEMA = "1.1.0-external-link-audit"
 AUDIT_UA = "MicroscopeSlidesInMotion-LinkAudit/1.1 (+https://github.com/zhhos98-cell/slides_history_microscopy)"
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
 SOFT_REACHABLE = {401, 403, 405, 406, 409, 418, 423, 425, 429, 451}
@@ -198,7 +199,7 @@ def main() -> int:
 
     timestamp = datetime.now(timezone.utc).isoformat()
     payload = {
-        "schema_version": "1.1.0-external-link-audit",
+        "schema_version": AUDIT_SCHEMA,
         "generated_utc": timestamp,
         "scope": "Current 206-row bibliography + canonical source-registry routes only; superseded, excluded and historical snapshot rows omitted.",
         "method": {
