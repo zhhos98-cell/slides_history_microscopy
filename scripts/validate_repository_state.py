@@ -81,6 +81,7 @@ def validate_bibliography() -> None:
     expected_fields = manifest["schema_fields"]
     seen: set[str] = set()
     rows: list[dict[str, str]] = []
+    row_by_id: dict[str, dict[str, str]] = {}
     url_to_ids: dict[str, list[str]] = defaultdict(list)
     doi_to_ids: dict[str, list[str]] = defaultdict(list)
 
@@ -94,6 +95,7 @@ def validate_bibliography() -> None:
                 ident = (row.get("id") or "").strip()
                 assert ident and ident not in seen, f"duplicate/blank bibliography id: {ident!r}"
                 seen.add(ident)
+                row_by_id[ident] = row
                 for required in ["year", "section", "title", "citation", "verification"]:
                     assert (row.get(required) or "").strip(), f"blank bibliography {required}: {ident}"
                 section = (row.get("section") or "").strip().lower()
@@ -115,12 +117,18 @@ def validate_bibliography() -> None:
     assert "bibliography.csv" in legacy, "legacy static bibliography.csv must be explicitly quarantined"
     assert_path("bibliography/README.md")
 
-    duplicate_dois = {doi: ids for doi, ids in doi_to_ids.items() if len(set(ids)) > 1}
-    duplicate_urls = {url: ids for url, ids in url_to_ids.items() if len(set(ids)) > 1}
+    duplicate_dois = {doi: sorted(set(ids)) for doi, ids in doi_to_ids.items() if len(set(ids)) > 1}
+    duplicate_urls = {url: sorted(set(ids)) for url, ids in url_to_ids.items() if len(set(ids)) > 1}
     if duplicate_dois:
-        print(f"  NOTE bibliography repeated DOI routes: {len(duplicate_dois)} (may be shared verification links)")
+        print(f"  NOTE bibliography repeated DOI routes: {len(duplicate_dois)}")
+        for doi, ids in sorted(duplicate_dois.items()):
+            labels = " | ".join(f"{ident} :: {row_by_id[ident]['title']}" for ident in ids)
+            print(f"    DOI {doi} => {labels}")
     if duplicate_urls:
-        print(f"  NOTE bibliography repeated URLs: {len(duplicate_urls)} (may be shared institutional/source routes)")
+        print(f"  NOTE bibliography repeated URLs: {len(duplicate_urls)}")
+        for url, ids in sorted(duplicate_urls.items()):
+            labels = " | ".join(f"{ident} :: {row_by_id[ident]['title']}" for ident in ids)
+            print(f"    URL {url} => {labels}")
 
 
 def validate_analysis() -> None:
@@ -160,6 +168,7 @@ def validate_source_registry() -> None:
     manifest = load_json("sources/source-registry-manifest.json")
     chunks = manifest["chunks"]
     seen: set[str] = set()
+    record_by_id: dict[str, dict] = {}
     url_to_ids: dict[str, list[str]] = defaultdict(list)
     record_count = 0
     allowed_relations = set(manifest["relation_values"])
@@ -174,6 +183,7 @@ def validate_source_registry() -> None:
             ident = (record.get("id") or "").strip()
             assert ident and ident not in seen, f"duplicate/blank source-registry id: {ident!r}"
             seen.add(ident)
+            record_by_id[ident] = record
             for required in ["collection", "type", "relation", "url"]:
                 assert record.get(required), f"blank source-registry {required}: {ident}"
             assert record["relation"] in allowed_relations, f"invalid source relation {record['relation']!r}: {ident}"
@@ -183,9 +193,12 @@ def validate_source_registry() -> None:
 
     assert record_count > 0
     assert_path("sources/README.md")
-    duplicate_urls = {url: ids for url, ids in url_to_ids.items() if len(set(ids)) > 1}
+    duplicate_urls = {url: sorted(set(ids)) for url, ids in url_to_ids.items() if len(set(ids)) > 1}
     if duplicate_urls:
-        print(f"  NOTE source-registry repeated URLs: {len(duplicate_urls)} (allowed when one institutional route supports multiple records)")
+        print(f"  NOTE source-registry repeated URLs: {len(duplicate_urls)}")
+        for url, ids in sorted(duplicate_urls.items()):
+            labels = " | ".join(f"{ident} :: {record_by_id[ident]['collection']}" for ident in ids)
+            print(f"    URL {url} => {labels}")
     print(f"  checked {record_count} source-registry records")
 
 
