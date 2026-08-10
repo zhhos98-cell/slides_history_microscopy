@@ -1,8 +1,8 @@
 {
-  "schema_version": "3.1.0-current-closure-router",
+  "schema_version": "3.1.1-current-closure-router",
   "updated": "2026-08-10",
   "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__FOUR_EXACT_SOURCE_REQUESTS_ONLY",
-  "purpose": "Operational router after the UK/US/Europe closure pass exhausted the public indexed layer. Remaining work is exact source access, not discovery. Naples row 383 has now been closed from the locally held primary catalogue OCR.",
+  "purpose": "Operational router after the UK/US/Europe closure pass exhausted the public indexed layer. Remaining work is exact source access, not discovery. Naples row 383 has now been closed from the locally held primary catalogue OCR, and the four remaining exact sources have been rechecked against the user's File Library.",
   "principle": "A next action must be capable of changing attribution, chronology, object identity or mechanism. Geographic coverage, repeated web searching and collection-count growth are not active goals.",
   "scope": {
     "primary": "UK nineteenth-century microscopy",
@@ -18,6 +18,7 @@
       "rank": 1,
       "target": "Charles Elcock — St Andrews ms21974-ms21975",
       "source_needed": "page images or transcription of the two letters",
+      "local_recheck": "No exact manuscript images/transcript found in File Library; locator/analysis metadata only.",
       "why": "Catalogue metadata securely records a Challenger-samples reference but shows that the correspondence is principally antiquarian/medal discussion; sender/sample/station/purpose cannot be recovered from public metadata.",
       "stop": "No broad Elcock/St Andrews search."
     },
@@ -25,6 +26,7 @@
       "rank": 2,
       "target": "NHM HMS Challenger dataset",
       "source_needed": "current 4,723-row resource binary",
+      "local_recheck": "No current dataset binary found in File Library; diagnostic metadata and secondary Challenger sources are already present.",
       "why": "Address architecture and named diagnostic preparations are already closed. The remaining task is a complete mechanical row harvest.",
       "stop": "No general Challenger web sweep."
     },
@@ -32,6 +34,7 @@
       "rank": 3,
       "target": "Balfour surviving Zeiss objectives",
       "source_needed": "ZEISS archive guidance or accessory/objective dispatch evidence for engravings 573, 1295, 710, 780, 542",
+      "local_recheck": "No ZEISS dispatch/accessory register matching the five objective engravings found in File Library; Balfour publication/caption evidence is already present.",
       "why": "ZEISS public production lists are organized around microscope/stand serials and accessories; the five objective engravings do not currently resolve to public dispatch records. The printed designation-level use layer is already S.",
       "stop": "Do not equate objective engravings with stand-number sequences."
     },
@@ -39,6 +42,7 @@
       "rank": 4,
       "target": "John Thomas Norman 1872 catalogue → St Andrews",
       "source_needed": "complete Norman item/export layer with addresses and label transcription",
+      "local_recheck": "No complete 1872 catalogue-row file or St Andrews Norman item export found in File Library. Existing UK/BNA and Northern Microscopist records enrich event/reception context but do not supply the required object-address layer.",
       "why": "The public group record confirms the 2,584-entry catalogue and surviving Norman group but says the slides remain scattered in situ; no usable public child-item layer is exposed.",
       "stop": "No taxonomy-based reconstruction of item identity."
     }
@@ -74,6 +78,7 @@
   "reference_outputs": [
     "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
     "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
+    "data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json",
     "data/analysis/naples_row383_object_catalogue_closure_v4.json",
     "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
     "data/analysis/challenger_dataset_row_harvest_v2.json",
