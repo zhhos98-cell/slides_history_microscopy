@@ -15,6 +15,8 @@ For operational work, read in this order:
 
 The current state is: frozen survey **307 discovery / 155 strict nineteenth-century nodes**; bibliography **pass 19 / 206 entries**; public-web discovery queue **0**; exact-source request queue **4**. Naples catalogue offering 383 is closed to St Andrews `BPM/1/T8/6` at catalogue-offering identity level and is no longer an active residual.
 
+`../../scripts/validate_current_analysis_state.py` provides a lightweight consistency check against the frozen survey closure manifest, bibliography manifest, live router and current Naples closure.
+
 ## Current modules
 
 ### `slide_155_analysis_v1/`
@@ -38,8 +40,8 @@ Version suffixes are research states, not competing authorities. Preserve them, 
 Important examples:
 
 - `naples_row383_page_verification_v3.json` is a retained negative page-retrieval check; it is superseded by `naples_row383_object_catalogue_closure_v4.json`.
-- `uk_us_europe_closure_batch_2026-08-10_v1.json` and `_v2.json` are historical batch snapshots; the live router is `global_archive_research_priority_CURRENT.json`.
-- `uk_us_europe_closure_residuals_2026-08-10_v3.json` records the five-item residual state before local Naples OCR removed one request.
+- `uk_us_europe_closure_batch_2026-08-10_v1.json` and `_v2.json` are historical batch snapshots.
+- `uk_us_europe_closure_residuals_2026-08-10_v3.json` is the cleaned dated residual audit recording the terminal four exact-source requests and the Naples closure; it is accurate, but the live operational router is still `global_archive_research_priority_CURRENT.json`.
 - `four_target_execution_status_2026-08-10.json` is an execution snapshot, not a live task list.
 - older `global_archive_research_priority_v*.json` files are historical; only the `_CURRENT.json` file is operational.
 
