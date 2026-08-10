@@ -1,0 +1,13 @@
+# Museo de La Plata: Möller / Tempère & Peragallo upgrade — 2026-08-11
+
+The La Plata case can be promoted from a generic historical-holdings route to a **surviving numbered-series and acquisition-history case**.
+
+The División Ficología currently and explicitly retains historical collections by **J. D. Möller** and **Tempère & Peragallo**. Modern taxonomic work confirms that numbered Tempère & Peragallo second-edition slides remain operational scientific objects at LPC: **slide 64, Baffin Bay**, was examined and designated as an epitype slide in a reassessment of *Thalassiosira gravida*; a 2025 study re-examined **Tempère & Peragallo II, slide 51, Joursac**. These are direct object → series-number → locality → modern-publication crosswalks.
+
+A second upgrade comes from the Frenguelli acquisition route. A detailed UNLP historical study states that Joaquín Frenguelli acquired part of **Möller's Typenplatten** and the **Tempère & Peragallo 1907–1915 collection** as reference material. A 2025 poster by the current Museo de La Plata Ficología team further quantifies the retained J. D. Möller material as **5 arranged preparations + 117 mixed-diatom preparations = 122 preparations**, and explicitly frames these as collections acquired by Frenguelli for the Museo de La Plata.
+
+Current grade: **S current survival; S numbered Tempère & Peragallo series survival; A++/S-candidate acquisition provenance; A++ current Möller extent.** The archive route is unusually clean because the Museo de La Plata Historical Archive holds incoming/outgoing correspondence from 1884–1970 plus Frenguelli papers. A purchase invoice, correspondence item or accession list naming Möller / Tempère / Peragallo would close the transaction at S.
+
+Important guard: the securely recovered LPC slide examples in this pass belong to the **second edition / Tempère & Peragallo II (1907–1915)**. They therefore do not by themselves prove that the nineteenth-century **first edition (1889–1895)** survives at La Plata. The next bounded object query is simply an inventory/export distinguishing edition, series number, current storage address and label text. If first-edition slides are present, that nineteenth-century material-publication comparator can then be promoted separately.
+
+Analytically, La Plata differs usefully from Cole. Cole's publication stayed legible through one fixed cabinet address system; Tempère & Peragallo numbers survived absorption into a later research collection and still function as taxonomic reference addresses. Möller adds a second route in which commercial/reference preparations were acquired as comparative research tools and then institutionalized.
