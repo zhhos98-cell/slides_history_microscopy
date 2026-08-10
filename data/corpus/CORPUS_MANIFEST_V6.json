@@ -37,7 +37,7 @@
     "bna_query_yield": "BNA_QUERY_YIELD_V4.json",
     "bna_year_yield": "BNA_YEAR_YIELD_V4.json",
     "bna_derived_index": "BNA_DERIVED_INDEX_V5.json",
-    "research_outputs": "RESEARCH_OUTPUTS_V5.json"
+    "research_outputs": "RESEARCH_OUTPUTS_V6.json"
   },
   "authority": {
     "repository_state": "../../REPOSITORY_STATE.json",
