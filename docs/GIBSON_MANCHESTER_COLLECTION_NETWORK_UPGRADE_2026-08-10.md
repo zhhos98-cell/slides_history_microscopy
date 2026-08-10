@@ -1,0 +1,17 @@
+# Gibson Manchester collection-network upgrade — 2026-08-10
+
+The current evidence for the A. R. Gibson microscope-slide cabinet has been upgraded from an A+ private-cabinet comparator to an **S-level surviving mixed-cabinet/address/supplier-network case**. The decisive source is David Sigee, Stephanie Seville and Peter Mohr, “The Gibson microscope slide collection in the Museum of Medicine and Health, University of Manchester,” *Journal of the History of Collections* 37.3 (2025), 507–529, DOI `10.1093/jhc/fhaf035`.
+
+The 2025 study is based on slide-by-slide examination. It records **681 slides in 25 numbered trays**, each slide listed by its position within a tray, in a glass-fronted mahogany cabinet. **301 slides are dated**, spanning 1867–1926. **34 named suppliers** are represented and **86%** of the slides carry a producer name/initials/company label. Four suppliers account for 60% of the cabinet: F. J. Baildon 155, G. W. Chaster 93, W. Watson & Sons 79, and R. Jones 77. Fourteen suppliers are from north-west England, and their slides account for 62% of the collection.
+
+This closes the cabinet as more than an illustrative Victorian survival. Its historical information is distributed across a durable set of addresses: **tray position + producer + specimen + locality + date + preparation/viewing instruction**. The cabinet therefore preserves transaction residues even where a purchase ledger has disappeared.
+
+The older backend tray-count conflict should now be resolved operationally in favour of **25 numbered trays**. An earlier University web article described 22 trays, but the later collection work and especially the 2025 peer-reviewed, slide-by-slide study use 25. The earlier figure remains useful as an audit-history source state, not as the current physical authority.
+
+Two object-level bridges are especially strong. Slide **1.4**, sulphate of cadmium, is labelled E. Wheeler, 48 Tollington Road, Holloway, London, 1880, “For Polariscope.” It is an unusually compact maker/address/date/object/use-instruction record and should be reverse-matched to Wheeler catalogues. Slide **3.21** contains marine diatoms from the Challenger Expedition and is attributed to F. J. Baildon, Southport, 1874, with latitude, longitude and depth on the label. It supplies a separate route from expedition material into a local preparer and then a later cabinet.
+
+The article also records **one “Cole Deum” slide and two “Norman preparer” slides** among minor contributors. These are direct cross-project endpoints. They should be extracted from the museum's tray list before any broader catalogue search. The collection also contains 79 W. Watson & Sons slides, making Watson the cheapest large-scale catalogue↔surviving-object subset inside the cabinet.
+
+The **Southport Society of Natural Science provenance remains A++ / S-candidate**. The evidence is unusually convergent: the principal production/acquisition phase is 1889–98, the Society was founded in 1890, many major suppliers were local, twelve listed north-west suppliers were Society members, and Baildon was a founder and four-time president. The article itself says it “seems likely” that the collection accumulated through Society members and general viewing. That wording remains a guard. A Society inventory, cabinet list, ownership mark, or documented transfer into Gibson's custody would be required to call society ownership/formation S-level.
+
+Machine-readable authority for this upgrade: `data/analysis/gibson_manchester_collection_network_upgrade_v1.json`.
