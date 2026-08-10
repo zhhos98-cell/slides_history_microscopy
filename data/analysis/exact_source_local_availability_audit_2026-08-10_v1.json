@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0-exact-source-local-availability-audit",
+  "generated": "2026-08-10",
+  "status": "LOCAL_SOURCE_RECHECK_COMPLETE",
+  "purpose": "Before issuing archive/data requests, recheck the user's existing File Library for the exact sources required by the closure router. This avoids requesting material already held locally and records negative local-search results without treating them as institutional non-existence claims.",
+  "results": [
+    {
+      "target": "Naples catalogue offering 383",
+      "local_status": "FOUND_AND_USED",
+      "files": ["mittheilungenaus02staz_djvu.txt","NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.xlsx","NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.csv","NAPLES_1880_MICROSLIDE_CATALOGUE_423_V1.jsonl"],
+      "result": "Primary OCR and structured row data directly recover rows 382-385 and close offering 383 as Delphinus phocaena L., Penis. This removed Naples from the external request queue.",
+      "output": "data/analysis/naples_row383_object_catalogue_closure_v4.json"
+    },
+    {
+      "target": "Charles Elcock ms21974-ms21975",
+      "local_status": "NO_EXACT_MANUSCRIPT_IMAGES_OR_TRANSCRIPT_FOUND_IN_FILE_LIBRARY_SEARCH",
+      "found_instead": "Existing project analysis/locator metadata only.",
+      "request_still_needed": "St Andrews page images/transcription of ms21974-ms21975."
+    },
+    {
+      "target": "NHM Challenger current 4,723-row resource binary",
+      "local_status": "NO_CURRENT_DATASET_BINARY_FOUND_IN_FILE_LIBRARY_SEARCH",
+      "found_instead": "Frozen slide-analysis rows, secondary Challenger literature, and previously structured diagnostic dataset metadata/records.",
+      "request_still_needed": "Current NHM downloadable resource binary for complete no-early-exit row ingestion."
+    },
+    {
+      "target": "Balfour / ZEISS objective dispatch identity",
+      "local_status": "NO_ZEISS_DISPATCH_OR_ACCESSORY_REGISTER_FOR_OBJECTIVE_ENGRAVINGS_FOUND",
+      "found_instead": "Balfour publication/caption corpus with objective-designation evidence, already harvested at S designation level.",
+      "request_still_needed": "ZEISS archive guidance or dispatch/accessory register evidence for objective engravings 573, 1295, 710, 780 and 542."
+    },
+    {
+      "target": "John Thomas Norman 1872 catalogue → St Andrews item crosswalk",
+      "local_status": "NO_COMPLETE_1872_CATALOGUE_ROW_FILE_OR_ST_ANDREWS_NORMAN_ITEM_EXPORT_FOUND",
+      "found_instead": "UK/BNA evidence for Norman's 1862 exhibition and later journal reception, plus frozen St Andrews group-level metadata. A Northern Microscopist record also documents receipt of P. angulatum slides from J. T. Norman, but this does not supply the 2,584-row catalogue or current item addresses.",
+      "request_still_needed": "St Andrews Norman item/export layer; full 1872 catalogue text would also help but does not substitute for surviving-object addresses."
+    }
+  ],
+  "guard": "A negative File Library search means only that the exact source was not recovered from the user's currently searchable uploaded files. It is not evidence that the source does not exist in the institution or elsewhere.",
+  "operational_result": "Four external/exact-source requests remain. No further local broad searching is warranted until new files are added."
+}
