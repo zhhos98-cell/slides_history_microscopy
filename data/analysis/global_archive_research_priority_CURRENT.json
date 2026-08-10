@@ -1,89 +1,100 @@
 {
-  "schema_version": "3.1.1-current-closure-router",
-  "updated": "2026-08-10",
-  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__FOUR_EXACT_SOURCE_REQUESTS_ONLY",
-  "purpose": "Operational router after the UK/US/Europe closure pass exhausted the public indexed layer. Remaining work is exact source access, not discovery. Naples row 383 has now been closed from the locally held primary catalogue OCR, and the four remaining exact sources have been rechecked against the user's File Library.",
-  "principle": "A next action must be capable of changing attribution, chronology, object identity or mechanism. Geographic coverage, repeated web searching and collection-count growth are not active goals.",
+  "schema_version": "4.0.0-current-saturation-router",
+  "updated": "2026-08-11",
+  "status": "ANALYTICAL_SATURATION_REACHED__NO_ACTIVE_DISCOVERY_QUEUE",
+  "purpose": "Operational router after the 10–11 August upgrade sweep. The useful public-discovery phase is closed. Existing cases now supply enough distinct object/document mechanisms for synthesis and writing; remaining open edges are exact-source or item-level refinements.",
+  "principle": "A next action must be capable of changing attribution, chronology, object identity, custody or historical mechanism. Geographic coverage, repeated web searching, collection-count growth and generic comparator accumulation are inactive.",
   "scope": {
-    "primary": "UK nineteenth-century microscopy",
-    "secondary": "US only where a UK-linked relation is already open",
-    "europe": "already-open continental-European chains only",
-    "parked": "new geographic infrastructure and general global bibliography discovery",
+    "primary": "nineteenth-century microscopy object/document systems already present in the repository",
+    "public_web_discovery": "closed",
+    "new_geographic_infrastructure": "parked",
     "frozen_survey": "307 discovery / 155 strict nineteenth-century nodes — CLOSED_2026-08-09",
-    "bibliography": "pass 19 / 206 entries remains audit/public state; no further geographic pass is active"
+    "bibliography": "pass 19 / 206 entries — PARKED",
+    "default_next_phase": "historical synthesis, argument construction and writing"
   },
+  "active_queue": [],
   "public_web_queue": [],
-  "exact_source_request_queue": [
+  "closure_authority": "data/analysis/closure_saturation_manifest_2026-08-11.json",
+  "request_only_edges": [
     {
-      "rank": 1,
       "target": "Charles Elcock — St Andrews ms21974-ms21975",
-      "source_needed": "page images or transcription of the two letters",
-      "local_recheck": "No exact manuscript images/transcript found in File Library; locator/analysis metadata only.",
-      "why": "Catalogue metadata securely records a Challenger-samples reference but shows that the correspondence is principally antiquarian/medal discussion; sender/sample/station/purpose cannot be recovered from public metadata.",
-      "stop": "No broad Elcock/St Andrews search."
+      "source_needed": "exact letter images/transcription",
+      "why_resume": "only if sender/sample/station/purpose changes the Challenger-transfer interpretation"
     },
     {
-      "rank": 2,
       "target": "NHM HMS Challenger dataset",
-      "source_needed": "current 4,723-row resource binary",
-      "local_recheck": "No current dataset binary found in File Library; diagnostic metadata and secondary Challenger sources are already present.",
-      "why": "Address architecture and named diagnostic preparations are already closed. The remaining task is a complete mechanical row harvest.",
-      "stop": "No general Challenger web sweep."
+      "source_needed": "current 4,723-row binary",
+      "why_resume": "mechanical completeness only; address architecture already closed"
     },
     {
-      "rank": 3,
-      "target": "Balfour surviving Zeiss objectives",
-      "source_needed": "ZEISS archive guidance or accessory/objective dispatch evidence for engravings 573, 1295, 710, 780, 542",
-      "local_recheck": "No ZEISS dispatch/accessory register matching the five objective engravings found in File Library; Balfour publication/caption evidence is already present.",
-      "why": "ZEISS public production lists are organized around microscope/stand serials and accessories; the five objective engravings do not currently resolve to public dispatch records. The printed designation-level use layer is already S.",
-      "stop": "Do not equate objective engravings with stand-number sequences."
+      "target": "Balfour / ZEISS",
+      "source_needed": "archive/accessory dispatch evidence for objective engravings 573, 1295, 710, 780, 542",
+      "why_resume": "exact objective provenance; published designation-level use already S"
     },
     {
-      "rank": 4,
-      "target": "John Thomas Norman 1872 catalogue → St Andrews",
-      "source_needed": "complete Norman item/export layer with addresses and label transcription",
-      "local_recheck": "No complete 1872 catalogue-row file or St Andrews Norman item export found in File Library. Existing UK/BNA and Northern Microscopist records enrich event/reception context but do not supply the required object-address layer.",
-      "why": "The public group record confirms the 2,584-entry catalogue and surviving Norman group but says the slides remain scattered in situ; no usable public child-item layer is exposed.",
-      "stop": "No taxonomy-based reconstruction of item identity."
-    }
-  ],
-  "newly_closed": [
+      "target": "John Thomas Norman / St Andrews",
+      "source_needed": "complete item/export layer",
+      "why_resume": "item-level catalogue-to-current-address closure"
+    },
     {
-      "target": "Naples catalogue offering 383 → St Andrews BPM/1/T8/6",
-      "status": "S/A++ catalogue-offering identity CLOSED",
-      "result": "Local primary OCR gives row 383 as Delphinus phocaena L., Penis by ditto continuation from row 382. The surviving St Andrews slide has Naples Station labels, Delphinus phocaena and public right-label transcription 'Panis 383'. The object therefore corresponds to catalogue offering 383; individual-copy production/shipment history remains open.",
-      "output": "data/analysis/naples_row383_object_catalogue_closure_v4.json"
+      "target": "Oxford HSM / RMS",
+      "source_needed": "selected old manuscript-catalogue entries matched to current slide records",
+      "why_resume": "direct historical society-address to museum-address example"
+    },
+    {
+      "target": "Hunterian / John Thomas Quekett",
+      "source_needed": "selected 1850 catalogue pages plus current object records",
+      "why_resume": "promote specific catalogue-slide crosswalks to direct primary-source S"
+    },
+    {
+      "target": "Stazione Zoologica Napoli",
+      "source_needed": "1882–1884 primary report/account/copybook pages for dealer transactions",
+      "why_resume": "transaction-level dealer provenance"
+    },
+    {
+      "target": "University of Tokyo Anatomy Department",
+      "source_needed": "nos. 119/122/123 entries for Medical Faculty microscope no. 1",
+      "why_resume": "exact surviving-instrument to historical-register bridge"
+    },
+    {
+      "target": "Museo de La Plata / Frenguelli",
+      "source_needed": "acquisition documents and edition-level series inventory",
+      "why_resume": "transaction provenance and nineteenth-century edition specificity"
+    },
+    {
+      "target": "Bourgogne / Smithsonian accession 217544",
+      "source_needed": "accession file/catalog cards and full slide photography",
+      "why_resume": "test the West Point apparatus-grouping bridge"
     }
   ],
-  "closed_or_substantially_closed": [
-    "Arthur C. Cole vols I-II primary-source material-publication architecture",
-    "Cole Volume I 52-slide surviving material counterpart at near-S level",
-    "Charles Collins Jr. 1884/1885 series/event/survival chain",
-    "H. L. Smith Century III set architecture",
-    "Frederic Kitton Series III-IV set architecture",
-    "Andrew Pritchard 1835 catalogue/date/object bridge",
-    "John Thomas Norman collection-level exhibition → catalogue → survival chain",
-    "NHM Challenger address/dataset architecture and diagnostic named preparations",
-    "Balfour publication-side objective designation harvest",
-    "Harvard Embryological Collection / Minot control architecture",
-    "Quekett/Oxford Cole archive capability route",
-    "Naples catalogue offering 383 → surviving St Andrews BPM/1/T8/6 correspondence"
+  "closed_mechanism_families": [
+    "publication address persistence — Cole",
+    "cabinet circulation and named reference authority — Quekett Microscopical Club",
+    "institutional purchase, teaching and printed catalogue address — Hunterian/Quekett",
+    "workshop-to-market preparation chain — Elcock",
+    "society cabinet to museum-database re-addressing — Oxford RMS",
+    "successive institutional address translation — Cajal",
+    "cross-media sample number and microscope coordinate — Grunow",
+    "preparation identity through remounting — Pacini",
+    "estate dispersal and disciplinary re-addressing — Van Heurck",
+    "technical reference scale plus custody inscriptions — Grayson",
+    "administrative decomposition of teaching microscopy — Tokyo",
+    "course/preparations/apparatus as one pedagogical catalogue — Coimbra",
+    "distributed numbered reference series with scientific afterlife — La Plata",
+    "mixed private cabinet as supplier/society/expedition residue — Gibson",
+    "maker-series survival versus printed subscription architecture — Dundee",
+    "surviving sections plus microscopy-teaching infrastructure — Kölliker/Würzburg",
+    "correspondence transaction grammar — Haeckel",
+    "publication evidence delimiting historically possible instrument use — Balfour",
+    "research-station catalogue commodity and dealer network — Naples",
+    "delayed formal registration of an already-operating collection — Tiegs",
+    "commercial slide set absorbed into institutional accession system — Bourgogne"
   ],
-  "parked_previous_global_targets": [
-    "University of Tokyo Medical Library Anatomy Department system",
-    "Museo de La Plata Tempère & Peragallo / Möller archive route",
-    "new South Asia / Africa / Latin America / East-Southeast Asia collection-register discovery",
-    "general national/geographic searching for representativeness"
-  ],
-  "reference_outputs": [
-    "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
-    "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
-    "data/analysis/exact_source_local_availability_audit_2026-08-10_v1.json",
-    "data/analysis/naples_row383_object_catalogue_closure_v4.json",
-    "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
-    "data/analysis/challenger_dataset_row_harvest_v2.json",
-    "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
-    "data/analysis/elcock_standrews_1884_letters_v5.json"
-  ],
-  "resume_rule": "Resume a residual target only when the exact requested source becomes available or supplies a new bounded identifier. Otherwise move from backend discovery to historical analysis/writing."
+  "resume_rule": "Resume only when an exact requested source arrives, the user supplies a new object/image, or a newly bounded identifier appears. Otherwise do not search further; synthesize and write from the closed chains.",
+  "do_not_do": [
+    "No new global census pass.",
+    "No broad maker-name or institution-name searching without a bounded bridge.",
+    "No promotion from collection-level S to item-level S by inference.",
+    "No silent equivalence between historical serial numbers, accession numbers, cabinet slots and modern database IDs."
+  ]
 }
