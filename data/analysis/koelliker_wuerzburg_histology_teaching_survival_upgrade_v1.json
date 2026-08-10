@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0-koelliker-wuerzburg-upgrade",
+  "generated": "2026-08-11",
+  "title": "Albert von Kölliker at Würzburg: surviving histology collection and microscopy-teaching infrastructure",
+  "status": "S-level collection survival + institutional teaching architecture; item-level slide-to-publication crosswalk open",
+  "primary_sources": [
+    {
+      "institution": "University of Würzburg, Institute for the History of Medicine",
+      "url": "https://www.medizingeschichte.uni-wuerzburg.de/medizinhistorische_sammlung.html",
+      "evidence": "The medical-historical collections explicitly state that the histology collection from Anatomy survives and that its oldest sections are still by Albert von Koelliker."
+    },
+    {
+      "institution": "University of Würzburg, Institute of Anatomy and Cell Biology",
+      "url": "https://www.anatomie.uni-wuerzburg.de/geschichte-des-instituts/",
+      "evidence": "Institutional history identifies Koelliker as professor from 1847-1903 and as a leading histologist/cell researcher; the present anatomical collection developed under this institute."
+    },
+    {
+      "institution": "University of Würzburg, Pathology Institute historical portal",
+      "url": "https://www.pathologie.uni-wuerzburg.de/geschichte/virchow-in-wuerzburg/arbeitsalltag/kollegen/albert-koelliker/",
+      "evidence": "The university history explicitly notes that Koelliker and Virchow transformed teaching by introducing practical microscopy courses."
+    },
+    {
+      "institution": "University of Würzburg",
+      "url": "https://www.uni-wuerzburg.de/en/news-and-events/einblick/single/news/neue-raeume-fuer-die-alte-anatomie/",
+      "evidence": "The university states that Koelliker helped plan the 1883 Anatomical Institute and specifically requested large high windows so laboratories would receive as much light as possible for microscopy."
+    },
+    {
+      "institution": "University of Würzburg Biozentrum",
+      "url": "https://www.biozentrum.uni-wuerzburg.de/ausstellung/tba18/",
+      "evidence": "The university also preserves later Würzburg slide practice through Theodor Boveri preparations and a handwritten cardboard folder of twenty Ascaris slides, useful as a local institutional afterlife comparator rather than Koelliker attribution."
+    }
+  ],
+  "findings": [
+    "The Würzburg medical-historical collection explicitly preserves a histology collection whose oldest sections are attributed by the institution to Albert von Koelliker.",
+    "Koelliker's microscopic research was tied to teaching practice: the university historical account identifies practical microscopy courses as an educational innovation associated with Koelliker and Virchow.",
+    "The physical institute itself encoded microscopy requirements: Koelliker's 1883 building planning included large high windows to maximise laboratory light for microscopic work.",
+    "This creates a surviving institutional chain from nineteenth-century histological preparations to practical microscopy pedagogy and a purpose-designed microscopy environment.",
+    "Later Würzburg survival of Boveri slide folders provides a local comparator for how prepared microscopic objects continued to be grouped, labelled and used in teaching/research within the same institutional ecology."
+  ],
+  "upgrade_decision": {
+    "previous": "A+ target: request inventory of slides attributed to Koelliker, labels and course/institute records",
+    "new": "S-level collection survival and institutional microscopy-teaching architecture",
+    "reason": "An official Würzburg collection description now explicitly confirms surviving histological sections by Koelliker, while independent university histories connect Koelliker to practical microscopy teaching and the physical design of microscopy laboratories."
+  },
+  "guard": [
+    "The current public pages do not provide item-level accession numbers, labels, dates, subjects or preparation techniques for the surviving Koelliker sections.",
+    "The broad Anatomical Collection also contains bones, wet preparations and later plastinated material; these should not be treated as Koelliker microscopic objects without inventory evidence.",
+    "The Boveri slides are a later Würzburg comparator and must not be folded into the Koelliker collection.",
+    "No direct surviving Koelliker slide-to-specific Handbuch/lecture/page crosswalk was closed in this pass."
+  ],
+  "next_exact_step": "Request a bounded inventory/photo sample of the oldest Koelliker histology sections from the Institute for the History of Medicine, including current accession, verbatim label, tissue/species, date if present, mount format, storage order and any legacy catalogue number; then crosswalk two or three items to Koelliker's histology publications or microscopy-course documentation."
+}
