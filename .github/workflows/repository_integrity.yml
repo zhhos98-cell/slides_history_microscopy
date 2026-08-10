@@ -16,6 +16,7 @@ on:
       - "docs/PAGES.md"
       - "docs/REPOSITORY_ORGANIZATION_AUDIT_2026-08-10.md"
       - "scripts/validate_repository_state.py"
+      - "scripts/audit_external_links.py"
       - ".github/workflows/repository_integrity.yml"
   pull_request:
     paths:
@@ -30,6 +31,7 @@ on:
       - "docs/PAGES.md"
       - "docs/REPOSITORY_ORGANIZATION_AUDIT_2026-08-10.md"
       - "scripts/validate_repository_state.py"
+      - "scripts/audit_external_links.py"
       - ".github/workflows/repository_integrity.yml"
 
 permissions:
@@ -45,3 +47,23 @@ jobs:
           python-version: "3.12"
       - name: Validate repository authority and publication state
         run: python scripts/validate_repository_state.py
+
+  audit-links:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[link-audit]'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit current bibliography and source-registry links
+        run: python scripts/audit_external_links.py --timeout 12 --workers 12
+      - name: Print link audit summary
+        run: cat outputs/link_audit/external_link_audit.md
+      - name: Upload link audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: external-link-audit
+          path: outputs/link_audit/
+          retention-days: 14
