@@ -1,92 +1,67 @@
 {
-  "schema_version": "2.0.0-current-closure-router",
+  "schema_version": "3.0.0-current-closure-router",
   "updated": "2026-08-10",
-  "status": "ACTIVE_CLOSURE_ONLY",
-  "purpose": "Operational router after the decision to stop geographic infrastructure-building and close only already-open UK/US/European relations.",
-  "principle": "Prioritize the next source that can change attribution, chronology, object identity or mechanism. Do not prioritize another institution merely because it adds coverage.",
+  "status": "PUBLIC_WEB_CLOSURE_EXHAUSTED__EXACT_SOURCE_REQUESTS_ONLY",
+  "purpose": "Operational router after the UK/US/Europe closure pass exhausted the public indexed layer. Remaining work is source access, not discovery.",
+  "principle": "A next action must be capable of changing attribution, chronology, object identity or mechanism. Geographic coverage, repeated web searching and collection-count growth are not active goals.",
   "scope": {
     "primary": "UK nineteenth-century microscopy",
     "secondary": "US only where a UK-linked relation is already open",
     "europe": "already-open continental-European chains only",
-    "parked": "new non-UK/US/Europe geographic infrastructures and general global bibliography discovery",
+    "parked": "new geographic infrastructure and general global bibliography discovery",
     "frozen_survey": "307 discovery / 155 strict nineteenth-century nodes — CLOSED_2026-08-09",
     "bibliography": "pass 19 / 206 entries remains audit/public state; no further geographic pass is active"
   },
-  "active_targets": [
+  "public_web_queue": [],
+  "exact_source_request_queue": [
     {
       "rank": 1,
       "target": "Charles Elcock — St Andrews ms21974-ms21975",
-      "status": "S archive locator; content transcription open",
-      "next": "Obtain/transcribe only the two 6–8 March 1884 letters. Use them to test sender/sample/station/purpose of the Challenger-material bridge.",
-      "stop": "No broad St Andrews or Elcock discovery."
+      "source_needed": "page images or transcription of the two letters",
+      "why": "Catalogue metadata securely records a Challenger-samples reference but shows that the correspondence is principally antiquarian/medal discussion; sender/sample/station/purpose cannot be recovered from public metadata.",
+      "stop": "No broad Elcock/St Andrews search."
     },
     {
       "rank": 2,
       "target": "NHM HMS Challenger dataset",
-      "status": "S dataset/address architecture; full binary row harvest open",
-      "next": "When the XLSX is retrievable, ingest all 4,723 rows without early exit; subset slide/preparation terms and named preparators, preserving 4,723 dataset records versus 4,713 physical containers/objects.",
-      "stop": "No fresh general Challenger web sweep."
+      "source_needed": "current 4,723-row resource binary",
+      "why": "Address architecture and named diagnostic preparations are already closed. The remaining task is a complete mechanical row harvest.",
+      "stop": "No general Challenger web sweep."
     },
     {
       "rank": 3,
-      "target": "Balfour objectives / plate captions / serial sections",
-      "status": "S designation-publication layer; exact physical lens identity open",
-      "next": "Search exact Zeiss numbers 573, 1295, 710, 780, 542 in production/dispatch records if number lookup is possible, then query surviving sections only for figures with matching taxon/stage.",
-      "stop": "Do not broaden to general Zeiss or Cambridge instrument history."
+      "target": "Balfour surviving Zeiss objectives",
+      "source_needed": "ZEISS archive guidance or accessory/objective dispatch evidence for engravings 573, 1295, 710, 780, 542",
+      "why": "ZEISS public production lists are organized around microscope/stand serials and accessories; the five objective engravings do not currently resolve to public dispatch records. The printed designation-level use layer is already S.",
+      "stop": "Do not equate objective engravings with stand-number sequences."
     },
     {
       "rank": 4,
       "target": "John Thomas Norman 1872 catalogue → St Andrews",
-      "status": "A+ collection chain; item crosswalk open",
-      "next": "Proceed only if a complete Norman item/export list becomes available; then match exact catalogue wording to physical label layers.",
-      "stop": "Do not reconstruct item identity from taxonomy or maker label alone."
+      "source_needed": "complete Norman item/export layer with addresses and label transcription",
+      "why": "The public group record confirms the 2,584-entry catalogue and surviving Norman group but says the slides remain scattered in situ; no usable public child-item layer is exposed.",
+      "stop": "No taxonomy-based reconstruction of item identity."
     },
     {
       "rank": 5,
       "target": "Naples row 383 → BPM/1/T8/6",
-      "status": "A candidate",
-      "next": "One bounded historical page-image check for rows 382–384.",
-      "stop": "If the page remains unavailable, park; no broad Naples expansion."
+      "source_needed": "BHL/Internet Archive page image containing rows 382-384",
+      "why": "Article/container and catalogue architecture are secure; row 383 itself remains unread. One page decides the claim.",
+      "stop": "If the page remains inaccessible, retain A-candidate status and park."
     }
   ],
-  "closed_or_demoted": [
-    {
-      "target": "Arthur C. Cole vols I-II",
-      "status": "S primary-source architecture CLOSED",
-      "output": "data/analysis/cole_studies_vol1_2_structured_reading_v1.json"
-    },
-    {
-      "target": "Cole Volume I 52-slide surviving material set",
-      "status": "A++ near-S material counterpart; full provenance optional"
-    },
-    {
-      "target": "Charles Collins Jr. 1884/1885 series",
-      "status": "S series/event/survival CLOSED; whole-volume ingestion optional"
-    },
-    {
-      "target": "H. L. Smith Century III",
-      "status": "S set architecture CLOSED; exact 1878 notice optional"
-    },
-    {
-      "target": "Frederic Kitton Series III-IV",
-      "status": "S set architecture CLOSED; launch prospectus optional"
-    },
-    {
-      "target": "Andrew Pritchard",
-      "status": "S date/object bridge CLOSED; preparation-list date corrected to 1835; row-level matching optional"
-    },
-    {
-      "target": "Quekett/Oxford Cole archive route",
-      "status": "archive capability/corroboration established; Cole-specific institutional search optional"
-    },
-    {
-      "target": "Harvard Embryological Collection / Minot",
-      "status": "S control architecture CLOSED; broad/pre-1900 harvest parked unless a specific UK-linked argument needs it"
-    },
-    {
-      "target": "Balfour full plate-caption harvest",
-      "status": "S publication-side harvest CLOSED; retained as active only for exact serial/object identity"
-    }
+  "closed_or_substantially_closed": [
+    "Arthur C. Cole vols I-II primary-source material-publication architecture",
+    "Cole Volume I 52-slide surviving material counterpart at near-S level",
+    "Charles Collins Jr. 1884/1885 series/event/survival chain",
+    "H. L. Smith Century III set architecture",
+    "Frederic Kitton Series III-IV set architecture",
+    "Andrew Pritchard 1835 catalogue/date/object bridge",
+    "John Thomas Norman collection-level exhibition → catalogue → survival chain",
+    "NHM Challenger address/dataset architecture and diagnostic named preparations",
+    "Balfour publication-side objective designation harvest",
+    "Harvard Embryological Collection / Minot control architecture",
+    "Quekett/Oxford Cole archive capability route"
   ],
   "parked_previous_global_targets": [
     "University of Tokyo Medical Library Anatomy Department system",
@@ -96,9 +71,12 @@
   ],
   "reference_outputs": [
     "data/analysis/uk_us_europe_closure_batch_2026-08-10_v2.json",
-    "docs/UK_US_EUROPE_CLOSURE_BATCH_2026-08-10.md",
+    "data/analysis/uk_us_europe_closure_residuals_2026-08-10_v3.json",
     "data/analysis/cole_studies_vol1_2_structured_reading_v1.json",
+    "data/analysis/challenger_dataset_row_harvest_v2.json",
     "data/analysis/balfour_plate_caption_objective_harvest_v2.json",
-    "data/analysis/minot_hec_public_crosswalk_sample_v1.json"
-  ]
+    "data/analysis/elcock_standrews_1884_letters_v5.json",
+    "data/analysis/naples_row383_page_verification_v3.json"
+  ],
+  "resume_rule": "Resume a target only when the exact requested source becomes available or supplies a new bounded identifier. Otherwise move from backend discovery to historical analysis/writing."
 }
