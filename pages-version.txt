@@ -1,5 +1,5 @@
 slides_history_microscopy Pages
-version: 2026-08-10-editorial-motion-v1
+version: 2026-08-10-repository-normalized-v2
 object-census: CLOSED_2026-08-09 / 155
 core-documents: 142
 extension-documents: 60 + 2 structured OCR
@@ -8,5 +8,7 @@ bna-event-clusters-published: 930
 bna-newspaper-yield-rows-published: 995
 bna-query-yield-rows: 43
 bna-year-yield-rows: 71
-research-outputs: 22
+research-outputs: 41
+corpus-manifest: data/corpus/CORPUS_MANIFEST_V6.json
+repository-state: REPOSITORY_STATE.json
 pages-design: shared editorial line layout + enhanced motion + staggered bibliography object imagery
