@@ -1,6 +1,7 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "title": "Microscope Slides in Motion — source registry manifest",
+  "status": "CURRENT_SOURCE_REGISTRY_AUTHORITY",
   "chunks": [
     "source-registry.json",
     "source-registry-02.json",
@@ -14,6 +15,39 @@
     "source-registry-10.json",
     "source-registry-11.json",
     "source-registry-12.json"
+  ],
+  "counts": {
+    "raw_records_across_chunks": 87,
+    "superseded_duplicate_route_ids": 3,
+    "canonical_records": 84
+  },
+  "superseded_ids": {
+    "ZA-IZIKO-ENTOMOLOGY": {
+      "canonical_id": "ZA-IZIKO-ENTOMOLOGY-SLIDES",
+      "reason": "Same Iziko Entomology endpoint and same primary URL; later record preserves the same 5,644-slide route with fuller nineteenth-century scope and access metadata."
+    },
+    "AR-LAPLATA-FYCOLOGY": {
+      "canonical_id": "AR-MLP-FICOLOGIA-DIATOMS",
+      "reason": "Same Museo de La Plata División Ficología endpoint and same primary URL; later record is the enriched version retaining Möller, Tempère & Peragallo and the 2,435-slide Frenguelli context."
+    },
+    "NZ-TEPAPA-COLLECTIONS-ARCHIVES": {
+      "canonical_id": "NZ-TEPAPA-NATURAL-HISTORY-ARCHIVES",
+      "reason": "Same Te Papa natural-history/archive route and same primary URL; later record adds explicit Colonial Museum/Hector chronology and is the fuller canonical route."
+    }
+  },
+  "retained_shared_url_relations": [
+    {
+      "url": "https://collections.st-andrews.ac.uk/collection/bell-pettigrew-zoology-microscope-slide-collection/2050500",
+      "reason": "Parent Bell Pettigrew collection is intentionally reused as a secondary route by distinct Elcock and Stazione Zoologica Napoli subcollection records."
+    },
+    {
+      "url": "https://data.nhm.ac.uk/dataset/listing-of-hms-challenger-sediment-collection",
+      "reason": "Primary route for the Challenger sediment/preparation collection and secondary comparator for the distinct CT-reassessment record."
+    },
+    {
+      "url": "https://www.nhm.ac.uk/our-science/services/collections/palaeontology/foraminifera.html",
+      "reason": "Primary route for the broader Heron-Allen foraminifera collection and secondary institutional route for the distinct Heron-Allen & Earland Type Slide system."
+    }
   ],
   "fields": [
     "id",
@@ -33,5 +67,5 @@
     "tags"
   ],
   "relation_values": ["direct", "contextual", "portal"],
-  "note": "This registry is a research-routing layer and does not alter the frozen surviving-object census. Chunks are additive; records remain source-specific and are not converted into object identities without explicit evidence."
+  "note": "This registry is a research-routing layer and does not alter the frozen surviving-object census. Chunks preserve additive audit history; public/current consumers must suppress superseded_ids and use canonical_records. A shared URL is not itself a duplicate when it functions as a parent, institutional, or secondary route for distinct records."
 }
