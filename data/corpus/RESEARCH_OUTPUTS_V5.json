@@ -1,0 +1,58 @@
+{
+  "schema": "research-output-index-v5",
+  "updated": "2026-08-10",
+  "status": "CURRENT_CURATED_RESEARCH_OUTPUT_INDEX",
+  "scope": "Curated current and foundational outputs for the public compact layer. Historical intermediate versions remain in the repository but are not all listed here.",
+  "output_count": 39,
+  "outputs": [
+    {"category":"Repository state","title":"Repository authority map","path":"REPOSITORY_STATE.json","format":"JSON","description":"Top-level authority map across survey, bibliography, analysis, corpus, sources, evidence and website."},
+    {"category":"Repository state","title":"Current research direction","path":"CURRENT_DIRECTION.md","format":"MD","description":"Human-readable current mode and exact-source queue."},
+    {"category":"Repository state","title":"Analysis current state","path":"data/analysis/CURRENT_STATE.json","format":"JSON","description":"Canonical machine-readable analysis state and supersession map."},
+    {"category":"Repository state","title":"Current exact-source router","path":"data/analysis/global_archive_research_priority_CURRENT.json","format":"JSON","description":"Four request-only residuals and stop rules after public-web closure."},
+    {"category":"Repository state","title":"Data cleanup audit","path":"docs/DATA_CLEANUP_AUDIT_2026-08-10.md","format":"MD","description":"Analysis/data authority cleanup and quantity-namespace audit."},
+    {"category":"Repository state","title":"Repository organization audit","path":"docs/REPOSITORY_ORGANIZATION_AUDIT_2026-08-10.md","format":"MD","description":"Whole-repository structural cleanup, authority, legacy-file and publication-layer audit."},
+
+    {"category":"Frozen survey","title":"07AR closure audit","path":"data/survey/07AR_CLOSURE_AUDIT_2026-08-09.md","format":"MD","description":"Human-readable closure audit for the frozen global survey."},
+    {"category":"Frozen survey","title":"07AR closure manifest","path":"data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json","format":"JSON","description":"Machine-readable closure arithmetic and frozen 307/155 counts."},
+    {"category":"Frozen survey","title":"Superseded alias map","path":"data/survey/07AR_SUPERSEDED_ALIASES_2026-08-09.json","format":"JSON","description":"Distinct-ID rediscoveries collapsed without deleting modular audit rows."},
+    {"category":"Frozen survey","title":"Final catalogue QC","path":"data/survey/07AR_FINAL_QC_2026-08-09.md","format":"MD","description":"Sealed-catalogue QC and presentation checks."},
+    {"category":"Frozen survey","title":"Executable frozen membership","path":"scripts/build_frozen_strict_membership.py","format":"PY","description":"Reconstructs and asserts immutable 155-entry membership."},
+
+    {"category":"Object analysis","title":"Frozen 155 analytical layer documentation","path":"data/analysis/slide_155_analysis_v1/README.md","format":"MD","description":"Derived classification schema over frozen nodes."},
+    {"category":"Object analysis","title":"Frozen 155 analysis manifest","path":"data/analysis/slide_155_analysis_v1/manifest.json","format":"JSON","description":"Clarifies that the 155-row derived artifact is generated/reproducible and not committed as canonical row data."},
+    {"category":"Object ↔ text","title":"Corpus-expansion layer current status","path":"data/analysis/slide_155_corpus_expansion_v1/README.md","format":"MD","description":"Current closure state plus historical v1 routing context."},
+    {"category":"Object ↔ text","title":"Verified object-text bridges","path":"data/analysis/slide_155_corpus_expansion_v1/OBJECT_TEXT_BRIDGES_V1.csv","format":"CSV","description":"Contextually verified bridges between surviving nodes and textual evidence."},
+    {"category":"Object ↔ text","title":"Primary-source target dispositions","path":"data/analysis/slide_155_corpus_expansion_v1/OPEN_PRIMARY_SOURCE_TARGETS_V1.csv","format":"CSV","description":"Legacy v1 target table normalized to current CLOSED, OPTIONAL and PARKED states."},
+    {"category":"Object ↔ text","title":"UK/US object-to-corpus chain summary","path":"data/analysis/uk_us_object_to_corpus_expansion_v1.json","format":"JSON","description":"Current collection/series closure summaries and stop rules."},
+
+    {"category":"Material publication","title":"Cole Studies vols I–II structured reading","path":"data/analysis/cole_studies_vol1_2_structured_reading_v1.json","format":"JSON","description":"Primary-source architecture, numbered studies, plates and volume-specific preparation responsibility."},
+    {"category":"Material publication","title":"Cole Volume I surviving 52-slide set","path":"data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v4.json","format":"JSON","description":"Near-S material-counterpart identification and provenance guards."},
+    {"category":"Material publication","title":"Material slide-publication forms","path":"data/analysis/material_slide_publication_forms_v2.json","format":"JSON","description":"Strict taxonomy separating synchronized material publication, type slides, commodities, replicated sets and serial sections."},
+
+    {"category":"Instrument / preparation","title":"Balfour plate-caption objective harvest","path":"data/analysis/balfour_plate_caption_objective_harvest_v2.json","format":"JSON","description":"Full publication-side objective designation harvest and surviving-set designation crosswalk."},
+    {"category":"Expedition material","title":"Challenger diagnostic row harvest","path":"data/analysis/challenger_dataset_row_harvest_v2.json","format":"JSON","description":"Address architecture, preparation forms, named interventions and 4,723/4,713 count guard."},
+    {"category":"Maker archive","title":"Elcock St Andrews 1884 letters locator","path":"data/analysis/elcock_standrews_1884_letters_v5.json","format":"JSON","description":"Exact ms21974-ms21975 locator and Challenger-sample reference with manuscript-content guards."},
+    {"category":"Control architecture","title":"Minot / Harvard Embryological Collection crosswalk","path":"data/analysis/minot_hec_public_crosswalk_sample_v1.json","format":"JSON","description":"Comparator for old/new series addresses, preparator, technique, publication and conservation metadata."},
+
+    {"category":"Naples","title":"423-offering parse manifest","path":"data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_CATALOGUE_423_PARSE_MANIFEST_V1.json","format":"JSON","description":"Manifest for 423 numbered historical catalogue offerings."},
+    {"category":"Naples","title":"RMS twelve-slide item crosswalk","path":"data/analysis/slide_155_corpus_expansion_v1/NAPLES_1880_RMS_12_SLIDES_ITEM_CROSSWALK_V1.csv","format":"CSV","description":"Twelve physical RMS slides mapped to nine strong and three bounded catalogue positions."},
+    {"category":"Naples","title":"Naples 383 surviving-object closure","path":"data/analysis/naples_row383_object_catalogue_closure_v4.json","format":"JSON","description":"Catalogue offering 383 to St Andrews BPM/1/T8/6 closure with Panis/Penis discrepancy preserved."},
+
+    {"category":"Trade and circulation","title":"Trade catalogue circulation matrix","path":"data/analysis/trade_catalogue_circulation_matrix_v1.json","format":"JSON","description":"Trade/catalogue circulation structures across object and text evidence."},
+    {"category":"Trade and circulation","title":"Trade slide attribution layers","path":"data/analysis/trade_slide_attribution_layers_v1.json","format":"JSON","description":"Separates preparator, maker, distributor, retailer and later label/custody claims."},
+    {"category":"Archive infrastructure","title":"Slide archive addressing systems","path":"data/analysis/slide_archive_addressing_systems_v1.json","format":"JSON","description":"Maker, series, cabinet, accession and database addresses as historical retrieval layers."},
+    {"category":"Archive infrastructure","title":"Cross-media retrievability","path":"data/analysis/retrievability_cross_media_infrastructure_v1.json","format":"JSON","description":"Cross-media documentary infrastructure for retrieving slide-related evidence."},
+    {"category":"Archive infrastructure","title":"Slide archive survival asymmetry","path":"data/analysis/slide_archive_survival_asymmetry_v1.json","format":"JSON","description":"Asymmetries between surviving objects, records and reconstructable relations."},
+
+    {"category":"Reverse indexing","title":"Source registry to UK corpus bridges","path":"data/analysis/source_registry_to_uk_corpus_reverse_bridges_v1.json","format":"JSON","description":"Reverse-index bridges from current source routes into historical corpus records."},
+    {"category":"Reverse indexing","title":"Source registry to BNA bridges","path":"data/analysis/source_registry_to_bna_reverse_bridges_v1.json","format":"JSON","description":"Reverse-index bridges from source-registry actors/objects into newspaper evidence."},
+
+    {"category":"Harvest evidence","title":"Targeted-deep evidence manifest","path":"data/evidence/targeted_deep_4/manifest.json","format":"JSON","description":"Normalized manifest for the final bounded public-metadata harvesting pass."},
+    {"category":"Harvest evidence","title":"Targeted-deep evidence notes","path":"data/evidence/targeted_deep_4/README.md","format":"MD","description":"Evidence-layer scope and retained structured results."},
+    {"category":"Harvest evidence","title":"Manual residuals","path":"data/evidence/targeted_deep_4/MANUAL_RESIDUALS.md","format":"MD","description":"Residual cases retained for manual review without census reopening."},
+
+    {"category":"Public data","title":"Bibliography manifest","path":"bibliography/bibliography-manifest.json","format":"JSON","description":"Current 206-entry bibliography authority and 22 row chunks."},
+    {"category":"Public data","title":"Source registry manifest","path":"sources/source-registry-manifest.json","format":"JSON","description":"Additive source-routing manifest for archives, collections and documentary routes."},
+    {"category":"Site","title":"Pages architecture","path":"docs/PAGES.md","format":"MD","description":"Website architecture, closure contract and public-layer rules."}
+  ]
+}
