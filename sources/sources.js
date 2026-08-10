@@ -76,9 +76,12 @@ async function initSources(){
       return response.json();
     }));
 
-    const superseded=new Set(Object.keys(manifest.superseded_ids||{}));
+    const suppressed=new Set([
+      ...Object.keys(manifest.superseded_ids||{}),
+      ...Object.keys(manifest.excluded_ids||{})
+    ]);
     const allRecords=payloads.flatMap(data=>data.records||[]);
-    sourceState.records=allRecords.filter(r=>!superseded.has(r.id));
+    sourceState.records=allRecords.filter(r=>!suppressed.has(r.id));
 
     if(manifest.counts?.canonical_records!=null&&sourceState.records.length!==manifest.counts.canonical_records){
       throw new Error(`canonical source count ${sourceState.records.length} != manifest ${manifest.counts.canonical_records}`);
