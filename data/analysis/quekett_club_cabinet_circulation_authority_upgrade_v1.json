@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0.0-quekett-cabinet-circulation-authority-upgrade",
+  "generated": "2026-08-11",
+  "title": "Quekett Microscopical Club: cabinet circulation, named reference authority, and the limits of object-only instruction",
+  "status": "S_HISTORICAL_CABINET_CIRCULATION_AND_REFERENCE_ARCHITECTURE__S_CURRENT_COLLECTION_EXISTENCE__ITEM_CONTINUITY_OPEN",
+  "builds_on": [
+    "data/analysis/global_archive_research_priority_v3.json#GB-QMC-ARCHIVES-SLIDES",
+    "data/analysis/slide_archive_addressing_systems_v1.json",
+    "data/analysis/cole_quekett_archive_delta_v5.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "The current Quekett slide collection was registered as a high-potential surviving club collection, with exact nineteenth-century object continuity and Cole survival still to be checked.",
+    "new_state": "The project's nineteenth-century primary corpus already closes the institutional mechanism at S level. The 1865 prospectus defines exhibiting and exchanging specimens and a comprehensive cabinet as founding functions; 1868 records show transatlantic exchange, large cabinet accessions and carefully named slides treated as identification authorities; the 1879 presidential address states that the cabinet exceeded 2,000 slides and that slides were freely circulated, while explicitly distinguishing the maker's knowledge of origin and preparation from the first-time borrower's view. The present Club independently confirms a 20,000+ slide collection stored at the Natural History Museum and an ongoing label-transcription/database project.",
+    "grade": {
+      "historical_cabinet_and_circulation_architecture": "S",
+      "historical_reference_authority_function": "S",
+      "historical_epistemic_limit_articulated_by_actor": "S",
+      "current_collection_existence_and_location": "S",
+      "exact_current_item_to_nineteenth_century_cabinet_entry": "OPEN",
+      "surviving_cole_slide_in_qmc_collection": "OPEN"
+    }
+  },
+  "primary_corpus_evidence": [
+    {
+      "date": 1865,
+      "source": "Quekett Microscopical Club original prospectus, reproduced in later annual reports",
+      "project_record": "01C_UK_Microscopy_Core_Clubs_Popular_Local_1865-1886.json / R33395 and repeated report states",
+      "evidence": "The Club was designed for microscopists to exhibit and exchange specimens, acquire a reference library, and build a 'comprehensive Cabinet of Objects'.",
+      "function": "founding institutional design"
+    },
+    {
+      "date": 1868,
+      "source": "Journal of the Quekett Microscopical Club",
+      "project_evidence_matrix": "Microscope_Slides_Full_Corpus_Audit_1839-1886.xlsx",
+      "evidence": "Club exchange included German material and 100 slides from Gould of North Bridgton, Maine, principally diatoms in sets of fourteen. A separate carefully named donation was valued because its naming made it an authority to which members could refer when identifying specimens.",
+      "function": "exchange plus reference-standard function"
+    },
+    {
+      "date": "1868-11-27",
+      "source": "Monthly Microscopical Journal, reported January 1869",
+      "project_record": "01A_UK_Microscopy_Core_Early_Central_1844-1877.json / R17847",
+      "evidence": "173 slides were presented to the cabinet at one ordinary meeting.",
+      "function": "cabinet growth by collective donation"
+    },
+    {
+      "date": 1879,
+      "source": "Quekett Microscopical Club President's Address",
+      "project_record": "01C_UK_Microscopy_Core_Clubs_Popular_Local_1865-1886.json / R34612-R34613",
+      "evidence": "The cabinet was said to number over 2,000 slides in animal and vegetable histology, entomology, botany, geology and crystallography. The slides were freely circulated. The President deliberately called them 'interesting' rather than automatically 'instructive', because a maker who knew a preparation's origin, relations and crude state possessed knowledge unavailable to a casual first-time cabinet user. He proposed making systematic slide series keyed to standard works such as Carpenter's Microscope and its Revelations.",
+      "function": "circulation plus explicit historical theory of information loss and documentary supplementation"
+    }
+  ],
+  "current_collection": {
+    "institutional_owner": "Quekett Microscopical Club",
+    "storage": "Natural History Museum, London",
+    "official_current_statement": "The Club states that it has over 20,000 microscope slides stored at the Natural History Museum.",
+    "current_documentation_project": "Club members are transcribing slide labels and developing searchable catalogue/database access; photography is also being pursued.",
+    "official_sources": [
+      "https://www.quekett.org/about/citizen/slide-labels",
+      "https://archives.quekett.org/",
+      "https://www.quekett.org/about/venues/dorothea-bate-room"
+    ]
+  },
+  "cole_relation": {
+    "closed_fact": "The QMC printed/library record includes purchased numbers/parts of A. C. Cole's Studies in Micro Science.",
+    "open_fact": "No surviving Cole preparation has yet been identified in the publicly accessible QMC slide-database layer.",
+    "guard": "Possession of the printed serial does not establish possession or survival of its associated Cole slides."
+  },
+  "research_mechanism": {
+    "chain": "donation or exchange -> cabinet incorporation -> naming/classification -> member circulation -> comparison/identification -> instruction supplemented by maker knowledge, series and books",
+    "strong_claim": "The QMC cabinet functioned simultaneously as a material repository, a lending system and a reference authority. Historical actors also explicitly recognized that moving a prepared object did not move all the knowledge of its production history with it.",
+    "comparison": {
+      "cole": "A publication fixed slide identity through a numbered cabinet address.",
+      "qmc": "A society redistributed heterogeneous preparations through a collectively assembled cabinet, making names and classification crucial to their use as references.",
+      "epistemic_payoff": "Circulation expanded access while creating a documented gap between the preparer's generative knowledge and the borrower's encounter with the finished slide."
+    }
+  },
+  "exact_next_actions": [
+    {
+      "rank": 1,
+      "action": "When the existing QMC enquiry receives a substantive reply, request a structured export or targeted search of nineteenth-century slide labels for A. C. Cole / Arthur Cole / Prize Medal and diagnostic Studies Volume I subjects.",
+      "upgrade_if_found": "Could close publication/subscription history to society-cabinet survival at item level."
+    },
+    {
+      "rank": 2,
+      "action": "Request surviving historical cabinet, tray, circulation-box or loan-register documentation only if already identified by the Club, rather than asking for a broad uncatalogued search.",
+      "upgrade_if_found": "Could connect the 1879 statement of free circulation to a surviving physical/logistical mechanism."
+    }
+  ],
+  "guards": [
+    "Do not assume the present 20,000+ slides are all nineteenth-century or that every early cabinet slide survives.",
+    "Do not infer item continuity from continuity of the Club and its collection alone.",
+    "Do not treat a carefully named slide as taxonomically infallible; the historical claim is that members treated naming as an identification authority.",
+    "Do not convert the President's 1879 normative proposal for book-keyed series into evidence that such systematic series were actually completed without separate records.",
+    "Do not send a duplicate broad enquiry to the QMC: a targeted collection enquiry was already logged in July 2026 and is awaiting substantive response."
+  ],
+  "source_types": {
+    "historical_primary": [
+      "project OCR corpus of Quekett reports and journals",
+      "Monthly Microscopical Journal society report"
+    ],
+    "current_official": [
+      "Quekett Microscopical Club website and archive portal"
+    ]
+  }
+}
