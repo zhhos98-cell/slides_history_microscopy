@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0-grayson-melbourne-test-ruling-upgrade",
+  "generated": "2026-08-11",
+  "title": "Henry J. Grayson at Melbourne: surviving microscope test rulings, custody inscriptions, standards and ruling-engine afterlife",
+  "status": "S_SURVIVING_TEST_PLATE_AND_PROVENANCE_CHAIN__SPECIFIC_ENGINE_TO_PLATE_LINK_OPEN",
+  "builds_on": [
+    "sources/source-registry-08.json#AU-MELBOURNE-GRAYSON-RULING-ARCHIVE",
+    "data/analysis/global_archive_research_priority_v3.json"
+  ],
+  "principal_upgrade": {
+    "previous_state": "Grayson was retained mainly as a methodological control: ruling instruments and photographs survived, while his research notebooks and papers were reported destroyed after his death.",
+    "new_state": "The Ed Muirhead Physics Museum exposes multiple surviving Grayson microscope test rulings with maker inscriptions, exact line-density addresses, wrappers preserving custody history, and later museum identifiers. The case therefore supports an object-level maker -> ruled reference object -> custody/re-addressing chain even though the maker's research paper archive was lost.",
+    "grade": {
+      "surviving_test_plate_identifier_42": "S",
+      "maker_inscription_and_10000_120000_band_scale": "S",
+      "slide_54_2_stone_holmes_mcneill_custody_chain": "S from object-wrapper inscriptions as transcribed by the museum",
+      "diffraction_ruling_engine_identifier_35_survival_and_later_university_use": "S",
+      "specific_micro_ruling_engine_to_test_plate_42": "OPEN",
+      "original_Grayson_research_papers": "DESTROYED according to biographical/historical sources"
+    }
+  },
+  "surviving_microscope_test_objects": [
+    {
+      "repository": "University of Melbourne, Ed Muirhead Physics Museum",
+      "identifier": "42",
+      "object": "Grayson microscope test plate with case",
+      "physical_description": "Rectangular glass slide with rulings under a circular cover glass, preserved in a red hinged box.",
+      "inscription": "Test plate 10,000 to 120,000. Ruled by H.J. Grayson, Melbourne",
+      "address_system": "Twelve bands labelled by line density: Band 1 = 10,000 lines/inch through Band 12 = 120,000 lines/inch.",
+      "museum_note": "The catalogue describes it as the only surviving ruling in the collection reaching 120,000 lines per inch.",
+      "grade": "S object + maker + internal scale"
+    },
+    {
+      "repository": "University of Melbourne, Ed Muirhead Physics Museum",
+      "group": "54.1 / 54.2 / box",
+      "object": "Two microscope rulings preserved with wrappers and box",
+      "54_1": {
+        "printed_and_ink_text": [
+          "ONE INCH divided into hundredths",
+          "Dup. Beck. Retain.",
+          "Ruled on glass. H.J. Grayson. No. 2"
+        ],
+        "guard": "The word Beck is preserved as an inscription/address clue. It is insufficient by itself to prove sale to, ownership by, or commission from R. & J. Beck."
+      },
+      "54_2": {
+        "slide_label": "60,000 # good",
+        "wrapper": "Grayson Test Ruling, given to me by the late Mr W Stone.",
+        "wrapper_signature": "W.M. Holmes, 18.9.50",
+        "later_note": "Placed in display cabinet 13.8.71 J J McNeill",
+        "box_label": "Grayson Test Rulings 60,000 from W.A. Holmes, Balmoral Ave, Kew",
+        "reading": "The wrapper preserves a post-maker custody chain from William Stone to Holmes and then into museum/display management."
+      },
+      "grade": "S provenance inscriptions for the recorded custody sequence"
+    },
+    {
+      "repository": "University of Melbourne, Ed Muirhead Physics Museum",
+      "identifier": "43.9 within test-slide box",
+      "object": "Test slides in wooden box",
+      "box_attribution": "Probably Grayson trials or William Stone",
+      "selected_label": "Heavy lines up to 70,000. Higher Lines broken up",
+      "grade": "A / guarded",
+      "guard": "Museum wording is explicitly uncertain; do not assign the whole box to Grayson."
+    }
+  ],
+  "ruling_instrument_and_metrology_afterlife": {
+    "diffraction_engine": {
+      "identifier": "35",
+      "object": "Grayson diffracting-grating ruling engine",
+      "museum_history": "Made by Grayson at home with William Stone; transferred to the University; used by Professor T. R. Lyle from 1917 to 1930.",
+      "grade": "S surviving object + later institutional use",
+      "guard": "This is the later diffraction-grating engine. It is not evidence that identifier 35 produced microscope test plate 42. Grayson's earlier micro-ruling machine must be treated separately."
+    },
+    "certified_length_standards": {
+      "identifier": "64.4 group",
+      "date": 1915,
+      "inscriptions": [
+        "H.J.G. Melb Univ. 1915",
+        "ruled at 12.9 Celsius"
+      ],
+      "associated_note": "Museum record points to National Physical Laboratory certified standards.",
+      "research_value": "Shows Grayson's ruling practice embedded in institutional metrology and external certification, beyond microscope resolution tests."
+    }
+  },
+  "historical_context": {
+    "biographical_source": "Australian Dictionary of Biography, Henry Joseph Grayson",
+    "facts": [
+      "Grayson made biological and petrological microscope slides before becoming internationally known for test rulings.",
+      "He constructed a new micro-ruling machine; an early form was largely glass and wood and produced lines to about 40,000 per inch.",
+      "William Stone designed and made central components for an improved form.",
+      "Carl Zeiss commissioned a plate with rulings up to 120,000 per inch to test Abbe's theory; Grayson exhibited rulings from 5,000 to 120,000 per inch in 1894.",
+      "Grayson later developed a distinct diffraction-grating ruling engine.",
+      "After Grayson's death, Stone collected his research notes and papers, which were accidentally burnt; Lyle bought the micro-ruling machine and ruling engine from the estate."
+    ]
+  },
+  "research_mechanism": {
+    "chain": "maker -> ruled microscope reference object -> line-density address on glass/label -> personal custody inscriptions -> university museum identifier/display",
+    "strong_claim": "Grayson's archive did not vanish simply because his notebooks were destroyed. Some procedural and custodial information migrated onto the ruled objects, their wrappers, boxes, scales and later museum records.",
+    "comparison": {
+      "Cole": "A serial number stabilizes a publication slot even when a preparation is replaced.",
+      "Grayson": "A calibrated band/line-density scale stabilizes an optical reference function, while wrappers and museum identifiers record successive custody of the physical test object."
+    }
+  },
+  "critical_guards": [
+    "Do not identify test plate 42 as the Carl Zeiss commission merely because both reach 120,000 lines per inch; a direct provenance or commission record is required.",
+    "Do not claim that the surviving diffraction engine identifier 35 made the microscope test plate; Grayson's micro-ruling and diffraction-grating machines are distinct.",
+    "Do not convert 'Dup. Beck. Retain.' into a Beck sale, ownership or commission without corroborating correspondence/catalogue evidence.",
+    "Do not attribute the eight-slide test box wholly to Grayson; the museum itself says 'Probably Grayson trials or William Stone'.",
+    "The destruction of Grayson's papers is itself part of the provenance history; later Stone/Holmes/McNeill records are downstream evidence, not substitutes for the lost maker notebooks."
+  ],
+  "next_bounded_actions": [
+    "Locate the current museum record or accession history for Grayson's earlier micro-ruling machine and distinguish it formally from the later diffraction engine.",
+    "Search Stone papers for identifiers or wording matching test plate 42, Grayson No. 2, 60,000, 120,000, Beck, or the Zeiss commission.",
+    "Search R. & J. Beck / Zeiss trade or correspondence records only against those exact inscriptions; no broad ruling-engine search is needed."
+  ],
+  "sources": [
+    "https://victoriancollections.net.au/items/59afe14921ea711838038c62",
+    "https://victoriancollections.net.au/items/547eed122162f119acf9a3e7",
+    "https://victoriancollections.net.au/items/548f90c12162f11ae053818e",
+    "https://victoriancollections.net.au/items/548f871e2162f11ae0530ac0",
+    "https://victoriancollections.net.au/items/548283ec2162f10294767067",
+    "https://adb.anu.edu.au/biography/grayson-henry-joseph-6466"
+  ]
+}
