@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0-address-systems-argument-matrix",
+  "generated": "2026-08-14",
+  "status": "SYNTHESIS_PASS_1__WRITE_FROM_CLOSED_CHAINS",
+  "repository_authority": "REPOSITORY_STATE.json",
+  "closure_authority": "data/analysis/closure_saturation_manifest_2026-08-11.json",
+  "purpose": "Convert the closed provenance/object systems into a first-order historical argument without reopening global discovery.",
+  "core_claim": "Prepared microscope slides became durable knowledge objects through addressability: material and documentary systems that made a preparation locatable in relation to a publication, cabinet, sample, maker, coordinate, register, or earlier material state. These addresses were part of the working object. They could preserve or repair historical identity across replacement, remounting, circulation and institutional transfer; later addresses could also mislead when they collapsed distinct histories.",
+  "claim_guard": "Addressability is not a synonym for metadata and is not treated as a universal essence of microscope slides. The argument is historical and mechanism-specific: the cases below show where addresses demonstrably did work for retrieval, comparison, remaking, circulation, repair, or provenance control.",
+  "article_spine": [
+    {
+      "order": 1,
+      "mechanism": "address designed with a material publication",
+      "lead_case": "Arthur C. Cole / Toovey's Volume I cabinet",
+      "authority": "data/analysis/cole_surviving_volume1_slide_set_tooveys_2025_v6_cabinet_audit.json",
+      "closed_evidence": "The cabinet's slot numbers run through the Studies 1-52 sequence and the top tray has a fitted recess for the printed index. Fixed wooden addresses persist even where individual preparations were later replaced or misassigned.",
+      "historical_payoff": "Publication identity can reside at cabinet/slot/index level as well as in the individual glass preparation.",
+      "best_use": "Opening material scene. It makes the argument visible before any abstract language is introduced.",
+      "guard": "Do not promote publisher-supplied subscriber-cabinet provenance beyond the current A++ compatible state."
+    },
+    {
+      "order": 2,
+      "mechanism": "one address coordinating several material and representational states",
+      "lead_case": "Albert Grunow / Naturhistorisches Museum Wien",
+      "authority": "data/analysis/grunow_vienna_sample_level_closure_v2.json",
+      "closed_evidence": "Sample 274 explicitly coordinates catalogue entry, one or two glass preparations and bottled material; 1363b links preparation identity to microscope coordinates and a drawing; 3073b uses coordinates to retrieve named valves and marks whether they were already drawn. Grunow also left instructions for rescuing dried material and remaking preparations.",
+      "historical_payoff": "A slide could be one state in a numbered evidential system rather than the terminal form of a specimen. The address made movement between raw material, glass, microscope field and drawing reproducible.",
+      "best_use": "Main analytical section because it shows addressability performing retrieval and remaking, not merely storage.",
+      "guard": "Do not merge the three sample cases into a claim that every Grunow number preserved every medium."
+    },
+    {
+      "order": 3,
+      "mechanism": "identity surviving material repair",
+      "lead_case": "Filippo Pacini / Florence",
+      "authority": "data/analysis/pacini_florence_slide_publication_remounting_upgrade_v1.json",
+      "closed_evidence": "A cholera preparation label identifies the second case in Pacini's memoir, cites Gazzetta medica di Firenze (1854), p. 397, and states that the preparation was remounted in new glass seven years after it had been made.",
+      "historical_payoff": "The glass carrier could be replaced while the preparation remained historically legible because its case and publication address travelled with it.",
+      "best_use": "Turns the argument from organization to maintenance. It supplies direct nineteenth-century evidence against treating material sameness as the only form of object continuity.",
+      "guard": "The remounting event is object-specific; do not generalize it to all Pacini slides or infer its exact calendar year without an independently established original preparation date."
+    },
+    {
+      "order": 4,
+      "mechanism": "address imposed after use and translated across institutions",
+      "lead_case": "Tiegs Museum / University of Melbourne",
+      "authority": "data/analysis/tiegs_melbourne_register_slide_collection_upgrade_v1.json",
+      "closed_evidence": "The teaching collection began in 1887 and the Register of Specimens only in 1893, leaving roughly six years in which objects existed before systematic written registration. Current cataloguing can carry older numbers and reconstructed batches into the MUZD namespace.",
+      "historical_payoff": "Address systems were not always original. Institutions could retrospectively make working collections retrievable, and later catalogues could translate older addresses rather than replace them cleanly.",
+      "best_use": "Late section on institutional history and temporal layering of addresses.",
+      "guard": "The demonstrated old-register to MUZD object is a skeleton, not a slide; slide-specific register crosswalk remains open."
+    },
+    {
+      "order": 5,
+      "mechanism": "commercial product address retaining the workshop behind the commodity",
+      "lead_case": "Charles Elcock / Whipple Museum",
+      "authority": "data/analysis/elcock_whipple_workshop_to_market_upgrade_v1.json",
+      "closed_evidence": "Type Slide Nos. 1 and 2 were standardized fifty-species products priced at twenty shillings and sold through named agents. Surviving drawers still carry the Type Slide product labels alongside tools, stains, mounting materials, raw specimens and retained preparations.",
+      "historical_payoff": "A market address can connect a finished standardized slide back to the operations and materials from which it was produced.",
+      "best_use": "Comparator or compact section if the paper needs commerce and production. It prevents the address argument from becoming purely archival or museum-based.",
+      "guard": "A retained workshop Type Slide is not automatically a retail-sold copy returned from the market."
+    },
+    {
+      "order": 6,
+      "mechanism": "circulation revealing the limits of object-only knowledge",
+      "lead_case": "Quekett Microscopical Club",
+      "authority": "data/analysis/quekett_club_cabinet_circulation_authority_upgrade_v1.json",
+      "closed_evidence": "The Club built a comprehensive cabinet through donation and exchange, treated carefully named slides as reference authorities and freely circulated more than 2,000 slides by 1879. Its President explicitly distinguished the preparer's knowledge of origin and crude state from what a first-time borrower could learn from the finished slide.",
+      "historical_payoff": "Address and circulation made preparations available for comparison, but circulation could detach them from generative knowledge. Textual or series-level supplementation was therefore part of the historical problem, not an external historian's concern.",
+      "best_use": "Internal critique of the argument: addressability enables use but does not guarantee adequate context or correct interpretation.",
+      "guard": "Do not infer exact item continuity from the nineteenth-century cabinet to the present 20,000+ slide collection."
+    },
+    {
+      "order": 7,
+      "mechanism": "later grouping producing false continuity",
+      "lead_case": "Francis Maitland Balfour / Whipple optics",
+      "authority": "data/analysis/balfour_optics_composite_set_correction_v2.json",
+      "closed_evidence": "Publication captions securely document Zeiss objective classes used by Balfour, but the present grouped object includes a Zeiss 3 mm apochromat whose technology postdates Balfour's 1882 death. The modern accession grouping is therefore composite at least in part.",
+      "historical_payoff": "An address is evidence of a historical relation only at the level actually supported. Later collection addresses can manufacture apparent coherence; publication evidence can sometimes delimit historical use more tightly than museum grouping.",
+      "best_use": "Boundary/counterexample near the end. It prevents 'address' from becoming a self-validating concept.",
+      "guard": "Do not assign exact surviving numbered lenses to specific published figures without serial-number evidence."
+    }
+  ],
+  "secondary_comparators": [
+    {
+      "case": "Oxford HSM / RMS cabinet",
+      "use": "society cabinet and catalogue translated into modern container/drawer/slide/specimen database"
+    },
+    {
+      "case": "Cajal Legacy",
+      "use": "successive institutional inventories and digital catalogue addresses around one preparation"
+    },
+    {
+      "case": "Van Heurck distributed estate",
+      "use": "one scientific estate split and re-addressed by museum, library, botanical and digital namespaces"
+    },
+    {
+      "case": "La Plata reference series",
+      "use": "distributed serial numbers remaining bibliographically and taxonomically actionable after institutional absorption"
+    },
+    {
+      "case": "Naples Stazione Zoologica",
+      "use": "research-station preparation converted into numbered catalogue offering and dealer commodity"
+    }
+  ],
+  "proposed_section_logic": [
+    "Begin with the physical problem of finding a preparation again: Cole's cabinet turns a publication sequence into numbered wooden space.",
+    "Move from storage to operation: Grunow shows that an address can join material, slide, coordinate and drawing and can support remaking.",
+    "Move from operation to maintenance: Pacini shows object identity surviving replacement of the glass carrier.",
+    "Move from individual/workshop systems to institutions: Tiegs and selected Oxford/Cajal comparators show retrospective and successive re-addressing.",
+    "Use Quekett and Balfour as checks: circulation loses knowledge, and later cataloguing can create false coherence. Address systems are powerful precisely because they have histories and failure modes."
+  ],
+  "paper_scale_recommendation": {
+    "full_case_sections": ["Cole", "Grunow", "Pacini", "Tiegs"],
+    "compact_comparators": ["Quekett Microscopical Club", "Elcock", "Oxford RMS", "Cajal"],
+    "counterexample": "Balfour",
+    "reason": "Four full cases are enough to establish the mechanism while preserving source density. The remaining closed chains should do comparative or limiting work rather than turn the article back into a global survey."
+  },
+  "phrasing_candidates": [
+    "A microscope slide could be more durable as an address than as a piece of glass.",
+    "The cabinet did not merely contain the publication; it materialized its address system in wood, slots, and an index.",
+    "For Grunow, the slide was one retrievable state of a numbered sample, not the terminal form of the specimen.",
+    "Pacini's repaired cholera preparation shows that the glass could change while the historical object remained legible.",
+    "At Melbourne, cataloguing followed collecting: the register gave formal addresses to a teaching collection that had already been in use for years.",
+    "The Balfour set shows the inverse problem: a later museum address can make heterogeneous things look historically coeval."
+  ],
+  "next_writing_step": "Draft a source-dense opening and first analytical section around Cole, then test every general sentence against Grunow and Pacini before allowing the concept of addressability to expand. Do not reopen discovery unless a bounded source arrives."
+}
