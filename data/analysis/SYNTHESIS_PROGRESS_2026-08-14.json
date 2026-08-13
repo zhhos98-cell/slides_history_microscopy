@@ -1,0 +1,21 @@
+{
+  "generated": "2026-08-14",
+  "status": "SYNTHESIS_PASS_1_COMPLETE",
+  "research_mode": "ANALYTICAL_SATURATION__SYNTHESIS_AND_WRITING",
+  "new_argument_matrix": "data/analysis/address_systems_argument_matrix_v1.json",
+  "core_proposition": "A microscope slide could sometimes be more durable as an address than as a piece of glass.",
+  "full_case_spine": ["Cole", "Grunow", "Pacini", "Tiegs Museum"],
+  "compact_comparators": ["Quekett Microscopical Club", "Elcock", "Oxford RMS", "Cajal", "Van Heurck", "La Plata", "Naples"],
+  "counterexample": "Balfour",
+  "reasoning": {
+    "Cole": "publication identity fixed in numbered cabinet slots and index",
+    "Grunow": "sample numbers coordinate raw material, preparations, microscope coordinates, drawings and remaking instructions",
+    "Pacini": "case/publication address preserves object identity through remounting onto new glass",
+    "Tiegs": "formal register addresses arrive after a teaching collection is already in use",
+    "Quekett": "circulation exposes the gap between moving a prepared object and moving the preparer's knowledge",
+    "Balfour": "later museum grouping can create false coherence, so addresses must themselves be historically audited"
+  },
+  "next_step": "Draft a source-dense opening and first analytical section around Cole. Test every general sentence against Grunow and Pacini before expanding the addressability claim.",
+  "broad_discovery_reopened": false,
+  "exact_source_residuals_changed": false
+}
