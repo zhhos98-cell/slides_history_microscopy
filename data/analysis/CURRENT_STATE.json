@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.2.0-analysis-current-state",
-  "generated": "2026-08-11",
+  "schema_version": "1.2.1-analysis-current-state",
+  "generated": "2026-08-14",
   "status": "CANONICAL_CURRENT_ANALYSIS_STATE__CLOSURE_SATURATION",
   "purpose": "Single machine-readable authority pointer for the current microscope-slide analysis state after the 10–11 August upgrade sweep. Historical snapshots remain in the repository for audit; this file identifies the live synthesis state and request-only residuals.",
   "repository_authority": "REPOSITORY_STATE.json",
@@ -26,6 +26,32 @@
   "research_mode": "ANALYTICAL_SATURATION__SYNTHESIS_AND_WRITING",
   "public_web_discovery_queue": [],
   "active_broad_search_queue": [],
+  "exact_source_request_queue": [
+    {
+      "rank": 1,
+      "target": "Charles Elcock — St Andrews ms21974-ms21975",
+      "source_needed": "page images or transcription of the two letters",
+      "necessity_for_writing": "optional provenance refinement"
+    },
+    {
+      "rank": 2,
+      "target": "NHM HMS Challenger dataset",
+      "source_needed": "current 4,723-row resource binary",
+      "necessity_for_writing": "optional complete mechanical harvest; architecture already closed"
+    },
+    {
+      "rank": 3,
+      "target": "Balfour surviving Zeiss objectives",
+      "source_needed": "ZEISS archive/accessory dispatch evidence for objective engravings 573, 1295, 710, 780, 542",
+      "necessity_for_writing": "optional item-provenance refinement; publication/designation layer already S"
+    },
+    {
+      "rank": 4,
+      "target": "John Thomas Norman 1872 catalogue → St Andrews",
+      "source_needed": "complete Norman item/export layer with current addresses and label transcriptions",
+      "necessity_for_writing": "optional item-level closure; collection-level chain already established"
+    }
+  ],
   "closure_authority": "data/analysis/closure_saturation_manifest_2026-08-11.json",
   "request_only_residuals": [
     {
