@@ -1,21 +1,27 @@
 {
   "generated": "2026-08-14",
-  "status": "SYNTHESIS_PASS_1_COMPLETE",
+  "status": "GRAND_SYNTHESIS_PASS_COMPLETE",
   "research_mode": "ANALYTICAL_SATURATION__SYNTHESIS_AND_WRITING",
-  "new_argument_matrix": "data/analysis/address_systems_argument_matrix_v1.json",
-  "core_proposition": "A microscope slide could sometimes be more durable as an address than as a piece of glass.",
+  "argument_matrix": "data/analysis/address_systems_argument_matrix_v1.json",
+  "grand_synthesis": "data/analysis/GRAND_SYNTHESIS_2026-08-14_v1.json",
+  "project_redefinition": "A history of how microscopic knowledge was made durable, retrievable, movable, comparable and teachable through prepared objects and their documentary infrastructures, rather than a census or object history of glass slides alone.",
+  "core_proposition": "The nineteenth-century microscope slide was a prepared, addressed and maintained knowledge object; material survival was only one form of continuity.",
+  "analytical_model": "double fixing: preparation fixes material into a viewable state; address systems fix the preparation into recoverable relations. Both forms remain revisable and require maintenance.",
   "full_case_spine": ["Cole", "Grunow", "Pacini", "Tiegs Museum"],
-  "compact_comparators": ["Quekett Microscopical Club", "Elcock", "Oxford RMS", "Cajal", "Van Heurck", "La Plata", "Naples"],
-  "counterexample": "Balfour",
-  "reasoning": {
-    "Cole": "publication identity fixed in numbered cabinet slots and index",
-    "Grunow": "sample numbers coordinate raw material, preparations, microscope coordinates, drawings and remaking instructions",
-    "Pacini": "case/publication address preserves object identity through remounting onto new glass",
-    "Tiegs": "formal register addresses arrive after a teaching collection is already in use",
-    "Quekett": "circulation exposes the gap between moving a prepared object and moving the preparer's knowledge",
-    "Balfour": "later museum grouping can create false coherence, so addresses must themselves be historically audited"
-  },
-  "next_step": "Draft a source-dense opening and first analytical section around Cole. Test every general sentence against Grunow and Pacini before expanding the addressability claim.",
+  "indispensable_limits_and_expansions": ["Quekett Microscopical Club", "Elcock", "Balfour"],
+  "structural_comparators": ["Tokyo", "Coimbra", "Cajal", "Van Heurck", "Oxford RMS", "La Plata", "Naples", "Hunterian/Quekett"],
+  "larger_mechanism_families": [
+    "material publication",
+    "cross-media scientific address",
+    "commerce and standardization",
+    "circulation and transaction grammar",
+    "teaching infrastructures",
+    "maintenance and repair",
+    "institutional re-addressing",
+    "counterexample and epistemic guard"
+  ],
+  "working_conceptual_proposal": "maintainable mobile: mobility and durability depend on material care, labels, packaging, catalogues, correspondence and repeated re-addressing rather than immutability of the glass carrier.",
+  "next_step": "Draft. Begin from Cole's imperfect surviving cabinet, use Grunow to establish operational addressability, Pacini to establish repair and material discontinuity, then move outward to institutions, circulation and commerce. Do not reopen broad discovery.",
   "broad_discovery_reopened": false,
   "exact_source_residuals_changed": false
 }
