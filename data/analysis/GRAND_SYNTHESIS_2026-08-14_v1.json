@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0.0-grand-synthesis",
+  "generated": "2026-08-14",
+  "status": "GRAND_SYNTHESIS_V1__WRITE_FROM_CLOSED_CHAINS",
+  "repository_authority": "REPOSITORY_STATE.json",
+  "analysis_authority": "data/analysis/CURRENT_STATE.json",
+  "closure_authority": "data/analysis/closure_saturation_manifest_2026-08-11.json",
+  "argument_matrix": "data/analysis/address_systems_argument_matrix_v1.json",
+  "scope": "Synthesis of the closed nineteenth-century microscope-slide object/document systems already present in the repository. This file does not reopen discovery and does not promote collection-level evidence to item-level fact.",
+  "project_redefinition": {
+    "too_narrow": "A history of microscope slides as small scientific objects or collectibles.",
+    "stronger": "A history of how microscopic knowledge was made durable, retrievable, movable, comparable and teachable through prepared material objects and the documentary systems attached to them.",
+    "unit_of_analysis": "Not the glass slide alone, but the prepared object in relation to labels, numbers, series, cabinets, catalogues, methods, prices, course records, correspondence and later institutional identifiers.",
+    "why_slides_matter": "The slide sits at the junction of specimen, technique, commerce, publication, pedagogy and collection management. It therefore exposes infrastructures of microscopy that instrument-centred histories can separate or leave implicit."
+  },
+  "claim_hierarchy": [
+    {
+      "level": 1,
+      "claim": "Nineteenth-century practical microscopy depended on preparations as much as on microscopes.",
+      "support": ["Elcock workshop-to-market chain", "Tokyo and Coimbra teaching ecologies", "Balfour serial sections and apparatus", "Quekett cabinet circulation"]
+    },
+    {
+      "level": 2,
+      "claim": "Preparation was a technology of conversion: variable, fragile or otherwise difficult material was transformed into a repeatable object that could be stored, transported, sold, lent, demonstrated and revisited.",
+      "support": ["Elcock raw material to mounted foraminifera", "Grunow raw/bottled material to preparations", "Cole distributed preparations", "Haeckel material and preparation circulation"]
+    },
+    {
+      "level": 3,
+      "claim": "A preparation became operationally durable only when it was addressable. Numbers, labels, cabinets, catalogues, publication references, microscope coordinates and registers bound the material object to a recoverable relation.",
+      "support": ["Cole cabinet slots and index", "Grunow sample numbers and coordinates", "Pacini publication-bearing labels", "Cajal successive addresses", "Tiegs register", "Oxford RMS database translation"]
+    },
+    {
+      "level": 4,
+      "claim": "Historical continuity often depended on maintainability rather than material immutability. A preparation could be remounted, replaced within a fixed publication position, re-catalogued or transferred while remaining legible through surviving or translated addresses.",
+      "support": ["Pacini remounting", "Cole substitutions inside stable slots", "Grunow remaking instructions", "Cajal and Van Heurck re-addressing", "Tiegs retrospective registration"]
+    },
+    {
+      "level": 5,
+      "claim": "The same systems that stabilized slides could also detach or distort relations. Circulation could lose maker knowledge; later cataloguing could create false coherence; a surviving object could outlive the address that once made it useful.",
+      "support": ["Quekett 1879 distinction between preparer knowledge and borrower view", "Balfour composite current grouping", "Van Heurck disciplinary dispersal", "Cole object/text institutional separation"]
+    }
+  ],
+  "central_analytical_model": {
+    "name": "double fixing",
+    "status": "analytical inference from the source-grounded cases, not a historical actor term",
+    "first_fixing": "Preparation physically fixes selected material into a viewable state on glass.",
+    "second_fixing": "An address system fixes the preparation into a social and epistemic relation: a numbered slot, labelled case, series, catalogue entry, published page, microscope coordinate, course register or accession system.",
+    "result": "The first fixing stabilizes matter enough to inspect; the second stabilizes relations enough to find, compare, circulate and reuse it.",
+    "qualification": "Both fixings remain revisable. Material can be remounted or replaced, and addresses can be translated, lost or wrongly consolidated. Durability is therefore maintained, not simply possessed."
+  },
+  "historical_process_model": [
+    {
+      "phase": "1. Acquire and prepare",
+      "question": "How is material converted into an inspectable preparation?",
+      "mechanisms": ["collection", "washing/sieving/sorting", "sectioning", "staining", "mounting", "serial cutting"],
+      "lead_cases": ["Elcock", "Grunow", "Balfour/Cambridge", "Pacini"]
+    },
+    {
+      "phase": "2. Format and address",
+      "question": "How does the preparation become one retrievable unit among others?",
+      "mechanisms": ["label", "number", "series", "cabinet slot", "catalogue row", "publication issue", "microscope coordinate"],
+      "lead_cases": ["Cole", "Grunow", "La Plata", "Hunterian/Quekett"]
+    },
+    {
+      "phase": "3. Value and circulate",
+      "question": "How is the preparation made exchangeable across people and places?",
+      "mechanisms": ["price", "quality grade", "boxed set", "subscription", "dealer network", "society loan", "exchange", "gift", "approval sale", "second-hand resale"],
+      "lead_cases": ["Amadio/Bourgogne/Norman/Wheeler/Watson trade matrix", "Elcock", "Quekett Microscopical Club", "Haeckel", "Cole"]
+    },
+    {
+      "phase": "4. Use and teach",
+      "question": "How is a preparation coordinated with instruments, courses, comparison practices and users?",
+      "mechanisms": ["course sequence", "apparatus catalogue", "instrument inventory", "reference cabinet", "serial section sequence", "published description"],
+      "lead_cases": ["Tokyo", "Coimbra", "Cambridge/Balfour", "Würzburg/Kölliker", "Tiegs", "Quekett Microscopical Club"]
+    },
+    {
+      "phase": "5. Maintain and re-address",
+      "question": "What happens when glass, labels, institutions or collection structures change?",
+      "mechanisms": ["remounting", "replacement", "recataloguing", "new accession number", "estate division", "database crosswalk", "retrospective registration"],
+      "lead_cases": ["Pacini", "Cole", "Cajal", "Van Heurck", "Oxford RMS", "Tiegs", "Bourgogne/NMAH"]
+    },
+    {
+      "phase": "6. Historical afterlife and failure",
+      "question": "Which relations survive, disappear or become misleading?",
+      "mechanisms": ["object/text separation", "lost crosswalk", "disciplinary dispersal", "composite museum grouping", "survival of maker name as value descriptor"],
+      "lead_cases": ["Cole/Quekett", "Van Heurck", "Balfour", "second-hand maker bundles"]
+    }
+  ],
+  "mechanism_families": [
+    {
+      "family": "material publication",
+      "cases": ["Cole"],
+      "synthesis": "Cole is not simply a slide maker who also printed text. The serial coordinated specimen, description, method, image, bibliography, subscription cadence and delivery. The preparation became issue-bound. Later binding and institutional classification could split the original publication into paper and glass while leaving a recoverable relation between them.",
+      "strongest_sentence": "Cole did not invent the circulation of prepared slides; he published the preparation."
+    },
+    {
+      "family": "cross-media scientific address",
+      "cases": ["Grunow", "Cajal", "Harvard Minot as later comparator"],
+      "synthesis": "Numbers could coordinate more than storage. Grunow sample numbers crossed raw matter, slides, microscope coordinates and drawings; Cajal's catalogue preserves successive obsolete and current addresses; Minot's card/drawing/series system shows how serial anatomy could remain retrievable across old and new identifiers.",
+      "strongest_sentence": "An address could function as a scientific operation, not merely an administrative label."
+    },
+    {
+      "family": "commerce and standardization",
+      "cases": ["Amadio", "Bourgogne", "Norman", "Wheeler", "Watson", "Elcock", "Naples", "La Plata"],
+      "synthesis": "Trade transformed preparations into priced and classified units: individual or dozen lots, boxed student sets, numbered catalogues, standardized type slides, dealer products and later second-hand bundles. Maker names remained value-bearing descriptors after first sale. Commercial formatting helped create comparable object classes, but product identity, transaction history and surviving-copy provenance must remain separate.",
+      "strongest_sentence": "The market did not merely distribute preparations; it formatted them as countable, priced and comparable units."
+    },
+    {
+      "family": "circulation and transaction grammar",
+      "cases": ["Quekett Microscopical Club", "Haeckel", "Elcock", "Naples"],
+      "synthesis": "Preparations moved through exchange, lending, gifting, shipment, approval sale, dealer networks and professional delegation. Haeckel correspondence shows actions such as send, inspect, buy, return, identify, report, reimburse, give and view. QMC demonstrates that circulation increased access while historical actors recognized that the finished slide did not automatically carry the preparer's knowledge with it.",
+      "strongest_sentence": "Movement redistributed prepared objects more easily than it redistributed the knowledge of how those objects had been made."
+    },
+    {
+      "family": "teaching infrastructures",
+      "cases": ["Tokyo", "Coimbra", "Cambridge/Balfour", "Würzburg/Kölliker", "Tiegs", "Harvard Minot"],
+      "synthesis": "A preparation became teachable when it was coordinated with a local institutional ecology. Tokyo decomposed microscopy into ledgers for preparations, manufacture, instruments, practical work and course chronology; Coimbra publicly catalogued course, preparations and physiology apparatus together; Cambridge preserves preparations and relevant apparatus; Melbourne formalized an already working collection through later registration.",
+      "strongest_sentence": "Practical microscopy was not the diffusion of one standardized laboratory system; institutions made preparations teachable through different documentary and material ecologies."
+    },
+    {
+      "family": "maintenance and repair",
+      "cases": ["Pacini", "Cole", "Grunow"],
+      "synthesis": "Pacini records remounting in new glass while retaining a publication-bearing object identity; Cole's cabinet preserves publication positions despite replacements and mismatches; Grunow gives instructions for remaking preparations from deteriorated material. These cases make repair part of the historical object rather than evidence of corruption external to it.",
+      "strongest_sentence": "The durable slide was often a maintained object, not an untouched survivor."
+    },
+    {
+      "family": "institutional re-addressing",
+      "cases": ["Oxford RMS", "Cajal", "Van Heurck", "Tiegs", "Bourgogne/NMAH", "Hunterian/Quekett"],
+      "synthesis": "Collections survived through new catalogues, accession systems, disciplinary divisions and databases. Re-addressing could preserve old relations, as in Cajal, or divide an integrated estate across specialist institutions, as in Van Heurck. A current museum record is therefore one historical layer among several, not the final transparent identity of the object.",
+      "strongest_sentence": "Collection survival often meant changing address rather than remaining in place."
+    },
+    {
+      "family": "counterexample and epistemic guard",
+      "cases": ["Balfour"],
+      "synthesis": "The Balfour optics group includes a Zeiss apochromat whose technology postdates Balfour's death. Publication evidence securely documents objective classes in use, while the current accession grouping is composite at least in part. This demonstrates that later addresses can manufacture apparent coherence.",
+      "strongest_sentence": "An address can preserve a relation, but it can also create one retrospectively."
+    }
+  ],
+  "valuation_synthesis": {
+    "source_grounded_observations": [
+      "Amadio advertised microscopic objects at several per-dozen price bands and sold a 72-specimen student box in fitted mahogany packaging.",
+      "Bourgogne catalogues differentiated preparations by quality, format and price.",
+      "Norman listed 2,584 mounted objects in a classified commercial list.",
+      "Elcock's Type Slides standardized fifty species into named products priced at twenty shillings.",
+      "Second-hand advertisements continued to use maker names such as Topping, Norman and Bourgogne as sale descriptors."
+    ],
+    "inference": "Economic value was attached not only to microscopic content but to maker attribution, classification, package, series, preparation quality and usability. The commodity form itself was an epistemic format because it decided what counted as one purchasable and comparable unit.",
+    "guard": "Do not equate advertised price with stable scientific value, and do not normalize currencies or rates without source-specific calculation."
+  },
+  "seriality_synthesis": {
+    "forms": [
+      "Cole's weekly issue sequence with interleaved subject tracks",
+      "numbered commercial/reference series such as Möller and Tempère & Peragallo",
+      "embryological serial sections in Cambridge and Harvard",
+      "cabinet positions and catalogue sequences",
+      "distributed type/test series"
+    ],
+    "claim": "Seriality converted many heterogeneous preparations into ordered comparison systems. A series could organize time, taxonomy, anatomy, locality, section sequence or optical difficulty. The important historical question is therefore not simply how many slides existed, but what ordering principle made one slide adjacent to another and what users could do with that order."
+  },
+  "mobility_synthesis": {
+    "source_grounded_problem": "Slides moved widely, but their relations did not travel automatically. QMC actors explicitly recognized information loss; Haeckel correspondence shows the paperwork and expert labour attached to shipments; institutional transfers repeatedly changed addresses.",
+    "analytical_proposal": "Treat the prepared slide as a maintainable mobile rather than an immutable mobile.",
+    "status": "analytical proposal, not a historical actor phrase",
+    "reason": "Its mobility depended on material care, labels, packaging, catalogues, correspondence and repeated re-addressing. It could remain useful after remounting or replacement, while an intact piece of glass could become historically opaque if its address system was lost.",
+    "guard": "The proposal should be tested against cases rather than used as a universal label for every preparation."
+  },
+  "what_is_newest_in_the_project": [
+    "The slide is treated as a relation-bearing preparation rather than an isolated specimen or illustration.",
+    "Material continuity and historical continuity are analytically separated and then tested against repair, replacement and re-addressing evidence.",
+    "Commercial catalogues, society cabinets, teaching ledgers and museum databases are compared as different infrastructures for making preparations retrievable rather than as separate source genres.",
+    "Circulation is analysed together with information loss: movement can increase access while weakening knowledge of preparation, origin or context.",
+    "The project shifts from diffusion geography to mechanism comparison. Tokyo, Coimbra, Cambridge and Melbourne are compared by how they made microscopy administratively and pedagogically workable, not by distance from a European centre.",
+    "Later museum cataloguing is treated as historically productive and potentially misleading rather than as neutral description."
+  ],
+  "arguments_to_avoid": [
+    "Do not claim microscope slides were the primary or universal basis of nineteenth-century microscopy.",
+    "Do not collapse every number into one generic address category; serial numbers, catalogue numbers, accession numbers, cabinet slots and microscope coordinates perform different work.",
+    "Do not treat all surviving slides as untouched originals; replacement, remounting and later grouping are part of the evidence.",
+    "Do not use present collection membership as proof of original historical association.",
+    "Do not frame global cases as passive reception of a British or European model.",
+    "Do not let the global survey become the argument. The frozen 307/155 census establishes breadth; mechanism-rich closed chains carry the historical claim."
+  ],
+  "writing_architecture": {
+    "article_scale_A": {
+      "working_title": "Publishing the Preparation",
+      "centre": "Arthur C. Cole",
+      "claim": "Cole reformatted an existing prepared-slide trade into a serial publication in which specimen, text, image, method, subscription time and cabinet address formed one publication system.",
+      "comparators": ["Quekett Club", "Grunow or La Plata", "Pacini"],
+      "best_for": "a tightly bounded article with an unusually concrete material-publication intervention"
+    },
+    "article_scale_B": {
+      "working_title": "More Durable as an Address than as Glass",
+      "centre": "comparative address/maintenance history",
+      "full_cases": ["Cole", "Grunow", "Pacini", "Tiegs"],
+      "limits": ["Quekett Microscopical Club", "Balfour"],
+      "claim": "Prepared objects became durable through retrievable and maintainable relations; material survival was only one form of continuity.",
+      "best_for": "a broader HPS/HHS argument about scientific objects, maintenance and collection infrastructures"
+    },
+    "larger_project_scale": {
+      "working_title_candidates": ["The Prepared World", "Addressing the Invisible", "Prepared to Travel"],
+      "central_question": "How did microscopic observations become durable social objects?",
+      "parts": [
+        "I. Making: preparation as material conversion",
+        "II. Formatting: labels, catalogues, series and publication",
+        "III. Moving: commerce, exchange, gift and shipment",
+        "IV. Teaching: preparation-instrument-course ecologies",
+        "V. Maintaining: remounting, replacement and recataloguing",
+        "VI. Afterlives: museum addresses, lost crosswalks and false coherence"
+      ]
+    }
+  },
+  "case_weighting_for_grand_synthesis": {
+    "indispensable": ["Cole", "Grunow", "Pacini", "Quekett Microscopical Club", "Elcock", "Tiegs", "Balfour"],
+    "strong_structural_comparators": ["Tokyo", "Coimbra", "Cajal", "Van Heurck", "Oxford RMS", "La Plata", "Naples", "Hunterian/Quekett"],
+    "supporting_or_specialized": ["Haeckel", "Gibson", "Dundee Hornell & Sinel / Watson", "Kölliker/Würzburg", "Grayson", "Bourgogne/NMAH", "Harvard Minot"],
+    "rule": "Case weight follows explanatory mechanism and evidential closure, not geography or collection size."
+  },
+  "grand_thesis": "The nineteenth-century microscope slide was neither merely a transparent support nor simply a portable specimen. It was a prepared, addressed and maintained knowledge object. Preparation converted material into a repeatable microscopic state; labels, numbers, catalogues, cabinets, publications and registers made that state retrievable; markets, societies and correspondence moved it; courses and instruments made it usable; repair and re-addressing kept it historically operative. These infrastructures could preserve scientific relations beyond the survival of the original glass, but they could also lose context or create retrospective coherence. The history of the slide is therefore a history of how microscopic knowledge was stabilized through maintenance and relations rather than through material immutability alone.",
+  "next_step": "Write from this synthesis rather than search. The immediate drafting test is to produce an opening that begins with Cole's imperfect surviving cabinet, then moves to Grunow and Pacini to establish that the core problem is not pristine survival but maintained retrievability. Keep trade, teaching and global comparison as mechanism-rich expansions, not as a renewed census."
+}
