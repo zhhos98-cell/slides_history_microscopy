@@ -1,27 +1,29 @@
 {
-  "generated": "2026-08-14",
-  "status": "GRAND_SYNTHESIS_PASS_COMPLETE",
+  "generated": "2026-08-15",
+  "status": "SECOND_LAYER_SYNTHESIS_AND_ARTICLE_DECISION_COMPLETE",
   "research_mode": "ANALYTICAL_SATURATION__SYNTHESIS_AND_WRITING",
   "argument_matrix": "data/analysis/address_systems_argument_matrix_v1.json",
   "grand_synthesis": "data/analysis/GRAND_SYNTHESIS_2026-08-14_v1.json",
+  "historiographical_decision": "data/analysis/HISTORIOGRAPHICAL_MOVES_AND_ARTICLE_DECISION_2026-08-15_v1.json",
   "project_redefinition": "A history of how microscopic knowledge was made durable, retrievable, movable, comparable and teachable through prepared objects and their documentary infrastructures, rather than a census or object history of glass slides alone.",
   "core_proposition": "The nineteenth-century microscope slide was a prepared, addressed and maintained knowledge object; material survival was only one form of continuity.",
   "analytical_model": "double fixing: preparation fixes material into a viewable state; address systems fix the preparation into recoverable relations. Both forms remain revisable and require maintenance.",
-  "full_case_spine": ["Cole", "Grunow", "Pacini", "Tiegs Museum"],
-  "indispensable_limits_and_expansions": ["Quekett Microscopical Club", "Elcock", "Balfour"],
-  "structural_comparators": ["Tokyo", "Coimbra", "Cajal", "Van Heurck", "Oxford RMS", "La Plata", "Naples", "Hunterian/Quekett"],
-  "larger_mechanism_families": [
-    "material publication",
-    "cross-media scientific address",
-    "commerce and standardization",
-    "circulation and transaction grammar",
-    "teaching infrastructures",
-    "maintenance and repair",
-    "institutional re-addressing",
-    "counterexample and epistemic guard"
-  ],
   "working_conceptual_proposal": "maintainable mobile: mobility and durability depend on material care, labels, packaging, catalogues, correspondence and repeated re-addressing rather than immutability of the glass carrier.",
-  "next_step": "Draft. Begin from Cole's imperfect surviving cabinet, use Grunow to establish operational addressability, Pacini to establish repair and material discontinuity, then move outward to institutions, circulation and commerce. Do not reopen broad discovery.",
+  "historiographical_guard": "The project must not present slide materiality or slide circulation as discoveries in themselves. The repository already contains the 2013 HPLS slide literature by Löwy, Fiorentini, Gaycken and Close-Koenig. The distinctive moves are material publication, relation-bearing maintainability, asymmetric object/knowledge circulation, historically active address systems, commercial formatting, and comparative institutional coordination.",
+  "article_decision": {
+    "first": "Cole single-case article — Publishing the Preparation",
+    "second": "tight comparative article — Cole + Grunow + Pacini, with Quekett and Balfour as limit cases",
+    "project_level_frame": "global maintainable-mobile synthesis",
+    "reason": "Cole has the strongest bounded chronology and source density. Maintainability is the larger conceptual payoff but should be demonstrated through a tight comparative paper rather than a global typology."
+  },
+  "Cole_article_moves": [
+    "pre-existing professional slide trade",
+    "serial innovation: preparation becomes issue-bound",
+    "print/image/method compensate for the limits of the finished slide",
+    "cabinet and index materialize publication address",
+    "replacement and institutional separation reveal distributed publication identity"
+  ],
+  "next_step": "Draft the Cole article at first-order source density. State the historiographical intervention narrowly: not that slides are material/epistemic objects, but that Cole created a specific material publication technology whose serial and cabinet architecture made prepared objects issue-bound and historically durable across later material discontinuity.",
   "broad_discovery_reopened": false,
   "exact_source_residuals_changed": false
 }
