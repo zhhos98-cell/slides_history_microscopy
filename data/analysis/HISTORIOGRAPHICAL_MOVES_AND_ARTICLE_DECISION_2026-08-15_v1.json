@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0-historiographical-moves-article-decision",
+  "generated": "2026-08-15",
+  "status": "SECOND_LAYER_SYNTHESIS__ARTICLE_DECISION",
+  "basis": {
+    "project_synthesis": "data/analysis/GRAND_SYNTHESIS_2026-08-14_v1.json",
+    "argument_matrix": "data/analysis/address_systems_argument_matrix_v1.json",
+    "direct_slide_historiography_in_repo": "bibliography/bibliography-03.csv",
+    "closure_authority": "data/analysis/closure_saturation_manifest_2026-08-11.json"
+  },
+  "source_vs_inference_note": "Claims about what individual historical cases demonstrate are source-grounded in the repository. The historiographical moves, journal-scale judgement, and terms such as 'double fixing' and 'maintainable mobile' are analytical inferences developed from those cases, not historical actor terms.",
+  "historiographical_moves": [
+    {
+      "move": 1,
+      "from": "instrument-centred or technique-centred histories of microscopy",
+      "to": "preparation-centred infrastructures of practical microscopy",
+      "repo_basis": ["Elcock workshop-to-market chain", "Tokyo/Coimbra teaching ecologies", "Balfour serial sections and apparatus", "Quekett cabinet circulation"],
+      "argument": "The microscope alone did not make microscopic material repeatedly usable. Prepared objects, storage, cataloguing, distribution and course organization formed a second material infrastructure of microscopy.",
+      "novelty_guard": "Do not claim historians have ignored slides. The repository already contains a 2013 HPLS cluster explicitly treating microscope slides as material, epistemic, symbolic and circulating objects. The contribution lies in specifying the infrastructures and mechanisms by which preparations remained operational."
+    },
+    {
+      "move": 2,
+      "from": "the slide as a material/epistemic object",
+      "to": "the preparation as a relation-bearing and maintainable object",
+      "repo_historiography": [
+        "Ilana Löwy, 'Microscope slides in the life sciences: material, epistemic and symbolic objects' (2013)",
+        "Erna Fiorentini, 'Induction of visibility' (2013)",
+        "Ilana Löwy, 'Sex on a Slide' (2013)"
+      ],
+      "repo_basis": ["Cole stable publication positions with substitutions", "Pacini remounting", "Grunow remaking instructions", "Cajal successive addresses"],
+      "argument": "The strongest extension beyond object-centred historiography is to separate material continuity from historical/operational continuity. A preparation can remain the same usable historical object through repair, replacement of carrier, or translated address when relations are actively maintained.",
+      "key_formula": "durability through maintainability, not durability as untouched survival"
+    },
+    {
+      "move": 3,
+      "from": "circulation of microscope-slide knowledge",
+      "to": "asymmetric circulation of objects, information and generative knowledge",
+      "repo_historiography": [
+        "Oliver Gaycken, 'The Living Picture: On the Circulation of Microscope-Slide Knowledge in 1903' (2013)",
+        "Tricia Close-Koenig, 'Histopathology slides from medical research to medical practice in interwar Strasbourg' (2013)"
+      ],
+      "repo_basis": ["Quekett 1879 president's distinction between preparer knowledge and first-time borrower view", "Haeckel transaction grammar", "Elcock dealer circulation"],
+      "argument": "Movement redistributed prepared objects more readily than it redistributed knowledge of origin, crude state, preparation and interpretation. Circulation therefore had losses, supplements and administrative costs that can be reconstructed rather than assumed away.",
+      "key_formula": "object mobility and knowledge mobility were coupled but non-identical"
+    },
+    {
+      "move": 4,
+      "from": "catalogues, labels and accessions as documentary afterlife",
+      "to": "address systems as historically active technologies of retrieval, repair and sometimes misassociation",
+      "repo_basis": ["Cole cabinet slots/index", "Grunow sample number and coordinates", "Pacini publication-bearing label", "Tiegs delayed register", "Cajal multi-address records", "Balfour composite grouping"],
+      "argument": "Numbers and catalogues did work at the time of use and during later maintenance. They could preserve relations, translate old namespaces or retrospectively produce apparent coherence. The history of the address must therefore be reconstructed alongside the history of the object.",
+      "guard": "Keep serial number, cabinet slot, sample number, microscope coordinate, accession and digital ID as distinct namespaces."
+    },
+    {
+      "move": 5,
+      "from": "commerce as distribution context",
+      "to": "commerce as formatting and valuation of prepared knowledge objects",
+      "repo_basis": ["Amadio price bands and student box", "Bourgogne grades/formats/prices", "Norman 2,584-object list", "Elcock fifty-species Type Slides at twenty shillings", "second-hand maker-name bundles"],
+      "argument": "Markets helped decide what counted as one purchasable, countable and comparable preparation: dozen lots, boxed sets, quality grades, numbered series and maker-attributed products. Commodity formatting was therefore part of the epistemic form of slides, while advertised price remains distinct from scientific value.",
+      "guard": "Do not reduce epistemic value to price or normalize currencies without source-specific work."
+    },
+    {
+      "move": 6,
+      "from": "geographic diffusion of microscopy",
+      "to": "comparative institutional coordination",
+      "repo_basis": ["Tokyo ledgers", "Coimbra published course/preparation/apparatus catalogue", "Cambridge serial sections and apparatus", "Tiegs delayed registration", "Harvard Minot comparator"],
+      "argument": "Institutions should be compared by how they coordinated preparations with instruments, courses, inventories and users, not by their distance from a presumed metropolitan model. The same practical technology produced different documentary ecologies.",
+      "key_formula": "compare coordination mechanisms, not diffusion distance"
+    }
+  ],
+  "article_options": {
+    "A_Cole_single_case": {
+      "working_title": "Publishing the Preparation: Arthur C. Cole and the Material Form of Microscopical Science",
+      "core_claim": "Cole reformatted a pre-existing trade in prepared slides into a serial publication whose issue unit coordinated preparation, prose, image, method, bibliography, subscription cadence and delivery; later cabinet and institutional histories reveal how that material publication could persist while its components changed or were separated.",
+      "evidence_strength": "very high",
+      "archival_density": "very high",
+      "conceptual_burden": "moderate",
+      "risk": "If framed merely as 'slides are material epistemic objects', the article overlaps directly with established slide historiography. Its distinctive contribution must stay on serial publication form, issue-bound preparation, cabinet address, and material afterlife.",
+      "journal_scale_assessment": "Currently the sharpest self-contained top-field article in the repository."
+    },
+    "B_global_maintainable_mobile": {
+      "working_title": "Maintainable Mobiles: Microscope Preparations and the Durability of Microscopic Knowledge",
+      "core_claim": "Microscope preparations travelled and survived through repeated maintenance of material and documentary relations; remounting, replacement, re-addressing, circulation and recataloguing made durability an achieved condition rather than simple material persistence.",
+      "evidence_strength": "high but heterogeneous across cases",
+      "archival_density": "uneven if written globally",
+      "conceptual_burden": "high",
+      "risk": "A global version can become a typology assembled from differently closed cases. 'Maintainable mobile' can also look like a conceptual reply before the historical mechanism has been demonstrated densely enough in one sequence.",
+      "journal_scale_assessment": "Potentially the larger contribution, but the present global version is less article-shaped than the Cole paper."
+    },
+    "C_tight_comparative": {
+      "working_title": "Maintaining the Preparation: Address, Repair, and Microscope Slides in the Nineteenth Century",
+      "full_cases": ["Cole", "Grunow", "Pacini"],
+      "limit_cases": ["Quekett Microscopical Club", "Balfour"],
+      "core_claim": "Prepared microscopic objects became durable through two coupled operations: material stabilization and relational stabilization. Cole shows stable publication positions across substitution; Grunow shows numbered movement among raw material, slides, coordinates and drawings, including remaking; Pacini shows identity across remounting. Quekett and Balfour establish the limits of circulation and later address coherence.",
+      "evidence_strength": "very high",
+      "archival_density": "high",
+      "conceptual_burden": "controlled",
+      "journal_scale_assessment": "Strongest route for converting the project-level maintainability insight into a second top-field article without reproducing the global survey."
+    }
+  },
+  "decision": {
+    "first_article": "A_Cole_single_case",
+    "second_article": "C_tight_comparative",
+    "park_as_project_level_frame": "B_global_maintainable_mobile",
+    "reason": "Cole already has the cleanest chronological sequence, source density, bounded object system and a distinctive mechanism of material publication. The maintainability insight is conceptually larger, but it becomes strongest as a second tightly comparative paper after the Cole argument establishes how one preparation system actually worked. The global form should remain a project-level synthesis or later book-scale frame rather than carrying the evidential burden of a single article."
+  },
+  "recommended_5_move_Cole_article": [
+    {
+      "move": 1,
+      "function": "establish the pre-existing slide trade",
+      "claim": "Cole did not create circulation of prepared slides; he entered an existing professional market."
+    },
+    {
+      "move": 2,
+      "function": "identify the formal innovation",
+      "claim": "Studies made the preparation issue-bound by synchronizing glass, text, image, method, literature, cadence and postal delivery."
+    },
+    {
+      "move": 3,
+      "function": "show why print was epistemically necessary",
+      "claim": "The slide alone did not guarantee intelligent interpretation; printed description and comparative imagery compensated for variability and information loss in preparation."
+    },
+    {
+      "move": 4,
+      "function": "show the cabinet as publication technology",
+      "claim": "Numbered wooden positions and an integrated index materialized the serial address system after loose issues became a cumulative volume."
+    },
+    {
+      "move": 5,
+      "function": "use afterlife to reveal the original ontology",
+      "claim": "Replacement, mismatch, binding and Library/Cabinet separation show that the publication's continuity could survive changes in individual material components; its identity was distributed across glass, number, text and storage architecture."
+    }
+  ],
+  "recommended_Cole_thesis": "Arthur C. Cole's Studies in Microscopical Science turned the prepared slide from an accompanying specimen into an issue-bound component of a serial publication. Its novelty lay in coordinating glass, text, image, method and subscription time, then giving that composite publication a durable cabinet address. The later survival of substituted slides and the institutional separation of paper from preparations reveal how publication identity could persist across material discontinuity.",
+  "next_step": "Write the Cole article at first-order source density before adding large theoretical vocabulary. Use the 2013 microscope-slide historiography to state explicitly that the contribution is not the discovery that slides are epistemic/material objects; it is the reconstruction of a specific publication technology and its material afterlife."
+}
