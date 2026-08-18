@@ -1,0 +1,77 @@
+name: gusu-sift-verified-pool
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/gusu_sift_verified_pool.yml"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/build_verified_visual_pool.py"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/match_public_book_samples_sift.py"
+
+permissions:
+  contents: write
+
+jobs:
+  match:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install geometric matching dependencies
+        run: |
+          python -m pip install --disable-pip-version-check opencv-python-headless numpy
+
+      - name: Build boundary-independent candidate pool
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/public_book_sample_sift_verified_pool_v2"
+          rm -rf "$OUT"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/build_verified_visual_pool.py \
+            --cma projects/gusu_vonderburg_2026-08-18/latest/cma_official_api/cma_vonderburg_2025_api_enriched.csv \
+            --met projects/gusu_vonderburg_2026-08-18/latest/met_v2/met_suzhou_2025_live_range_352_460.csv \
+            --samples projects/gusu_vonderburg_2026-08-18/latest/book_page_link_harvest/likely_book_sample_image_links.csv \
+            --outdir "$OUT" \
+            | tee "$OUT/pool_build_stdout.json"
+
+      - name: Run SIFT plus RANSAC across verified pool
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/public_book_sample_sift_verified_pool_v2"
+          python projects/gusu_vonderburg_2026-08-18/scripts/match_public_book_samples_sift.py \
+            "$OUT/deduped_public_book_samples.csv" \
+            "$OUT/verified_museum_image_pool.csv" \
+            --outdir "$OUT" \
+            | tee "$OUT/sift_run_stdout.txt"
+
+      - name: Commit derived visual-match evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/gusu_vonderburg_2026-08-18/latest/public_book_sample_sift_verified_pool_v2/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Match Gusu book samples against verified museum image pool [gusu-sift-v2]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Upload result artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gusu-sift-verified-pool-v2
+          path: projects/gusu_vonderburg_2026-08-18/latest/public_book_sample_sift_verified_pool_v2/
+          retention-days: 30
