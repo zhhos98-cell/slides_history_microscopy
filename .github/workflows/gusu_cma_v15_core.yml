@@ -1,0 +1,44 @@
+name: gusu-cma-v15-core
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/gusu_cma_v15_core.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build working 113-unit core
+        shell: bash
+        run: |
+          set -euo pipefail
+          IN="projects/gusu_vonderburg_2026-08-18/latest/cma_official_api/cma_vonderburg_2025_api_enriched.csv"
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/cma_v15"
+          test -s "$IN"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/build_cma_v15_core.py "$IN" --outdir "$OUT" | tee "$OUT/run_summary_stdout.txt"
+      - name: Commit v1.5 products
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/gusu_vonderburg_2026-08-18/latest/cma_v15/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Build CMA Gusu v1.5 113-unit working core [gusu-v15]"
+            git push origin HEAD:main
+          fi
