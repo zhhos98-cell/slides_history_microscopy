@@ -1,0 +1,6 @@
+target_accession,target_title,sample_id,rank_in_sample_top20,good_matches,homography_inliers,inlier_ratio,strong_threshold_pass,status,interpretation
+2025.358,May You Soon Bear Noble Sons,WENWU_RECOMMEND:4,9,79,8,0.1013,0,weak_candidate_only,"Does not satisfy 10 inliers + 0.35 ratio; no visual identity claim."
+2025.358,May You Soon Bear Noble Sons,WENWU_RECOMMEND:8,3,40,10,0.25,0,weak_candidate_only,"Best geometric support among current public samples, but ratio remains far below threshold."
+2025.358,May You Soon Bear Noble Sons,WENWU_RECOMMEND:11,16,51,7,0.1373,0,weak_candidate_only,"Does not satisfy strong threshold."
+2025.358,May You Soon Bear Noble Sons,GUANGZHOU_DAILY:5,2,67,8,0.1194,0,weak_candidate_only,"High rank is not enough; geometry remains weak and sample's true strong match is CMA 2025.108."
+2025.358,May You Soon Bear Noble Sons,ALL_CURRENT_PUBLIC_SAMPLES,, ,10,0.25,0,no_strong_public_sample_match,"This is a negative result only for the 14 unique public sample photographs currently harvested. It does NOT imply the print is absent from the 220-entry book."
