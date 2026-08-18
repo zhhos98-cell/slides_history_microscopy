@@ -1,4 +1,4 @@
-name: gusu-book-page-link-harvest
+name: gusu-public-book-samples-sift
 
 on:
   workflow_dispatch:
@@ -6,15 +6,15 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/gusu_met_bulk_harvest.yml"
-      - "projects/gusu_vonderburg_2026-08-18/scripts/harvest_book_page_image_links.py"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/match_public_book_samples_sift.py"
 
 permissions:
   contents: write
 
 jobs:
-  harvest:
+  match:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,23 +22,30 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Harvest image links and alt metadata from public catalogue pages
+      - name: Install OpenCV
+        run: python -m pip install --disable-pip-version-check opencv-python-headless numpy
+      - name: Match public sample photos to official museum images
         shell: bash
         run: |
           set -euo pipefail
-          python projects/gusu_vonderburg_2026-08-18/scripts/harvest_book_page_image_links.py \
-            | tee /tmp/gusu_book_page_link_harvest.txt
-      - name: Commit harvested link metadata
+          SAMPLES="projects/gusu_vonderburg_2026-08-18/latest/book_page_link_harvest/likely_book_sample_image_links.csv"
+          MUSEUM="projects/gusu_vonderburg_2026-08-18/latest/combined_v2/gusu_working_220_official_image_manifest.csv"
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/public_book_sample_sift"
+          test -s "$SAMPLES"
+          test -s "$MUSEUM"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/match_public_book_samples_sift.py "$SAMPLES" "$MUSEUM" --outdir "$OUT" | tee "$OUT/run_summary_stdout.txt"
+      - name: Commit SIFT candidate rankings only
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add projects/gusu_vonderburg_2026-08-18/latest/book_page_link_harvest/
+          git add projects/gusu_vonderburg_2026-08-18/latest/public_book_sample_sift/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Harvest public Gusu catalogue sample image links [gusu-book-links]"
+            git commit -m "Match public Gusu book samples to museum images with SIFT [gusu-sift]"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
