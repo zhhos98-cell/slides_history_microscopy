@@ -1,0 +1,84 @@
+name: gusu-cma-bulk-harvest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/gusu_cma_bulk_harvest.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout research repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Clone official CMA Open Access repository and materialize data.csv
+        id: cma
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/cma-openaccess
+          GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/ClevelandMuseumArt/openaccess.git /tmp/cma-openaccess
+          cd /tmp/cma-openaccess
+          SOURCE_COMMIT="$(git rev-parse HEAD)"
+          POINTER="$(git show HEAD:data.csv)"
+          SOURCE_LFS_OID="$(printf '%s\n' "$POINTER" | sed -n 's/^oid sha256://p')"
+          echo "source_commit=$SOURCE_COMMIT" >> "$GITHUB_OUTPUT"
+          echo "source_lfs_oid=$SOURCE_LFS_OID" >> "$GITHUB_OUTPUT"
+          git lfs install --local
+          git lfs pull --include="data.csv"
+          test -s data.csv
+          SIZE="$(wc -c < data.csv)"
+          echo "Materialized CMA data.csv: ${SIZE} bytes"
+          if [ "$SIZE" -lt 1000000 ]; then
+            echo "data.csv is unexpectedly small; likely still an LFS pointer" >&2
+            head -20 data.csv >&2
+            exit 2
+          fi
+
+      - name: Filter 2025 Christer von der Burg records
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/cma_official_bulk"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/filter_cma_bulk.py \
+            /tmp/cma-openaccess/data.csv \
+            --outdir "$OUT" \
+            --source-commit "${{ steps.cma.outputs.source_commit }}" \
+            --source-lfs-oid "${{ steps.cma.outputs.source_lfs_oid }}" \
+            | tee "$OUT/run_summary_stdout.json"
+
+      - name: Commit derived official-bulk result
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/gusu_vonderburg_2026-08-18/latest/cma_official_bulk/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Harvest official CMA bulk rows for Gusu corpus [gusu-cma-bulk]"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload derived tables as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gusu-cma-official-bulk
+          path: projects/gusu_vonderburg_2026-08-18/latest/cma_official_bulk/
+          retention-days: 30
