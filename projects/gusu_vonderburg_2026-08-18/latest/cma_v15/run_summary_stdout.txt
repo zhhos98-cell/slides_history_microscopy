@@ -1,0 +1,32 @@
+{
+  "generated_utc": "2026-08-18T03:29:18.251079+00:00",
+  "version": "CMA-v1.5",
+  "working_core_definition": "base 2025.19–2025.128 inclusive; object=1; component children replace cover; part children do not replace counted cover",
+  "working_core_count": 113,
+  "count_by_record_type": {
+    "object": 107,
+    "cover": 2,
+    "component": 4,
+    "part": 0
+  },
+  "special_groups": {
+    "2025.82": "cover excluded; four components counted independently",
+    "2025.91": "cover counted once; two parts retained as detail only",
+    "2025.92": "cover counted once; three parts retained as detail only"
+  },
+  "image_coverage_core_113": {
+    "web": 36,
+    "print": 36,
+    "full": 36,
+    "any_preferred_download": 36,
+    "no_current_image": 77,
+    "coverage_percent": 31.86
+  },
+  "verified_related_not_counted": {
+    "2025.129": "May You Soon Bear Noble Sons; object; CC0; Purchase from J. H. Wade Fund; von der Burg sale; excluded from working 113 boundary pending catalogue confirmation",
+    "2025.212": "Zhang Xian Brings Sons; separate gift",
+    "2025.213": "One Hundred Boys (1990s); separate copyrighted gift",
+    "2025.214": "One Hundred Boys (1970s); separate copyrighted gift"
+  },
+  "epistemic_status": "working core closes exactly to CMA reported 113 using official API record semantics; 2025.129 boundary still awaits independent catalogue/acquisition-context confirmation"
+}
