@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-08-18T04:21:54.723593+00:00",
+  "pages": [
+    {
+      "page_code": "WENWU_RECOMMEND",
+      "page_url": "https://www.wenwu.com/newsinfo/11120837.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 124747,
+      "image_tag_count": 19,
+      "link_count": 76,
+      "error": ""
+    },
+    {
+      "page_code": "GUANGZHOU_DAILY",
+      "page_url": "https://huacheng.gz-cmc.com/pages/2026/06/17/eb9dd1f64b884f828e156a702afee4b9.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 18333,
+      "image_tag_count": 15,
+      "link_count": 2,
+      "error": ""
+    },
+    {
+      "page_code": "WENWU_LAUNCH",
+      "page_url": "https://www.wenwu.com/newsinfo/11120643.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "html_bytes": 119098,
+      "image_tag_count": 12,
+      "link_count": 76,
+      "error": ""
+    }
+  ],
+  "total_image_tags": 46,
+  "likely_book_sample_links": 13,
+  "policy": "URLs/alt metadata only; no third-party image bytes committed"
+}
