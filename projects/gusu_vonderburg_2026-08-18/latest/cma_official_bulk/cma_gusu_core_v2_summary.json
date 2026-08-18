@@ -1,0 +1,67 @@
+{
+  "generated_utc": "2026-08-18T05:37:48.691973+00:00",
+  "source_repository": "ClevelandMuseumArt/openaccess",
+  "source_commit": "dd525c69b86838f087dbdf4a1e587e0d766c6484",
+  "source_lfs_oid": "1e73cb37a42aa6e4c5ec7283a8c2df68e35175bfb9de65bab9f3440ea92e8a56",
+  "source_csv_size": 130795258,
+  "source_csv_sha256": "1e73cb37a42aa6e4c5ec7283a8c2df68e35175bfb9de65bab9f3440ea92e8a56",
+  "source_total_rows": 68777,
+  "all_years_christer_von_der_burg_rows": 136,
+  "year_2025_christer_von_der_burg_rows": 123,
+  "core_purchase_definition": "2025.19–2025.129 inclusive AND provenance contains 'sold to the Cleveland Museum of Art'",
+  "core_rows_including_inferred_covers": 119,
+  "core_top_level_accessions": 110,
+  "core_multipart_groups": {
+    "2025.82": [
+      "2025.82",
+      "2025.82.1",
+      "2025.82.2",
+      "2025.82.3",
+      "2025.82.4"
+    ],
+    "2025.91": [
+      "2025.91",
+      "2025.91.a",
+      "2025.91.b"
+    ],
+    "2025.92": [
+      "2025.92",
+      "2025.92.a",
+      "2025.92.b",
+      "2025.92.c"
+    ]
+  },
+  "core_multipart_group_count": 3,
+  "core_component_rows": 9,
+  "core_inferred_cover_rows": 3,
+  "core_inferred_physical_print_count": 116,
+  "official_CMA_reported_physical_print_count": 113,
+  "core_physical_count_matches_113": false,
+  "core_image_coverage": {
+    "web": 35,
+    "print": 35,
+    "full": 35
+  },
+  "core_download_manifest_rows": 35,
+  "later_2025_vonderburg_gifts": [
+    {
+      "accession": "2025.212",
+      "title": "Zhang Xian Brings Sons",
+      "date": "1644–1911",
+      "license": "CC0"
+    },
+    {
+      "accession": "2025.213",
+      "title": "One Hundred Boys",
+      "date": "1990s",
+      "license": "Copyrighted"
+    },
+    {
+      "accession": "2025.214",
+      "title": "One Hundred Boys",
+      "date": "1970s",
+      "license": "Copyrighted"
+    }
+  ],
+  "note": "Multipart roles are inferred from accession suffix structure because the current official bulk CSV omits record_type and cover_accession_number."
+}
