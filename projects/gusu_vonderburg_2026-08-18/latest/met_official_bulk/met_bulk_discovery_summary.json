@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-18T03:37:53.041924+00:00",
+  "generated_utc": "2026-08-18T03:39:59.057601+00:00",
   "source_repo": "metmuseum/openaccess",
   "source_commit": "6fa206f0df6cf349d4fe558028d4c08e95f44eb6",
   "source_lfs_oid": "de617b9c947458e426111207f81a65bd1379a151c0077d3ce29cfc22fc0b9183",
@@ -62,6 +62,61 @@
     "Tags AAT URL",
     "Tags Wikidata URL"
   ],
+  "diagnostics": {
+    "object_number_starts_2025_count": 0,
+    "accession_year_starts_2025_count": 0,
+    "known_live_api_object_ids_checked": [
+      "911822",
+      "911945",
+      "911983",
+      "913059"
+    ],
+    "known_live_api_object_ids_present_in_bulk": [],
+    "known_live_api_probe_rows": [],
+    "latest_metadata_date_lexical": "",
+    "latest_accession_year_values": [
+      [
+        "2023",
+        373
+      ],
+      [
+        "2022-05-20",
+        1
+      ],
+      [
+        "2022-02-09",
+        1
+      ],
+      [
+        "2022",
+        1102
+      ],
+      [
+        "2021",
+        1683
+      ],
+      [
+        "2020",
+        1231
+      ],
+      [
+        "2019",
+        2548
+      ],
+      [
+        "2018",
+        2955
+      ],
+      [
+        "2017",
+        2131
+      ],
+      [
+        "2016",
+        2476
+      ]
+    ]
+  },
   "broad_2025_asian_art_print_rows": 0,
   "suzhou_signal_rows": 0,
   "accession_neighborhood_rows": 0,
@@ -229,5 +284,5 @@
     "797.1",
     "797.2"
   ],
-  "note": "Suzhou signal is a discovery filter, not a final corpus-membership test."
+  "note": "If diagnostic 2025 counts and known live API object-ID hits are zero, the official bulk snapshot does not yet contain these live 2025 records; the live Collection API then takes precedence for this acquisition."
 }
