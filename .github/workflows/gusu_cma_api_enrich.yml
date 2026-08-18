@@ -1,0 +1,55 @@
+name: gusu-cma-api-enrich
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/gusu_cma_api_enrich.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Query official CMA artwork API for bulk-derived accessions
+        shell: bash
+        run: |
+          set -euo pipefail
+          IN="projects/gusu_vonderburg_2026-08-18/latest/cma_official_bulk/cma_vonderburg_2025_official_bulk_compact.csv"
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/cma_official_api"
+          test -s "$IN"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/enrich_cma_api.py "$IN" --outdir "$OUT" --delay 0.08 \
+            | tee "$OUT/run_summary_stdout.txt"
+
+      - name: Commit API enrichment
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/gusu_vonderburg_2026-08-18/latest/cma_official_api/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Enrich Gusu CMA rows from official artwork API [gusu-cma-api]"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload API enrichment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gusu-cma-official-api
+          path: projects/gusu_vonderburg_2026-08-18/latest/cma_official_api/
+          retention-days: 30
