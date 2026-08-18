@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-08-18T03:31:14.640832+00:00",
+  "verified_met_accessions_input": 75,
+  "api_enriched_rows": 73,
+  "verified_without_object_id_or_api_data": [
+    {
+      "accession": "2025.379",
+      "reason": "verified_set_member_without_object_id",
+      "source_url": "https://www.metmuseum.org/ja/press-releases/clevelandmuseum"
+    },
+    {
+      "accession": "2025.381",
+      "reason": "verified_set_member_without_object_id",
+      "source_url": "https://www.metmuseum.org/ja/press-releases/clevelandmuseum"
+    }
+  ],
+  "public_domain_rows": 70,
+  "primary_image_rows": 70,
+  "additional_image_assets_total": 27,
+  "multipart_candidate_rows": 3,
+  "multipart_accessions": [
+    "2025.380",
+    "2025.382",
+    "2025.437"
+  ],
+  "note": "Multipart candidates are flags only. Additional-image count is not assumed to equal physical-print count."
+}
