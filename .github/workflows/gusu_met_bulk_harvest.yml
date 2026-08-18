@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/gusu_met_bulk_harvest.yml"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/filter_met_bulk.py"
 
 permissions:
   contents: write
