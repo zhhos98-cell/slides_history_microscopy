@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+OUT="${1:-cma_gusu_downloads}"
+mkdir -p "$OUT"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_21.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.21"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_32.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.32"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_60.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.60"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_82_1.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.82.1"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_82_2.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.82.2"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_82_3.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.82.3"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_82_4.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.82.4"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_83.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.83"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_84.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.84"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_113.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.113"
+curl -L --fail --retry 3 -o "$OUT/CMA_2025_118.zip" "https://openaccess-api.clevelandart.org/api/collectiononline/jpeg_and_caption/2025.118"
