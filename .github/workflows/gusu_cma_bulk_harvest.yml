@@ -49,18 +49,18 @@ jobs:
             exit 2
           fi
 
-      - name: Filter 2025 Christer von der Burg records
+      - name: Filter 2025 Christer von der Burg records v2
         shell: bash
         run: |
           set -euo pipefail
           OUT="projects/gusu_vonderburg_2026-08-18/latest/cma_official_bulk"
           mkdir -p "$OUT"
-          python projects/gusu_vonderburg_2026-08-18/scripts/filter_cma_bulk.py \
+          python projects/gusu_vonderburg_2026-08-18/scripts/filter_cma_bulk_v2.py \
             /tmp/cma-openaccess/data.csv \
             --outdir "$OUT" \
             --source-commit "${{ steps.cma.outputs.source_commit }}" \
             --source-lfs-oid "${{ steps.cma.outputs.source_lfs_oid }}" \
-            | tee "$OUT/run_summary_stdout.json"
+            | tee "$OUT/run_summary_v2_stdout.json"
 
       - name: Commit derived official-bulk result
         shell: bash
@@ -72,13 +72,13 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Harvest official CMA bulk rows for Gusu corpus [gusu-cma-bulk]"
+            git commit -m "Rebuild official CMA Gusu core with multipart/image logic [gusu-cma-bulk-v2]"
             git push origin HEAD:main
           fi
 
       - name: Upload derived tables as workflow artifact
         uses: actions/upload-artifact@v4
         with:
-          name: gusu-cma-official-bulk
+          name: gusu-cma-official-bulk-v2
           path: projects/gusu_vonderburg_2026-08-18/latest/cma_official_bulk/
           retention-days: 30
