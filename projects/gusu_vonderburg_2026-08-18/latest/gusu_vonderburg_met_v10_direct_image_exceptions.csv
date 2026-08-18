@@ -1,0 +1,7 @@
+accession,object_id,class,reason,download_policy,object_url
+2025.379,,set_member_without_individual_object_page,"Accession confirmed in the official four-print acquisition set, but no independent indexed object page was found in this audit.",unresolved_individual_asset,
+2025.381,,set_member_without_individual_object_page,"Accession confirmed in the official four-print acquisition set, but no independent indexed object page was found in this audit.",unresolved_individual_asset,
+2025.421,911945,technical_cache_gap,"Official object page is indexed and confirms Download Image, but repeated live page fetches returned cache miss before exposing the image-link target.",open_access_download_verified,https://www.metmuseum.org/art/collection/search/911945
+2025.424,911955,museum_download_restriction,"Met page currently states image cannot be enlarged, viewed full screen, or downloaded.",restricted_current_UI,https://www.metmuseum.org/art/collection/search/911955
+2025.425,911959,museum_download_restriction,"Met page currently states image cannot be enlarged, viewed full screen, or downloaded.",restricted_current_UI,https://www.metmuseum.org/art/collection/search/911959
+2025.426,911960,museum_download_restriction,"Met page currently states image cannot be enlarged, viewed full screen, or downloaded.",restricted_current_UI,https://www.metmuseum.org/art/collection/search/911960
