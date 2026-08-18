@@ -1,4 +1,4 @@
-name: gusu-book-anchor-52-match
+name: gusu-book-page-link-harvest
 
 on:
   workflow_dispatch:
@@ -6,15 +6,15 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/gusu_met_bulk_harvest.yml"
-      - "projects/gusu_vonderburg_2026-08-18/scripts/match_book_anchor_hash.py"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/harvest_book_page_image_links.py"
 
 permissions:
   contents: write
 
 jobs:
-  match:
+  harvest:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,28 +22,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install Pillow
-        run: python -m pip install --disable-pip-version-check pillow
-      - name: Match entry 52 plate fingerprint to official online images
+      - name: Harvest image links and alt metadata from public catalogue pages
         shell: bash
         run: |
           set -euo pipefail
-          IN="projects/gusu_vonderburg_2026-08-18/latest/combined_v2/gusu_working_220_official_image_manifest.csv"
-          OUT="projects/gusu_vonderburg_2026-08-18/latest/book_anchor_matches/entry_52"
-          test -s "$IN"
-          mkdir -p "$OUT"
-          python projects/gusu_vonderburg_2026-08-18/scripts/match_book_anchor_hash.py "$IN" --outdir "$OUT" | tee "$OUT/run_summary_stdout.txt"
-      - name: Commit visual match ranking
+          python projects/gusu_vonderburg_2026-08-18/scripts/harvest_book_page_image_links.py \
+            | tee /tmp/gusu_book_page_link_harvest.txt
+      - name: Commit harvested link metadata
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add projects/gusu_vonderburg_2026-08-18/latest/book_anchor_matches/entry_52/
+          git add projects/gusu_vonderburg_2026-08-18/latest/book_page_link_harvest/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Match Gusu book entry 52 against official museum images [gusu-anchor-52]"
+            git commit -m "Harvest public Gusu catalogue sample image links [gusu-book-links]"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
