@@ -1,0 +1,8 @@
+layer,metric,count,total,coverage_pct,status,evidence_basis,notes
+corpus,target_book_prints,220,220,100.00,strong_target_corpus,"Christer von der Burg statement in 2026-04-22 Souquee acquisition interview; Muban launch and author blog also state 220","Publicity sometimes says 221; preserve conflict."
+image,conservative_official_original_images,140,220,63.64,hard_lower_bound,"CMA-v1.5 36 full/open-access + MET-v2 104 public-domain originals","Image recovery is not book-order recovery."
+image,boundary_independent_visual_candidates,143,220,65.00,matching_pool_only,"37 CMA 2025 von der Burg records with image_web + 106 Met public-domain primary images","Do not promote to reconstruction coverage until membership boundaries are resolved."
+book_presence,unique_objects_seen_in_public_book_samples,3,220,1.36,hard_or_high_confidence,"CMA 2025.84; CMA 2025.26; CMA 2025.108","Specific museum object visually tied to a photographed book page/sample."
+book_position,objects_with_page_anchor,2,220,0.91,hard_or_usable,"CMA 2025.84 pp.198-199; CMA 2025.26 pp.158-159","Page 198-199 reading is medium confidence; 158-159 high."
+book_catalogue_number,objects_with_catalogue_number_anchor,1,220,0.45,hard,"Catalogue no.52 -> CMA 2025.84","Do not infer other catalogue numbers from accession sequence."
+public_photo_pool,unique_harvested_book_or_sample_photos,14,14,100.00,current_harvest,"10 Wenwu + 3 Guangzhou Daily + 1 Shuseido","Re-read all for page/catalogue/adjacency evidence."
