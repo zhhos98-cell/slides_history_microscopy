@@ -6,7 +6,7 @@ metadata and resolved image URLs so book-page samples can be inspected at their
 original hosts and used as catalogue concordance anchors.
 """
 from __future__ import annotations
-import csv,html.parser,json,re,time
+import csv,html.parser,json,time
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -16,6 +16,7 @@ PAGES=[
   ("WENWU_RECOMMEND","https://www.wenwu.com/newsinfo/11120837.html"),
   ("GUANGZHOU_DAILY","https://huacheng.gz-cmc.com/pages/2026/06/17/eb9dd1f64b884f828e156a702afee4b9.html"),
   ("WENWU_LAUNCH","https://www.wenwu.com/newsinfo/11120643.html"),
+  ("SHUSEIDO_JP","https://shuseido.com/?pid=192492972"),
 ]
 UA="Mozilla/5.0 (Gusu catalogue research link audit; noncommercial)"
 
@@ -37,14 +38,21 @@ def get(url,retries=4):
         try:
             req=Request(url,headers={'User-Agent':UA,'Accept':'text/html,application/xhtml+xml,*/*;q=0.8'})
             with urlopen(req,timeout=45) as r:
-                return getattr(r,'status',200),r.headers.get('Content-Type',''),r.read().decode('utf-8','replace')
+                raw=r.read();ctype=r.headers.get('Content-Type','')
+            # Wenwu/Guangzhou are UTF-8; Japanese storefront may declare Shift-JIS/EUC-JP.
+            enc='utf-8'
+            low=raw[:5000].lower()
+            for candidate in (b'shift_jis',b'shift-jis',b'sjis',b'euc-jp'):
+                if candidate in low:
+                    enc='shift_jis' if b'shift' in candidate or candidate==b'sjis' else 'euc_jp';break
+            return 200,ctype,raw.decode(enc,'replace')
         except Exception as e:
             last=e;time.sleep(1*(i+1))
     raise RuntimeError(f'{url}: {last}')
 
 def likely_book_image(row):
     blob=' '.join([row.get('src',''),row.get('srcset',''),row.get('alt',''),row.get('title','')]).lower()
-    needles=['姑苏','冯氏','实拍','gusu','book','17582977','17582978','8978','8802']
+    needles=['姑苏','姑蘇','冯氏','馮氏','实拍','gusu','book','17582977','17582978','8978','8802','192492972']
     return any(n.lower() in blob for n in needles)
 
 def main():
@@ -55,16 +63,12 @@ def main():
             status,ctype,text=get(url);p=Parser();p.feed(text)
             for idx,img in enumerate(p.images,1):
                 src=urljoin(url,img['src']) if img['src'] else ''
-                srcset=img['srcset']
-                # Resolve individual srcset URLs but preserve descriptors.
-                resolved=[]
+                srcset=img['srcset'];resolved=[]
                 if srcset:
                     for part in srcset.split(','):
                         part=part.strip()
                         if not part:continue
-                        bits=part.split()
-                        bits[0]=urljoin(url,bits[0])
-                        resolved.append(' '.join(bits))
+                        bits=part.split();bits[0]=urljoin(url,bits[0]);resolved.append(' '.join(bits))
                 row={'page_code':code,'page_url':url,'image_index':idx,'tag':img['tag'],'src':src,'srcset':' | '.join(resolved),'alt':img['alt'],'title':img['title'],'class':img['class']}
                 row['likely_book_image']='1' if likely_book_image(row) else '0';rows.append(row)
             page_meta.append({'page_code':code,'page_url':url,'http_status':status,'content_type':ctype,'html_bytes':len(text.encode('utf-8')),'image_tag_count':len(p.images),'link_count':len(p.links),'error':''})
