@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-08-18T04:01:15.302638+00:00",
+  "version": "combined-working-v2",
+  "working_museum_unit_count": 220,
+  "CMA_units": 113,
+  "MET_units": 107,
+  "official_original_image_rows": 140,
+  "no_public_original_rows": 80,
+  "museum_unit_image_coverage_percent": 63.64,
+  "by_museum": {
+    "CMA": {
+      "working_units": 113,
+      "original_images": 36
+    },
+    "MET": {
+      "working_units": 107,
+      "original_images": 104
+    }
+  },
+  "epistemic_warning": "140/220 is provisional museum-unit image coverage under CMA-v1.5 and MET-v2 structural boundaries. It is NOT yet a verified 140-of-220 book-entry concordance.",
+  "catalogue_fields_ready": [
+    "book_catalogue_no",
+    "book_plate_no",
+    "book_page",
+    "book_match_status",
+    "book_match_basis",
+    "book_match_confidence"
+  ],
+  "next_step": "Recover catalogue order/numbers and match book entries to museum units; keep multipart/accession semantics explicit."
+}
