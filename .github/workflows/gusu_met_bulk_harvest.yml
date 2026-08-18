@@ -1,4 +1,4 @@
-name: gusu-met-bulk-harvest
+name: gusu-met-live-suzhou-discovery
 
 on:
   workflow_dispatch:
@@ -6,15 +6,15 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/gusu_met_bulk_harvest.yml"
-      - "projects/gusu_vonderburg_2026-08-18/scripts/filter_met_bulk.py"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/discover_met_suzhou_live.py"
 
 permissions:
   contents: write
 
 jobs:
-  harvest:
+  discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,50 +22,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Clone official Met Open Access repo and materialize MetObjects.csv
-        id: met
+      - name: Discover live Met 2025 Suzhou records from official Collection API
         shell: bash
         run: |
           set -euo pipefail
-          rm -rf /tmp/met-openaccess
-          GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 https://github.com/metmuseum/openaccess.git /tmp/met-openaccess
-          cd /tmp/met-openaccess
-          SOURCE_COMMIT="$(git rev-parse HEAD)"
-          POINTER="$(git show HEAD:MetObjects.csv)"
-          SOURCE_LFS_OID="$(printf '%s\n' "$POINTER" | sed -n 's/^oid sha256://p')"
-          echo "source_commit=$SOURCE_COMMIT" >> "$GITHUB_OUTPUT"
-          echo "source_lfs_oid=$SOURCE_LFS_OID" >> "$GITHUB_OUTPUT"
-          git lfs install --local
-          git lfs pull --include="MetObjects.csv"
-          test -s MetObjects.csv
-          SIZE="$(wc -c < MetObjects.csv)"
-          echo "Materialized MetObjects.csv: ${SIZE} bytes"
-          if [ "$SIZE" -lt 1000000 ]; then
-            echo "MetObjects.csv is unexpectedly small" >&2
-            head -20 MetObjects.csv >&2
-            exit 2
-          fi
-      - name: Filter 2025 Asian Art / print / Suzhou discovery slices
-        shell: bash
-        run: |
-          set -euo pipefail
-          OUT="projects/gusu_vonderburg_2026-08-18/latest/met_official_bulk"
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/met_live_suzhou"
           mkdir -p "$OUT"
-          python projects/gusu_vonderburg_2026-08-18/scripts/filter_met_bulk.py \
-            /tmp/met-openaccess/MetObjects.csv --outdir "$OUT" \
-            --source-commit "${{ steps.met.outputs.source_commit }}" \
-            --lfs-oid "${{ steps.met.outputs.source_lfs_oid }}" \
-            | tee "$OUT/run_summary_stdout.txt"
-      - name: Commit Met bulk discovery
+          python projects/gusu_vonderburg_2026-08-18/scripts/discover_met_suzhou_live.py --outdir "$OUT" --delay 0.05 | tee "$OUT/run_summary_stdout.txt"
+      - name: Commit live discovery products
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add projects/gusu_vonderburg_2026-08-18/latest/met_official_bulk/
+          git add projects/gusu_vonderburg_2026-08-18/latest/met_live_suzhou/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Harvest Met official bulk for Gusu discovery [gusu-met-bulk]"
+            git commit -m "Discover live Met Suzhou 2025 records [gusu-met-live-suzhou]"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
