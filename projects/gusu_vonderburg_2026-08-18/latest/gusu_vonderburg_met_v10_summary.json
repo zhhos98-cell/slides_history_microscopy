@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-08-18",
+  "verified_met_accessions": 75,
+  "exact_direct_image_urls": 69,
+  "open_access_download_verified_but_direct_url_pending": ["2025.421"],
+  "current_museum_download_restrictions": ["2025.424", "2025.425", "2025.426"],
+  "set_members_without_individual_object_page": ["2025.379", "2025.381"],
+  "download_manifest_rows": 69,
+  "completion_interpretation": "69 exact direct URLs are immediately batch-ready. A 70th object (2025.421) is confirmed Public Domain/Download Image but its exact image target could not be extracted because the live object page repeatedly returned cache miss during this audit.",
+  "policy": "No image URL was inferred and no museum download restriction was bypassed."
+}
