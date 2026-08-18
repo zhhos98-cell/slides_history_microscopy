@@ -1,0 +1,47 @@
+name: gusu-vonderburg-blog-images
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/gusu_blog_images.yml"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/harvest_vonderburg_blog_images.py"
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Index blog images and match titles
+        shell: bash
+        run: |
+          set -euo pipefail
+          IN="projects/gusu_vonderburg_2026-08-18/latest/combined_v2/gusu_working_220_museum_units.csv"
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/vonderburg_blog_visuals"
+          test -s "$IN"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/harvest_vonderburg_blog_images.py "$IN" --outdir "$OUT" | tee "$OUT/run_summary_stdout.txt"
+      - name: Commit link-only blog visual index
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/gusu_vonderburg_2026-08-18/latest/vonderburg_blog_visuals/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Index von der Burg blog visual references for Gusu corpus [gusu-blog]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
