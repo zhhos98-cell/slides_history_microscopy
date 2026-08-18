@@ -1,4 +1,4 @@
-name: gusu-combined-working-220
+name: gusu-book-anchor-52-match
 
 on:
   workflow_dispatch:
@@ -6,15 +6,15 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/gusu_met_bulk_harvest.yml"
-      - "projects/gusu_vonderburg_2026-08-18/scripts/build_combined_working220.py"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/match_book_anchor_hash.py"
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  match:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,28 +22,28 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Build combined provisional 220 museum-unit manifest
+      - name: Install image-hash dependencies
+        run: python -m pip install --disable-pip-version-check pillow ImageHash scipy
+      - name: Match entry 52 plate fingerprint to official online images
         shell: bash
         run: |
           set -euo pipefail
-          CMA="projects/gusu_vonderburg_2026-08-18/latest/cma_v15/cma_gusu_v15_working_core_113.csv"
-          MET="projects/gusu_vonderburg_2026-08-18/latest/met_v2/met_gusu_v2_working_core_107.csv"
-          OUT="projects/gusu_vonderburg_2026-08-18/latest/combined_v2"
-          test -s "$CMA"
-          test -s "$MET"
+          IN="projects/gusu_vonderburg_2026-08-18/latest/combined_v2/gusu_working_220_official_image_manifest.csv"
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/book_anchor_matches/entry_52"
+          test -s "$IN"
           mkdir -p "$OUT"
-          python projects/gusu_vonderburg_2026-08-18/scripts/build_combined_working220.py "$CMA" "$MET" --outdir "$OUT" | tee "$OUT/run_summary_stdout.txt"
-      - name: Commit combined products
+          python projects/gusu_vonderburg_2026-08-18/scripts/match_book_anchor_hash.py "$IN" --outdir "$OUT" | tee "$OUT/run_summary_stdout.txt"
+      - name: Commit visual match ranking
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add projects/gusu_vonderburg_2026-08-18/latest/combined_v2/
+          git add projects/gusu_vonderburg_2026-08-18/latest/book_anchor_matches/entry_52/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Build combined Gusu working 220 image manifest [gusu-combined-v2]"
+            git commit -m "Match Gusu book entry 52 against official museum images [gusu-anchor-52]"
             git pull --rebase origin main
             git push origin HEAD:main
           fi
