@@ -1,0 +1,10 @@
+{
+  "generated_utc": "2026-08-18T05:53:27.900811+00:00",
+  "sample_count_input": 14,
+  "sample_count_matched": 14,
+  "museum_candidates_input": 143,
+  "museum_images_prepared": 143,
+  "download_errors": 0,
+  "strong_rule": "homography_inliers >= 10 and inlier_ratio >= 0.35",
+  "interpretation": "SIFT is candidate generation. Promote a book concordance only after title/layout/visual inspection confirms the match. Source image bytes are not committed."
+}

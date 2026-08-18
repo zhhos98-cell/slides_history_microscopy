@@ -1,0 +1,15 @@
+sample_id,sample_alt,sample_url,sample_bytes,sample_keypoints,strong_geometric_candidates,top_candidate,top_candidate_title,top_inliers,top_inlier_ratio,top_score
+WENWU_RECOMMEND:3,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829776.jpg,106200,2527,1,CMA:2025.108,Bird on Pomegranate,251,0.9061,2722.0227
+WENWU_RECOMMEND:4,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829777.jpg,145481,2236,0,MET:2025.398,Satirical Prints of Suzhou Customs,9,0.0577,200.3538
+WENWU_RECOMMEND:5,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829778.jpg,199149,7000,1,CMA:2025.84,Gathering Osmanthus,1514,0.9825,16238.3496
+WENWU_RECOMMEND:6,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829779.jpg,321177,7000,0,MET:2025.437,Complete Geographical Map of the Everlasting Unified Qing Empire,7,0.28,93.1
+WENWU_RECOMMEND:7,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829780.jpg,146781,3939,1,CMA:2025.108,Bird on Pomegranate,120,0.5405,1366.2108
+WENWU_RECOMMEND:8,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829781.jpg,122957,5397,0,MET:2025.388,Picture of a Happy Family,11,0.275,143.5
+WENWU_RECOMMEND:9,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829782.jpg,157514,4862,0,MET:2025.441,Agricultural Tasks,12,0.1395,182.9907
+WENWU_RECOMMEND:10,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829783.jpg,186085,6697,0,MET:2025.444,"Autumn basket: hibiscus, yellow hibiscus and chrysanthemum",7,0.0707,140.7141
+WENWU_RECOMMEND:11,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829784.jpg,161935,6286,0,MET:2025.388,Picture of a Happy Family,9,0.1154,146.9077
+WENWU_RECOMMEND:12,,https://img.wanwang.xin/contents/sitefiles2046/10230983/images/175829785.jpg,143007,4132,0,MET:2025.414,Praying Mantis and Three Toddlers,6,0.0723,119.5458
+GUANGZHOU_DAILY:5,,https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/06/17/1781674412855066475.jpg?x-oss-process=style/content,76966,7000,1,CMA:2025.108,Bird on Pomegranate,32,0.7111,365.7222
+GUANGZHOU_DAILY:6,,https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/06/17/1781674433776028415.jpg?x-oss-process=style/content,224746,6368,0,MET:2025.361,The Two Immortals of Harmony and Unity,6,0.2857,80.4143
+GUANGZHOU_DAILY:7,,https://oss.gz-cmc.com/pgcr/root/huacheng/upload/news/image/2026/06/17/1781674458660021013.jpg?x-oss-process=style/content,136650,7000,0,MET:2025.450,Butterfly on Peony and Iris,8,0.16,118.2
+SHUSEIDO_JP:4,,https://img07.shop-pro.jp/PA01255/114/product/192492972.png?cmsp_timestamp=20260703140521,289952,1034,1,CMA:2025.108,Bird on Pomegranate,16,0.64,190.3

@@ -1,0 +1,29 @@
+museum prepared 25/143
+museum prepared 50/143
+museum prepared 75/143
+museum prepared 100/143
+museum prepared 125/143
+sample 1/14 WENWU_RECOMMEND:3 -> CMA:2025.108 inliers=251
+sample 2/14 WENWU_RECOMMEND:4 -> MET:2025.398 inliers=9
+sample 3/14 WENWU_RECOMMEND:5 -> CMA:2025.84 inliers=1514
+sample 4/14 WENWU_RECOMMEND:6 -> MET:2025.437 inliers=7
+sample 5/14 WENWU_RECOMMEND:7 -> CMA:2025.108 inliers=120
+sample 6/14 WENWU_RECOMMEND:8 -> MET:2025.388 inliers=11
+sample 7/14 WENWU_RECOMMEND:9 -> MET:2025.441 inliers=12
+sample 8/14 WENWU_RECOMMEND:10 -> MET:2025.444 inliers=7
+sample 9/14 WENWU_RECOMMEND:11 -> MET:2025.388 inliers=9
+sample 10/14 WENWU_RECOMMEND:12 -> MET:2025.414 inliers=6
+sample 11/14 GUANGZHOU_DAILY:5 -> CMA:2025.108 inliers=32
+sample 12/14 GUANGZHOU_DAILY:6 -> MET:2025.361 inliers=6
+sample 13/14 GUANGZHOU_DAILY:7 -> MET:2025.450 inliers=8
+sample 14/14 SHUSEIDO_JP:4 -> CMA:2025.108 inliers=16
+{
+  "generated_utc": "2026-08-18T05:53:27.900811+00:00",
+  "sample_count_input": 14,
+  "sample_count_matched": 14,
+  "museum_candidates_input": 143,
+  "museum_images_prepared": 143,
+  "download_errors": 0,
+  "strong_rule": "homography_inliers >= 10 and inlier_ratio >= 0.35",
+  "interpretation": "SIFT is candidate generation. Promote a book concordance only after title/layout/visual inspection confirms the match. Source image bytes are not committed."
+}

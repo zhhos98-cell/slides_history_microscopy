@@ -1,0 +1,20 @@
+{
+  "generated_utc": "2026-08-18T05:47:55.214209+00:00",
+  "boundary_policy": "No CMA 113, Met 107, or combined 220 count boundary used.",
+  "CMA_candidates_with_web_image": 37,
+  "MET_candidates_public_primary_image": 106,
+  "museum_candidate_total": 143,
+  "museum_candidate_by_basis": {
+    "CMA_2025_vonderburg_API_has_image_web": 37,
+    "MET_verified_live_2025.352_460_public_domain_primary_image": 106
+  },
+  "sample_rows_input": 15,
+  "sample_unique_urls": 14,
+  "sample_duplicate_urls_removed": 1,
+  "sample_sources": {
+    "WENWU_RECOMMEND": 10,
+    "GUANGZHOU_DAILY": 3,
+    "SHUSEIDO_JP": 1
+  },
+  "legacy_field_warning": "`working_220_id` is used only for compatibility with the SIFT matcher and carries no 220-boundary claim."
+}
