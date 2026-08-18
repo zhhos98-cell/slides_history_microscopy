@@ -1,0 +1,11 @@
+accession,status,role,is_corpus,title_or_note,official_url,evidence
+2025.18,verified_non_corpus,lower_negative_control,0,Fata Morgana,https://www.clevelandart.org/art/2025.18,"Official CMA record: Giambologna, Italy, marble sculpture; not part of the Chinese Suzhou print acquisition."
+2025.19,unresolved,lower_neighbor,,No indexed exact object record found,,Search absence only; do not infer nonexistence or corpus membership.
+2025.20,unresolved,lower_neighbor,,No indexed exact object record found,,Search absence only; do not infer nonexistence or corpus membership.
+2025.21,verified_corpus,lowest_verified_corpus_so_far,1,Part of Story of The Western Chamber / 一部西廂總,https://www.clevelandart.org/art/2025.21,"Official CMA record: China, Qing dynasty, polychrome woodblock print; J. H. Wade Fund 2025.21."
+2025.22,unresolved,internal_neighbor,,No indexed exact object record found,,Search absence only; lies between verified 2025.21 and official acquisition reference 2025.23.
+2025.23,verified_corpus_official_article,early_positive_control,1,Mother and Sons,https://www.clevelandart.org/articles/18th-century-prints-suzhou,Official CMA acquisition article captions this work as 2025.23.
+2025.127,verified_corpus_official_article,highest_verified_corpus_so_far,1,Plum and Camellia in a Bronze Vase,https://www.clevelandart.org/articles/18th-century-prints-suzhou,Official CMA acquisition article captions this work as 2025.127.
+2025.128,unresolved,upper_neighbor,,No indexed exact object record found,,Search absence only; do not infer nonexistence or corpus membership.
+2025.129,unresolved,upper_neighbor,,No indexed exact object record found,,Search absence only; do not infer nonexistence or corpus membership.
+2025.130,verified_non_corpus,upper_negative_control,0,Melchizedek Blessing Abraham,https://www.clevelandart.org/art/2025.130,"Official CMA record: Julius Schnorr von Carolsfeld, Germany, pen and brown ink; not part of the Chinese Suzhou print acquisition."
