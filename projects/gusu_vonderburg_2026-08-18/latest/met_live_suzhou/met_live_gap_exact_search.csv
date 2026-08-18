@@ -1,0 +1,11 @@
+accession,search_url,search_result_count,exact_object_ids,exact_match
+2025.363,https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=6&q=2025.363,2,911834,1
+2025.365,,,,error
+2025.366,,,,error
+2025.369,,,,error
+2025.394,,,,error
+2025.404,,,,error
+2025.414,,,,error
+2025.422,https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=6&q=2025.422,2,911946,1
+2025.429,https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=6&q=2025.429,4,911968,1
+2025.435,https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=6&q=2025.435,2,911981,1
