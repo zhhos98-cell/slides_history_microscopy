@@ -1,0 +1,44 @@
+name: gusu-met-live-probe
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/gusu_met_live_probe.yml"
+      - "projects/gusu_vonderburg_2026-08-18/scripts/probe_met_live_object_ids.py"
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Probe live Met Collection API object-ID neighborhoods
+        shell: bash
+        run: |
+          set -euo pipefail
+          OUT="projects/gusu_vonderburg_2026-08-18/latest/met_live_probe"
+          mkdir -p "$OUT"
+          python projects/gusu_vonderburg_2026-08-18/scripts/probe_met_live_object_ids.py --outdir "$OUT" --delay 0.035 | tee "$OUT/run_summary_stdout.txt"
+      - name: Commit probe output
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/gusu_vonderburg_2026-08-18/latest/met_live_probe/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Probe live Met API neighborhood for Gusu gaps [gusu-met-live]"
+            git push origin HEAD:main
+          fi
