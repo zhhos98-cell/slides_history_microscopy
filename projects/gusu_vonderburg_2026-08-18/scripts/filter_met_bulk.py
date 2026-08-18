@@ -2,11 +2,12 @@
 """Filter the official Met Open Access bulk CSV for 2025 Asian Art prints.
 
 Outputs broad and narrow slices so discovery does not depend on one fragile
-keyword. The accession-neighborhood slice is also retained to audit sequence
-gaps from the previously reconstructed Gusu manifest.
+keyword. Also records snapshot diagnostics because recently accessioned Met
+objects may appear in the live Collection API before the bulk CSV export.
 """
 from __future__ import annotations
 import argparse,csv,hashlib,json,re
+from collections import Counter
 from datetime import datetime,timezone
 from pathlib import Path
 
@@ -45,15 +46,13 @@ def main():
     fpublic=alias(fields,['Is Public Domain','IsPublicDomain'])
     fdimensions=alias(fields,['Dimensions'])
     fobjectname=alias(fields,['Object Name','ObjectName'])
+    fmetadata=alias(fields,['Metadata Date','MetadataDate'])
     required={'object_number':fnum,'department':fdept}
     if not all(required.values()):raise RuntimeError(f'Missing required headers: {required}; got {fields}')
 
     def is2025(r):
-        # Object Number is the authoritative test here. Met bulk AccessionYear
-        # is inconsistently serialized/blank for some recently accessioned rows.
         num=(r.get(fnum,'') or '').strip()
-        if num.startswith('2025.'):
-            return True
+        if num.startswith('2025.'): return True
         yr=(r.get(fyear,'') or '').strip() if fyear else ''
         return yr.startswith('2025')
     def is_asian(r):return 'asian' in (r.get(fdept,'') or '').lower()
@@ -64,14 +63,21 @@ def main():
         blob=' '.join([r.get(fculture,'') or '',r.get(ftitle,'') or '',r.get(fmedium,'') or '',r.get(fcredit,'') or '']).lower()
         return 'suzhou' in blob or 'gusu' in blob
 
+    # Snapshot diagnostics independent of corpus filtering.
+    num2025=[r for r in rows if (r.get(fnum,'') or '').strip().startswith('2025.')]
+    year2025=[r for r in rows if fyear and (r.get(fyear,'') or '').strip().startswith('2025')]
+    api_probe_ids={'911822','911983','911945','913059'}
+    probe_hits=[r for r in rows if fid and (r.get(fid,'') or '').strip() in api_probe_ids]
+    year_counter=Counter((r.get(fyear,'') or '').strip() for r in rows if fyear and (r.get(fyear,'') or '').strip())
+    latest_metadata=max(((r.get(fmetadata,'') or '').strip() for r in rows),default='') if fmetadata else ''
+
     broad=[r for r in rows if is2025(r) and is_asian(r) and is_print(r)]
     suzhou=[r for r in broad if suzhou_signal(r)]
     neigh=[]
     for r in rows:
         if not is2025(r) or not is_asian(r):continue
         n,suf=objnum(r.get(fnum,''))
-        if (n is not None and 357<=n<=439) or (n==797 and suf in ('1','2')):
-            neigh.append(r)
+        if (n is not None and 357<=n<=439) or (n==797 and suf in ('1','2')): neigh.append(r)
 
     def write(name,data):
         p=out/name
@@ -81,6 +87,7 @@ def main():
     write('met_2025_asian_art_prints_full.csv',broad)
     write('met_2025_asian_art_prints_suzhou_signal.csv',suzhou)
     write('met_2025_accession_neighborhood_357_439_797.csv',neigh)
+    write('met_bulk_api_object_id_probe_hits.csv',probe_hits)
 
     def compact(data,name):
         cf=['object_number','object_id','title','culture','object_name','classification','medium','dimensions','credit_line','public_domain','link_resource','suzhou_signal']
@@ -108,14 +115,24 @@ def main():
     gaps=[str(n) for n in range(357,440) if str(n) not in discovered]
     new_vs_known=sorted(discovered-known,key=lambda s:objnum('2025.'+s))
     known_missing=sorted(known-discovered,key=lambda s:objnum('2025.'+s))
+    top_years=sorted(year_counter.items(),key=lambda kv:kv[0],reverse=True)[:10]
     meta={
       'generated_utc':datetime.now(timezone.utc).isoformat(),
       'source_repo':'metmuseum/openaccess','source_commit':args.source_commit,'source_lfs_oid':args.lfs_oid,
       'source_size':src.stat().st_size,'source_sha256':sha256(src),'source_rows':len(rows),'headers':fields,
+      'diagnostics':{
+        'object_number_starts_2025_count':len(num2025),
+        'accession_year_starts_2025_count':len(year2025),
+        'known_live_api_object_ids_checked':sorted(api_probe_ids),
+        'known_live_api_object_ids_present_in_bulk':[r.get(fid,'') for r in probe_hits] if fid else [],
+        'known_live_api_probe_rows':[{'object_id':r.get(fid,''),'object_number':r.get(fnum,''),'title':r.get(ftitle,'')} for r in probe_hits] if fid else [],
+        'latest_metadata_date_lexical':latest_metadata,
+        'latest_accession_year_values':top_years,
+      },
       'broad_2025_asian_art_print_rows':len(broad),'suzhou_signal_rows':len(suzhou),'accession_neighborhood_rows':len(neigh),
       'accession_neighborhood_numbers':[r['object_number'] for r in ncomp],
       'numeric_gaps_357_439':gaps,'discovered_not_in_prior_verified_set':new_vs_known,'prior_verified_not_in_bulk_neighborhood':known_missing,
-      'note':'Suzhou signal is a discovery filter, not a final corpus-membership test.'
+      'note':'If diagnostic 2025 counts and known live API object-ID hits are zero, the official bulk snapshot does not yet contain these live 2025 records; the live Collection API then takes precedence for this acquisition.'
     }
     (out/'met_bulk_discovery_summary.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(meta,ensure_ascii=False,indent=2))
