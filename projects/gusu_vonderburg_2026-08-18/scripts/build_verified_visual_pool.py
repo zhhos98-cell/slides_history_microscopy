@@ -21,6 +21,8 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Trigger marker 2026-08-18: workflow now exists on default branch; no semantic change.
+
 
 def read_csv(path):
     with open(path, newline='', encoding='utf-8-sig') as f:
