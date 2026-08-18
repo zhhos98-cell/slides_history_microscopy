@@ -1,0 +1,52 @@
+{
+  "generated_utc": "2026-08-18T04:32:58.854740+00:00",
+  "samples": [
+    {
+      "sample_id": "WENWU_776",
+      "known_visual_match": "CMA:2025.108",
+      "bytes": 106200,
+      "width": 1280,
+      "height": 1280,
+      "control_detects_52": "NA",
+      "control_detects_gathering_or_osmanthus": "NA",
+      "all_candidate_numbers": "1|2|3|4|5|7|9|20|36|58",
+      "bird_title_detected": "0"
+    },
+    {
+      "sample_id": "WENWU_778_CONTROL",
+      "known_visual_match": "CMA:2025.84",
+      "bytes": 199149,
+      "width": 1280,
+      "height": 960,
+      "control_detects_52": "1",
+      "control_detects_gathering_or_osmanthus": "1",
+      "all_candidate_numbers": "1|2|3|4|5|6|7|8|9|10|12|14|16|18|20|22|24|25|27|28|31|34|38|44|46|49|52|55|58|65|68|70|77|85|88|95|98|110|111|119|185|198|199|254|258|281|408|539|751",
+      "bird_title_detected": "NA"
+    },
+    {
+      "sample_id": "WENWU_780",
+      "known_visual_match": "CMA:2025.108",
+      "bytes": 146781,
+      "width": 1280,
+      "height": 850,
+      "control_detects_52": "NA",
+      "control_detects_gathering_or_osmanthus": "NA",
+      "all_candidate_numbers": "1|2|3|4|5|6|7|8|9|14|33|44|431",
+      "bird_title_detected": "0"
+    },
+    {
+      "sample_id": "GUANGZHOU_IMG3",
+      "known_visual_match": "CMA:2025.108",
+      "bytes": 76966,
+      "width": 900,
+      "height": 675,
+      "control_detects_52": "NA",
+      "control_detects_gathering_or_osmanthus": "NA",
+      "all_candidate_numbers": "1|2|3|4|5|6|7|8|9|16|22|24|27|28|47|77|88|338|555|704",
+      "bird_title_detected": "0"
+    }
+  ],
+  "calibration_pass_number_52": true,
+  "calibration_pass_english_title": true,
+  "promotion_rule": "Do not promote OCR-derived Bird-on-Pomegranate catalogue/page numbers unless the control detects known entry 52. OCR text remains candidate evidence only."
+}
