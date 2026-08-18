@@ -1,0 +1,110 @@
+checked 25/140
+checked 50/140
+checked 75/140
+checked 100/140
+checked 125/140
+{
+  "target": "book_catalogue_entry_52_plate_from_user_screenshot",
+  "target_image_uploaded": false,
+  "target_hashes": {
+    "dhash": "0f7d5d63634d7969",
+    "ahash": "ff3f010101019dff"
+  },
+  "candidate_count": 140,
+  "successfully_hashed": 140,
+  "errors": 0,
+  "top10": [
+    {
+      "rank": 1,
+      "working_220_id": "MET:2025.431",
+      "title_en": "Second Part of Tale of Washing the Silken Gauze",
+      "title_zh": "",
+      "dhash_distance": 19,
+      "ahash_distance": 24,
+      "weighted_score": 62
+    },
+    {
+      "rank": 2,
+      "working_220_id": "MET:2025.369",
+      "title_en": "Five Boys Competing for Distinction",
+      "title_zh": "",
+      "dhash_distance": 18,
+      "ahash_distance": 27,
+      "weighted_score": 63
+    },
+    {
+      "rank": 3,
+      "working_220_id": "MET:2025.427",
+      "title_en": "The Jade Hairpin",
+      "title_zh": "",
+      "dhash_distance": 26,
+      "ahash_distance": 11,
+      "weighted_score": 63
+    },
+    {
+      "rank": 4,
+      "working_220_id": "MET:2025.366",
+      "title_en": "One Hundred Longevity Characters",
+      "title_zh": "",
+      "dhash_distance": 18,
+      "ahash_distance": 28,
+      "weighted_score": 64
+    },
+    {
+      "rank": 5,
+      "working_220_id": "MET:2025.367",
+      "title_en": "Character meaning “good fortune”",
+      "title_zh": "",
+      "dhash_distance": 19,
+      "ahash_distance": 26,
+      "weighted_score": 64
+    },
+    {
+      "rank": 6,
+      "working_220_id": "MET:2025.404",
+      "title_en": "Lady Holding a Brush",
+      "title_zh": "",
+      "dhash_distance": 20,
+      "ahash_distance": 24,
+      "weighted_score": 64
+    },
+    {
+      "rank": 7,
+      "working_220_id": "MET:2025.383",
+      "title_en": "Mother and Son by a Pavilion",
+      "title_zh": "",
+      "dhash_distance": 22,
+      "ahash_distance": 22,
+      "weighted_score": 66
+    },
+    {
+      "rank": 8,
+      "working_220_id": "CMA:2025.57",
+      "title_en": "Two Beauties Inspect a Golden Lotus",
+      "title_zh": "雙美觀金蓮",
+      "dhash_distance": 24,
+      "ahash_distance": 18,
+      "weighted_score": 66
+    },
+    {
+      "rank": 9,
+      "working_220_id": "CMA:2025.31",
+      "title_en": "The Two Immortals of Harmony and Unity",
+      "title_zh": "和合二仙",
+      "dhash_distance": 22,
+      "ahash_distance": 23,
+      "weighted_score": 67
+    },
+    {
+      "rank": 10,
+      "working_220_id": "CMA:2025.23",
+      "title_en": "Mother and Sons",
+      "title_zh": "母子圖",
+      "dhash_distance": 21,
+      "ahash_distance": 28,
+      "weighted_score": 70
+    }
+  ],
+  "known_independent_identification": "Book no. 52 has already been independently identified as CMA 2025.84 / 折桂圖 from readable title plus official composition description. Hash rank is now a validation/benchmark, not the primary identification basis.",
+  "interpretation_rule": "Hash ranking is a candidate generator only; title/composition evidence governs final concordance."
+}
