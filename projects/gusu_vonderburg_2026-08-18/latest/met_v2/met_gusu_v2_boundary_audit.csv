@@ -1,0 +1,7 @@
+accession,status,H1_352_460,H2_354_460,role,reason
+2025.352,verified_live_Suzhou_related,1,0,lower_excluded_candidate_under_H2,same-year live Suzhou accession; no von der Burg provenance hard-linked yet
+2025.353,verified_live_Suzhou_related,1,0,lower_excluded_candidate_under_H2,same-year live Suzhou accession; no von der Burg provenance hard-linked yet
+2025.354,verified_live_Suzhou_related,1,1,lowest_working_core_accession,354–460 inclusive contains exactly 107 accessions
+2025.460,verified_live_Suzhou_related,1,1,highest_working_core_accession,special Furniture record containing Gusu Beauty in Winter print; retained because accession is inside H2 boundary
+2025.797.1,verified_explicit_vonderburg_gift,0,0,separate_related_gift,"credit line explicitly Gift of Christer von der Burg, 2025"
+2025.797.2,verified_explicit_vonderburg_gift,0,0,separate_related_gift,"credit line explicitly Gift of Christer von der Burg, 2025"

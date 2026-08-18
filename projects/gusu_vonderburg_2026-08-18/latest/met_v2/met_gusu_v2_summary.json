@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-08-18T03:59:52.846112+00:00",
+  "version": "MET-v2",
+  "verified_live_range_352_460_count": 109,
+  "verified_live_range_complete": true,
+  "H1": {
+    "definition": "2025.352–2025.460",
+    "count": 109,
+    "status": "verified_contiguous_live_Suzhou_related_range_not_corpus_boundary"
+  },
+  "H2": {
+    "definition": "2025.354–2025.460",
+    "count": 107,
+    "status": "strong_structural_working_core_pending_catalogue_or_provenance_boundary_confirmation",
+    "arithmetic_basis": "220 joint total - 113 CMA = 107 Met"
+  },
+  "working_core_107_image_coverage": {
+    "public_original_primary_image": 104,
+    "no_public_original": 3,
+    "restricted_expected_accessions": [
+      "2025.424",
+      "2025.425",
+      "2025.426"
+    ],
+    "coverage_percent": 97.2
+  },
+  "working_core_record_notes": {
+    "2025.437": "four-panel folding screen; one accession, primary image plus four additional original photographs",
+    "2025.460": "Furniture classification; wooden chest with print Gusu Beauty in Winter pasted inside"
+  },
+  "lower_boundary_unresolved_membership": [
+    "2025.352",
+    "2025.353"
+  ],
+  "separate_explicit_vonderburg_gifts": [
+    "2025.797.1",
+    "2025.797.2"
+  ],
+  "excluded_false_positive": [
+    "2025.618.4"
+  ],
+  "book_entry_coverage_status": "not yet equivalent to accession-level image coverage; catalogue concordance pending"
+}
