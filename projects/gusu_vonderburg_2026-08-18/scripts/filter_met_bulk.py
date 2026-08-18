@@ -49,13 +49,19 @@ def main():
     if not all(required.values()):raise RuntimeError(f'Missing required headers: {required}; got {fields}')
 
     def is2025(r):
-        return (r.get(fyear,'').strip()=='2025') if fyear else (r.get(fnum,'').startswith('2025.'))
-    def is_asian(r):return 'asian' in r.get(fdept,'').lower()
+        # Object Number is the authoritative test here. Met bulk AccessionYear
+        # is inconsistently serialized/blank for some recently accessioned rows.
+        num=(r.get(fnum,'') or '').strip()
+        if num.startswith('2025.'):
+            return True
+        yr=(r.get(fyear,'') or '').strip() if fyear else ''
+        return yr.startswith('2025')
+    def is_asian(r):return 'asian' in (r.get(fdept,'') or '').lower()
     def is_print(r):
-        blob=' '.join([r.get(fclass,''),r.get(fobjectname,''),r.get(fmedium,'')]).lower()
+        blob=' '.join([r.get(fclass,'') or '',r.get(fobjectname,'') or '',r.get(fmedium,'') or '']).lower()
         return 'print' in blob or 'woodblock' in blob
     def suzhou_signal(r):
-        blob=' '.join([r.get(fculture,''),r.get(ftitle,''),r.get(fmedium,''),r.get(fcredit,'')]).lower()
+        blob=' '.join([r.get(fculture,'') or '',r.get(ftitle,'') or '',r.get(fmedium,'') or '',r.get(fcredit,'') or '']).lower()
         return 'suzhou' in blob or 'gusu' in blob
 
     broad=[r for r in rows if is2025(r) and is_asian(r) and is_print(r)]
