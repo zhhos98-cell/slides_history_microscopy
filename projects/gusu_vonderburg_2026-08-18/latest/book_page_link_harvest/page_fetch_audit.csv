@@ -2,3 +2,4 @@ page_code,page_url,http_status,content_type,html_bytes,image_tag_count,link_coun
 WENWU_RECOMMEND,https://www.wenwu.com/newsinfo/11120837.html,200,text/html; charset=utf-8,124747,19,76,
 GUANGZHOU_DAILY,https://huacheng.gz-cmc.com/pages/2026/06/17/eb9dd1f64b884f828e156a702afee4b9.html,200,text/html; charset=utf-8,18333,15,2,
 WENWU_LAUNCH,https://www.wenwu.com/newsinfo/11120643.html,200,text/html; charset=utf-8,119098,12,76,
+SHUSEIDO_JP,https://shuseido.com/?pid=192492972,200,text/html; charset=EUC-JP,21770,6,38,

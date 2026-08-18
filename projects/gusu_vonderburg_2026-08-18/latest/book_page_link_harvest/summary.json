@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-18T04:21:54.723593+00:00",
+  "generated_utc": "2026-08-18T04:40:50.867692+00:00",
   "pages": [
     {
       "page_code": "WENWU_RECOMMEND",
@@ -30,9 +30,19 @@
       "image_tag_count": 12,
       "link_count": 76,
       "error": ""
+    },
+    {
+      "page_code": "SHUSEIDO_JP",
+      "page_url": "https://shuseido.com/?pid=192492972",
+      "http_status": 200,
+      "content_type": "text/html; charset=EUC-JP",
+      "html_bytes": 21770,
+      "image_tag_count": 6,
+      "link_count": 38,
+      "error": ""
     }
   ],
-  "total_image_tags": 46,
-  "likely_book_sample_links": 13,
+  "total_image_tags": 52,
+  "likely_book_sample_links": 15,
   "policy": "URLs/alt metadata only; no third-party image bytes committed"
 }
