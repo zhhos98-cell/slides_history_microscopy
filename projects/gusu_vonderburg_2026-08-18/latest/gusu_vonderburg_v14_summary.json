@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.4",
+  "generated_utc": "2026-08-18T03:17:57.690205+00:00",
+  "hypothesis_id": "CMA-H1-2026-08-18",
+  "hypothesis": "CMA Suzhou acquisition occupies top-level accessions 2025.19–2025.128 inclusive; accession 2025.82 is a cover/set record whose four components .1–.4 represent four physical prints.",
+  "top_level_accession_count": 110,
+  "multipart_adjustment": {
+    "2025.82_top_level_physical_contribution": 0,
+    "components": 4,
+    "net_adjustment_to_top_level_count": 3
+  },
+  "predicted_physical_print_count": 113,
+  "official_CMA_physical_print_count": 113,
+  "count_closes_exactly": true,
+  "status": "strong_structural_inference_not_yet_full_record_verification",
+  "boundary_controls": {
+    "2025.18": "verified_non_corpus",
+    "2025.19": "unresolved_but_H1_inferred_member",
+    "2025.20": "unresolved_but_H1_inferred_member",
+    "2025.128": "unresolved_but_H1_inferred_member",
+    "2025.129": "unresolved_conditional_outside_H1",
+    "2025.130": "verified_non_corpus"
+  },
+  "exact_index_search_2025_19_20_128_129": "no_hits_on_2026-08-18",
+  "policy": "Do not convert inferred H1 membership into verified museum-record status until API/bulk/object evidence is recovered.",
+  "met_exact_direct_image_urls_carried_forward": 69,
+  "cma_hard_verified_download_rows_carried_forward": 11
+}
