@@ -1,11 +1,12 @@
 {
-  "schema_version": "1.0.2-repository-state",
-  "generated": "2026-08-10",
+  "schema_version": "1.0.3-repository-state",
+  "generated": "2026-08-31",
   "status": "CANONICAL_REPOSITORY_STATE",
-  "purpose": "Top-level authority map for the microscope-slide repository. This file identifies the current state of each evidence/publication layer while preserving older versioned files as audit history.",
+  "purpose": "Top-level authority map for the microscope-slide repository. This file identifies the current state of each evidence/publication layer while preserving older versioned files as audit history and separating satellite projects from the frozen microscope-slide core.",
   "canonical_repository": "zhhos98-cell/slides_history_microscopy",
   "branch": "main",
-  "research_mode": "ANALYSIS_AND_WRITING__EXACT_SOURCE_REQUESTS_ONLY",
+  "research_mode": "MICROSCOPE_CORE_ANALYSIS_AND_WRITING__EXACT_SOURCE_REQUESTS_ONLY__SATELLITE_PROJECTS_SEPARATE",
+  "scope_note": "The closed survey/bibliography/analysis state applies to the microscope-slide core. Separately scoped projects under projects/ may remain active without reopening or extending the frozen 307/155 survey membership.",
   "layers": {
     "survey": {
       "authority": "data/survey/07AR_CLOSURE_MANIFEST_2026-08-09.json",
@@ -43,8 +44,9 @@
       "status": "CANONICALIZED_ADDITIVE_SOURCE_ROUTING_LAYER",
       "raw_records": 87,
       "superseded_duplicate_route_ids": 3,
-      "canonical_records": 84,
-      "rule": "Source-registry entries describe documentary routes and holdings; repeated URLs are semantically audited. Superseded duplicate-route IDs remain in raw chunks for audit but are suppressed by current/public consumers."
+      "excluded_out_of_scope_ids": 1,
+      "canonical_records": 83,
+      "rule": "Source-registry entries describe documentary routes and holdings; repeated URLs are semantically audited. Superseded duplicate-route IDs and explicitly excluded out-of-scope records remain in raw chunks for audit but are suppressed by current/public consumers."
     },
     "evidence": {
       "authority": "data/evidence/targeted_deep_4/manifest.json",
@@ -53,9 +55,24 @@
     },
     "website": {
       "authority": "index.html",
-      "related_files": ["site.js", "bibliography/index.html", "sources/index.html", "pages-version.txt"],
+      "related_files": [
+        "site.js",
+        "bibliography/index.html",
+        "sources/index.html",
+        "pages-version.txt"
+      ],
       "status": "PRESENTATION_LAYER",
       "rule": "Pages cards and labels never override survey, source, or analysis authority."
+    },
+    "projects": {
+      "authority": "projects/README.md",
+      "related_files": [
+        "projects/gusu_vonderburg_2026-08-18/README.md",
+        "projects/gusu_vonderburg_2026-08-18/BACKUP_STATE.md",
+        "projects/gusu_vonderburg_2026-08-18/conversation/PROGRESS_CONSOLIDATED_2026-08-18_TO_2026-08-19.md"
+      ],
+      "status": "SEPARATELY_SCOPED_SATELLITE_PROJECTS",
+      "rule": "Satellite project activity does not reopen the frozen microscope-slide survey or silently alter its bibliography/source-registry/analysis authorities. Resolve project continuation through the project-local router and canonical artifacts."
     }
   },
   "current_exact_source_requests": [
@@ -91,7 +108,7 @@
   "quantity_invariants": [
     "307 discovery nodes != 155 strict nineteenth-century nodes",
     "206 bibliography records != physical objects",
-    "84 canonical source-registry routes != object-census rows",
+    "83 canonical source-registry routes != object-census rows",
     "423 Naples catalogue offerings != surviving-slide total",
     "4,723 Challenger dataset records != 4,713 physical containers/objects",
     "serial numbers, catalogue numbers, accession numbers, slide counts, preparation counts and cabinet capacities remain distinct namespaces"
