@@ -8,34 +8,69 @@
 
 ### A1. London Metropolitan Archives — `LMA/4535`
 
-Collection-level evidence says the archive includes student lists 1854–73, the earliest recording occupations, plus governance minutes, ledgers, correspondence and student-club records.
+Collection-level evidence says the archive includes student lists **1854–73**, the earliest recording occupations, plus governance minutes, ledgers, correspondence and student-club records. Public catalogue/index searches currently expose the student-list material only at collection level; do **not** invent a subordinate reference.
 
-Highest-value requests:
+#### A1.1 — first gate: Thomas Davies only
 
-1. **student lists/registers, 1854–73**
-   - Thomas Davies (1837–1892), British Museum Mineralogy;
-   - Harry Govier Seeley;
-   - Alfred Grugeon;
-   - Cooke physiological-botany pupils 1861;
-   - any occupations `museum attendant`, `transcriber`, `assistant`, `naturalist`, `chemist`, `instrument maker`, `optician`, `teacher`, `engraver`, `printer`.
-2. **College Museum, 1856–75**
-   - accession/donation lists;
-   - secretary records;
-   - cabinets and room inventories;
-   - natural-history objects;
-   - microscopes, slides, preparations, apparatus;
-   - Seeley's work as museum secretary;
-   - Cooke invitation to become Curator in 1875.
-3. **Cooke's 1861 Physiological Botany class**
-   - register;
-   - prospectus / report;
-   - apparatus/material expenses;
-   - pupil names;
-   - specimens / microscope ownership or loan.
-4. **Lubbock Field Club, from 1893**
-   - microscope use;
-   - exhibited specimens;
-   - collections/slides.
+The first request should be one-person and fail-closed:
+
+> Do the Working Men's College student lists/registers for 1854–1873 (`LMA/4535`) contain **Thomas Davies (1837–1892), of the British Museum Department of Mineralogy / Mineral Department**?
+
+Identity guard if needed: born 29 Dec. 1837; son of William Davies of the British Museum Geological Department; third-class attendant from 1858; later Transcriber / Junior Assistant from 1869; associated with N. S. Maskelyne.
+
+If **YES**, request only:
+
+1. exact year(s) of appearance;
+2. occupation/employer/address if recorded;
+3. exact register/list reference.
+
+Only after that positive hit, ask whether the same entry or a directly linked class-enrolment record identifies **French or German**. If language enrolment is held elsewhere, request only the relevant reference.
+
+If **NO** after a complete check of the relevant surviving list/register sequence, stop this route. Preserve Fletcher's obituary statement that Davies attended WMC evening classes and acquired French/German as near-primary biographical evidence; a register negative does not prove non-attendance.
+
+Do **not** combine this first request with Harry Govier Seeley, Alfred Grugeon, Cooke pupils, or an occupational-category sweep. Those are separate later gates only if independently justified.
+
+Detailed control: `docs/WMC_THOMAS_DAVIES_WMC_REGISTER_CONTROL_2026-09-08.md`.
+
+#### A1.2 — deferred independent gates
+
+After the Davies question is resolved, separate requests may be justified for:
+
+- Harry Govier Seeley — WMC student-list entry and Museum-secretary relation;
+- Alfred Grugeon — enrolment/occupation chronology;
+- Cooke's 1861 Physiological Botany pupils — only if a class-level register is identified;
+- occupational sampling (`museum attendant`, `instrument maker`, `optician`, etc.) only as a defined prosopographical project, not as an archive-staff first-contact request.
+
+#### A1.3 — College Museum, 1856–75
+
+Potential later targets:
+
+- accession/donation lists;
+- secretary records;
+- cabinets and room inventories;
+- natural-history objects;
+- microscopes, slides, preparations, apparatus;
+- Seeley's work as museum secretary;
+- Cooke invitation to become Curator in 1875.
+
+#### A1.4 — Cooke's 1861 Physiological Botany class
+
+Potential later targets:
+
+- register;
+- prospectus / report;
+- apparatus/material expenses;
+- pupil names;
+- specimens / microscope ownership or loan.
+
+#### A1.5 — Lubbock Field Club
+
+Broad public-web searching has reached its stop rule. Reopen only through:
+
+- LMA `/4535/E/02/06/001`;
+- a directly inspectable *Working Men's College Journal* run/report.
+
+Target only dated microscope use, exhibited preparations/specimens, or named participants; do not repeat generic Lubbock discovery.
 
 Catalogue:
 - https://atom.aim25.com/index.php/working-mens-college
