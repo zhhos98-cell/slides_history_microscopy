@@ -57,21 +57,37 @@ DF/MIN/20/1/4/13
 
 Do not use this file to reconstruct WMC teaching except as a comparison showing what Maskelyne's advanced crystallographic pedagogy looked like elsewhere.
 
-## 4. `DF/MIN/20/1/4/12` — unidentified lecture manuscript
+## 4. `DF/MIN/20/1/4/12` — Oxford 1872 is the strongest external provenance candidate; manuscript identity remains open
 
-Title:
+NHM catalogue title:
 
 `Physical properties of minerals - I. optical`: notes for a lecture, illustrated with diagrams.
 
-The catalogue gives **no date or venue**.
+The catalogue gives **no date or venue**, lists the unit as **1 file**, and supplies no audience, institutional heading or course title. The broader Story-Maskelyne group was preserved at Basset Down until its 1951 transfer to the Museum; many papers were accompanied by notes made by Walter Campbell Smith at transfer. Folder adjacency inside this later archival group therefore cannot itself date `/12` or assign its venue.
 
-This is a high-value candidate for lecture-provenance work because optical mineralogy is close to the technical world of Davies, meteorite thin sections and polarizing microscopy. But no current evidence connects it to WMC.
+A bounded title/vocabulary search produced no independent Working Men's College programme or notice matching `/12`. It did, however, produce a much stronger Oxford candidate. *Nature*, 2 May 1872, reporting courses **being delivered that term in Oxford**, lists Story-Maskelyne's first course of four lectures as:
 
-Required closure fields:
+> “On the projection of crystals, and on the relations of morphological symmetry to the distribution of physical and especially of optical characters.”
 
-`paper/watermark | handwriting layer | named audience | institutional heading | internal cross-reference | diagram type | cited instrument | dateable publications | associated envelope/folder | adjacent item provenance`.
+A second Story-Maskelyne course that term was “On lithology mineralogically considered.”
 
-Search WMC reports/programmes for matching title/vocabulary before assigning venue.
+The phrase structure of the first course — crystallographic projection and symmetry linked to **physical and especially optical characters** — is materially close to the archival lecture-note title **“Physical properties of minerals - I. optical.”** It is currently the best external provenance candidate for `/12`.
+
+It is **not** an identity proof. The titles are not the same; `/12` is undated; the catalogue does not say Oxford; and no recovered notice subdivides the 1872 four-lecture course into a part explicitly entitled “Physical properties of minerals - I. optical.”
+
+Current provenance formula:
+
+```text
+DF/MIN/20/1/4/12 -> WMC = NO POSITIVE EXTERNAL MATCH FOUND
+DF/MIN/20/1/4/12 -> Oxford 1872 course = STRONGEST EXTERNAL CANDIDATE / NOT IDENTICALITY-CLOSED
+Oxford 1872 course -> physical + especially optical characters = SECURE CONTEMPORARY NOTICE
+```
+
+Source: *Nature* 6 (2 May 1872), 13–14, “Notes,” DOI `10.1038/006013a0`.
+
+**Required closure fields inside the manuscript:** `course/lecture numbering | projection of crystals | morphological symmetry | optical characters | named audience | Oxford/University heading | WMC heading | institutional paper | dateable citation | diagram correspondence | associated envelope or explicit contemporary label`.
+
+**Stop rule:** stop broad-web title matching for `/12`. Reopen provenance only by inspecting the manuscript itself or by finding an independently dated course syllabus with a closer verbal/diagrammatic match. Until then, do not use `/12` as WMC teaching evidence.
 
 ## 5. Other Maskelyne lecture papers are venue controls, not WMC evidence by default
 
@@ -81,7 +97,7 @@ The Story-Maskelyne papers also include:
 - `/8` — The filling of fissures, lecture notes on ore-mineral formation;
 - `/10` — On diamonds, explicitly a **Royal Institution** lecture;
 - `/11` — The metals and minerals of the Bible;
-- `/12` — Physical properties of minerals - I. optical, venue open;
+- `/12` — Physical properties of minerals - I. optical, **Oxford 1872 strongest external candidate; identity open**;
 - `/13` — 23 Nov 1874 crystallography course, **Chemical Society**.
 
 Repository rule:
@@ -117,7 +133,7 @@ Sources/control:
 
 **Stop rule:** do not spend further broad-web effort trying to make the 1869 theorem into a WMC lecture. Reopen only if a primary 1869 WMC/Oxford programme, dated lecture notice, or manuscript provenance appears independently.
 
-The higher-value WMC-specific target is now `DF/MIN/20/1/4/12` (“Physical properties of minerals - I. optical”) or an independently dated WMC programme/report naming a Maskelyne lecture.
+The higher-value WMC-specific target is now an **independently dated WMC programme/report naming a Maskelyne lecture**, not further venue speculation around `/12` or the 1869 theorem.
 
 ## 7. Why exclusion is analytically useful
 
