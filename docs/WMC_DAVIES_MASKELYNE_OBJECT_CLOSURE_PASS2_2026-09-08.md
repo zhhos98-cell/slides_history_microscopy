@@ -2,18 +2,19 @@
 
 **Date:** 2026-09-08  
 **Branch:** `research/working-mens-microscopy-19c`  
-**Status:** source-chronology correction + bounded object/archive targets.
+**Status:** corrected source chronology + bounded object/archive targets.
 
 ## 1. What changed in this pass
 
-The Davies–Maskelyne case is stronger than the first pass, but its archival chronology must be made more exact.
+The Davies–Maskelyne case is stronger than the first pass, but its archival chronology must be exact.
 
-Two corrections/upgrades are now necessary:
+Three corrections/upgrades are now necessary:
 
 1. **Thomas Davies's official daily-duty diaries do not cover his initial 1858–62 formation under Maskelyne.** The first surviving volume currently identified, `DF/MIN/20/2/1`, begins in October 1875. The diary series is therefore a late-career source for daily labour, object intake, laboratory/custodial routines and later thin-section work; it cannot be used as contemporaneous evidence for the initial apprenticeship.
 2. **Nevil Story-Maskelyne's relation to the Working Men's College was more active than Council membership alone.** The Royal Society obituary states that he frequently lectured at the Working Men's College. The subject(s) and dates of those lectures remain open. The 1866 College programme independently places him on the Council but does not list him among that term's regular Physical Sciences teachers.
+3. **`DF/MIN/21` is not an early preparation-invoice route.** The series-level date span begins in 1816 because specimen/financial records survive early, but the surviving files that explicitly combine or isolate the `preparation account` are twentieth-century: `DF/MIN/21/30` begins in 1910, `DF/MIN/21/14` in 1937 and `DF/MIN/21/15` in 1945. It must not be used as a prospective 1861 microscope/sectioning invoice series.
 
-This yields a more precise model: the same scientific actor crossed museum and adult-education institutions, but the technical and pedagogical functions of those institutions must not be collapsed.
+This yields a more precise model: the same scientific actor crossed museum and adult-education institutions, but the technical and pedagogical functions of those institutions must not be collapsed; archive series must also be checked at child-item chronology before being used as historical routes.
 
 ## 2. The early formation period, 1858–62
 
@@ -37,7 +38,7 @@ NHM's authority record gives promotion to Transcriber / Junior Assistant on **25
 
 ### 1860–62 — Davies is already producing meteorite documentation
 
-`DF/MIN/10/1/6` is catalogued as **List of meteorites in the British Museum by Thomas Davies**, dated 1860–1862.
+`DF/MIN/10/1/6` is catalogued as **List of meteorites in the British Museum by Thomas Davies**, dated **1860–1862**.
 
 This is the best presently indexed contemporaneous Davies document for the formation period. It overlaps directly with the construction/use of the special 1861 microscope described in the later departmental history.
 
@@ -65,19 +66,75 @@ restricted chemical infrastructure
  -> microscopic mineral determination
 ```
 
-### Better early archival targets than the diaries
+## 3. Corrected early archival targets, 1858–63
 
-For 1858–62, prioritize:
+For the formation period, prioritize records that actually cover the relevant years.
 
-- **`DF/MIN/10/1/6`** — Davies meteorite list, 1860–62.
-- **`DF/MIN/4/61`** — 1861 draft progress reports / memoranda / official letters for reports to Trustees; catalogue includes Maskelyne material on observation and collection of aerolites.
-- **`DF/MIN/13/2`** — Maskelyne notes, 1860–62, concerning evidence on accommodation for the mineral collection; useful for reconstructing spatial/laboratory constraints.
-- **`DF/MIN/21`** — Mineralogy invoices/accounts. The series description explicitly distinguishes specimen/book purchases from **preparation invoices** for other goods and services. This is a high-value route for microscopes, glass, sectioning, optical fittings, preparation labour, chemicals or related services, subject to exact child-item date coverage.
-- **`DF/MIN/18` / Keeper staff papers** — possible route for appointment/promotion paperwork and the 1862/1869 discrepancy.
+### A. `DF/MIN/10/1/6` — Davies meteorite list, 1860–62
 
-Do not use later laboratory/order-book series as if they covered 1861. `DF/MIN/27` begins in 1868; requisition and parcel series begin much later.
+Direct contemporaneous Davies object-documentation route.
 
-## 3. Maskelyne at the Working Men's College
+### B. `DF/MIN/4/61` — reports to Trustees / official documents, 1861
+
+The catalogue describes draft progress reports, memoranda and official letters for reports to Trustees and includes Maskelyne material concerning the observation and collection of aerolites. Read for:
+
+`microscope | apparatus | section | thin | polarising | goniometer | aerolite | laboratory | assistant | Davies | expense | maker`.
+
+### C. `DF/MIN/13/2` — accommodation evidence, 1860–62
+
+Maskelyne's notes concerning accommodation for the mineral collection can test the later institutional story that physical restrictions shaped the move toward optical examination.
+
+### D. `DF/MIN/5/56–61` — annual Trustee authorisations, 1858–63
+
+These files are precisely dated annual bundles:
+
+- `/56` — 1858
+- `/57` — 1859
+- `/58` — 1860
+- `/59` — 1861
+- `/60` — 1862
+- `/61` — 1863
+
+The parent `DF/MIN/5` description states that authorisations cover purchases, exchanges and donations of specimens; salary increments; promotion/appointment of staff; volunteer work; publications; and departmental accommodation. The catalogue does not itemize the contents of each annual bundle, so **no microscope purchase or Davies promotion is asserted until the physical files are read**.
+
+These are nevertheless the best current administrative targets for:
+
+- the 1861 custom microscope or related optical apparatus;
+- Davies's 1862 promotion;
+- requests made by Maskelyne to Trustees;
+- accommodation or laboratory changes;
+- expenditure or authorisation connected with the emerging meteorite programme.
+
+### E. `DF/MIN/18` / staff papers — contextual, not assumed early coverage
+
+The staff/staffing series begins in 1858 and contains Keeper copies, memoranda and recruitment papers, but currently indexed item-level hits are mostly later. Search for Davies only after confirming a relevant 1858–62 child file; do not infer that the series-level start date means a Davies appointment file survives there.
+
+### F. `DF/MIN/16` — explicitly excluded for the early period
+
+The series title `Mineralogy Annual Reports of Progress` is attractive, but the catalogue dates the surviving series **1900–1972**. It is not an 1861 annual-report route.
+
+## 4. Closed false lead: `DF/MIN/21` preparation invoices
+
+The parent catalogue says `DF/MIN/21` covers departmental financial records from 1816–1970 and distinguishes specimen invoices from `preparation invoices` for goods/services apart from specimens and books. That wording is potentially misleading if used without opening the children.
+
+Child-level chronology shows:
+
+- `DF/MIN/21/30` — financial journal covering specimens/books/preparation/other accounts, **1910–1937**;
+- `DF/MIN/21/14` — comparable financial journal, **1937–1970**;
+- `DF/MIN/21/15` — invoices paid from the preparation account, **1945–1948**;
+- later preparation-account files continue after that.
+
+Therefore:
+
+```text
+DF/MIN/21 series date = 1816–1970
+DOES NOT MEAN
+preparation invoices survive from 1816 onward
+```
+
+Repository rule: **do not use `DF/MIN/21` as a 1858–63 microscope, glass, sectioning or optical-fitting payment route.** Search Trustee authorisations/reports and early departmental correspondence instead.
+
+## 5. Maskelyne at the Working Men's College
 
 ### 1866 — official institutional position
 
@@ -109,7 +166,9 @@ But the current evidence does **not** establish:
 
 These remain explicit open edges.
 
-## 4. Davies at WMC: keep the two curricula separate
+See `WMC_MASKELYNE_LECTURE_PROVENANCE_PASS1_2026-09-08.md` for venue controls. In particular, the 23 Nov 1874 crystallography lecture preserved in `DF/MIN/20/1/4/13` belongs to the **Chemical Society** course, not to WMC.
+
+## 6. Davies at WMC: keep the two curricula separate
 
 Fletcher's obituary says Davies attended evening classes at Great Ormond Street and acquired French and German. It separately attributes his microscopic mineralogical training to Maskelyne in the Museum.
 
@@ -130,7 +189,7 @@ combined over one career
 
 Maskelyne's WMC lectures make the institutional overlap tighter, but do not erase the distinction between these two educational sites.
 
-## 5. Contemporary institutional argument: actor overlap, functional partition
+## 7. Contemporary institutional argument: actor overlap, functional partition
 
 The case becomes more interesting because Victorian observers explicitly debated whether museum custody and elementary/public teaching should be combined.
 
@@ -150,7 +209,7 @@ adult teaching / elementary instruction
 
 Davies sits inside precisely this partition: his general education is documented at WMC; his microscopic apprenticeship is documented in museum labour.
 
-## 6. Late diaries: what they can actually do
+## 8. Late diaries: what they can actually do
 
 The indexed diary chronology currently begins:
 
@@ -178,7 +237,7 @@ Use these diaries for:
 
 Do **not** cite them as evidence for the initial 1858–62 apprenticeship unless a retrospective entry explicitly discusses it.
 
-## 7. 1876 Clifton Ward thin-section intake — a closed late object route
+## 9. 1876 Clifton Ward thin-section intake — a closed late object route
 
 `DF/MIN/10/3/36` includes a **list of thin sections sent to Prof. H. N. S. Maskelyne by Clifton Ward in 1876**, from the Lake District and Wales. The catalogue gives an accession-number span `85498–86211`.
 
@@ -193,9 +252,9 @@ Clifton Ward geological material/thin sections
  -> contemporaneous Davies daily-duty diary exists for 1876
 ```
 
-This is an excellent object↔diary crosswalk target because the diary chronology now actually overlaps the event.
+This is an excellent object↔diary crosswalk target because the diary chronology actually overlaps the event.
 
-## 8. Story-Maskelyne donation: the word `slides` must be resolved materially
+## 10. Story-Maskelyne donation: the word `slides` must be resolved materially
 
 NHM `DF/MIN/20/1/4` describes the Story-Maskelyne papers and states that letters relating to the 1951 donation of **papers, minerals, laboratory equipment and slides** were filed under legacy reference `DF1/55`.
 
@@ -210,7 +269,7 @@ Highest-value fields if an inventory survives:
 
 `slide/object number | material | locality | date | preparer | label wording | dimensions | mounting medium | cabinet/box | donor wording | current custody`.
 
-## 9. WMC source closure still needed
+## 11. WMC source closure still needed
 
 The crucial WMC archival target remains `LMA/4535`.
 
@@ -224,7 +283,7 @@ For Davies:
 
 The ideal closure is not `prove Maskelyne taught Davies microscopy at WMC`. The ideal closure is to reconstruct exactly **which competencies were acquired where**.
 
-## 10. Current object-level model
+## 12. Current object-level model
 
 The best-supported sequence is now:
 
@@ -254,7 +313,7 @@ The best-supported sequence is now:
 
 This is not yet a single surviving-slide genealogy. It is, however, a tightly bounded archival programme in which each remaining bridge has an identifiable record series.
 
-## 11. Evidence discipline
+## 13. Evidence discipline
 
 Current secure claims:
 
@@ -262,13 +321,16 @@ Current secure claims:
 - Maskelyne trained him in microscopic recognition of minerals in meteorite/rock thin sections at the British Museum.
 - Davies was already making meteorite lists in 1860–62.
 - a specialized microscope was in use by 1861 for meteorite thin-section work.
+- `DF/MIN/5/56–61` are annual Trustee-authorisation bundles covering 1858–63 and are appropriate early administrative targets, but their individual contents have not yet been inspected.
 - Maskelyne was on WMC Council in 1866 and was later remembered as frequently lecturing there.
 - Davies official diaries begin only in 1875 in the currently identified series.
 - a 1876 list records Clifton Ward thin sections sent to Maskelyne.
 - the 1951 Story-Maskelyne donation documentation explicitly includes `slides` among transferred categories.
 
-Current non-claims:
+Current exclusions/non-claims:
 
+- `DF/MIN/21` supplies surviving 1861 preparation invoices — **false; excluded**.
+- `DF/MIN/16` supplies surviving 1861 annual reports — **false; series begins 1900**.
 - Maskelyne taught Davies microscopy at WMC.
 - Davies took Cooke's microscopy/botany class.
 - WMC owned or supplied the meteorite thin sections.
