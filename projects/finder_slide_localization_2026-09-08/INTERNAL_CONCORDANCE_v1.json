@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0.0-finder-relocation-internal-concordance",
+  "generated": "2026-09-08",
+  "status": "INTERNAL_REPOSITORY_DIGEST__NO_NEW_EXTERNAL_EVIDENCE",
+  "project": "finder_slide_localization_2026-09-08",
+  "research_question": "How was a microscopic field converted into an address that could be revisited across time, operators, instruments, drawings, and circulation?",
+  "scope_guard": "This concordance extracts and differentiates mechanisms already controlled in the repository. It does not reopen the frozen microscope-slide survey or promote generic address systems into finder evidence.",
+  "mechanism_levels": [
+    {
+      "level": 1,
+      "name": "collection_or_cabinet_address",
+      "definition": "Locates one slide among other slides.",
+      "finder_equivalence": "context only",
+      "examples": ["Cole cabinet slots", "Oxford RMS cabinet/database", "Cajal cabinet/tray and later archival addresses"]
+    },
+    {
+      "level": 2,
+      "name": "slide_or_series_address",
+      "definition": "Identifies a preparation, numbered product, publication issue, or sample.",
+      "finder_equivalence": "context only",
+      "examples": ["Cole issue/preparation number", "Grunow sample number", "Elcock Type Slide number", "La Plata numbered reference series"]
+    },
+    {
+      "level": 3,
+      "name": "within_slide_spatial_index",
+      "definition": "Locates one mounted specimen or named unit among several positions on one slide.",
+      "finder_equivalence": "close comparator",
+      "examples": ["Elcock numbered specimen matrix"]
+    },
+    {
+      "level": 4,
+      "name": "microscope_field_or_object_relocation",
+      "definition": "Provides a reproducible reference for returning to a particular microscopic field or object.",
+      "finder_equivalence": "strict working category",
+      "examples": ["Grunow paired slide/stage coordinates"]
+    }
+  ],
+  "controlled_cases": [
+    {
+      "case": "Albert Grunow / NHM Wien",
+      "authority": [
+        "data/analysis/grunow_vienna_sample_level_closure_v2.json",
+        "docs/GRUNOW_SAMPLE_LEVEL_CLOSURE_2026-08-11.md"
+      ],
+      "evidence_grade": "S",
+      "mechanism_level": 4,
+      "reference_frame": "slide aligned to a microscope/stage scale; older preparations could carry pasted scales",
+      "address_form": "preparation variant plus paired numerical coordinate",
+      "resolution": "individual valve",
+      "cross_media": ["sample catalogue", "glass preparation", "microscope coordinate", "drawing", "optical annotation"],
+      "closed_examples": [
+        {
+          "sample": "1363b",
+          "coordinate": "12.9/32.9",
+          "function": "recover the exact Mastogloia Braunii valve represented by a drawing"
+        },
+        {
+          "sample": "3073b",
+          "coordinates": ["18/45.8", "13.8/42.1", "8.3/44.3"],
+          "function": "recover named/diagnostic valves; circled coordinates mark valves already drawn"
+        }
+      ],
+      "technical_detail": "Later preparations were localised by aligning the upper-left slide corner to a millimetre scale whose zero coincided with microscope focus.",
+      "historical_payoff": "The catalogue operates as a microscope map and work-status register; a microscopic object becomes revisitable rather than merely observed once.",
+      "guard": "The three representative Grunow samples prove different parts of the cross-media system and must not be silently merged into one universal sample architecture."
+    },
+    {
+      "case": "Charles Elcock Type Slides / Whipple",
+      "authority": [
+        "data/analysis/elcock_type_slides_s_grade_closure_v1.json",
+        "data/analysis/retrievability_cross_media_infrastructure_v1.json"
+      ],
+      "evidence_grade": "S at series/product architecture",
+      "mechanism_level": 3,
+      "reference_frame": "numbered grid/matrix on the preparation",
+      "address_form": "printed grid number plus species name",
+      "resolution": "mounted specimen position within a multi-specimen slide",
+      "cross_media": ["grid number", "species label", "Type Slide number", "advertised product", "workshop drawer address"],
+      "historical_payoff": "Classification becomes a spatial retrieval interface inside a standardized commercial preparation.",
+      "guard": "This does not yet demonstrate arbitrary microscope-stage relocation of an otherwise unmarked microscopic object and should not be labelled a strict finder."
+    },
+    {
+      "case": "Henry J. Grayson test rulings / Melbourne",
+      "authority": ["data/analysis/grayson_melbourne_test_ruling_object_archive_upgrade_v1.json"],
+      "evidence_grade": "S for surviving test plates and scales",
+      "mechanism_level": 3,
+      "reference_frame": "ruled and labelled bands on glass",
+      "address_form": "band number / lines-per-inch value",
+      "resolution": "calibrated optical test region",
+      "cross_media": ["ruled glass", "line-density inscription", "wrapper/custody inscription", "museum identifier"],
+      "historical_payoff": "A glass surface can carry a calibrated spatial reference whose location and numerical value make optical testing repeatable.",
+      "guard": "A calibrated test ruling is a comparator for spatial calibration, not itself evidence of a field-finder mechanism."
+    },
+    {
+      "case": "Repository-wide addressability synthesis",
+      "authority": [
+        "data/analysis/address_systems_argument_matrix_v1.json",
+        "data/analysis/slide_archive_addressing_systems_v1.json",
+        "data/analysis/retrievability_cross_media_infrastructure_v1.json",
+        "data/analysis/GRAND_SYNTHESIS_2026-08-14_v1.json",
+        "docs/UK_US_RETURN_TO_CORE_2026-08-10.md"
+      ],
+      "evidence_grade": "synthesis of closed chains; UK/US return note is superseded historical snapshot",
+      "mechanism_level": "1-4",
+      "historical_payoff": "The repository already establishes addressability and retrievability as central mechanisms and explicitly includes microscope coordinates; the superseded UK/US note also names finder coordinates.",
+      "guard": "These synthesis files do not close a named finder-device genealogy and must not be used as substitutes for source-level technical evidence."
+    }
+  ],
+  "working_taxonomy": {
+    "reference_frame": [
+      "instrument_or_stage_bound",
+      "slide_edge_or_slide_bound",
+      "surface_grid_or_scale",
+      "embedded_named_specimen_matrix"
+    ],
+    "portability": [
+      "same_instrument_only",
+      "same_stage_geometry",
+      "travels_with_slide",
+      "cross_instrument_readable"
+    ],
+    "address_resolution": ["slide", "region", "field", "individual_object"],
+    "address_representation": ["paired_coordinate", "ruled_scale", "grid_cell", "printed_number", "graphical_mark", "drawing_cross_reference"],
+    "operations": ["relocate", "compare", "draw", "classify", "test_optics", "teach"],
+    "failure_modes": [
+      "reference_frame_lost",
+      "orientation_changed",
+      "slide_remounted_or_reformatted",
+      "instrument_or_stage_changed",
+      "key_or_catalogue_detached",
+      "coordinate_convention_undocumented"
+    ]
+  },
+  "default_branch_term_check": {
+    "finder": "present in a superseded synthesis note as 'finder coordinates'",
+    "Maltwood": "no indexed default-branch match found in the internal check",
+    "indicator": "no indexed default-branch match found in the internal check",
+    "Tyrrell": "no indexed default-branch match found in the internal check",
+    "Amyot": "no indexed default-branch match found in the internal check",
+    "Okeden": "no indexed default-branch match found in the internal check",
+    "qualification": "Search-result absence is a routing observation, not historical evidence of absence."
+  },
+  "bounded_gaps_before_external_pass": [
+    "named finder/indicator/locator device genealogy",
+    "historical vocabulary and synonym map",
+    "instrument-bound versus slide-bound reference frames",
+    "cross-instrument portability and reproducibility",
+    "chronology linking stage coordinates, slide-borne scales/grids and portable finder systems",
+    "maker/trade/patent/society/instructional circulation",
+    "source-level relation to standardized slide geometry",
+    "failure, calibration and orientation procedures"
+  ],
+  "next_internal_action": "Check the historical corpus, bibliography chunks and source registry for locating vocabulary and mechanisms before any new external discovery. Build a source-level concordance of every internal hit and then open only the unresolved bounded gaps."
+}
