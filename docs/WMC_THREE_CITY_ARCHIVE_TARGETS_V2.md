@@ -77,23 +77,47 @@ Catalogue:
 
 ### A2. Natural History Museum Archives — Thomas Davies
 
-Primary set: `DF/MIN/20/2`.
+The early apprenticeship problem should now begin with the **dated meteorite series**, not with a blanket order of Davies's later official diaries.
 
-Request:
-- `/1–12` daily-duty diaries;
-- `/13` chemical/mineralogical data + incoming collections;
-- `/14` minerals removed to laboratory;
-- `/15` address book;
-- `/16` desiderata;
-- `/17` specific gravities.
+#### A2.1 — first NHM gate: early meteorite documentation
 
-Meteorite set:
-- `DF/MIN/10/1/5` — known meteorites;
-- `/6` — British Museum meteorites, 1860–62;
-- `/7` — meteorites from India / related exchange material;
-- `/8` — Allan collection and purchases from named collectors/dealers.
+Highest priority:
 
-Search operations, not just nouns:
+1. `DF/MIN/10/1/6` — **List of meteorites in the British Museum by Thomas Davies**, dated **1860–62**.
+   - inspect handwriting/authorship structure;
+   - identify object numbers/localities and revisions;
+   - note whether entries register sectioning, examination, transfer, preparation or return.
+2. `DF/MIN/10/1/7` — **List of meteorites from India in the British Museum by Thomas Davies**, with papers relating to exchanges with Calcutta, Madras, Vienna, Göttingen and elsewhere, dated **1860–69**.
+   - separate Davies's list from adjacent exchange papers by author;
+   - identify named meteorites and transaction dates;
+   - look for section/fragment transfer, return, duplicate, exchange, or analytical use.
+
+These files overlap directly with the early microscopy chronology. Fletcher's 1908 Museum guide says that, while Maskelyne was working with Davies as his single assistant, the Department resorted to microscopy because it lacked a chemical laboratory; **as early as 1861** a microscope with revolving graduated stage and eye-piece goniometer was constructed under the Keeper's direction for examination of thin meteorite sections in polarised light. Fletcher's 1893 Davies obituary independently states that during these early Museum years Maskelyne initiated Davies into the microscopic characters of rock-forming minerals.
+
+Detailed control: `docs/WMC_DAVIES_BM_METEORITE_MICROSCOPY_1860S_CONTROL_2026-09-08.md`.
+
+#### A2.2 — second gate only if an early microscopy/handling question remains
+
+`DF/MIN/4/61` — draft progress reports, memoranda and official letters relating to minerals, dated **1861**, including Story-Maskelyne material on the observation and collection of aerolites.
+
+Use this only for a specific unresolved instrument/section/specimen transaction created by `/10/1/6` or `/10/1/7`. The catalogue description alone does not mention Davies or thin-section handling.
+
+#### A2.3 — Davies papers `DF/MIN/20/2`: selective, not blanket
+
+The series contains:
+
+- `/1–12` — official diaries recording daily duties;
+- `/13` — chemical/mineralogical data + incoming collections;
+- `/14` — minerals removed to laboratory for analysis;
+- `/15` — address book;
+- `/16` — desiderata;
+- `/17` — specific gravities.
+
+Public indexing currently exposes `/20/2/3` as **Apr 1878–Oct 1880**. It does not reliably expose the date ranges of the other eleven diary files, and direct child-record retrieval fails for most of them. **Do not infer their dates from file numbering.**
+
+Therefore do not order `/1–12` as a set. Open a diary only when its catalogue date can be verified and overlaps a named object/practice question. `/13` or `/14` may become useful for later analytical labour, but neither should displace the already dated 1860s meteorite files for the early apprenticeship problem.
+
+Search operations when a relevant file is opened:
 `cut`, `section`, `slice`, `thin`, `ground`, `polish`, `mount`, `glass`, `cement`, `balsam`, `microscope`, `polarized`, `stage`, `goniometer`, `label`, `catalogue`, `exchange`, `parcel`, `received`, `returned`, `prepared`.
 
 Goal:
