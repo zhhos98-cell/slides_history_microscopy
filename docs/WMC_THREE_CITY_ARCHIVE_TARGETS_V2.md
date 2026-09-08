@@ -16,7 +16,7 @@ The first request should be one-person and fail-closed:
 
 > Do the Working Men's College student lists/registers for 1854–1873 (`LMA/4535`) contain **Thomas Davies (1837–1892), of the British Museum Department of Mineralogy / Mineral Department**?
 
-Identity guard if needed: born 29 Dec. 1837; son of William Davies of the British Museum Geological Department; third-class attendant from 1858; later Transcriber / Junior Assistant from 1869; associated with N. S. Maskelyne.
+Identity guard if needed: born 29 Dec. 1837; son of William Davies of the British Museum Geological Department; third-class attendant from 1858; later Transcriber / Junior Assistant, with the exact promotion year currently source-conflicted (**1862/1869**); First Class Assistant from 1880; associated with N. S. Maskelyne.
 
 If **YES**, request only:
 
@@ -98,6 +98,8 @@ Search operations, not just nouns:
 
 Goal:
 `dated meteorite/object -> Davies labour -> thin-section/microscope observation -> catalogue/list/exchange outcome`.
+
+Personnel chronology control: NHM person record `PX1373` gives Transcriber / Junior Assistant appointment as **25 Aug 1862**, while Fletcher's *Mineralogical Magazine* obituary gives **1869**. Preserve this as a `DATE_CONFLICT`; do not use either date as an uncontested WMC-overlap anchor until an administrative staff/Trustee record closes it.
 
 ### A3. Quekett Microscopical Club / NHM-held archive
 
@@ -282,6 +284,8 @@ Goal:
 Always separate:
 - `DAVIES_BM_1837_1892` — Maskelyne, meteorites, WMC;
 - `DAVIES_WARRINGTON_c1831_1876` — Manchester microscopy, mounting manual.
+
+For `DAVIES_BM_1837_1892`, do not use the Transcriber / Junior Assistant promotion year as an identity discriminator until the **1862/1869** source conflict is administratively resolved.
 
 Any archive order or database row using bare `Thomas Davies` must include disambiguating locality/institution.
 
