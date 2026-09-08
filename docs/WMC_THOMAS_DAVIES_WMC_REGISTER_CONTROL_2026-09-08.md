@@ -2,7 +2,7 @@
 
 **Date:** 2026-09-08  
 **Branch:** `research/working-mens-microscopy-19c`  
-**Status:** WMC attendance secure at obituary level; exact enrolment years/classes remain open; archive route reduced to one-person register check.
+**Status:** WMC attendance secure at obituary level; exact enrolment years/classes remain open; archive route reduced to one-person register check; Transcriber / Junior Assistant promotion date now explicitly source-conflicted (1862/1869).
 
 ## Question
 
@@ -24,7 +24,7 @@ The archival task is therefore not to prove that WMC taught Davies microscopy. I
 
 ## 1. Secure biographical baseline
 
-L. Fletcher's obituary of Thomas Davies in *Mineralogical Magazine* 10 (1893), 161–164, gives the current near-primary chronology.
+L. Fletcher's obituary of Thomas Davies in *Mineralogical Magazine* 10 (1893), 161–164, gives the current near-primary biographical sequence.
 
 It states that Davies:
 
@@ -36,15 +36,43 @@ It states that Davies:
 - became highly skilled in microscopic determination of minerals in rock sections;
 - attended evening classes at the Working Men's College, Great Ormond Street, in order to improve his general education;
 - in the course of time acquired knowledge of French and German;
-- was promoted in 1869 from attendant to Transcriber / Junior Assistant.
+- says that his qualifications were officially recognized in **1869** by promotion from attendant to Transcriber / Junior Assistant;
+- records promotion to First Class Assistant in 1880.
 
 Source: `https://rruff.info/doclib/MinMag/Volume_10/10-46-161.pdf`, especially pp. 161–162.
 
-**Evidence level:** `A_NEAR_PRIMARY_BIOGRAPHICAL`.
+**Evidence level:** `A_NEAR_PRIMARY_BIOGRAPHICAL` for the biographical sequence; the 1869 promotion date is now a `DATE_CONFLICT`, not a single controlled chronology anchor.
+
+### Promotion-date conflict: 1862 vs 1869
+
+A bounded chronology check produced a direct conflict that must be preserved.
+
+- Fletcher's *Mineralogical Magazine* obituary explicitly says that Davies's promotion from attendant to Transcriber / Junior Assistant occurred in **1869**.
+- A contemporary obituary in *Geological Magazine* (1893), p. 96, says instead: **“In 1862 he was promoted to the rank of Transcriber.”**
+- The current Natural History Museum Archives person record `PX1373` gives the most specific administrative formulation: appointed third-class attendant **20 Feb 1858**; Transcriber or Junior Assistant (2nd Class Assistant) **25 Aug 1862**; 1st Class Assistant **10 Jul 1880**.
+- Another contemporary obituary in *Natural Science* (1893) also gives **1862**, but may not represent an independent administrative source and is used only as corroborating printed reception, not as separate archival proof.
+
+Sources:
+
+- Fletcher, *Mineralogical Magazine* 10 (1893), 161–164: `https://rruff.info/doclib/MinMag/Volume_10/10-46-161.pdf`.
+- *Geological Magazine* obituary, 1893, p. 96: `https://upload.wikimedia.org/wikipedia/commons/7/71/Geological_magazine_%28IA_geologicalmagazi3101893wood%29.pdf`.
+- Natural History Museum Archives person record `PX1373`: `https://www.nhm.ac.uk/CalmView/Record.aspx?id=PX1373&src=CalmView.Persons`.
+
+Controlled chronology:
+
+```text
+1858 third-class attendant = SECURE
+Transcriber / Junior Assistant promotion = DATE_CONFLICT (1862 vs 1869)
+1880 First Class Assistant = SECURE
+```
+
+Do **not** silently normalize the conflict to 1862 merely because the NHM catalogue supplies an exact day, and do **not** retain 1869 as an uncontested benchmark merely because Fletcher is the main obituary witness for the microscopy/WMC sequence. The personnel chronology should be closed, if it becomes analytically necessary, from a staff register, Trustee appointment minute, pay list, or equivalent administrative record.
+
+For the present WMC register gate, the promotion dispute is not identity-critical. Use the uncontested identifiers (1837 birth, British Museum Mineralogy, appointment in 1858, Maskelyne relation, First Class Assistant by 1880) and interpret any WMC date without forcing it against a disputed 1862/1869 promotion point.
 
 ### Claim ceiling
 
-The obituary does **not** say:
+The Fletcher obituary does **not** say:
 
 - what year Davies first enrolled at WMC;
 - how many years he attended;
@@ -107,7 +135,8 @@ Disambiguation fields if needed:
 - born 29 December 1837;
 - son of William Davies of the British Museum Geological Department;
 - third-class attendant at the British Museum from 1858;
-- later Transcriber / Junior Assistant from 1869;
+- later Transcriber / Junior Assistant, with the exact promotion year currently source-conflicted (1862/1869);
+- First Class Assistant from 1880;
 - associated with N. S. Maskelyne.
 
 If the answer is **YES**, request only:
@@ -140,9 +169,10 @@ This closes a dated WMC enrolment anchor. Compare the first/last register appear
 
 - 1858 British Museum appointment;
 - early Maskelyne microscopic apprenticeship;
-- 1869 promotion.
+- the unresolved 1862/1869 Transcriber / Junior Assistant promotion chronology;
+- 1880 First Class Assistant promotion.
 
-A dated overlap would materially strengthen the **parallel/composite training** model.
+A dated overlap would materially strengthen the **parallel/composite training** model, but the WMC date must not be used to adjudicate the 1862/1869 Museum personnel conflict without direct administrative evidence.
 
 ### Gate 1 NO
 
