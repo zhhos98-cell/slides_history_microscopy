@@ -1,7 +1,7 @@
 # *Science-Gossip* — epistemic thresholds, serial revision, and stabilization
 
 Updated: 2026-09-10
-Status: ANALYTICAL_PASS__PRIMARY_EXAMPLES_STRONG__LONGITUDINAL_EXTENSION_BOUNDED
+Status: ANALYTICAL_PASS__PRIMARY_EXAMPLES_STRONG__WEB_FALSIFICATION_TESTS_ADDED__LONGITUDINAL_EXTENSION_BOUNDED
 Scope: knowledge-level analysis built from publicly readable web/transcription sources. This file complements, rather than replaces, the operational controls on editorial queue, specimen dispatch, serial timing, and WMC institutional periodical use.
 
 ## 1. Problem
@@ -56,6 +56,23 @@ Historical operation: an image was not treated as self-sufficient. Magnification
 
 This connects closely to the slide-history problem. A microscopical preparation and its printed image acquire different but complementary addresses: object/preparation on one side; stated magnification and caption/nomenclature on the printed side.
 
+### Web-only falsification test: the rule formalized an existing practice and was actually used
+
+The 1866 standing instruction did not invent magnification notation from nothing. In February 1865, before the rule was made explicit as a submission requirement, Cooke's `Simple Objects.—No. I`, `Star-spored Fungus`, already states `Our figure is magnified 420 diameters` while giving a glass-slide mounting procedure.
+
+Public text:
+https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/51
+
+After the rule became explicit, published microscopical figures continued to carry scale information. In April 1866 `Simple Objects.—No. XII`, the Actinophrys figures A/B are labelled 100 diameters and C/D 248 diameters; diatom figures on the same page are marked ×400. In July 1867 a diatom article labels different figures ×100, ×400 and ×500 and separately warns that drawn striae are not intended to reproduce the described spacing exactly.
+
+Public indexed scans:
+- *Science-Gossip* 2 (April 1866), p. 87.
+- *Science-Gossip* 3 (July 1867), p. 158.
+
+Result: the instruction is best read as the explicit codification and extension of an existing representational practice. It turned something already done in editorially prepared figures into a stated condition for incoming microscopical drawings.
+
+Evidence ceiling: this sample shows implementation, not universal compliance. Do not claim every microscopical figure after 1866 carried a numerical magnification without a larger figure census.
+
 ## 6. Editorial correction makes previous print re-openable
 
 The serial repeatedly corrects earlier printed answers rather than allowing the page to stand as immutable.
@@ -107,6 +124,18 @@ Historical operation: serial accumulation does not necessarily culminate in cons
 
 The useful unit is therefore the changing evidentiary status of the claim across issues, not simply the number of contributors who mentioned it.
 
+### Web-only falsification test: the editor could preserve conflict rather than adjudicate it
+
+A smaller 1865 sequence makes the same point without relying on Darwin. On 1 September W. Bowen Davies reports repeated observation of earthworms drawing withered leaves, twigs and grass into their holes. He explicitly sets this observation against a statement attributed to Lankester in the preceding issue that worms live on/enter upon earth and asks what the leaves are then doing underground. On 1 October H. Watney replies that Davies is right in his idea: worms eat some softer decaying vegetable matter at the surface and draw the remaining woody fibres below.
+
+Primary public pages:
+- 1 September 1865, `Worms' Diet`: https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/230
+- 1 October 1865, `Worms`: public indexed scan, printed p. 239.
+
+Result: the periodical can place an earlier authority claim, a correspondent's repeated observation, and a subsequent supporting interpretation into successive issues without editorially collapsing them into one final verdict. The serial unit preserves disagreement long enough for additional observation to alter the problem.
+
+Evidence ceiling: the exact wording and context of the preceding Lankester statement still needs direct control before reconstructing his position beyond Davies's attribution.
+
 ## 10. A periodical observation could become a portable citation unit
 
 Darwin's `On the Movements and Habits of Climbing Plants` cites R. Holland, *Hardwicke's Science-Gossip* (1865), p. 105, for the observation that a cucumber fruit had produced a long curled tendril from one of its short prickles.
@@ -117,6 +146,20 @@ https://darwin-online.org.uk/converted/published/1865_plants_F1733.html
 Historical operation: the periodical observation had acquired enough bibliographic address—named observer, periodical title, year, page—to be inserted as a discrete evidentiary item inside a different argument.
 
 This should not be reduced to prestige moving from an amateur periodical into an elite text. The concrete change is citability: a local observation becomes referable at a stable printed address.
+
+### Web-only falsification test: what Darwin's citation removed
+
+The original page is now directly controlled. Holland's observation occurs in Robert Holland, `On Some Imperfectly Developed Flowers`, *Science-Gossip* 1 (1 May 1865), pp. 103–105. Holland opens by arguing that imperfect botanical specimens can tell the physiologist facts about plant life and growth that a perfect flower would not; he says he has taken notes and usually drawings of such forms. After a sequence of abnormal flowers, p. 105 gives the cucumber case that Darwin later quotes. Holland then turns back to beginners, asking them to watch for imperfect as well as perfect specimens and to keep careful notes because such observations may clarify poorly understood physiology.
+
+Primary indexed text:
+- p. 103 article opening and byline: public *Science-Gossip* vol. 1 scan.
+- p. 105 cucumber and closing paragraph: public *Science-Gossip* vol. 1 scan.
+
+Darwin reproduces the cucumber sentence essentially verbatim and gives Holland, periodical, year and page, but he does not carry over Holland's surrounding beginner-facing programme of collecting anomalous specimens, drawing them, or keeping observational notes. Darwin inserts the case into his own morphological argument about the relation of Cucurbitaceous tendrils to modified floral organs.
+
+Result: `citability` involves both preservation and stripping. The bibliographic address preserves a witness and a discrete observation; reuse can detach that observation from the original article's pedagogical and collection programme while retaining the anomaly as evidence.
+
+Do not describe this as distortion: Darwin's use is narrower than Holland's article, not demonstrably contrary to it.
 
 ## 11. Repeated periodical questions could later be stabilized as handbook knowledge
 
@@ -155,6 +198,12 @@ For *Science-Gossip*, the controlled material supports a first-order sequence of
 
 Each arrow is supported by a different documentary action. Do not compress these into `the journal produced knowledge` without showing the relevant scene.
 
+The web-only tests add three transformations that should remain analytically distinct:
+
+- **practice → rule**: numerical magnification already appears in 1865 figures; the 1866 standing instruction turns it into an explicit requirement for submitted microscopical drawings;
+- **claim → serial problem**: a statement about earthworm diet is confronted by repeated observation and then answered in a later issue without the editor closing the dispute in one act;
+- **article observation → detachable citation**: Holland's cucumber anomaly moves into Darwin's argument almost verbatim while the original pedagogical programme around imperfect specimens and note-taking drops away.
+
 ## 14. Relation to WMC Magazine
 
 The currently public evidence gives *Working Men's College Magazine* a different secure function. The 1861 *Atlantic Monthly* observer says he bought the year's volume and used it to `read up` on the practical working of the College before joining classes.
@@ -168,17 +217,22 @@ This is institutional orientation rather than the evidentiary testing seen in *S
 
 The most useful formulation at present is:
 
-`Science-Gossip did not simply carry observations into print. Its recurring editorial forms specified which uncertainties deserved collective attention, when description was insufficient without a specimen, when an experiment was complete enough to publish, how a microscopical image had to state its scale, how earlier answers could be corrected, and how repeated practical questions could later be reorganized into handbook knowledge.`
+`Science-Gossip did not simply carry observations into print. Its recurring editorial forms specified which uncertainties deserved collective attention, when description was insufficient without a specimen, when an experiment was complete enough to publish, how a microscopical image had to state its scale, how earlier answers could be corrected, and how repeated practical questions could later be reorganized into handbook knowledge. Serial publication also allowed a claim to remain open across issues, while a stable bibliographic address made individual observations detachable and reusable in arguments whose purposes differed from the original article.`
 
 Keep this attached to the 1865–76 evidence. Do not universalize it to Victorian scientific periodicals as a class.
 
 ## 16. Web-only next tests
 
-1. Find more paired cases in which a query in one issue receives competing answers in later issues; record whether the editor closes, leaves open, or corrects the question.
-2. Trace at least three microscopical drawings across 1865–67 to see whether magnification notation is actually enforced in printed figures after the 1866 instruction.
-3. Find additional cases in which identification is refused without a specimen, and compare what metadata or anatomical detail makes later identifications acceptable.
-4. Trace R. Holland's cucumber observation back to *Science-Gossip* p. 105 and compare the original wording with Darwin's citation to see what was retained or stripped away.
-5. Use BHL/Wikisource web text to identify the original *Science-Gossip* essays later collected in Taylor's 1876 handbook, testing which kinds of serial material were selected for stabilization and which remained ephemeral correspondence.
-6. Sample the Carrington-era identification rules at several dates before treating numbered specimens + locality/date/capture metadata as a stable late-century editorial regime.
+Completed in this pass:
+- Holland p. 105 citation context checked against Darwin.
+- several printed microscopical figures checked against the 1866 magnification instruction.
+- an additional cross-issue dispute sequence identified in `Worms' Diet` / `Worms`.
+
+Next:
+1. Recover the exact Lankester item immediately preceding Davies's `Worms' Diet` query to distinguish Davies's paraphrase from Lankester's actual wording.
+2. Find one case where a disputed identification is settled only after a physical specimen is sent, not merely a case where the editor requests the specimen.
+3. Trace at least one `Simple Objects` item from periodical article + specimen dispatch into a later handbook/manual, testing whether the physical-distribution component survives or disappears when the text stabilizes.
+4. Sample Carrington-era identification rules at several dates before treating numbered specimens + locality/date/capture metadata as a stable late-century editorial regime.
+5. Compare one periodical observation that Darwin quotes nearly verbatim (Holland) with one that he substantially rewrites, to see whether bibliographic citability has a consistent relation to textual preservation.
 
 Stop rule: no broad `citizen science`, communication-network, or diffusion narrative. Continue only where exact periodical operations change the evidentiary status, comparability, revisability, citability, or stabilization of a natural-history claim or object.
