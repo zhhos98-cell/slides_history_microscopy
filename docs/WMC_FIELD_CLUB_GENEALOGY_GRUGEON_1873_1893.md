@@ -2,259 +2,320 @@
 
 **Date:** 2026-09-09  
 **Branch:** `research/working-mens-microscopy-19c`  
-**Status:** state-changing genealogy control. Actor continuity is strong; institutional continuity and Lubbock Field Club founding date remain unresolved.
+**Status:** state-changing genealogy control. The 1904 WMC self-history now explicitly closes the 1873 club as terminated; actor/practice continuity remains strong, while direct institutional continuity into the later Lubbock Field Club is rejected by the College's own retrospective account. Exact Lubbock founding year remains 1892/1893 conflicted because of an internal date anomaly and later scholarly disagreement.
 
-## 1. Problem opened
+## 1. Governing correction
 
-Two modern scholarly reconstructions give different dates / formulations for the Lubbock Field Club:
+The earlier working model left open whether the **1873 Natural History Society and Field Club** might have become, been renamed as, or survived into the later **Lubbock Field Club**.
 
-### Sutcliffe
+Direct reading of R. H. Marks's chapter `The College Clubs` in *The Working Men's College, 1854–1904* changes that state.
 
-Marcella Pellegrino Sutcliffe describes a walking club **established in 1893** and named the **Lubbock Field Club**. She attributes its natural-science aims — excursions, discussion, microscopic observations, exhibition of specimens — to Working Men's College Archive / London Metropolitan Archives `4535/E/02/06/001`.
-
-### Ayres
-
-Peter Ayres, in *Shaping Ecology: The Life of Arthur Tansley*, says that **Alfred Grugeon retired from WMC teaching in 1892 and became President of the newly formed Lubbock Field Club**.
-
-The same passage states that WMC Sunday walks became more structured **from 1873, when a Natural History Social and Field Club was formed**.
+The 1904 WMC history explicitly says the 1873 club **came to an end** because its Tuesday room was required for a class and no other room was available.
 
 Therefore:
 
-`LUBBOCK_FOUNDING_DATE_CONFLICT = 1892 / 1893`
+`DIRECT_INSTITUTIONAL_CONTINUITY_1873_TO_LUBBOCK = REJECTED_BY_1904_WMC_ACCOUNT`
 
-and
+What remains strong is instead:
 
-`PREDECESSOR_RELATION_PENDING = 1873 Natural History Social and Field Club -> ? -> Lubbock Field Club`
+`PRACTICE_TRADITION_CONTINUITY = STRONG`
 
-Do not silently normalize either issue.
+`ACTOR_CONTINUITY_VIA_GRUGEON = STRONG`
+
+The correct model is not `one club changed its name`, but a recurring WMC tradition of natural-history walks, collecting, papers and field observation carried by overlapping actors across an institutional break.
 
 ---
 
-## 2. Alfred Grugeon as the strongest continuity-bearing actor
+## 2. Exact institutional title and formation in 1873
 
-Ayres reconstructs Grugeon's WMC career as:
+The 1904 history gives the heading and institutional title:
+
+> **Natural History Society and Field Club**
+
+This supersedes the looser modern wording `Natural History Social and Field Club` as the preferred controlled title.
+
+The chapter says arrangements made between April and July **1873** led to formation of the Society/Field Club. Past and present students and teachers were invited to unite in social and friendly scientific work, whether in the College Museum or on open-air rambles.
+
+The programme emphasized practical study of:
+
+- geology around London;
+- distribution, habits and structure of plants;
+- field-club work modeled on successful clubs in the West of England.
+
+Evidence state:
+
+`CLOSED_1904_INSTITUTIONAL_RETROSPECTIVE`
+
+This is not a surviving 1873 minute book, but it is a named College history written by members and gives detailed internal personnel and operational information.
+
+---
+
+## 3. Officers, membership and activity of the 1873 club
+
+The 1904 account names:
+
+- **W. H. Flower** — President;
+- **R. B. Litchfield** — Vice-President;
+- **Ebenezer Cooke** — Committee;
+- **Alfred Grugeon** — Committee;
+- **E. L. Fleming** — Curator;
+- **John Fotheringham** — Secretary/Treasurer in 1874;
+- **Ebenezer Cooke** — succeeded Fotheringham in 1875.
+
+The account reports:
+
+- **45 names** on the books;
+- weekly meetings;
+- papers by J. Slade, C. J. Savage, Alfred Grugeon, J. P. King and Ebenezer Cooke;
+- **three or four walks each month**;
+- frequent participation by members of the Working Women's College;
+- Miss S. Hill as a regular participant;
+- a summer conversazione with an extensive collection of grasses, formed/named principally by Alfred Grugeon;
+- autumn attempts to form a fungi collection.
+
+This materially upgrades the earlier Ayres summary.
+
+Normalized relations:
+
+`club -> weekly meeting -> scientific paper`
+
+`club -> recurring field walk -> geology / botanical observation`
+
+`Grugeon -> collecting / naming -> grass collection -> conversazione display`
+
+`field activity -> specimen collection -> College display / discussion`
+
+Codes:
+
+- `FIELD_EXCURSION`
+- `PAPER_MEETING`
+- `COLLECT_TO_COLLEGE`
+- `FIELD_TO_DISPLAY`
+- `SPECIMEN_COLLECTION`
+- `ACTOR_CONTINUITY`
+
+---
+
+## 4. Explicit termination of the 1873 club
+
+The 1904 account is unusually concrete about the club's end: its Tuesday room was needed for a class and no alternative room was available.
+
+This gives a rare infrastructural explanation for institutional discontinuity:
+
+`shared College room -> timetable/class pressure -> no replacement space -> club terminates`
+
+Code:
+
+`SPACE_CONSTRAINT_TO_TERMINATION`
+
+This should be preserved because it prevents a teleological genealogy from 1873 to the later Lubbock Club.
+
+It also makes physical College infrastructure part of associational history: a natural-history society can disappear for a room-allocation reason without the practices, participants or interests disappearing.
+
+---
+
+## 5. Early field-practice background before 1873
+
+The same 1904 chapter separately recalls College walks and geological/fossil activity in **1857–1862**.
+
+John Fotheringham's recollections include geological/fossil-hunting excursions. Jeremiah Slade recalls teaching general geology from autumn 1858, then geology/zoology, and developing the College Museum from donated rocks/fossils with authoritative naming assistance from friends at the British Museum.
+
+This gives an earlier practice layer:
+
+`1850s WMC walks + geology + museum/object culture`
+
+before
+
+`1873 formal Natural History Society and Field Club`.
+
+Do not infer uninterrupted formal club continuity from the 1850s into 1873; the continuity is at the level of practice and institutional culture.
+
+---
+
+## 6. Alfred Grugeon as continuity-bearing actor
+
+Modern scholarly reconstruction by Peter Ayres places Grugeon as:
 
 - WMC teacher, **1862–1869**;
 - returned to teaching, **1885–1892**;
-- retirement in **1892**;
-- on retirement became President of the `newly formed Lubbock Field Club`.
+- retired in **1892**;
+- became President of the `newly formed Lubbock Field Club` at/around retirement.
 
-Ayres identifies Grugeon as author of *Botany: Structural and Physiological* (1873) and an occasional contributor to *Geological Magazine*.
+The 1904 WMC history now directly strengthens Grugeon's earlier field-club role by naming him on the 1873 committee and among paper-givers, and by crediting him prominently in the formation/naming of the grass collection.
 
-A recollection quoted by Ayres emphasizes Grugeon's oral / practical botanical pedagogy: little use of textbooks or diagrams; explanation of vegetable life that reportedly generated strong enthusiasm for botany among pupils.
-
-### Evidence state
-
-`CLOSED_SECONDARY_ACTOR_SEQUENCE`
-
-The actor sequence is strong enough to use as a research control, but primary WMC staff / club records should still fix exact appointment and presidency dates.
-
----
-
-## 3. 1873 Natural History Social and Field Club
-
-Ayres states that the College had Sunday country walks from its earliest years but that they became more structured **from 1873 when a Natural History Social and Field Club was formed**.
-
-He further says:
-
-- there were three or four walks each month;
-- many botanical walks were led by Grugeon;
-- Grugeon was not then formally employed by the College;
-- he collected plants on the walks;
-- the collected plants were displayed after return to the College.
-
-This creates a highly relevant material-pedagogy chain:
-
-`WMC / natural-history club -> recurring field excursion -> Grugeon botanical collecting -> plant objects returned to College -> display / shared observation`
-
-Function / relation codes:
-
-- `FIELD_EXCURSION`
-- `COLLECT_TO_COLLEGE`
-- `FIELD_TO_DISPLAY`
-- `ACTOR_CONTINUITY`
-- `INFORMAL_TEACHER_NETWORK`
-
-### Important boundary
-
-Ayres's wording does **not by itself prove** that the 1873 Natural History Social and Field Club later changed its name into the Lubbock Field Club.
-
-Possible models that remain open:
-
-1. direct institutional continuity / renaming;
-2. dissolution and later revival;
-3. reconstitution using an older walking / natural-history tradition;
-4. two overlapping or distinct clubs;
-5. later retrospective compression of multiple club forms into one genealogy.
-
----
-
-## 4. 1892 / 1893 Lubbock Field Club conflict
-
-### Evidence for 1892
-
-Ayres: Grugeon retired in 1892 and then became president of the `newly formed Lubbock Field Club`.
-
-This wording could mean:
-
-- the Club was formed during 1892;
-- the presidency began at retirement while formal establishment / rules followed in 1893;
-- `newly formed` is approximate retrospective phrasing.
-
-Do not choose among these without primary evidence.
-
-### Evidence for 1893
-
-Sutcliffe: the walking club was `established in 1893` and named the Lubbock Field Club.
-
-Her detailed statement of the Club's objects is sourced to WMC Archive / LMA `4535/E/02/06/001`, but the currently available web text does **not disclose the archival item's exact date or document type**.
-
-Thus:
-
-`1893 = stronger archival-reference route, but not yet direct item inspection`
-
-`1892 = strong biographical reconstruction tied to Grugeon's retirement`
-
-Neither currently licenses a final founding date.
-
----
-
-## 5. Why the genealogy matters for the periodical-first RSVP project
-
-The existing branch had already established a nineteenth-century London chain around:
-
-`WMC botany / microscopy teaching -> Cooke / former-pupil networks -> Society of Amateur Botanists -> Quekett`
-
-Grugeon now supplies a potentially long WMC-internal natural-history line:
+Thus the strongest cross-period model is:
 
 ```text
-WMC botany teaching, 1860s
+WMC botanical/scientific teaching
         ↓
 Alfred Grugeon
         ↓
-1873 Natural History Social and Field Club / structured botanical walks
+1873 Natural History Society and Field Club
         ↓
-plants collected and returned to College for display
+walks + papers + collecting + named/displayed specimens
         ↓
-[INSTITUTIONAL RELATION UNRESOLVED]
+[1873 CLUB TERMINATES — room constraint]
         ↓
-1892/93 Lubbock Field Club
+WMC botanical-walk tradition continues/reappears
         ↓
-microscopic observations + specimen exhibitions
+1890s botanical walks under Grugeon recorded in College Journal(s)
         ↓
-1897–98 Science-Gossip external society directory
+new Lubbock Field Club with Grugeon as President
 ```
 
-This is **not yet a single closed genealogy**. It is a sequence of separately supported edges with one major institutional-continuity gap.
-
-The actor continuity through Grugeon is substantially stronger than the institutional-continuity evidence.
+The broken institutional edge is now part of the model, not a gap to be silently bridged.
 
 ---
 
-## 6. Periodical implications
+## 7. Lubbock Field Club formation: 1892 / 1893 remains conflicted
 
-Grugeon's own print profile increases the value of a periodical crosswalk:
+### Ayres
 
-- *Botany: Structural and Physiological* (1873);
-- occasional *Geological Magazine* contribution(s), according to Ayres;
-- possible WMC Magazine / Journal references;
-- potential Field Club notices or reports;
-- external *Science-Gossip* directory visibility of the later Lubbock Field Club.
+Ayres says Grugeon retired in **1892** and became President of the `newly formed Lubbock Field Club`.
 
-Immediate periodical question:
+### Sutcliffe
 
-> Did the 1873 Natural History Social and Field Club, Grugeon's botanical walks, or the 1892/93 Lubbock Field Club enter WMC serial print, and if so under what names and genres?
+Sutcliffe describes the Lubbock Field Club as established in **1893**, and gives WMC Archive / LMA `4535/E/02/06/001` for its natural-science aims.
 
-Search variants must include:
+### 1904 WMC self-history OCR
 
-- `Natural History Social and Field Club`;
-- `Natural History and Social Club`;
-- `Field Club`;
-- `Natural History Club`;
-- `Lubbock Field Club`;
-- `Grugeon`;
-- `botanical walk` / `botanical excursion`;
-- `Sunday walk` / `excursion`;
-- `specimens` / `plants` / `microscope` / `microscopic`.
+The directly recovered OCR text from `The College Clubs` says, in sequence:
 
-Do not search only the final Lubbock title, because an institutional rename/reconstitution would otherwise disappear from the serial record.
+- `In 1890 we have records in the College Journals of botanical walks ... Alfred Grugeon`;
+- `In March of the following year, 1892, the present Lubbock Field Club was formed, with Alfred Grugeon as President and A. E. Shurlock as Secretary.`
 
----
+This OCR is internally inconsistent: if the first printed year is truly 1890, `the following year` would be 1891, not 1892.
 
-## 7. 1904 WMC self-history as the primary retrospective target
+Possible states:
 
-*The Working Men's College, 1854–1904: Records of Its History and Its Work for Fifty Years by Members of the College* is now a high-priority source.
+1. OCR misreads the first year (perhaps 1891);
+2. OCR misreads the second year;
+3. the printed 1904 book itself contains a typographical inconsistency.
 
-Google Books metadata shows:
+Therefore:
 
-- chapter `THE COLLEGE CLUBS`, R. H. Marks, starting p.199;
-- `GEORGE TANSLEY`, C. P. Lucas, starting p.129;
-- `A FORMER PRINCIPAL'S IMPRESSIONS`, Lord Avebury, p.181;
-- `Alfred Grugeon` is among the book's indexed/common names.
+`LUBBOCK_FOUNDING_YEAR = LIKELY_1892_BUT_NOT_PAGE_IMAGE_CLOSED`
 
-This book is especially valuable because Ayres says `from the history of the College` in the immediate discussion identifying Grugeon and club activity.
+`CONFLICT = 1904_OCR_1892 + AYRES_1892 vs SUTCLIFFE_1893`
 
-### Direct-inspection requirement
-
-Current search results do not expose the relevant 1904 pages for Grugeon / field clubs. Therefore:
-
-`1904_HISTORY_TARGET = LOCATED_NOT_TEXT_CLOSED`
-
-Do not claim that R. H. Marks specifically supplies the 1873 or 1892 statement until the chapter itself is directly read.
+Do not final-normalize the date until the printed page image / physical copy is inspected.
 
 ---
 
-## 8. Relationship to the 1897–98 Science-Gossip evidence
+## 8. State-changing periodical result from the 1904 history
+
+The 1904 account says that **College Journal** pages record botanical walks under Grugeon in the immediate pre-Lubbock period.
+
+Even more importantly, after describing formation of the Lubbock Field Club, Marks says that reference to the pages of the Journal is sufficient to show the Club's activity since formation.
+
+Therefore the previous question:
+
+`Did the Lubbock Field Club enter WMC Journal print?`
+
+can now be upgraded to:
+
+`LUBBOCK_TO_WMC_JOURNAL_LOOP_EXISTENCE = CLOSED_1904_RETROSPECTIVE`
+
+What remains open is:
+
+- exact Journal volume/issue/page;
+- genre of entries (excursion notice, club report, specimen note, meeting report, etc.);
+- frequency and chronology;
+- whether microscopy/specimen exhibitions are individually reported.
+
+This is critical for the RSVP periodical project because it directly links a practical natural-history club to the College's own serial record.
+
+---
+
+## 9. Relationship to *Science-Gossip*, 1897–98
 
 Already page-closed elsewhere:
 
 *Science-Gossip*, new series vol.4 (1897–98), lists the **Lubbock Field Club** in connection with Working Men's College, Great Ormond Street.
 
-Later in the volume it supplies an actionable rhythm:
+Later in the volume it supplies:
 
 - excursions on second Sundays;
 - meetings on following Mondays at 8 p.m.;
-- specific excursion destinations.
+- named forthcoming excursion destinations.
 
-This proves the Lubbock identity was established and publicly operative by 1897–98.
+The late-Victorian three-source relation is therefore now stronger:
 
-It does not resolve the 1892/93 founding date or the 1873 predecessor relation.
+```text
+WMC practical club activity
+        ↓
+WMC Journal — recurring internal serial documentation (existence closed; entries pending)
+        ↓/↔
+Science-Gossip — external directory / schedule / access layer
+```
+
+Do not infer textual reprinting between WMCJ and *Science-Gossip* until a direct duplicate/relay is found.
 
 ---
 
-## 9. Current evidence ladder
+## 10. Corrected continuity model
 
-### Strong
+The current best controlled genealogy is:
 
-- Grugeon is a major WMC botany teacher across two teaching periods (secondary scholarly reconstruction).
-- a Natural History Social and Field Club is reported as formed in 1873 (Ayres).
-- Grugeon led many botanical walks; collected plants were brought back/displayed at College (Ayres).
-- Grugeon became president of a newly formed Lubbock Field Club at/around retirement in 1892 (Ayres).
-- Sutcliffe dates Lubbock Field Club establishment to 1893 and gives an exact WMC/LMA archive reference for its aims.
-- Lubbock Field Club is externally visible in *Science-Gossip* by 1897–98.
+```text
+1857–62: WMC geology / museum / country walks
+        ↓ practice tradition
+1873: Natural History Society and Field Club formally created
+        ↓ weekly meetings + 3–4 walks/month + papers + collections
+        X explicit institutional termination through room constraint
+        ↓ practice / actor tradition persists
+1890/91?: College Journal records botanical walks under Grugeon
+        ↓
+March 1892? / 1893 conflict: new Lubbock Field Club
+        ↓ Grugeon president
+WMC Journal documents activity since formation
+        ↓/↔
+1897–98 Science-Gossip gives external meeting/excursion access
+```
 
-### Unresolved
+This is historically more interesting than uninterrupted institutional continuity: **the practice survives institutional death and is later re-institutionalized.**
 
-- exact founding date: 1892 vs 1893;
-- whether the 1873 club survived continuously;
-- whether `Lubbock Field Club` is a rename, revival or new institution;
+That last sentence remains a working analytical formulation; exact mechanisms between termination and re-institutionalization still require evidence.
+
+---
+
+## 11. Current evidence states
+
+### Closed / strong
+
+- exact 1873 title: `Natural History Society and Field Club`;
+- formation in 1873;
+- named officers and committee;
+- 45 names on books;
+- weekly meetings;
+- papers and recurring walks;
+- Grugeon's committee/paper/collection role;
+- club terminated because of room pressure;
+- later Lubbock Field Club is described separately by 1904 author;
+- 1904 author explicitly points readers to WMC Journal pages for Lubbock Club activity;
+- external Lubbock visibility in *Science-Gossip* by 1897–98.
+
+### Still unresolved
+
+- exact Lubbock formation year: 1892 vs 1893;
+- exact printed reading behind the internally inconsistent 1904 OCR date;
 - exact date/document type of `LMA 4535/E/02/06/001`;
-- Grugeon's exact presidency start date from a primary source;
-- whether WMC Journal directly reports formation / renaming / excursions;
-- whether the 1904 College history explicitly joins the 1873 and 1890s bodies.
+- exact WMCJ entries for botanical walks and Lubbock activity;
+- mechanism by which the post-1873 practice tradition was carried into the new Lubbock institution;
+- overlap of membership between the 1873 club and Lubbock beyond Grugeon.
 
 ---
 
-## 10. Immediate closure queue
+## 12. Immediate closure queue
 
-1. read the 1904 WMC history, especially `The College Clubs` and Grugeon references;
-2. identify the exact catalogue title/date/type for `LMA 4535/E/02/06/001`;
-3. search WMCJ around **1892–1893** for both `Lubbock Field Club` and generic predecessor names;
-4. search contemporary London press / natural-history periodicals in 1892–93 for formation, officers, programme, rules;
-5. fix Grugeon's retirement/presidency chronology from WMC institutional print;
-6. test whether 1873 club names persist in later serials before Lubbock naming;
-7. crosswalk botanical-walk actors against later Lubbock membership and microscopic/specimen activity.
+1. inspect the printed/page-image form of the 1904 paragraph containing `1890 / following year / 1892`;
+2. extract the exact WMCJ entries for botanical walks and Lubbock Club activity;
+3. identify the exact catalogue title/date/type for `LMA 4535/E/02/06/001`;
+4. crosswalk surviving 1873 membership/officers against later Lubbock members;
+5. search 1891–93 WMCJ/local press for formation, officers, name choice and first programme;
+6. test whether `Lubbock` naming was connected to John Lubbock / College governance in a directly documented way rather than inferred from name alone;
+7. preserve the explicit 1873 termination in every later narrative.
 
 ## Stop rule
 
-Do not write `1873 Natural History Social and Field Club became the Lubbock Field Club` until a primary or clearly sourced institutional record closes that relation. Do not choose 1892 or 1893 as the founding year while the present conflict remains. The correct current result is **strong actor/practice continuity with unresolved organizational continuity**.
+Do not write `1873 Natural History Society and Field Club became the Lubbock Field Club`. The 1904 WMC account explicitly says the earlier club ended. Do not choose 1892/1893 while the founding-date conflict remains. Do not infer uninterrupted membership or organization from Grugeon's long participation. The strongest current result is **institutional discontinuity plus strong actor/practice recurrence and a later closed WMC Journal documentation loop**.
