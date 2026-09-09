@@ -1,6 +1,6 @@
 # Current direction
 
-Updated: 2026-08-31
+Updated: 2026-09-09
 
 This file governs the **nineteenth-century microscope-slide core**. It does not govern separately scoped projects under `projects/`; use `projects/README.md` and each project-local router for those.
 
@@ -39,6 +39,6 @@ The first-order claim now has enough empirical breadth: microscope preparations 
 
 ## Request-only residuals
 
-The remaining high-value edges are exact-source problems, not discovery problems: St Andrews Elcock letters; the current NHM Challenger binary; ZEISS dispatch/accessory evidence for Balfour objective engravings; the Norman item/export layer; selected Oxford and Hunterian catalogue-to-object checks; Naples dealer/account pages; Tokyo microscope-register pages; La Plata acquisition records; and the Bourgogne accession file. None is required before writing from the closed chains.
+The remaining high-value edges are exact-source problems, not discovery problems: St Andrews Elcock letters; the current NHM Challenger binary; ZEISS dispatch/accessory evidence for Balfour objective engravings; the Norman item/export layer; selected Oxford and Hunterian catalogue-to-object checks; Naples dealer/account pages; Tokyo microscope-register pages; La Plata acquisition records; the Bourgogne accession file; and the user-supplied WM College periodical issue(s) from Gale for the bounded Mordecai Cubitt Cooke / Ebenezer Cooke enquiry. The WMC source is routed through `data/analysis/wmc_cooke_gale_source_intake_2026-09-09.md` and is not yet evidence for a distinct mechanism. None is required before writing from the closed chains.
 
-Do not reopen broad searches for these targets. If one of the exact sources arrives, treat it as a bounded provenance/item-identity update and then return to synthesis.
+Do not reopen broad searches for these targets. If one of the exact sources arrives, treat it as a bounded provenance/item-identity or mechanism update and then return to synthesis.
