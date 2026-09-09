@@ -1,7 +1,7 @@
 # WMC / Cooke / Society of Amateur Botanists — genealogy and chronology control
 
 Updated: 2026-09-09
-Status: CONFLICT_CONTROL__PRIMARY_BRIDGES_STRONGER__FORMATION_AND_SOCIAL_ORIGIN_UNRESOLVED
+Status: CONFLICT_CONTROL__QUEKETT_FOUNDING_MINUTES_PRIMARY_SECURE__SOCIETY_ORIGIN_UNRESOLVED
 Scope: bounded continuation of the WMC exact-source intake. This note controls the WMC → Society of Amateur Botanists → Quekett line without converting overlapping personnel or later recollection into an unbroken institutional genealogy.
 
 ## 1. What is now secure or tightly bounded
@@ -34,11 +34,30 @@ Evidence ceiling: the report does not identify ownership of the instruments or m
 
 On 1 May 1865 W. Gibson published `Proposal to London Microscopists` in *Hardwicke's Science-Gossip*, proposing a low-cost association with regular meetings for mutual assistance and explicitly stating that it should operate `on the plan of the Society of Amateur Botanists`.
 
+Evidence level: PRIMARY / SECURE for Gibson's explicit model.
+
+### 14 June 1865 — Quekett inaugural Minute Book M1, archive-image secure
+
+A public reproduction in P. M. Greaves's guide to the Quekett archives shows the first page of Minute Book M1, dated `June 14 1865`, recording a meeting at `No 192 Piccadilly`. Greaves states that the Minute Books form a complete record and identifies this as the inaugural meeting.
+
+The manuscript page records Hardwicke, Cooke, Ruffle, Gibson, Ketteringham, Jaques, Highley, Godley, Hailes, Marks and Bywater among those present. Some surnames are difficult in the handwriting and Greaves's printed transcription varies slightly (`Kellingham`, `Halles`, `Masks`); preserve the manuscript/transcription discrepancy rather than silently normalizing uncertain spellings. Independent sources control several of the familiar names, but the archive-image reading remains primary authority for this page.
+
+Hardwicke proposed and Bywater seconded that M. C. Cooke take the chair; Bywater was then appointed secretary pro tem.
+
+Cooke's opening rationale is especially consequential. The minutes first acknowledge the usefulness and efficiency of the existing Microscopical Society of London, then describe a feeling among amateur microscopists that an association more specially adapted to their requirements was desirable. The proposed body was not to be antagonistic to the existing Society. It was to foster microscopical pursuits and act as a helper to the older body, becoming in Cooke's formulation a `nursery` for it; the proposed organization was also described in filial terms as its `offspring`.
+
+Evidence level: PRIMARY / ARCHIVE IMAGE SECURE for date, place, meeting structure and the substantive relation Cooke proposed between the new amateur organization and the existing Microscopical Society. The wording should be quoted conservatively from the image/transcription in finished prose.
+
+Historical consequence: this directly constrains any narrative of Quekett as a simple anti-establishment or anti-RMS break. At its first recorded administrative meeting, Cooke framed the new body as adapted to amateur requirements while remaining complementary to the older Society. The distinction is institutional function, not a declared antagonism.
+
+Evidence ceiling:
+- `amateur` in the minute does not by itself establish the social-class composition of the founders;
+- the shared address, 192 Piccadilly, is a first-order spatial fact and is also an address used by the Society of Amateur Botanists in *Science-Gossip*, but co-location alone does not prove institutional identity or a WMC genealogy;
+- these minutes establish the new organization's stated relation to the Microscopical Society, not the origin of the Society of Amateur Botanists or the provenance of each founder.
+
 By September 1865 *Science-Gossip* was publishing the Quekett Microscopical Club's regular meeting schedule and address.
 
-Evidence level: PRIMARY / SECURE for Gibson's explicit model and for the Club's subsequent public operation.
-
-The sequence now controlled at primary level is therefore: a Society meeting using microscopes and mounted specimens on 1 February → Gibson names that Society as his organizational model on 1 May → Quekett is publicly operating by September. Do not convert sequence into a claim that the February meeting caused the Quekett proposal unless a source says so.
+The primary sequence now controlled is therefore: a Society meeting using microscopes and mounted specimens on 1 February → Gibson names that Society as his organizational model on 1 May → the inaugural Quekett minute at 192 Piccadilly on 14 June defines an amateur organization as complementary `nursery`/`offspring` to the existing Microscopical Society → public regular-operation notices by September. Chronological sequence is secure; causal relations beyond those explicitly stated remain bounded by the individual sources.
 
 ### Cooke's own 1865–66 periodical programme
 
@@ -54,7 +73,7 @@ These pages establish Cooke's own published framing of an accessible instrument 
 
 An 1878 Quekett pamphlet on the Club's origin and progress reproduces Gibson's proposal and states that, after its appearance, M. C. Cooke, president of the Society of Amateur Botanists, met W. B. Bywater and E. Ketteringham, also members of that Society, at 5 Hanover Square; as a result they decided to work toward establishing a society of amateur microscopists under the title `The Quekett Club` and to call a meeting.
 
-Evidence level: INSTITUTIONAL RETROSPECTIVE, thirteen years after the founding action. Strong evidence for the Club's own 1878 account of the founding sequence; not equivalent to contemporaneous minutes.
+Evidence level: INSTITUTIONAL RETROSPECTIVE, thirteen years after the founding action. It can now be checked against the independently controlled 14 June 1865 minute rather than standing as the earliest administrative evidence.
 
 ### Cooke's 1899 `Early Memories` — original located, content triangulated, page extraction pending
 
@@ -108,6 +127,7 @@ The following exact sources now have public routes:
 
 - *Phytologist*, New Series VI (1863), p. 469: modern serial index confirms the exact locator; public volume exists, but the page itself remains to be inspected.
 - *Hardwicke's Science-Gossip*, vols. 1–2 (1865–66): public Wikisource/Wikimedia scans now control Gibson's proposal, the February Society microscopy meeting, Cooke's hobby/microscope opening and the 1866 fireside editorial.
+- Quekett Minute Book M1, 14 June 1865: first page publicly reproduced in the Quekett archive guide; date, meeting place, officers and Cooke's institutional rationale are PRIMARY / ARCHIVE IMAGE SECURE.
 - *Journal of the Quekett Microscopical Club*, series 2, vol. 7 (1898–1900): BHL confirms public digitization and public-domain status; Cooke's `Early Memories`, pp. 229–238, remains an exact page-extraction target.
 - Quekett's current institutional history supplies a modern summary of the Cooke/Ketteringham/Bywater weekly microscope meetings consistent with the 1900 American review.
 
@@ -118,7 +138,7 @@ Safe at present:
 - Grugeon subsequently appears as an active Society of Amateur Botanists participant.
 - Before Gibson's proposal, the Society of Amateur Botanists already had a documented meeting in which several microscopes and mounted specimens were used collectively under Cooke's direction.
 - Gibson explicitly used the Society of Amateur Botanists as the organizational model in his 1865 proposal to London microscopists.
-- The Quekett Club's 1878 institutional account placed Cooke, Bywater and Ketteringham, all linked to the Society, in the immediate post-proposal organizing meeting.
+- On 14 June 1865 the inaugural Quekett minute records Cooke framing the proposed amateur body as complementary to, rather than antagonistic toward, the existing Microscopical Society and as a `nursery`/`offspring` capable of feeding it.
 - Cooke's *Science-Gossip* editorials explicitly framed the microscope as an accessible scientific pursuit and scientific communication as ordinary conversation with readers rather than savant address.
 
 Hold until exact sources arrive:
@@ -127,7 +147,8 @@ Hold until exact sources arrive:
 - `The Quekett Microscopical Club grew directly out of Working Men's College.`
 - `Grugeon was Cooke's WMC pupil and a founder of the Society.`
 - `mounted specimens` = microscope slides, unless a source identifies the mount form.
-- a single unqualified formation date for the Society.
+- `Quekett was founded in opposition to the Microscopical Society of London.` The inaugural minute states the opposite institutional intention.
+- a single unqualified formation date for the Society of Amateur Botanists.
 
 ## 5. Exact next-source targets
 
@@ -136,7 +157,7 @@ Hold until exact sources arrive:
 3. Society of Amateur Botanists manuscript proceedings / papers, 1863–1864, Natural History Museum — constitution, membership, meeting dates, stated objects, excursions, specimen exchange, library/herbarium/museum and any object/instrument custody.
 4. *Phytologist*, New Series VI (1863), p. 469 — Society report/proceedings; public volume located.
 5. *Journal of Botany* 55 (1917), pp. 193–194, John Ramsbottom on Alfred Grugeon — exact WMC training and Cooke relation if stated.
-6. Quekett 1865 provisional committee minutes, first-meeting minutes and prospectus — contemporaneous founding actions.
-7. M. C. Cooke, `Early Memories of the Q. M. C.`, *Journal of the Quekett Microscopical Club* 7.45 (1899), 229–238 — direct page extraction from the public BHL volume, to be compared against the 1900 review, 1878 institutional history and 1865 notices.
+6. Quekett Minute Book M1 after the 14 June page, plus the 7 July 1865 general meeting/prospectus — subsequent contemporaneous organizational decisions and membership terms. The inaugural minute itself is no longer a pending target.
+7. M. C. Cooke, `Early Memories of the Q. M. C.`, *Journal of the Quekett Microscopical Club* 7.45 (1899), 229–238 — direct page extraction from the public BHL volume, to be compared against the 1900 review, 1878 institutional history and 1865 minutes/notices.
 
 Stop rule: no general expansion into Victorian botanical or microscopical societies. Continue only through these named primary-source bridges capable of changing WMC attribution, Society chronology, membership, teaching practice, object/instrument practice, or the institutional relation to Quekett.
