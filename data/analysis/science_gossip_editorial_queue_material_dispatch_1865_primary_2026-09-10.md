@@ -1,8 +1,8 @@
 # *Science-Gossip* 1865 — editorial queue and material dispatch
 
 Updated: 2026-09-10
-Status: PRIMARY_SECURE__EDITORIAL_QUEUE_AND_SPECIMEN_DISPATCH
-Scope: exact 1865 page-level evidence for two periodical operations: monthly batching of incoming material and article-linked distribution of physical specimens. This file does not generalize to Victorian periodicals as a whole.
+Status: PRIMARY_SECURE__REPEATED_SPECIMEN_FULFILLMENT_AND_EDITORIAL_QUEUE
+Scope: exact 1865 page-level evidence for two periodical operations: monthly batching of incoming material and repeated article-linked distribution of physical specimens. This file does not generalize to Victorian periodicals as a whole.
 
 ## 1. Monthly correspondence as an editorial queue
 
@@ -44,24 +44,7 @@ Historical operation: the monthly issue is a processing batch with a cutoff, not
 
 This matters for chronology. `Communication received` and `communication printed` are distinct events. A later issue may therefore contain an observation or response generated earlier, and the recurring cutoff helps explain that lag.
 
-## 3. September 1865 — the queue includes forwarding and physical distribution
-
-The September correspondence page again prints the 192 Piccadilly address, monthly deadline and identity requirements. It also records direct routing actions, including exchange offers and specimen requests.
-
-Most consequentially, after the correspondence material the page contains a long line headed:
-
-`Bramble-Brand forwarded to:`
-
-followed by more than forty recipient initials.
-
-Primary route:
-https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/232
-
-Historical operation: the journal records not only incoming correspondence but completion of an outgoing material-distribution action.
-
-## 4. The preceding article created the distribution protocol
-
-The dispatch list can be connected to an exact article one month earlier.
+## 3. Bramble-Brand: article-linked specimen dispatch with printed fulfillment list
 
 M. C. Cooke's `Simple Objects.—V. The Bramble-leaf Brand (Aregma bulbosum, Fr.)`, *Science-Gossip*, 1 August 1865, printed p. 176, describes the fungus and gives an observation/preparation procedure:
 
@@ -79,28 +62,18 @@ Primary route:
 https://upload.wikimedia.org/wikipedia/commons/6/6c/Hardwicke%27s_Science-Gossip_-_Volume_1.pdf
 Printed-page text is publicly indexed at p. 176.
 
-The September `Bramble-Brand forwarded to:` list is therefore not an unrelated exchange notice. It is the following issue's record of the material action solicited by the August article.
+The 1 September correspondence page then prints a long line headed:
 
-## 5. What the August–September sequence establishes
+`Bramble-Brand forwarded to:`
+
+followed by more than forty recipient initials.
+
+Primary route:
+https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/232
 
 Primary-secure sequence:
 
 `1 Aug printed article identifies object + gives slide/preparation procedure + asks for stamped envelope → readers send requests to editorial address during the month → 1 Sep issue records Bramble-Brand forwarded to a long list of recipients`.
-
-This is stronger than a claim that the article `spread knowledge about fungi`.
-
-The periodical temporarily couples:
-
-- a named natural object;
-- written handling instructions;
-- glass-slide preparation;
-- a one-month request window;
-- the editorial office at 192 Piccadilly;
-- stamped-envelope postage;
-- physical specimen dispatch;
-- a subsequent printed record of fulfillment.
-
-Text and specimen are therefore synchronized by the monthly serial rhythm.
 
 Evidence ceiling:
 - the September list gives recipient initials, not full identities;
@@ -108,9 +81,85 @@ Evidence ceiling:
 - recipients were instructed to prepare/examine the specimen themselves;
 - the list does not prove every requested specimen arrived intact or was examined.
 
-## 6. Relation to the slide-history address problem
+## 4. Asterosporium: demand exceeds stock, stamped envelopes become a backlog
 
-This case creates a particularly concrete form of address that differs from museum accession or cabinet numbering.
+A second sequence shows that article-linked specimen fulfillment was not unique to Bramble-Brand.
+
+### 1 February 1865, printed p. 35
+
+`Simple Objects.—No. I. Star-spored Fungus (Asterosporium Hoffmanni)` opens the `Simple Objects` series and describes a small fungus found on dead beech/lime twigs.
+
+Primary route:
+https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/51
+
+The subsequent correspondence record proves that specimens were offered/requested through the journal, even though the exact offer wording on the article page still needs direct image verification.
+
+### 1 March 1865, printed p. 72
+
+Under `ASTEROSPORIUM HOFFMANNI` the editors report:
+
+- the specimens had been distributed `to the uttermost fragment`;
+- nearly fifty applicants were still disappointed;
+- their stamped envelopes were being retained;
+- the editors hoped to supply them within a month or two;
+- the promise could not be extended to fresh applicants.
+
+Primary route:
+https://upload.wikimedia.org/wikipedia/commons/a/a0/Hardwicke%27s_science-gossip._Volume_1%2C_1865._%28IA_s457id13378710%29.pdf
+
+### 1 April 1865, printed p. 96
+
+The next issue states:
+
+`Asterosporium Hoffmanni.—Having obtained other specimens, and distributed them, we hope that now every one who was previously disappointed has been supplied.`
+
+Primary route:
+https://upload.wikimedia.org/wikipedia/commons/a/a0/Hardwicke%27s_science-gossip._Volume_1%2C_1865._%28IA_s457id13378710%29.pdf
+
+Primary-secure fulfillment sequence:
+
+`article/specimen request → demand exhausts stock → nearly fifty unsupplied requests retained as stamped-envelope backlog → new specimens obtained → delayed requests supplied in following issue cycle`.
+
+Historical operation: the editorial office maintains an outstanding-request state across issues. It distinguishes existing applicants from new applicants, preserves the return-postage instruments supplied by readers, replenishes stock and reports completion later.
+
+This is stronger than `the periodical distributed specimens`: it shows stock exhaustion, queue retention and delayed fulfillment.
+
+## 5. Other 1865 requests confirm the editorial office as a material-routing point
+
+The March correspondence page also records:
+
+- a correspondent in Corsham offering Tripoli/diatomaceous material to applicants on receipt of a stamped envelope;
+- a request asking whether a Belfast correspondent can supply a lady with diatomaceous earth;
+- directions to the Society of Amateur Botanists curator at 192 Piccadilly for plant exchanges;
+- the rule that specimens sent for identification normally cannot be returned.
+
+The November `Simple Objects.—VIII. Meadow-sweet Brand` gives another article-level offer: microscopists desiring specimens may send stamped envelopes to `W. M. B.` at the journal office. This is primary evidence of another specimen-request mechanism; a corresponding fulfillment list has not yet been identified.
+
+Primary route:
+https://upload.wikimedia.org/wikipedia/commons/6/6c/Hardwicke%27s_Science-Gossip_-_Volume_1.pdf
+
+Evidence level: PRIMARY / SECURE for the request offer, not yet for subsequent fulfillment.
+
+## 6. What repeated fulfillment changes analytically
+
+Bramble-Brand and Asterosporium together establish recurrence.
+
+The journal could temporarily couple:
+
+- a named natural object;
+- illustrated/textual handling instructions;
+- an editorial/postal address;
+- a stamped-envelope requirement;
+- finite specimen stock;
+- requests arriving within a serial interval;
+- fulfillment or shortage recorded in the next issue;
+- deferred fulfillment carried across another issue when necessary.
+
+The serial interval therefore acts as an operating interval for material requests. Monthly publication does not merely timestamp content; it provides checkpoints at which readers can learn whether their request was accepted, delayed, redirected or completed.
+
+## 7. Relation to the slide-history address problem
+
+The Bramble-Brand case creates a particularly concrete form of address that differs from museum accession or cabinet numbering.
 
 The same object class passes through several addresses/forms:
 
@@ -122,23 +171,32 @@ The same object class passes through several addresses/forms:
 6. dispatched specimen;
 7. recipient initials printed the following month.
 
-The periodical page does not merely describe a pre-existing circulation. It defines the route and then publishes evidence that the route was used.
+Asterosporium adds another state:
 
-## 7. Distinction from generic `network` language
+8. unsupplied request retained by the editorial office until replacement specimen stock is acquired.
+
+The periodical page does not merely describe a pre-existing circulation. It defines routes, records failures in those routes and later records fulfillment.
+
+## 8. Distinction from generic `network` language
 
 Avoid:
 - `The journal connected Cooke to many amateur microscopists.`
-- `The article created a network of readers.`
+- `The articles created a network of readers.`
 - `Science-Gossip circulated fungal knowledge.`
 
 Prefer first-order propositions:
-- Cooke printed a preparation protocol and offered a physical specimen to readers who supplied stamped envelopes within the month;
-- the editorial office accepted those requests at 192 Piccadilly;
-- the following issue printed a recipient list showing that specimens had been forwarded;
+- Cooke's articles and editorial notes made physical specimens requestable under stated postal conditions;
+- the editorial office retained stamped envelopes when material stock ran out;
+- later issues reported replenishment and completion of outstanding requests;
+- Bramble-Brand requests were followed by a printed recipient list;
 - the same correspondence machinery logged late inputs, redirected letters, required identifiable senders and imposed a monthly cutoff.
 
-## 8. Next exact test
+## 9. Next exact tests
 
-Search the 1865 volume for other articles with footnotes such as `send stamped envelope`, `specimens may be had`, `forward to the Editor`, or equivalent language, then check subsequent `Notices to Correspondents` for fulfillment lists.
+1. Open the full page/image for `Asterosporium Hoffmanni`, Feb. 1865, p. 35–36, and recover the exact initial specimen-offer wording.
+2. Search December 1865 `Notices to Correspondents` for fulfillment of the November Meadow-sweet Brand request.
+3. Search vol. 1 for other `stamped envelope` specimen offers and pair them with later fulfillment/shortage notices.
+4. Distinguish editor-mediated dispatch from direct correspondent-to-correspondent exchange: both appear in the same pages but are different custody mechanisms.
+5. Record whether any dispatch offers prepared slides rather than raw/unmounted natural material; do not infer slide form from the fact that the material is intended for microscopic examination.
 
-If repeated, this would show that article-linked specimen dispatch was a recurring editorial procedure rather than a one-off Bramble-Brand episode. Do not infer recurrence before those paired article/fulfillment sequences are identified.
+Stop rule: no broad postal-science history. Continue only through paired page sequences that reveal an editorially managed request, custody, shortage, forwarding or fulfillment action.
