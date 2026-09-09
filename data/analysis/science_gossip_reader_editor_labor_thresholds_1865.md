@@ -137,22 +137,40 @@ This is not merely `reuse of content`. The documentary form changes the expected
 
 The periodical can therefore reveal which practical difficulties recur often enough to justify a different publication form.
 
-## 10. Current article-level inference
+## 10. 1880 — the handbook becomes a baseline for a more specific new query
+
+A 1880 *Science-Gossip* correspondence page supplies a direct afterlife test. A reader asks `How to mount Mosses` and requests a short account of methods `other than those given by Dr. Braithwaite in Notes on Collecting and Preserving Natural History Objects`.
+
+Public primary route:
+https://upload.wikimedia.org/wikipedia/commons/e/ee/Hardwicke%27s_science-gossip._Volume_16%2C_1880._%28IA_s457id13663320%29.pdf
+
+Evidence level: PRIMARY / SECURE for the reader's query and explicit handbook reference.
+
+Historical operation: the handbook does not eliminate the monthly query mechanism. It changes the baseline from which a query can enter it. The reader identifies the already-published method as prior work and asks only for alternatives beyond it.
+
+This gives the 1865 rule about elementary-book questions a later material form:
+
+`repeated practical queries → articles → portable handbook → handbook becomes prior reference → later periodical query specifies what remains unresolved beyond the reference`.
+
+Do not imply that every later query was screened in this manner. This one exact case demonstrates a reader using the handbook to delimit the residual problem before re-entering the periodical.
+
+## 11. Current article-level inference
 
 The controlled pages support a narrower proposition than `popular periodicals lowered barriers to science`.
 
 *Science-Gossip* lowered some costs of entry — conversational prose, cheap publication, routes to specimens, addresses for societies and correspondents — while specifying work that participation did not outsource. It expected readers to narrow a problem, learn technical terms, examine objects, compare forms, consult elementary books, verify what they could, and make notes before asking the editor to absorb the remaining difficulty.
 
-The periodical thus did not simply distribute knowledge or expertise. It distributed tasks between reader, editor, correspondent, printed reference and physical object.
+The periodical thus did not simply distribute knowledge or expertise. It distributed tasks between reader, editor, correspondent, printed reference and physical object. When recurring practical questions were consolidated into a handbook, the division could change again: a previously recurrent question became reference work, and a later reader could return to the periodical with a narrower residual problem.
 
-Keep this inference attached to the exact 1865 scenes. Do not use it to characterize all amateur or popular science publications without comparison.
+Keep this inference attached to the exact 1865 and 1880 scenes. Do not use it to characterize all amateur or popular science publications without comparison.
 
-## 11. Exact next tests
+## 12. Exact next tests
 
 1. Search 1865–66 `Notices to Correspondents` for additional refusals that explicitly return work to the querist: reference-book lookup, incomplete observation, insufficient specimen maturity, lack of fresh facts, or requests for bulk naming.
 2. Search `How to Begin` and adjacent pedagogical pieces for instructions on notebooks, comparison, drawing, classification and instrument handling.
 3. Reconstruct which practical *Science-Gossip* essays were incorporated into Taylor's 1876 handbook, where exact article/page locators can be recovered publicly; test what was removed or reorganized when serial responses became chapters.
-4. Compare Cole's prepared-slide serial only through existing controlled repo files and exact contemporary reviews; do not reopen generic Cole discovery.
-5. When *Working Men's College Magazine* arrives, ask whether its pedagogical language similarly distinguishes instruction from work students are expected to perform themselves.
+4. Search post-1876 correspondence for exact cases in which the handbook is cited as prior work before a narrower query, without assuming the 1880 moss example was typical.
+5. Compare Cole's prepared-slide serial only through existing controlled repo files and exact contemporary reviews; do not reopen generic Cole discovery.
+6. When *Working Men's College Magazine* arrives, ask whether its pedagogical language similarly distinguishes instruction from work students are expected to perform themselves.
 
 Stop rule: no general history of self-help, popular education or epistemic labour. Continue only through exact editorial decisions or transformations of publication form that change the present argument.
