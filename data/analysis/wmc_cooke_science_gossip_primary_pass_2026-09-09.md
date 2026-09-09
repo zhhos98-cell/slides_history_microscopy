@@ -16,6 +16,16 @@ On 1 May 1865, p. 116, W. Gibson proposed an association for London's amateur mi
 
 Evidence level: PRIMARY / SECURE for Gibson's published proposal and the explicit Society of Amateur Botanists model. This source establishes the published organizational template; it does not by itself establish every subsequent founding action of the Quekett Microscopical Club.
 
+### Cooke's opening `hobby` formulation, January 1865
+
+The first issue opens with `What's Your Hobby?`, printed pp. 1–2. Cooke defines a hobby as a study or pursuit selected by the reader and followed in moments of leisure, then offers scientific pursuits as possible hobbies. After geology, ornithology, entomology and botany, printed p. 2 asks: `But, above all, can you not purchase for yourself a Microscope?` He adds that an instrument adequate for the purpose can be obtained for a moderate sum and presents it as access to a natural world unavailable to unaided sight.
+
+Public primary transcription: https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/18
+
+Evidence level: PRIMARY / SECURE for the wording, sequence and printed pagination.
+
+Historical use: this establishes a direct Cooke formulation of the microscope as a self-selected scientific pursuit and inexpensive entry instrument at the launch of *Science-Gossip*. It does not establish that this formulation derived from WMC, nor that all amateur microscopy was leisure rather than research or pedagogy.
+
 ## 2. *Science-Gossip*, Sept. 1, 1865: the Quekett Club as operating institution
 
 A public Wikisource transcription of printed p. 216 (scan page 232) gives a notice under `NOTICES TO CORRESPONDENTS`:
@@ -32,9 +42,27 @@ This page therefore places the newly operating Quekett Club inside a periodical 
 
 ## 3. Society of Amateur Botanists inside the same first volume
 
-The public Wikisource index records Society of Amateur Botanists reports at printed pp. 23, 46 and 70. A transcribed page reports its second annual meeting at 192 Piccadilly, with the President delivering an address/report on the year's proceedings. Correspondence pages direct readers wanting plant exchanges to the Society at the same 192 Piccadilly address.
+The public Wikisource index records Society of Amateur Botanists reports at printed pp. 23, 46 and 70. The January 1865 issue reports the Society's second annual meeting at 192 Piccadilly on 21 December, with the President delivering an address/report on the preceding year's proceedings. The February issue reports a 4 January paper by Harland Coultas on `Plant Palæontology`. Correspondence pages direct readers wanting plant exchanges to the Society at the same 192 Piccadilly address.
 
-This is PRIMARY evidence that *Science-Gossip* treated the Society as an active exchange/reporting institution in its first year, while Gibson explicitly named that Society as the organizational model for the proposed microscopists' association.
+### 1 February 1865: microscopic fungi, microscopes and mounted specimens
+
+The March issue, printed p. 70, gives a direct report of the Society's meeting on 1 February 1865. Cooke, as president, introduced the chief groups of microscopic fungi, with uredinaceous and ascomycetous examples selected for illustration. The report then states that `Several microscopes` and `an excellent series of mounted specimens` had been provided; members spent the evening examining them under Cooke's direction.
+
+Public primary transcription: https://en.wikisource.org/wiki/Page:Hardwicke%27s_Science-Gossip_-_Volume_1.pdf/86
+
+Evidence level: PRIMARY / SECURE.
+
+This changes the Society → Quekett relation materially. Before Gibson's 1 May proposal, the Society of Amateur Botanists was already using multiple microscopes and mounted specimens collectively in an ordinary meeting under Cooke's direction. Gibson's later phrase `on the plan of the Society of Amateur Botanists` therefore named an organization that already possessed a documented microscopical meeting practice, not only a generic low-cost associational form.
+
+Do not overextend this evidence. The February meeting does not show that every Society meeting was microscopical, that the microscopes or mounted specimens belonged to the Society, or that Quekett simply copied this single session. It establishes the prior availability and collective use of those objects within a Society meeting.
+
+### *Science-Gossip* as a society-reporting surface
+
+The February 1865 issue explicitly solicits secretaries of field clubs and natural-history societies to send ordinary-meeting, excursion and proceedings reports because part of *Science-Gossip* was intended for the service of such associations. Its correspondence layer also directs readers to the Society's curator at 192 Piccadilly for plant exchanges.
+
+Evidence level: PRIMARY / SECURE for the journal's stated reporting function and exchange routing.
+
+The periodical can therefore be treated as an operating address between associations, readers and objects, rather than merely as a venue in which societies happened to be mentioned.
 
 ## 4. Cooke's 1866 editorial programme — PRIMARY / SECURE
 
@@ -53,10 +81,11 @@ Historical use: the editorial establishes Cooke's own published description of t
 ## 5. Formation history: what is secure and what remains reconstructed
 
 Secure primary sequence now controlled:
-1. Society of Amateur Botanists is publicly active and reported in *Science-Gossip* vol. 1.
-2. On 1 May 1865 W. Gibson publicly proposes a low-cost amateur microscopists' association `on the plan of the Society of Amateur Botanists`.
-3. By 1 Sept. 1865 *Science-Gossip* publishes the Quekett Microscopical Club's monthly meeting schedule and address.
-4. In 1866 Cooke himself states the journal's conversational editorial programme in the opening page of vol. 2.
+1. In January 1865 Cooke opens *Science-Gossip* by offering self-selected scientific hobbies and, `above all`, the purchase of a microscope as an accessible route into otherwise unseen nature.
+2. On 1 February 1865 the Society of Amateur Botanists, under Cooke, uses several microscopes and mounted specimens collectively to examine microscopic fungi.
+3. On 1 May 1865 W. Gibson publicly proposes a low-cost amateur microscopists' association `on the plan of the Society of Amateur Botanists`.
+4. By 1 Sept. 1865 *Science-Gossip* publishes the Quekett Microscopical Club's monthly meeting schedule and address.
+5. In 1866 Cooke states the journal's conversational editorial programme in the opening page of vol. 2.
 
 A 2018 *British Journal for the History of Science* article reconstructs the founding community and notes that a month and a half after Gibson's proposal the QMC held its first meeting; it identifies Cooke, Hardwicke, Ruffle, Hailes, Bywater and others in the founding network. A 2023 *Annals of Science* article further reconstructs Cooke's WMC pupil network, Society of Amateur Botanists, *Science-Gossip* and QMC as a succession of popular-science/amateur institutional forms.
 
@@ -70,7 +99,7 @@ Preserve the conflict rather than normalize it:
 
 This is no longer merely a two-year date discrepancy. The two accounts identify different immediate pupil settings. Existing primary evidence proves WMC/Cooke/Grugeon/Society overlap and proves that Gibson used the Society as his model for the microscopists' association; it does not yet prove that the Society's founding body was specifically formed from WMC pupils.
 
-The *Science-Gossip* first-volume report of a `Second Annual Meeting` is relevant but does not settle which action counts as formation. Resolve only from the Society's own proceedings/minutes or contemporary notices with member names and dates.
+The *Science-Gossip* first-volume report of a `Second Annual Meeting` on 21 December immediately sharpens the chronological problem but does not settle which action counts as formation. Resolve only from the Society's own proceedings/minutes or contemporary notices with member names and dates.
 
 ## 7. *Science-Gossip* New Series, vol. 4 (1897–1898): Lubbock Field Club at WMC
 
@@ -92,11 +121,11 @@ The public sources now permit narrower questions than `did WMC teach science?`:
 
 - What exactly was the relation between Cooke's 1861 WMC physiological-botany class and the pupils later visible around amateur botany?
 - Which pupil group actually constituted the Society of Amateur Botanists: Trinity School pupils, WMC pupils, a mixed Cooke network, or a sequence that later recollections collapsed?
-- How did the Society's low-cost meeting, excursion, specimen-exchange and mutual-assistance practices become the explicit model Gibson invoked in launching the amateur microscopists' association?
-- How did *Science-Gossip* itself function as an operating surface linking readers, specimens, queries, societies and practical microscopy?
+- How did a Society already documented using microscopes and mounted botanical specimens become the explicit organizational model Gibson invoked in launching the amateur microscopists' association?
+- How did *Science-Gossip* itself function as an operating surface linking readers, specimens, queries, societies, exchange addresses and practical microscopy?
 - How much of this associational grammar persisted independently at WMC, where a later Lubbock Field Club again organized field excursions and natural-history sociability?
 
-Only the Society → Gibson proposal relation is already explicit in the 1865 primary text. The WMC → Society genealogy and any Society/QMC → later-WMC continuity remain exact-source problems.
+The Society → Gibson proposal relation and a pre-proposal Society microscopical practice are now explicit in 1865 primary sources. The WMC → Society genealogy and any Society/QMC → later-WMC continuity remain exact-source problems.
 
 ## 9. Exact next-source targets
 
@@ -104,8 +133,8 @@ Priority order:
 1. *Working Men's College Magazine* 3 (1861), p. 173, `Report of General Meeting` — direct Cooke/WMC target cited by the 2023 study.
 2. All 1859–61 WMC Magazine hits for `Cooke`, `Grugeon`, `Museum`, `botany`, `collection`, `specimens`, `natural history`, `microscope`, `microscopical`.
 3. January 1860 WMC Magazine window around Octavia Hill's Cooke/butterflies/moths letter.
-4. Society of Amateur Botanists proceedings, 1863, Natural History Museum — to settle constitution, chronology, membership, excursions, exchange, library/herbarium/museum.
-5. *Phytologist*, New Series VI (1863), p. 469 — public volume now located through Google Play; inspect the exact Society notice/report.
+4. Society of Amateur Botanists proceedings, 1863, Natural History Museum — to settle constitution, chronology, membership, excursions, exchange, library/herbarium/museum and ownership/custody of instruments or specimens if recorded.
+5. *Phytologist*, New Series VI (1863), p. 469 — public volume located; inspect the exact Society notice/report.
 6. M. C. Cooke, `Early Memories of the Q. M. C.`, *Journal of the Quekett Microscopical Club* 7.45 (1899), 229–238. BHL confirms public digitization of series 2, vol. 7 (1898–1900); exact article text still needs page-level extraction.
 7. WMC Archive `LMA/4535/E/02/06/001` — Lubbock Field Club aims and `microscopic observations` wording.
 
