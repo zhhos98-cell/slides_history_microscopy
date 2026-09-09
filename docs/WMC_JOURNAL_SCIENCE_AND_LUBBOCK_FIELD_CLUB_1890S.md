@@ -2,61 +2,56 @@
 
 **Date:** 2026-09-09  
 **Branch:** `research/working-mens-microscopy-19c`  
-**Status:** multi-source late-Victorian control. Exact WMCJ issue/page citations are closed through Sutcliffe; primary WMCJ page text remains to be directly inspected. Lubbock Field Club microscopy/specimen aims derive from a separate WMC archival file, not from the Journal. A new 1892/1893 founding-date conflict and possible 1873 predecessor have been opened and are controlled separately in `WMC_FIELD_CLUB_GENEALOGY_GRUGEON_1873_1893.md`.
+**Status:** multi-source late-Victorian control. The 1904 WMC self-history now closes two previously open states: (1) the 1873 Natural History Society and Field Club explicitly ended rather than continuing institutionally into Lubbock; (2) Lubbock Field Club activity was in fact documented in the WMC Journal, although exact Journal entries remain to be recovered.
 
-## 1. Why this cluster matters
+## 1. Current source architecture
 
-The late nineteenth-century WMC now supplies three distinct source layers that should not be collapsed:
+The late nineteenth-century WMC now supplies four analytically distinct layers:
 
 1. **institutional serial representation** — *The Working Men's College Journal*;
-2. **club practice / rules** — Working Men's College Archive / London Metropolitan Archives;
-3. **external natural-history periodical directory / access information** — *Science-Gossip*.
+2. **club practice / aims** — Working Men's College Archive / London Metropolitan Archives;
+3. **external access / society directory** — *Science-Gossip*;
+4. **diachronic practice genealogy** — the 1904 WMC self-history and Grugeon-centered field-club history.
 
-A fourth diachronic layer is now open:
+The strongest current model separates:
 
-4. **field-club / botanical-walk genealogy** — a reported 1873 Natural History Social and Field Club, Alfred Grugeon's long WMC botanical role, and the 1892/93 Lubbock Field Club.
+`representation | practice | external access | practice/actor recurrence`
 
-Together these sources permit a controlled reconstruction of how science was represented, practiced and made externally accessible around the College without treating any one source as sufficient for all claims.
+rather than collapsing them into one institutional narrative.
 
 ---
 
-## 2. *The Working Men's College Journal*: science cluster in 1898
+## 2. WMC Journal science cluster in 1898
 
-Marcella Pellegrino Sutcliffe's article explicitly states that numerous entries in the WMC Journal in the 1890s referred to Darwin's theory of evolution and that Special Science Lectures were frequent.
+Marcella Pellegrino Sutcliffe states that numerous WMC Journal entries in the 1890s referred to Darwin's theory of evolution and that Special Science Lectures were frequent.
 
-Her footnote 60 gives three exact Journal loci:
+Her footnote 60 gives exact loci:
 
 - **WMCJ 5, no.75 (February 1898), p.27**;
 - **WMCJ 5, no.76 (March 1898), p.44**;
 - **WMCJ 5, no.77 (April–May 1898), p.60**.
 
-A second exact citation in the same article uses:
+A second citation gives:
 
-- **WMCJ 5, no.75 (February 1898), p.32** — for C. P. Lucas's remark that Sir John Lubbock included science among the `Humanities`.
+- **WMCJ 5, no.75 (February 1898), p.32** — C. P. Lucas's remark that Sir John Lubbock included science among the `Humanities`.
 
-### Evidence state
+Evidence state:
 
 `CLOSED_SECONDARY_EXACT_CITATION`
 
-The page references, volume/issue numbers and dates are secure through a scholarly source that directly used the Journal. However, the actual p.27 / p.44 / p.60 texts have **not yet been directly read in this pass**.
+The issue/page metadata is secure through Sutcliffe, but the actual Journal pages have not yet been directly read. Do not assign a specific Darwin/lecture item to each cited page until primary inspection.
 
-Therefore do not state that each of those three pages individually concerns a particular Darwin topic or particular lecture until the primary Journal pages are inspected. Sutcliffe groups them collectively under the claim about Darwin/evolution entries and Special Science Lectures.
+Controlled proposition:
 
-### Current controlled proposition
-
-By 1898 the WMC's own Journal was repeatedly carrying material that a modern historian could cite as evidence of evolution/Darwin discussion and recurring Special Science Lectures.
-
-This is a major contrast with the 1859–61 *Working Men's College Magazine*, where current public-index searching has not yet closed science/microscopy content to exact issue pages.
+> by 1898 the WMC's own Journal repeatedly made science/evolution and Special Science Lectures visible inside institutional serial print.
 
 ---
 
-## 3. Do not collapse the 1859 Magazine and 1890s Journal
+## 3. Early Magazine and later Journal remain separate serial regimes
 
-Current source architecture requires two distinct serial phases:
+### *Working Men's College Magazine*, 1859–61/62 run conflict
 
-### Early Magazine, 1859–61/62 run conflict
-
-Strongly visible functions so far:
+Strongly visible functions currently:
 
 - institutional orientation;
 - governance argument;
@@ -64,256 +59,295 @@ Strongly visible functions so far:
 - liberal-education self-definition;
 - annual-bound-volume interface.
 
-Science existed at the College in this period, but direct Magazine science content is still `NEGATIVE_BOUNDED_INDEX_SEARCH / PRIMARY_INSPECTION_REQUIRED`.
+Science/object activity unquestionably existed at WMC, but direct science/microscopy coverage inside the early Magazine remains `NEGATIVE_BOUNDED_INDEX_SEARCH / PRIMARY_INSPECTION_REQUIRED`.
 
-### Later Journal, 1890s
+### *Working Men's College Journal*, 1890s
 
-Direct scholarly citations show:
+Direct secondary exact citations and the 1904 WMC retrospective establish:
 
-- Darwin/evolution references;
+- Darwin/evolution visibility;
 - Special Science Lectures;
-- explicit discussion of science within the College's liberal-education identity.
+- botanical walks recorded in College Journal(s);
+- Lubbock Field Club activity documented in Journal pages.
 
-Possible analytical consequence:
-
-`SERIAL_REGIME_SHIFT_CANDIDATE`
-
-Do not yet claim a historical shift in editorial policy. The early Magazine remains incompletely inspected and the later Journal requires a fuller issue census. At present this is a **research question**, not a conclusion.
+This creates a `SERIAL_REGIME_SHIFT_CANDIDATE`, not yet a concluded editorial shift. The early Magazine remains insufficiently inspected.
 
 ---
 
-## 4. Lubbock Field Club: practice source is archival, not WMCJ
+## 4. Lubbock Field Club practice source is archival, not the Journal
 
-Sutcliffe describes the Lubbock Field Club as established in **1893** and quotes its aims:
+Sutcliffe gives the Club's objects as including:
 
-- collect and record facts / observe phenomena in natural science;
-- make periodic excursions;
-- hold meetings;
-- discuss papers, articles and questions bearing on natural sciences;
-- conduct **microscopic observations**;
-- exhibit **specimens**.
+- collecting/recording natural-science facts and observing phenomena;
+- periodic excursions;
+- meetings;
+- discussion of papers/articles/questions on natural sciences;
+- **microscopic observations**;
+- exhibition of **specimens**.
 
-Crucial source distinction:
+Her source is:
 
-Sutcliffe footnote 64 attributes this material to:
-
-> Working Men's College Archive, London Metropolitan Archives, Corporation of London, **4535/E/02/06/001**.
-
-It is therefore **not** evidence extracted from WMCJ.
+> Working Men's College Archive, London Metropolitan Archives, **4535/E/02/06/001**.
 
 Evidence state:
 
 `ARCHIVE_EXACT_REFERENCE / ITEM_TYPE_PENDING_DIRECT_CATALOGUE_OR_INSPECTION`
 
-Current web searching has not independently recovered the LMA item title/type. Preserve the reference exactly; do not invent `rules`, `minutes`, or `prospectus` as the archival form until the finding aid or item is directly checked.
+Do not call the item `rules`, `minutes`, or `prospectus` until its archival form is directly identified.
 
-### Practice model
+This source supports the practice/intention layer:
 
-The archive citation supports a club practice/intention layer:
+`club -> excursions + discussion + microscopy + specimen exhibition`
 
-`natural-science club -> excursions + discussion -> microscopy + specimen exhibition`
-
-It does not by itself show how often those practices occurred, which specimens were used, or which members performed microscopic work.
+not frequency or named object transactions.
 
 ---
 
-## 5. Founding-date / predecessor conflict: 1892, 1893, and a 1873 club
+## 5. 1873 predecessor relation is now resolved as discontinuous
 
-A second scholarly reconstruction now prevents us from treating `established in 1893` as uncontested.
+The 1904 WMC self-history, R. H. Marks's `The College Clubs`, gives the exact earlier title:
 
-Peter Ayres, *Shaping Ecology: The Life of Arthur Tansley*, states that:
+> **Natural History Society and Field Club**
 
-- Alfred Grugeon taught at WMC in 1862–69 and again 1885–1892;
-- on retirement in **1892** he became President of the `newly formed Lubbock Field Club`;
-- WMC Sunday walks had existed from early years;
-- from **1873**, when a `Natural History Social and Field Club` was formed, the walks became more structured;
-- there were three or four walks per month, many botanical ones led by Grugeon;
-- Grugeon collected plants on these excursions and displayed them on return to the College.
+It was formed in **1873** and organized:
 
-This opens two separate unresolved relations:
+- weekly meetings;
+- three or four walks per month;
+- geology and botanical field study;
+- scientific papers;
+- collections and displays;
+- participation by Alfred Grugeon, Ebenezer Cooke, Jeremiah Slade and others.
 
-`LUBBOCK_FOUNDING_DATE_CONFLICT = 1892 / 1893`
+The account gives 45 names on the books and records a grass collection formed/named principally by Grugeon, plus attempts to form a fungi collection.
 
-`PREDECESSOR_RELATION_PENDING = 1873 Natural History Social and Field Club -> ? -> Lubbock Field Club`
+Crucially, the 1904 author says the club **came to an end** because its Tuesday room was required for a class and no alternative room was available.
 
-### Strong current result
+Therefore:
 
-The **actor/practice continuity** through Alfred Grugeon is substantially stronger than the **institutional continuity** between the named clubs.
+`DIRECT_INSTITUTIONAL_CONTINUITY_1873_TO_LUBBOCK = REJECTED_BY_1904_WMC_ACCOUNT`
 
-Controlled actor sequence:
+The correct continuity claim is:
 
-`WMC botany teaching -> Grugeon -> structured botanical field walks / collecting -> later Lubbock Field Club presidency`
+`ACTOR_PRACTICE_CONTINUITY = STRONG`
 
-Do not turn this into:
+not institutional survival.
 
-`1873 club became Lubbock Field Club`
-
-until a primary or explicitly sourced institutional record closes the rename / revival / reconstitution relation.
-
-See dedicated control:
-
-`docs/WMC_FIELD_CLUB_GENEALOGY_GRUGEON_1873_1893.md`.
+See `docs/WMC_FIELD_CLUB_GENEALOGY_GRUGEON_1873_1893.md`.
 
 ---
 
-## 6. *Science-Gossip* externally indexes the Lubbock Field Club
+## 6. Alfred Grugeon supplies actor/practice recurrence
 
-A directly indexed page in *Science-Gossip*, new series vol.4 (1897–1898), p.156, lists metropolitan scientific societies and includes:
+The 1904 history directly places Alfred Grugeon:
 
-> `Lubbock Field Club. In connection with Working Men's College, Great Ormond Street, Bloomsbury, W.C.`
+- on the 1873 club committee;
+- among its paper-givers;
+- prominently in the grass collection / naming work.
 
-At this earlier directory state the entry says no further meeting information is available.
+Peter Ayres independently reconstructs Grugeon as WMC botany teacher in 1862–69 and 1885–92 and as President of the newly formed Lubbock Field Club around retirement.
 
-A later page in the same volume, **p.186**, updates the society directory and gives actionable information:
+The 1904 history also says that College Journal records in the immediate pre-Lubbock period contained botanical walks under Grugeon's guidance.
 
-- `Lubbock Field Club. Working Men's College, Great Ormond Street, Bloomsbury, W.C.`
-- excursions: **second Sundays**;
-- meetings: **following Mondays, 8 p.m.**
+Current controlled sequence:
 
-The same page separately lists forthcoming Lubbock excursions:
+```text
+WMC botany / natural-history teaching
+        ↓
+Grugeon
+        ↓
+1873 Natural History Society and Field Club
+        ↓
+walks + papers + collecting + display
+        X club explicitly terminates through room constraint
+        ↓
+botanical-walk practice recurs / persists
+        ↓
+College Journal records walks under Grugeon
+        ↓
+new Lubbock Field Club, Grugeon President
+```
 
-- 14 November — Theobald's Park, Cheshunt and Wormley;
-- 12 December — Totteridge, Shenley and Ridge.
+The mechanism across the institutional break remains open.
 
-### Bibliographic control
+---
 
-Wikimedia Commons / Internet Archive metadata identifies this scanned object as:
+## 7. Lubbock founding date remains 1892 / 1893 conflicted
 
-- *Science-Gossip*, **new series vol.4, 1897–1898**;
-- continuous issue range no.37–48;
-- editor John T. Carrington.
+### Ayres
 
-Exact issue/month for pp.156 and 186 remains to be page-header checked. Do not infer it from monthly arithmetic alone.
+Grugeon retired in **1892** and became President of the newly formed Lubbock Field Club.
 
-### Function
+### Sutcliffe
 
-This gives an external access mechanism:
+The Club was established in **1893**.
 
-`WMC natural-history club -> Science-Gossip metropolitan society directory -> reader receives location / recurring excursion and meeting schedule -> potential attendance/contact`
+### 1904 WMC self-history OCR
 
-Function codes:
+The recovered OCR reads approximately:
+
+- `In 1890` College Journal records contain botanical walks under Grugeon;
+- `In March of the following year, 1892`, the present Lubbock Field Club was formed, Grugeon President and A. E. Shurlock Secretary.
+
+This is internally inconsistent because `the following year` after 1890 would be 1891. The page image has not yet been securely inspected.
+
+Current state:
+
+`LUBBOCK_FOUNDING_YEAR = LIKELY_1892_BUT_NOT_PAGE_IMAGE_CLOSED`
+
+`CONFLICT = 1904_OCR_1892 + AYRES_1892 vs SUTCLIFFE_1893`
+
+Do not final-normalize until the printed page is checked.
+
+---
+
+## 8. State-changing result: internal WMC Journal / club loop exists
+
+The 1904 history explicitly says that reference to the pages of the Journal would show how the Lubbock Field Club had justified its existence since formation through nature study and social intercourse.
+
+Therefore the previous question:
+
+`Did WMC Journal report the Lubbock Field Club?`
+
+is no longer open at the existence level.
+
+Upgrade to:
+
+`LUBBOCK_TO_WMC_JOURNAL_LOOP_EXISTENCE = CLOSED_1904_RETROSPECTIVE`
+
+Still pending:
+
+- exact WMCJ volumes/issues/pages;
+- genres of those entries;
+- whether they are notices, excursion reports, papers, specimen lists, microscopy reports, or club summaries;
+- frequency and chronology;
+- whether the `microscopic observations` from the archival aims become visible in Journal print.
+
+This is a major RSVP result because a practical natural-history club is now directly tied to recurring institutional serial documentation.
+
+---
+
+## 9. *Science-Gossip* supplies external access infrastructure
+
+*Science-Gossip*, new series vol.4 (1897–98), p.156 lists:
+
+`Lubbock Field Club. In connection with Working Men's College, Great Ormond Street, Bloomsbury, W.C.`
+
+At p.186 the entry becomes actionable:
+
+- Working Men's College, Great Ormond Street;
+- excursions on **second Sundays**;
+- meetings on following **Mondays at 8 p.m.**;
+- forthcoming excursions including Theobald's Park/Cheshunt/Wormley and Totteridge/Shenley/Ridge.
+
+Function:
+
+`WMC club -> external scientific periodical directory -> reader receives place/time/programme -> potential attendance/contact`
+
+Codes:
 
 - `SOCIETY_DIRECTORY`
 - `REPORT_TO_VISIT`
 - `EXTERNAL_ACCESS_INFRA`
 - `SCHEDULE_TO_ATTENDANCE`
 
-We cannot prove an individual reader attended because of this notice, but the periodical made the institution actionable to its natural-history readership.
+Do not infer actual attendance from the notice alone.
 
 ---
 
-## 7. *Science-Gossip* itself shows the larger ecology around the WMC club
+## 10. Same serial environment joins societies, correspondence and objects
 
-The same vol.4 directory places Lubbock Field Club alongside:
-
-- Croydon Microscopical and Natural History Club;
-- Ealing Natural Science and Microscopical Society;
-- London Amateur Scientific Society;
-- Malacological Society;
-- Mineralogical Society;
-- Quekett Microscopical Club;
-- Royal Microscopical Society;
-- other metropolitan natural-history/scientific bodies.
-
-On nearby pages *Science-Gossip* also maintains:
+The same *Science-Gossip* volume/page-space contains:
 
 - correspondence;
-- exchanges;
-- specimen identification;
-- society notices;
-- microscopy-related events;
-- physical-slide exchange offers.
+- exchange offers;
+- specimen-identification questions;
+- society directories;
+- microscopical society entries;
+- physical microscopical-slide offers.
 
-For example, p.156 contains an exchange offer for **fifty-one microscopical slides** in a pine box, alongside the metropolitan-society directory.
+For example, p.156 includes an exchange offer for **51 microscopical slides in a pine box** beside the metropolitan society directory.
 
-This does not prove material exchange by Lubbock Field Club. It does establish the **print ecology** in which the Club was made visible: the same serial page-space connected society schedules with correspondence, specimens and object exchange.
+This does **not** prove a Lubbock Field Club exchange.
+
+It establishes the wider print ecology in which the Club became visible: readers encountered institutions, schedules, objects and correspondence on the same coordination surface.
 
 ---
 
-## 8. Four-layer model: representation / practice / access / genealogy
-
-Current strongest controlled structure:
+## 11. Corrected four-layer model
 
 ```text
-WMC Journal, 1898
-    -> science/evolution/lecture representation inside College serial print
+WMC Journal
+    -> internal science / evolution / lecture representation
+    -> botanical-walk records
+    -> Lubbock Field Club recurring documentation (existence closed)
 
 WMC Archive, LMA 4535/E/02/06/001
-    -> Lubbock Field Club aims: excursions, papers, microscopic observation, specimen exhibition
+    -> Lubbock aims: excursions / natural science / microscopy / specimen exhibition
 
-Science-Gossip, n.s. 4 (1897–98), pp.156 / 186
-    -> external society-directory visibility + recurring meeting/excursion schedule
+1904 WMC self-history
+    -> 1873 club formation + explicit termination
+    -> actor/practice recurrence through Grugeon
+    -> points back to Journal as Lubbock activity record
 
-Ayres / Grugeon reconstruction
-    -> 1873 structured natural-history field-club practice + botanical collecting
-    -> Grugeon as continuity-bearing actor into 1892/93 Lubbock presidency
+Science-Gossip, 1897–98
+    -> external society-directory visibility + actionable meeting/excursion schedule
 ```
 
-These layers can be related because they concern the same institutional ecology, but they should not be merged into one document trail without direct cross-references.
+The project can now distinguish:
 
-### Research questions now opened
+**representation** — what house serials made visible;
 
-Does the WMC Journal itself report:
+**practice** — what the club aimed/did materially;
 
-- formation / naming of Lubbock Field Club in 1892 or 1893;
-- the earlier Natural History Social and Field Club;
-- Alfred Grugeon as president;
-- Lubbock Field Club excursions;
-- microscopic observations;
-- specimen exhibitions;
-- natural-history papers;
-- meeting notices;
-- membership or club reports?
+**genealogy** — which actors/practices recur despite institutional death;
 
-If yes, that would close a much stronger internal serial/practice/genealogy loop. It is **not yet closed**.
+**access** — how external periodicals made the club reachable to outsiders.
 
 ---
 
-## 9. RSVP value
+## 12. RSVP-funded delta
 
-This cluster makes the proposed BL/WMC periodical survey especially high-yield.
+The grant-funded physical/serial inspection no longer needs to ask the generic question `did WMC have science?`.
 
-The grant-funded inspection can test whether the institutional Journal turned the Field Club's material practices into serial genres such as:
+It can ask much sharper questions:
 
-- foundation / renaming notices;
-- excursion reports;
-- club minutes/reports;
-- specimen lists;
-- lecture announcements;
-- short natural-history notes;
-- correspondence;
-- advertisements / notices;
-- calls for attendance or contributions.
+1. Which WMCJ issues report Grugeon's botanical walks?
+2. Which report Lubbock formation, officers and excursions?
+3. Does the Journal publish specimen lists, microscopic observations or natural-history papers?
+4. How are club notices positioned relative to lectures, College administration and other member activities?
+5. Are meeting/excursion calls in wrappers, notices, supplements or ordinary editorial matter?
+6. Do Journal reports match *Science-Gossip* schedules or show different audiences/functions?
+7. Can the 1892/93 founding-date conflict be resolved from the primary serial?
+8. Does the late Journal transform material practice into a stable recurring periodical genre?
 
-The key delta is therefore not `discover whether WMC had science` — that is already secure.
+Working grant delta:
 
-It is:
+> **reconstruct how a science-active WMC ecology was serialized internally and externally, and how recurring natural-history practices survived an earlier club's institutional termination before being re-institutionalized in the Lubbock Field Club.**
 
-> **determine how a science-active WMC ecology was serialized, which earlier natural-history institutions were remembered or renamed, and which forms of participation became visible or actionable through the College's own periodical and adjacent scientific press.**
+The last clause is a working analytical formulation; the mechanism of re-institutionalization remains to be reconstructed.
 
 ---
 
-## 10. Source controls
+## 13. Source controls
 
-- Marcella Pellegrino Sutcliffe, `The origins of the 'two cultures' debate in the adult education movement: the case of the Working Men's College (c.1854–1914)`, *History of Education* 43 (2014), especially footnotes 60, 63, 64.
-  - footnote 60: WMCJ 5 no.75 (Feb 1898): 27; no.76 (Mar 1898): 44; no.77 (Apr–May 1898): 60.
-  - footnote 64: WMC Archive / LMA 4535/E/02/06/001.
-- Peter Ayres, *Shaping Ecology: The Life of Arthur Tansley*: Grugeon's 1862–69 / 1885–92 WMC teaching, 1892 retirement / newly formed Lubbock Field Club presidency, and 1873 Natural History Social and Field Club / structured botanical walks.
-- *Science-Gossip*, new series vol.4 (1897–1898), indexed text pp.156 and 186.
-- Wikimedia Commons / Internet Archive metadata for `sciencegossip04lond`: vol.4, 1897–1898, editor John T. Carrington.
-- *The Working Men's College, 1854–1904*, Macmillan 1904: located as a high-priority retrospective source; chapter `The College Clubs` begins p.199, but relevant Grugeon/club passages are not yet directly text-closed in this pass.
+- Marcella Pellegrino Sutcliffe, `The origins of the 'two cultures' debate in the adult education movement: the case of the Working Men's College (c.1854–1914)`, *History of Education* 43 (2014), especially footnotes 60 and 64.
+- R. H. Marks, `The College Clubs`, in *The Working Men's College, 1854–1904: Records of Its History and Its Work for Fifty Years by Members of the College* (London: Macmillan, 1904) — directly recovered full text for 1873 club and late Lubbock discussion.
+- Peter Ayres, *Shaping Ecology: The Life of Arthur Tansley* — Grugeon career and 1892 formulation.
+- WMC Archive / LMA `4535/E/02/06/001` — exact reference from Sutcliffe; item type/date still pending.
+- *Science-Gossip*, new series vol.4 (1897–98), pp.156, 186.
 
-## 11. Immediate next passes
+---
 
-1. recover/directly inspect WMCJ 5 nos.75–77, pp.27, 44, 60;
-2. search WMCJ **1892–93** for `Lubbock Field Club`, predecessor-name variants, `Grugeon`, `field club`, `natural history`, `excursion`;
-3. identify exact LMA item type/title/date for `4535/E/02/06/001`;
-4. directly read the 1904 WMC self-history `The College Clubs` chapter and Grugeon entries;
-5. page-header close the exact issue dates for *Science-Gossip* vol.4 pp.156 and 186;
-6. crosswalk WMCJ club reports, if found, against *Science-Gossip* schedules and LMA club records;
-7. preserve `1892/1893` and `1873 predecessor` as open controls until primary institutional evidence resolves them;
-8. keep early Magazine and later Journal as separate serial corpora until primary issue inspection warrants a continuity claim.
+## 14. Immediate next passes
+
+1. recover direct WMCJ entries for botanical walks and Lubbock Field Club;
+2. resolve the 1904 printed-page date anomaly (`1890 / following year / 1892`);
+3. identify LMA `4535/E/02/06/001` item title/type/date;
+4. search WMCJ 1891–93 for Lubbock formation, Grugeon, Shurlock, field-club predecessor names;
+5. crosswalk WMCJ excursion reports against *Science-Gossip* 1897–98 schedules;
+6. identify whether microscopy/specimen exhibitions appear as recurring Journal genres;
+7. preserve the explicit 1873 institutional termination in every genealogy.
 
 ## Stop rule
 
-Do not state that the WMC Journal founded, governed, or even reported the Lubbock Field Club until a Journal item is recovered. Do not convert the archival reference into a guessed document type. Do not use *Science-Gossip* directory visibility as proof of attendance. Do not state that the 1873 Natural History Social and Field Club became the Lubbock Field Club. Do not choose between 1892 and 1893 while the present source conflict remains. The current strength lies precisely in preserving representation, practice, access and genealogy as separately evidenced relations.
+Do not state that the 1873 Natural History Society and Field Club became the Lubbock Field Club; the 1904 WMC account explicitly says the earlier club ended. Do not choose 1892 or 1893 while the date anomaly remains. Do not infer Journal genre/content beyond the 1904 assertion that Journal pages document Lubbock activity. Do not infer attendance or object exchange from *Science-Gossip* directory adjacency alone.
