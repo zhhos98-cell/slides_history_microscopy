@@ -152,3 +152,12 @@ Compact rule: **state the factual premise the argument needs; never require the 
 - During QA, mark each quotation as **word / relation / speech act** and each abstract noun as **earned / premature**. Shorten or unpack only where that classification reveals a mismatch.
 
 Compact rule: **facts first, noun after; quote only the unit that carries the evidence; let the author’s verbs do the arguing.**
+
+## Concrete-information substitution rule (2026-09-09)
+
+- Before keeping an abstract or general word in historical prose, ask whether source-controlled specificity can replace it without distorting the claim. Test for a named actor, a specific historiographical position, the exact proposition or short primary wording, an institution, a date, a place, a text or object, a concrete action, or provenance—who or where the material came from.
+- Ask explicitly: **Who? Which historiography? What exactly was said or done? What is the relevant original wording? Which institution? When? Where? Which text or object? From whom or where did it come?**
+- Prefer the concrete replacement when it materially improves the reader’s ability to follow the event, relation, or inference. For example, replace `training` with a teacher/course/text/date when those facts matter, or `institutional participation` with the specific paper, meeting, election, publication, appointment, or record that constitutes it.
+- Do not force specificity when the evidence is uncertain, when naming a source would imply a stronger relation than the sources support, or when the extra detail does not change the live argument. A precise-looking false relation is worse than a bounded general formulation.
+
+Compact rule: **interrogate abstractions; if a source-locked answer to who/when/where/what/from whom materially strengthens the sentence, use it.**
