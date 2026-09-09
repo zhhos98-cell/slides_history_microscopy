@@ -14,7 +14,7 @@ Current controls:
 
 - Open Library records *The Working Men's College Magazine*, Working Men's College (London), published by Macmillan & Co., beginning 1859; monthly; indexed; digital reproduction from the Goldsmiths' Library copy.
 - A contemporary 1861 *Atlantic Monthly* visitor explicitly reports that the College published a monthly *Working-Men's College Magazine*, describes it as devoted to College interests, and says he bought the annual volume and used it to read up on the College.
-- Contemporary bookseller indexing records issue no. 9 in October 1859.
+- Contemporary periodical-list evidence records no. 9 in October 1859.
 - J. F. C. Harrison's history quotes the *Working Men's College Magazine* for January 1862, proving survival into 1862.
 
 **Controlled formulation:** active from 1859 and still extant in January 1862. Do not yet hard-code a terminal month/issue without complete issue-level bibliographic inspection.
@@ -30,7 +30,7 @@ Immediate extraction fields:
 Sources:
 - https://openlibrary.org/works/OL32291568W/The_working_men%27s_college_magazine
 - https://www.gutenberg.org/cache/epub/11154/pg11154-images.html
-- NCSE / *Literary Gazette* periodical-list evidence for no. 9 (1859)
+- NCSE / contemporary periodical-list evidence for no. 9 (1859)
 - J. F. C. Harrison, *A History of the Working Men's College, 1854–1954* (quotation from January 1862 issue)
 
 ### The Working Men's College Journal
@@ -49,38 +49,70 @@ Sources:
 
 ## 2. Sheffield People's College
 
-### People's College Journal
+### The People's College Journal
 
-**State:** `CLOSED_BIBLIOGRAPHIC_ARCHIVE`.
+**State:** `CLOSED_BIBLIOGRAPHIC_ARCHIVE`, partial issue survival directly identified.
 
-Archive target already established:
-- University of Sheffield archive, collection 10;
-- `10/2/7` — *People's College Journal*.
+University of Sheffield Special Collections and Archives, collection 10, item `10/2/7`, preserves two issues:
 
-**Open tasks:** run, issue dates, editors, contributors, scientific content, advertisements, lecture notices, wrappers/supplements, external reprints, and crosswalk to later Sheffield microscopical/natural-history networks.
+- No. 2 — December 1846;
+- No. 3 — January 1847.
 
-**Comparative value:** strongest provincial institutional-serial control against London WMC.
+The archival description identifies the title as *The People's College Journal* and describes it as a **monthly periodical chiefly devoted to the cause of popular education**, edited by Rev. R. S. Bayley, F.S.A. The collection-level description states that issues also survive in Sheffield City Library.
 
-## 3. Haley Hill Working Men's College, Halifax
+The *Dictionary of National Biography* entry for Robert Slater Bayley independently states that Bayley started the monthly *People's College Journal* in 1846, that it was printed at the College, intended to advance popular education, and ended in May 1847.
+
+**Controlled run formulation:** begun 1846; monthly; still active January 1847; DNB gives termination in May 1847. Full issue census still needed.
+
+**Research value:** strongest provincial institutional-serial control against London WMC, and chronologically earlier than the London College itself.
+
+Immediate extraction questions:
+
+- how much of each issue is written by teachers vs students;
+- recurring genres (editorial, lecture abstract, science/natural history, correspondence, poetry, institutional news);
+- whether science classes or natural-history activity become serial content;
+- whether contributors recur in later Sheffield learned/microscopical networks;
+- whether advertisements/wrappers survive in City Library or archive copies;
+- whether the journal was exchanged with other mechanics'/people's colleges.
+
+Sources:
+- https://archives.shef.ac.uk/repositories/3/archival_objects/26999
+- https://archives.shef.ac.uk/repositories/3/resources/386
+- DNB, `Bayley, Robert S.`
+
+## 3. Haley Hill Working Men's College / Literary and Scientific Society, Halifax
 
 ### Manuscript magazine -> The Circulator
 
-**State:** `CLOSED_BIBLIOGRAPHIC_SECONDARY`, primary issue control pending.
+**State:** `CLOSED_BIBLIOGRAPHIC_SECONDARY`, primary issue-level/content control still pending.
 
-A Halifax bibliographical history states that Haley Hill Working Men's College fostered a scientific society c.1860, circulated a **manuscript magazine** until 1866, then began printing **The Circulator** in 1866 at 2d. per number, published by R. Leyland and Son; it reportedly lasted two years.
+A Halifax bibliographical history states that Haley Hill Working Men's College fostered a scientific society c.1860, circulated a **manuscript magazine** until 1866, and then began printing **The Circulator** in 1866 at 2d. per number through R. Leyland and Son; it reportedly lasted two years.
+
+A surviving bibliographical catalogue supplies the fuller printed identity:
+
+> *The Circulator. A magazine of literature, Science & Art. Conducted by members of the Haley Hill Literary and Scientific Society, 1866–7. Halifax: R. Leyland & Son.*
+
+The same catalogue notes a wide content range including local mollusks, geology, natural history, science, literature and dialect writing. A separate biographical reconstruction of geologist James Spencer states that he contributed a sequence of geological papers to the twopenny monthly, including `Popular Geology`, Halifax strata, Low Moor coal pits, and Ingleborough.
 
 **Important transition:** handwritten serial -> printed periodical. This is not merely a title-history curiosity; it gives a direct case for asking what changed when an internal manuscript circulation system became cheap print.
+
+**Controlled formulation:** manuscript magazine before 1866; printed *Circulator* begins 1866; secondary bibliographic evidence gives 1866–67 and a two-year life. Primary issue census remains necessary.
 
 Research questions:
 - who copied/read the manuscript magazine;
 - whether the printed *Circulator* retained contributors/genres from the manuscript phase;
+- how the Literary and Scientific Society related administratively to the Working Men's College;
 - science / natural-history / museum content;
 - distribution beyond the College;
 - local press notices/reprints;
-- price, wrapper, advertisement, and issue structure.
+- price, wrapper, advertisement, and issue structure;
+- whether geological/natural-history pieces generated excursions, specimen exchange, or later specialist publication.
 
-Source:
-- *Halifax Books and Authors* (digitised historical bibliography), passage on Haley Hill Working Men's College and *The Circulator*.
+Sources:
+- *Halifax Books and Authors* (digitised historical bibliography), passage on Haley Hill Working Men's College and *The Circulator*;
+- Jarndyce, *Periodicals* catalogue, item 220;
+- https://microscopist.net/SpencerJ.html
+- https://calderdalecompanion.co.uk/s70_h.html
 
 ## 4. South London Working Men's College
 
@@ -149,8 +181,8 @@ Use as downstream records of society meetings, objects, methods, exchanges, bibl
 
 1. Build issue-level census of *The Working Men's College Magazine* from 1859 through at least January 1862.
 2. Establish whether the later *Working Men's College Journal* is a revival, successor, or independent restart.
-3. Find physical/digital copies of Haley Hill manuscript magazine / *The Circulator* and close exact run.
-4. Establish *People's College Journal* run and content structure from Sheffield archive metadata / surviving issues.
+3. Reconstruct *The People's College Journal* issue sequence from 1846 to May 1847 and locate Sheffield City Library copies.
+4. Find physical/digital copies of Haley Hill manuscript magazine / *The Circulator* and close exact run/content.
 5. Close QJMS 1866 p.194 Hackney communication.
 6. Search Cambridge and South London for institutional serial titles without assuming they existed.
 7. Record every transition among `internal manuscript -> printed serial -> local newspaper -> specialist journal -> metropolitan general-science periodical`.
