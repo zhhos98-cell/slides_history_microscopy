@@ -119,6 +119,42 @@ Early 1859 issue/supplement citations show the Magazine participating in dispute
 
 Contemporary testimony demonstrates that monthly issues were also encountered as a purchasable annual volume in the College reading room.
 
+## Science / natural-history content state
+
+### Institutional science is securely present outside the Magazine
+
+Independent contemporary / near-contemporary evidence establishes a real WMC natural-history and object culture in the Magazine's period:
+
+- the College Museum, founded in 1856 from teacher/student contributions, held fossils, minerals, shells and antiquities;
+- natural-history teaching and country walks formed part of College activity;
+- an Octavia Hill letter dated **8 January 1860** describes a WMC gathering at which a young man named Cooke had presented a collection of butterflies and moths to the College and discussed their names/habits with her.
+
+**Identity warning:** the `Cooke` in Hill's letter is not automatically M. C. Cooke without independent identification.
+
+These sources establish **institutional science / object activity**, not Magazine coverage.
+
+### Bounded index-search result
+
+A targeted public-index search for combinations of:
+
+`Working Men's College Magazine + microscope / botany / geology / museum / natural history / specimen / Cooke / Slade / Seeley`
+
+has **not yet closed a dedicated scientific, museum, or microscopy item to a specific Magazine issue/page**.
+
+State:
+
+`NEGATIVE_BOUNDED_INDEX_SEARCH`
+
+This is not evidence that the Magazine lacked science content. It means that currently searchable secondary citations and web indexes disproportionately surface governance, educational philosophy, art/drawing, and reading-guidance material.
+
+### Why this matters methodologically
+
+Do not perform this invalid substitution:
+
+`science existed at WMC` -> `therefore the Magazine reported science`
+
+The grant-funded periodical work is valuable precisely because short notices, contents entries, museum reports, club matter, correspondence, supplements and wrappers may not be discoverable through article-title/full-text web indexing.
+
 ## Science / natural-history extraction queue
 
 No dedicated microscopy article is yet closed. Issue-level inspection should search for:
@@ -134,7 +170,11 @@ No dedicated microscopy article is yet closed. Issue-level inspection should sea
 - advertisements for instruments, books, courses or societies;
 - reports of College clubs or museums.
 
-Important boundary: later evidence that M. C. Cooke taught Physiological Botany with microscope use in 1861 does **not** establish Magazine coverage. Keep the class-to-periodical edge open until issue evidence closes it.
+Important boundaries:
+
+- later evidence that M. C. Cooke taught Physiological Botany with microscope use in 1861 does **not** establish Magazine coverage;
+- the 1860 Hill `Cooke` donation does **not** establish M. C. Cooke identity or Magazine coverage;
+- secondary descriptions of the College Museum do **not** establish that museum reports appeared in the Magazine.
 
 ## RSVP physical-inspection targets
 
@@ -149,7 +189,8 @@ High priority because the research question concerns serial materiality, not jus
 7. ownership / annotations / use traces in surviving copies;
 8. differences among Goldsmiths' Library, British Library and any WMC-held copies;
 9. evidence for January 1862 or other terminal material;
-10. price/subscription information and how annual-volume sale related to monthly subscription.
+10. price/subscription information and how annual-volume sale related to monthly subscription;
+11. **short-form science / museum / excursion / donation notices that current web indexing does not expose**.
 
 ## Immediate next pass
 
@@ -157,8 +198,9 @@ High priority because the research question concerns serial materiality, not jus
 2. test direct availability of the 3-volume Goldsmiths' reproduction at issue/page level;
 3. inspect Harrison's January 1862 attribution and source note;
 4. build a normalized contents ledger once at least one volume can be directly read;
-5. compare Magazine genres against Sheffield *People's College Journal* and Halifax *Circulator* rather than treating London as the default institutional model.
+5. compare Magazine genres against Sheffield *People's College Journal* and Halifax *Circulator* rather than treating London as the default institutional model;
+6. keep `science-at-WMC` and `science-in-WMCM` as separate evidence fields until issue-level closure.
 
 ## Stop rule
 
-Do not infer issue sequence from month arithmetic. Do not infer a terminal date from `3 volumes`. Do not convert secondary page references into primary quotations until the issue itself is inspected. A bibliographic conflict is an object of research here because later binding/cataloguing may itself alter the perceived serial history.
+Do not infer issue sequence from month arithmetic. Do not infer a terminal date from `3 volumes`. Do not convert secondary page references into primary quotations until the issue itself is inspected. Do not infer Magazine content from institutional activity alone. A bibliographic or content-access conflict is an object of research here because later binding/cataloguing/indexing may itself alter the perceived serial history.
