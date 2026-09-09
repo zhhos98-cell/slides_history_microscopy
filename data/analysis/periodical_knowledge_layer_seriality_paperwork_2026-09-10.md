@@ -2,7 +2,7 @@
 
 Updated: 2026-09-10
 Status: ANALYTICAL_HISTORIOGRAPHY__SOURCE_GROUNDED
-Scope: historiographical and conceptual positioning for the WMC / *Science-Gossip* periodical line. This note does not replace the page-level primary controls in `wmc_science_gossip_periodical_operations_2026-09-10.md` or `science_gossip_editorial_queue_material_dispatch_1865_primary_2026-09-10.md`.
+Scope: historiographical and conceptual positioning for the WMC / *Science-Gossip* periodical line. This note does not replace the page-level primary controls in `wmc_science_gossip_periodical_operations_2026-09-10.md`, `science_gossip_editorial_queue_material_dispatch_1865_primary_2026-09-10.md`, or `science_gossip_simple_objects_annual_work_calendar_1865_1866.md`.
 
 ## 1. The live historiographical problem
 
@@ -138,9 +138,72 @@ Historical consequence: a periodical can temporarily give an object or request a
 
 This comparison is strongest when the same material object changes address/status; do not flatten all documentary systems into one universal `address` metaphor.
 
-## 9. What this changes in the reading of WMC Magazine
+## 9. Periodical time is not one clock
 
-The incoming *Working Men's College Magazine* should not be tested primarily for `science content` or Cooke-name frequency. The stronger comparative questions concern recurring documentary forms.
+Margaret Beetham's account of periodical time emphasizes that every issue is dated and claims a present while also belonging to a sequence that points backward and forward. James Mussell similarly stresses that different publication rhythms create distinct temporal niches rather than one uniform serial time.
+
+A concise public discussion of these temporalities appears in Barbara Korte, `The Media Logic of Victorian Periodicals`, which summarizes presentness, periodicity and seriality as distinct but interacting affordances of periodical publication:
+https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003056133-4/media-logic-victorian-periodicals-barbara-korte
+
+The natural-history material adds a different temporal problem. Biological objects are not continuously available in the same state. A pond organism can be abundant in July; a fungal parasite changes form from summer into autumn; two insect objects may be collectable under elm bark only from late February into mid-March; a specimen supply offered through an editorial office may run out before the biological source can be replenished.
+
+The periodical's date therefore interacts with object availability rather than merely stamping a publication date on timeless content.
+
+### Immediate alignment
+
+`Simple Objects—IV`, July 1865, tells the reader that a first dip into a pond or roadside ditch `at this season of the year` will provide Cyclops and related organisms in abundance. `Simple Objects—V`, August 1865, describes bramble rust changing as autumn approaches and opens a stamped-envelope specimen request during the current month.
+
+Here publication time and field availability are intentionally close.
+
+### Anticipatory separation
+
+`Simple Objects—VII`, October 1865, identifies late February to mid-March as the collecting window for Dermestes and Pencil-tail under old elm bark. The October article therefore instructs a future collecting action several months away.
+
+The serial can prepare action rather than merely report what is presently available.
+
+### Prolonged observation
+
+`Simple Objects—II`, March 1865, says Ophrydium can be kept in an open vessel for several months. A collected living object therefore crosses from field encounter into extended indoor observation.
+
+### Multi-month biological window
+
+`Simple Objects—XI`, March 1866, begins by telling readers that Sphaeria herbarum and related fungal bodies are available `at this season` and for two or three months to come, while also distinguishing their current covered state from a later point when the cuticle will be shed.
+
+The article gives both a collecting window and an expected morphological sequence.
+
+The source map is controlled separately in `science_gossip_simple_objects_annual_work_calendar_1865_1866.md`.
+
+## 10. Stainton's weekly entomology paper — publication can redistribute work across the year
+
+Matthew Wale and Oxford's Constructing Scientific Communities project provide a useful comparative control in Henry Tibbats Stainton's *Entomologist's Weekly Intelligencer* (1856–61). The periodical originally stopped after the 1856 collecting season because Stainton judged winter too inactive for a weekly collecting paper; a temporary *Substitute* filled the gap. Later volumes continued through winter once specimen exchange and methods of collecting hibernating insects generated enough activity.
+
+Public account:
+https://conscicom.web.ox.ac.uk/article/the-substitute-1856-57
+
+The *Intelligencer* itself makes the annual division of work explicit. On 6 February 1859, during what it calls a slack period, the editor tells collectors to prepare diaries, setting boards, cages, store boxes and nets before the coming season. On 1 October 1859 the periodical distinguishes the busy collecting months, when observations accumulate faster than they can be digested, from autumn and winter, when the season's miscellanea can be ordered and recorded while still fresh in memory.
+
+Public description and scans:
+https://conscicom.web.ox.ac.uk/article/entomologists-weekly-intelligencer-1856-61
+https://commons.wikimedia.org/wiki/File:Entomologist%27s_weekly_intelligencer_(IA_entomologistswee5185stai).pdf
+https://commons.wikimedia.org/wiki/File:Entomologist%27s_weekly_intelligencer_(IA_entomologistswee7185stai).pdf
+
+This comparison prevents an over-simple claim that periodical rhythm merely mirrors natural cycles. Print can redistribute scientific labour around those cycles: collect in one period, prepare equipment before another, digest observations after the field season, exchange retained specimens in winter, and instruct readers in advance of the next collecting window.
+
+For *Science-Gossip*, the monthly rhythm is therefore best treated as one temporal layer among several: editorial cutoff, specimen stock, biological season, preparation time, preservation, future collecting and later correction can coincide or diverge.
+
+## 11. Knowledge production can include timing the next action
+
+The seasonal evidence changes the knowledge-level claim in a concrete way. Editorial processing does not only decide whether an observation is admissible or where a specimen should be sent. It can also specify when a natural object should be sought, when a request will be honoured, how long an object can remain observable, or what work should wait for a later season.
+
+This is especially visible when a preparation converts a seasonal object into a more durable microscopical one. Bramble brand passes from a fungus changing on a summer/autumn leaf to material scraped onto glass, chemically treated, covered, and mounted; a later reader can examine a preparation after the field state has disappeared. The periodical helps coordinate that conversion by coupling object availability with handling instructions and a dated request window.
+
+The article-level claim should remain first-order: issue dates and recurring series helped distribute collecting, preparation, observation, storage and later return to an object across unequal spans of time.
+
+Avoid converting this into a universal `seasonal epistemology`, `chronotechnology`, or similar coined concept. The source sequence is stronger than a new label.
+
+## 12. What this changes in the reading of WMC Magazine
+
+The incoming *Working Men's College Magazine* should not be tested primarily for `science content` or Cooke-name frequency. The stronger comparative questions concern recurring documentary forms and timing.
 
 When the Gale source arrives, inspect:
 
@@ -148,20 +211,21 @@ When the Gale source arrives, inspect:
 - whether notices place courses, rooms, times, fees or apparatus into actionable schedules;
 - whether museum gifts or specimens receive donor, date, collection or custody language;
 - whether one issue leaves an unresolved class/institutional matter that a later issue updates;
-- whether the magazine's monthly form gives current members a usable next action rather than merely preserving retrospective narrative.
+- whether the magazine's monthly form gives current members a usable next action rather than merely preserving retrospective narrative;
+- whether issue dates align with term beginnings, class schedules, examinations, excursions or annual institutional cycles.
 
-The exact test at vol. 3 (1861), p. 173 is therefore broader than `does Cooke mention the microscope?`: does the `Report of General Meeting` convert Cooke's teaching, projected lessons, resignation and replacement into successive institutional states?
+The exact test at vol. 3 (1861), p. 173 is therefore broader than `does Cooke mention the microscope?`: does the `Report of General Meeting` convert Cooke's teaching, projected lessons, resignation and replacement into successive institutional states, and does the issue place those changes in time soon enough to organize later action?
 
-## 10. Current analytical limit
+## 13. Current analytical limit
 
-The strongest conceptual claims presently belong to *Science-Gossip* in 1865 because the repeated page-level operations are controlled.
+The strongest conceptual claims presently belong to *Science-Gossip* in 1865–66 because the repeated page-level operations are controlled.
 
-Do not yet generalize that Victorian scientific periodicals as a class were administrative machines, material-dispatch systems or epistemic infrastructures. Comparative evidence from *Notes and Queries* establishes some shared editorial techniques; *Science-Gossip* shows a specific natural-history/microscopy use of those techniques.
+Do not yet generalize that Victorian scientific periodicals as a class were administrative machines, material-dispatch systems or epistemic infrastructures. Comparative evidence from *Notes and Queries* establishes some shared editorial techniques; Stainton's *Intelligencer* shows another natural-history periodical redistributing work around collecting seasons; *Science-Gossip* shows a specific monthly natural-history/microscopy use of those techniques.
 
 Similarly, do not claim that *Working Men's College Magazine* performed the same operations until its issue architecture is read directly.
 
-## 11. Historiographical placement in one compressed sequence
+## 14. Historiographical placement in one compressed sequence
 
-Secord makes communication part of knowledge production; Mussell shows repeated form filtering and pre-allocating reportable events; Hopwood, Schaffer and Secord place periodical seriality beside scientific-object and bureaucratic series; paper-technology work shows formatting and indexing doing epistemic rather than merely clerical work. The *Science-Gossip* pages bring these propositions together at the level of an editorial office handling questions and physical natural-history material month by month.
+Secord makes communication part of knowledge production; Mussell shows repeated form filtering and pre-allocating reportable events, while his work on repetition makes one issue's unfinished business available to the next; Hopwood, Schaffer and Secord place periodical seriality beside scientific-object and bureaucratic series; paper-technology work shows formatting and indexing doing epistemic rather than merely clerical work; periodical-time scholarship distinguishes the dated present from the longer rhythms of periodicity and succession. The natural-history pages add an object whose availability and form also change with time.
 
-The live contribution is therefore not a replacement theory of periodicals. It is a source-grounded shift of emphasis from `where knowledge travelled` to the recurrent documentary actions by which an observation, question, specimen or institutional event acquired a category, deadline, address and next state.
+The live contribution is therefore not a replacement theory of periodicals. It is a source-grounded shift from `where knowledge travelled` to the recurrent documentary and temporal actions by which an observation, question, specimen or institutional event acquired a category, deadline, address, next state and, sometimes, a next season in which it could be acted upon.
