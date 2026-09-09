@@ -1,6 +1,6 @@
 {
-  "schema_version": "4.0.0-current-saturation-router",
-  "updated": "2026-08-11",
+  "schema_version": "4.0.1-current-saturation-router",
+  "updated": "2026-09-09",
   "status": "ANALYTICAL_SATURATION_REACHED__NO_ACTIVE_DISCOVERY_QUEUE",
   "purpose": "Operational router after the 10–11 August upgrade sweep. The useful public-discovery phase is closed. Existing cases now supply enough distinct object/document mechanisms for synthesis and writing; remaining open edges are exact-source or item-level refinements.",
   "principle": "A next action must be capable of changing attribution, chronology, object identity, custody or historical mechanism. Geographic coverage, repeated web searching, collection-count growth and generic comparator accumulation are inactive.",
@@ -65,6 +65,12 @@
       "target": "Bourgogne / Smithsonian accession 217544",
       "source_needed": "accession file/catalog cards and full slide photography",
       "why_resume": "test the West Point apparatus-grouping bridge"
+    },
+    {
+      "target": "Working Men's College / Mordecai Cubitt Cooke / Ebenezer Cooke",
+      "source_needed": "user-supplied WM College periodical issue(s) from Gale, with page images and bibliographic identity",
+      "why_resume": "test dated Cooke activity, microscopy/natural-history teaching or material practice, and any source-grounded Cooke–Ruskin relation; promote only if the exact source changes chronology, attribution, teaching practice, custody or mechanism",
+      "intake_control": "data/analysis/wmc_cooke_gale_source_intake_2026-09-09.md"
     }
   ],
   "closed_mechanism_families": [
