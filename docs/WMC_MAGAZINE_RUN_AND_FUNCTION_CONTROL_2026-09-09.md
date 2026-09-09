@@ -2,119 +2,204 @@
 
 **Date:** 2026-09-09  
 **Branch:** `research/working-mens-microscopy-19c`  
-**Status:** bibliographic correction / conceptual upgrade for periodical-first RSVP line.
+**Status:** state-changing bibliographic correction. The earlier `Jan 1859–Jan 1861` provisional run is withdrawn: contemporary July 1861 testimony and an exact 1861 vol.3 science citation contradict a simple January 1861 termination. The terminal date remains unresolved, with January 1862 independently cited by Harrison and a separate periodical index listing 1859–1862.
 
-## 1. Run control
+## 1. Run control — corrected
 
-The safest current formulation is **January 1859 to January 1861, pending direct issue-level census**.
+### Start
 
-Current evidence:
+January 1859 remains the strongest current start date.
 
-- Open Library: *The Working Men's College Magazine*, Macmillan & Co., monthly, 3-volume digital object; start 1859.
-- A Boston University dissertation/research text states explicitly that the Magazine began in January 1859 under John Ludlow and ended in January 1861 under R. B. Litchfield; it also states that no successor periodical appeared until *The Working Men's College Journal* in February 1890. The note points to Ludlow's 7 March 1859 resignation letter, his autobiography, and Harrison's history for the editorial/financial history.
-- A later bibliography lists *Working Men's College Magazine*, 3 vols., 1859–1861, Macmillan.
-- Contemporary 1861 *Atlantic Monthly* testimony confirms the Magazine was monthly and still available as bound annual reading material in the College office/reading room.
+### January 1861 endpoint is no longer acceptable as governing control
 
-A secondary preview elsewhere appears to label a quotation `Working Men's College Magazine, January 1862`. Because this conflicts with the more explicit run statements above, **do not use January 1862 as a run endpoint without inspecting the cited issue / Harrison reference directly.** Preserve as `RUN_CONFLICT`.
+A Boston University research text states that the Magazine began in January 1859 under John Ludlow and ended in January 1861 under R. B. Litchfield. That claim must now be downgraded because it conflicts with multiple independent pieces of later-1861 evidence.
 
-### Controlled state
+#### Contemporary July 1861 testimony
 
-`RUN_PROVISIONAL = Jan 1859–Jan 1861`
+The July 1861 *Atlantic Monthly* article `The London Working-Men's College` describes the College as publishing a **monthly** *Working-Men's College Magazine*. The visitor encounters copies in the College office/reading room, takes/buys `the volume for the year`, and uses it to read up on the College before joining a class.
 
-`RUN_CONFLICT = alleged Jan 1862 reference requires direct verification`
+This is direct contemporary evidence that the Magazine was an active/current institutional serial in the visitor's 1861 account.
+
+#### Exact 1861 Volume 3 citation
+
+N. E. C. Smith's 2023 study of popular microscopy cites:
+
+> `Report of General Meeting`, *Working Men's College Magazine*, **3 (1861), 173**.
+
+Smith uses this exact citation for Mordecai Cubitt Cooke's 1861 Physiological Botany class and its planned microscope use.
+
+Thus a third Magazine volume exists in 1861 and contains institutional science reporting.
+
+#### Additional 1861 page-level citations
+
+Recent scholarship also cites multiple Magazine pages explicitly as 1861 material, including R. B. Litchfield passages and an untitled contribution at preliminary page `iii`.
+
+### January 1862 remains a live terminal-control problem
+
+J. F. C. Harrison's centenary history explicitly attributes a quotation to:
+
+> *The Working Men's College Magazine*, **January 1862**.
+
+A separate periodical index lists the title as **1859–1862**.
+
+Neither is yet a directly inspected January 1862 issue, so the terminal month must remain open.
+
+### Bound-volume bibliography
+
+Open Library / Goldsmiths' Library reproduction describes:
+
+- monthly publication;
+- Macmillan & Co.;
+- **3 volumes**;
+- no more published;
+- includes index.
+
+A later bibliography gives `3 vols., 1859–1861`.
+
+The three-volume structure must not be equated automatically with three calendar years or a January 1861 stop.
+
+### Current controlled state
+
+`START = JAN_1859_STRONG`
+
+`ACTIVE_IN_1861 = CLOSED`
+
+`VOL_3_1861 = CLOSED_SECONDARY_EXACT_CITATION`
+
+`JAN_1861_TERMINATION = CONTRADICTED / WITHDRAWN_AS_CONTROL`
+
+`TERMINAL_DATE = OPEN; JAN_1862_LIVE_CANDIDATE`
+
+`RUN_STATE = CONFLICTED_BUT_EXTENDS_BEYOND_JAN_1861`
 
 ## 2. Editorial control
 
 Current secondary reconstruction:
 
 - launch editor: John Ludlow;
-- later/end editor: R. B. Litchfield;
-- Ludlow's resignation from editorship is tied to internal College controversy and a surviving 7 March 1859 letter;
-- financial difficulty / insufficient circulation is given as a reason for the Magazine's demise.
+- Ludlow resigned from editorship, with a surviving 7 March 1859 resignation letter;
+- later editorial responsibility associated with R. B. Litchfield;
+- financial difficulty / insufficient circulation contributed to closure.
 
-Do not turn this into a simple personal-editor narrative until the surviving issues identify masthead/editorial attributions issue by issue.
+Do not infer exact editorial succession or terminal issue from this reconstruction. Issue-level masthead/editorial control is still required.
 
 ## 3. Periodical as institutional interface
 
-The strongest conceptual upgrade comes from the contemporary *Atlantic Monthly* visitor account (1861).
+The 1861 *Atlantic Monthly* visitor supplies a direct user-level mechanism:
 
-The visitor describes the WMC office/readers' room with College magazines, catalogues and circulars physically present. He says the College published a monthly Magazine devoted to its interests, bought the annual volume, sat down in the reading room, and used it to learn how the College worked before deciding what class to join.
+`College office / reading room -> monthly Magazine / annual bound volume -> reader learns institutional structure -> membership -> class choice`
 
-This closes a functional chain:
-
-`College office / reading room -> Magazine available for purchase -> reader acquires institutional knowledge -> reader chooses participation`
-
-The Magazine therefore should not be classified only as `institutional record` or `house organ`. It functioned as an **orientation and participation interface**.
+The Magazine therefore functioned as more than a house record. It was an **orientation and participation interface**.
 
 ## 4. Periodical as curricular / epistemic guide
 
-Modern scholarship using the Magazine identifies R. B. Litchfield's `What shall I read?` as an example of the Magazine providing students with a roadmap for pursuing knowledge. Other cited Magazine passages articulate the College's distinction between liberal education and narrowly wage-oriented / utilitarian instruction.
+Modern scholarship identifies R. B. Litchfield's `What shall I read?` and related Magazine writing as guides to study and institutional self-definition.
 
-This gives a second chain:
+Controlled chain:
 
-`institutional educational ideal -> serialized editorial/article form -> reader guidance -> curricular self-definition`
+`College educational ideal -> serialized article/editorial -> reading guidance -> student's self-education`
 
-For the RSVP project, the periodical can therefore be read as an infrastructure that **classifies knowledge and directs study**, not merely reports classes already constituted elsewhere.
+The Magazine could classify knowledge and direct study, not merely report pre-existing classes.
 
-## 5. Science / natural-history relevance
+## 5. Science / natural-history state — upgraded
 
-Current searches do not yet close a dedicated microscopy article in the Magazine.
+The earlier state `no science item closed` is superseded.
 
-However, the surrounding WMC evidence makes the following bounded questions high priority:
+### 5.1 Cooke's 1861 Physiological Botany class enters the Magazine
 
-- geology / natural history / botany in issue contents;
-- College Museum notices, donations, identifications and displays;
-- Cooke / Grugeon / Slade / other natural-history teachers and pupils;
-- excursions and specimen acquisition;
-- book/library recommendations for scientific study;
-- whether science is represented as liberal knowledge, useful knowledge, practical instruction, or some combination;
-- whether periodical genres mediate disagreement over technical vs liberal education.
+Smith cites `Report of General Meeting`, *Working Men's College Magazine* 3 (1861): 173 for Cooke's class. His discussion states that Cooke emphasized microscope use in the teaching plan.
 
-Do not infer a microscopy article from the later 1861 Cooke Physiological Botany class without issue-level evidence.
+Evidence state:
 
-## 6. RSVP material-state targets
+`SCIENCE_CLASS_TO_MAGAZINE = CLOSED_SECONDARY_EXACT_CITATION`
 
-Physical inspection should record:
+`MICROSCOPE_PLAN_CONTENT = CLOSED_THROUGH_SCHOLARLY_READING / PRIMARY_PAGE_PENDING`
 
-- whether the 3-volume bound state preserves original issue boundaries;
-- wrappers/covers;
+Do not quote the Magazine wording until p.173 itself is inspected.
+
+### 5.2 Alfred Grugeon published botany papers in the College magazine
+
+The Darwin Correspondence Project's authority entry for Alfred Grugeon states that he:
+
+- took botany lessons at WMC;
+- became a certified instructor and taught botany there;
+- **contributed several papers on botany to the college magazine**;
+- published a botany primer in 1873.
+
+The entry cites Ray Desmond and John Ramsbottom's 1917 *Journal of Botany* notice.
+
+Evidence state:
+
+`GRUGEON_BOTANY_IN_COLLEGE_MAGAZINE = STRONG_SECONDARY_AUTHORITY`
+
+`EXACT_ARTICLE_TITLES / ISSUES / PAGES = PENDING`
+
+This removes the earlier bounded-negative assumption that science content had not yet been evidenced in the Magazine.
+
+### 5.3 Institutional science remains independently documented
+
+Outside the Magazine, contemporary/retrospective sources also establish WMC Museum collections, natural-history activity, botany, geology and scientific objects. These should remain separate controls rather than being back-filled into serial content.
+
+## 6. Alfred Grugeon opens a longitudinal print-practice line
+
+Current evidence now permits a relation-specific actor/print sequence:
+
+```text
+WMC botany learner / teacher
+    ↓
+several botany papers in College magazine — exact items pending
+    ↓
+Science-Gossip, 1 June 1865 — direct botanical correspondence
+    ↓
+Society of Amateur Botanists, 2 May 1866 — Grugeon reads morphology paper
+    ↓
+Geological Magazine, 1868 — Hackney Downs correspondence/article
+    ↓
+1873 WMC Natural History Society and Field Club — papers/collecting/display
+    ↓ institutional break
+1890s botanical walks / Lubbock Field Club / WMC Journal documentation
+```
+
+This is **actor and practice recurrence across print forms**, not proof of one uninterrupted intellectual programme or institutional genealogy.
+
+## 7. RSVP material-state targets
+
+Physical inspection should now prioritize:
+
+- exact Volume 3 structure and p.173;
+- original wrappers/covers;
 - advertisements and publishers' lists;
-- supplements (modern scholarship already cites a February 1859 Supplement);
-- issue numbering and pagination;
-- indexes;
-- notices/circulars that may have been bound separately or omitted;
-- evidence that annual binding reorganized what readers originally received monthly.
+- supplements;
+- contents/indexes;
+- Grugeon's botany papers and their genre/placement;
+- short science notices, class reports, museum/club matter;
+- whether annual bindings preserve monthly issue boundaries;
+- evidence for a January 1862 issue or other terminal material;
+- differences among Goldsmiths', BL, and WMC copies.
 
-This is especially important because the *Atlantic Monthly* visitor encountered both **individual institutional print in the office** and an **annual bound volume**. The monthly/annual relation is itself part of how the serial functioned.
+The grant question has shifted from `did science appear?` to:
 
-## 7. Successor control
+> **what forms did scientific teaching, observation and association take inside the Magazine, and how did issue/material structure make them usable to readers?**
 
-Current explicit secondary statement:
+## 8. Sources controlling this correction
 
-- *The Working Men's College Journal* begins February 1890.
+- *Atlantic Monthly* 8, no.45 (July 1861), `The London Working-Men's College` — contemporary monthly-publication and user-interface testimony.
+- N. E. C. Smith, `Fertile substrate: the rise, fall, and succession of popular microscopy in Great Britain` (2023), especially footnote 27: `Report of General Meeting`, *Working Men's College Magazine* 3 (1861), 173.
+- Darwin Correspondence Project, `Alfred Grugeon` authority entry — botany papers in the college magazine; sources Desmond 1994 and *Journal of Botany* 55 (1917): 193–94.
+- J. F. C. Harrison, *A History of the Working Men's College, 1854–1954* — explicit `January 1862` attribution.
+- Open Library / Goldsmiths' Library bibliographic record — monthly, 3 volumes, no more published.
+- Macmillan bibliographical catalogue — Magazine published under direction of WMC Council.
+- William S. Peterson, `The Working Men's College Magazine: A List of Attributions for Anonymous and Pseudonymous Articles, 1859–1860`, *Victorian Periodicals Newsletter* 11.2 (1978): 58–60 — attribution-control target.
 
-This creates a nearly three-decade gap after the Magazine's demise if the Jan 1861 endpoint holds.
+## Immediate next pass
 
-Research questions:
-
-- why did institutional serial publication restart in 1890;
-- whether the Journal described itself as revival/successor;
-- whether its authorship/governance differed from the Magazine;
-- whether science/natural-history content had changed by the later nineteenth century.
-
-## 8. Sources to retain
-
-- Open Library, *The Working Men's College Magazine* bibliographic record.
-- *Atlantic Monthly* 8, no.45 (July 1861), `The London Working-Men's College`.
-- Boston University repository text giving Jan 1859–Jan 1861 Magazine run and Feb 1890 Journal restart.
-- later bibliography listing 3 vols., 1859–1861.
-- Marcella Pellegrino Sutcliffe, `The origins of the 'two cultures' debate in the adult education movement: the case of the Working Men's College (c.1854–1914)` — use for issue-level leads, but page-check the primary Magazine before publication quotation.
+1. recover/inspect WMCM vol.3 p.173;
+2. extract Grugeon's exact botany papers from the Magazine;
+3. inspect Peterson 1978 attribution list for Grugeon and other natural-history contributors;
+4. inspect Ramsbottom 1917 pp.193–94;
+5. resolve January 1862 by direct issue/volume evidence;
+6. build science-content ledger by issue/genre rather than keyword-only searching.
 
 ## Stop rule
 
-Do not expand this into a general ideological history of the WMC. The Magazine remains in the RSVP corpus when it performs one of four observable periodical functions:
-
-1. institutional orientation / participation;
-2. curricular or reading guidance;
-3. circulation/reporting of science, objects, classes or associations;
-4. material serial organization that changes how information could be encountered or acted upon.
+Do not reinstate January 1861 as the end date. Do not normalize January 1862 until an issue/page is directly inspected. Do not convert the Darwin authority statement into invented article titles. Do not turn Grugeon's recurring appearances into an uninterrupted institutional genealogy. Preserve each serial/association edge with its own source state.
