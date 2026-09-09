@@ -71,9 +71,9 @@ Current bibliographic evidence:
 
 Printed title:
 
-*The Circulator. A magazine of literature, Science & Art. Conducted by members of the Haley Hill Literary and Scientific Society*, 1866–67, Halifax, R. Leyland & Son.
+*The Circulator. A magazine of literature, Science & Art. Conducted by members of the Haley Hill Literary and Scientific Society*, 1866–67.
 
-Known content includes geology, natural history and local mollusks; James Spencer contributed a sequence of geology articles.
+Known content includes geology and natural history; James Spencer contributed a continued sequence of local geology articles.
 
 **Key question:** what changed in contributors, audience, content, geographic reach and object exchange when manuscript circulation became print?
 
@@ -115,9 +115,40 @@ Chain currently closed only to:
 
 This is a high-value case because it shows an adult-education institution crossing directly into specialist microscopical serial print.
 
-## Function H — exchange notice as material transaction infrastructure
+## Function H — periodical proposal becomes associational action
 
-### Hardwicke's Science-Gossip
+### *Hardwicke's Science-Gossip* -> Quekett Microscopical Club, 1865
+
+This chain is now page/date closed at its two serial endpoints.
+
+**1 May 1865, p.116:** W. Gibson's `Proposal to London Microscopists` uses *Science-Gossip* to argue for an amateur association, test reader interest, and invite cooperation. Gibson proposes monthly central meetings and explicitly invokes the Society of Amateur Botanists as a model.
+
+**14 June 1865:** provisional committee formed.
+
+**7 July 1865:** constitutive meeting at St Martin's Schools; name/rules adopted.
+
+**1 August 1865, p.189:** *Science-Gossip* publishes the adopted resolutions and tells prospective members they may pay the annual subscription to Robert Hardwicke, Treasurer pro tem., at 192 Piccadilly.
+
+Closed chain:
+
+`reader letter -> printed proposal / demand test -> provisional committee -> constitutive meeting -> printed rules + meeting schedule + payment route -> reader can become member`
+
+This is stronger than `periodical reports society`: serial print participates at both the pre-institutional proposal stage and the post-meeting recruitment/administrative stage.
+
+Function codes:
+
+- `LETTER_TO_ASSOCIATION`
+- `PRINT_DEMAND_TEST`
+- `MEETING_TO_NOTICE`
+- `NOTICE_TO_MEMBERSHIP`
+- `PRINT_TO_PAYMENT_CHANNEL`
+- `PERIODICAL_RECRUITMENT_INFRA`
+
+**Causal boundary:** do not state that *Science-Gossip* alone caused Quekett. The controlled claim is that the magazine was an observable component of the organizational sequence.
+
+## Function I — exchange notice as material transaction infrastructure
+
+### *Hardwicke's Science-Gossip*
 
 Existing slide-corpus work shows contributors offering/exchanging slides, gatherings and related material through the periodical; some objects/makers then reappear in specialist microscopical journals.
 
@@ -127,7 +158,25 @@ Chain type:
 
 This title is the clearest current case where periodical text and object circulation must be reconstructed together.
 
-## Function I — local practice recoded by specialist / metropolitan journals
+Cooke's 1867 proposal for a separate Quekett journal is especially important because he explicitly differentiated its formal papers/proceedings function from *Science-Gossip*'s exchanges, answers to correspondents and short communications. This gives actor-level evidence that exchange/correspondence was a designed serial function, not incidental classified matter.
+
+## Function J — cross-periodical relay
+
+### Quekett formation -> *English Mechanic*, September 1865
+
+Quekett's institutional history states that the Club's formation was announced in the September 1865 *English Mechanic*, including an extract from the prospectus.
+
+Current state:
+
+`CROSS_PERIODICAL_RELAY / PRIMARY_PAGE_PENDING`
+
+Chain:
+
+`Science-Gossip proposal -> organization / prospectus -> Science-Gossip formal notice -> English Mechanic prospectus extract -> additional technical readership`
+
+Do not assign exact page/text until the 1865 *English Mechanic* item is directly recovered.
+
+## Function K — local practice recoded by specialist / metropolitan journals
 
 Candidate relay:
 
@@ -136,6 +185,18 @@ Candidate relay:
 Existing Sorby/Sheffield work contains multiple examples of local talks, techniques, preparations and objects entering specialist or transatlantic serial reporting.
 
 For RSVP, retain only chains tied to adult education, working-men institutions, popular microscopy, or the serial circulation of materials.
+
+## Later control — periodical distribution as remote-membership infrastructure
+
+A later Quekett annual-report passage (series 2, vol.11, 1910–12; outside the core nineteenth-century scope) states that proceedings/abstracts appeared in *The English Mechanic* soon after meetings and were sent to country members living more than twenty miles from London.
+
+Use this **only as a later control**, not as evidence that the same formal distribution mechanism operated in 1865.
+
+It demonstrates what the periodical relay could become institutionally:
+
+`London meeting -> rapid press abstract -> copy sent to distant member -> remote participation / informational inclusion`
+
+This makes the 1865 *English Mechanic* announcement worth tracing forward, but does not license continuity without intervening evidence.
 
 ## Candidate comparative control — Cheltenham Working Men's College Magazine
 
@@ -158,7 +219,14 @@ This is not yet enough to establish run, institutional relation, content or surv
 - `EVENT_TO_PERIODICAL` — lecture/event becomes periodical article;
 - `OFFICE_TO_LETTER` — institutional office/position becomes periodical correspondence;
 - `INSTITUTION_TO_SPECIALIST` — adult-education institution enters specialist proceedings;
+- `LETTER_TO_ASSOCIATION` — printed letter explicitly solicits organization;
+- `PRINT_DEMAND_TEST` — periodical publication tests/collects reader interest;
+- `MEETING_TO_NOTICE` — meeting resolution returns to periodical form;
+- `NOTICE_TO_MEMBERSHIP` — printed notice supplies actionable route into organization;
+- `PRINT_TO_PAYMENT_CHANNEL` — periodical supplies address/person for subscription payment;
+- `PERIODICAL_RECRUITMENT_INFRA` — serial print operates as recruitment infrastructure;
 - `EXCHANGE_TO_OBJECT` — printed exchange enables material transaction;
+- `CROSS_PERIODICAL_RELAY` — same institutional message moves into a second periodical readership;
 - `LOCAL_TO_METRO` — local practice recoded for wider specialist/general audience;
 - `REPRINT` — text moves between periodicals;
 - `AD_TO_PURCHASE` — advertisement/catalogue enables purchase;
@@ -174,7 +242,9 @@ The project is no longer best phrased as `periodicals reported working-men's sci
 
 Current stronger working proposition:
 
-> Serial print was one of the infrastructures through which nineteenth-century working-men's educational institutions recruited participants, organized reading, represented curricula, converted lectures into public arguments, connected with specialist societies, and moved scientific objects and practices between readers.
+> Serial print was one of the infrastructures through which nineteenth-century working-men's educational and amateur-scientific communities recruited participants, organized reading, represented curricula, converted lectures into public arguments, connected with specialist societies, and moved scientific objects and practices between readers.
+
+The Science-Gossip/Quekett sequence now directly supports `recruited participants` at transaction level: proposal, meeting formation, printed rules and an actionable payment route can all be separately observed.
 
 This remains a working proposition. Each verb must be supported by a closed transaction, not by institutional proximity alone.
 
@@ -184,5 +254,6 @@ This remains a working proposition. Each verb must be supported by a closed tran
 2. Sheffield Journal issue/content census.
 3. Halifax *Circulator* issue/content and manuscript-to-print comparison.
 4. Hackney QJMS p.194 closure.
-5. Search for explicit `advertisement -> purchase`, `notice -> attendance`, and `exchange -> physical object` chains tied to working-men institutions.
-6. Identify which chains require RSVP-funded BL physical inspection or BNA full text rather than more open-web searching.
+5. Recover the September 1865 *English Mechanic* Quekett item at exact issue/page level.
+6. Search for explicit `advertisement -> purchase`, `notice -> attendance`, and `exchange -> physical object` chains tied to working-men / amateur-science institutions.
+7. Identify which chains require RSVP-funded BL physical inspection or BNA full text rather than more open-web searching.
