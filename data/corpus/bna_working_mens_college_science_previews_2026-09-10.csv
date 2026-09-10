@@ -1,0 +1,103 @@
+science_match_terms,article_id,publication_date,publication_title,page_number,free_to_view,article_type
+specimen,BL/0000418/18621018/020,1862-10-18,Cambridge Independent Press,5,False,ARTICLE
+museum,BL/0002247/18690417/102,1869-04-17,Bee-Hive,4,True,ADVERTISEMENT
+museum,BL/0001000/18690825/043,1869-08-25,London Daily Chronicle,4,False,ARTICLE
+botan,BL/0001000/18691110/003,1869-11-10,London Daily Chronicle,1,False,ARTICLE
+botan,BL/0001000/18691112/007,1869-11-12,London Daily Chronicle,1,False,ARTICLE
+physiolog,BL/0001442/18691113/009,1869-11-13,Leigh Chronicle and Weekly District Advertiser,1,False,ARTICLE
+museum,BL/0004596/18700106/014,1870-01-06,Echo (London),3,False,ARTICLE
+physiolog,BL/0001652/18701029/025,1870-10-29,Globe,4,False,ARTICLE
+botan,BL/0000060/18701213/008,1870-12-13,Glasgow Herald,3,True,ARTICLE
+geolog,BL/0002249/18710107/098,1871-01-07,Bee-Hive,8,True,ADVERTISEMENT
+physiolog,BL/0001652/18711014/028,1871-10-14,Globe,5,False,ARTICLE
+field club;geolog,BL/0002292/18711020/035,1871-10-20,Bicester Herald,4,False,ARTICLE
+microscop,BL/0001527/18711020/017,1871-10-20,Diss Express,2,False,ARTICLE
+field club,BL/0002204/18711021/024,1871-10-21,Buckingham Express,2,False,ARTICLE
+field club,BL/0002217/18711021/018,1871-10-21,Tewkesbury Register,2,False,ARTICLE
+microscop;field club,BL/0001546/18711024/055,1871-10-24,Brechin Advertiser,3,False,ARTICLE
+botan,BL/0001652/18720423/026,1872-04-23,Globe,4,False,ARTICLE
+specimen,BL/0004596/18730103/046,1873-01-03,Echo (London),6,False,ARTICLE
+microscop,BL/0001652/18730103/015,1873-01-03,Globe,3,False,ARTICLE
+botan,BL/0000054/18730412/003,1873-04-12,The Examiner,10,True,ARTICLE
+botan;physiolog,BL/0005087/18730501/031,1873-05-01,Bookseller,13,False,ARTICLE
+geolog,BL/0002814/18731027/004,1873-10-27,Hour,2,True,ARTICLE
+specimen,BL/0002616/18740110/093,1874-01-10,Tamworth Miners' Examiner and Working Men's Journal,8,True,ARTICLE
+field club;museum;specimen;geolog,BL/0006027/18740131/078,1874-01-31,Academy,24,False,ARTICLE
+physiolog,BL/0002249/18751002/072,1875-10-02,Bee-Hive,16,True,ARTICLE
+physiolog,BL/0002249/18751009/061,1875-10-09,Bee-Hive,16,True,ARTICLE
+museum,BL/0002249/18751204/029,1875-12-04,Bee-Hive,14,True,ARTICLE
+physiolog,BL/0001578/18770929/030,1877-09-29,Illustrated London News,6,False,ARTICLE
+botan,BL/0000575/18790425/082,1879-04-25,Aberdeen Press and Journal,3,False,ARTICLE
+botan,BL/0001081/18790426/095,1879-04-26,Buckingham Advertiser and Free Press,7,False,ARTICLE
+botan,BL/0000270/18790426/002,1879-04-26,Bucks Herald,3,False,ARTICLE
+botan,BL/0000762/18790426/050,1879-04-26,Bury Free Press,3,False,ARTICLE
+botan,BL/0002470/18790426/063,1879-04-26,Central Somerset Gazette,6,False,ARTICLE
+botan,BL/0000157/18790426/011,1879-04-26,Cheshire Observer,3,False,ARTICLE
+botan,BL/0001275/18790426/022,1879-04-26,Cornish Times,2,False,ARTICLE
+botan,BL/0002974/18790426/021,1879-04-26,Cradley Heath & Stourbridge Observer,2,True,ARTICLE
+botan,BL/0000393/18790426/023,1879-04-26,Gloucestershire Chronicle,2,False,ARTICLE
+botan,BL/0000073/18790426/015,1879-04-26,Oxford Journal,7,True,ARTICLE
+botan,BL/0001738/18790426/025,1879-04-26,Paisley & Renfrewshire Gazette,2,False,ARTICLE
+laboratory,BL/0001652/18800424/010,1880-04-24,Globe,3,False,ARTICLE
+geolog,BL/0002627/18811119/076,1881-11-19,The Queen,24,False,ARTICLE
+geolog,BL/0005049/18811121/035,1881-11-21,London Daily Chronicle,3,False,ILLUSTRATED
+geolog,BL/0001427/18811121/085,1881-11-21,Morning Advertiser,6,False,ARTICLE
+geolog,BL/0001981/18811126/065,1881-11-26,Hampstead & Highgate Express,3,False,ARTICLE
+physiolog,BL/0000181/18820515/028,1882-05-15,Sheffield Independent,3,False,ARTICLE
+physiolog,BL/0001598/18820516/068,1882-05-16,Mid Sussex Times,6,False,ARTICLE
+physiolog,BL/0005832/18820517/057,1882-05-17,Lytham Times,6,False,ARTICLE
+physiolog,BL/0002620/18820520/014,1882-05-20,Denton and Haughton Examiner,3,True,ARTICLE
+physiolog,BL/0003532/18820520/017,1882-05-20,Gorey Correspondent,2,False,ARTICLE
+physiolog,BL/0004155/18820520/056,1882-05-20,Loftus Advertiser,6,False,ARTICLE
+physiolog,BL/0002651/18820520/076,1882-05-20,Sheerness Times Guardian,6,False,ARTICLE
+physiolog,BL/0001709/18820520/072,1882-05-20,Shipley Times and Express,7,False,ARTICLE
+physiolog,BL/0003105/18820520/075,1882-05-20,Swansea Journal,7,False,ARTICLE
+physiolog,BL/0006302/18820530/024,1882-05-30,Waterford Mail,4,False,ARTICLE
+physiolog,BL/0005839/18820826/083,1882-08-26,"Saturday Review of Politics, Literature, Science and Art",25,False,ARTICLE
+physiolog,BL/0004615/18820902/091,1882-09-02,Leytonstone Express and Independent,5,False,ARTICLE
+botan,BL/0000174/18821111/040,1882-11-11,Morning Post,5,False,ARTICLE
+physiolog,BL/0002627/18821209/123,1882-12-09,The Queen,45,False,ARTICLE
+museum,BL/0000250/18831110/098,1883-11-10,Sheffield Daily Telegraph,14,False,ARTICLE
+specimen,BL/0002964/18840404/027,1884-04-04,Colonies and India,9,True,ILLUSTRATED
+botan,BL/0000174/18840426/039,1884-04-26,Morning Post,5,False,ARTICLE
+physiolog,BL/0004596/18861023/133,1886-10-23,Echo (London),4,False,ADVERTISEMENT
+botan,BL/0000098/18861113/019,1886-11-13,Pall Mall Gazette,14,True,ADVERTISEMENT
+physiolog,BL/0004596/18861209/068,1886-12-09,Echo (London),1,False,ADVERTISEMENT
+botan,BL/0000174/18881124/047,1888-11-24,Morning Post,5,False,ARTICLE
+botan,BL/0001485/18890125/069,1889-01-25,St James's Gazette,13,False,ARTICLE
+museum,BL/0000174/18890302/035,1889-03-02,Morning Post,5,False,ARTICLE
+microscop,BL/0001485/18890308/094,1889-03-08,St James's Gazette,14,False,ARTICLE
+museum,BL/0001485/18890315/084,1889-03-15,St James's Gazette,15,False,ARTICLE
+museum,BL/0001485/18890322/074,1889-03-22,St James's Gazette,14,False,ARTICLE
+museum,BL/0000098/18890402/007,1889-04-02,Pall Mall Gazette,2,True,ARTICLE
+museum,BL/0004822/18890405/267,1889-04-05,Building News,38,False,ARTICLE
+museum,BL/0000035/18890406/239,1889-04-06,Bristol Mercury,13,True,ARTICLE
+museum,BL/0000174/18890406/035,1889-04-06,Morning Post,5,False,ARTICLE
+museum,BL/0004174/18890406/061,1889-04-06,Trowbridge Chronicle,7,False,ARTICLE
+museum,BL/0001955/18890406/130,1889-04-06,Wilts and Gloucestershire Standard,8,False,ARTICLE
+natural history,BL/0001112/18900201/042,1890-02-01,Daily Telegraph & Courier (London),3,False,ARTICLE
+geolog,BL/0006131/18901026/180,1890-10-26,Weekly Times & Echo (London),13,False,ARTICLE
+botan,BL/0001652/18910109/009,1891-01-09,Globe,2,False,ARTICLE
+botan,BL/0000183/18930114/065,1893-01-14,London Evening Standard,5,False,ARTICLE
+botan,BL/0001427/18930114/083,1893-01-14,Morning Advertiser,3,False,ADVERTISEMENT
+microscop,BL/0000174/18930211/056,1893-02-11,Morning Post,5,False,ARTICLE
+museum,BL/0000667/18940115/004,1894-01-15,Birmingham Daily Gazette,4,False,ARTICLE
+microscop,BL/0005049/18940414/030,1894-04-14,London Daily Chronicle,3,False,ARTICLE
+museum,BL/0007603/18961003/126,1896-10-03,Star,3,False,ARTICLE
+botan,BL/0000174/18971211/053,1897-12-11,Morning Post,5,False,ARTICLE
+natural history;museum,BL/0000183/18980623/016,1898-06-23,London Evening Standard,3,False,ARTICLE
+botan,BL/0007603/18981122/112,1898-11-22,Star,3,False,ARTICLE
+botan,BL/0001112/18981126/060,1898-11-26,Daily Telegraph & Courier (London),6,False,ARTICLE
+laboratory,BL/0001485/18981128/016,1898-11-28,St James's Gazette,4,False,ARTICLE
+museum,BL/0007603/18981217/116,1898-12-17,Star,3,False,ARTICLE
+botan,BL/0000174/18990114/058,1899-01-14,Morning Post,5,False,ARTICLE
+museum,BL/0007603/18990128/138,1899-01-28,Star,3,False,ARTICLE
+museum,BL/0007603/18990204/132,1899-02-04,Star,3,False,ARTICLE
+museum,BL/0007603/18990304/106,1899-03-04,Star,3,False,ARTICLE
+museum,BL/0007603/18990311/021,1899-03-11,Star,2,False,ARTICLE
+lantern,BL/0000174/19000208/049,1900-02-08,Morning Post,5,False,ARTICLE
+botan,BL/0000174/19000310/062,1900-03-10,Morning Post,7,False,ARTICLE
+lantern,BL/0000174/19000324/057,1900-03-24,Morning Post,5,False,ARTICLE
+laboratory,BL/0000902/19001207/024,1900-12-07,South Wales Echo,3,False,ARTICLE
+museum,BL/0004596/19030214/077,1903-02-14,Echo (London),4,False,ILLUSTRATED
+lantern,BL/0001769/19040123/069,1904-01-23,Holborn and Finsbury Guardian,5,False,ARTICLE
