@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: ARCHIVAL ROUTING NOTE. This file separates three different record types that have been repeatedly conflated in secondary accounts: early lump-sum licence sales, later per-ton Bessemer royalties, and surviving formal licence agreements.
+Status: ARCHIVAL ROUTING NOTE. This file separates three different record types that have been repeatedly conflated in secondary accounts: early lump-sum licence sales, later per-ton Bessemer royalties, and surviving formal licence agreements. It now also distinguishes the company/legal archive routes from Charles Cammell's personal estate papers.
 
 ## 1. The £27,000 episode is already segregated
 
@@ -47,7 +47,41 @@ Catalogue route:
 
 Even though the object page is not currently rendering through this environment, the catalogue record proves that formal Bessemer licence agreements can survive as discrete archival volumes.
 
-## 4. Revised archival target for Brown / Cammell
+## 4. Cammell archive routing: company/legal records versus personal estate papers
+
+The public Sheffield/Derbyshire catalogues now allow a useful negative/positive separation.
+
+### Low-priority / exclude from business-licence search
+
+Derbyshire Record Office **D7806** is the personal/family estate fonds of Charles Cammell. Its arrangement is by Hathersage/Norton property and estate deeds. It is useful for biography/property history but is **not** the primary place to search for the 1861 Bessemer business licence.
+
+The collection description itself says the material is deeds and related papers for estates near Hathersage; its former Sheffield reference was `CamD`.
+
+Source:
+- Derbyshire Record Office D7806 catalogue.
+
+Therefore use:
+
+`D7806 = PERSONAL_ESTATE / PROPERTY`
+
+not
+
+`D7806 = COMPANY_LICENSING_ARCHIVE`.
+
+### Higher-priority company/legal routes
+
+Sheffield Libraries and Archives' company-record guide identifies:
+
+- **`ESC/CC`** — Sheffield Archives catalogue authority/record for Charles Cammell and Company Limited, Cyclops Steel and Iron Works;
+- **`WED/312–315`** — Charles Cammell & Co deeds etc., 18th–19th century;
+- **`X306/6/4/1`** — Plan of Cyclops Works, 1860s;
+- **`MD8121`** — later Cammell Laird salaries journals, staff lists, registers of deeds, deeds, finance and legal papers, 19th–20th century.
+
+Public guides do not yet expose a document literally titled `Bessemer licence, 1861` inside these series. The important gain is routing: **company/legal/deed series are now distinguished from Cammell's personal estate fonds.**
+
+Use `MD8121` cautiously. The accession contains records from multiple later Sheffield steel concerns and successor companies; do not assume every 19th-century item belongs to Charles Cammell & Co. or reaches back to 1861 until item-level catalogue control is obtained.
+
+## 5. Revised archival target for Brown / Cammell
 
 Do not search only for a document literally titled `Cammell Bessemer licence`.
 
@@ -75,14 +109,15 @@ Because later licensing was production-linked, potentially higher-yield records 
 
 ### C. Company legal / deed / minute records
 
-Known Cammell archive routes include:
-- Sheffield Archives **MD8121** — Cammell Laird salaries journals, staff lists, registers of deeds, deeds, finance and legal papers, 19th–20th century;
-- Sheffield Archives **WED/312–315** — Charles Cammell & Co deeds etc., 18th–19th century;
-- Sheffield Archives **X306/6/4/1** — Plan of Cyclops Works, 1860s.
+Priority order now:
 
-The public company guide has not yet exposed a specific 1861 licence reference inside these collections. Do not invent one.
+1. `ESC/CC` — company-level Cammell archive authority / catalogue route;
+2. `WED/312–315` — 18th–19th-century company deeds;
+3. `MD8121` — finance/legal/deed material, but only after item-level date/provenance control;
+4. `X306/6/4/1` — plant-layout object, useful for material/plant transition but not itself contractual evidence;
+5. Science Museum Group / Bessemer-Longsdon papers using the Barrow licence-agreement catalogue vocabulary.
 
-## 5. Chronology to preserve while searching
+## 6. Chronology to preserve while searching
 
 Current independently controlled sequence:
 
@@ -98,7 +133,7 @@ Current independently controlled sequence:
 
 The archival search is now for the **record form and financial mechanics** of Brown/Cammell adoption, not for another generic confirmation of the years.
 
-## 6. Why this matters for Wedding
+## 7. Why this matters for Wedding
 
 Wedding's 1860 notebook sits immediately before Cammell's adoption but inside an already functioning patent/licence economy. The access regime at Bessemer's Sheffield works and the later per-ton royalty regime together suggest that technical disclosure was institutionally connected to prospective transfer and measurable production.
 
@@ -110,12 +145,18 @@ to:
 
 > **How were different layers of process knowledge disclosed, witnessed, inscribed and then converted into licensed production measured through tonnage and royalty?**
 
-Wedding's notebook is evidence from the disclosure/inscription side of that chain; a Cammell licence or royalty ledger would provide the contractual/accounting side.
+Wedding's notebook is evidence from the disclosure/inscription side of that chain; a Cammell licence, company minute or royalty ledger would provide the contractual/accounting side.
 
-## 7. Immediate next archive operations
+## 8. Immediate next archive operations
 
-1. Search Science Museum Group documents using the Barrow object's catalogue vocabulary, not only company names.
-2. Search Sheffield Archives MD8121 and WED/312–315 for `Bessemer`, `patent`, `licence`, `royalty`, `Longsdon`, `steel rails`, `returns`, `tonnage`.
-3. Search National Archives / Archives Hub for Cammell legal/finance collections containing patent agreements or royalty accounts.
-4. Search Bessemer / Longsdon papers and litigation/patent-extension evidence for schedules of licensees and royalty payments.
-5. Treat later corporate engineering drawings (e.g. Powerhouse P1648, Cammell Bessemer Steel Converting Plant) as a separate carrier-history object, not proof of 1861 contractual terms.
+1. Search Sheffield Archives `ESC/CC` at item/series level for `Bessemer`, `patent`, `licence`, `Longsdon`, `royalty`, `rail`, `agreement`, `returns`.
+2. Search `WED/312–315` item descriptions and dates before assuming relevance.
+3. Search `MD8121` only with date/provenance constraints; do not treat the accession as a single Cammell series.
+4. Search Science Museum Group documents using the Barrow object's catalogue vocabulary, not only company names.
+5. Search National Archives / Archives Hub / company-successor collections for Cammell legal/finance records containing patent agreements or royalty accounts.
+6. Search Bessemer / Longsdon papers and patent-extension evidence for schedules of licensees and royalty payments.
+7. Treat later corporate engineering drawings (e.g. Powerhouse P1648, Cammell Bessemer Steel Converting Plant) as a separate carrier-history object, not proof of 1861 contractual terms.
+
+## 9. Current negative result
+
+No public catalogue hit has yet exposed the exact **1861 Charles Cammell & Co. Bessemer licence agreement** or a royalty return tied directly to that year. This is a controlled negative routing result, not evidence that the agreement no longer survives.
