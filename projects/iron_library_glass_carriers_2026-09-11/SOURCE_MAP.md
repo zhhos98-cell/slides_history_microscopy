@@ -21,11 +21,11 @@ Digitised article asset surfaced by the GF archive: https://archives.georgfische
 
 **First-order evidence:** Droste states that he was able to give the Iron Library `drei Originalglasplatten dieser frühen mikrofotografischen Aufnahmen`. The accompanying figure caption identifies glass plates with microphotographic images of the `königlichen mechanisch-technischen Versuchsanstalt zu Berlin` and notes a publication plate associated with one image.
 
-**Context controlled by the same article:** Droste discusses Adolf Martens's microscopic examination of metals, his collaboration with Carl Zeiss on reflected-light microscopy, microstructure images exhibited at Chicago in 1893, publication through the *Mittheilungen aus den königlichen technischen Versuchsanstalten zu Berlin*, and Emil Heyn's continuation of metallography. Droste also names donated annual volumes for 1889, 1892, 1894, 1895, 1896 and 1897.
+**Context controlled by the same article:** Droste discusses Adolf Martens's microscopic examination of metals, his collaboration with Carl Zeiss on reflected-light microscopy, microstructure images exhibited at Chicago in 1893, publication through the *Mittheilungen aus den königlichen technischen Versuchsanstalten zu Berlin*, and Emil Heyn's later work. Droste also names donated annual volumes for 1889, 1892, 1894, 1895, 1896 and 1897.
 
 **Can support:** possession/donation of three original early microphotographic glass plates; their association with Berlin material-testing / metallographic microscopy; a research route between microscopic observation, photographic glass support and printed publication.
 
-**Cannot yet support:** exact current call numbers; exact date or subject of each plate; plate dimensions/emulsion; which Martens/Heyn publication reproduces each plate; a direct material or genealogical relation to British biological microscope slides.
+**Cannot yet support:** exact physical accession numbers for each plate; exact date or subject of each plate; plate dimensions/emulsion; which Martens publication reproduces each plate; a direct material or genealogical relation to British biological microscope slides.
 
 ## IL-02 — Iron Library / GF digital catalogue infrastructure
 
@@ -91,11 +91,16 @@ Parent/context record: https://archives.georgfischer.com/objects/9780
 
 ## IL-06 — Droste / Martens / Heyn printed corpus
 
-**Level:** PARTIAL / NOTE until individual volumes and passages are checked.
+**Level:** SECURE for the bibliographic routes printed by Droste; PARTIAL until individual plates and passages are matched to IL-01.
 
-**Source route:** Droste 2024 identifies the *Mittheilungen aus den königlichen technischen Versuchsanstalten zu Berlin* and works by Emil Heyn as part of the donated/relevant corpus. He names annual volumes 1889, 1892, 1894, 1895, 1896 and 1897 and points to a Cu/Cu2O microstructure image in Emil Heyn and Oswald Bauer's *Metallographie*.
+**Source route:** Droste 2024 identifies the *Mittheilungen aus den königlichen technischen Versuchsanstalten zu Berlin* and later metallographic works as part of the donated/relevant corpus. His notes specify:
 
-**Next control:** resolve IRONCAT records, editions, page/plate references and any publication match to IL-01 before using them to reconstruct an image-production sequence.
+- Adolf Martens, `Die mikroskopische Ausrüstung der königlichen mechanisch-technischen Versuchsanstalt`, MktVB (1891), pp. 278–293, Tafeln IV–VI;
+- Adolf Martens, `Ueber die Ausstellung der Versuchsanstalt auf der Weltausstellung zu Chicago im Jahr 1893`, MktVB (1893), pp. 247f., Tafeln IV–VI;
+- Adolf Martens, `Das mikroskopische Gefüge von Flusseisen in gegossenen Blöcken`, MktVB (1893), pp. 273–292, Tafeln VII–XIII;
+- Emil Heyn and Oswald Bauer, *Metallographie*, Leipzig 1913.
+
+**Next control:** inspect the 1891 and 1893 plate sequences and test them against the three physical microphotographic plates. Resolve IRONCAT holdings/call numbers before treating the listed publications as Iron Library copies beyond what Droste explicitly identifies.
 
 ## IL-07 — GF photographic identity could survive carrier change
 
@@ -124,6 +129,47 @@ Permalink: https://archives.georgfischer.com/objects/13236
 **Use:** a same-year material control showing that `glass plate` in a photographic archive denotes an object on a radically different scale and workflow from a standard microscope specimen slide.
 
 **Limit:** no microscopic content or microscopy relation is claimed.
+
+## IL-09 — Droste figure 2 and the partial locator `G 745,1`
+
+**Level:** SECURE for the published figure-credit association; PARTIAL for the physical-object locator.
+
+**Source:** Droste 2024, figure 2 and `Bildnachweise`.
+
+**First-order evidence:** figure 2 is captioned as glass plates bearing microphotographic images from the Königliche mechanisch-technische Versuchsanstalt zu Berlin, with a publication plate visible alongside them. In the article's numbered image credits, item `2` reads `Foto: Eisenbibliothek, G 745,1`.
+
+**Can support:** Droste's figure of the microphotographic glass plates is associated by the Iron Library publication itself with `G 745,1`.
+
+**Cannot yet support:** that `G 745,1` is the accession/call number of all three physical plates rather than a photograph, visual record, grouped object or another local identifier; individual plate numbering; direct identification of the printed plate visible in the figure.
+
+**Operational consequence:** broad public searching for the plate locator stops here. `G 745,1` becomes the lead identifier in a precise Iron Library staff enquiry.
+
+## IL-10 — `Per765` and the 1891 Martens publication
+
+**Level:** SECURE for Droste's image-credit association; PARTIAL for catalogue semantics.
+
+**Source:** Droste 2024, `Bildnachweise`, item 1.
+
+**First-order evidence:** image-credit item 1 gives Martens's 1891 `Die mikroskopische Ausrüstung der königlichen mechanisch-technischen Versuchsanstalt`, pp. 278–293, Tafeln IV–VI, followed by `Foto: Eisenbibliothek, Per765`.
+
+**Use:** `Per765` is a second exact Iron Library identifier tied in the article to the 1891 publication/image route and should be supplied in the same staff enquiry as `G 745,1`.
+
+**Limit:** do not call `Per765` a shelfmark, accession number or plate identifier until IRONCAT/staff documentation establishes what the identifier denotes.
+
+## IL-11 — 1899 microphotography method and the 1904 dual collection system
+
+**Level:** SECURE / BODY as external printed evidence; not yet an Iron Library holding claim.
+
+**Sources:**
+
+- Adolf Martens and Emil Heyn, `Ueber die Mikrophotographie im auffallenden Licht und über die mikrophotographischen Einrichtungen der Königlichen Mechanisch-Technischen Versuchsanstalt in Charlottenburg`, *Mitteilungen aus den Königlichen Technischen Versuchsanstalten*, Berlin 1899, p. 73 onward; independently cited by contemporary technical literature and the 1904 institutional account.
+- Adolf Martens and M. Guth, *Das Königliche Materialprüfungsamt der Technischen Hochschule Berlin auf dem Gelände der Domäne Dahlem beim Bahnhof Gross-Lichterfelde West* (Berlin, 1904), p. 364.
+
+**First-order evidence from 1904:** the microscopy room contained a Martens microphotographic apparatus usable in reflected and transmitted light. Drawers held zinc-sheet desiccators for `kennzeichnender Schliffe` (characteristic polished specimens), while separate cabinets held a collection of more than 3,600 microphotographs (`über 3600 Lichtbilder umfassende Sammlung von Mikrophotographien`). A separate darkroom served the microphotographic equipment; most optical equipment came from Carl Zeiss. The footnote directs readers to Martens and Heyn 1899, p. 73.
+
+**Analytical use:** by 1904 the institution maintained distinct storage systems for prepared material specimens and for microphotographic images. This directly supports investigation of two durable reference objects — specimen and image — without implying that one replaced the other.
+
+**Limit:** this 1904 institutional description postdates the 1862–1883 parent paper and should not be back-projected into British slide practice. It is a later controlled extension of the glass-carrier problem.
 
 ## Current negative/absence statement
 
