@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: EXTERNAL CHRONOLOGICAL CONTROL. This note places the image-controlled 25 July 1860 Sheffield sequence inside the local commercial adoption of the Bessemer process. It does **not** infer that Wedding was a licensee, that Cammell adopted the process because of Wedding, or that the same-day sequence records a licensing negotiation.
+Status: EXTERNAL CHRONOLOGICAL + ACCESS-PRACTICE CONTROL. This note places the image-controlled 25 July 1860 Sheffield sequence inside the local commercial adoption of the Bessemer process and compares it with a near-contemporary expert-demonstration episode in 1861. It does **not** infer that Wedding was a licensee, that Cammell adopted the process because of Wedding, that Wedding's 1860 visit had the same format as the 1861 Institution of Mechanical Engineers visit, or that the same-day sequence records a licensing negotiation.
 
 ## 1. Manuscript fact to be explained
 
@@ -67,7 +67,69 @@ Historically grounded structure:
 
 Wedding's 1860 visit securely belongs to the first term. His personal status in relation to the second term remains unknown. Cammell's subsequent adoption belongs to the third term, but no evidence currently links Wedding causally to it.
 
-## 5. Strong analytical implication
+## 5. Near-contemporary control: organised expert demonstration in Sheffield, 1861
+
+A particularly useful control appears almost exactly one year after Wedding's visit.
+
+Bessemer's autobiography recalls that the Institution of Mechanical Engineers held its Sheffield summer meeting under Sir William Armstrong and dates the meeting to **31 July 1861**. In another chapter he explains that he read a paper because the Institution was visiting the town in which his steel works were located.
+
+Sources:
+- Henry Bessemer, *An Autobiography*, chapter 15: https://www.bibliomania.com/2/9/71/118/21374/2.html
+- Henry Bessemer, *An Autobiography*, chapter 16: https://www.bibliomania.com/2/9/71/118/21375/6.html
+
+Philip W. Bishop, *The Beginnings of Cheap Steel* (Smithsonian Institution, Bulletin 218, 1959), reconstructs the same Sheffield meeting from contemporary engineering press. He records that after the Institution meeting the engineers **visited Bessemer's works**. At John Brown & Co. the Bessemer process was then repeated on a larger scale and a heavy armour plate was rolled in the presence of about **250 visitors**.
+
+Bishop's primary-source pointers are precise:
+
+- *The Engineer* (1861), vol. 12, p. 10 — the Sheffield meeting / papers context;
+- *The Engineer* (1861), vol. 12, p. 63 — the works demonstrations / approximately 250 visitors.
+
+Open-access Bishop text:
+- https://www.gutenberg.org/files/29633/29633-h/29633-h.htm
+
+A modern engineering-history article independently cites John Brown's paper, `On the Manufacture of Steel Rails and Armour Plates`, *Proceedings of the Institution of Mechanical Engineers*, **31 July 1861**, p. 124, which helps control the meeting date and technical subject.
+
+Source:
+- https://www.tandfonline.com/doi/abs/10.1080/17581206.2022.2057887
+
+### What this 1861 control proves
+
+By one year after Wedding's notebook visit, Bessemer-process knowledge in Sheffield could be staged as an **organised expert visit and live works demonstration**, with process repetition at another licensed Sheffield firm before a large technical audience.
+
+This materially strengthens the interpretation of Bessemer's earlier statement about works inspection/full explanation: access was not merely rhetorical or private courtesy. It belonged to a broader technical-disclosure practice in which the process could be watched, explained, repeated and compared across works.
+
+### What it does not prove
+
+The 1861 event does not establish that Wedding in July 1860:
+
+- visited as part of a group;
+- followed an Institution programme;
+- saw the process under the same demonstration protocol;
+- entered John Brown's works;
+- was formally negotiating a licence.
+
+Use the 1861 episode as **near-contemporary institutional corroboration**, not as a template silently imposed on the 1860 manuscript.
+
+## 6. From access policy to a demonstration economy
+
+The combined evidence now supports a more precise working concept than generic `openness`:
+
+**controlled technical disclosure / demonstration economy.**
+
+Relevant components are becoming visible separately:
+
+1. **patent/licence structure** — process use is legally bounded;
+2. **purpose-built inspection** — Bessemer retrospectively says the Sheffield works was to permit inspection and full explanation to intending licensees;
+3. **situated demonstration** — the process can be performed at the works rather than communicated only in print;
+4. **expert witnessing** — by 1861 organised engineering visitors collectively observe the process;
+5. **cross-works repetition** — John Brown demonstrates the process again on a larger scale;
+6. **portable inscription** — Wedding's 1860 notebook converts what he saw/heard into drawings, material specification, timing and stage notes.
+
+This makes `works access` itself an epistemic and institutional variable. It should not be flattened into either `public` or `secret`.
+
+A later contrast reinforces the need for chronology: late-century commentary could complain about secrecy at major Sheffield steel works. Such later conditions must not be projected backwards as a timeless Sheffield norm.
+
+## 7. Strong analytical implication
 
 The highest-value interpretation is temporal rather than causal:
 
@@ -81,7 +143,7 @@ The same-day move from Bessemer's works to Cyclops therefore becomes analyticall
 
 This is a comparison architecture claim. It is not evidence that Wedding knew Cammell's future decision, that he carried information from one works to the other, or that the two visits were arranged as a licensing transaction.
 
-## 6. Claim ceilings
+## 8. Claim ceilings
 
 Secure or externally controlled:
 
@@ -89,24 +151,30 @@ Secure or externally controlled:
 - Bessemer later described inspection/full explanation for intending licensees as a designed function of the Sheffield works;
 - Hey dates Sheffield licences/adoption as Brown 1860, Cammell 1861, Fox 1862;
 - Derbyshire Record Office dates Cammell's start of rail/railway-material manufacture to 1861;
-- Wedding's notebook places Bessemer and Cammell/Cyclops consecutively inside the 25 July 1860 Sheffield sequence.
+- Wedding's notebook places Bessemer and Cammell/Cyclops consecutively inside the 25 July 1860 Sheffield sequence;
+- Bessemer dates the Institution of Mechanical Engineers Sheffield summer meeting to 31 July 1861;
+- Bishop, citing *The Engineer* vol. 12, pp. 10 and 63, records an organised visit to Bessemer's works and a larger-scale repeat of the process at John Brown before about 250 visitors.
 
 Strong interpretation:
 
-- Wedding observed and recorded Bessemer during an active local adoption/licensing window rather than after Sheffield-wide stabilisation.
+- Wedding observed and recorded Bessemer during an active local adoption/licensing window rather than after Sheffield-wide stabilisation;
+- Bessemer's Sheffield plant belonged to a controlled technical-disclosure regime in which live demonstration, expert witnessing and prospective transfer were institutionally connected.
 
 Open / prohibited inference without new evidence:
 
 - Wedding was formally an `intending licensee`;
+- Wedding's 1860 visit used the same protocol as the 1861 Institution visit;
 - Wedding participated in, transmitted, or influenced Cammell's licensing decision;
 - the visit to Cammell was arranged by Bessemer;
 - Cammell personnel appear in the Bessemer notebook prose;
 - Wedding carried the exact converter sketch from Bessemer to Cammell or later directly into the Hörde/Königshütte design process.
 
-## 7. Next source tests
+## 9. Next source tests
 
-1. Find the exact 1860–61 Cammell/Bessemer licence transaction in primary business/patent correspondence if extant.
-2. Check Sheffield newspapers and Institution of Mechanical Engineers material for demonstrations/visitors at Bessemer's works in 1859–61.
-3. Retrieve the 1860s Cyclops plan (`Sheffield City Archives X306/6/4/1`) and compare pre-/post-Bessemer plant geometry cautiously.
-4. Once Mss 25 PDFs 298–300 are accessible, search specifically for language of `Lizenz`, `Patent`, `Erklärung`, named hosts, and any transition wording between Bessemer and Cammell.
-5. Keep a strict separation among `DIRECT_MANUSCRIPT`, `CONTEMPORARY_ACCESS_REGIME`, `LATER_ADOPTION_CHRONOLOGY`, and `INTERPRETATION`.
+1. Retrieve the **primary *Engineer* 1861, vol. 12, pp. 10 and 63** rather than relying on Bishop's transcription/pointers.
+2. Retrieve the **1861 Institution of Mechanical Engineers Sheffield meeting programme / proceedings / excursion list**, testing which works were formally visited and how visits were described.
+3. Find the exact 1860–61 Cammell/Bessemer licence transaction in primary business/patent correspondence if extant.
+4. Retrieve the 1860s Cyclops plan (`Sheffield City Archives X306/6/4/1`) and compare pre-/post-Bessemer plant geometry cautiously.
+5. Collate the c.1862 published visual source `Steel Rolling Mills—Messrs C. Cammell and Co, Cyclops Works` (Pawson & Brailsford / British Library) against the 1860 manuscript heading only at works/process-type level.
+6. Once Mss 25 PDFs 298–300 are accessible, search specifically for language of `Lizenz`, `Patent`, `Erklärung`, named hosts, and any transition wording between Bessemer and Cammell.
+7. Keep a strict separation among `DIRECT_MANUSCRIPT`, `CONTEMPORARY_ACCESS_REGIME`, `NEAR_CONTEMPORARY_DEMONSTRATION_CONTROL`, `LATER_ADOPTION_CHRONOLOGY`, and `INTERPRETATION`.
