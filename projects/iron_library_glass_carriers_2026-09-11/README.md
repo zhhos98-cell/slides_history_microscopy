@@ -12,19 +12,26 @@ The first secure Iron Library case is not a nineteenth-century biological specim
 
 The Georg Fischer corporate archive supplies a second, later control corpus. `GFA 25 :: Werk Singen, Glasplatten` contains photographs on glass plates from 1900–1960, including a laboratory class `GFA 25/LAB` (1931–1953). These are photographic negatives/plates, **not microscope specimen slides unless an item record independently says so**. Their value is comparative: they preserve a glass-carrier workflow with archival addresses, subject classes and later digitisation.
 
-## Current claim ceiling
+## Current state
+
+The project has moved from broad discovery to **exact-source closure**.
 
 Secure at present:
 
 - Droste states that he donated three original early microphotographic glass plates to the Iron Library.
-- His published account locates them in the history of the Berlin material-testing institute and metallographic microscopy associated with Martens and Heyn.
-- The GF corporate archive has a separately catalogued Singen glass-plate fonds, `GFA 25`, and a laboratory subclass `GFA 25/LAB`.
+- Droste figure 2 shows those plates and its image credit is `Foto: Eisenbibliothek, G 745,1`; this is a secure published association but not yet a secure statement that `G 745,1` is the physical accession number.
+- Droste's image credits also associate Martens's 1891 article with `Per765`; the catalogue meaning of that identifier remains open.
+- the 1893 source route is now exact: *Mitteilungen*, Band 11 (1893), plus SLUB's separately catalogued `Atlas: 10/11.1892/93`.
+- the 1904 Materialprüfungsamt account describes characteristic polished specimens stored in zinc-sheet desiccators and, separately, cabinets holding more than 3,600 microphotographs. This is a later first-order case in which specimen and image enter different collection systems.
+- the GF corporate archive has a separately catalogued Singen glass-plate fonds, `GFA 25`, and a laboratory subclass `GFA 25/LAB`.
 - `GFA 1/141.37`, titled `Siegelabdrücke und Dias` (1852–1906), exists as a twelve-object archival item, but the word `Dias` is not yet enough to identify format, use or relation to microscopy.
 
 Still open:
 
-- the present item-level shelfmark / object locator for Droste's three microphotographic plates;
-- dates, dimensions, emulsions, inscriptions, subjects and publication matches for each plate;
+- what `G 745,1`, `Per765` and `A346` denote in the Iron Library's catalogue/image system;
+- individual current signatures/accession numbers for the three Droste plates;
+- dates, dimensions, photographic process, inscriptions, subjects and publication matches for each plate;
+- direct inspection of Martens's 1891/1893 Tafeln, especially 1893 Tafeln VII–XIII;
 - whether any `GFA 25/LAB` item is itself a micrograph or records microscopic/material-testing practice;
 - what the `Dias` in `GFA 1/141.37` physically are;
 - any direct historical transfer, formal continuity or reuse relation between British specimen-slide glass and these metallographic / photographic glass plates.
@@ -34,9 +41,14 @@ Do **not** infer such continuity from a shared glass substrate alone.
 ## Project files
 
 - `SOURCE_MAP.md` — controlled external sources, locators, evidence level and claim ceilings.
-- `RESEARCH_STATE.md` — current interpretation, relation to the parent slide project, and bounded next searches.
+- `RESEARCH_STATE.md` — current interpretation, relation to the parent slide project, bounded search queue and stop condition.
+- `EXACT_SOURCE_REQUEST.md` — ready-to-use staff-enquiry control for `G 745,1`, `Per765`, `A346` and the three original microphotographic plates; not yet sent.
 
 These files are project-local authorities only. They do not alter `REPOSITORY_STATE.json`, `CURRENT_DIRECTION.md`, the frozen 155-node survey, or the core bibliography.
+
+## Resume condition
+
+General Iron Library glass discovery is parked. Resume from an exact source: a staff reply resolving the local identifiers; access to the 1891/1893 Martens plate sequences; an item-level `GFA 25/LAB` microscopic/metallographic record; or item-level information for `GFA 1/141.37`.
 
 ## External research rule
 
