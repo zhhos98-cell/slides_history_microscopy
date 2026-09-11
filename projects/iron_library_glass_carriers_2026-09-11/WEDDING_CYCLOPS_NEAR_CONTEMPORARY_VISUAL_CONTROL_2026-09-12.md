@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: EXTERNAL VISUAL / PROCESS-TYPE CONTROL. This note records a published Cyclops Works image and 1861 verbal description close enough to Wedding's July 1860 visit to constrain the meaning of his heading `Cammells Walzwerke`, while preserving a strict ceiling against treating later images as exact 1860 plant plans.
+Status: EXTERNAL VISUAL / PROCESS-TYPE / SPATIAL-ORIENTATION CONTROL. This note records early and near-contemporary Cyclops Works visual evidence plus an 1861 verbal description close enough to Wedding's July 1860 visit to constrain the meaning of his heading `Cammells Walzwerke`, while preserving a strict ceiling against treating later images as exact 1860 plant plans.
 
 ## 1. Manuscript anchor
 
@@ -14,9 +14,31 @@ It follows the Bessemer section inside the folio sequence bounded by `Mittwoch 2
 
 The question here is narrow:
 
-> Is `Walzwerke` merely Wedding's loose categorisation, or does near-contemporary external evidence independently foreground rolling as a defining visible function of Cyclops Works?
+> Is `Walzwerke` merely Wedding's loose categorisation, or does external evidence close to 1860 independently foreground rolling as a defining visible function of Cyclops Works?
 
-## 2. c.1862 Pawson & Brailsford engraving
+## 2. Early spatial-orientation control: Picture Sheffield `s09745`
+
+Picture Sheffield catalogues an image:
+
+**`Charles Cammell and Co. Ltd., Cyclops Works, Savile Street`**
+
+with catalogue date **1845** and the unusually useful note:
+
+- the view is from the **Carlisle Street side of the railway**, looking south;
+- the buildings shown are **along Savile Street**;
+- Cyclops Works were built in 1845 for Johnson Cammell and Co.
+
+Source:
+- Picture Sheffield ref `s09745`: https://www.picturesheffield.com/frontend.php?action=zoom&buyPrint=1&keywords=Ref_No_increment%3BEQUALS%3Bs09745&level=0
+
+This sharpens the earlier address control. `Savile Street` and `Carlisle Street` should not be treated as competing site identifications: the works occupied the industrial strip articulated by both streets and the railway. Later industrial-archaeology guidance likewise describes Cyclops as **Savile Street/Carlisle Street**.
+
+Routing source:
+- Association for Industrial Archaeology / South Yorkshire industrial history guide, `E30 CYCLOPS WORKS`: https://industrial-archaeology.org/wp-content/uploads/2017/05/1995-Industrial-History-of-South-Yorkshire.pdf
+
+Claim ceiling: the catalogue date/orientation controls site relation, not the exact July 1860 building footprint. The `s09745` object should be treated as an early view/catalogue record whose precise image-production date/provenance can be audited separately if used illustratively in publication.
+
+## 3. c.1862 Pawson & Brailsford engraving
 
 A&AePortal catalogues a British Library print with the exact title:
 
@@ -35,7 +57,7 @@ Source:
 
 This is unusually strong process-type control because the published image title itself singles out **Steel Rolling Mills** at Cyclops, only about two years after Wedding's visit.
 
-## 3. 1861 Measom verbal control
+## 4. 1861 Measom verbal control
 
 George S. Measom's *Official Illustrated Guide to the Great Northern Railway* (1861) describes Cyclops as a very large complex containing, among other facilities:
 
@@ -55,9 +77,17 @@ Original bibliographic object:
 
 Use the original scan for final quotation; the transcription is currently a routing/control layer.
 
-## 4. What the pair establishes
+## 5. What the visual/verbal controls establish
 
-The 1861 verbal description and c.1862 published image independently make **rolling** a highly salient public description of Cyclops Works.
+The early spatial record, 1861 verbal description and c.1862 published image establish two separate things:
+
+### Spatial orientation
+
+Cyclops belongs to the **Carlisle Street / railway / Savile Street** industrial strip. This makes it unsafe to conceptualise the Cammell and Bessemer addresses as distant sites merely because one source labels Cyclops `Savile Street` and another locates Bessemer on `Carlisle Street`.
+
+### Process classification
+
+The 1861 description and c.1862 image independently make **rolling** a highly salient public description of Cyclops Works.
 
 Therefore Wedding's `Walzwerke` heading is not merely plausible in a generic sense. It aligns with the way the same establishment was being represented almost immediately afterward:
 
@@ -65,7 +95,7 @@ Therefore Wedding's `Walzwerke` heading is not merely plausible in a generic sen
 
 This creates a good three-point process-category control around the manuscript.
 
-## 5. Chronological ceiling
+## 6. Chronological ceiling
 
 Do not turn the c.1862 engraving into a literal image of what Wedding saw on 25 July 1860.
 
@@ -80,6 +110,7 @@ The c.1862 image can therefore contain plant features or production arrangements
 Safe use:
 
 - control the salience of rolling as a Cyclops process category;
+- constrain the broad Carlisle/Savile/railway site relation;
 - compare broad shop/process type;
 - help formulate questions for the 1860s plan.
 
@@ -90,7 +121,7 @@ Unsafe use without additional dating:
 - infer he saw rail rolling or later Bessemer steel rolling;
 - reconstruct his walking route through Cyclops from the print.
 
-## 6. Why this matters for the notebook comparison day
+## 7. Why this matters for the notebook comparison day
 
 The 25 July sequence can now be differentiated by industrial operation more sharply:
 
@@ -100,14 +131,17 @@ That suggests Wedding's same-day comparison did not merely juxtapose firms. It j
 
 The Bessemer pages privilege converter geometry, raw material and time/stages. The Cammell heading directs attention toward rolling works. Once PDF 300 is available at image level, test whether Wedding's note format changes accordingly: dimensions, engine power, rolls, throughput, product form, furnace-to-roll sequence, or other plant-scale variables.
 
-## 7. Priority follow-up
+The refined spatial control also makes the transition **Bessemer → Cammell** more interesting at the day scale: the notebook moves between two works inside the same emerging east-end steel corridor, but between different process regimes and different stages of Bessemer adoption.
+
+## 8. Priority follow-up
 
 1. Retrieve Sheffield City Archives `X306/6/4/1`, **Plan of Cyclops works, 1860s**.
-2. Date the plan as tightly as possible within the decade before comparing it with the c.1862 engraving.
-3. Obtain the original Pawson & Brailsford guide page / surrounding caption text if available.
-4. Collate Measom 1861 against the original scan rather than secondary transcription.
-5. When Mss 25 PDF 300 is accessible, transcribe only the technically consequential Cammell lines and tag which variables correspond to `ROLLING`, `FORGING`, `POWER`, `DIMENSION`, `THROUGHPUT`, or `PRODUCT`.
+2. Date the plan as tightly as possible within the decade and use it to test the Carlisle/Savile/railway geometry.
+3. Audit Picture Sheffield `s09745` provenance/date if the image itself is to be reproduced or used for fine-grained architectural claims.
+4. Obtain the original Pawson & Brailsford guide page / surrounding caption text if available.
+5. Collate Measom 1861 against the original scan rather than secondary transcription.
+6. When Mss 25 PDF 300 is accessible, transcribe only the technically consequential Cammell lines and tag which variables correspond to `ROLLING`, `FORGING`, `POWER`, `DIMENSION`, `THROUGHPUT`, or `PRODUCT`.
 
-## 8. Working result
+## 9. Working result
 
-Near-contemporary external evidence now supports treating Wedding's **`Cammells Walzwerke`** as an analytically meaningful process classification, not merely a site label. The strongest next comparison is therefore not `Bessemer versus Cammell` in the abstract, but **converter-stage process inscription versus rolling-works process inscription within one Sheffield comparison day**.
+Near-contemporary external evidence now supports treating Wedding's **`Cammells Walzwerke`** as an analytically meaningful process classification, not merely a site label. The strongest next comparison is therefore not `Bessemer versus Cammell` in the abstract, but **converter-stage process inscription versus rolling-works process inscription within one compact Sheffield industrial corridor and one comparison day**.
