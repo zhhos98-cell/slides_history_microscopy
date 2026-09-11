@@ -171,6 +171,25 @@ Permalink: https://archives.georgfischer.com/objects/13236
 
 **Limit:** this 1904 institutional description postdates the 1862–1883 parent paper and should not be back-projected into British slide practice. It is a later controlled extension of the glass-carrier problem.
 
+## IL-12 — exact access route for the 1893 Martens plate sequence
+
+**Level:** SECURE for bibliographic/access metadata; source images not yet inspected.
+
+**Sources:**
+
+- Google Play / Google Books record for *Mitteilungen aus den Königlichen technischen Versuchsanstalten: Band 11*, Springer, 1893, 400 pages, marked `Get for free`; volume identifier `ShwKAAAAIAAJ`.
+- SLUB Dresden serial catalogue for *Mitteilungen aus den königlichen technischen Versuchsanstalten zu Berlin*.
+
+Google Play record: https://play.google.com/store/books/details?id=ShwKAAAAIAAJ
+
+SLUB catalogue: https://katalog.slub-dresden.de/en/id/0-130127590
+
+**First-order evidence:** Band 11 is the 1893 volume in which Droste locates Martens's Chicago note and `Das mikroskopische Gefüge von Flusseisen in gegossenen Blöcken`. SLUB separately lists an `Atlas: 10/11.1892/93` under shelfmark `01 8 00423` and states that photocopies can be ordered from the serial holdings.
+
+**Operational use:** the next image-comparison target is not an undefined periodical run but Band 11 plus the Atlas 10/11. The working hypothesis that the relevant Tafeln may require the atlas is a retrieval hypothesis only; inspect the volume/atlas before asserting physical separation of the plates from the text.
+
+**Current access limit:** the public search layer identifies the exact free volume and atlas holdings but did not expose the plate page images in this research session. Treat this as an exact-source acquisition problem, not a reason to reopen generic searching.
+
 ## Current negative/absence statement
 
 As of the 2026-09-11 public-web pass, no item-level Iron Library record has yet been controlled for a nineteenth-century **biological specimen microscope slide**. This is a search-state statement, not a collection-wide absence claim. The project's strongest present Iron Library object evidence concerns microphotographic glass plates in metallography/material testing.
