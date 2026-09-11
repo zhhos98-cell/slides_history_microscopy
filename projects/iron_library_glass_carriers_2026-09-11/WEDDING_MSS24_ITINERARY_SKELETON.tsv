@@ -1,0 +1,16 @@
+ocr_entry	page_marker	document_mode	ocr_date	place_or_heading_ocr	note	confidence	pdf_check
+2		TITLE	1858	Route/title page	broad route through Thüringen/Bayern/Rhein/Westfalen; Michaeli 1858; H. Wedding	A broad/B exact place spellings	yes title exact
+4		ITINERARY_OR_GEOLOGICAL_NOTES		OCR 'Thüringer-Walt.'	maps/sections/geological notes	A/B	yes heading
+19		SITE_VISIT		Saarbrücken	place explicit in OCR first pass	A	selective
+38	38	SITE_OR_PROCESS_NOTES		Montigny	heading explicit	A/B	yes if interpreted
+46	43	SITE_VISIT		Krupp	`Kruppen`/Krupp anchor inside works notes	B	yes name/site
+56	53	GEOLOGICAL_OR_ROUTE_NOTES		OCR 'Lieben gebirgt'	geological/route content	B/C	yes if used
+60	37	SITE_OR_PROCESS_NOTES		Oberhausen	place explicit; technical/process figures	A place/B text	selective
+65		MINE_SITE		Concordia-Grube	heading explicit; body heavily repetitive	A heading/C body	yes if used
+69		WORKS_SITE		Frederick Wilhelms. Huta	works heading recognizable; exact German form needs image	B	yes heading
+70	67	CROSS_SITE_COMPARISON		Essen; Bochum	both explicit on same page; technical apparatus/process notes	A places/B details	yes key page
+74	71	WORKS_SITE		Niedervheinische Hätte	heading explicit but spelling/identity needs image	B	yes
+79		WORKS_SITE		Oberhausen	heading explicit, technical quantities	A place/B details	selective
+80		ROUTE_OR_CROSS_SITE_NOTES		Elberfeld; Dortmund	both appear in same page around heading `Hochdaw`	A places/B relation	yes chronology
+82	21;72	WORKS_SITE		Hörder-...	Hörde/Hörder anchor explicit; technical furnace notes	A/B	yes exact name
+86	83	ROUTE_ENDPOINT_OR_NOTES		Berlin	Berlin explicit at end of page	A place/B context	yes chronology
