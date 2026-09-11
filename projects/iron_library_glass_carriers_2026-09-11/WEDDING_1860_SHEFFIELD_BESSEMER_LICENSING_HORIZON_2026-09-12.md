@@ -26,6 +26,28 @@ Source control:
 - Taylor & Francis article metadata / DOI: https://doi.org/10.1179/174587005X38435
 - The licence-year statement appears on p. 96 of the article; Hey notes that this and the adjacent discussion are based on D. Hey, M. Olive, and M. Liddament, *Forging the Valley* (Sheffield, 1997).
 
+### Independent cross-control: Kenneth C. Barraclough thesis
+
+Kenneth Charles Barraclough, *The Development of the Early Steelmaking Processes: An Essay in the History of Technology* (University of Sheffield PhD, 1981), vol. 2, chapter 9, independently states:
+
+**`Bessemer's activities in their midst gradually persuaded the Sheffield steelmakers to take out licences — John Brown in 1860, Charles Cammell in 1861 and Samuel Fox in 1862.`**
+
+White Rose eTheses PDF, vol.2, chapter 9, printed p.407 / PDF p.64.
+
+Source:
+- https://etheses.whiterose.ac.uk/14433/3/237901_vol.2.pdf
+
+A potentially misleading OCR/page-break rendering later in the thesis was checked. The sequence there is:
+
+- Bessemer perfected the process at his Sheffield works; a footnote says **`This was in 1859`**;
+- the main sentence then continues across the page break: **`John Brown took out a licence from Bessemer in 1860; Cammell followed suit in 1861.`**
+
+Thus the apparent `Brown 1859` reading is a layout artefact: **1859 refers to the perfection-at-Sheffield-works statement, not to Brown's licence.** The thesis therefore supports rather than contradicts the Brown 1860 / Cammell 1861 chronology.
+
+Barraclough also notes that Brown and Cammell retained and expanded their cementation/crucible capacity while entering bulk steelmaking, and frames the Bessemer shift as the creation of a new South Yorkshire rail/engineering-material branch rather than an instantaneous replacement of older Sheffield processes.
+
+This is analytically useful for Wedding because `Bessemer → Cammell` on 25 July 1860 crosses from a new bulk-process demonstration plant into a large firm that had **not yet taken its 1861 Bessemer licence**, while still operating older steel/iron process regimes.
+
 The South Yorkshire Historic Environment Research Framework independently gives the same structural sequence at a coarser resolution: Bessemer set up a Sheffield works in 1858 and licensed **John Brown, Cammell and Samuel Fox** to use the process in the 1860s.
 
 Source:
@@ -51,9 +73,15 @@ occurs:
 
 - after Bessemer's own Sheffield works has become a functioning commercial-demonstration site;
 - in the year in which John Brown is entering the licensed Bessemer regime;
-- roughly one year before the dated secondary chronology places Cammell's Bessemer licence and before the firm's 1861 start of rail/railway-material production.
+- roughly one year before Cammell's Bessemer licence and the firm's 1861 start of rail/railway-material production.
 
 Therefore the notebook does not simply record a mature, already-general Sheffield production standard. It catches the Bessemer process during a local adoption interval in which neighbouring major firms were only beginning to convert the new process into their own plant regimes.
+
+A particularly sharp formulation is now supportable:
+
+> **Wedding visits Bessemer after the process has been technically stabilised at the Sheffield works (1859), during Brown's first licensed-adoption year (1860), and immediately before Cammell's licensed transition (1861).**
+
+This is a temporal-position claim, not a causal claim about Wedding and Cammell.
 
 ## 4. Relation to Bessemer's access regime
 
@@ -148,8 +176,11 @@ This is a comparison architecture claim. It is not evidence that Wedding knew Ca
 Secure or externally controlled:
 
 - Bessemer's Sheffield works was established in 1858;
+- Barraclough places technical stabilisation/perfection at the Sheffield works in **1859**;
+- Brown licence/adoption: **1860**;
+- Cammell licence/adoption: **1861**;
+- Fox licence/adoption: **1862**;
 - Bessemer later described inspection/full explanation for intending licensees as a designed function of the Sheffield works;
-- Hey dates Sheffield licences/adoption as Brown 1860, Cammell 1861, Fox 1862;
 - Derbyshire Record Office dates Cammell's start of rail/railway-material manufacture to 1861;
 - Wedding's notebook places Bessemer and Cammell/Cyclops consecutively inside the 25 July 1860 Sheffield sequence;
 - Bessemer dates the Institution of Mechanical Engineers Sheffield summer meeting to 31 July 1861;
@@ -158,7 +189,8 @@ Secure or externally controlled:
 Strong interpretation:
 
 - Wedding observed and recorded Bessemer during an active local adoption/licensing window rather than after Sheffield-wide stabilisation;
-- Bessemer's Sheffield plant belonged to a controlled technical-disclosure regime in which live demonstration, expert witnessing and prospective transfer were institutionally connected.
+- Bessemer's Sheffield plant belonged to a controlled technical-disclosure regime in which live demonstration, expert witnessing and prospective transfer were institutionally connected;
+- the Bessemer → Cammell sequence occurs precisely between Brown's 1860 and Cammell's 1861 licensed-adoption moments.
 
 Open / prohibited inference without new evidence:
 
@@ -173,7 +205,7 @@ Open / prohibited inference without new evidence:
 
 1. Retrieve the **primary *Engineer* 1861, vol. 12, pp. 10 and 63** rather than relying on Bishop's transcription/pointers.
 2. Retrieve the **1861 Institution of Mechanical Engineers Sheffield meeting programme / proceedings / excursion list**, testing which works were formally visited and how visits were described.
-3. Find the exact 1860–61 Cammell/Bessemer licence transaction in primary business/patent correspondence if extant.
+3. Find the exact **Cammell/Bessemer 1861 licence transaction** in primary business/patent correspondence if extant.
 4. Retrieve the 1860s Cyclops plan (`Sheffield City Archives X306/6/4/1`) and compare pre-/post-Bessemer plant geometry cautiously.
 5. Collate the c.1862 published visual source `Steel Rolling Mills—Messrs C. Cammell and Co, Cyclops Works` (Pawson & Brailsford / British Library) against the 1860 manuscript heading only at works/process-type level.
 6. Once Mss 25 PDFs 298–300 are accessible, search specifically for language of `Lizenz`, `Patent`, `Erklärung`, named hosts, and any transition wording between Bessemer and Cammell.
