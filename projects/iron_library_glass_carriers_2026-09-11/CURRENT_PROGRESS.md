@@ -178,3 +178,8 @@ Open:
 6. Mss 25 PDF/OCR around PDFs 295–300.
 
 **Immediate resume condition: finish the 25 July 1860 Sheffield/Bessemer/Cammell technical cluster.**
+
+
+### Sequential full-page correction
+
+Correction now proceeds strictly in PDF order, beginning with Mss 23. PDFs 1-12 are image-controlled: cover/bookplate/title and blank leaves (1-8), followed by the opening Freiberg ore, charge, weighing/sample and lead-work pages (9-12). Paddle prose on PDFs 9-12 is rejected as unreliable; only visible headings, units, chemical symbols, diagram labels and process anchors are retained, with unresolved Kurrent bracketed or ellipsed. Next page: Mss 23 PDF 13.
