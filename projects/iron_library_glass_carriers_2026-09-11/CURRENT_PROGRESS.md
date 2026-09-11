@@ -1,6 +1,6 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-11 after locating Wedding's 1860 Bessemer section in Mss 25.**
+**Pinned continuation state — updated 2026-09-11 during sequential PDF-controlled transcription.**
 
 This is the authoritative resume point. Older OCR-only Bessemer chronology is superseded by the image-controlled 1860 identification below.
 
@@ -14,7 +14,7 @@ Main axis: **Sheffield ↔ Berlin/Charlottenburg**, with Fischer 1845–46 as th
 
 ## 2. Wedding corpus state
 
-All three Wedding PaddleOCR JSONs have been routed once: **740 entries, 609 non-empty**. OCR remains discovery/navigation, not diplomatic transcription.
+All three Wedding PaddleOCR JSONs have been routed once: **740 entries, 609 non-empty**. All 740 PDF pages have also received a structural visual survey, but that survey is not counted as transcription. OCR remains discovery/navigation, not diplomatic transcription.
 
 Major working files now include:
 
@@ -36,7 +36,9 @@ Longitudinal architecture remains:
 
 ### Corrected-transcription ledger checkpoint
 
-All 740 PDF pages now have stable rows in the separate JSONL ledgers; the PaddleOCR JSON remains immutable. Each row carries `status`, `confidence`, `transcription`, `secure_anchors`, `doubtful_readings`, OCR-noise flags and a page-level note. Unchecked non-empty rows retain the Paddle text as a low/unassessed routing draft rather than silently promoting it to manuscript text; OCR-empty rows remain explicitly unresolved.
+All 740 PDF pages now have stable rows in the separate JSONL ledgers; the PaddleOCR JSON remains immutable. Each row carries `status`, `confidence`, `transcription`, `secure_anchors`, `doubtful_readings`, OCR-noise flags and a page-level note. A row counts as substantively transcribed only when actual readable wording has been entered from the PDF. Generic structural descriptions are marked `IMAGE_REVIEWED_AWAITING_TRANSCRIPTION`, not as completed transcription.
+
+Sequential substantive work currently runs through **Mss 23 PDF 72**; PDF 73 is blank and the next text page is PDF 74. Mss 24 and most of Mss 25 still await page-level substantive transcription. The out-of-sequence Mss 25 Bessemer cluster at PDFs 295–300 and the source heading at PDF 340 retain their separately verified readings. Any earlier statement that all 740 pages had been fully transcribed is superseded by this checkpoint.
 
 The first direct PDF-control batch covers Mss 25 PDFs 295–300. It rejects Paddle hallucination on PDF 297, secures `Mittwoch 25 Juli 1860`, `Sheffield White Lead Works`, `Barker & Sons`, `Bessemer's Stahlwerk`, the Cumberland pig-iron statement, `Der ganze Prozeß dauert cca 19-24 Minuten`, `Cammells Maschinen (Cyclops Works)`, and the transition to `Donnerstag 26 Juli. Leeds` / `Peter Fairbairn's Maschinenwerkstätte`. Continuous technical Kurrent remains selectively transcribed and ellipsed rather than guessed. The supplied `10598` JSON remains outside this correction ledger because the corresponding PDF was not supplied.
 
@@ -130,16 +132,7 @@ This is an evidence-carrier history rather than a generic influence story.
 
 ## 8. Immediate next work
 
-Do not return to broad searching or blanket OCR.
-
-Priority:
-
-1. **finish controlled extraction of PDFs 298–300**: only technically consequential process/material/access wording;
-2. identify the Cammell / Cyclops Works heading on PDF 300 exactly and reconstruct the whole **25 July Sheffield comparison day**;
-3. inspect adjacent 24–25 July leaves for names/guides/recommendation/access clues explaining how Wedding reached Bessemer;
-4. structurally compare Wedding's converter sketch with Bessemer's own early Sheffield converter diagrams, without assuming direct copying;
-5. then revisit the **1862 von Hoff** block as a later reuse/network stage rather than the initial Bessemer encounter;
-6. after that, apply the provenance-aware method to South Wales/Abercarn 1860.
+Continue substantive PDF-controlled transcription in physical order, beginning with **Mss 23 PDF 74**, and synchronize each completed batch. Do not count page labels, document-mode descriptions or OCR routing text as transcription.
 
 Highest-value question has changed from `when/where did Wedding meet Bessemer?` to:
 
@@ -175,11 +168,6 @@ Open:
 3. `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`
 4. `WEDDING_MSS25_VISUAL_CONTROL_PASS3_2026-09-11.md`
 5. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
-6. Mss 25 PDF/OCR around PDFs 295–300.
+6. Corrected-transcription ledger at Mss 23 PDF 74.
 
-**Immediate resume condition: finish the 25 July 1860 Sheffield/Bessemer/Cammell technical cluster.**
-
-
-### Sequential full-page correction
-
-Correction now proceeds strictly in PDF order, beginning with Mss 23. PDFs 1-12 are image-controlled: cover/bookplate/title and blank leaves (1-8), followed by the opening Freiberg ore, charge, weighing/sample and lead-work pages (9-12). Paddle prose on PDFs 9-12 is rejected as unreliable; only visible headings, units, chemical symbols, diagram labels and process anchors are retained, with unresolved Kurrent bracketed or ellipsed. PDFs 13-24 are image-controlled as a continuous roasting/smelting sequence: ore transport, non-gas/gas-fired furnaces, Aschenfall, Generator, SO2, Durcharbeit, Mulden operation, a furnace-dimension comparison table, then Ausrüstung and tool drawings. PDFs 25-36 continue through furnace operation, Aufgeben and Abziehen der Steine, products/output, illustrated Gezähe and labour, lead-smelting charge recipes, Abtreibearbeit, cupellation products and quantitative refining tables. PDFs 37-48 cover illustrated lead-work tools and operating rules, lead refining, litharge treatment, Pattinson's crystallisation process, NaCl leaching and AgCl extraction; PDFs 47-48 are image-controlled blanks. PDFs 49-60 include ten blank pages, the title `Freiberger Hütten Processe. Abschrift nach einem Hefte des H. Th. Richter.` with its later blue-pencil Richter/Indium note, and the new section's opening account of Freiberg ore supply, purchase, sampling and weighing. Uncertain headings, compound nouns, product names and formulae remain explicitly bracketed; no low-confidence OCR prose is promoted. Mss 23 is now complete: all 223 PDF pages are image-controlled (128 selective-transcription pages, 81 blanks, 14 object/digitisation views). PDFs 61-177 complete the Richter-copy sequence with explicit section headings and recto/blank-verso structure; PDFs 178-206 comprise the `Freiberger Notizen` working-note block; PDFs 211-223 are cover, spine, edge, scale and colour-checker photography rather than new textual leaves. Continuous difficult Kurrent remains LOW and ellipsed; no unreliable Paddle prose is promoted. Mss 24 is now complete: all 116 PDF pages are image-controlled (85 selective-transcription pages, 17 blanks, 14 object/digitisation views). The title is secured as `Reise durch Thüringen, Bayern, Saarbrücken, Lothringen, Rhein, Westphalen. Michaelis 1859. H. Wedding.` PDFs 5-87 form the continuous travel/site-comparison block with maps, geological sections, works layouts and apparatus/process drawings; PDFs 88-103 are blank tail leaves; PDFs 104-116 are object photography. Mss 25 is now complete: all 401 PDF pages are image-controlled (360 selective-transcription pages, 24 blank leaves/panels, 17 object or inserted-print views). The later pencil title identifies `Hermann Wedding, Metallurgisches Reisetagebuch durch Deutschland, Belgien und England, 1860-1862`. The ledger preserves the high-confidence PDFs 295-300 Sheffield/Bessemer/Cammell cluster, secures PDF 340 `Cornwall aus de la Beche`, records PDFs 353 and 370 as inserted Geological/Ordnance Survey and Edward Stanford print objects, and distinguishes PDFs 388-401 as endboard/binding/scale/colour-checker photography.\n\nSequential full-page correction is complete for all three supplied Wedding PDFs: **740/740 pages image-controlled**. Original PaddleOCR JSON files remain immutable. The supplied `10598` OCR JSON remains outside PDF correction because its corresponding PDF was not supplied.
+**Immediate resume condition: transcribe Mss 23 PDF 74, with PDF 73 already confirmed blank.**
