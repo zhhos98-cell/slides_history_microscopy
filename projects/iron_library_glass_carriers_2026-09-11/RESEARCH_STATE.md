@@ -42,7 +42,9 @@ Do not choose among these before linking individual plates to individual publica
 
 `glass plate → print → archival classification/address → digitised surrogate`.
 
-That sequence can sharpen questions asked of nineteenth-century microscopy: which properties belong to the physical glass, which to the image/specimen it carries, and which to the catalogue or publication address that lets later users recover it?
+The wider GF photographic archive sharpens this further. In the former `F1` system, the archive states that the **signature corresponded to the photograph irrespective of image carrier**. The same photographic identity was subsequently reorganised into separate print, glass-plate and negative fonds (`GFA 12`, `GFA 16`, `GFA 17`). Here carrier and address are empirically separable: a catalogue identity could persist while the archive regrouped the physical media.
+
+That is a strong control for the microscope-slide core's existing finding that material continuity is only one form of continuity. It should remain a comparison, not a retrospective explanation of nineteenth-century slide practice. A same-year boundary object reinforces the distinction: `GFA 16/3638` is an 1883 photographic glass plate, catalogued as `13x18cm oder kleiner`, showing that the phrase `glass plate` can describe a materially and operationally different format even at the endpoint of the parent paper.
 
 ## 5. Bounded research queue
 
@@ -70,6 +72,8 @@ That sequence can sharpen questions asked of nineteenth-century microscopy: whic
 2. Flag only records that explicitly identify microscopic images, metallography/material testing, sample sections, microstructure, laboratory apparatus, or related practices.
 3. Where a `GFA 25` glass plate has a corresponding `GFA 24/53–55` print, record the cross-carrier address.
 4. Use the resulting later cases as controls for image identity and archival re-addressing; do not import them into the nineteenth-century chronology automatically.
+
+Current public-index result: broad exact-term searches still expose the `GFA 25/LAB` class but have not surfaced a child item explicitly labelled `Metallographie`, `Mikroskop`, `Gefüge`, `Schliff` or `Materialprüfung`. Treat this as a retrieval limit, not evidence that such images are absent.
 
 ### Priority D — resolve `GFA 1/141.37`
 
