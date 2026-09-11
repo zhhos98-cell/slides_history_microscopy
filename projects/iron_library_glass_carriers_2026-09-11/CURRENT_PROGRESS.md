@@ -29,11 +29,47 @@ The useful geographic comparison is therefore **Sheffield + Berlin/Charlottenbur
 7. `manifest.json` has already been downloaded locally from `https://www.e-codices.ch/metadata/iiif/ebs-0025/manifest.json` and parsed successfully.
 8. Johann Conrad Fischer's travel journals are also remotely available through the Iron Library digital edition and should be used as a contextual/pre-visit comparator rather than as an onsite-access justification.
 
+## Fischer 1845–1846 corpus: current advance
+
+Three machine-readable Fischer text files have now been supplied and checked. Two are duplicate/OCR witnesses of the 1845 travel account; the cleaner `...Low-Moor, Sheffield, und zurück im Sommer 1845.txt` is treated as the canonical working text. The third is the 1846 journey through London, Derby/Butterley, Sheffield and Liverpool.
+
+A dedicated working note now exists:
+
+- `FISCHER_1845_1846_NODE_INDEX.md`
+
+The Fischer material materially strengthens the project. Current secure points from the supplied texts include:
+
+- Fischer explicitly frames British travel in terms of `Vergleichungspunkte` and states that the scale/perfection of English industry cannot be grasped without `Autopsie`;
+- in 1845 he carries his own cast-wrought-iron samples and repeatedly submits them to examination while moving toward England;
+- at Sanderson in Sheffield he benchmarks coke consumption against his own works, producing the reported response `You beat us!`;
+- factory visits generate portable material evidence as well as prose notes, including crucible/clay fragments;
+- in 1846 Thomas William Brande reports Royal Mint trials of Fischer's steel, expresses satisfaction and requests further supply;
+- Fischer brings his own razor-blade blanks to Rodgers & Son in Sheffield for grinding, polishing, fitting and expert judgement of steel quality;
+- he evaluates and criticises British production proposals at Cammell & Co., so the circuit is not one-way British instruction;
+- Fischer carries coloured drawings of his own steel works and arranges with Croucher in London for a photographic negative and multiple positive reproductions of a works image.
+
+This yields a stronger pre-metallographic sequence:
+
+**autopsy / works visit → quantitative comparison → travelling material sample → external trial / finishing / expert judgement → drawing → photographic negative / reproducible positive image.**
+
+The later Wedding/Martens problem may then add prepared specimen, microscopic field, microphotographic glass plate and printed/reference collection. This is an analytical comparison, not yet a claim of direct genealogy.
+
 ## Immediate next operation
 
-**Finish the 900 px local acquisition of all 402 canvases of Wedding `Mss 25`.**
+Wedding `Mss 23`, `Mss 24` and `Mss 25` image acquisition has been run locally at 900 px for rapid reading. The next substantive operation remains page-level indexing, but the Fischer corpus should now be extracted in parallel using the same analytical fields that will be applied to Wedding:
 
-Then build a page-level index for:
+- date / itinerary;
+- person and role in access, introduction, testing or judgement;
+- works / institution;
+- technical operation observed;
+- material sample carried, received, transformed or tested;
+- quantitative comparison;
+- explicit comparative vocabulary;
+- drawing / image / photographic reproduction;
+- observation conditions and reliability;
+- British judgement of continental material and continental judgement of British practice.
+
+Then build the Wedding page-level index for:
 
 - Sheffield;
 - Bessemer;
@@ -85,9 +121,10 @@ Priority objects/series remain:
 
 When returning to this project, **read this file first**, then:
 
-1. `RESIDENCY_TRIAGE_2026-09-11.md` for digitised-vs-onsite logic;
-2. `PUBLIC_DIGITAL_CORPUS.md` for acquisition routes;
-3. `SOURCE_MAP.md` for controlled evidence and locators;
-4. `RESEARCH_STATE.md` for the glass-carrier comparison and stop rules.
+1. `FISCHER_1845_1846_NODE_INDEX.md` for the active Fischer comparison/material/image extraction;
+2. `RESIDENCY_TRIAGE_2026-09-11.md` for digitised-vs-onsite logic;
+3. `PUBLIC_DIGITAL_CORPUS.md` for acquisition routes;
+4. `SOURCE_MAP.md` for controlled evidence and locators;
+5. `RESEARCH_STATE.md` for the glass-carrier comparison and stop rules.
 
-Do not reopen generic Iron Library searching before the Wedding `Mss 25` page-level British itinerary/person index has been completed.
+Do not reopen generic Iron Library searching before the Wedding/Fischer page-level British itinerary/person/comparison index has been completed.
