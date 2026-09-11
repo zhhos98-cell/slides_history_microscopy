@@ -1,5 +1,7 @@
 # Iron Library / glass carriers — project router
 
+> **PINNED RESUME POINT:** read `CURRENT_PROGRESS.md` first. It records the active Sheffield–Berlin / Wedding Mss 25 acquisition state and is the authoritative continuation point for this project. Do not let unrelated repository work supersede it.
+
 Started: 2026-09-11
 
 This is a bounded satellite project inside `slides_history_microscopy`. It extends questions raised by **“Using Up Old Slides”: The Changing Affordances of Glass in British Microscopy, 1862–1883** into the Iron Library / Georg Fischer holdings without reopening the frozen 307/155 microscope-slide census.
@@ -16,6 +18,8 @@ The Georg Fischer corporate archive supplies a second, later control corpus. `GF
 
 The original glass-carrier problem has moved from broad discovery to **exact-source closure**, but the project has now reopened a second, explicitly bounded layer: **residency / digitisation triage**.
 
+The currently active line is no longer generic collection discovery. The remote preliminary phase is now centred on Wedding `Mss 25` (1860–1862), with a working **Sheffield → Berlin/Charlottenburg** comparison: industrial/workshop observation and comparison on the British journey are to be followed into post-return teaching, material testing, specimen preparation, microscopy and microphotography in Germany.
+
 Secure at present:
 
 - Droste states that he donated three original early microphotographic glass plates to the Iron Library.
@@ -26,6 +30,7 @@ Secure at present:
 - the GF corporate archive has a separately catalogued Singen glass-plate fonds, `GFA 25`, and a laboratory subclass `GFA 25/LAB`.
 - `GFA 1/141.37`, titled `Siegelabdrücke und Dias` (1852–1906), exists as a twelve-object archival item, but the word `Dias` is not yet enough to identify format, use or relation to microscopy.
 - Hermann Wedding's Iron Library manuscripts `Mss 23`, `Mss 24` and `Mss 25` are already fully digitised on e-codices with public IIIF manifests. They are therefore pre-visit corpora, not a residency rationale by themselves.
+- Wedding `Mss 25` exposes **402 IIIF canvases**. The user has successfully downloaded and parsed the public manifest locally and has tested page-image acquisition; the whole-volume working width is now **900 px**, with key pages to be reacquired later at higher resolution.
 - Johann Conrad Fischer's travel journals are already available through the Iron Library's 2023 digital edition, based on digitised e-rara reference copies. The Sheffield/British-metallurgy material is likewise a remote baseline.
 - the broad Sorby–Wedding–Martens history of metallography and the 1885 specimen-preparation/illumination dispute are already historiographically visible. Novelty cannot rest on rediscovering that chain.
 - a stronger question has emerged around **observational regimes across scale and media**: industrial travel/workshop comparison → prepared specimen → polished surface → reflected-light microscopy → microphotographic glass plate → printed plate → reference/archive.
@@ -46,13 +51,15 @@ Do **not** infer such continuity from a shared glass substrate alone.
 
 ## Project files
 
+- `CURRENT_PROGRESS.md` — **authoritative current resume point**; active Sheffield–Berlin framing, Wedding Mss 25 local acquisition state, immediate next operations and residency logic.
 - `SOURCE_MAP.md` — controlled external sources, locators, evidence level and claim ceilings for the original glass-carrier problem.
-- `RESEARCH_STATE.md` — current interpretation, relation to the parent slide project, bounded search queue and stop condition.
+- `RESEARCH_STATE.md` — current interpretation, relation to the parent slide project, bounded research queue and stop condition.
 - `EXACT_SOURCE_REQUEST.md` — ready-to-use staff-enquiry control for `G 745,1`, `Per765`, `A346` and the three original microphotographic plates; not yet sent.
 - `RESIDENCY_TRIAGE_2026-09-11.md` — digitised-versus-onsite triage, historiographical ceiling, Sheffield/person-network hypotheses, Story-Maskelyne/Percy/Tutton leads, and the revised observational-regime question.
 - `PUBLIC_DIGITAL_CORPUS.md` — acquisition map for Wedding, Fischer, Droste/Martens, Sorby and Royal Society controls.
 - `public_corpus/manifest.tsv` — machine-readable source/access policy table.
 - `public_corpus/fetch_public_corpus.py` — conservative local fetch helper for IIIF manifests and optional raw research files; raw downloads are git-ignored.
+- `public_corpus/fetch_public_corpus.ps1` — Windows PowerShell acquisition helper for the same public corpus.
 
 These files are project-local authorities only. They do not alter `REPOSITORY_STATE.json`, `CURRENT_DIRECTION.md`, the frozen 155-node survey, or the core bibliography.
 
@@ -61,7 +68,7 @@ These files are project-local authorities only. They do not alter `REPOSITORY_ST
 Two tracks now coexist:
 
 1. **glass-carrier exact-source closure** remains parked until a staff reply resolves local identifiers, the Martens plate sequences become inspectable, an item-level `GFA 25/LAB` microscopy record appears, or `GFA 1/141.37` is physically resolved;
-2. **residency/digitisation triage** is active and should proceed by exhausting remote Wedding/Fischer material first, then identifying a demonstrably undigitised, physically specific onsite corpus.
+2. **residency/digitisation triage** is active. Immediate priority is to finish acquiring and indexing Wedding `Mss 25` remotely, especially Sheffield / Bessemer / works / people / dates, before reopening broad searching.
 
 A residency application is warranted only when the remaining material is both holdings-specific and too thick/materially dependent to replace with a few digital reproductions.
 
