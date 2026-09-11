@@ -1,0 +1,27 @@
+{
+  "schema": "wedding-pdf-controlled-transcription-v1",
+  "created": "2026-09-11",
+  "source_page_counts": {
+    "Mss23": 223,
+    "Mss24": 116,
+    "Mss25": 401
+  },
+  "confidence_order": [
+    "HIGH",
+    "MEDIUM",
+    "LOW",
+    "UNASSESSED"
+  ],
+  "principle": "Original PaddleOCR JSON is immutable. Image-controlled readings supersede OCR only on the same PDF page. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
+  "controlled_pages_this_pass": {
+    "Mss25": [
+      295,
+      296,
+      297,
+      298,
+      299,
+      300
+    ]
+  },
+  "missing_source": "10598 JSON was supplied without 10598.pdf and is excluded from PDF correction."
+}
