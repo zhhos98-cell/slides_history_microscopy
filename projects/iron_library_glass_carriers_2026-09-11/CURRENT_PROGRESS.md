@@ -1,228 +1,170 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-11 after full Wedding OCR routing + four selective Mss 25 image-control passes.**
+**Pinned continuation state — updated 2026-09-11 after locating Wedding's 1860 Bessemer section in Mss 25.**
 
-This is the authoritative resume point. Read detailed checkpoint files for evidence, but do not resume from older OCR-only chronology.
+This is the authoritative resume point. Older OCR-only Bessemer chronology is superseded by the image-controlled 1860 identification below.
 
-## 1. Governing research problem
+## 1. Governing problem
 
-The project is not a simple `Sorby → Wedding → Martens` diffusion story. Controlled comparative sequence:
+The project is not a simple `Sorby → Wedding → Martens` diffusion story. Current transformation sequence:
 
-**industrial travel / works comparison → travelling sample → external test / expert judgement → numbering / provenance / collection → prepared specimen → microscopic field → microphotography → printed / institutional reference system.**
+**industrial travel / works comparison → heterogeneous portable research container → travelling sample / test / expert judgement → standardized prepared object → numbering / collection → microscopic field → microphotography → institutional reference system.**
 
-Core question: how did material comparison change scale, evidential carrier, access regime, preparation practice, institutional setting and reference structure while remaining comparative? Main axis: **Sheffield ↔ Berlin/Charlottenburg**, with Fischer 1845–46 as the pre-Wedding baseline.
+Main axis: **Sheffield ↔ Berlin/Charlottenburg**, with Fischer 1845–46 as the pre-Wedding comparison baseline.
 
 ## 2. Wedding corpus state
 
-The three PaddleOCR JSONs are present and accepted as the discovery/indexing layer, not diplomatic transcription. Full corpus: **740 OCR entries, 609 non-empty**. Every entry has been routed once for recognisable content.
+All three Wedding PaddleOCR JSONs have been routed once: **740 entries, 609 non-empty**. OCR remains discovery/navigation, not diplomatic transcription.
 
-Working indices/checkpoints:
+Major working files now include:
 
 - `WEDDING_FULL_OCR_READING_LOG_2026-09-11.md`
 - `WEDDING_MSS25_ITINERARY_AND_DOCUMENT_MODE_INDEX.tsv`
-- `WEDDING_MSS24_ITINERARY_SKELETON.tsv`
-- `WEDDING_MSS23_PROCESS_HEADING_INDEX.tsv`
-- `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md`
-- `WEDDING_MSS25_VISUAL_CONTROL_PASS2_2026-09-11.md`
-- `WEDDING_MSS25_VISUAL_CONTROL_PASS3_2026-09-11.md`
-- `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`
+- `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md` through `PASS4`
 - `WEDDING_MSS25_SOURCE_MODE_INDEX_1862_1863.tsv`
 - `WEDDING_MSS25_TAIL_PROVENANCE_INDEX.tsv`
+- **`WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md`**
+- `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
 
-Longitudinal architecture:
+Longitudinal architecture remains:
 
-**Mss 23: process decomposition / quantitative training → Mss 24: domestic cross-site comparison → Mss 25: transnational access + multi-year works/mining comparison + heterogeneous documentary/reference accumulation.**
+**Mss 23: process decomposition / quantitative training → Mss 24: domestic cross-site comparison → Mss 25: transnational, multi-year, heterogeneous research container.**
 
-## 3. Mss 25 is a multi-year comparative working notebook
+## 3. Critical breakthrough: Bessemer encounter is 1860, and the notebook section is found
 
-Image control supersedes the old single-stream itinerary model.
+A first-person retrospective by Wedding in *Stahl und Eisen*, 15 May 1896, reporting the Iron and Steel Institute London meeting of 7–8 May, fixes the chronology. Wedding says that long stays at English ironworks in **1860 and 1862** plus the Krug journey gave him technical experience; he then says that **already in 1860**, through Sir Henry Bessemer's extraordinary kindness, he came to know Bessemer's new process **in Sheffield**. In the same reply he says the Hörde Bessemer works was built on his urgent initiative and the Königshütte works according to his designs.
 
-### 1860 — long study journey
+This is stronger chronological control than the later 1903 memoir alone.
 
-Image-controlled northern sequence:
+### Mss 25 July 1860 sequence
 
-- **9–10 July, Coventry**;
-- **19–23 July, Manchester**, **William Fairbairn**;
-- **24 July, Leeds / Sheffield**, **Turton & Sons**;
-- **26 July, Leeds**, **Peter Fairbairn's Maschinenwerkstätte**;
-- **27 July, Low Moor**, `Mr. Fenton`;
-- **28 July, Bowling Works**;
-- **31 July, Newcastle upon Tyne**, **Losh, Wilson & Bell**;
-- early August Scotland, including **6 Aug. Govan Works in Glasgow**;
-- **Gartsherrie Iron Works**, `Mr. Whitelaw`, manager `G. Campbell`.
+Image control now gives:
 
-Earlier South-West / South-Wales / Abercarn material remains at OCR-routing level and is still queued for selective image correction.
+- **24 July — Leeds / Sheffield**, Turton & Sons;
+- **Wednesday 25 July 1860 — Sheffield White Lead Works**, Rawson/Barker-type firm wording;
+- continuation of White Lead Works process notes;
+- **`Bessemer's Stahlwerk`** — dedicated section, manuscript p.149 / PDF 298;
+- continuation of Bessemer process notes, manuscript p.150 / PDF 299;
+- Cammell / **Cyclops Works**-type Sheffield heading;
+- **Thursday 26 July — Leeds**, Peter Fairbairn's Maschinenwerkstätte.
 
-### 1862 — explicit Sheffield/Rotherham comparison layer
+The Bessemer heading itself does not repeat the date. Strict claim: it lies between the explicit 25 July Sheffield entry and explicit 26 July Leeds entry. Strong folio-sequence inference: **the Bessemer visit belongs to 25 July 1860**.
 
-Entry 315 / PDF 316 is explicitly headed **`1862`** and contains Low Moor/Cumberland comparison, Henry Marten hot-blast-oven reference material, numbered **`9. Sheffield`**, Brown/Atlas Works-type material, armour-plate figures and **`bei Mr Beale in Rotherham bei Sheffield`**.
+## 4. Contemporary Bessemer technical inscription is now visible
 
-Entries 316–321 continue a dense **multi-site comparative technical block**: furnace profiles, burden recipes, hot-/cold-blast comparison, dimensions, labour/cost and output data. These are not clean itinerary pages.
+PDF 298 / manuscript p.149 is headed clearly:
 
-Most important actor result: entry 316 / PDF 317 begins approximately **`Mit Alberts/Albers ... von Hoff`**. **`von Hoff` is manuscript-secure in the 1862 block.** The first companion is unresolved and must not be normalised to Daelen from expectation.
+**`Bessemer's Stahlwerk`**
 
-### 1863 — explicit Krug von Nidda layer
+It contains:
 
-Entry 322 / PDF 323 explicitly begins a new section:
+- a large **pear-shaped tilting converter/vessel drawing on a horizontal trunnion axis**;
+- sectional/base/tuyere-type diagramming;
+- multiple grouped blast/opening marks;
+- technical operational prose;
+- a clear raw-material statement beginning **`Es wird Roheisen meist aus Cumberland verbraucht ...`**.
 
-**`Mit Herrn von Krug: 1863.`**
+PDF 299 continues the process and includes another vessel/spout sketch. One highly legible sentence reads:
 
-followed by Cornwall / Tavistock / Great Devon Consols material. The Sheffield/Brown fragment above this heading most probably belongs to the preceding 1862 comparison layer.
+**`Der ganze Prozeß dauert cca 19–24 Minuten.`**
 
-The 1863 Cornwall notes are not strictly chronological in notebook order. Preserve literal dates separately from folio sequence.
+Surrounding prose divides the blow/process into stages and comments on gas/flame behaviour. Exact transcription remains selective.
 
-## 4. Bessemer / Daelen / von Hoff / Hörde problem
+This substantially answers the previous carrier question: Mss 25 preserves a **contemporary portable technical inscription package** made at/for Bessemer's Sheffield works: converter drawing + process geometry + Cumberland material specification + timing/stage notes.
 
-The 1903 memoir securely states that Wedding:
+Claim ceiling: these leaves have not yet been proven to be the exact later `Entwürfe` used for Königshütte/Hörde. They are, however, securely contemporary Bessemer works drawings and process notes in Wedding's 1860 travel notebook.
 
-- was instructed by **Bessemer himself in Sheffield**;
-- brought **drawings** back from England;
-- connected those drawings with Königshütte and Hörde Bessemer installations;
-- travelled to Sheffield with Hörde leaders **Daelen and von Hoff**;
-- advocated **Cumberland pig iron**, later contrasted with Upper-Silesian material.
+## 5. Revised relation to the 1862 and 1863 layers
 
-Current manuscript control:
+The 1862 and 1863 discoveries remain important but they are no longer the primary place to date the first Bessemer encounter.
 
-- **von Hoff: secure in the 1862 block**;
-- **Daelen: not yet found**. Earlier OCR fuzzy candidates at entries 124, 128 and 268 collapse under visual inspection;
-- **Hörde: not yet found**. The entry-316 OCR `Börde` candidate does not survive visual control as Hörde;
-- **Bessemer: no secure notebook name hit yet**;
-- **drawings: no checked 1862 diagram can yet be identified securely as a Bessemer converter/plant drawing**. The visually obvious diagrams are predominantly blast-furnace/oven/works sections.
+### 1862
 
-Therefore the 1903 retrospective chain is increasingly anchored to the right manuscript environment, but the exact Bessemer episode/page remains open.
+Explicit `1862` comparison block includes Sheffield/Rotherham, Low Moor/Cumberland, Henry Marten reference material, armour-plate data and a manuscript-secure **`von Hoff`**. Earlier fuzzy Daelen and Hörde OCR candidates failed visual control.
 
-## 5. Major provenance result: explicit copied authority and source interleaving
+Interpretation now: the 1862 layer may document **later comparison/reuse/networking around British iron and Sheffield/Hörde actors**, while the first Bessemer process encounter is already secured in 1860.
 
-Entry 339 / PDF 340 is a divider/title leaf reading clearly:
+### 1863
 
-**`Cornwall aus de la Beche.`**
+Explicit **`Mit Herrn von Krug: 1863.`** section begins a Cornwall/Tavistock/Great Devon Consols layer, with direct/site notes interleaved with copied-reference material.
 
-Entry 341 / PDF 342 can be cross-controlled directly against Henry De la Beche, *Report on the Geology of Cornwall, Devon and West Somerset* (1839), including the copper-ore ticketing passage and stannary/parliament material.
+## 6. Provenance / carrier architecture of Mss 25
 
-Copied-reference mode is interleaved with dated technical notes:
+Separate image-control passes establish that Mss 25 mixes:
 
-- entry 343 / PDF 344: **`8ten August 63.`**, Great Devon Consols bei Tavistock;
-- entry 346 / PDF 347: literal **`16t. August.`**, Menheniot bei Liskeard, Wheal Mary Ann plus a second mine name still to control.
+- dated site/works notes;
+- comparative reassembly;
+- diagrams and sketches;
+- copied printed authority;
+- bibliographic routing;
+- reused leaves / residual headings;
+- compiled locality/mineral lists;
+- physically inserted printed objects.
 
-Chronology and datum provenance must remain separate fields.
+Key examples:
 
-## 6. Tail provenance pass: Mss 25 is a heterogeneous portable research container
+- **`Cornwall aus de la Beche.`** explicit source-provenance heading;
+- pages that can be matched to de la Beche 1839;
+- PDF 370: physically inserted **Geological Survey / Ordnance Survey / Edward Stanford** index-map/catalogue object;
+- PDF 387: last substantive manuscript page; PDF 388 onward is object/digitisation photography.
 
-The tail has now been visually controlled through the end of substantive manuscript content.
+Working concept: Mss 25 is a **portable heterogeneous research container**, not a diary.
 
-### Reused leaf / copied social reference
+## 7. New strongest transformation chain
 
-Entry 357 / PDF 358 retains an **`Abercarn near Newport. Mon.`** heading, while the main English prose concerns miners' `field club` / sick-life-club arrangements and relief for injured/killed workers, with a bibliographic note to a Benefit Societies item in *The People's Journal* (1847; exact author wording still B-level).
+The project can now test a much more concrete sequence:
 
-Do not assign that prose automatically to an Abercarn visit. The leaf itself has been reused across source modes.
+**Sheffield works access, 1860 → direct Bessemer process observation → converter/process sketching + Cumberland pig-iron specification + timed operational notes → later German Hörde/Königshütte installation/design claims → later material comparison / metallography → numbered specimen and image reference systems.**
 
-### Physically inserted printed map/catalogue object
+This is an evidence-carrier history rather than a generic influence story.
 
-Entry 369 / PDF 370 is an actual printed Geological Survey / Ordnance Survey index map, not Wedding handwriting. It includes:
+## 8. Immediate next work
 
-- Geological Survey publication/index information;
-- `INDEX MAP OF THE ORDNANCE SURVEY OF ENGLAND AND WALES`;
-- **Edward Stanford, 6 Charing Cross**.
+Do not return to broad searching or blanket OCR.
 
-This requires a new document mode: **`INSERTED_PRINT_OBJECT / PRINTED_MAP_CATALOGUE`**.
+Priority:
 
-It is one of the strongest carrier examples in the project: an external national reference/index system is literally incorporated into Wedding's working notebook.
+1. **finish controlled extraction of PDFs 298–300**: only technically consequential process/material/access wording;
+2. identify the Cammell / Cyclops Works heading on PDF 300 exactly and reconstruct the whole **25 July Sheffield comparison day**;
+3. inspect adjacent 24–25 July leaves for names/guides/recommendation/access clues explaining how Wedding reached Bessemer;
+4. structurally compare Wedding's converter sketch with Bessemer's own early Sheffield converter diagrams, without assuming direct copying;
+5. then revisit the **1862 von Hoff** block as a later reuse/network stage rather than the initial Bessemer encounter;
+6. after that, apply the provenance-aware method to South Wales/Abercarn 1860.
 
-### Bibliographic routing and source synthesis
+Highest-value question has changed from `when/where did Wedding meet Bessemer?` to:
 
-Entry 373 / PDF 374 explicitly routes to the **Transactions of the Geological Society of Cornwall** and **de la Beche 1839**.
+> **How exactly did Wedding encode the 1860 Bessemer process in his notebook, through whom did he gain access, and how much of that portable technical inscription can be connected to the later Hörde/Königshütte installations?**
 
-Entry 378 / PDF 379 is a compiled Cornwall mineral/locality list, not one visit.
-
-Entry 381 / PDF 382 closely matches de la Beche's mine-structure and labour-organisation sections: cross-courses, sump, captains/agents, **tributers, tutworkmen & labourers**, adventurers.
-
-Entry 382 / PDF 383 continues strongly de la Beche-aligned technical extraction: water/steam, roads/carts, blasting with gunpowder, dressing tin ores, stamping and roasting.
-
-PDFs 384–387 continue geological/vein synthesis; **PDF 387 is the last substantive manuscript page in the main sequence**.
-
-PDF 388 onward consists of blank endpaper, covers, spine/fore-edge views, oblique object photography, ruler/colour-checker shots and later photographic documentation. These are digitisation/object records, not new textual pages.
-
-Detailed file: `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`.
-
-## 7. Revised extraction/document-mode schema
-
-For consequential Mss 25 rows, store separately:
-
-- OCR entry / PDF page / manuscript marker;
-- year layer;
-- literal date wording;
-- place/work/mine;
-- people and functional roles;
-- document mode;
-- datum source: `DIRECT_OR_SITE_NOTE | ORAL_REPORT | WORKS_DOCUMENT | DRAWING/SKETCH | PRINT_COPY | COMPARATIVE_REASSEMBLY | INSERTED_PRINT_OBJECT | UNCERTAIN`;
-- named source when explicit (e.g. `de la Beche`);
-- operations (`SEE | COUNT | MEASURE | WEIGH | CALCULATE | APPARATUS_TEST | EXPERT_JUDGEMENT | ...`);
-- confidence and image-control flag.
-
-Additional document modes now required:
-
-`BIBLIOGRAPHIC_ROUTING | REUSED_LEAF | HEADING_RESIDUE | GEOLOGICAL_LOCALITY_COMPILATION | OBJECT_DOCUMENTATION_IMAGE`.
-
-A place/date alone is insufficient. Mss 25 shifts among named print authority, dated site note, comparison table, calculation, diagram and inserted printed object within a few leaves.
-
-## 8. Working interpretation sharpened
-
-Mss 25 now looks less like a diary than a **portable heterogeneous research container**. It makes direct/site observations, copied textual authority, bibliographic routing, compiled locality data, diagrams, quantitative comparison and a physically inserted printed map/index co-present in one object.
-
-For the later metallography problem, the more precise transformation is therefore:
-
-**heterogeneous portable research container → selected/standardized prepared object → numbered specimen collection → shared microscopic image → microphotographic / institutional reference system.**
-
-This is stronger than a generic `travel → microscopy` narrative because the earlier comparison regime already has explicit carrier engineering.
-
-## 9. Immediate resume point
-
-Do **not** return to broad searching or blanket OCR.
-
-Priority sequence now:
-
-1. return to the **1862 actor block** and continue visual search for Daelen / Hörde / Bessemer / converter / `Zeichnung` / plant-arrangement language;
-2. use the new tail provenance ontology when visually controlling the **1860 South-Wales/Abercarn** block, especially watching for reused headings versus actual visit prose;
-3. preserve PDF 370 as a priority object example for the carrier argument;
-4. after South-Wales control, compare this early composite research-container practice against Wedding 1885 / Martens specimen-image-reference systems.
-
-Highest-value unresolved question remains:
-
-> **Can the Bessemer / Daelen / von Hoff / Hörde / drawings episode be located precisely in the 1862 manuscript layer, and can Mss 25 show the material form of the technical information carried between Sheffield and German works?**
-
-## 10. Claim ceilings
+## 9. Claim ceilings
 
 Secure:
 
-- Mss 25 has distinct 1860, 1862 and 1863 working layers;
-- `von Hoff` occurs in the image-controlled 1862 block;
-- `Mit Herrn von Krug: 1863` is explicit;
-- `Cornwall aus de la Beche` is explicit;
-- multiple tail pages are source/reference rather than itinerary evidence;
-- PDF 370 is a physically inserted Edward Stanford / Geological Survey-Ordnance Survey printed index-map object;
-- PDF 387 is the last substantive manuscript page in the main sequence; later PDF pages are object/digitisation documentation;
-- the notebook mixes direct/site-oriented, comparative, diagrammatic, copied-reference, bibliographic and inserted-print modes.
+- Wedding publicly dated his Sheffield Bessemer-process encounter to **1860** in 1896;
+- Mss 25 contains a dedicated **`Bessemer's Stahlwerk`** section in the late-July 1860 Sheffield sequence;
+- the section contains converter/process drawings, Cumberland pig-iron material information and process timing;
+- `Der ganze Prozeß dauert cca 19–24 Minuten` is image-legible;
+- 1862 `von Hoff`, 1863 Krug, de la Beche provenance and inserted Stanford map findings remain secure.
+
+Strong inference, not yet literal manuscript date:
+
+- the Bessemer section belongs to **25 July 1860**, because it falls after the explicit Wednesday 25 July Sheffield entry and before the explicit Thursday 26 July Leeds entry.
 
 Open:
 
+- exact guide/contact who enabled Bessemer access;
+- whether Bessemer himself is named in the prose beyond the works heading;
+- whether these exact sketches are the `Entwürfe` later used in German plants;
 - Daelen in Mss 25;
-- Hörde in Mss 25;
-- Bessemer by name in Mss 25;
-- exact plant/converter drawing corresponding to the 1903 memoir;
-- precise identity of the first companion beside von Hoff (`Alberts/Albers`-like);
+- exact relation between the 1860 Bessemer notes and the separate 1862 von Hoff block;
 - direct Wedding–Sorby co-presence/contact.
 
 ## Resume order
 
 1. `CURRENT_PROGRESS.md`
-2. `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`
-3. `WEDDING_MSS25_TAIL_PROVENANCE_INDEX.tsv`
+2. **`WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md`**
+3. `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`
 4. `WEDDING_MSS25_VISUAL_CONTROL_PASS3_2026-09-11.md`
-5. `WEDDING_MSS25_SOURCE_MODE_INDEX_1862_1863.tsv`
-6. `WEDDING_MSS25_VISUAL_CONTROL_PASS2_2026-09-11.md`
-7. `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md`
-8. `WEDDING_BESSEMER_TARGETED_OCR_PASS1_2026-09-11.md`
-9. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
-10. Mss 25 OCR JSON/PDF as needed.
+5. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
+6. Mss 25 PDF/OCR around PDFs 295–300.
 
-**Immediate resume condition: continue image-controlled actor extraction in the 1862 block, then apply the new provenance-aware method to South Wales/Abercarn.**
+**Immediate resume condition: finish the 25 July 1860 Sheffield/Bessemer/Cammell technical cluster.**
