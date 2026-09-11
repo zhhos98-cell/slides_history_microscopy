@@ -15,7 +15,9 @@ For every named person, record:
 - institution / firm;
 - prior relationship, recommendation or introduction;
 - access function;
+- whether access is ordinary, privileged, spontaneous or conditional;
 - what became visible / touchable / measurable because of that access;
+- how the visitor's technical competence/reputation was assessed or performed;
 - material object exchanged or tested;
 - judgement / information produced;
 - resulting onward introduction or route.
@@ -37,6 +39,16 @@ Function: formal recommendation converted into deep works access.
 The recommendation gives Fischer a proprietor-level host who personally conducts him through the works for roughly two hours and supplies technical explanations plus a staged series of ore, limestone, coal, coke and iron samples.
 
 Analytical value: the quality of the resulting observation is inseparable from the status and technical competence of the guide.
+
+### unnamed London industrial contact K. — technical credibility + routing
+
+Function: technical evaluator, introducer and route designer.
+
+K. discusses coke/cold-blast practice with Fischer, shows him an Alfredton furnace drawing and directs him toward Low Moor for more certain information. Crucially, K. says Fischer should be well received because he can express himself adequately on the technical matters under discussion.
+
+In 1846 Fischer explicitly says that receiving useful recommendations in England requires being `gut angeschrieben`.
+
+Analytical value: technical access depends not only on knowing the right person but on the visitor being judged technically credible. Competence itself becomes part of the credential.
 
 ### Faraday — Royal Institution
 
@@ -76,6 +88,16 @@ Function: long-standing industrial contact, factory access and quantitative comp
 
 Sanderson gives Fischer extensive access to the cementation/cast-steel works, provides production data and later invites continued discussion. The coke-consumption comparison produces the reported `You beat us!` exchange.
 
+### T. / T. & S. Sheffield works — access negotiated through performed competence
+
+Function: initially hesitant host; later technical/material donor.
+
+In 1845 Fischer visits a Sheffield cast-steel/file works with a recommendation. He senses that the proprietors are somewhat uncomfortable with the visit and is told that they know him well by name. Fischer initially starts to leave. A proprietor then follows and offers to show the works.
+
+Fischer explicitly says that, once inside, he felt he had to make technical remarks in the file-making and especially cast-steel works so as to demonstrate that what he was being shown was neither foreign nor new to him. The melter listens closely. Fischer is subsequently given crucible fragments, clay and the material added to new crucibles.
+
+Analytical value: technical credibility is not simply possessed before entry. It can be **performed and verified inside the encounter**, changing the depth and material outcome of access.
+
 ### Huntsman family / works
 
 Function: established Sheffield relationship and reciprocal viewing of works representations.
@@ -96,6 +118,14 @@ Function: industrial comparator / reciprocal technical discussion.
 
 Fischer enters through a recommendation and then evaluates Cammell practice, including criticising a patented proposal based on his own experience.
 
+### unnamed Sheffield T. in London, 1846 — explicit privileged visibility
+
+Function: privileged-access grantor.
+
+Before Fischer travels north in 1846, T. invites him to the Sheffield works and offers to show whatever Fischer wants to see in the cementation, cast-steel, file and locomotive-spring departments. Fischer explicitly records that such an offer is **not made to everyone in England**.
+
+Analytical value: industrial visibility is tiered. The question for Wedding should therefore be not simply whether a factory was 'open' but **what class of visitor he had become and what level of visibility that status purchased**.
+
 ### unnamed steel melter — Sheffield
 
 Function: shop-floor technical authority.
@@ -111,6 +141,14 @@ Function: negative control on access quality.
 A recommendation gets Fischer into Butterley, but the intended technical director Jessop is absent. Goodwin assigns a young counting-house clerk as guide. Fischer explicitly doubts the reliability of the clerk's technical information.
 
 Analytical value: formal admission is not equivalent to epistemically adequate access.
+
+### Bettely & Roberts — Liverpool spontaneous admission across a formal boundary
+
+Function: spontaneous host / proprietor-level access.
+
+Fischer records that many Liverpool industrial premises display the rule `No admittance except on business`. At Bettely & Roberts he first stands at an open doorway and watches from a distance. When a proprietor appears, Fischer asks whether he may inspect the works, identifying himself as coming from Switzerland where such work cannot be carried out. The answer is immediately `By all means`, and Fischer is taken inside.
+
+Analytical value: a formal exclusion rule does not fully determine actual access. Self-presentation as a technically interested foreign practitioner can reclassify the visitor from outsider to legitimate business/technical observer.
 
 ### Willat — optician / photographic-material supplier
 
@@ -128,21 +166,27 @@ Analytical value: Croucher is a media operator in the comparison circuit, turnin
 
 ## Network types now visible
 
-The Fischer corpus distinguishes at least six functional networks:
+The Fischer corpus distinguishes at least eight functional networks/processes:
 
 1. **introduction/access network** — recommendations, cards, old acquaintances;
-2. **technical explanation network** — owners, engineers, workers and guides;
-3. **material test network** — Royal Mint, skilled Sheffield finishers, works test apparatus;
-4. **sample circulation network** — Fischer's own steel/cast iron plus British ore/fuel/crucible specimens;
-5. **representation network** — Beck drawings, Willat materials, Croucher photographic reproduction;
-6. **credibility network** — Brande/Faraday names and institutional judgements become reusable credentials elsewhere.
+2. **technical-credibility process** — visitor competence/reputation is evaluated and sometimes actively performed;
+3. **privilege/visibility regime** — not all admitted visitors are shown the same things;
+4. **technical explanation network** — owners, engineers, workers and guides;
+5. **material test network** — Royal Mint, skilled Sheffield finishers, works test apparatus;
+6. **sample circulation network** — Fischer's own steel/cast iron plus British ore/fuel/crucible specimens;
+7. **representation network** — Beck drawings, Willat materials, Croucher photographic reproduction;
+8. **credibility network** — Brande/Faraday names and institutional judgements become reusable credentials elsewhere.
 
 ## Wedding coding rule
 
 When Wedding Mss 23–25 are indexed, every person should be tagged not only by identity but by function:
 
-`introducer | gatekeeper | host | technical guide | worker | tester | judge | sample donor | correspondent | image-maker | institutional credential`
+`introducer | gatekeeper | host | technical guide | worker | tester | judge | sample donor | correspondent | image-maker | institutional credential | technical evaluator | privilege grantor`
 
-A single person may have multiple roles.
+Also code access mode separately:
+
+`RECOMMENDATION | PRIOR_RELATION | SPONTANEOUS_ACCESS | PRIVILEGED_ACCESS | TECHNICAL_CREDIBILITY | CREDIBILITY_PERFORMANCE | ACCESS_DENIAL_OR_LIMIT | WEAK_GUIDE`
+
+A single person/episode may have multiple roles.
 
 This should allow a direct comparison of whether Wedding's 1860–62 British journey relies on the same access architecture or a different, more institutionalised one.
