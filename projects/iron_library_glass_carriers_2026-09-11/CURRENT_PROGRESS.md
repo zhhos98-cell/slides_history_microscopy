@@ -1,8 +1,8 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-12 after consolidating the 25 July 1860 Sheffield technical cluster, spatial/access control, Bessemer licensing/demonstration horizon, and near-contemporary Cyclops visual control.**
+**Pinned continuation state — updated 2026-09-12 after primary-source ladder, Barraclough licence cross-control, and Gruner–Lan Sheffield 1859–60 routing.**
 
-This is the authoritative resume point. Older OCR-only Bessemer chronology is superseded by the image-controlled 1860 identification and the controlled files listed below.
+This is the authoritative resume point. Resume here before older OCR logs or visual-control passes.
 
 ## 1. Governing problem
 
@@ -12,292 +12,201 @@ The project is not a simple `Sorby → Wedding → Martens` diffusion story. Cur
 
 Main axis: **Sheffield ↔ Berlin/Charlottenburg**, with Fischer 1845–46 as the pre-Wedding comparison baseline.
 
-## 2. Wedding corpus state / evidence order
+## 2. Evidence order / current governing files
 
-All three Wedding PaddleOCR JSONs have been routed once: **740 entries, 609 non-empty**. OCR remains discovery/navigation, not diplomatic transcription. The local 900px JPGs / three PaddleOCR JSONs used in the earlier workflow are **not currently present in this repository**, so sentence-level palaeography must not be reconstructed from summaries.
+The local 900px Mss 25 JPGs and the three PaddleOCR JSONs used earlier are not currently present in the repo. OCR therefore remains routing only; do not reconstruct sentence-level palaeography from summaries.
 
-Current governing files:
-
-1. **`WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`** — controlled manuscript synthesis for PDFs 295–300;
-2. **`WEDDING_1860_07_25_SHEFFIELD_SPATIAL_ACCESS_CONTROL_2026-09-12.md`** — external works-location / access control;
-3. **`WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`** — 1860 adoption window + 1861 expert-demonstration control;
-4. **`WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`** — early/near-contemporary Cyclops spatial orientation + rolling-process visual control;
-5. `WEDDING_BESSEMER_PUBLICATION_VS_SITE_NOTE_2026-09-11.md` — public knowledge versus site calibration;
-6. `WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md` — image-controlled 1860 identification;
-7. `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md` through `PASS4` for their respective controlled zones;
-8. `WEDDING_FULL_OCR_READING_LOG_2026-09-11.md` and indices for routing only.
-
-Important correction: `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md` is mainly the tail/provenance pass and is not the governing transcription file for the Sheffield/Bessemer pages.
-
-Longitudinal architecture remains:
-
-**Mss 23: process decomposition / quantitative training → Mss 24: domestic cross-site comparison → Mss 25: transnational, multi-year, heterogeneous research container.**
-
-## 3. Controlled late-July 1860 sequence
-
-Image control gives:
-
-- **PDF 295 / manuscript p.146 — 24 July: Leeds / Sheffield**, Turton & Sons;
-- **PDF 296 / manuscript p.147 — Wednesday 25 July 1860**, Sheffield White Lead Works, Rawson/Barker-type firm wording;
-- **PDF 297 / manuscript p.148** — continuation of White Lead Works process notes;
-- **PDF 298 / manuscript p.149 — `Bessemer's Stahlwerk`**, converter/process drawing and technical prose;
-- **PDF 299 / manuscript p.150** — Bessemer continuation, second sketch and whole-process timing;
-- **PDF 300 / manuscript p.151 — `Cammells Walzwerke (Cyclops Works).`**, then explicit **Thursday 26 July — Leeds**, Peter Fairbairn's Maschinenwerkstätte.
-
-The Bessemer heading itself does not repeat the date. Strict claim: it lies between the explicit 25 July Sheffield entry and explicit 26 July Leeds entry. Strong folio-sequence inference: **the Bessemer visit and adjacent Cammell/Cyclops block belong to the 25 July 1860 Sheffield industrial-visiting sequence**.
-
-The former task “identify the Cammell/Cyclops heading” is closed at working-transcription level: **`Cammells Walzwerke (Cyclops Works).`**
-
-## 4. Contemporary Bessemer technical inscription
-
-PDF 298 is headed securely **`Bessemer's Stahlwerk`** and contains:
-
-- a large pear-shaped tilting converter/vessel drawing on a horizontal trunnion axis;
-- sectional/base/tuyere-type diagramming;
-- multiple grouped blast/opening marks;
-- technical operational prose;
-- a clear raw-material statement beginning **`Es wird Roheisen meist aus Cumberland verbraucht ...`**.
-
-The later cross-control supports at B-level that the process begins with iron melted in a small/cupola-type furnace and run/tapped into the converting vessel. Do not quote or normalise the exact route until page-image microtranscription is complete.
-
-PDF 299 continues the process and includes another vessel/spout sketch. One highly legible sentence reads:
-
-**`Der ganze Prozeß dauert cca 19–24 Minuten.`**
-
-Surrounding prose divides the process into stages and comments on gas/flame behaviour. Exact stage wording and minute values remain palaeographic targets.
-
-Carrier consequence: Mss 25 preserves a contemporary portable technical inscription package associated with Bessemer's Sheffield works:
-
-**named works heading + converter/process sketches + Cumberland material specification + timed operational sequence + stage/flame observations.**
-
-Claim ceiling: these leaves have not yet been proven to be the exact later `Entwürfe` used for Königshütte/Hörde.
-
-## 5. Public process knowledge versus situated site calibration
-
-The 1856 patent and 1859 public descriptions already circulated the principal process architecture: air through molten iron, rotating/axis vessel, general tuyere arrangement, flame as process indicator, Sheffield as practical development site, suitable hematite raw material and rapid conversion.
-
-Therefore do not frame the notebook as simply revealing secret Bessemer knowledge. Current source-controlled transformation is:
-
-**publicly describable process → situated inspection/demonstration → locally calibrated operational notebook record.**
-
-Potential site-calibration elements include current works use (`meist aus Cumberland`), Wedding's own sketching, his whole-process timing (`cca 19–24 Minuten`), local process-stage observations and comparison with the other Sheffield works visited in the same sequence.
-
-## 6. Access regime is now a controlled historical variable
-
-Bessemer's autobiography gives a historically grounded institutional explanation for technically detailed access. He says that his Sheffield firm could use his patents without royalty **in consideration of permitting the works to be inspected and the process fully explained to all intending licensees**.
-
-Therefore:
-
-- do **not** assume a hidden personal intermediary is required to explain Wedding's access;
-- treat Bessemer's inspection/explanation regime as the default institutional background;
-- a named guide/worker/foreman/intermediary remains worth finding, but is now an additional evidence claim rather than a missing prerequisite;
-- Wedding's 1896 statement that he learned the process in Sheffield through Bessemer's extraordinary kindness remains independent evidence of personal facilitation at some level.
-
-Revised access question:
-
-> **What institutional route made Wedding's inspection possible, and does the notebook additionally name a person who mediated or conducted it?**
-
-## 7. New control: a Sheffield Bessemer demonstration economy is visible by 1861
-
-The access-policy evidence is now corroborated by a near-contemporary works-demonstration episode.
-
-Bessemer dates the Institution of Mechanical Engineers' Sheffield summer meeting under Sir William Armstrong to **31 July 1861**, almost exactly one year after Wedding's visit. Philip W. Bishop's *The Beginnings of Cheap Steel*, citing *The Engineer* (1861), vol. 12, pp. 10 and 63, records that after the meeting engineers visited Bessemer's works; at John Brown & Co. the Bessemer process was repeated on a larger scale and a heavy armour plate rolled before about **250 visitors**.
-
-John Brown's contemporary PIME paper, `On the Manufacture of Steel Rails and Armour Plates`, is independently catalogued in the 1861 *Proceedings*, pp. 121–132.
-
-This does not prove Wedding's 1860 visit used the same group protocol. It does prove that by the following year Sheffield possessed an organised technical-disclosure practice in which experts could **watch, receive explanation, compare works, and see the process repeated at another plant**.
-
-Working concept:
-
-**controlled technical disclosure / demonstration economy**
-
-with separable components:
-
-**patent/licence boundary → purpose-built inspection → situated demonstration → expert witnessing → cross-works repetition → portable technical inscription.**
-
-This is analytically stronger than treating `public` and `secret` as fixed opposites. Access itself changes historically and must be reconstructed.
-
-See `WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`.
-
-## 8. Licensing/adoption horizon sharpens the 25 July sequence
-
-Current external chronology places:
-
-- Bessemer's Carlisle Street works: **1858**;
-- John Brown's Sheffield Bessemer licence/adoption: **1860**;
-- Charles Cammell: **1861**;
-- Samuel Fox: **1862**;
-- Cammell's start of rails / railway-material manufacture: **1861**;
-- Cammell armour plate: **1863**.
-
-Therefore Wedding's inferred 25 July 1860 sequence **Bessemer → Cammell/Cyclops** occurs inside a very narrow local adoption window: after Bessemer's own demonstration plant is functioning, in the year John Brown enters the Bessemer regime, and immediately before Cammell's own 1861 Bessemer/rail transition.
-
-Strong interpretation:
-
-> Wedding's Bessemer notebook package was made while the process was still being demonstrated, explained and locally adopted, rather than after Sheffield-wide technical stabilisation.
-
-Do **not** infer that Wedding influenced Cammell, that the Cammell visit was arranged by Bessemer, or that Wedding was formally negotiating a licence.
-
-## 9. Spatial control on the 25 July comparison day
-
-Current external location controls:
-
-- Sheffield White Lead Works / Rawson Barker: **Pond Mill Lane** (Derbyshire Record Office 1855 lease); 1857 directory additionally lists `Rawson, Barker, & Co., Lead Mills, office 74 Eyre st`;
-- Bessemer Steel Works: **Carlisle Street**, opened **1858**;
-- Charles Cammell & Co., Cyclops Steel and Iron Works: generally catalogued to **Savile Street**, but early visual/catalogue evidence shows the works articulated the **Carlisle Street / railway / Savile Street** strip rather than a single-street point address.
-
-Picture Sheffield ref `s09745`, catalogued as `Charles Cammell and Co. Ltd., Cyclops Works, Savile Street` with date 1845, notes that the view is from the **Carlisle Street side of the railway looking south**, with the pictured buildings along Savile Street. This is a useful early orientation control, though its image provenance/date should be audited before fine architectural claims.
-
-This supports a day-scale spatial/industrial sequence:
-
-**White Lead Works / Pond Mill Lane → Bessemer Steel Works / Carlisle Street → Cyclops Works / Carlisle–railway–Savile strip.**
-
-Interpretation ceiling: not yet a literal reconstructed walking route. Exact 1860 gates/paths/building footprints require period cartographic control.
-
-Analytical gain: the notebook adjacentises different **process regimes, scales of plant and access regimes** within one day. It begins with a lead/chemical process works and then moves into the emerging east-end heavy-steel corridor, including Bessemer's unusually new plant and the much larger established Cyclops complex.
-
-## 10. Cyclops `Walzwerke` is now independently controlled as a process classification
-
-Three near-contemporary points align:
-
-**Wedding 1860: `Cammells Walzwerke` → Measom 1861: extensive rolling mills → Pawson & Brailsford c.1862: `Steel Rolling Mills—Messrs C. Cammell and Co, Cyclops Works`.**
-
-A&AePortal catalogues the c.1862 engraving as a British Library print from *Pawson and Brailsford's Illustrated Guide to Sheffield and Neighbourhood*. The title itself makes rolling a defining published representation of the works only about two years after Wedding.
-
-Measom's 1861 *Official Illustrated Guide to the Great Northern Railway* separately describes rolling mills, tilts, forges and grinding wheels, with the rolling mills served by engines whose combined power is described as nearly 500 horsepower.
-
-Therefore `Walzwerke` should be treated as an analytically meaningful process label, not merely a site name. Chronological ceiling remains strict: Cammell's rail production begins in 1861 and armour plate in 1863, so the 1862 print cannot be used to infer which exact rolling shop/product Wedding saw in July 1860.
-
-See `WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`.
-
-## 11. High-value archival / visual targets
-
-Sheffield City Archives' company-record guide lists:
-
-**`Plan of Cyclops works, 1860s` — `X306/6/4/1`.**
-
-This is a priority object because it is close enough in date to Wedding's visit to support plant-layout/process comparison without relying on late-century OS geometry.
-
-The Sheffield Archives map collection also mentions a White Lead Works map reference (`ACM/MAPS/SheS/1931`) that should be checked for date/content before use.
-
-Priority visual/source set is now:
-
-- Picture Sheffield `s09745` — early Carlisle/Savile orientation control;
-- Measom 1861 — near-contemporary verbal plant/process control;
-- Pawson & Brailsford c.1862 — near-contemporary `Steel Rolling Mills` visual/process control;
-- Sheffield Archives `X306/6/4/1` — still the key unresolved 1860s plant-plan object.
-
-## 12. Revised relation to 1862 / 1863 layers
-
-### 1862
-
-Explicit `1862` comparison block includes Sheffield/Rotherham, Low Moor/Cumberland, Henry Marten reference material, armour-plate data and a manuscript-secure **`von Hoff`**. Earlier fuzzy Daelen and Hörde OCR candidates failed visual control.
-
-Interpretation: the 1862 layer may document later comparison/reuse/networking around British iron and Sheffield/Hörde actors; the first Bessemer process encounter is secured in 1860.
-
-### 1863
-
-Explicit **`Mit Herrn von Krug: 1863.`** section begins a Cornwall/Tavistock/Great Devon Consols layer, with direct/site notes interleaved with copied-reference material.
-
-## 13. Provenance / carrier architecture of Mss 25
-
-Separate image-control passes establish that Mss 25 mixes dated site notes, comparative reassembly, diagrams/sketches, copied printed authority, bibliographic routing, reused leaves/residual headings, compiled locality/mineral lists and physically inserted printed objects.
-
-Key examples include `Cornwall aus de la Beche.`, de la Beche-derived pages, and PDF 370's physically inserted Geological Survey / Ordnance Survey / Edward Stanford index-map/catalogue object. PDF 387 is the last substantive manuscript page; PDF 388 onward is object/digitisation photography.
-
-Working concept: Mss 25 is a **portable heterogeneous research container**, not a diary.
-
-## 14. Strongest transformation chain now testable
-
-**Sheffield works access / controlled technical disclosure, 1860 → direct Bessemer process observation → converter/process sketching + Cumberland material specification + timed operational notes → later German Hörde/Königshütte installation/design claims → later material comparison / metallography → numbered specimen and image reference systems.**
-
-At day scale:
-
-**White Lead Works → Bessemer's Stahlwerk → Cammells Walzwerke (Cyclops Works) → 26 July Leeds boundary.**
-
-At inscription/process scale:
-
-**chemical/lead process note → converter geometry + blow timing/stages → rolling-works process inscription.**
-
-At institutional scale:
-
-**print/patent description → live works inspection/explanation → expert witnessing / demonstration → local licensed adoption → portable notebook inscription.**
-
-This is an evidence-carrier and access-regime history rather than a generic influence story.
-
-## 15. Immediate next work
-
-Do not return to broad searching or blanket OCR.
-
-### Manuscript priority, once page images are accessible
-
-1. microtranscribe technically consequential lines on **PDFs 298–299**: charge size if present; furnace/type; melting/transfer route; whole-cycle staging; flame/gas wording and minute values;
-2. inspect **PDFs 296–300** only for named guide / worker / foreman / consultant / access intermediary and for explicit `Patent` / `Lizenz` / explanation vocabulary;
-3. on **PDF 300**, test whether the inscription regime changes from Bessemer process timing/geometry to Cammell variables such as `ROLLING`, `FORGING`, `POWER`, `DIMENSION`, `THROUGHPUT`, or `PRODUCT`;
-4. compare controlled 298–299 lines field-by-field with the 1856 patent and 1859 public paper, tagging `DIRECT_MANUSCRIPT`, `PUBLICATION_PRIOR`, or `INTERPRETATION`;
-5. structurally compare Wedding's converter sketch with Bessemer's early Sheffield converter diagrams without assuming direct copying.
-
-### Work that can proceed without the missing local images
-
-1. retrieve the **primary *Engineer* (1861), vol. 12, pp. 10 and 63** behind Bishop's account;
-2. retrieve/control the **1861 Institution of Mechanical Engineers Sheffield programme / proceedings / excursion list** and test which works were officially visited;
-3. retrieve/control Sheffield City Archives **`X306/6/4/1` Plan of Cyclops works, 1860s**;
-4. check **`ACM/MAPS/SheS/1931`** for White Lead Works date/layout relevance;
-5. collate the original **Measom 1861 Cyclops** pages and original Pawson & Brailsford c.1862 guide context;
-6. audit Picture Sheffield **`s09745`** provenance/date if used for architectural claims;
-7. find the primary **Cammell/Bessemer 1860–61 licence transaction** if extant;
-8. retain the **1862 Sheffield directory** as a useful post-visit cross-section, but it is now secondary to the demonstration/licensing sources above;
-9. then revisit the **1862 von Hoff** block as a later reuse/network stage and, after that, South Wales/Abercarn 1860.
-
-## 16. Claim ceilings
-
-Secure:
-
-- Wedding publicly dated his Sheffield Bessemer-process encounter to **1860** in 1896;
-- Mss 25 contains a dedicated **`Bessemer's Stahlwerk`** section in the late-July 1860 Sheffield sequence;
-- the section contains converter/process drawings, Cumberland pig-iron material information and process timing;
-- **`Der ganze Prozeß dauert cca 19–24 Minuten.`** is image-legible;
-- PDF 300's neighbouring heading is controlled as **`Cammells Walzwerke (Cyclops Works).`** at working-transcription level;
-- Rawson Barker's Sheffield White Lead Works is externally controlled to Pond Mill Lane; Bessemer's works to Carlisle Street from 1858; Cyclops to the Carlisle/railway/Savile industrial strip;
-- Bessemer retrospectively states that his Sheffield works permitted inspection and full explanation to intending licensees;
-- the 1861 IMechE/Bishop-*Engineer* control establishes organised expert works demonstration by the following year;
-- current external chronology places Brown's Bessemer adoption/licence in 1860, Cammell in 1861, Fox in 1862;
-- near-contemporary 1861–62 sources independently foreground rolling at Cyclops;
-- 1862 `von Hoff`, 1863 Krug, de la Beche provenance and inserted Stanford map findings remain secure.
-
-Strong inference / interpretation:
-
-- the Bessemer/Cammell sequence belongs to **25 July 1860**, from folio position between explicit 25 and 26 July headings;
-- the three 25 July works form a meaningful spatial/industrial comparison sequence, though exact route geometry is still open;
-- Wedding's notebook captures Bessemer during an active Sheffield transfer/adoption phase;
-- the relevant access mechanism is better modelled as controlled technical disclosure/demonstration than as a binary choice between public knowledge and industrial secrecy;
-- `Cammells Walzwerke` is likely an intentional process classification whose significance should be tested against PDF 300's actual note variables.
-
-Open:
-
-- exact guide/contact, if any, named for Bessemer access;
-- whether Wedding entered under an explicit prospective-licensee arrangement;
-- whether Bessemer himself is named in prose beyond the works heading;
-- exact charge size, transfer route and flame-stage wording on PDFs 298–299;
-- exact technical variables recorded under the Cammell/Cyclops heading on PDF 300;
-- whether these exact sketches are the `Entwürfe` later used in Hörde/Königshütte;
-- exact primary wording of *The Engineer* vol. 12 pp. 10/63 and full 1861 excursion itinerary;
-- exact Cammell/Bessemer licence transaction;
-- Daelen in Mss 25;
-- exact relation between 1860 Bessemer notes and the separate 1862 von Hoff block;
-- direct Wedding–Sorby co-presence/contact.
-
-## Resume order
+Read in this order:
 
 1. `CURRENT_PROGRESS.md`
 2. **`WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`**
 3. **`WEDDING_1860_07_25_SHEFFIELD_SPATIAL_ACCESS_CONTROL_2026-09-12.md`**
 4. **`WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`**
-5. **`WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`**
-6. `WEDDING_BESSEMER_PUBLICATION_VS_SITE_NOTE_2026-09-11.md`
-7. `WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md`
-8. Mss 25 page images / OCR routing around PDFs 296–300 when available
-9. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
-10. tail/provenance passes only when needed for broader notebook architecture.
+5. **`WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`**
+6. **`WEDDING_GRUNER_LAN_SHEFFIELD_1859_60_CROSS_CONTROL_2026-09-12.md`**
+7. **`WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`**
+8. `WEDDING_BESSEMER_PUBLICATION_VS_SITE_NOTE_2026-09-11.md`
+9. `WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md`
+10. Mss 25 PDFs / images 296–300 when accessible.
 
-**Immediate resume condition: while local Mss 25 images remain unavailable here, prioritise the primary 1861 demonstration/excursion record, the 1860s Cyclops plan and early visual controls, and the Cammell licensing transaction. The moment PDFs 298–300 or source JPGs are accessible, return to sentence-level Bessemer transcription and test the Cammell `Walzwerke` inscription regime.**
+`WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md` is mainly tail/provenance control and is not the governing file for the Sheffield/Bessemer pages.
+
+## 3. Controlled manuscript sequence
+
+Image control gives:
+
+- PDF 295 / ms p.146 — **24 July: Leeds / Sheffield**, Turton & Sons;
+- PDF 296 / ms p.147 — **Wednesday 25 July 1860**, Sheffield White Lead Works, Rawson/Barker-type wording;
+- PDF 297 / ms p.148 — White Lead Works continuation;
+- PDF 298 / ms p.149 — **`Bessemer's Stahlwerk`**, converter/process drawing + technical prose;
+- PDF 299 / ms p.150 — Bessemer continuation + second sketch + whole-process timing;
+- PDF 300 / ms p.151 — **`Cammells Walzwerke (Cyclops Works).`**, then explicit **Thursday 26 July — Leeds**, Peter Fairbairn.
+
+Strict claim: the Bessemer heading does not repeat the date. Strong folio-sequence inference: **Bessemer and Cammell/Cyclops belong to the 25 July Sheffield comparison day**.
+
+Secure manuscript anchors include:
+
+- `Es wird Roheisen meist aus Cumberland verbraucht ...`
+- **`Der ganze Prozeß dauert cca 19–24 Minuten.`**
+- converter/section/tuyere-type sketches;
+- `Cammells Walzwerke (Cyclops Works).`
+
+Exact charge size, furnace/transfer route, flame-stage wording and Cammell technical variables remain open until image-level microtranscription resumes.
+
+## 4. Bessemer knowledge boundary
+
+1856 patent and 1859 public descriptions already circulated the main process architecture. Therefore the notebook is not best framed as secret knowledge suddenly revealed.
+
+Current transformation:
+
+**publicly describable process → situated inspection/demonstration → locally calibrated operational notebook record.**
+
+Potential site-calibration elements are current Cumberland use, Wedding's own sketching, whole-process timing, process/flame staging and comparison with adjacent Sheffield works.
+
+## 5. Access regime: controlled technical disclosure
+
+Bessemer later stated that the Sheffield works permitted inspection and full explanation to intending licensees. A hidden personal intermediary is therefore not required as the default explanation for Wedding's technical access, although a named guide/worker/foreman remains an open manuscript question.
+
+By **31 July 1861**, the Institution of Mechanical Engineers Sheffield meeting provides near-contemporary corroboration of an expert-demonstration culture. Bessemer fixes the exact date. John Brown's contemporary paper is `On the Manufacture of Steel Rails and Armour Plates`, PIME 1861, pp.121–132. Bishop 1959 routes to *The Engineer* vol.12, pp.10 and 63 for the post-meeting works visits and c.250-visitor demonstration; those *Engineer* pages are not yet directly transcribed here.
+
+Working concept:
+
+**patent/licence boundary → purpose-built inspection → situated demonstration → expert witnessing → cross-works repetition → portable technical inscription.**
+
+Use `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md` to avoid treating Bishop as the terminal authority.
+
+## 6. Adoption chronology is now independently cross-controlled
+
+Barraclough resolves the Sheffield sequence cleanly:
+
+**1859 — Bessemer process technically stabilised/perfected at the Sheffield works**
+
+**1860 — John Brown takes Bessemer licence**
+
+**25 July 1860 — Wedding visits Bessemer, then Cammell/Cyclops**
+
+**1861 — Cammell takes Bessemer licence**
+
+**1862 — Samuel Fox follows**
+
+A misleading page-break/OCR reading that seemed to put Brown's licence in 1859 has been resolved: the `1859` footnote refers to Bessemer's process at his own Sheffield works; the next sentence explicitly gives **Brown 1860; Cammell 1861**.
+
+Strong temporal interpretation:
+
+> Wedding visits Bessemer after technical stabilisation, during Brown's first licensed-adoption year, and immediately before Cammell's licensed transition.
+
+No causal claim connects Wedding to Cammell's decision.
+
+## 7. Sheffield 1859–60 is a mixed-process landscape, not a mature Bessemer monoculture
+
+Gruner & Lan, *État présent de la métallurgie du fer en Angleterre* (Paris, 1862), pp.788–789, are now routed through Barraclough as a near-contemporary description of Sheffield around **1859–60**.
+
+Crucial provenance: Barraclough's appendix says the information was supplied on the authority of **Mr Vickers of Naylor, Vickers & Co.** and likely refers to 1859 or 1860.
+
+Barraclough's transcription gives roughly **50,000–60,000 tons/year** Sheffield steel production, with approximately:
+
+- 50% puddled/common spring steel;
+- 15% common cast steel;
+- 10% cast steel for mill spindles/spades/shovels;
+- 10% better welded cast steel for tools/cutlery;
+- 10% good-quality cast steel;
+- 4% first-quality cast steel;
+- 1% extra-quality cast steel.
+
+The same routed source says the major half-dozen works could each reach roughly 5,000 tons/year; more than half the regional steel used imported Swedish/Russian iron via Hull, the remainder drawing on English/colonial cast and wrought iron.
+
+Current evidence level: **`NEAR_CONTEMPORARY_ROUTED_SOURCE`**, not yet direct Gruner–Lan page-image control. The Annales/Gallica endpoints have been located, but the relevant pp.788–789 page images have not yet been exposed reliably in this environment.
+
+Analytical consequence:
+
+> `Cammells Walzwerke` should be read as a large rolling/steel works embedded in a heterogeneous process regime immediately before Cammell's Bessemer transition, not silently back-projected as the later mature Bessemer rail/armour works.
+
+## 8. Cyclops spatial/process control
+
+Current location control:
+
+- White Lead Works / Rawson Barker — **Pond Mill Lane**;
+- Bessemer Steel Works — **Carlisle Street**, opened 1858;
+- Cyclops — the **Carlisle Street / railway / Savile Street** industrial strip.
+
+Near-contemporary process-category control:
+
+**Wedding 1860 `Cammells Walzwerke` → Measom 1861 extensive rolling mills → Pawson & Brailsford c.1862 `Steel Rolling Mills—Messrs C. Cammell and Co, Cyclops Works`.**
+
+This supports `Walzwerke` as an intentional process classification. Do not infer exact July 1860 building geometry or later rail/armour products from the 1862 view.
+
+Still-high-value archival object:
+
+**Sheffield City Archives `X306/6/4/1` — Plan of Cyclops works, 1860s.**
+
+## 9. Strongest transformation chains now testable
+
+Day scale:
+
+**White Lead Works → Bessemer's Stahlwerk → Cammells Walzwerke → 26 July Leeds boundary.**
+
+Process/inscription scale:
+
+**chemical/lead process note → converter geometry + timed blow/stages → rolling-works process inscription.**
+
+Institutional scale:
+
+**print/patent description → controlled works inspection/explanation → expert witnessing/demonstration → local licensed adoption → portable notebook inscription.**
+
+Longitudinal project scale:
+
+**Mss 23 process decomposition → Mss 24 domestic comparison → Mss 25 transnational heterogeneous research container → later standardized specimen/image/reference systems.**
+
+## 10. Immediate next work
+
+Do not return to broad search or blanket OCR.
+
+While Mss 25 images remain unavailable here:
+
+1. **directly control Gruner & Lan pp.788–789 and nearby pages**, especially Sheffield/Vickers/product breakdown/date wording;
+2. retrieve *The Engineer* 1861 vol.12 **pp.10 and 63** and promote Bishop-routed claims only after direct control;
+3. inspect the complete 1861 PIME Sheffield meeting material for programme / visits / excursion list and test whether Cammell/Cyclops appears;
+4. retrieve or further catalogue-control **`X306/6/4/1`**;
+5. search primary Cammell records for the **1861 Bessemer licence transaction** without inventing a contract reference;
+6. collate original Measom 1861 / Pawson & Brailsford c.1862 context;
+7. then return to the 1862 `von Hoff` block and later South Wales/Abercarn.
+
+When Mss 25 PDFs/JPGs 296–300 become accessible:
+
+1. microtranscribe PDFs 298–299: charge, furnace/type, transfer route, timing, flame/gas stages;
+2. inspect 296–300 narrowly for guide/worker/foreman/access names and `Patent` / `Lizenz` / explanation vocabulary;
+3. on PDF 300, test `ROLLING`, `FORGING`, `POWER`, `DIMENSION`, `THROUGHPUT`, `PRODUCT` variables;
+4. compare 298–299 field-by-field with 1856/1859 publication prior;
+5. compare converter sketch structurally without assuming direct copying.
+
+## 11. Claim ceilings
+
+Secure:
+
+- Wedding publicly dates his Sheffield Bessemer encounter to 1860;
+- Mss 25 contains the Bessemer section and the controlled 19–24 minute sentence;
+- Cammell/Cyclops heading is controlled at working-transcription level;
+- Brown 1860 / Cammell 1861 / Fox 1862 adoption chronology is independently cross-controlled;
+- Bessemer's 1861 IMechE date is 31 July 1861;
+- Gruner–Lan is securely routed as a near-contemporary Sheffield source through Barraclough, with Vickers provenance.
+
+Strong inference / interpretation:
+
+- Bessemer/Cammell belong to the 25 July 1860 day;
+- Wedding's notebook captures an active transfer/adoption phase;
+- Sheffield access is better modelled as controlled technical disclosure than a public/secret binary;
+- Cyclops in July 1860 belongs to a mixed-process landscape immediately before its Bessemer transition.
+
+Open:
+
+- direct Gruner–Lan pp.788–789 page-image control;
+- direct *Engineer* pp.10/63 wording and full 1861 excursion itinerary;
+- exact Cammell/Bessemer licence transaction;
+- exact Cyclops 1860s plan date/layout;
+- exact guide/contact in Wedding's notebook;
+- exact 298–300 process wording;
+- whether Wedding's exact sketches became later Hörde/Königshütte `Entwürfe`;
+- Daelen in Mss 25;
+- direct Wedding–Sorby co-presence/contact.
+
+**Immediate resume condition: primary-control Gruner–Lan / *Engineer* / 1861 excursion / Cyclops plan while image access is blocked; the moment Mss 25 PDFs 298–300 are accessible, return to sentence-level transcription.**
