@@ -16,7 +16,7 @@ Fischer's British journeys are not adequately described as one-way technical lea
 
 This strengthens the project's larger question about the transformation of comparison across scales and media:
 
-**works visit / autopsy -> quantitative process comparison -> travelling sample -> external test / judgement -> drawing -> photographic negative / positive reproduction -> later prepared specimen / microscopic field / microphotographic reference image.**
+**works visit / autopsy -> quantitative process comparison -> travelling sample -> external test / judgement -> batch sampling / numbering -> drawing -> photographic negative / positive reproduction -> later prepared specimen / microscopic field / microphotographic reference image.**
 
 The final microscopic stages belong to the later Wedding/Martens problem and must not be projected backward as a direct genealogy.
 
@@ -46,7 +46,23 @@ Fischer shows samples of cast soft wrought iron to Bréant and Barre in Paris. T
 
 At the Royal Mint, Brande examines Fischer's dies / steel and gives an order for steel. Brande says he has previously obtained steel from Huntsman with uneven results. Fischer also shows cast-wrought-iron lock components and asks whether the same has already been made in England.
 
-## C. Sheffield 1845 — works-level quantitative comparison
+## C. Industrial comparison in England, 1845
+
+### C0. Low Moor Ironworks — batch, sample, number, specified quality
+
+Low Moor is now one of the highest-value nodes in the entire Fischer corpus.
+
+Fischer is guided through the works for roughly two hours and records blast pressure, fuel ratios, ore grade, limestone charge and other operating quantities. More importantly, he states that **a sample is taken from every tapping (`von jedem Abstich Muster genommen`) and the tapping / pig-iron batch is numbered**. He explicitly connects this to supplying consumers with iron of a specified required quality.
+
+This gives a concrete mid-nineteenth-century industrial sequence:
+
+`production event / tapping -> sample -> numbered batch -> quality differentiation -> delivery to consumer`.
+
+This is not yet laboratory material testing and should not be renamed as such. But it is a strong early form of systematic material comparison and traceability.
+
+The visit also produces a deliberately assembled portable series: Fischer receives ore, limestone, coal, coke and iron samples covering stages from pig iron through finished bar iron.
+
+Analytical value: Low Moor combines quantitative process observation, routine batch sampling, numbering and a travelling material series in one site. This is a much stronger bridge to the later problem of characteristic/reference specimens than generic factory travel alone.
 
 ### C1. Sanderson & Co.
 
@@ -88,11 +104,23 @@ This is a strong distributed-testing sequence:
 
 On returning to London in October 1846 Fischer states that he has supplied cast steel / cast wrought iron to the Royal Mint multiple times over the preceding year.
 
+### D3. Butterley — authority and reliability of the guide
+
+At Butterley Fischer is admitted through a recommendation letter, but the intended technical director Jessop is absent. A young counting-house clerk guides him instead. Fischer explicitly says the clerk lacks technical knowledge beyond his office and therefore **his statements should not be regarded as infallible**.
+
+This is important methodologically: access to a works does not automatically produce trustworthy observation. The epistemic quality of the visit depends on who mediates access and answers questions.
+
+Fischer nevertheless records furnace charge, hot blast, fuel prices, casting activity and workshop condition, and compares Butterley machinery unfavourably with Escher in Zurich and Kessler in Karlsruhe.
+
+Again the travel relation is comparative rather than simply deferential to Britain.
+
 ## E. Sheffield 1846 — testing by finishing and expert judgement
 
 ### E1. Rodgers & Son razor-blade test
 
 Fischer brings two razor-blade blanks made from his own steel, already forged, marked with his name and hardened. He gives them to Rodgers & Son in Sheffield to be ground, polished and fitted with scales, explicitly so that he can obtain their judgement of the steel's quality.
+
+The finished razors are reported by Fischer as having turned out excellently.
 
 This is particularly valuable for the later preparation problem because quality is made assessable through a sequence of skilled transformations performed elsewhere.
 
@@ -108,6 +136,8 @@ Again the relation is reciprocal: Fischer is not simply collecting British know-
 
 On the return through Sheffield Fischer visits Sanderson and Huntsman-related works again. His own works drawings circulate as technical representations and conversational objects.
 
+He also converses directly with a steel melter about rising/sinking steel during casting, crucible damage, ingots and plugs; the worker demonstrates crucible manufacture. Fischer later predicts the behaviour of two ingots during pouring and records that the prediction proves correct. This is another instance in which embodied process expertise is displayed and tested in situ.
+
 ## F. 1846 — image reproduction enters the circuit
 
 ### F1. Willat / photographic paper
@@ -117,6 +147,8 @@ In London Fischer visits the optician Willat and discusses photographic papers i
 ### F2. Beck drawing of the steel works
 
 Fischer carries a large coloured drawing by J. Beck showing the interior of his steel/cast-wrought-iron foundry during the casting operation. He discusses the visual effects of the open furnace, incandescent crucible and the coloured protective glasses used by workers against heat and intense light.
+
+The drawings are themselves used socially and technically: Fischer shows them to Brande and the Huntsman family as representations of his works.
 
 This is already a mediated representation of industrial process before photography is added.
 
@@ -138,29 +170,44 @@ Analytical value: image reproducibility is not abstract; it depends on material 
 
 ## G. Current comparative architecture
 
-The Fischer material now suggests at least four distinct carriers of comparison before the later metallographic problem:
+The Fischer material now suggests at least five distinct carriers / operations of comparison before the later metallographic problem:
 
 1. **body / autopsy** — presence in works and direct inspection;
-2. **portable material sample** — steel, cast wrought iron, crucible/clay fragments, finished blades;
-3. **written/quantitative record** — fuel consumption, furnace arrangements, letters and test reports;
-4. **portable visual representation** — works drawings, then photographic negative/positive reproduction.
+2. **quantified process observation** — dimensions, fuel ratios, blast pressure, output, costs;
+3. **portable material sample** — steel, cast wrought iron, crucible/clay fragments, finished blades, staged Low Moor samples;
+4. **batch traceability** — sample from each tapping plus numbered batch for specified quality;
+5. **portable visual representation** — works drawings, then photographic negative/positive reproduction.
 
 The later Wedding/Martens sequence may add:
 
-5. prepared polished specimen;
-6. microscopic field;
-7. microphotographic glass plate;
-8. printed/reference image and collection.
+6. prepared polished specimen;
+7. microscopic field;
+8. microphotographic glass plate;
+9. printed/reference image and collection.
 
 This layered model is currently stronger than a simple Britain-to-Germany diffusion narrative.
 
-## H. Immediate extraction queue
+## H. Methodological signals inside Fischer's own text
+
+Fischer repeatedly comments on the reliability and limits of observation itself:
+
+- `Autopsie` is required for grasping industrial scale/perfection;
+- visual judgement of furnace heat can be deceptive under different weather/light conditions;
+- a technically weak guide reduces confidence in reported facts (Butterley);
+- printed technical description can coexist with a distinct value assigned to seeing operations directly;
+- recommendations and personal introductions determine which works, rooms and practices become visible;
+- physical samples and drawings allow comparison to continue after the traveller leaves a site.
+
+This suggests that the project should track not only **what was observed**, but also **conditions of access, authority and transportability of evidence**.
+
+## I. Immediate extraction queue
 
 Next pass should extract, in date order:
 
 - named persons and their role in access/testing/introduction;
 - named works and exact operations observed;
 - every material sample carried, given, received or transformed;
+- every batch/sample/numbering practice;
 - every explicit comparison term (`Vergleichung`, `Autopsie`, better/worse, consumption, quality, judgement);
 - every drawing/image/photo reference;
 - every instance where visual observation is said to be unreliable, insufficient, or superior to textual description;
