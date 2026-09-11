@@ -1,0 +1,74 @@
+ocr_entry	page_marker	ocr_date	calendar_diagnostic	place_or_scope	person_firm_ocr	document_mode	operations	note	confidence	pdf_check
+12	41			Germany / Belgium / England		TITLE		Hermann Wedding; Metallurgisches Reisetagebuch ... 1860-1862	A	no
+13	1			contact list		ACCESS_INFRASTRUCTURE		names/addresses; highly noisy	B	yes names
+14	2;13			London; Manchester; Bradford; Belgium etc.	multiple named contacts	ACCESS_INFRASTRUCTURE		contact/address list	A function/B names	yes names
+15				Birmingham; Aachen; Newport; Cardiff; Charleroi; Brussels; Hannover; Oberhausen; Merthyr; Plymouth; Antwerp; Redruth; Tavistock; Southampton; Dundee; Manchester; Swansea; Dunkeld; Leeds; Liverpool	hotels/inns	ACCESS_INFRASTRUCTURE		hotel/lodging list	A function/places	selective
+16	12;15			London; Liverpool; Bradford; Swansea; West Bromwich; Wolverhampton; Brussels; Liège/Aachen; Couillet etc.	Mersey Steel/Iron Co; Bagnall & Sons; Cockerill; multiple contacts	ACCESS_INFRASTRUCTURE		firm/contact list	A function/B names	yes names
+17				London; Grangemouth; Stoke; Newcastle area; Manchester; Liverpool	Scott Russell; Salvesen; Shelton; others	ACCESS_INFRASTRUCTURE		firm/contact route list	A function/B names	yes names
+18	17	January 1860?		Berlin? / German route		DATED_NARRATIVE	SEE?	OCR begins dated travel; body noisy	B/C	yes
+20	19	28 Jan. 1860				DATED_NARRATIVE		date explicit, content noisy	B	yes
+156		Monday 30 Apr.	1860-04-30 = Monday	probably SW England		DATED_VISIT		weekday/date self-consistent	A date/B place	yes place
+157		Friday 4 May?	1860-05-04 = Friday	Plymouth / Devonport		DATED_VISIT	SEE; MEASURE?	Plymouth/Devonport explicit amid noise	A/B	yes exact date/names
+162		Thursday 8 May 60	1860-05-08 = Tuesday (conflict)	lead-smelting works; Liverpool supply mentioned		DATED_VISIT	SEE; PROCESS	weekday/date conflict	B place/process/C date pair	yes
+172		Friday 11 May	1860-05-11 = Friday	OCR place 'Gavynorth to Beuxtirn'	Mr. Garley	DATED_VISIT	SEE; MEASURE?	date/weekday self-consistent	A date/B everything else	yes
+174		Monday 14 May	1860-05-14 = Monday	South ... / Redruth?		DATED_VISIT	SEE	date self-consistent; place noisy	A date/B place	yes
+178		Thursday 15 May	1860-05-15 = Tuesday (conflict)	South ... underground		DATED_VISIT	SEE; UNDERGROUND	explicit underground; date conflict	B	yes
+181		Friday 13 May	1860-05-13 = Sunday (conflict)	Hayle		DATED_VISIT	SEE; MEASURE	Hayle explicit; date/weekday impossible	A place/B-C date	yes
+185		23 May 1860?	1860-05-23 = Wednesday	South Wales		DATED_VISIT	SEE	OCR 'South-Wales' and '23 Ma: 1260'	A place/B date	yes
+190		24 May 1860	1860-05-24 = Thursday	OCR 'Carm Eelyn and Bairna Works'	Manager Mr. Levick?; James?	DATED_VISIT	SEE; MEASURE; PROCESS	date clear; works names noisy	A date/B names	yes
+193		Friday 25 May 1860	1860-05-25 = Friday	Ebbw Vale	Edward Tamplin?; Joseph Williams; others	DATED_VISIT	SEE; PROCESS; MEASURE	Ebbw Vale + date/weekday strong	A date/place/B names	yes names
+194		Monday 28 May	1860-05-28 = Monday	industrial works; ore/coal comparison		DATED_VISIT_OR_COMPARISON	COMPARE; MEASURE	date weekday self-consistent; material list readable	A date/B context	yes
+196		29 May?	1860-05-29 = Tuesday	Ebbw Vale		DATED_VISIT	SEE	Ebbw Vale recognizable	A place/B date	yes
+201		2 June	1860-06-02 = Saturday	Abercarn? (OCR 'Aberram')		DATED_VISIT	SEE; APPARATUS?	probable Abercarn	B	yes
+205		Monday 4 June?	1860-06-04 = Monday	Welsh works/mining context	William Thomas?	DATED_VISIT	SEE; MEASURE	OCR 'Monday 3.4 June' ambiguous but Monday matches 4 June	B	yes; do not emend silently
+207		Thursday 5 June	1860-06-05 = Tuesday (conflict)	Welsh/industrial site	Mr. Banks; Davidson; Mr. Vaughn	DATED_VISIT	SEE; APPARATUS; PROCESS	weekday/date conflict	B	yes
+210				Abercarn		SITE_TECHNICAL_NOTES	SEE; MEASURE; PROCESS	heading approx Abercarn	A/B	selective
+221		8 June; Friday	1860-06-08 = Friday	Victoria ...; Welsh context		DATED_VISIT_OR_PRODUCTION_RECORD	MEASURE; COUNT	includes production yields/week ending May 26	A date/B site	yes site
+226				Abercarn; Newport marker		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		A place/B text	selective
+228				Abercarn		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		A place/B text	selective
+230				Abercarn		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		A place/B text	selective
+234				Abercarn		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		A place/B text	selective
+236				Abercarn		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		A place/B text	selective
+238				Abercarn		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		A place/B text	selective
+240				Abercarn (OCR 'Thercarn')		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		B	yes if cited
+242		Monday 13 June	1860-06-13 = Wednesday (conflict)	OCR 'Scanelly' / Welsh site		DATED_VISIT	SEE; PROCESS	weekday/date conflict	B/C	yes
+244				Abercarn (OCR 'Thercarn')		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		B	yes if cited
+249		9 June?				PRODUCTION_TABLE_OR_REFERENCE	COUNT; MEASURE	large tabular/numbered block; dates 26 May/June embedded	B function/C details	yes if used
+258		23 June	1860-06-23 = Saturday	Merthyr	Mr. Pierce	DATED_VISIT	SEE; PROCESS; MEASURE	Merthyr and Mr Pierce explicit	A place/B name/date	yes
+264	253	20 Juni / 2-3 Juli?		geological/reference notes	Dr. Wright?	REFERENCE_NOTES	DOCUMENT_COPY; COMPARE	stratigraphic terms; chronology unreliable	B function/C dates	yes if cited
+265		5 Juli 1860?	1860-07-05 = Thursday	OCR 'Wissungham' and route list		DATED_VISIT_OR_ROUTE	SEE	year OCR 1360	B date/C place	yes
+266	255			Newport marker / Abercarn sequence		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		B	selective
+269	259	July 1860		Newport marker; industrial names		SITE_TECHNICAL_NOTES	MEASURE; PROCESS		B/C	yes
+271	261	Monday 4/5 July 60?	1860-07-05 = Thursday; conflict if 5th	Newport/Abercarn sequence		DATED_VISIT	SEE	OCR date garbled	C date/B context	yes
+273	263	2 October?		Newport/Abercarn sequence	Thomas Morris?	CONTACT_OR_SITE_NOTES		date likely intrusive/uncertain	B/C	yes
+275	265			OCR 'Yudley Lord Iron Works'	Mr. Gradel?	SITE_TECHNICAL_NOTES	SEE; COUNT; MEASURE	works heading recognizable but spelling uncertain	B	yes heading
+277	267	12 Juli 1860	1860-07-12 = Thursday	Newport/Abercarn sequence	Griffith & Billings	DATED_VISIT	SEE; PROCESS	date and firm-like name recognizable	B	yes
+281	271	Friday 13 July?	1860-07-13 = Friday	site name noisy		DATED_VISIT	SEE; MEASURE	weekday/date would fit if 13 July; OCR '5.13. Fuli'	B/C	yes
+285	134	14 Juli	1860-07-14 = Saturday	Audley? / Blackwell? technical notes		DATED_VISIT_OR_ROUTE	SEE; DRAWING?	header 'formabend 14. Juli'	B	yes
+293	145	19 Juli	1860-07-19 = Thursday	Manchester	OCR 'William Fairbaix'	DATED_VISIT	SEE; CONTACT	Manchester/date strong; probable Fairbairn unverified	A date/place/B person	yes person
+294		22 July	1860-07-22 = Sunday	probable Sheffield; Turton works?	Mr. Mackew? Chief Works	DATED_VISIT	SEE; PROCESS	OCR place/name distorted	B	yes
+299	289	26 Juli	1860-07-26 = Thursday	industrial works	OCR 'Peter Fairborn'	DATED_VISIT	SEE; CONTACT	date anchor strong, person uncertain	A/B	yes
+300	157	Friday 27th Juli	1860-07-27 = Friday	Low Moor	Mr. Fenton	DATED_VISIT	SEE; CONTACT	excellent internal calendar control	A date/place/B person	yes names/details
+301	291			refinery/puddling notes		SITE_TECHNICAL_NOTES	MEASURE; PROCESS; COMPARE	metal/refining quantities visible	B	selective
+303	293	28 juli	1860-07-28 = Saturday	OCR 'Moroling Works'		DATED_VISIT	SEE; PROCESS	date strong; works name uncertain	A date/B site	yes site
+305	295			South Stafford		COMPARATIVE_TECHNICAL_NOTES	COMPARE; MEASURE	dense figures; modern hallucination intermixed	B place/C details	yes if used
+307	297	Thursday 31 July	1860-07-31 = Tuesday (conflict)	Newcastle upon Tyne	OCR 'Wilson & Belles'	DATED_VISIT	SEE; MEASURE; PROCESS	place clear, calendar conflict	A place/B names/C date pair	yes mandatory
+309	299	Monday 6 Aug. 60	1860-08-06 = Monday	Govan Works, Glasgow	Wilson Esq.; OCR 'Richard Macagan'	DATED_VISIT	SEE; MEASURE; CONTACT	excellent calendar anchor	A date/place/B names	yes names
+311	361	Day 4th?		OCR 'Gavsherrie ... Works'	Whitelaw; G. Campbell	SITE_TECHNICAL_NOTES	SEE; MEASURE	probably a Scottish works heading; spelling uncertain	B	yes
+315				Low Moor; Cumberland; Wolverhampton; Sheffield	Brown? Henry Martea?	COMPARATIVE_REFERENCE_BLOCK	COMPARE; MEASURE; DOCUMENT_COPY	multiple sites in one dense block; not one itinerary stop	A places/B function	yes names
+316		24 Juli + mixed later dates		Cumberland; Pittsburgh; Welsh material; Forest of Dean etc.		COMPARATIVE_REFERENCE_BLOCK	COMPARE; SAMPLE?; MEASURE	mixed place/material table; chronology not trustworthy	A function/B anchors	yes
+320				Jersey Steel Works?; Ulverstone; Govan/Blackburn terms	Mr. Clay; MacLeod?; Mr. Adams	COMPARATIVE_TECHNICAL_NOTES	COMPARE; MEASURE	multiple works/persons; likely reference/comparison page	B	yes
+322				OCR 'Steffeld Brown'; Tavistock; Cornwall		TRANSITION_OR_MIXED_PAGE	SEE?; COMPARE	layout may mix Sheffield/Brown note with Cornwall material	B	yes mandatory if chronological use
+324		10 August?	1860-08-10 = Friday	Cornwall/mining context?	Captain Harris; Stephenson	DATED_VISIT_OR_REFERENCE	SEE; CONTACT	large hallucination contamination	B/C	yes
+334				Govan?; 'Monthearmouth Colliery'	Mr. Luff	COMPARATIVE_TECHNICAL_NOTES	MEASURE; PROCESS	valid colliery-like anchor amid noise	B/C	yes
+339				Cornwall	de la Beche	REFERENCE_NOTES	DOCUMENT_COPY		A/B	yes exact
+341				Cornwall		REFERENCE_OR_LOCAL_INSTITUTION_NOTES	DOCUMENT_COPY; COMPARE	Vanning; Duchy/Stannary court/parliament vocabulary	A theme/B wording	yes
+346				Cornwall; Liskeard? mines/veins		MINING_TECHNICAL_NOTES	SEE?; MEASURE	mine/vein directions and quantities	B	yes selected
+353				British geology / Newport marker	de la Beche	COPIED_PRINT_REFERENCE	DOCUMENT_COPY	Memoirs of Geological Survey of Great Britain vol 1 (1846) + stratigraphy	A function/reference/B exact title OCR	yes citation
+357				mining social institutions		COPIED_OR_REFERENCE_NOTES	DOCUMENT_COPY	'field club' sickness/worker contribution paragraph appears printed/reference-like	B	yes
+359				British mining history		COPIED_OR_REFERENCE_NOTES	DOCUMENT_COPY	historical act/colliers prose; likely copied source	B	yes
+369				Great Britain & Ireland / Scotland		COPIED_PRINT_REFERENCE	DOCUMENT_COPY; CATALOG_NUMBERING?	Geological Survey publication/catalogue text; map scales/prices	A function	yes source identification
+373				Cornwall	Geological Society of Cornwall	COPIED_PRINT_REFERENCE	DOCUMENT_COPY	Report on geology / society wording	B	yes
+378				Cornwall localities incl. Launceston; St Austell? etc.		GEOLOGICAL_REFERENCE_NOTES	COMPARE; DOCUMENT_COPY	mineral/locality list	B	yes selective
+379				Cornwall		MINING_TECHNICAL_OR_REFERENCE_NOTES	SEE?; DOCUMENT_COPY	hanging wall/country rock vocabulary	B/C	yes
+382				Cornwall/mining		MINING_TECHNICAL_NOTES	SEE?; APPARATUS_TEST?; PROCESS	underground roads/carts; gunpowder; dressing; roasting furnace	B	yes
