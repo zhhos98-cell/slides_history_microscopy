@@ -1,10 +1,10 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-11 after Wedding OCR upload and first-pass indexing.**
+**Pinned continuation state — updated 2026-09-11 after full Wedding OCR routing + first image-controlled Mss 25 chronology pass.**
 
-This is the authoritative resume point for the active Iron Library project. Do not let unrelated repository activity supersede it.
+This is the authoritative resume point for the active Iron Library project. Read the detailed checkpoint files for evidence, but resume from the state below rather than from older OCR-only chronology.
 
-## 1. Current research position
+## 1. Governing research problem
 
 The project is no longer a generic Iron Library search and no longer a simple `Sorby → Wedding → Martens` diffusion story.
 
@@ -12,207 +12,165 @@ Controlled comparative sequence:
 
 **industrial travel / works comparison → travelling sample → external test / expert judgement → numbering / provenance / collection → prepared specimen → microscopic field → microphotography → printed / institutional reference system.**
 
-The central question is how material comparison changed scale, evidential carrier, access regime, preparation practice, institutional setting and reference structure while remaining a comparative activity.
+The core question is how material comparison changed scale, evidential carrier, access regime, preparation practice, institutional setting and reference structure while remaining a comparative activity. Geographic/institutional axis: **Sheffield ↔ Berlin/Charlottenburg**, with Schaffhausen/Fischer supplying the pre-Wedding baseline.
 
-Geographic/institutional axis: **Sheffield ↔ Berlin/Charlottenburg**, with Schaffhausen/Fischer supplying the pre-Wedding comparison baseline.
+## 2. Wedding corpus: OCR pass complete at routing level
 
-## 2. Wedding OCR dependency is now satisfied
-
-Hermann Wedding's Iron Library manuscripts are fully digitised on e-codices and local 900 px acquisition is complete:
-
-- `Mss 23` — 1856–1857; Freiberg/training notes;
-- `Mss 24` — 1858; German industrial study tour;
-- `Mss 25` — 1860–1862; Germany–Belgium–England/Britain.
-
-The three PaddleOCR JSON files are now present in the repository root:
+The three PaddleOCR JSONs are present in the repository root and are accepted as the discovery/indexing layer, not diplomatic transcription:
 
 - `wedding_mss23.pdf_by_PaddleOCR-VL-1.6.json`
 - `wedding_mss24.pdf_by_PaddleOCR-VL-1.6.json`
 - `wedding_mss25.pdf_by_PaddleOCR-VL-1.6.json`
 
-The current OCR is accepted as the speed/quality balance point for discovery and routing. It is **not** a diplomatic transcription. Important names/dates/technical terms will be corrected selectively against the manuscript images/PDFs when they become analytically consequential.
+Full corpus: 740 OCR entries, 609 with non-empty text. Every entry has now been routed once for recognisable content.
 
-Detailed first-pass note:
+Working indices:
 
-`WEDDING_OCR_FIRST_PASS_2026-09-11.md`
+- `WEDDING_MSS25_ITINERARY_AND_DOCUMENT_MODE_INDEX.tsv`
+- `WEDDING_MSS24_ITINERARY_SKELETON.tsv`
+- `WEDDING_MSS23_PROCESS_HEADING_INDEX.tsv`
+- `WEDDING_FULL_OCR_READING_LOG_2026-09-11.md`
 
-### First OCR findings now pinned
+The longitudinal architecture remains useful:
 
-#### Mss 23
+**Mss 23: process decomposition / quantitative training → Mss 24: domestic cross-site comparison → Mss 25: transnational access + works/mining comparison + documentary/reference accumulation.**
 
-- OCR entry 5: `über die Freiberger Hütten` / `Notizen`, with `Freiberg 1856-1857` and H. Wedding.
-- OCR entry 7: `Die Mulder Hütten` (exact spelling to verify visually).
-- Process headings become recoverable even when prose fails: `Die Bleiarbeit`, `Das Rösten der Bleierze`, `Das Verschmelzen der gerösteten Bleierze ...`, and `Die Concentration oder das Spuren des Kupfersteines`.
-- OCR entry 57 looks like a later copied/inserted layer referring to H. Th. Richter and C. Schiffner 1935; do not merge it automatically into Wedding's 1856–57 hand.
+## 3. Critical correction: Mss 25 is a multi-year working notebook
 
-Working use: process/training baseline — what Wedding learned to record, measure, draw and distinguish.
+Image control has superseded the old assumption that the British material after the 1860 study journey can be read as one continuous itinerary.
 
-#### Mss 24
+Current controlled year layers:
 
-A skeleton itinerary is already visible:
+### 1860 — long comparative study journey
 
-- broad route/title through Thüringen/Bayern/Rhein/Westfalen, `Michaeli 1858`;
-- Saarbrücken;
-- Krupp;
-- Essen / Bochum;
-- Dortmund;
-- Hörde;
-- Berlin.
+The 1903 memoir retrospectively describes a long Belgium/England journey before the March 1861 Bergreferendar examination and says the examination included comparison of South-Welsh and Upper-Silesian blast-furnace practice. Mss 25 supplies the contemporary working record.
 
-Working use: domestic cross-site comparison before the transnational Mss 25 regime.
+Image-controlled northern sequence now includes:
 
-#### Mss 25
+- **9–10 July 1860, Coventry**;
+- **19–23 July, Manchester**, including **William Fairbairn**;
+- **24 July, Leeds / Sheffield**, including **Turton & Sons**;
+- **26 July, Leeds**, **Peter Fairbairn's Maschinenwerkstätte**;
+- **Friday 27 July, Low Moor**, `Mr. Fenton`;
+- **Saturday 28 July, Bowling Works**;
+- **Tuesday 31 July, Newcastle upon Tyne**, **Losh, Wilson & Bell**;
+- early August Scottish sequence culminating in **Monday 6 Aug., Govan Works in Glasgow**;
+- **Gartsherrie Iron Works**, with `Mr. Whitelaw` and manager `G. Campbell` legible enough to route.
 
-The front matter is immediately valuable. OCR entries 15–18 are recognisably contact/address/firm/hotel lists, with London, Manchester, Liverpool, Bradford, Birmingham, Swansea, Merthyr, Leeds, Cockerill, Aachen, Bruxelles and other nodes. Treat this as an **access-network apparatus**, not incidental notes.
+Earlier South-West / South-Wales / Abercarn material remains controlled at OCR-routing level and is queued for selective visual correction.
 
-A provisional British chronology is already recoverable:
+### 1862 — explicit Sheffield/Rotherham comparison/reference layer
 
-- entry 294: `19 Juli: Manchesterer`; next line `William Fairbaix ...` — Manchester/date usable now; personal-name normalisation waits for image control;
-- entry 295: `22 July` with probable Sheffield/works heading;
-- entry 300: `26 Juli`;
-- entry 301: `Friday 27th Juli Low Moor`, plus `Mr. Fenton`; 27 July 1860 was indeed Friday;
-- entry 304: `28 juli`;
-- entry 308: Newcastle upon Tyne; OCR reads `Thursday 31 July`, but 31 July 1860 was Tuesday, so date/weekday is flagged for image checking rather than silently corrected;
-- entry 310: `Monday 6 Aug. 60 Govan Works ... Glasgow`; 6 August 1860 was Monday;
-- entry 272: explicit Sheffield, date wording noisy;
-- entry 316: Low Moor + Cumberland + Wolverhampton + Sheffield in a dense comparison/reference block; do not force into a single dated visit;
-- entry 323: `Steffeld Brown ...`, probable Sheffield/Brown reference pending image control;
-- later entries move clearly into Cornwall/Wales/mining material.
+Mss 25 entry 315 is image-controlled and explicitly headed **`1862`**. It is a mixed comparison/reference sheet, not a 1860 visit page.
 
-This is enough to stop thinking of Mss 25 as unreadable OCR. The British spine and network layer are already indexable.
+Recognisable content includes:
 
-### OCR confidence rule
+- Low Moor / Cumberland comparison;
+- a reference to `On the construction of hot blast ovens for iron furnaces by Henry Marten`;
+- numbered **`9. Sheffield`** section;
+- Brown/Atlas Works-type line still needing exact control;
+- armour-plate dimensions and quantitative notes;
+- **`bei Mr Beale in Rotherham bei Sheffield`**.
 
-Use three levels:
+This page demonstrates that Wedding reused the notebook as a comparative/reference instrument after the 1860 journey.
 
-- **A** — stable anchor: date/place/name/heading clear enough to index;
-- **B** — useful probable reading; exact spelling/wording needs page-image control;
-- **C** — repetition, modern-date hallucination, generic filler or multilingual garbage; do not promote into argument.
+### 1863 — explicit Krug von Nidda layer
 
-Calendar consistency is an OCR diagnostic, not a licence to rewrite the manuscript. Store OCR reading and calendar flag separately.
+Mss 25 entry 322 is image-controlled. A new section reads:
 
-## 3. Fischer 1845–1846 baseline remains controlled
+**`Mit Herrn von Krug: 1863.`**
 
-Existing detailed files include the event index, knowledge-boundary matrix, sample/reference-regime analysis, iterative testing circuit, testing regime, measurement/observation note, secrecy/exchange note, access network and node index.
+followed by **`Cornwall`** and a Tavistock / **Great Devon Consols** section.
 
-Controlled findings remain:
+This is contemporary manuscript-level dating for at least the Cornwall segment of the Krug journey described retrospectively in the 1903 memoir. Do not automatically assign every later Cornwall page to this section until its forward boundary is controlled.
 
-- `Vergleichungspunkte` / `Autopsie` matter, but practice is broader: **see → count → measure → ask → weigh → calculate → compare → sample → record**;
-- Low Moor batch sampling/numbering links production event, material identity and quality;
-- staged travelling samples preserve process sequence;
-- Royal Mint testing turns Fischer's `Musterstange` into a practical reference-quality object without making it a modern certified reference material;
-- provenance may be preserved or destroyed;
-- access depends on recommendation, prior relation, technical credibility, named guides and selective disclosure;
-- Butterley remains the negative control for weak guided access;
-- patent priority, secrecy, publication, demonstration and reciprocal questioning are separate regimes;
-- the 1845–46 circuit is **journey → sample/order → shipment → external test → written judgement → repeat supply → return journey → reuse of test authority**;
-- no positive textual evidence currently supports making Fischer 1845–46 a microscopy story.
+Detailed evidence:
 
-## 4. Parallel microscopic regimes remain controlled
+- `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md`
+- `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
 
-### Sorby / Sheffield
+## 4. Bessemer / Daelen / von Hoff / Hörde problem: current state
 
-Working regime:
+The 1903 memoir securely states that Wedding:
 
-**industrial material → skilled preparation → polished/etched surface → reflected/direct illumination → microscopic field → photomicrograph / printed image**.
+- was instructed by **Bessemer himself in Sheffield** about the arrangement/execution of the process/plant;
+- brought **drawings** back from England;
+- says those drawings were used in connection with Königshütte and Hörde installations;
+- travelled to Sheffield with Hörde leaders **Daelen and von Hoff**;
+- advocated **Cumberland pig iron**, later contrasting its performance with Upper-Silesian material.
 
-### Story-Maskelyne / British Museum mineralogy
+The memoir supplies the retrospective chain, but not the exact notebook date.
 
-Working regime to test:
+A complete targeted OCR/fuzzy pass has now been run over Mss 25:
 
-**museum specimen / meteorite → prepared thin section → glass carrier → transmitted/polarised-light comparison → collection/classification**.
+- no literal `Bessemer` hit is secure;
+- no Daelen or von Hoff candidate can yet be promoted;
+- no reliable `Zeichnung(en)` hit anchors the retrospective drawings in the 1862–63 block;
+- the most important candidate is **entry 316**, immediately after the explicit 1862 Sheffield/Rotherham page, where OCR gives **`Von Börde Muster (Re...)`** amid Cumberland / Forest of Dean comparison material. This could be an OCR corruption of `Hörde`, but this is **not yet evidence** and requires image control.
 
-Treat Sorby and Maskelyne as parallel material-to-microscopic-object regimes until direct transmission evidence exists.
+Detailed routing note:
 
-### Berlin / Martens
+`WEDDING_BESSEMER_TARGETED_OCR_PASS1_2026-09-11.md`
 
-Endpoint remains the Königliche mechanisch-technische Versuchsanstalt / Materialprüfungsamt: specimen preparation, reflected-light microscopy, microphotography and separate specimen/image reference collections. The three original Droste/Martens glass plates remain the strongest object-dependent onsite lead.
+## 5. Immediate resume point
 
-## 5. Wedding extraction schema
+Do **not** return to broad searching and do **not** reopen blanket OCR.
 
-Core fields:
+Priority sequence:
 
-- OCR entry / manuscript page marker;
-- date / itinerary;
-- person + functional role;
-- works / institution;
-- source of datum: direct observation / oral report / copied document/drawing / inference;
-- confidence A/B/C;
-- image-check flag.
+1. visually control **Mss 25 entry 316** and resolve `Von Börde Muster` / possible Hörde;
+2. walk entries **317–321** page by page to establish the full 1862 block and inspect specifically for Bessemer / converter / Daelen / von Hoff / plant arrangement / drawings;
+3. control the transition immediately above `Mit Herrn von Krug: 1863` on entry 322;
+4. follow entries **323–330** to map the early 1863 Krug layer and separate direct visit notes from copied/reference material;
+5. only after this, date the retrospective Bessemer episode if the manuscript permits it;
+6. then return to the South-Wales/Abercarn visual-control queue and the Mss 24/Mss 23 selective checks.
 
-Observation/testing operations:
+Highest-value unresolved question:
 
-`SEE | COUNT | MEASURE | WEIGH | CALCULATE | APPARATUS_TEST | EXPERT_JUDGEMENT | SENSORY_JUDGEMENT | IMAGE | RELIABILITY_WARNING`
+> **Can the Bessemer / Daelen / von Hoff / Hörde / drawings episode be located inside the 1862 or 1863 Mss 25 layer, and can the notebook show the form of the portable technical inscription Wedding later said he carried back from England?**
 
-Access modes:
+## 6. Claim ceilings
 
-`RECOMMENDATION | PRIOR_RELATION | SPONTANEOUS_ACCESS | PRIVILEGED_ACCESS | TECHNICAL_CREDIBILITY | CREDIBILITY_PERFORMANCE | ACCESS_DENIAL_OR_LIMIT | WEAK_GUIDE`
+Secure now:
 
-Knowledge-boundary modes:
+- current OCR is adequate as a routing/indexing layer;
+- Mss 25 contains distinct image-controlled **1860, 1862 and 1863** British layers;
+- William Fairbairn, Peter Fairbairn, Turton & Sons, Low Moor, Bowling Works, Losh/Wilson/Bell, Govan and Gartsherrie are image-controlled anchors in the 1860 northern sequence;
+- the 1862 page contains Sheffield/Rotherham + Cumberland comparison material;
+- `Mit Herrn von Krug: 1863` is explicit in the manuscript;
+- the 1903 memoir claims personal Bessemer instruction in Sheffield and a Sheffield journey with Daelen/von Hoff.
 
-`PUBLICATION | PRACTICAL_COMPETENCE | PATENT_PRIORITY | SECRET | SELECTIVE_DISCLOSURE | RECIPROCAL_EXCHANGE | DEMONSTRATION | DOCUMENT_COPY | WITHHOLDING`
+Still open:
 
-Sample/reference modes:
+- exact date/year of the Bessemer instruction episode;
+- whether entry 316 actually reads Hörde;
+- whether Daelen/von Hoff are present in Mss 25 under corrupted OCR;
+- whether Wedding's England-derived drawings survive as drawings/copies in the notebook;
+- whether the retrospective Bessemer episode belongs to 1862, 1863 or another section;
+- any direct Wedding–Sorby co-presence/contact claim.
 
-`DEMONSTRATION_SAMPLE | TRACE_SAMPLE | BATCH_IDENTITY | STAGED_SERIES | REFERENCE_QUALITY_SAMPLE | PREPARED_TEST_OBJECT | SAMPLE_DONOR | SAMPLE_RECIPIENT | PROVENANCE_LOSS | CATALOG_NUMBERING`
+## 7. Background files to retain
 
-## 6. Immediate research order — changed after OCR upload
+For the Fischer baseline, external controls, later Wedding/Martens visual-evidence sequence, and onsite logic, retain:
 
-The OCR dependency is complete. **Do not resume broad searching.**
+- `FISCHER_1845_1846_EVENT_INDEX.tsv` and associated Fischer analysis files;
+- `EXTERNAL_SOURCE_EXPANSION_2026-09-11.md` + later passes;
+- `WEDDING_NOTEBOOK_CITATION_AUDIT.md`;
+- Wedding 1885 / Martens reference-system research notes;
+- `RESIDENCY_TRIAGE_2026-09-11.md`;
+- `PUBLIC_DIGITAL_CORPUS.md`;
+- `SOURCE_MAP.md`.
 
-1. Build the provisional Mss 25 itinerary/contact table for OCR entries **15–19 and 292–320**.
-2. Separate front-matter contact/address infrastructure from visited-site narrative.
-3. Extend the British chronology outward into Cornwall/Wales until dates/places stabilise.
-4. Build compact Mss 24 itinerary skeleton: Saarbrücken → Krupp/Essen/Bochum → Dortmund/Hörde → Berlin.
-5. Build Mss 23 process-heading/apparatus index.
-6. Within the controlled British range, search for Bessemer / Daelen / von Hoff / Sorby; fuzzy candidates require image control before promotion.
-7. Only after dates/names are controlled, test direct Wedding–Sorby co-presence/contact.
-8. Compare Mss 25 working notes with Wedding/von Dechen 1862 official exhibition catalogue as a transformation from private working record to public institutional representation.
-9. Then continue into Wedding 1885 / Sorby criticism and Martens/Materialprüfungsamt specimen-image-reference systems.
-
-## 7. External controls already queued
-
-Keep, but subordinate to Wedding indexing:
-
-- Fischer 1851 + Great Exhibition catalogue;
-- Faraday & Stodart 1822 and earlier Fischer/Faraday relation;
-- Croucher 1845;
-- Royal Polytechnic catalogue 1843;
-- Wedding/von Dechen 1862 exhibition catalogue;
-- Sorby 1863–64 + surviving specimen catalogue/history;
-- Maskelyne 1870 and Tutton/Maskelyne preparation corpus;
-- Martens 1891 / 1893;
-- Martens & Guth 1904.
-
-The point is controlled transformation, not PDF accumulation:
-
-**working record / batch / sample → travelling object → test/judgement → catalogue/public representation → prepared object → microscopic field → reproducible image → institutional reference system**.
-
-## 8. Claim ceilings
-
-Do not currently claim:
-
-- Fischer 1845–46 practised microscopy;
-- Sorby and Maskelyne formed a direct transmission chain;
-- Wedding met Sorby in 1860/62;
-- a noisy OCR reading such as `William Fairbaix` is already a securely normalised historical identity;
-- the Mss 25 Sheffield rows already prove a Bessemer meeting;
-- `Mr. Fenton` has been identified;
-- every place in OCR entry 316 belongs to one visit/date;
-- OCR-entry number equals handwritten manuscript pagination;
-- calendar checking authorises silent correction of manuscript wording;
-- Mss 23–25 have never been read;
-- shared glass substrate proves historical continuity;
-- analytical similarity establishes genealogy.
+The later endpoint remains analytically important: prepared physical sections and microphotographic image collections become distinct institutional reference systems at Berlin/Charlottenburg. The immediate work, however, stays on the page-level Wedding manuscript bridge.
 
 ## Resume order
 
-1. `CURRENT_PROGRESS.md` — this file.
-2. `WEDDING_OCR_FIRST_PASS_2026-09-11.md` — **active next-step note**.
-3. the three Wedding OCR JSONs in repository root.
-4. `WEDDING_NOTEBOOK_CITATION_AUDIT.md`.
-5. `EXTERNAL_SOURCE_EXPANSION_2026-09-11.md` and `EXTERNAL_SOURCE_EXPANSION_PASS2_2026-09-11.md`.
-6. Fischer baseline files as needed for controlled comparison.
-7. `RESIDENCY_TRIAGE_2026-09-11.md`, `PUBLIC_DIGITAL_CORPUS.md`, `SOURCE_MAP.md` for onsite/acquisition logic.
+1. `CURRENT_PROGRESS.md`
+2. `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md`
+3. `WEDDING_BESSEMER_TARGETED_OCR_PASS1_2026-09-11.md`
+4. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
+5. `WEDDING_MSS25_ITINERARY_AND_DOCUMENT_MODE_INDEX.tsv`
+6. `WEDDING_FULL_OCR_READING_LOG_2026-09-11.md`
+7. Mss 25 OCR JSON / images as needed.
 
-**Immediate resume condition:** continue the Mss 25 provisional itinerary/contact index. OCR rerunning and generic Iron Library searching are lower priority than extracting the currently recognisable corpus.
+**Immediate resume condition: visually resolve entry 316 and continue the 1862 block.**
