@@ -29,11 +29,12 @@ Bounded research project connecting the parent *Using Up Old Slides* problem to 
 
 Continuation authority:
 
-1. `iron_library_glass_carriers_2026-09-11/README.md` — scope, claim ceiling and project router;
-2. `iron_library_glass_carriers_2026-09-11/SOURCE_MAP.md` — controlled external sources and evidence levels;
-3. `iron_library_glass_carriers_2026-09-11/RESEARCH_STATE.md` — current comparison, bounded research queue and stop rules.
+1. `iron_library_glass_carriers_2026-09-11/README.md` — scope, claim ceiling, current exact-source state and project router;
+2. `iron_library_glass_carriers_2026-09-11/SOURCE_MAP.md` — controlled external sources, identifiers, access routes and evidence levels;
+3. `iron_library_glass_carriers_2026-09-11/RESEARCH_STATE.md` — current comparison, bounded research queue and stop rules;
+4. `iron_library_glass_carriers_2026-09-11/EXACT_SOURCE_REQUEST.md` — unsent, ready-to-use staff enquiry for the three Droste microphotographic glass plates and identifiers `G 745,1`, `Per765` and `A346`.
 
-The first secure object route is Bernhard Droste's published statement that he donated three original early microphotographic glass plates associated with the Königliche mechanisch-technische Versuchsanstalt zu Berlin. Their current item-level locator remains open. The project does not reopen the frozen microscope-slide census.
+The first secure object route is Bernhard Droste's published statement that he donated three original early microphotographic glass plates associated with the Königliche mechanisch-technische Versuchsanstalt zu Berlin. Droste figure 2 associates their published image with `G 745,1`, but the catalogue meaning of that identifier and the individual plate locators remain open. The project is now in exact-source closure mode and does not reopen the frozen microscope-slide census.
 
 ## Cleanup rule
 
