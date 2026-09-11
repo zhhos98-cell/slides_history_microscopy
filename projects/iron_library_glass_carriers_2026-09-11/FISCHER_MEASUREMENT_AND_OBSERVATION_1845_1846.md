@@ -94,7 +94,17 @@ Fischer also records dimensions of tested springs.
 
 Here measurement is no longer only the traveller's operation. It is built into the industrial testing apparatus and reference geometry.
 
-## 6. Sample, number and measurement form different evidential operations
+## 6. Embodied sensory measurement survives beside apparatus
+
+The same Sheffield visit shows that controlled machinery does not eliminate skilled bodily judgement. In the file-hardening shop Fischer estimates the temperature of the hardening water by feel at roughly 15–18 degrees Réaumur. He then tastes the water and says the added substance used to strengthen its action is immediately recognisable to him.
+
+This is analytically important. The observational regime is hybrid:
+
+`instrument / reference geometry + hand/eye/taste + accumulated craft experience`.
+
+The later transition to laboratory testing should therefore not be narrated as a simple replacement of subjective senses by instruments. One question for Wedding/Martens is which sensory judgements are displaced, disciplined, preserved or re-encoded by specimen preparation and optical apparatus.
+
+## 7. Sample, number and measurement form different evidential operations
 
 The Fischer corpus now requires these categories to remain distinct:
 
@@ -107,17 +117,36 @@ The Fischer corpus now requires these categories to remain distinct:
 - **batch numbering**: linking sample and production output;
 - **external trial**: another institution or expert subjects the material to a test;
 - **apparatus test**: controlled mechanical transformation and reference condition;
-- **expert sensory judgement**: skilled assessment after grinding/polishing, casting, hardening, etc.
+- **expert sensory judgement**: skilled assessment by eye, hand, taste or process familiarity;
+- **provenance judgement**: assessing whether the material's known history is adequate to support quality claims.
 
 Do not collapse all of these into the single label `test`.
 
-## 7. Vision can itself become an object of reflection
+## 8. Provenance as a condition of quality
+
+In London in October 1846 the steel merchant Fenn tells Fischer that English cast steel is no longer as good as formerly. His explanation is competition: steel makers buy old railway carriage springs and similar material whose quality they themselves do not know, then melt the heterogeneous material together to obtain cheap steel.
+
+This provides a useful negative control against Low Moor's sample-plus-number practice.
+
+Low Moor:
+
+`production event -> sample -> number -> retained identity / specified quality`
+
+Fenn's complaint:
+
+`old components -> unknown prior quality -> mixed remelting -> provenance loss -> declining / unreliable quality`
+
+The contrast makes **material identity and provenance** a research variable rather than a background detail.
+
+This may later matter for the parent glass-carrier problem as well, but no cross-material historical connection should be inferred without evidence.
+
+## 9. Vision can itself become an object of reflection
 
 The 1846 visit to the Polytechnic Institution offers a useful peripheral control. During dissolving views Fischer deliberately fixes his gaze on stable details in an attempt not to be deceived by the image transition, but reports that the transformation still defeats his effort. In the same institution, catalogue-numbered objects, demonstrations, lectures and `working models` are used to make scientific/practical knowledge perceptible and clear (`versinnlichet und verdeutlichet`).
 
 This should remain a secondary representation/demonstration strand, not evidence of metallography. Its value is that Fischer explicitly reflects on how visual effects, models and demonstrations organise perception.
 
-## 8. Comparison with later metallography: claim ceiling
+## 10. Comparison with later metallography: claim ceiling
 
 The Fischer material supports a prehistory of **operations of comparison** but not a direct genealogy to microscopic metallography.
 
@@ -125,14 +154,15 @@ The later Wedding/Martens question should therefore ask what changes when:
 
 - production-scale quantities become specimen-scale features;
 - portable material samples become deliberately prepared sections/surfaces;
-- the traveller's eye and ruler are supplemented/replaced by optical instruments;
+- the traveller's eye, hand, taste and ruler are supplemented/replaced/retrained by optical and mechanical instruments;
 - batch or mechanical-test records become microphotographic/printed reference series;
-- access to a factory becomes institutional access to a testing laboratory and collection.
+- access to a factory becomes institutional access to a testing laboratory and collection;
+- provenance is preserved through labels, specimen series and photographic records rather than only through the traveller's notes and memory.
 
 ## Wedding extraction rule
 
 When indexing Wedding Mss 23–25, code every relevant passage with one or more of:
 
-`SEE | COUNT | MEASURE | WEIGH | CALCULATE | SAMPLE | NUMBER | APPARATUS_TEST | EXPERT_JUDGEMENT | IMAGE | ACCESS | RELIABILITY_WARNING`
+`SEE | COUNT | MEASURE | WEIGH | CALCULATE | SAMPLE | NUMBER | APPARATUS_TEST | EXPERT_JUDGEMENT | SENSORY_JUDGEMENT | PROVENANCE | IMAGE | ACCESS | RELIABILITY_WARNING`
 
 Also record who supplied the datum and whether Wedding observed it himself, received it orally, copied it from a document/drawing, or inferred it.
