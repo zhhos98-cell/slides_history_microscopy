@@ -34,7 +34,7 @@ For the Martens/Heyn route, test whether the relevant continuity lies in:
 - a printed reproduction of that plate;
 - captions, plate numbers or publication addresses that allow the image to be re-identified later.
 
-Do not choose among these before linking individual plates to individual publications or records.
+The 1904 Materialprüfungsamt account now makes one distinction first-order rather than merely analytical. In the same microscopy room, characteristic polished specimens were stored in zinc-sheet desiccators in drawers, while separate cabinets contained more than 3,600 microphotographs. The specimen and its photographic image could therefore enter two different collection and storage systems. The present task is to determine where the three surviving Iron Library plates sit inside that earlier production/publication history.
 
 ## 4. Why the GF archive matters even when it is later
 
@@ -50,21 +50,29 @@ That is a strong control for the microscope-slide core's existing finding that m
 
 ### Priority A — close the Droste three-plate object identity
 
-1. Locate the current item/object record for the three original microphotographic glass plates.
-2. Establish whether they are accessioned in the Iron Library, Corporate Archives, or another local object register.
-3. Record dimensions, physical format, inscriptions/labels, photographic process if stated, condition and image subject for each plate.
-4. Identify the publication plate referred to in Droste's figure caption and test whether it is a direct reproduction of one of the surviving plates.
-5. Resolve dates to the narrowest supported interval.
+Public-web work has now reached its stop rule. Droste's figure 2 — the figure showing the microphotographic glass plates — is credited `Foto: Eisenbibliothek, G 745,1`. This is a secure published association but not yet a secure statement that `G 745,1` is the physical accession number of all three plates.
 
-**Stop rule:** if public catalogues do not expose item records, convert this into one precise enquiry to Iron Library staff rather than broad-searching indefinitely.
+The next action is therefore a staff-level exact-source enquiry using `G 745,1`, not more broad searching. The enquiry should establish:
+
+1. what kind of identifier `G 745,1` is;
+2. whether the three physical plates are individually catalogued and, if so, their current signatures/accession numbers;
+3. dates, dimensions, process, inscriptions/labels, subjects and condition;
+4. whether the printed plate shown beside them in Droste figure 2 can be identified with a specific Martens publication/plate;
+5. whether digital images or onsite consultation are available.
+
+A second identifier, `Per765`, appears in Droste's image credits beside Martens's 1891 article and should be included in the same enquiry without presuming its catalogue function.
 
 ### Priority B — reconstruct the printed metallography chain
 
-1. Resolve IRONCAT holdings for Adolf Martens, Emil Heyn, Oswald Bauer and the *Mittheilungen aus den königlichen technischen Versuchsanstalten zu Berlin*.
-2. Inspect the named years 1889, 1892, 1894, 1895, 1896 and 1897 for microphotographic plates and captions.
-3. Control the Cu/Cu2O image in Heyn/Bauer, *Metallographie*.
-4. Separate photographic production, microscopic observation, drawing/diagram and printed reproduction when the publications distinguish them.
-5. Record any explicit language about plate preparation, reflected-light apparatus, magnification, exposure, reproduction or preservation.
+The bibliography is now narrow enough to inspect rather than search generally:
+
+1. Martens, `Die mikroskopische Ausrüstung der königlichen mechanisch-technischen Versuchsanstalt` (1891), pp. 278–293, plates IV–VI;
+2. Martens, `Ueber die Ausstellung der Versuchsanstalt auf der Weltausstellung zu Chicago im Jahr 1893` (1893), pp. 247f., plates IV–VI;
+3. Martens, `Das mikroskopische Gefüge von Flusseisen in gegossenen Blöcken` (1893), pp. 273–292, plates VII–XIII;
+4. Martens and Heyn, `Ueber die Mikrophotographie im auffallenden Licht und über die mikrophotographischen Einrichtungen der Königlichen Mechanisch-Technischen Versuchsanstalt in Charlottenburg` (1899), p. 73 onward;
+5. the 1904 Materialprüfungsamt description as a later control for apparatus, specimen storage and a >3,600-image microphotograph collection.
+
+The immediate closure is **plate-to-publication**, not a general history of metallography. Separate photographic production, microscopic observation, polished specimen, photographic plate and printed reproduction whenever the source permits.
 
 ### Priority C — inspect the Singen laboratory glass plates
 
@@ -84,17 +92,18 @@ Request or inspect the twelve objects described as `Siegelabdrücke und Dias`. R
 The Iron Library branch should not enlarge the current Orléans paper merely because the material is attractive. Its most plausible uses are:
 
 - a short comparative section or coda showing that glass could cease to carry the specimen and instead carry the microscopic image;
-- a separate article on microscopy, microphotography and material testing, especially if IL-01 can be linked plate-by-plate to printed metallographic images;
+- a separate article on microscopy, microphotography and material testing, especially if `G 745,1` can be resolved plate-by-plate against the 1891/1893 printed plates;
 - a future Iron Library Scholar in Residence project if the archive/library corpus proves thick enough to require onsite work.
 
 A residency/grant application becomes sensible only after the holdings-specific chain is controlled. The archive should generate the project; the fellowship should not generate an artificial archive problem.
 
-## 7. Immediate next decision
+## 7. Current stop condition
 
-Do not broaden to generic histories of microscopy or photography. The next useful gain is one of three closures:
+General public-web discovery for Iron Library glass is **parked**. Resume only from one of the following bounded inputs:
 
-1. an item-level locator for a Droste glass plate;
-2. a plate-to-publication match;
-3. a `GFA 25/LAB` item that explicitly documents metallographic/microscopic work.
+1. an Iron Library response resolving `G 745,1` / `Per765`;
+2. access to the 1891 or 1893 Martens plate sequences sufficient for image comparison;
+3. an item-level `GFA 25/LAB` record explicitly documenting microscopic/metallographic work;
+4. item-level information for `GFA 1/141.37`.
 
-Any of these would turn the current comparison from a promising material adjacency into an object-level historical chain.
+The project has moved from discovery to exact-source closure.
