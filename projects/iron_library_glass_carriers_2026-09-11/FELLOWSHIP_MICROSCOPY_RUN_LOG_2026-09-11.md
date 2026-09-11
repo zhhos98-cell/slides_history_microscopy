@@ -58,10 +58,33 @@ Research consequence: do not silently normalize the 1885 preprint title. Verify 
 ### 1885 versus 1887 representation states
 The 1885 item is bibliographically attested as an 8-page preprint. The full 1887 JISI paper is a much larger publication with six plates and 17 photographic/heliographic images plus text illustrations. This strengthens the bounded question of how microscopic observations became publicly reproducible evidence over the 1885–87 interval.
 
+## 2026-09-11 — Wedding 1885 contemporaneous US serial reprint
+
+### Three-part Engineering and Mining Journal reprint
+A contemporaneous American reprint of Wedding's 1885 paper has now been located in *Engineering and Mining Journal*, vol. 40, across three weekly instalments:
+
+1. **15 August 1885**, no. 7, starting p. 112;
+2. **22 August 1885**, no. 8, starting p. 130, explicitly marked `Continued from page 112`;
+3. **29 August 1885**, no. 9, concluding instalment, explicitly marked `Concluded from page 130`.
+
+The Internet Archive full-text layer exposes substantial continuous prose, not merely an abstract. The second instalment continues Wedding's detailed microscopic interpretation of iron structure; the first instalment is the target for exact line-by-line recovery of the preparation passage (`Martens at my request`, 120 sections, looking-glass support, grinding/polishing/etching/gilding).
+
+Research consequence: this serial reprint is a useful contemporaneous, searchable control against the JISI text while the original 1885 volume is being acquired. Treat it as a reprint/variant witness, not automatically as textually identical to JISI.
+
+### Physical collection offered as proof
+The final instalment ends with Wedding saying that, although he has given only a fragmentary account of the sections, he hopes they have provided explanations/suggestions, and that it would give him pleasure to show the members of the Iron and Steel Institute **in Berlin** the **proofs of the statements made in his paper**.
+
+Research consequence: this is a crucial primary-source anchor for the proposal. The 120-section collection was not merely background material or a teaching aid; Wedding presented the Berlin physical collection as a material basis for **verification** of his published claims. The central 1885 sequence can therefore be stated more sharply:
+
+**prepared/numbered Berlin sections → London textual/oral presentation → limits of public visualization → subsequent critique of preparation/illumination → Berlin collection offered as inspectable proof.**
+
+This makes travel/transnational movement a mechanism of evidentiary verification rather than a separate general topic.
+
 ## Current next targets
-1. Locate/obtain Martens 1884 `Erläuterungen ... Sammlung von 120 Schliffen ...` or a reliable holding record, especially through TU Berlin / former Bergakademie library provenance.
-2. Track the 120-section collection after its secure 1900 addressability; query BAM first, then TU Berlin / successor collections as needed.
-3. Obtain original `Colliery Guardian` vol. 49 (1885), p. 908 for Sorby's written response to Wedding.
-4. Close the primary-source sequence around Wedding's 1885 JISI paper and London meeting report.
-5. Verify exact Eisenbibliothek holdings for Martens 1878/1880/1884 and relevant 1885–87 serial material.
-6. Obtain Smith Appendix B in full as a controlled surrogate for the 1885 Sorby preprint while continuing to seek the original.
+1. Retrieve the 15 Aug 1885 first instalment full text and lock exact primary wording for `at my request`, `120 sections`, `looking-glass`, preparation/etching/gilding.
+2. Locate/obtain Martens 1884 `Erläuterungen ... Sammlung von 120 Schliffen ...` or a reliable holding record, especially through TU Berlin / former Bergakademie library provenance.
+3. Track the 120-section collection after its secure 1900 addressability; query BAM first, then TU Berlin / successor collections as needed.
+4. Obtain original `Colliery Guardian` vol. 49 (1885), p. 908 for Sorby's written response to Wedding.
+5. Close the primary-source sequence around Wedding's 1885 JISI paper and London meeting report.
+6. Verify exact Eisenbibliothek holdings for Martens 1878/1880/1884 and relevant 1885–87 serial material.
+7. Obtain Smith Appendix B in full as a controlled surrogate for the 1885 Sorby preprint while continuing to seek the original.
