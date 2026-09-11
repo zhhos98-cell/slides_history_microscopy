@@ -1,242 +1,254 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-12 after direct 1861 *Scientific American* control.**
+**Pinned continuation state — updated 2026-09-12 after the Wedding Bessemer-flame spectroscopy breakthrough.**
 
-This is the authoritative resume point. Resume here before older OCR logs or visual-control passes.
+This is the authoritative resume point. The spectroscopy bridge now outranks the older licence/Gruner/*Engineer* queue because it directly connects Wedding's 1860 works notebook to his later optical research and to Cyclops Works.
 
-## 1. Governing problem
+## 1. Governing problem — revised
 
-Not a simple `Sorby → Wedding → Martens` diffusion story. Current transformation sequence:
+The project is no longer best described only as a transition from travel comparison to prepared specimen/micrograph systems. A newly controlled intermediate optical regime is now visible:
 
-**industrial travel / works comparison → heterogeneous portable research container → travelling sample / test / expert judgement → standardized prepared object → numbering / collection → microscopic field → microphotography → institutional reference system.**
+**works inspection / skilled process judgement → portable notebook inscription → spectral re-analysis of the live process → optical mediation / redistribution of observational competence → prepared specimen / microscopy / microphotography / institutional reference system.**
 
-Main axis: **Sheffield ↔ Berlin/Charlottenburg**, with Fischer 1845–46 as pre-Wedding comparison baseline.
+Main axis remains **Sheffield ↔ Berlin/Charlottenburg**, but the Bessemer flame now supplies a concrete carrier-history bridge rather than an analogy.
 
-## 2. Evidence order
+The strongest conceptual formulation at present is:
 
-Local 900px Mss 25 JPGs and the three PaddleOCR JSONs used earlier are not currently present in the repo. OCR is routing only; do not reconstruct sentence-level palaeography from summaries.
+> **a history of reformatting process signals and redistributing observational competence.**
+
+The object being standardised is initially not necessarily a solid specimen. It can be an **observable process signal**: flame colour, temporal stage, filtered colour, spectral line, disappearance event. Only later does comparison increasingly migrate into prepared solid objects and images.
+
+## 2. New highest-priority governing file
 
 Read in this order:
 
 1. `CURRENT_PROGRESS.md`
-2. `WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`
-3. `WEDDING_1860_07_25_SHEFFIELD_SPATIAL_ACCESS_CONTROL_2026-09-12.md`
-4. `WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`
-5. **`WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`** — now contains direct *Scientific American* 7 Sept. 1861 control
-6. `WEDDING_GRUNER_LAN_SHEFFIELD_1859_60_CROSS_CONTROL_2026-09-12.md`
-7. `WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`
-8. `WEDDING_BESSEMER_PUBLICATION_VS_SITE_NOTE_2026-09-11.md`
-9. `WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md`
+2. **`WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`** — new primary-source bridge; highest priority
+3. `WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`
+4. `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`
+5. `WEDDING_1860_07_25_SHEFFIELD_SPATIAL_ACCESS_CONTROL_2026-09-12.md`
+6. `WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`
+7. `WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`
+8. `WEDDING_BESSEMER_LICENCE_ROYALTY_ARCHIVE_ROUTE_2026-09-12.md`
+9. `WEDDING_GRUNER_LAN_SHEFFIELD_1859_60_CROSS_CONTROL_2026-09-12.md`
 10. Mss 25 PDFs/images 296–300 when accessible.
 
-`WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md` is tail/provenance control, not governing transcription for Sheffield/Bessemer.
+Local 900px Mss 25 JPGs and the three earlier PaddleOCR JSONs are not currently present in the repo. OCR remains routing only; do not reconstruct sentence-level palaeography from summaries.
 
-## 3. Controlled manuscript sequence
+## 3. 1860 manuscript starting point
 
-- PDF 295 / ms p.146 — **24 July: Leeds / Sheffield**, Turton & Sons;
-- PDF 296 / ms p.147 — **Wednesday 25 July 1860**, Sheffield White Lead Works, Rawson/Barker-type wording;
-- PDF 297 / ms p.148 — White Lead continuation;
-- PDF 298 / ms p.149 — **`Bessemer's Stahlwerk`**, converter/process drawing + technical prose;
-- PDF 299 / ms p.150 — Bessemer continuation + second sketch + whole-process timing;
-- PDF 300 / ms p.151 — **`Cammells Walzwerke (Cyclops Works).`**, then explicit **Thursday 26 July — Leeds**, Peter Fairbairn.
+Image control remains secure:
 
-Strict claim: Bessemer heading does not repeat the date. Strong folio-sequence inference: **Bessemer and Cammell/Cyclops belong to the 25 July Sheffield comparison day**.
+- PDF 298 / ms p.149 — **`Bessemer's Stahlwerk`** with converter/process sketch, Cumberland pig-iron statement and technical prose;
+- PDF 299 / ms p.150 — Bessemer continuation, second sketch, **`Der ganze Prozeß dauert cca 19–24 Minuten.`**, and surrounding flame/gas/process-stage prose;
+- PDF 300 / ms p.151 — **`Cammells Walzwerke (Cyclops Works).`** before the explicit 26 July Leeds boundary.
 
-Secure anchors:
+Strong folio inference: Bessemer + Cammell/Cyclops belong to Wedding's **25 July 1860 Sheffield comparison day**.
 
-- `Es wird Roheisen meist aus Cumberland verbraucht ...`
-- **`Der ganze Prozeß dauert cca 19–24 Minuten.`**
-- converter/section/tuyere-type sketches;
-- `Cammells Walzwerke (Cyclops Works).`
+The crucial new significance is that the 1860 notebook already records **flame/time process judgement** before Wedding's later spectroscopic work. Exact flame-stage wording remains open until PDF 299 is directly microtranscribed.
 
-Exact charge, furnace/transfer route, flame-stage wording and Cammell variables remain open until image microtranscription resumes.
+## 4. Major breakthrough: Hermann Wedding himself studied the Bessemer spectrum
 
-## 4. Knowledge boundary / access regime
+Identity is now secure, not a same-surname hypothesis.
 
-1856 patent and 1859 public descriptions already circulated the main Bessemer architecture. Best model:
+**Hermann Wedding, `Das Spektrum der Bessemerflamme`, *Zeitschrift für das Berg-, Hütten- und Salinenwesen im preussischen Staate*, XVII, 2. Lieferung (1869), pp.117–134, with one plate.**
 
-**publicly describable process → situated inspection/demonstration → locally calibrated operational notebook record.**
+Primary bibliographic control comes from the 1869 volume table of contents; a contemporary Austrian mining journal in 1870 explicitly identifies the author as **`Dr. H. Wedding in Berlin`** and treats the paper as an intervention in the controversy over whether Bessemer spectral changes could indicate decarburisation and whether the characteristic lines belonged to carbon/CO or other constituents.
 
-Bessemer later stated that the Sheffield works permitted inspection and full explanation to intending licensees. A hidden personal intermediary is therefore not required as the default explanation for Wedding's access, although a named guide/worker/foreman remains open.
+Later historical literature places Wedding's investigation around **1868**; therefore preserve:
 
-Working institutional sequence:
+- `RESEARCH_ACTIVITY ≈ c.1868`
+- `PUBLICATION = 1869`
 
-**patent/licence boundary → purpose-built inspection → situated demonstration → expert witnessing → cross-works repetition → portable technical inscription.**
+until Wedding's original article supplies exact experiment dates.
 
-## 5. 1861 Sheffield demonstration is now partly primary-controlled
+## 5. Wedding is an experimental contributor, not merely a bibliographic participant
 
-The 1861 comparison no longer rests only on Bishop.
+The international response controls this strongly.
 
-### Direct *Scientific American* control
+### Drown, 1871
 
-*Scientific American*, new series vol. V no.10, **7 September 1861**, printed p.148, states that the Mechanical Engineers meeting at Sheffield ran **31 July–1 August 1861** and prints substantial extracts from Bessemer's paper.
+Thomas M. Drown states that **Wedding and von Lichtenfels produced the manganese spectrum and found it closely corresponding to the Bessemer flame**. This places Wedding directly inside the experimental manganese-spectrum interpretation.
 
-The formal proof package includes:
+### Silliman, 1870
 
-- process principle;
-- six Platt Brothers steel boilers already in daily use;
-- ordnance test bars physically **on the table**;
-- a crushed gun-muzzle specimen;
-- government firing/test history;
-- exact timed manufacture of an 18-pounder example: molten cast iron tapped at **11:20 a.m.**, converted to cast steel in **30 minutes**, forged by **7 p.m.**;
-- plant-capital/throughput claim, including apparatus for forty such gun blocks/day at about £5,000.
+At John A. Griswold & Co.'s Bessemer works in Troy, J. M. Silliman explicitly engages Wedding's paper:
 
-Printed p.153 then editorially converts this evidence into a claim of **industrial success** and immediately into an American patent/investment question around Kelly/Bessemer rights.
+- Wedding had repeatedly seen a violet manganese line that Silliman himself could not detect;
+- Silliman calibrates against the **sun spectrum Wedding published together with the Bessemer spectrum**, proving Wedding's article contained a graphical/calibrational comparison object;
+- Silliman reconstructs and critiques Wedding's explanation of manganese-line appearance/disappearance through chemical analyses of metal, slag and smoke and the possibility of manganese volatilisation.
 
-Source file/control is fully documented in `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`.
+Thus by 1870 the chain is already:
 
-Analytical chain:
+**Wedding Berlin publication/plate → Troy works replication/calibration/critique.**
 
-**Sheffield paper + objects + timed/tested evidence → transatlantic technical journalism → industrial-success judgement → patent/investment decision.**
+## 6. The optical-control genealogy is now source-controlled
 
-Do not collapse Bessemer's 1861 **30-minute ordnance conversion example** into Wedding's 1860 **19–24 minute whole-process** notebook figure; interval/product may differ.
+### Rowan, Glasgow, 29 March 1869
 
-### The Engineer remains partly pending
+Thomas Rowan formulates the operational problem directly: the converter flame is the index of changes in the molten mass, and the critical task is catching the correct endpoint between under- and over-blowing. He explores spectroscope + coloured glasses + a purpose-designed observing instrument.
 
-Bishop routes to *The Engineer* vol.12 pp.10 and 63 for post-meeting visits to Bessemer's works and the larger-scale repetition at John Brown before c.250 visitors. The volume survives, but those pages have not yet been directly transcribed here.
+### Sorby, Sheffield, 18 February 1870
 
-Status remains:
+H. C. Sorby explicitly says an experienced observer can judge when the blast should cease from the **general colour of the flame**. He sees value in a direct-vision spectroscope, especially for a comparatively inexperienced observer, but is not persuaded it necessarily beats experienced naked-eye judgement.
 
-`BISHOP_ROUTED / THE_ENGINEER_PRIMARY_PENDING`.
+This is a decisive claim ceiling:
 
-## 6. Illustrated London News / John Brown scale-up: source provenance secure, text page pending
+> **instrumentation does not simply replace tacit skill; skilled vision remains the benchmark against which instruments are judged.**
 
-The original *Illustrated London News* volume 39 object is identified, and the Atlas Works engraving is securely dated **14 September 1861**. Wikimedia/Internet Archive provenance points to source page `n286`.
+### Silliman, Troy, 1870
 
-Heritage/Print Collector catalogues consistently preserve a long passage attributing to the 1861 ILN report:
+Silliman uses coloured glasses + spectroscope and prepares an approximately hundred-colour numbered plate to reproduce flame changes. Wedding's published spectrum is explicitly part of his calibration/critique environment.
 
-- extensive Atlas furnaces, engines and steam hammers;
-- Bessemer plant under construction/operation;
-- Bessemer's own scale described as about **1 ton at a time**;
-- Brown's converter as **4 tons**;
-- a **12-ton steam hammer** for the resulting ingots.
+### Parker, Cyclops Works, 1871
 
-This strongly corroborates a 1861 Brown scale-up context, but the original ILN text page itself has not yet been directly read in this workflow.
+J. Spear Parker says he investigated the Bessemer flame **at Cyclops Steel and Iron Works on behalf of Messrs Charles Cammell & Co.**
 
-Use status:
+For coloured glass he says:
 
-**`ILN_IMAGE_PROVENANCE_SECURE / TEXT_PRIMARY_PENDING`.**
+- it cannot be more accurate than the method already in general use because the experienced workman's eye detects the change with surprising precision;
+- its advantages are that inexperienced hands gain a safer guide and the eye is protected from the intense glare.
 
-Do not quote the long Heritage caption as though already line-checked against the ILN page.
+He then states that spectroscope indications **have a different basis** and uses a five-prism direct-vision spectroscope. He explicitly argues that direct vision is preferable if the instrument is to be placed in the hands of workers unfamiliar with scientific instruments because, once focused, it can be used rather like a telescope and requires less readjustment.
 
-## 7. Adoption chronology independently cross-controlled
+A later 1871 Parker paper identifies him as **Chemist to the Cyclops Steel and Iron Works** and analyses the absorption characteristics of the coloured glasses themselves.
 
-Barraclough resolves:
+The observation carrier is therefore itself calibrated:
 
-**1859 — Bessemer process stabilised/perfected at Sheffield works**
+**flame → coloured medium → perceived colour → spectrum → process interpretation.**
 
-**1860 — John Brown takes Bessemer licence**
+## 7. Revised transformation chain
 
-**25 July 1860 — Wedding visits Bessemer, then Cammell/Cyclops**
+The strongest current chain is now:
 
-**1861 — Cammell takes Bessemer licence**
+**1860 Wedding Sheffield works inspection + flame/time judgement → portable notebook inscription → c.1868/69 Wedding spectral re-analysis → Rowan/Sorby/Silliman debates over endpoint, skill and optical mediation → Parker 1871 Cyclops industrially adapted coloured-glass/spectroscope regime → later Wedding/material microscopy → prepared specimen / microscopic image / reference system.**
 
-**1862 — Samuel Fox follows**
+This is much stronger than the earlier indirect claim `travel note → microscopy`.
 
-The apparent Brown-1859 reading was a page-break/OCR artefact: `1859` belongs to Bessemer's own process stabilisation; next sentence explicitly gives Brown 1860, Cammell 1861.
+It supplies a historical middle term:
 
-Strong temporal interpretation:
+**live industrial process signal → instrumentally reformatted optical evidence.**
 
-> Wedding visits Bessemer after technical stabilisation, during Brown's first licensed-adoption year, and immediately before Cammell's licensed transition.
+## 8. Key social/epistemic problem: `inexperienced hands`
 
-No causal claim connects Wedding to Cammell's decision.
+Across Rowan, Sorby and Parker the recurring problem is not abstract accuracy alone. It is whether a judgement can be made by someone **without the embodied experience of the skilled Bessemer worker**.
 
-## 8. Sheffield 1859–60 = mixed-process landscape
+Working comparison:
 
-Gruner & Lan 1862 pp.788–789 are routed through Barraclough as a near-contemporary Sheffield description based on information attributed to **Mr Vickers of Naylor, Vickers & Co.**, likely for 1859/60.
+**expert embodied judgement → optical mediation → wider reproducibility / delegated judgement.**
 
-Barraclough's routed figures give c.50,000–60,000 tons/year and a mixed production structure dominated by puddled/common spring steel alongside multiple grades of cast/crucible steel. Major works could each reach c.5,000 tons/year; more than half the regional steel reportedly used Swedish/Russian iron via Hull.
+This should later be compared with prepared metallographic specimens, standardised illumination, numbered collections, microphotographs and reference atlases, all of which similarly reduce dependence on co-presence with a uniquely experienced observer.
 
-Evidence status remains **`NEAR_CONTEMPORARY_ROUTED_SOURCE`** until direct Gruner–Lan page control.
+## 9. 1861 demonstration carrier remains important but is now secondary to the spectroscopy bridge
 
-Analytical consequence:
+Direct *Scientific American* control still establishes the 31 July–1 Aug. 1861 Sheffield meeting and Bessemer's formal proof package:
 
-> `Cammells Walzwerke` was a large rolling/steel works inside a heterogeneous process regime immediately before its Bessemer transition, not the later mature Bessemer rail/armour works silently projected backward.
+- existing-use boiler case;
+- test bars and gun specimen physically present;
+- quantified tests;
+- an ordnance production chain from 11:20 tapped iron → 30-minute conversion → 7 p.m. forged product;
+- throughput/capital claim;
+- later American editorial conversion into `industrial success` and patent/investment judgement.
 
-Vickers network control: Thomas Edward Vickers was an IMechE member from **1856**, Albert Vickers from **1861**. This links manufacturer testimony to the professional-engineering network. It does **not** yet prove T. E. Vickers read a separate 1861 Sheffield paper.
+This remains important because it shows how industrial process knowledge changed carrier:
 
-## 9. Cyclops spatial/process control
+**works/process → specimen + quantified demonstration → technical press → commercial/patent decision.**
 
-- White Lead Works / Rawson Barker — **Pond Mill Lane**;
-- Bessemer Steel Works — **Carlisle Street**;
-- Cyclops — **Carlisle Street / railway / Savile Street** strip.
+`The Engineer` vol.12 pp.10/63 and full IMechE excursion remain pending, but they are no longer the highest-value unresolved objects.
 
-Process-category sequence:
+## 10. Licence/adoption and Cyclops context remains controlled
 
-**Wedding 1860 `Cammells Walzwerke` → Measom 1861 extensive rolling mills → Pawson & Brailsford c.1862 `Steel Rolling Mills—Messrs C. Cammell and Co, Cyclops Works`.**
+Preserve chronology:
 
-Still-high-value archival object:
+**1859 Bessemer process stabilised → 1860 Brown licence → 25 July 1860 Wedding Bessemer/Cammell → 1861 Cammell licence → 1862 Fox.**
 
-**Sheffield City Archives `X306/6/4/1` — Plan of Cyclops works, 1860s.**
+Cyclops in July 1860 belongs to a heterogeneous process landscape immediately before its own Bessemer transition. Do not back-project later rail/armour production into Wedding's visit.
 
-Public archive guides currently expose Cammell records at collection level (`MD8121`, `WED/312-315`) but have not exposed a specific 1861 Bessemer licence agreement reference. Do not invent one.
+Archive routing for the exact Cammell licence remains:
 
-## 10. Strongest comparison chains
+- `ESC/CC` company archive route;
+- `WED/312–315` Charles Cammell & Co deeds;
+- `MD8121` finance/legal/deeds only with item-level provenance control;
+- `D7806` is personal estate/property and is low priority for the business licence;
+- Science Museum Group Barrow Bessemer licence agreement proves formal licence agreements can survive as discrete objects.
 
-Day scale:
+This is now a secondary archive line rather than the immediate governing question.
 
-**White Lead Works → Bessemer's Stahlwerk → Cammells Walzwerke → 26 July Leeds.**
+## 11. Immediate next work — revised priority
 
-Inscription scale:
+### Priority 1: Wedding 1869 original article and plate
 
-**chemical/lead process note → converter geometry + material + timed blow/stages → rolling-works process inscription.**
+Acquire/directly transcribe **`Das Spektrum der Bessemerflamme`, pp.117–134 + plate**.
 
-Demonstration/carrier scale:
+Highest-value extraction fields:
 
-**works observation → notebook inscription → institutional paper + physical specimen → technical press condensation → commercial/patent judgement.**
+- exact experiment location / works;
+- exact date(s);
+- spectroscope/prism/instrument configuration;
+- experimental series and repeatability;
+- manganese / iron / carbon / CO interpretation;
+- process endpoint / production-control implications;
+- use of chemical analyses;
+- references to earlier Sheffield experience or Bessemer works;
+- content and function of the plate / solar-spectrum comparison.
 
-Longitudinal project scale:
+Do not reconstruct Wedding's wording from Silliman if the original can be found.
 
-**Mss 23 process decomposition → Mss 24 domestic comparison → Mss 25 transnational heterogeneous research container → later standardized specimen/image/reference systems.**
+### Priority 2: direct 1860↔1869 variable comparison
 
-## 11. Immediate next work
+Once PDF 299 becomes accessible, diplomatically transcribe the flame-stage passage and compare **variables**, not wording:
 
-While Mss 25 images remain unavailable:
+`FLAME_COLOUR / TIME / STAGE / ENDPOINT / MATERIAL / OPERATOR_JUDGEMENT / INSTRUMENT`.
 
-1. direct-control **ILN 14 Sept. 1861 Atlas Works source page** around IA `n286` and its adjacent text;
-2. direct-control *The Engineer* 1861 vol.12 **pp.10 and 63**;
-3. inspect 1861 PIME full meeting/programme/discussion for `Cammell`, `Cyclops`, `Vickers`, `Brown`, `Bessemer`;
-4. direct-control Gruner & Lan **pp.788–789**;
-5. pursue Sheffield Archives **`X306/6/4/1`** and collection-level Cammell legal/deed records for a specific 1861 licence trace;
-6. keep the later Powerhouse `Bessemer Steel Converting Plant` drawings (P1648, donated by Cammell 1891; museum date range 1864–91) as a future carrier-comparison object, **not** evidence of the 1861 licence.
+Test whether the later spectral problem is a reformatting of the same operational signal Wedding selected in 1860.
 
-When Mss 25 296–300 becomes accessible:
+### Priority 3: spectroscopy genealogy / network
 
-1. microtranscribe 298–299 charge/furnace/transfer/timing/flame stages;
-2. inspect 296–300 narrowly for guide/access/`Patent`/`Lizenz` wording;
-3. test PDF 300 for `ROLLING`, `FORGING`, `POWER`, `DIMENSION`, `THROUGHPUT`, `PRODUCT` variables;
-4. compare Wedding's 1860 proof variables with Bessemer's 1861 formal demonstration grammar without assuming copying.
+- control early Roscoe/John Brown Sheffield chronology directly;
+- follow Wedding backward to Brunner / Lielegg / Watts and forward to Silliman / Drown;
+- test whether Sorby cites Wedding or Wedding cites Sorby without inferring direct contact from shared debate;
+- establish whether Parker's spectroscope became routine production practice at Cyclops.
+
+### Priority 4: later microscopy bridge
+
+Revisit Wedding's later microscopic work, especially the already located 1885 *Engineer* item `On the Properties of Malleable Iron Deduced from its Microscopic Structures`, asking whether the same problem of portable/delegable judgement reappears in prepared material structure.
+
+### Lower but retained priorities
+
+- direct Gruner–Lan pp.788–789;
+- *The Engineer* 1861 pp.10/63 and IMechE excursion;
+- Cyclops `X306/6/4/1`;
+- exact Cammell 1861 licence/royalty records.
 
 ## 12. Claim ceilings
 
 Secure:
 
-- Wedding dates Sheffield Bessemer encounter to 1860;
-- Mss 25 has the Bessemer section, converter sketches, Cumberland statement and 19–24 minute sentence;
-- Cammell/Cyclops heading is controlled at working-transcription level;
-- Brown 1860 / Cammell 1861 / Fox 1862 chronology is independently cross-controlled;
-- *Scientific American* directly controls the 31 July–1 Aug. 1861 meeting framing and Bessemer's formal proof package;
-- Gruner–Lan/Vickers near-contemporary route is secure at Barraclough level;
-- ILN Atlas Works image/date/source-volume provenance is secure.
+- Wedding's 1860 notebook records Bessemer process timing and flame/process staging at section level;
+- Hermann Wedding published `Das Spektrum der Bessemerflamme` in 1869, pp.117–134, with a plate;
+- contemporary and near-contemporary sources explicitly identify the author as Wedding in Berlin;
+- Drown credits Wedding/von Lichtenfels with an experimentally produced manganese spectrum corresponding closely to the Bessemer flame;
+- Silliman directly cites Wedding's violet-line observation, Wedding's spectrum/solar calibration object and Wedding's manganese-volatilisation argument;
+- Sorby explicitly preserves experienced naked-eye flame judgement as a benchmark while discussing spectroscopy;
+- Parker's 1871 work was done at Cyclops for Cammell and explicitly distinguishes experienced-eye judgement, coloured-glass assistance and spectroscopic indication;
+- Parker explicitly frames direct-vision spectroscopy around usability by operators unfamiliar with scientific instruments.
 
-Strong inference / interpretation:
+Strong inference:
 
-- Bessemer/Cammell belong to Wedding's 25 July 1860 day;
-- Wedding captures an active transfer/adoption phase;
-- Sheffield access is better modelled as controlled technical disclosure than a public/secret binary;
-- Cyclops July 1860 sits in a mixed-process landscape immediately before Bessemer adoption;
-- Wedding's notebook and Bessemer's 1861 formal proof package can be compared as different carrier formats selecting operational evidence.
+- Wedding's 1869 paper is a scientific re-inscription of a process whose sensory/temporal signals he had already selected in 1860;
+- the historical transition is better understood as redistribution/standardisation of observation than replacement of tacit skill;
+- the Bessemer flame supplies a concrete bridge between Wedding's travel notebook regime and later optical/material evidence regimes.
 
 Open:
 
-- direct ILN text page and *Engineer* pp.10/63 wording;
-- full 1861 excursion/discussion itinerary;
-- direct Gruner–Lan pp.788–789;
-- exact Cammell/Bessemer licence transaction;
-- exact Cyclops 1860s plan date/layout;
-- exact guide/contact and 298–300 technical wording;
-- whether Wedding's sketches became Hörde/Königshütte `Entwürfe`;
-- Daelen in Mss 25;
-- direct Wedding–Sorby co-presence/contact.
+- exact 1860 flame-stage wording;
+- full Wedding 1869 text + plate;
+- experiment location/date/instrument in Wedding 1869;
+- whether Wedding explicitly links the spectroscopy to his 1860 Sheffield encounter;
+- direct Wedding–Sorby contact/citation relation;
+- routine operational uptake of Parker's spectroscope at Cyclops;
+- exact path from this spectroscopy work to Wedding's later microscopy.
 
-**Immediate resume condition: direct-control ILN / *Engineer* / PIME discussion / Gruner–Lan / Cyclops plan while manuscript images are blocked; once Mss 25 PDFs 298–300 return, immediately resume sentence-level transcription.**
+## Resume condition
+
+**Resume first by acquiring/transcribing Wedding 1869 pp.117–134 + plate. If Mss 25 PDF 299 becomes available before that, immediately transcribe the flame-stage passage. The older Gruner/*Engineer*/licence queue is retained but is now secondary.**
