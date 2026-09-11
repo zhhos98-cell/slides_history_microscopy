@@ -7,7 +7,7 @@ Repository-level distinction:
 - `REPOSITORY_STATE.json` governs the microscope-slide core: the 307-node discovery layer, 155-node strict nineteenth-century survey, bibliography, source registry, analysis layer and the four request-only residuals.
 - `projects/` contains separately scoped research projects. Activity here does not reopen or extend the frozen microscope-slide census unless a project explicitly promotes evidence into a new survey version.
 
-## Current project
+## Current projects
 
 ### `gusu_vonderburg_2026-08-18/`
 
@@ -22,6 +22,18 @@ Continuation authority:
 5. `gusu_vonderburg_2026-08-18/conversation/PROGRESS_CONSOLIDATED_2026-08-18_TO_2026-08-19.md` — index to archived historical progress snapshots.
 
 The Gusu project's `latest/` directory is a project-local name. It does not override microscope-slide repository authorities outside this project directory.
+
+### `iron_library_glass_carriers_2026-09-11/`
+
+Bounded research project connecting the parent *Using Up Old Slides* problem to Iron Library / Georg Fischer holdings on glass carriers, microphotography, metallography and industrial material testing. The project keeps biological specimen slides, microphotographic glass plates and industrial photographic glass plates analytically separate unless a source establishes a historical relation.
+
+Continuation authority:
+
+1. `iron_library_glass_carriers_2026-09-11/README.md` — scope, claim ceiling and project router;
+2. `iron_library_glass_carriers_2026-09-11/SOURCE_MAP.md` — controlled external sources and evidence levels;
+3. `iron_library_glass_carriers_2026-09-11/RESEARCH_STATE.md` — current comparison, bounded research queue and stop rules.
+
+The first secure object route is Bernhard Droste's published statement that he donated three original early microphotographic glass plates associated with the Königliche mechanisch-technische Versuchsanstalt zu Berlin. Their current item-level locator remains open. The project does not reopen the frozen microscope-slide census.
 
 ## Cleanup rule
 
