@@ -97,6 +97,34 @@ Parent/context record: https://archives.georgfischer.com/objects/9780
 
 **Next control:** resolve IRONCAT records, editions, page/plate references and any publication match to IL-01 before using them to reconstruct an image-production sequence.
 
+## IL-07 — GF photographic identity could survive carrier change
+
+**Level:** SECURE / BODY for the archival-history statement; external/control evidence for the nineteenth-century microscope-slide problem.
+
+**Source:** Georg Fischer Corporate Archives, ANTON, history of the former `F1` photographic archive and its reorganisation into `GFA 12` (prints), `GFA 16` (glass plates) and `GFA 17` (negatives).
+
+Catalogue route: https://archives.georgfischer.com/objects/show?collection=0&context=tectonical&fonds=0&index=1&parent=5&perPage=50&recordgroup=0&sortAsc=1&sortField=position
+
+**First-order evidence:** when photographs through 1961 were described from negative and glass-plate envelopes in the former `F1` archive, `Die Signatur entsprach dem Foto, unabhängig vom Bildträger` — the signature corresponded to the photograph irrespective of image carrier. In 2016–2017 the fonds was reorganised by carrier into prints, glass plates and negatives. The archive also reports retaining original negative envelopes separately because they preserve valuable information and sometimes cyanotypes or working prints.
+
+**Analytical use:** this is a documented case in which an archival address attaches to an image identity rather than to one physical carrier. It is unusually close to the microscope-slide core's broader question of whether identity can persist through remounting, replacement or re-addressing without material continuity.
+
+**Limit:** this is a twentieth-century archival-photographic history. It does not establish that nineteenth-century microscopists conceptualised specimen-slide identity in the same way, and it does not establish a genealogy between the systems.
+
+## IL-08 — early GF glass photographic plate as format control
+
+**Level:** SECURE / BODY for object description; EXTERNAL COMPARATOR for the microscopy project.
+
+**Source:** Georg Fischer Corporate Archives, `GFA 16/3638`, `Hinteres Werk, Werk III`, dated 1883.
+
+Permalink: https://archives.georgfischer.com/objects/13236
+
+**First-order evidence:** the catalogue describes one photograph on a small glass plate (`Glasplatte klein (13x18cm oder kleiner)`) and provides a digitised image. The date overlaps the terminal year of the parent 1862–1883 paper.
+
+**Use:** a same-year material control showing that `glass plate` in a photographic archive denotes an object on a radically different scale and workflow from a standard microscope specimen slide.
+
+**Limit:** no microscopic content or microscopy relation is claimed.
+
 ## Current negative/absence statement
 
 As of the 2026-09-11 public-web pass, no item-level Iron Library record has yet been controlled for a nineteenth-century **biological specimen microscope slide**. This is a search-state statement, not a collection-wide absence claim. The project's strongest present Iron Library object evidence concerns microphotographic glass plates in metallography/material testing.
