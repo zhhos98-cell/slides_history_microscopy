@@ -26,9 +26,42 @@ BAM's current image gallery publicly reproduces Martens drawings from 1878 and 1
 
 Research consequence: query BAM for original-object status and provenance of these drawings, relation to the library notebook/Teilnachlass, and any accompanying specimen numbers or publication references.
 
+## 2026-09-11 — Bergakademie / TU Berlin provenance route
+
+### 1916 institutional transfer
+TU Berlin's official institutional history confirms that the Königliche Bergakademie was incorporated into the Königliche Technische Hochschule Berlin in **1916**. A historical description of the TH library states that the 1916 merger brought a **large part of the Bergakademie library holdings** into the Technische Hochschule library.
+
+Research consequence: the search for Martens's 1884 `Erläuterungen ... 120 Schliffen ...` should include the present TU Berlin library / predecessor-holdings route even if no current web-catalogue hit is indexed. The 1884 booklet may have travelled through the library merger independently of the physical specimen collection.
+
+### 1943 destruction as a provenance break, not proof of loss
+TU Berlin's archive history states that the destruction of the TH main building in November 1943 almost completely destroyed the university archive and much of the faculty/institute research and teaching documentation for 1879–1945.
+
+Research consequence: this supplies a documented reason for later provenance gaps. It does **not** establish that Martens's 120 physical sections, his 1884 booklet, or all associated records were destroyed. Keep `war loss` as one possible break in the chain, not an asserted fate.
+
+### Collection histories diverge
+TU Berlin's official history notes that some older Bergakademie collections followed different institutional paths, while new collections were built after the 1916 incorporation and survive despite war losses. Therefore `Bergakademie collection` must not be treated as a single undifferentiated transfer unit.
+
+Research consequence: pursue three separate object classes: **booklet/library item**, **120 prepared metallographic sections**, and **working/administrative documentation**.
+
+## 2026-09-11 — Sorby 1885 preprint title / reprint audit
+
+### Full reprint in Cyril Stanley Smith
+Later scholarship states that Sorby's 1885 Iron and Steel Institute preprint was reprinted in full in Cyril Stanley Smith, *A History of Metallography* (1960), pp. 256–260. The 1988 MIT Press edition table of contents confirms Appendix B on p. 256.
+
+However, there is a title discrepancy:
+- *Journal of the Royal Microscopical Society* (1886) footnote: **`On the Microscopical Structure of Iron and Steel`**, 8vo, Iron and Steel Institute, 1885, 8 pp.
+- Smith's Appendix B: **`On the Microscopical Study of Iron and Steel` (1885)**.
+- Later Sorby bibliographies often normalize the 1885 item as `Structure` while also stating that Smith reprinted it in full.
+
+Research consequence: do not silently normalize the 1885 preprint title. Verify against an original preprint or Smith's complete Appendix B title page/editorial note. This may be a simple editorial retitling, but it matters because the 1887 JISI paper definitely uses `Structure` and should not be conflated with the 1885 preliminary paper.
+
+### 1885 versus 1887 representation states
+The 1885 item is bibliographically attested as an 8-page preprint. The full 1887 JISI paper is a much larger publication with six plates and 17 photographic/heliographic images plus text illustrations. This strengthens the bounded question of how microscopic observations became publicly reproducible evidence over the 1885–87 interval.
+
 ## Current next targets
-1. Locate/obtain Martens 1884 `Erläuterungen ... Sammlung von 120 Schliffen ...` or a reliable holding record.
+1. Locate/obtain Martens 1884 `Erläuterungen ... Sammlung von 120 Schliffen ...` or a reliable holding record, especially through TU Berlin / former Bergakademie library provenance.
 2. Track the 120-section collection after its secure 1900 addressability; query BAM first, then TU Berlin / successor collections as needed.
 3. Obtain original `Colliery Guardian` vol. 49 (1885), p. 908 for Sorby's written response to Wedding.
 4. Close the primary-source sequence around Wedding's 1885 JISI paper and London meeting report.
 5. Verify exact Eisenbibliothek holdings for Martens 1878/1880/1884 and relevant 1885–87 serial material.
+6. Obtain Smith Appendix B in full as a controlled surrogate for the 1885 Sorby preprint while continuing to seek the original.
