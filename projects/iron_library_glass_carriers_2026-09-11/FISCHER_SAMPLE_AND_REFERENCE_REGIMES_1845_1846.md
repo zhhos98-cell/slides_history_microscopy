@@ -14,7 +14,8 @@ At minimum distinguish:
 2. **production-trace sample** — matter taken from a specific production event and linked to a numbered batch;
 3. **staged process series** — samples deliberately assembled across successive production stages;
 4. **reference-quality sample** — a tested sample becomes the benchmark against which future deliveries are specified;
-5. **prepared expert-judgement object** — material is transformed/finished by a specialist before quality is assessed.
+5. **prepared expert-judgement object** — material is transformed/finished by a specialist before quality is assessed;
+6. **inscribed provenance object** — maker/source identity is physically carried on the object itself.
 
 These categories are analytically useful for the later Wedding/Martens comparison because a metallographic specimen/reference collection should not be treated as merely the same thing at smaller scale.
 
@@ -82,13 +83,17 @@ Do not equate it with a modern certified reference material. The source supports
 
 Fischer brings two hardened razor-blade blanks made from his own steel to Rodgers & Son. He has them ground, polished, fitted with scales and then asks for judgement of the steel quality.
 
-Working sequence:
+The objects also preserve source identity materially: Fischer explicitly says the blades had already been forged in Schaffhausen, hardened and **marked with his name** (`mit meinem Namen gezeichnet`) before being handed to Rodgers & Son.
 
-`known material -> skilled preparation/finishing -> expert examination/use judgement`.
+The resulting sequence is therefore more precise than a generic preparation episode:
 
-Here the test object is not merely selected; its assessability depends on transformation by recognised practitioners.
+`known Fischer steel -> forged/hardened in Schaffhausen -> maker/source inscription on object -> Sheffield grinding/polishing/fitting -> expert quality judgement`.
 
-This is particularly important for later metallography because it gives a pre-microscopic case in which **preparation changes what can be judged about a material**.
+Here preparation transforms the test object without erasing its stated provenance. Identity travels on the object while skilled finishing changes the condition under which quality can be judged.
+
+This is particularly important for the later metallography problem because specimen identity may be maintained by labels, inscriptions, numbers, mounts or associated records even while the material is physically transformed during preparation.
+
+Do not infer a direct genealogy from Fischer's marked razor blades to later metallographic specimen labels. The value is structural: **preparation and provenance-preservation coexist**.
 
 ## 6. Samples can lose epistemic value when provenance is destroyed
 
@@ -104,15 +109,19 @@ has an explicit opposite:
 
 This reinforces provenance as a controlled research variable.
 
-## 7. Numbering appears in more than one evidential setting
+## 7. Numbering and inscription are different identity technologies
 
-The Fischer material now contains at least two distinct numbering practices.
+The Fischer material now contains several distinct ways of maintaining or organising object identity.
 
-### Low Moor
+### Low Moor: production numbering
 
 Batch/tapping numbering preserves the identity of industrial output linked to routine sampling.
 
-### Polytechnic Institution, London
+### Fischer razor blades: object inscription
+
+Fischer's name is physically marked on the blades before they enter the Sheffield finishing/judgement process. This anchors maker/source identity directly to the transformed object.
+
+### Polytechnic Institution, London: catalogue numbering
 
 Fischer describes a collection of more than 2,000 objects in which objects are numbered in correspondence with a catalogue. Assigned staff explain scientific and practical aspects of the objects; working models supplement lectures.
 
@@ -121,8 +130,9 @@ This is not a material-testing reference collection. But it is a useful control 
 The later Martens/material-testing question can therefore distinguish:
 
 - production numbering for traceability;
+- inscription/marking on the object for maker/source identity;
 - catalogue numbering for collection retrieval/order;
-- later specimen/image numbering for comparative scientific reference, if the evidence supports it.
+- later specimen/image numbering or inscriptions for comparative scientific reference, if the evidence supports it.
 
 Do not assume these are genealogically connected.
 
@@ -132,15 +142,16 @@ When reading Wedding Mss 23–25, do not code all `Muster`, `Probe`, specimen or
 
 Use, where evidence permits:
 
-`DEMONSTRATION_SAMPLE | TRACE_SAMPLE | BATCH_IDENTITY | STAGED_SERIES | REFERENCE_QUALITY_SAMPLE | PREPARED_TEST_OBJECT | SAMPLE_DONOR | SAMPLE_RECIPIENT | PROVENANCE_LOSS | CATALOG_NUMBERING`
+`DEMONSTRATION_SAMPLE | TRACE_SAMPLE | BATCH_IDENTITY | STAGED_SERIES | REFERENCE_QUALITY_SAMPLE | PREPARED_TEST_OBJECT | OBJECT_INSCRIPTION | SAMPLE_DONOR | SAMPLE_RECIPIENT | PROVENANCE_LOSS | CATALOG_NUMBERING`
 
 Also record:
 
 - who selected the object;
 - whether it came from one identifiable production event;
-- whether it was labelled/numbered;
+- whether identity is attached by batch number, writing/inscription on the object, tag/label, mount or associated document;
 - whether its value lies in representativeness, traceability, novelty or reference quality;
 - whether it was modified/prepared before judgement;
+- whether preparation preserved or obscured provenance;
 - whether future material was explicitly required to resemble/match it;
 - whether it entered a collection or remained a travelling personal sample.
 
@@ -160,22 +171,23 @@ Instead of asking simply when `samples` became `specimens`, ask what changes acr
 
 `tested sample -> reference quality for future supply`
 
-`material -> skilled finishing -> expert judgement`
+`known object + source mark -> skilled finishing -> expert judgement`
 
 versus later possible **laboratory/metallographic regimes**
 
-`selected material -> cut/grind/polish/etch? -> labelled specimen -> microscopic field -> photograph -> numbered reference series/collection`.
+`selected material -> source identity/label? -> cut/grind/polish/etch? -> labelled specimen -> microscopic field -> photograph -> numbered reference series/collection`.
 
 The later sequence is a research hypothesis until controlled in Wedding/Martens sources.
 
 ## Claim ceiling
 
-The Fischer sources support distinct practical roles for samples and numbering. They do **not** establish:
+The Fischer sources support distinct practical roles for samples, numbering and one explicit maker/source inscription. They do **not** establish:
 
 - formal statistical sampling;
 - modern metrological reference standards;
-- direct institutional descent from Low Moor/Royal Mint practices to Berlin metallography;
+- direct institutional descent from Low Moor/Royal Mint/Fischer object marking to Berlin metallography;
 - that the Low Moor staged samples entered a permanent ordered collection;
-- that catalogue numbering at the Polytechnic Institution influenced metallurgical sample numbering.
+- that catalogue numbering at the Polytechnic Institution influenced metallurgical sample numbering;
+- that all Fischer samples were individually marked or labelled.
 
 Those stronger claims require later evidence.
