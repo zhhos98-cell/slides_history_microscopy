@@ -75,9 +75,9 @@ Tag provisionally as `1863_DATED_SITE_TECHNICAL_NOTE`; whether every datum is di
 
 ### Entry 346 / PDF 347
 
-The page has a clear **`16t. Aug. 63.`** heading. It describes a Cornwall mine north of **Menheniot bei Liskeard**, with readable mine names including **Wheal Mary Ann** and a second `Wheal ...` name still requiring palaeographic control, plus strike/dip and mine-operation detail.
+The page itself clearly reads **`16t. August.`**. The year is not repeated on this heading; assignment to the 1863 layer comes from the already controlled `Mit Herrn von Krug: 1863` section context and adjacent dated leaves, and should therefore be stored separately rather than silently inserted into the transcription. The page describes a Cornwall mine north of **Menheniot bei Liskeard**, with readable mine names including **Wheal Mary Ann** and a second `Wheal ...` name still requiring palaeographic control, plus strike/dip and mine-operation detail.
 
-Tag as `1863_DATED_SITE_TECHNICAL_NOTE` with exact second mine name pending.
+Tag as `1863_LAYER_DATED_SITE_TECHNICAL_NOTE`, preserving literal date `16t. August` and inferred/contextual year `1863` in separate fields.
 
 Therefore the correct architecture is not `Krug field notes → de la Beche copied section` as two clean consecutive blocks. Rather, **dated technical notes and copied/reference leaves are interleaved inside the same reused notebook**.
 
@@ -86,6 +86,7 @@ Therefore the correct architecture is not `Krug field notes → de la Beche copi
 Mss 25 now forces a stricter distinction between chronology and provenance. For every technical datum, maintain separate fields for:
 
 - year/date layer;
+- literal date wording;
 - place/work/mine;
 - document mode;
 - datum source: `DIRECT_OR_SITE_NOTE | ORAL_REPORT | WORKS_DOCUMENT | DRAWING/SKETCH | PRINT_COPY | COMPARATIVE_REASSEMBLY | UNCERTAIN`;
