@@ -15,18 +15,12 @@
   "principle": "Original PaddleOCR JSON is immutable. A page counts as transcribed only when actual readable wording is entered and checked against the PDF; routing labels and generic page descriptions do not count. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
   "sequential_substantive_checkpoint": {
     "shelfmark": "Mss23",
-    "through_pdf_page": 142,
-    "next_text_page": 143,
-    "note": "Even PDFs 132-142 are confirmed blanks; resume substantive transcription at PDF 143."
+    "through_pdf_page": 154,
+    "next_text_page": 155,
+    "note": "Even PDFs 144-154 are confirmed blanks; resume substantive transcription at PDF 155."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [
-      143,
-      145,
-      147,
-      149,
-      151,
-      153,
       155,
       157,
       159,
