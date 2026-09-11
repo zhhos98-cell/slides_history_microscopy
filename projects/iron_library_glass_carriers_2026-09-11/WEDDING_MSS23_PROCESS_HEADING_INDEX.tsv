@@ -1,0 +1,20 @@
+ocr_entry	page_marker	document_mode	heading_or_anchor_ocr	note	confidence	pdf_check
+4	Freiberg 1856-1857; p3	TITLE	über die Freiberger Hütten / Notizen	training/process notebook title; H. Wedding	A	no
+6	5	SECTION_HEADING	Die Mulder Hütten	heading stable enough to route, exact spelling image-check	A/B	yes spelling
+56	55	LATER_INSERT_OR_COPY	Freiberger Hütten Procepe	explicitly says Abschrift after H. Th. Richter and cites C. Schiffner 1935; separate codicological layer	A function/B exact transcription	yes material layer
+65		PROCESS_OR_SAMPLE_NOTES	Erz / Proben	ore/sample vocabulary recognizable; prose poor	B	selective
+71		PROCESS_HEADING	Die Bleiarbeit	heading explicit in otherwise noisy text	A	yes exact
+75		PROCESS_HEADING	Das Rösten der Bleierze	clear heading; Silber appears in same block	A	yes exact if quoted
+79		PROCESS_HEADING	Das Verschmelzen der gerösteten Bleierze ... oder die Bleiarbeit	heading substantially recoverable; quantities/time also present	A/B	yes exact
+91		FURNACE_OPERATION	Ofen / cycle quantities	furnace operation and timed/quantified notes recognizable, wording poor	B	yes if analytically used
+105		FURNACE_OPERATION	Ofen / Erz / throughput	quantitative ore/furnace workflow; exact units unreliable	B	yes
+122		PROCESS_HEADING_OR_SECTION	Bleischlackenarbeit / Silber	lead-slag/silver vocabulary recognizable	B	yes exact term
+144		PROCESS_HEADING	Das Rosten oder Liebrennen der steinigen Produkte	heading highly recognizable though `Liebrennen` spelling needs image	A/B	yes heading
+154		PROCESS_HEADING	Die Bleisteirarbeit; Raffinier- context	heading OCR uncertain but clearly lead/refining process layer	B	yes
+158		PROCESS_NOTES	lead/sulphur(?) products / furnace	product stream and furnace/process vocabulary; prose poor	B/C	selective
+160		PROCESS_HEADING	Die Concentration oder das Spuren des Kupfersteines	heading clear enough to route	A/B	yes exact
+166		PROCESS_HEADING_OR_OPERATION	Das Anfrüscher der bleischen Abreibe productiv	lead-processing heading/operation heavily distorted	C/B	yes before use
+172		PROCESS_HEADING	Das Raffinierdes Bleies	lead refining heading recognizable; exact grammar/spelling needs image	A/B	yes exact
+185	15;185	FURNACE_OR_PROCESS_NOTES	Ofen / quantified operation	technical furnace quantities, some hallucination contamination	B/C	yes if used
+194		FURNACE_OPERATION	Müßel...ofen / charging	furnace/changing operation recognizable; exact term poor	B/C	yes
+197	19;197	EXPERIMENT_OR_SAMPLE_SERIES	Proben / weighted additions	explicit numbered/proportioned test/sample-like series; wording noisy	B	yes important
