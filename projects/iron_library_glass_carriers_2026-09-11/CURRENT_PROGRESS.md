@@ -10,11 +10,15 @@ The project has moved beyond generic Iron Library discovery. The working compara
 
 **Sheffield / British industrial observation → return to Berlin/Charlottenburg → prepared specimen → reflected-light microscopy → microphotography → printed/reference collections.**
 
-The stronger question is not who invented metallography or whether knowledge simply diffused from Britain to Germany. The working problem is how **material comparison changed scale, institutional setting and evidential carrier** while remaining a comparative practice.
+The stronger question is not who invented metallography or whether knowledge simply diffused from Britain to Germany. The working problem is how **material comparison changed scale, institutional setting, evidential carrier and access regime** while remaining a comparative practice.
 
 A provisional formulation is:
 
 > How did the comparison of iron and steel move from industrial works visited by travelling metallurgists to prepared surfaces, microscopic fields and photographic reference collections?
+
+A second linked question is now controlled:
+
+> What happened when knowledge that had depended on personal recommendation, privileged factory access, practical competence, selective disclosure and travelling material samples was reorganised into institutional testing/specimen/image systems?
 
 The useful geographic comparison is therefore **Sheffield + Berlin/Charlottenburg**, with Iron Library holdings supplying the travel/industrial and object-history side and Berlin material-testing history supplying the post-return institutional reorganisation.
 
@@ -36,10 +40,11 @@ Current Fischer project files:
 
 1. `FISCHER_1845_1846_NODE_INDEX.md` — comparison/material/image synthesis;
 2. `FISCHER_TESTING_REGIME_1845_1846.md` — batch sampling, external trials, mechanical testing, hardening and provenance;
-3. `FISCHER_ACCESS_NETWORK_1845_1846.md` — people coded by what access/testing/judgement they make possible;
+3. `FISCHER_ACCESS_NETWORK_1845_1846.md` — people coded by access/testing/judgement plus technical credibility and privilege;
 4. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md` — autopsy, ruler/counting/weighing/calculation, sensory judgement and reliability;
-5. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md` — practical knowledge, deliberate non-disclosure and reciprocal questioning;
-6. `FISCHER_1845_1846_EVENT_INDEX.tsv` — date-ordered machine-readable event table using common analytical operation codes.
+5. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md` — practical knowledge, deliberate non-disclosure, patents, selective disclosure and reciprocal questioning;
+6. `FISCHER_KNOWLEDGE_BOUNDARY_MATRIX_1845_1846.tsv` — carrier/boundary matrix for publication, practical competence, autopsy, recommendation, privilege, sample, drawing, patent, secrecy, image and institutional testing;
+7. `FISCHER_1845_1846_EVENT_INDEX.tsv` — date-ordered machine-readable event table using common analytical operation codes.
 
 These Fischer texts are research OCR/transcription aids, not manually verified diplomatic transcriptions.
 
@@ -108,7 +113,15 @@ Weather/scale materially affect the success of the positive reproduction.
 
 Named contacts do different work: John Gott makes Low Moor logistically reachable; recommendations produce proprietor/works access; Faraday receives and inspects Fischer material; Brande supplies an authoritative institutional test judgement; Faraday/Brande names become credentials for access to the Croydon atmospheric-railway Engine House; a technically weak Butterley guide causes Fischer explicitly to downgrade the reliability of information.
 
-Wedding's people therefore need to be coded by function, not merely listed as contacts.
+Access is now known to be **tiered and conditional** rather than simply open/closed.
+
+- Fischer says useful recommendations in England require being `gut angeschrieben`.
+- A London technical contact expects Fischer to be well received because he can discuss the technical matters competently.
+- A Sheffield T. offers in 1846 to show Fischer whatever he wishes to see and explicitly says this is not an offer made to everyone.
+- At another Sheffield works in 1845 Fischer senses proprietorial discomfort, then deliberately performs technical competence through detailed comments so that the hosts see that the processes are not unfamiliar to him; he subsequently receives crucible/clay/material samples.
+- In Liverpool the formal sign `No admittance except on business` does not prevent access: after Fischer presents himself as a Swiss technical visitor unable to see such work at home, Bettely & Roberts immediately admit him.
+
+Wedding's people therefore need to be coded by function **and access mode**, not merely listed as contacts.
 
 ### Knowledge exchange has explicit rules
 
@@ -120,13 +133,31 @@ This makes the information economy explicit:
 
 **give technical/business information → acquire entitlement to counter-question → receive information**
 
-Wedding should therefore be read not only for what he saw, but for what was publishable, withheld, demonstrated, exchanged or made visible through reciprocal disclosure.
+### Patent, secrecy and selective disclosure coexist
+
+The Fischer evidence now rules out a simple progression from secret craft to open patented science.
+
+- In 1845 Fischer personally files two caveats in the London patent office to secure priority for inventions.
+- In 1846 he criticises an expensive Sheffield patent and remarks that in some cases one would do better to keep the matter secret.
+- In the 1845 account he recalls that roughly eighteen years earlier a method **still being kept secret** for waterproofing cloth with a caoutchouc solution had nevertheless been disclosed to him inside a trusted industrial relationship.
+
+Thus at least three boundary strategies coexist:
+
+**formal priority / patent** | **strategic secrecy** | **selective disclosure to trusted persons**.
+
+This is more precise than labelling the whole domain `tacit knowledge`.
+
+### Recommendation letters are documentary infrastructure
+
+Fischer not only receives recommendation letters; in 1846 he records making copies of the recommendations and their covering letter before travelling north. These documents both enable access and leave a preserved record of the access network.
+
+Brande's test letter similarly becomes portable institutional authority when Fischer carries it back into Sheffield discussions.
 
 ### No microscopic claim in Fischer 1845–1846
 
 Exact searches in the supplied 1845 and 1846 machine-readable texts did not produce a `Mikro...` hit. This does not prove absolute absence in the originals/OCR, but there is currently **no positive textual basis for making Fischer 1845–46 a microscopy story**.
 
-Its value is instead the prehistory of comparison, sampling, testing, measurement, provenance, access, information exchange and portable representation.
+Its value is instead the prehistory of comparison, sampling, testing, measurement, provenance, access, information exchange, boundary-making and portable representation.
 
 ## Revised pre-metallographic sequence
 
@@ -142,15 +173,17 @@ The Fischer evidence now supports a differentiated baseline:
 8. skilled preparation/finishing followed by expert judgement;
 9. controlled mechanical testing in dedicated apparatus;
 10. embodied sensory/predictive judgement;
-11. reciprocal disclosure, practical demonstration and strategic non-disclosure;
-12. drawings, letters and photographic reproductions that carry comparison away from the site.
+11. recommendation, privileged access and performance of technical credibility;
+12. reciprocal disclosure, practical demonstration and strategic non-disclosure;
+13. patent/priority, secrecy and selective disclosure as alternative boundary strategies;
+14. drawings, letters and photographic reproductions that carry comparison away from the site.
 
 The later Wedding/Martens problem may add:
 
-13. deliberately prepared polished specimen;
-14. microscopic field;
-15. microphotographic glass plate;
-16. printed/reference image and collection.
+15. deliberately prepared polished specimen;
+16. microscopic field;
+17. microphotographic glass plate;
+18. printed/reference image and collection.
 
 This is an analytical comparison and **not yet a direct historical genealogy**.
 
@@ -159,12 +192,13 @@ This is an analytical comparison and **not yet a direct historical genealogy**.
 The Fischer extraction framework is now stable enough to apply to Wedding. When the Wedding images/OCR are available, build page-level indices for Mss 23–25 with common fields:
 
 - date / itinerary;
-- person and functional role: `introducer | gatekeeper | host | technical guide | worker | tester | judge | sample donor | correspondent | image-maker | institutional credential`;
+- person and functional role: `introducer | gatekeeper | host | technical guide | worker | tester | judge | sample donor | correspondent | image-maker | institutional credential | technical evaluator | privilege grantor`;
+- access mode: `RECOMMENDATION | PRIOR_RELATION | SPONTANEOUS_ACCESS | PRIVILEGED_ACCESS | TECHNICAL_CREDIBILITY | CREDIBILITY_PERFORMANCE | ACCESS_DENIAL_OR_LIMIT | WEAK_GUIDE`;
 - works / institution;
 - technical operation;
 - material sample carried, received, transformed or tested;
 - `SEE | COUNT | MEASURE | WEIGH | CALCULATE | SAMPLE | NUMBER | APPARATUS_TEST | EXPERT_JUDGEMENT | SENSORY_JUDGEMENT | PROVENANCE | IMAGE | ACCESS | RELIABILITY_WARNING`;
-- information mode: `PRINTED_PRIOR | DRAWING | DIRECT_DEMONSTRATION | RECIPROCAL_DISCLOSURE | WITHHELD_SECRET | ORAL_REPORT`;
+- knowledge-boundary mode: `PUBLICATION | PRACTICAL_COMPETENCE | PATENT_PRIORITY | SECRET | SELECTIVE_DISCLOSURE | RECOMMENDATION | PRIVILEGED_ACCESS | RECIPROCAL_EXCHANGE | DEMONSTRATION | DOCUMENT_COPY | WITHHOLDING`;
 - source of datum: direct observation / oral report / copied document or drawing / inference;
 - Sheffield / Bessemer / named works;
 - technical drawings;
@@ -216,12 +250,13 @@ Priority objects/series remain:
 When returning to this project, **read this file first**, then:
 
 1. `FISCHER_1845_1846_EVENT_INDEX.tsv` for the controlled chronology/operation codes;
-2. `FISCHER_TESTING_REGIME_1845_1846.md` for testing/provenance;
-3. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md` for observation/reliability;
-4. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md` for practical knowledge and reciprocal disclosure;
-5. `FISCHER_ACCESS_NETWORK_1845_1846.md` for functional network coding;
-6. `FISCHER_1845_1846_NODE_INDEX.md` for the broader synthesis;
-7. `RESIDENCY_TRIAGE_2026-09-11.md` for digitised-vs-onsite logic;
-8. `PUBLIC_DIGITAL_CORPUS.md` and `SOURCE_MAP.md` for acquisition/evidence control.
+2. `FISCHER_KNOWLEDGE_BOUNDARY_MATRIX_1845_1846.tsv` for the boundary/carrier comparison;
+3. `FISCHER_TESTING_REGIME_1845_1846.md` for testing/provenance;
+4. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md` for observation/reliability;
+5. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md` for practical knowledge, patents, secrecy and reciprocal disclosure;
+6. `FISCHER_ACCESS_NETWORK_1845_1846.md` for functional network and access-mode coding;
+7. `FISCHER_1845_1846_NODE_INDEX.md` for the broader synthesis;
+8. `RESIDENCY_TRIAGE_2026-09-11.md` for digitised-vs-onsite logic;
+9. `PUBLIC_DIGITAL_CORPUS.md` and `SOURCE_MAP.md` for acquisition/evidence control.
 
 Do not reopen generic Iron Library searching before the Wedding/Fischer page-level British itinerary/person/comparison index has been completed.
