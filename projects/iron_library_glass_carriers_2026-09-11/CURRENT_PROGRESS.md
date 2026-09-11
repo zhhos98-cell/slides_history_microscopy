@@ -2,263 +2,330 @@
 
 **Pinned continuation state — 2026-09-11.**
 
-This file is the first resume point for the Iron Library project. Do not replace or supersede it with unrelated project activity. Update it only when this project itself advances.
+This is the authoritative first resume point for the active Iron Library project. Do not let unrelated repository activity supersede it.
 
-## Current research position
+## 1. Current research position
 
-The project has moved beyond generic Iron Library discovery. The working comparative frame is:
+The project has moved beyond generic Iron Library discovery and beyond a simple `Sorby → Wedding → Martens` diffusion story.
 
-**Sheffield / British industrial observation and testing → return/circulation to Berlin/Charlottenburg → prepared specimen → reflected-light microscopy → microphotography → printed/reference collections.**
+The controlled comparative problem is now:
 
-The stronger question is not who invented metallography or whether knowledge simply diffused from Britain to Germany. The working problem is how **material comparison changed scale, institutional setting, evidential carrier, access regime and reference structure** while remaining a comparative practice.
+**industrial travel / works comparison → travelling sample → external test / expert judgement → numbering / provenance / collection → prepared specimen → microscopic field → microphotography → printed / institutional reference system.**
 
-Two linked questions are now controlled:
+The central question is not who invented metallography. It is how **material comparison changed scale, evidential carrier, access regime, preparation practice, institutional setting and reference structure** while remaining a comparative activity.
+
+Two linked questions currently govern the work:
 
 > How did the comparison of iron and steel move from industrial works visited by travelling metallurgists to prepared surfaces, microscopic fields and photographic reference collections?
 
-> What happened when knowledge that had depended on personal recommendation, privileged factory access, practical competence, selective disclosure, travelling samples and repeated cross-site testing was reorganised into institutional specimen/testing/image systems?
+> What happened when knowledge that depended on recommendation, privileged factory access, practical competence, selective disclosure, travelling samples and cross-site testing was reorganised into institutional specimen/testing/image systems?
 
-The useful geographic comparison is **Sheffield + Berlin/Charlottenburg**. Iron Library material supplies the travel/industrial/object-history side; Berlin material-testing history supplies the post-return institutional reorganisation.
+The main geographic/institutional comparison remains **Sheffield ↔ Berlin/Charlottenburg**, with Schaffhausen/Fischer supplying a pre-Wedding comparison baseline.
 
-## Wedding digital corpus status
+## 2. Wedding corpus status
 
-1. Hermann Wedding's Iron Library manuscripts `Mss 23`, `Mss 24`, `Mss 25` are fully digitised on e-codices.
-2. `Mss 25` (1860–1862; Germany–Belgium–England) remains the priority remote corpus for British travel, Sheffield, Bessemer, named works, introductions and technical contacts.
-3. `Mss 25` contains **402 IIIF canvases**.
-4. A Windows PowerShell IIIF workflow was tested successfully; **900 px** was selected for whole-volume rapid reading/indexing, with later reacquisition of important pages at 2000 px or full resolution.
-5. The user reports that local 900 px image acquisition for **Mss 23, Mss 24 and Mss 25 has completed**.
-6. `Mss 25` working directory was established as `C:\Users\13563\Desktop\wedding_mss25`, with analogous Mss 23/24 folders.
-7. A separate local-computer/Codex task was specified to merge each volume to PDF, run local OCR and upload provenance-rich JSON files. **No Wedding OCR JSON is currently visible in the GitHub project; do not assume that task is complete.**
+Hermann Wedding's Iron Library manuscripts are fully digitised on e-codices:
 
-## Fischer 1845–1846 corpus: controlled baseline
+- `Mss 23` — 1856–1857; Freiberg/training notes;
+- `Mss 24` — 1858; German industrial study tour;
+- `Mss 25` — 1860–1862; Germany–Belgium–England, including British industrial/Bessemer material.
 
-Three machine-readable Fischer text files were supplied. Two are duplicate/OCR witnesses of the 1845 account; the cleaner `...Low-Moor, Sheffield, und zurück im Sommer 1845.txt` is the canonical working text. The third is the 1846 journey through London, Derby/Butterley, Sheffield and Liverpool.
+The user reports that local 900 px IIIF acquisition of **Mss 23, Mss 24 and Mss 25 is complete**. `Mss 25` exposes **402 IIIF canvases**.
 
-Current Fischer project files:
+Local working directories:
 
-1. `FISCHER_1845_1846_EVENT_INDEX.tsv` — date-ordered machine-readable event table;
-2. `FISCHER_KNOWLEDGE_BOUNDARY_MATRIX_1845_1846.tsv` — publication/practical competence/access/patent/secrecy/sample/image/testing matrix;
-3. `FISCHER_SAMPLE_AND_REFERENCE_REGIMES_1845_1846.md` — demonstration, trace, staged-series, reference-quality and prepared-test-object distinctions;
-4. `FISCHER_ITERATIVE_TESTING_CIRCUIT_1845_1846.md` — 1845–46 as one repeated sample/test/document/return circuit rather than two isolated journeys;
-5. `FISCHER_TESTING_REGIME_1845_1846.md` — batch sampling, external trials, mechanical testing, hardening and provenance;
-6. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md` — autopsy, counting/measurement/weighing/calculation, sensory judgement and reliability;
-7. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md` — practical knowledge, patents, strategic non-disclosure, selective disclosure and reciprocal questioning;
-8. `FISCHER_ACCESS_NETWORK_1845_1846.md` — functional network, technical credibility and tiered visibility;
-9. `FISCHER_1845_1846_NODE_INDEX.md` — broader synthesis.
+- `C:\Users\13563\Desktop\wedding_mss23`
+- `C:\Users\13563\Desktop\wedding_mss24`
+- `C:\Users\13563\Desktop\wedding_mss25`
 
-These Fischer texts are OCR/research aids, not manually verified diplomatic transcriptions.
+A local-computer/Codex workflow has been specified to:
 
-## Fischer: strongest controlled findings
+1. merge each image sequence into a reading PDF;
+2. OCR the original JPG pages locally, not a PDF re-render;
+3. use Tesseract first for simple pages;
+4. use PaddleOCR as fallback for complex / low-confidence pages;
+5. emit one provenance-rich JSON per manuscript.
 
-### 1. Comparison is an actor category, but `Autopsie` is not simply eyesight
+**The three Wedding OCR JSON files are not yet visible in this repository. Do not assume that OCR/upload is complete until the files actually appear.**
 
-Fischer explicitly uses `Vergleichungspunkte` and says British industrial scale/perfection cannot be grasped without `Autopsie`. In practice he combines direct seeing with counting, measuring, weighing, calculation, questioning, sampling and comparison.
+When the JSONs arrive, the first analytical operation is a page-level itinerary/person/comparison index, not more generic web searching.
 
-Working shorthand:
+## 3. Fischer 1845–1846 corpus: controlled baseline
 
-**see → count → measure → ask → weigh → calculate → compare → sample → record**
+Three Fischer machine-readable text files were supplied in chat. Two are duplicate/OCR witnesses of the 1845 journey; the cleaner `...Low-Moor, Sheffield, und zurück im Sommer 1845.txt` is the canonical working text. The third is the 1846 journey through London, Derby/Butterley, Sheffield and Liverpool.
 
-### 2. Sample is not one category
+Existing detailed project files:
 
-The corpus now supports at least five distinct sample regimes:
+1. `FISCHER_1845_1846_EVENT_INDEX.tsv`
+2. `FISCHER_KNOWLEDGE_BOUNDARY_MATRIX_1845_1846.tsv`
+3. `FISCHER_SAMPLE_AND_REFERENCE_REGIMES_1845_1846.md`
+4. `FISCHER_ITERATIVE_TESTING_CIRCUIT_1845_1846.md`
+5. `FISCHER_TESTING_REGIME_1845_1846.md`
+6. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md`
+7. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md`
+8. `FISCHER_ACCESS_NETWORK_1845_1846.md`
+9. `FISCHER_1845_1846_NODE_INDEX.md`
 
-- **demonstration sample** — portable object shown to solicit recognition, judgement or business;
-- **trace sample** — sample taken from a specific production event and linked to batch identity;
-- **staged process series** — material assembled across successive production stages;
-- **reference-quality sample** — a tested sample becomes the benchmark for future deliveries;
-- **prepared test object** — material is transformed/finished before expert judgement.
+These OCR texts are research aids, not diplomatic transcriptions.
 
-Low Moor provides the clearest traceability example: a sample is taken from every tapping and the output is numbered for supply by specified quality. The same visit produces a portable staged series of ore, limestone, coal, coke and iron through successive production stages.
+### Controlled Fischer findings
 
-### 3. The Royal Mint `Musterstange` becomes a normative reference
+- `Vergleichungspunkte` and `Autopsie` make comparison/direct presence actor categories, but Fischer's practice is broader than sight alone: **see → count → measure → ask → weigh → calculate → compare → sample → record**.
+- Low Moor takes a **sample from each tapping and numbers the output**, linking production event, material identity and specified quality.
+- The same Low Moor visit yields a staged travelling series of ore, limestone, coal, coke and iron through successive production stages.
+- Royal Mint testing turns Fischer's steel `Musterstange` into a practical normative reference for future supply of the same quality. Do not call this a modern certified reference material.
+- Provenance can be preserved (sample + batch number) or destroyed (heterogeneous remelting of old material of unknown quality).
+- Industrial testing already combines dedicated apparatus with embodied sensory expertise.
+- Recommendation, prior relation, performed technical competence and named guides condition what becomes visible. Butterley provides a negative control: formal access with a technically weak guide produces data Fischer himself marks as unreliable.
+- Patent priority, secrecy, selective disclosure, reciprocal questioning, demonstration and publication are distinct boundary regimes; do not collapse them into generic `tacit knowledge`.
+- 1845–46 is one iterative circuit: **journey → sample/order → shipment → external test → written judgement → repeat supply → return journey → reuse of test authority**.
+- Beck's works drawing becomes a photographic negative and attempted positive copies: **industrial operation → drawing → photographic negative → reproducible positive image**.
+- Numbering has different functions: Low Moor batch identity, Polytechnic catalogue addressability and later metallographic specimen/image numbering must not be collapsed into one regime.
 
-Brande's 1 January 1846 letter reports successful trials of Fischer's steel and requests future bars **of the same quality as the sample bar**. The object therefore moves from `tested sample` to a practical reference against which future production is specified.
+## 4. Fischer negative-control result: no positive microscopy in 1845–46
 
-Do not call this a modern certified reference material or formal metrological standard. The source supports a practical normative reference relation.
+The supplied Fischer OCR corpus has now been searched directly for `Mikro-`, `Mikroskop-`, `micros-` and related forms: **no positive hit**.
 
-### 4. Provenance can be preserved or destroyed
+Broader searches for magnification, lenses, polarisation, mineral/crystal sections and similar microscopic-preparation language also produced no positive microscopic episode.
 
-Low Moor preserves identity through sample + number. Fenn later complains that English cast-steel quality has declined partly because manufacturers remelt old railway springs and other material whose prior quality they do not know.
+Relevant near-neighbours exist but must remain distinct:
 
-Controlled contrast:
+- 1845 Sheffield needle manufacture includes grinding and polishing — industrial finishing, not microscopic specimen preparation;
+- 1846 Rodgers & Son grind/polish Fischer's steel razor blanks for expert quality judgement — prepared test object, not metallography;
+- 1846 Willat/Croucher material includes photographic paper, Camera Obscura, daguerreotype, negative/positive reproduction and optical display — photography/optics, not microscopy;
+- dissolving views / magic-lantern illumination are optical display, not microscopic observation.
 
-**known production event → sample → number → quality identity**
+Controlled statement:
 
-versus
+> **No positive textual evidence currently supports making Fischer 1845–1846 a microscopy story.**
 
-**unknown prior material → heterogeneous remelting → provenance loss → quality uncertainty**.
+This is analytically useful because it establishes a pre-metallographic baseline rather than an artificially continuous genealogy.
 
-### 5. Industrial testing already includes dedicated apparatus
+## 5. External source expansion generated from the Fischer texts
 
-Fischer describes a Sheffield locomotive-spring `Probemaschine`: a hardened curved spring is pressed flat, released and checked against reference points to determine whether it has permanently yielded or broken.
+A dedicated acquisition note now exists:
 
-But apparatus does not simply replace the senses. In the file-hardening shop Fischer estimates hardening-water temperature by feel and tastes it to identify the additive. Machine, reference geometry, eye/hand/taste and craft expertise coexist.
+`EXTERNAL_SOURCE_EXPANSION_2026-09-11.md`
 
-### 6. Access is an epistemic variable and visibility is tiered
+The highest-value outward nodes are:
 
-Recommendation letters, old relations, named institutional contacts and the visitor's technical reputation determine what becomes visible. Fischer says useful recommendations require being `gut angeschrieben`; a Sheffield contact explicitly offers access not given to everyone; at another works Fischer deliberately demonstrates technical competence before receiving deeper access and material samples. Butterley supplies the negative control: formal entry with a technically weak guide yields information Fischer himself marks as unreliable.
+### Faraday / Royal Institution
 
-### 7. Knowledge exchange has explicit boundary rules
+Fischer records visiting Michael Faraday at the Royal Institution on 4 August 1845. Faraday inspects cast-wrought-iron objects, horseshoes, percussion-lock parts and platinum; Fischer leaves an experimental crucible for Faraday's use.
 
-Fischer quotes Swedenstierna on not publishing a detailed Sheffield cast-steel process even after close observation: writing plus practical competence may guide a practitioner, while strategic withholding can remain advantageous. Fischer then states that he answered Sheffield questions about wages/production **in detail in order to become entitled to ask counter-questions**.
+This should be pursued through:
 
-Controlled boundary modes now include:
+- Faraday & Stodart, `On the Alloys of Steel` (1822);
+- Fischer's earlier journals, especially 1825–27;
+- the earlier recommendation/correspondence network, including the 1825 de la Rive → Faraday recommendation letter if a digital surrogate can be obtained.
 
-`PUBLICATION | PRACTICAL_COMPETENCE | PATENT_PRIORITY | SECRET | SELECTIVE_DISCLOSURE | RECOMMENDATION | PRIVILEGED_ACCESS | RECIPROCAL_EXCHANGE | DEMONSTRATION | DOCUMENT_COPY | WITHHOLDING`.
+### Low Moor
 
-Patent priority, strategic secrecy and selective disclosure coexist; do not flatten the domain into a single category of `tacit knowledge`.
+Treat as a traceability / staged-series node, not generic factory context.
 
-### 8. 1845 and 1846 form an iterative testing circuit, not two isolated journeys
+### Royal Polytechnic Institution
 
-The strongest temporal structure is:
+Fischer's 1846 account describes >2,000 catalogue-numbered objects, staff explanation, lectures, experiments and working models.
 
-**journey → sample/order → shipment → external test → written judgement → repeat supply → return journey → reuse of test authority in new encounters**.
+Analytical distinction:
 
-In 1845 Brande examines Fischer's material and gives an order. A steel bar later travels from Schaffhausen to the Royal Mint and is tested. By October 1846 Fischer says he has supplied the Mint repeatedly; Brande's written judgement is then carried back into Sheffield and shown during Cammell discussions.
+- Low Moor number = batch / production identity;
+- Polytechnic number = collection addressability.
 
-The circuit therefore continues while Fischer is absent and bundles multiple carriers on return: material samples, letters, recommendations, drawings and embodied experience.
+The 1843 Polytechnic catalogue is a priority downloadable control source.
 
-### 9. Representation becomes portable and reproducible
+### Croucher / Willats
 
-Beck's coloured works drawing circulates in British technical encounters and is then transformed by Croucher into a photographic negative and attempted positive copies. Weather and scale affect success.
+Fischer's photographic vocabulary and named commercial network can be checked against J. H. Croucher's 1845 `Plain Directions for Obtaining Photographic Pictures...`, published by T. & R. Willats, 98 Cheapside.
 
-Working chain:
+This is a direct travel-text ↔ contemporary technical-manual bridge.
 
-**industrial operation → drawing → photographic negative → reproducible positive image**.
+### Fischer 1851
 
-### 10. Numbering has distinct functions
+Fischer's 1851 Great Exhibition journey is the next travel-journal priority.
 
-Do not collapse all numbering into one regime:
+Question:
 
-- Low Moor batch/tapping numbering preserves industrial traceability;
-- the Polytechnic Institution uses catalogue-numbered objects for collection ordering/retrieval;
-- later metallographic specimen/image numbering, if demonstrated, must be treated as a separate reference practice.
+> Does the earlier travelling-sample / personal-judgement regime become reorganised through exhibition classification, catalogue addressability and public display?
 
-### 11. No positive microscopic claim in Fischer 1845–1846
+## 6. Sorby and Story-Maskelyne: parallel regimes, not yet a transmission chain
 
-Exact searches in the supplied OCR texts produced no `Mikro...` hit. This does not prove absolute absence in the originals, but there is currently **no positive textual basis for making Fischer 1845–46 a microscopy story**.
+Current functional comparison:
 
-Its value is the controlled baseline for comparison, access, sampling, reference quality, testing, provenance, circulation and representation.
+### Sorby / Sheffield
 
-## Revised pre-metallographic architecture
+Working regime:
 
-The Fischer evidence now supports a differentiated baseline:
+**industrial material → skilled preparation → polished/etched surface → reflected/direct illumination → microscopic field → photomicrograph / printed image**.
 
-1. works visit / `Autopsie`;
-2. quantified process comparison;
-3. traveller counting, measurement, weighing and calculation;
-4. demonstration samples;
-5. production trace samples + batch numbering;
-6. staged portable process series;
-7. preservation or loss of material provenance;
-8. tested sample becoming a practical reference for future quality;
-9. external institutional trial;
-10. skilled preparation/finishing followed by expert judgement;
-11. controlled mechanical testing in dedicated apparatus;
-12. embodied sensory/predictive judgement;
-13. recommendation, privileged access and performed technical credibility;
-14. reciprocal disclosure, demonstration and strategic non-disclosure;
-15. patent/priority, secrecy and selective disclosure as alternative boundary strategies;
-16. letters, drawings and photographs as portable authority/evidence;
-17. iterative cross-site testing and return circulation.
+The key issue is not simply microscope use. Sorby's later criticism of Wedding makes specimen preparation and illumination conditions of valid microstructure.
 
-The later Wedding/Martens problem may add, if sources support it:
+Priority controls:
 
-18. deliberately prepared polished specimen;
-19. microscopic field;
-20. microphotographic glass plate;
-21. labelled/numbered specimen-image reference series or collection.
+- Sorby's 1863/64 meteorite microscopy;
+- surviving metallurgical specimen / photomicrograph catalogue-history;
+- JRMS 1886 discussion of Wedding.
 
-This is an analytical comparison, **not yet a direct genealogy**.
+### Story-Maskelyne / British Museum mineralogy
 
-## Wedding extraction schema — ready to apply
+Working regime to test:
 
-When Wedding OCR/pages become available, build page-level indices for Mss 23–25 using the same fields.
+**museum specimen / meteorite aggregate → cut/thin prepared section → glass carrier → transmitted/polarised-light comparison → collection/classification**.
 
-Core metadata:
+A strong later preparation control is Royal Society `RR/12/397` (1894), Maskelyne's referee report on Tutton's instrument for cutting, grinding and polishing section-plates/prisms.
+
+Do not claim a direct Sorby ↔ Maskelyne transmission without evidence. Their present value is as parallel material-to-microscopic-object regimes.
+
+## 7. Wedding notebooks may be historiographically under-exploited — hypothesis only
+
+A dedicated control note now exists:
+
+`WEDDING_NOTEBOOK_CITATION_AUDIT.md`
+
+Current suspicion:
+
+> Wedding as a person and the broad events of his British travel are well known, but `Mss 23–25` may not have been systematically exploited page-by-page as a primary-source corpus.
+
+This is **not yet a novelty claim**.
+
+Preliminary searching has not yet revealed substantial page-level scholarly use, but absence from indexed web search does not prove absence. A formal citation audit is required.
+
+Use the distinction:
+
+`open access ≠ searchable corpus ≠ systematically exploited source`.
+
+Potential longitudinal value of the three manuscripts:
+
+- `Mss 23`: training — what counts as recordable metallurgical knowledge;
+- `Mss 24`: domestic industrial tour — cross-site works comparison;
+- `Mss 25`: transnational comparison — foreign access regimes, specialist networks, Bessemer/British sites.
+
+Potential larger question:
+
+> **How did a metallurgist learn to compare?**
+
+Only after page-level extraction should this be compared with Wedding's later microscopic comparison regime.
+
+## 8. Wedding extraction schema
+
+When OCR/pages become available, extract the same analytical units used for Fischer.
+
+Core fields:
 
 - date / itinerary;
-- person + functional role: `introducer | gatekeeper | host | technical guide | worker | tester | judge | sample donor | correspondent | image-maker | institutional credential | technical evaluator | privilege grantor`;
+- person + functional role;
 - works / institution;
-- source of datum: direct observation / oral report / copied document or drawing / inference.
+- source of datum: direct observation / oral report / copied document/drawing / inference.
 
 Observation/testing operations:
 
-`SEE | COUNT | MEASURE | WEIGH | CALCULATE | APPARATUS_TEST | EXPERT_JUDGEMENT | SENSORY_JUDGEMENT | IMAGE | RELIABILITY_WARNING`.
+`SEE | COUNT | MEASURE | WEIGH | CALCULATE | APPARATUS_TEST | EXPERT_JUDGEMENT | SENSORY_JUDGEMENT | IMAGE | RELIABILITY_WARNING`
 
 Access modes:
 
-`RECOMMENDATION | PRIOR_RELATION | SPONTANEOUS_ACCESS | PRIVILEGED_ACCESS | TECHNICAL_CREDIBILITY | CREDIBILITY_PERFORMANCE | ACCESS_DENIAL_OR_LIMIT | WEAK_GUIDE`.
+`RECOMMENDATION | PRIOR_RELATION | SPONTANEOUS_ACCESS | PRIVILEGED_ACCESS | TECHNICAL_CREDIBILITY | CREDIBILITY_PERFORMANCE | ACCESS_DENIAL_OR_LIMIT | WEAK_GUIDE`
 
 Knowledge-boundary modes:
 
-`PUBLICATION | PRACTICAL_COMPETENCE | PATENT_PRIORITY | SECRET | SELECTIVE_DISCLOSURE | RECIPROCAL_EXCHANGE | DEMONSTRATION | DOCUMENT_COPY | WITHHOLDING`.
+`PUBLICATION | PRACTICAL_COMPETENCE | PATENT_PRIORITY | SECRET | SELECTIVE_DISCLOSURE | RECIPROCAL_EXCHANGE | DEMONSTRATION | DOCUMENT_COPY | WITHHOLDING`
 
 Sample/reference modes:
 
-`DEMONSTRATION_SAMPLE | TRACE_SAMPLE | BATCH_IDENTITY | STAGED_SERIES | REFERENCE_QUALITY_SAMPLE | PREPARED_TEST_OBJECT | SAMPLE_DONOR | SAMPLE_RECIPIENT | PROVENANCE_LOSS | CATALOG_NUMBERING`.
+`DEMONSTRATION_SAMPLE | TRACE_SAMPLE | BATCH_IDENTITY | STAGED_SERIES | REFERENCE_QUALITY_SAMPLE | PREPARED_TEST_OBJECT | SAMPLE_DONOR | SAMPLE_RECIPIENT | PROVENANCE_LOSS | CATALOG_NUMBERING`
 
-Circuit fields:
+For every major episode ask:
 
-- object/result sent onward?;
-- tested or transformed elsewhere?;
-- written judgement returned?;
-- repeat supply/correspondence?;
-- later reused as authority or reference?;
-- relation continued after traveller left site?;
-- later British ↔ Berlin return circulation?
+- what did Wedding know before arrival?
+- what produced access?
+- who mediated the visit?
+- what did he see / count / measure / copy / draw / receive?
+- what did he regard as reliable or unreliable?
+- what did he disclose in return?
+- what continued moving after he left?
+- what later appears in Berlin?
 
-For every major works/person episode ask: what did Wedding already know before arrival; what produced access; what level of visibility was granted; what he measured/copied/received; what he disclosed in return; what was withheld; what continued moving after he left; and what later appears in Berlin.
+## 9. Immediate research order
 
-## Next analytical move after Wedding British itinerary control
+### First dependency
 
-Compare the Wedding material against:
+Finish/confirm the local Wedding OCR pipeline and bring the three JSONs into the project.
 
-1. Sorby's Sheffield diaries / surviving metallurgical specimen context;
-2. Wedding's post-1862 Berlin teaching and metallurgical work;
-3. Martens and the Königliche mechanisch-technische Versuchsanstalt / later Materialprüfungsamt;
-4. the 1885 Wedding–Sorby microscopic-structure dispute, especially specimen preparation and illumination;
-5. the Iron Library's three original Droste/Martens microphotographic glass plates and their unresolved object-level identifiers.
+### Then
 
-A direct Wedding–Sorby meeting in 1860/62 remains a **hypothesis**, not a claim. Test co-presence by dates/names.
+1. build Mss 23–25 page-level itinerary/person/comparison indices;
+2. establish exact Mss 25 British dates, Sheffield/South Wales/Bessemer works and named contacts;
+3. test direct Wedding–Sorby co-presence/contact only after dates/names are controlled;
+4. run the formal Wedding notebook citation audit;
+5. acquire the external source queue in `EXTERNAL_SOURCE_EXPANSION_2026-09-11.md`;
+6. compare Wedding's early observational regime against later 1885 microscopy / Sorby criticism;
+7. follow into Martens / Königliche mechanisch-technische Versuchsanstalt / Materialprüfungsamt specimen-image-reference systems.
 
-## Residency logic
+Do **not** reopen generic Iron Library searching before these controlled steps are done.
 
-Digitised Wedding/Fischer material is preliminary research, not itself a reason to travel.
+## 10. Download / comparison queue
 
-A Scholar in Residence case should target the second stage:
+Priority order now:
 
-- what happened after the British industrial journeys;
-- how comparison/testing was reorganised in German institutions;
-- how identity/provenance/reference were preserved or reconstructed;
-- how privileged/practical knowledge became inspectable, labelled and durable institutional evidence;
-- how prepared specimens, microscopic fields, photographic glass plates and printed plates/reference collections worked materially;
-- which still-undigitised or object-dependent Iron Library / Georg Fischer series are necessary.
+1. Fischer 1851;
+2. Faraday & Stodart 1822;
+3. Croucher 1845;
+4. Royal Polytechnic catalogue 1843;
+5. Great Exhibition catalogue material relevant to mining/metallurgy;
+6. Sorby 1863/64 + surviving-specimen catalogue/history;
+7. Wedding 1885 + JRMS 1886;
+8. Maskelyne/Tutton `RR/12/397`;
+9. Martens 1891 / 1893;
+10. Martens & Guth / Materialprüfungsamt 1904.
 
-## High-value unresolved onsite layer
+The aim is to control transitions, not accumulate PDFs:
 
-Priority remains:
+**sample identity → collection identity → expert test → prepared object → microscopic field → reproducible image → institutional reference system**.
+
+## 11. Residency / onsite logic
+
+Digitised Wedding/Fischer material is pre-visit research, not itself a residency rationale.
+
+The strongest unresolved onsite layer remains:
 
 - three original Droste/Martens early microphotographic glass plates;
 - exact meaning of `G 745,1`, `Per765`, `A346`;
 - physical metadata, inscriptions, backs, mounts, ordering and printed-plate matches;
-- nineteenth-century GF working papers/correspondence that remain undigitised after item-level ANTON verification;
-- material-testing / metallography / exhibition / photographic series whose physical ordering or object features are not captured digitally.
+- genuinely undigitised nineteenth-century GF working papers/correspondence after item-level ANTON verification;
+- material-testing / metallography / exhibition / photographic series whose physical order or object features cannot be reconstructed remotely.
 
-## Resume rule
+The residency case should ask how comparison/testing became durable institutional evidence, not simply rediscover the known history of metallography.
 
-When returning to this project, read this file first, then:
+## 12. Claim ceilings
 
-1. `FISCHER_1845_1846_EVENT_INDEX.tsv`;
-2. `FISCHER_SAMPLE_AND_REFERENCE_REGIMES_1845_1846.md`;
-3. `FISCHER_ITERATIVE_TESTING_CIRCUIT_1845_1846.md`;
-4. `FISCHER_KNOWLEDGE_BOUNDARY_MATRIX_1845_1846.tsv`;
-5. `FISCHER_TESTING_REGIME_1845_1846.md`;
-6. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md`;
-7. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md`;
-8. `FISCHER_ACCESS_NETWORK_1845_1846.md`;
-9. `FISCHER_1845_1846_NODE_INDEX.md`;
-10. `RESIDENCY_TRIAGE_2026-09-11.md`;
-11. `PUBLIC_DIGITAL_CORPUS.md` and `SOURCE_MAP.md`.
+Do not currently claim:
 
-Do not reopen generic Iron Library searching before the Wedding British itinerary/person/comparison index has been completed. Do not assume Wedding OCR exists until the actual JSON/files appear in the repository.
+- that Fischer 1845–46 practised microscopy;
+- that Sorby and Maskelyne formed a direct transmission chain;
+- that Wedding met Sorby in 1860/62;
+- that Mss 23–25 have never been read;
+- that shared glass substrate proves historical continuity;
+- that Low Moor batch samples are modern reference materials;
+- that analytical similarity establishes genealogy.
+
+Current evidence supports **comparative architecture and source-directed hypotheses**, not a single continuous lineage.
+
+## Resume order
+
+Read in this order when returning:
+
+1. `CURRENT_PROGRESS.md` — this file;
+2. `WEDDING_NOTEBOOK_CITATION_AUDIT.md`;
+3. `EXTERNAL_SOURCE_EXPANSION_2026-09-11.md`;
+4. `FISCHER_1845_1846_EVENT_INDEX.tsv`;
+5. `FISCHER_SAMPLE_AND_REFERENCE_REGIMES_1845_1846.md`;
+6. `FISCHER_ITERATIVE_TESTING_CIRCUIT_1845_1846.md`;
+7. `FISCHER_KNOWLEDGE_BOUNDARY_MATRIX_1845_1846.tsv`;
+8. `FISCHER_TESTING_REGIME_1845_1846.md`;
+9. `FISCHER_MEASUREMENT_AND_OBSERVATION_1845_1846.md`;
+10. `FISCHER_KNOWLEDGE_EXCHANGE_AND_SECRECY_1845_1846.md`;
+11. `FISCHER_ACCESS_NETWORK_1845_1846.md`;
+12. `FISCHER_1845_1846_NODE_INDEX.md`;
+13. `RESIDENCY_TRIAGE_2026-09-11.md`;
+14. `PUBLIC_DIGITAL_CORPUS.md` and `SOURCE_MAP.md`.
+
+**Immediate resume condition:** if Wedding OCR JSONs are present, stop broad searching and index them first. If they are absent, continue the controlled downloadable-source queue / citation audit without assuming OCR completion.
