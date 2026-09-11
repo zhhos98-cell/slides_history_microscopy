@@ -14,6 +14,20 @@
   ],
   "principle": "Original PaddleOCR JSON is immutable. Image-controlled readings supersede OCR only on the same PDF page. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
   "controlled_pages_this_pass": {
+    "Mss23": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
     "Mss25": [
       295,
       296,
