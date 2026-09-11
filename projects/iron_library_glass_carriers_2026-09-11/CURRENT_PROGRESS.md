@@ -23,12 +23,22 @@ Major working files now include:
 - `WEDDING_MSS25_VISUAL_CONTROL_PASS1_2026-09-11.md` through `PASS4`
 - `WEDDING_MSS25_SOURCE_MODE_INDEX_1862_1863.tsv`
 - `WEDDING_MSS25_TAIL_PROVENANCE_INDEX.tsv`
+- `corrected_transcription/README.json`
+- `corrected_transcription/WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl`
+- `corrected_transcription/WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`
+- `corrected_transcription/WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl`
 - **`WEDDING_1860_BESSEMER_MANUSCRIPT_BREAKTHROUGH_2026-09-11.md`**
 - `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
 
 Longitudinal architecture remains:
 
 **Mss 23: process decomposition / quantitative training → Mss 24: domestic cross-site comparison → Mss 25: transnational, multi-year, heterogeneous research container.**
+
+### Corrected-transcription ledger checkpoint
+
+All 740 PDF pages now have stable rows in the separate JSONL ledgers; the PaddleOCR JSON remains immutable. Each row carries `status`, `confidence`, `transcription`, `secure_anchors`, `doubtful_readings`, OCR-noise flags and a page-level note. Unchecked non-empty rows retain the Paddle text as a low/unassessed routing draft rather than silently promoting it to manuscript text; OCR-empty rows remain explicitly unresolved.
+
+The first direct PDF-control batch covers Mss 25 PDFs 295–300. It rejects Paddle hallucination on PDF 297, secures `Mittwoch 25 Juli 1860`, `Sheffield White Lead Works`, `Barker & Sons`, `Bessemer's Stahlwerk`, the Cumberland pig-iron statement, `Der ganze Prozeß dauert cca 19-24 Minuten`, `Cammells Maschinen (Cyclops Works)`, and the transition to `Donnerstag 26 Juli. Leeds` / `Peter Fairbairn's Maschinenwerkstätte`. Continuous technical Kurrent remains selectively transcribed and ellipsed rather than guessed. The supplied `10598` JSON remains outside this correction ledger because the corresponding PDF was not supplied.
 
 ## 3. Critical breakthrough: Bessemer encounter is 1860, and the notebook section is found
 
