@@ -116,7 +116,37 @@ not
 
 The quoted or paraphrased event must ultimately be controlled against the 1861 *Engineer* pages themselves.
 
-## 7. What is already secure without seeing the full excursion list
+## 7. Vickers is already inside the IMechE network — but do not invent a 1861 paper
+
+The Vickers connection becomes more concrete at institutional level.
+
+Later IMechE membership lists preserved in Google Books record:
+
+- **Thomas Edward Vickers, Messrs. Vickers Sons and Co., Sheffield — member from 1856**;
+- **Albert Vickers — member from 1861**.
+
+The firm designation in the later list reflects the later company name/address, but the membership years are the relevant point.
+
+Source:
+- Google Books, later *Proceedings of the Institution of Mechanical Engineers*, membership list, entry `Vickers, Albert ... 1861` and `Vickers, Thomas Edward ... 1856`.
+
+This matters because the Gruner–Lan Sheffield statistics are routed through `Mr Vickers of the house of Naylor, Vickers & Co.`. The manufacturer-information channel therefore intersects an established professional-engineering network: at least Thomas Edward Vickers was already an Institution member several years before the 1861 Sheffield meeting.
+
+### Authorship ceiling
+
+A bookseller catalogue for an original 1861 PIME volume lists `BESSEMER, Henry. VICKERS, T.E. BROWN, John. et.al.` among contributors. This is useful as a routing clue only. It does **not** presently prove that T. E. Vickers read a separate paper at the 31 July 1861 Sheffield meeting.
+
+Until the 1861 table of contents / meeting minutes show a titled Vickers contribution, use:
+
+`VICKERS = IMechE_MEMBER / NETWORK_PARTICIPANT`
+
+not
+
+`VICKERS = 1861_SHEFFIELD_PAPER_AUTHOR`.
+
+The membership fact is enough to sharpen the institutional picture without overclaiming authorship.
+
+## 8. What is already secure without seeing the full excursion list
 
 Secure:
 
@@ -126,7 +156,8 @@ Secure:
 - the complete 1861 PIME volume survives and is publicly accessible;
 - *The Engineer* vol.12 (Jul–Dec 1861) survives and is publicly indexed/readable via HathiTrust;
 - Bishop's p.10 / p.63 references are genuine locators into that volume;
-- Bessemer retrospectively connects the meeting with his Sheffield steel works and with demonstration by physical specimens.
+- Bessemer retrospectively connects the meeting with his Sheffield steel works and with demonstration by physical specimens;
+- Thomas Edward Vickers was already an IMechE member from **1856**; Albert joined in **1861**.
 
 Strongly supported but still awaiting direct 1861 page collation:
 
@@ -140,15 +171,20 @@ Open:
 - full formal excursion programme / itinerary;
 - whether Cammell/Cyclops appears in the official 1861 excursion list;
 - exact sequence/timing among Bessemer works, John Brown, and any other Sheffield works;
-- exact *Engineer* article titles/dates on pp.10 and 63.
+- exact *Engineer* article titles/dates on pp.10 and 63;
+- whether T. E. Vickers made a titled contribution to the 1861 Sheffield meeting or merely appears through membership/volume metadata.
 
-## 8. Why this matters for Wedding 1860
+## 9. Why this matters for Wedding 1860
 
 This primary-source ladder strengthens, but also disciplines, the comparison to Wedding's 25 July 1860 visit.
 
 The 1861 evidence should be used to establish that Sheffield's Bessemer transfer environment could include:
 
 **formal technical papers + physical specimens + works visits + live process repetition + expert collective witnessing.**
+
+The Vickers membership control adds another layer:
+
+**manufacturer testimony / firm knowledge ↔ professional engineering institution ↔ works demonstration.**
 
 It should not be used to assert that Wedding's own 1860 visit followed the same group itinerary.
 
@@ -160,10 +196,11 @@ versus
 
 **IMechE 1861: organized expert witnessing and repeated works demonstration after local adoption had advanced.**
 
-## 9. Immediate next operation
+## 10. Immediate next operation
 
 1. Open *The Engineer* v.12 via HathiTrust and transcribe/photographically control **p.10 and p.63**.
 2. Identify article date/title for each page.
 3. Search the complete 1861 PIME volume around the Sheffield meeting for programme, minutes, visits/excursions, and discussion text.
-4. Search specifically for `Cammell`, `Cyclops`, `Bessemer`, `Brown`, `Atlas`, `visit`, `works`, `excursion`.
-5. Only after this primary collation should the repo promote the ~250 visitors / larger-scale repetition wording from `BISHOP_ROUTED` to `PRIMARY_CONTROLLED`.
+4. Search specifically for `Cammell`, `Cyclops`, `Bessemer`, `Brown`, `Vickers`, `Atlas`, `visit`, `works`, `excursion`.
+5. Resolve whether T. E. Vickers has a titled paper/discussion contribution in the 1861 volume.
+6. Only after this primary collation should the repo promote the ~250 visitors / larger-scale repetition wording from `BISHOP_ROUTED` to `PRIMARY_CONTROLLED`.
