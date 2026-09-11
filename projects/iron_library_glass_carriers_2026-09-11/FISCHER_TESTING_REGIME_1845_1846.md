@@ -6,7 +6,7 @@ Source basis: the supplied machine-readable 1845 and 1846 Johann Conrad Fischer 
 
 ## Why this matters
 
-The Fischer corpus now contains several distinct forms of material testing before the later Wedding/Martens laboratory-metallography problem. The evidence does **not** establish a direct institutional genealogy from these sites to Berlin. It does establish that mid-century industrial comparison already involved routine sampling, batch traceability, external trials, mechanical test machines, skilled finishing and expert judgement.
+The Fischer corpus now contains several distinct forms of material testing before the later Wedding/Martens laboratory-metallography problem. The evidence does **not** establish a direct institutional genealogy from these sites to Berlin. It does establish that mid-century industrial comparison already involved routine sampling, batch traceability, external trials, mechanical test machines, skilled finishing, embodied sensory judgement and expert evaluation.
 
 This creates a stronger baseline for asking what changed when comparison later moved into prepared metallographic specimens, microscopic fields and microphotographic reference collections.
 
@@ -24,7 +24,23 @@ Low Moor also gives Fischer a staged portable material series: ore, limestone, c
 
 This is currently the strongest 1845 bridge between factory observation and a systematic comparative specimen series.
 
-## 2. Royal Mint, 1845–1846 — external trial and written evaluation
+## 2. The negative case: unknown recycled feedstock and loss of quality identity
+
+In October 1846 the London steel merchant Fenn tells Fischer that contemporary English cast steel is no longer as good as formerly. He attributes this to competition among steel makers: railway companies sell old carriage springs and similar material whose quality the buyers themselves do not know; this material is then melted together `pêle-mêle` to make cheap steel.
+
+This gives an unusually useful contrast to Low Moor:
+
+**Low Moor:**
+
+`known production event -> sample -> number -> specified quality`
+
+**Fenn's complaint:**
+
+`old components -> unknown original quality -> heterogeneous mixing / remelting -> lost provenance -> unreliable final quality`
+
+The relevant variable is not only chemical/material composition. It is the preservation or destruction of **material identity and production history**.
+
+## 3. Royal Mint, 1845–1846 — external trial and written evaluation
 
 Thomas William Brande's letter, printed in Fischer's 1846 account, states that the Royal Mint made trials with a steel bar sent by Fischer and was very satisfied. Brande requests further bars of specified dimensions and indicates that, if Fischer maintains the quality of the sample, the Mint would use his steel in preference to other recently available steel.
 
@@ -34,7 +50,9 @@ Working sequence:
 
 The tested material is no longer evaluated only at the production site. It moves into a separate institution that produces an authoritative written judgement.
 
-## 3. Sheffield, 1846 — Rodgers & Son finishing as expert test
+In October 1846 Brande also has dies made from Fischer's steel sunk/pressed in Fischer's presence with the Mint's large press. Fischer treats the fourth order as evidence of satisfaction. This episode is best coded as a combined production demonstration and material-performance check rather than a standardized laboratory test.
+
+## 4. Sheffield, 1846 — Rodgers & Son finishing as expert test
 
 Fischer brings two razor-blade blanks made from his own steel. They are already forged, marked with his name and hardened. He gives them to Rodgers & Son to be ground, polished and fitted with scales specifically so that he can receive their judgement of the steel's quality.
 
@@ -44,7 +62,7 @@ The operation is therefore both transformation and test:
 
 This should not be called metallography. Its relevance is structural: material quality becomes legible only after controlled skilled preparation by a recognised external expert.
 
-## 4. Sheffield, 1846 — locomotive spring `Probemaschine`
+## 5. Sheffield, 1846 — locomotive spring `Probemaschine`
 
 This is one of the strongest new findings.
 
@@ -58,7 +76,7 @@ This is a repeatable industrial mechanical test with a defined transformation, r
 
 Its importance for the larger project is methodological rather than genealogical. By 1846 Fischer is already observing material quality being converted into a controlled test result by apparatus.
 
-## 5. Sheffield, 1846 — hardening failures as comparative problem
+## 6. Sheffield, 1846 — hardening failures as comparative problem
 
 In the file-hardening shop Fischer compares the Sheffield hardening method with his own. He notes both difference and equivalence: the working fluid differs from his practice, while means of assisting the fluid's action are similar.
 
@@ -66,7 +84,9 @@ The factory has observed that two files of equal weight and equal length can beh
 
 This is useful because it shows a live problem of controlled processing, geometry and differential failure before microscopic explanation enters the story.
 
-## 6. On-site prediction as displayed expertise
+The same passage also preserves a different testing modality. Fischer estimates the hardening-water temperature by feel and then tastes the water, claiming he can immediately identify the additive used to strengthen its action. Controlled machinery and embodied craft judgement coexist in the same works.
+
+## 7. On-site prediction as displayed expertise
 
 In Sheffield Fischer converses with a steel melter about rising/sinking steel during casting, crucible damage, ingots and plugs. During a pour he predicts that one ingot will rise and another will sink; he records that both predictions prove correct.
 
@@ -75,12 +95,13 @@ This is not apparatus-based testing. It is a contrasting form of expertise: embo
 The later project should keep this distinction visible:
 
 - embodied prediction at the furnace;
+- sensory estimation by hand/taste;
 - routine batch sampling and numbering;
 - external institutional trial;
 - controlled mechanical test machine;
 - later prepared specimen / microscopy / microphotography.
 
-## 7. Revised analytical sequence
+## 8. Revised analytical sequence
 
 The Fischer evidence now supports a more differentiated prehistory of material comparison:
 
@@ -88,17 +109,19 @@ The Fischer evidence now supports a more differentiated prehistory of material c
 2. **quantified process comparison**;
 3. **production sampling and batch numbering**;
 4. **portable staged specimen series**;
-5. **external trial by another institution**;
-6. **skilled preparation/finishing followed by expert judgement**;
-7. **controlled mechanical loading in a dedicated test machine**;
-8. **written and visual records that carry the comparison away from the site**.
+5. **preserved or lost material provenance**;
+6. **external trial by another institution**;
+7. **skilled preparation/finishing followed by expert judgement**;
+8. **controlled mechanical loading in a dedicated test machine**;
+9. **embodied sensory and predictive judgement**;
+10. **written and visual records that carry the comparison away from the site**.
 
 The later Wedding/Martens problem can then ask what is gained or changed when the test object is reorganised as:
 
-9. **prepared polished specimen**;
-10. **microscopic field**;
-11. **microphotographic glass plate**;
-12. **printed/reference collection**.
+11. **prepared polished specimen**;
+12. **microscopic field**;
+13. **microphotographic glass plate**;
+14. **printed/reference collection**.
 
 ## Claim ceiling
 
