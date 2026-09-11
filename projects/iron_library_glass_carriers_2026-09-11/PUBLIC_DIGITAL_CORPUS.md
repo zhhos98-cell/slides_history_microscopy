@@ -94,8 +94,8 @@ Important retrieval issue: SLUB catalogues a separate `Atlas: 10/11.1892/93` und
 
 Priority articles named by Droste:
 
-- Adolf Martens, `Die mikroskopische Ausrüstung der königlichen mechanisch-technischen Versuchsanstalt` (1891), 278–293, Tafeln IV–VI.
-- Adolf Martens, `Ueber die Ausstellung der Versuchsanstalt auf der Weltausstellung zu Chicago im Jahr 1893` (1893), 247f., Tafeln IV–VI.
+- Adolf Martens, `Die mikroskopische Ausrüstung der königlichen mechanisch-technischen Versuchsanstalt` (1891), 278–293, Tafeln IV–VI;
+- Adolf Martens, `Ueber die Ausstellung der Versuchsanstalt auf der Weltausstellung zu Chicago im Jahr 1893` (1893), 247f., Tafeln IV–VI;
 - Adolf Martens, `Das mikroskopische Gefüge von Flusseisen in gegossenen Blöcken` (1893), 273–292, Tafeln VII–XIII.
 
 Current acquisition status: exact free volume identified; stable automated binary endpoint for the 1893 Google copy not yet controlled; atlas remains a separate acquisition problem.
@@ -146,14 +146,70 @@ Recommended local layout after running the acquisition helper:
 public_corpus/
   manifest.tsv
   fetch_public_corpus.py
+  fetch_public_corpus.ps1
   raw/                     # ignored by git
     e_codices/
-      ebs-0023/
-      ebs-0024/
-      ebs-0025/
-    articles/
-    books/
+      WED-23/
+      WED-24/
+      WED-25/
+    files/
   derived/                 # small research indexes may be committed selectively
 ```
 
 The point is reproducibility, not mirroring. The git history should preserve **what source was used, where it came from, what was fetched, and what evidential role it has**.
+
+## I. PowerShell acquisition workflow
+
+The PowerShell helper is intended for a Windows checkout of the repository and works from `manifest.tsv`.
+
+From the project directory:
+
+```powershell
+cd .\projects\iron_library_glass_carriers_2026-09-11\public_corpus
+```
+
+First test only the priority Wedding volume and fetch its IIIF manifest plus canvas/page index:
+
+```powershell
+.\fetch_public_corpus.ps1 -Only WED-25
+```
+
+Then fetch the complete Mss 25 image sequence into the git-ignored local cache:
+
+```powershell
+.\fetch_public_corpus.ps1 -Only WED-25 -IiifImages
+```
+
+Fetch all three Wedding manifests/indexes without downloading page images:
+
+```powershell
+.\fetch_public_corpus.ps1
+```
+
+Fetch all three Wedding image corpora:
+
+```powershell
+.\fetch_public_corpus.ps1 -IiifImages
+```
+
+Fetch rows explicitly marked `local_file` in `manifest.tsv`, such as the Droste public asset and JRMS 1886, into `raw/files/`:
+
+```powershell
+.\fetch_public_corpus.ps1 -LocalFiles
+```
+
+Combine selectors when desired:
+
+```powershell
+.\fetch_public_corpus.ps1 -Only WED-25,JRMS-1886 -IiifImages -LocalFiles
+```
+
+Existing files are skipped by default, making the downloader resumable. Use `-Force` only to overwrite existing local files. `-DelayMs 200` is the default pause between IIIF image requests and can be increased for a slower, more conservative harvest.
+
+The PowerShell script supports both IIIF Presentation 2 and Presentation 3 structures. For each IIIF manuscript it writes:
+
+- `manifest.json` — the source manifest;
+- `canvas_index.tsv` — sequence number, page/canvas label and resolved image URL;
+- `pages/*.jpg` — only when `-IiifImages` is supplied.
+
+Raw downloads remain excluded from git by `public_corpus/.gitignore`.
