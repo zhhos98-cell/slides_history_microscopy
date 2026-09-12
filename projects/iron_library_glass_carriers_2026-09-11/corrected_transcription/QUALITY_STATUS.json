@@ -1,0 +1,60 @@
+{
+  "schema": "wedding-transcription-quality-status-v1",
+  "updated": "2026-09-12",
+  "authority": "quality override for corrected_transcription/README.json coverage checkpoint",
+  "rule": "Coverage progress and transcription quality are separate. A page being processed or marked substantive does not certify literal, citation-ready transcription.",
+  "corpora": {
+    "Mss23": {
+      "status": "SELECTIVE_TRANSCRIPTION_REQUIRES_IMAGE_CONTROL_FOR_QUOTATION",
+      "note": "Generally conservative and fragment-preserving, but not diplomatic transcription. Exact quotation requires manuscript-image verification."
+    },
+    "Mss24": {
+      "through_pdf_page": 65,
+      "status": "LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP",
+      "citation_ready": false,
+      "problems": [
+        "literal manuscript readings mixed with editorial reconstruction",
+        "diagram interpretation mixed into transcription field",
+        "normalized technical prose sometimes presented as source text",
+        "editorial English image-description terms entered secure_anchors"
+      ],
+      "known_contamination_examples": [
+        "cross-section",
+        "columnar basalt",
+        "country rock",
+        "circular plan",
+        "bell",
+        "gas outlet",
+        "blast-furnace section",
+        "pile diagram"
+      ],
+      "allowed_use_before_cleanup": [
+        "page routing",
+        "entity discovery",
+        "technical-topic discovery",
+        "provisional numerical anchors subject to image control"
+      ],
+      "disallowed_without_image_control": [
+        "exact quotation",
+        "terminology history",
+        "linguistic analysis",
+        "wording-sensitive historical claims"
+      ],
+      "next_unprocessed_page": 66,
+      "resume_instruction": "Do not continue the old mixed schema. First calibrate the corrected layered schema on a small mixed batch, recommended PDFs 56-60, then continue PDF 66 onward."
+    },
+    "Mss25": {
+      "status": "MIXED_WORKSPACE_WITH_HIGHER_QUALITY_CONTROLLED_CLUSTERS",
+      "note": "The controlled Sheffield/Bessemer cluster, especially PDFs 295-300, is closer to the desired selective-transcription standard but still requires image control before exact quotation."
+    }
+  },
+  "required_layers": [
+    "literal_transcription",
+    "diagram_labels",
+    "editorial_description",
+    "normalized_entities",
+    "uncertain_readings",
+    "research_summary"
+  ],
+  "secure_anchor_rule": "secure_anchors may derive only from literal_transcription and diagram_labels, never from editorial_description or normalized_entities"
+}
