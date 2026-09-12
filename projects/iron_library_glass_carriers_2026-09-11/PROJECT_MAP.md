@@ -14,22 +14,38 @@ Start here for the current Iron Library residency / holdings argument:
 
 Current research rule: **collection first; question second**. Treat the holdings as three evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**.
 
-## 2. Corrected Wedding transcription — branch `ironlibrary-json-correction`
+## 2. Wedding manuscript correction — branch `ironlibrary-json-correction`
 
 Start from `PINNED_TRANSCRIPTION_RESUME.md` on `main`, then switch to branch `ironlibrary-json-correction`.
 
 Canonical correction workspace on that branch:
 
-- `corrected_transcription/README.md` — human-readable resume guide.
-- `corrected_transcription/README.json` — machine-readable checkpoint and status taxonomy.
+- `corrected_transcription/README.md` — human-readable quality and resume guide; **read this before treating any ledger row as transcription**.
+- `corrected_transcription/README.json` — machine-readable historical coverage checkpoint and status lists.
 - `corrected_transcription/WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl`
 - `corrected_transcription/WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`
 - `corrected_transcription/WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl`
 - branch-local `CURRENT_PROGRESS.md` — narrative checkpoint.
 
-Verified substantive checkpoint at time of this map: **Mss 23 textual sequence through PDF 210; Mss 24 through PDF 65; resume at Mss 24 PDF 66.**
+Verified workflow coverage at time of this map: **Mss 23 textual sequence through PDF 210; Mss 24 through PDF 65; next unprocessed sequential page Mss 24 PDF 66.**
 
-A page counts as transcribed only when readable wording has been entered after PDF control. Routing, generic page descriptions and visual review alone do not count.
+### Quality audit override — 2026-09-12
+
+Do **not** interpret the coverage checkpoint above as a claim of citation-ready transcription quality.
+
+A quality audit found that Mss 24 PDFs 1–65 use a legacy mixed data model: literal manuscript readings, diagram labels, normalized entities, editorial visual description and reconstructed/analytical prose are sometimes stored together in `transcription` and `secure_anchors`. English editorial terms such as `cross-section`, `columnar basalt`, `country rock`, `circular plan`, `bell`, `gas outlet`, `blast-furnace section` and `pile diagram` demonstrably entered `secure_anchors`; these are not literal Wedding source readings.
+
+Therefore:
+
+- Mss 24 PDFs 1–65 status = **`LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`**.
+- They are useful for retrieval, routing, technical-topic discovery, entities and many numerical anchors.
+- They are **not safe for exact quotation, terminology history or wording-sensitive analysis without direct manuscript-image control**.
+- Coverage and transcription quality must be reported separately.
+- Do not blindly continue PDF 66 with the old semantics. First calibrate a corrected layered schema on a small mixed batch (recommended PDFs 56–60), then continue.
+
+Corrected future layers are: `literal_transcription`, `diagram_labels`, `editorial_description`, `normalized_entities`, `uncertain_readings`, `research_summary`; `secure_anchors` may derive only from literal source wording and literal diagram labels.
+
+Mss 25's controlled Bessemer/Sheffield cluster is generally closer to the desired selective-transcription standard; Mss 23 is generally more conservative than Mss 24, but neither should be quoted without image control.
 
 ## 3. Supporting / historical Wedding logs
 
@@ -42,7 +58,7 @@ These files remain useful as evidence, indexes or retrieval aids, but are **not 
 - itinerary / process-heading / source-mode TSV indexes
 - Bessemer manuscript/publication comparison notes
 
-Use them to locate pages and secure anchors; resolve progress against the correction branch.
+Use them to locate pages and possible anchors. Resolve progress and quality against the pinned transcription resume plus the correction-branch README.
 
 ## 4. Fischer / earlier industrial-travel research
 
@@ -57,7 +73,8 @@ Files beginning `FISCHER_*` form a separate research cluster on travel, observat
 - Every active workstream gets exactly one pinned resume file.
 - Data ledgers stay in dedicated subdirectories; narrative research stays outside them.
 - A dated/pass file is supporting history unless a pin explicitly promotes it.
-- Do not infer recency from filename alone; use the pinned resume and branch HEAD.
+- Do not infer recency or quality from filename/status label alone; use the pinned resume and branch HEAD.
+- For manuscript work, keep **coverage**, **literal transcription**, **editorial visual description**, and **research interpretation** as separate layers.
 - Avoid moving or deleting legacy files solely for cosmetic cleanup because existing notes may cite their paths.
 
-Last organized: 2026-09-12.
+Last organized / quality-audited: 2026-09-12.
