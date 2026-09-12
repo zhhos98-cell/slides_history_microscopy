@@ -1,299 +1,487 @@
 # PINNED APPLICATION RESUME
 
 **Updated:** 2026-09-12  
-**Status:** COLLECTION MORPHOLOGY SATURATED; CORPUS GEOMETRY DEFINED; STAFF/EXPORT CONFIRMATION NEXT
+**Status:** **EBA 4 PROFILE-REFERENCE SYSTEM NOW PRIMARY CORE; PUBLIC CARRIER / TECHNIKUM UPDATE CHAIN CLOSED; ONSITE MORPHOLOGY TEST DEFINED**
 
 > **COLLECTION FIRST; QUESTION SECOND; ONSITE NECESSITY THIRD.**
 
-Do not resume from Wedding / Martens / Sorby / microscopy or another preselected historical problem. Public collection morphology has reached its current claim ceiling. The current task is to preserve the now-defined corpus geometry, tighten physical research units, and wait for staff/export confirmation before choosing final proposal language.
+This pin incorporates the post-rollback research pass. Do **not** resume from the older symmetric Haffter/Küderli two-cluster shorthand and do **not** revert to Wedding / Martens / Sorby / microscopy as the application core. Haffter remains a bounded earlier comparator; the Berlin metallographic glass plates remain an optional later object coda.
 
-## 1. Governing files — read in this order
+The strongest current application object is now **EBA 4 / Küderli–Schinz & Bär–Bär profile-reference infrastructure**, embedded in a demonstrable Zürich iron-merchant network and externally controlled through public engineering publication, catalogues, technical-school acquisition records and comparative industrial catalogues.
 
-1. `ANTON_ARCHIVAL_SYSTEMS_MAP_2026-09-12.md` — retrieval architecture: **Library + EBA / GFA / GFKS / GFD**.
-2. `HOLDINGS_HEATMAP_2026-09-12.md` — **current reconciled six-axis / five-system map**. Incorporates Library access correction, Rauschenbach scale demotion and GFKS density correction.
-3. `CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md` — **recalibrated chronology**: c.1858–67 = strongest proven archival density; c.1868–72 = highest regime diversity; c.1877–85 = strongest product/order/document convergence.
-4. `ONSITE_CORPUS_GEOMETRY_AND_RESEARCH_UNITS_2026-09-12.md` — converts holdings into bounded physical research units and a realistic 2–3 week operation.
-5. `SIR_APPLICATION_FIT_AND_CORPUS_TEST_2026-09-12.md` — current official SiR requirements mapped onto the corpus design and prior-SiR public overlap check.
-6. `EVIDENCE_REGIME_MAP_2026-09-12.md` — cross-system map by record-generating activity rather than modern catalogue bucket; where Rauschenbach wording differs, use the heat map / scale correction / this pin.
-7. `TIER_A_CARRIER_PROVENANCE_AUDIT_2026-09-12.md` — Haffter / Küderli source criticism and earlier Rauschenbach morphology.
-8. `RAUSCHENBACH_SCALE_RETRIEVAL_CORRECTION_2026-09-12.md` — current Rauschenbach claim ceiling.
-9. `LIBRARY_LARGE_BLOCK_MORPHOLOGY_ADDENDUM_2026-09-12.md` — Library large printed environments.
-10. `LIBRARY_REMOTE_SUBSTITUTABILITY_AUDIT_2026-09-12.md` — Library access audit for grey literature, exhibitions, materials/testing and geoscience.
-11. `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` — **NOT SENT**; requests existing exports/finding aids rather than staff historical research.
-12. `HOLDINGS_TIME_MAP_2026-09-12.md` + density addendum — legacy chronology controls; current overlap wording is superseded by the recalibrated overlap file.
-13. `ONSITE_VALUE_MAP_2026-09-12.md` — earlier onsite map; where it differs, use the reconciled heat map and this pin.
+---
 
-Older census, microscopy, narrow-pass and dated research files remain supporting history only where they differ from the files above.
+## 1. Read in this order
 
-## 2. Current official application constraints
+1. **`PINNED_APPLICATION_RESUME.md`** — this file; current authoritative checkpoint.
+2. **`TECHNIKUM_PROFILE_ALBUM_DISTRIBUTION_UPDATE_CHAIN_1889_1907_2026-09-12.md`** — strongest newest closure: 1889/90 batch albums -> 1903/04 six new albums -> 1907/08 supplement sheet ×12; competitor Schoch control.
+3. **`PINNED_APPLICATION_DELTA_1881_PROFILE_SYSTEM_2026-09-12.md`** — secure 1881 patented public Schinz & Bär roof-profile system inside the `/14` window.
+4. **`SCHINZ_BAER_PATENTED_ROOF_PROFILE_PUBLICATION_1881_2026-09-12.md`** — primary-source technical/morphology control and patent claim ceiling.
+5. **`SCHINZ_BAER_PUBLIC_CARRIER_DISTRIBUTION_CHAIN_1872_1890_2026-09-12.md`** — Eisenhalle / warehouse / advertisement / prospectus / Technikum circulation ecology.
+6. **`BAER_PROFILE_ALBUM_INTERNAL_TO_PUBLIC_CARRIER_CLOSURE_1896_2026-09-12.md`** — 1885 and 1896 public-album comparison.
+7. **`ZURICH_IRON_MERCHANT_CONVENTION_CROSS_ARCHIVE_CONTROL_2026-09-12.md`** — collective merchant governance / competitor network.
+8. **`NORMALPROFILE_FORMATION_AND_REMOTE_MORPHOLOGY_CONTROL_2026-09-12.md`** — formal Normalprofile control; avoid teleological standardization.
+9. **`SBB_HISTORIC_PROFILE_CATALOGUE_MORPHOLOGY_CONTROL_1875_1902_2026-09-12.md`** — provenance-gated external industrial-catalogue morphology control.
+10. `ONSITE_CORPUS_GEOMETRY_AND_RESEARCH_UNITS_2026-09-12.md`, `HOLDINGS_HEATMAP_2026-09-12.md`, `ONSITE_VALUE_MAP_2026-09-12.md` — collection geometry/background; where wording conflicts with this pin, this pin governs.
+11. `HAFFTER_NETWORK_GATE_AND_CATALOGUE_CONFLICT_2026-09-12.md` and earlier Haffter files — bounded comparator only.
+12. broader Library / GFA / GFKS census files — supporting controls, not retrieval drivers.
 
-Current Scholar in Residence call states:
+---
 
-- residence = **2–3 weeks**;
-- innovative projects making intensive use of the historical holdings are especially welcome;
-- GF Corporate Archives projects are also especially welcome;
-- application requires **max. 150-word abstract + max. 1000-word project description explicitly stating which holdings will be consulted + CV**;
-- applications are **rolling**.
+## 2. Current historical object
 
-Therefore a viable application must demonstrate a bounded, holdings-specific onsite operation. Generic thematic relevance is not enough.
+Do **not** pitch generic `standardization`.
 
-Official call controlled from:
-- https://www.eisenbibliothek.ch/de/research/sir.html
+Current strongest object:
 
-## 3. Current retrieval architecture
+> **How Zürich iron merchants made iron cross-sections identifiable, comparable, priceable, orderable, protectable and teachable across conventions, correspondence, warehouse stock, profile drawings, profile albums, public catalogues, engineering publication and technical-school reference systems.**
 
-- **LIBRARY / IRONCAT** — printed holdings, serials, rara, separately-listed manuscript/special-collection layer.
-- **EBA / ANTON** — non-GF archival fonds/special collections.
-- **GFA / ANTON** — GF family/company/subsidiary/admin/media/object provenance.
-- **GFKS / ANTON** — physical art/maps/prints/views/objects.
-- **GFD / ANTON** — modern digital documentation/reference-image layer.
+The project now has a particularly strong second-order problem:
 
-Do not project current boundaries backward. Historical institution-level statistics may now map into EBA/GFKS and are not automatically additive.
+> **How was a product-reference system kept current when profiles, proprietary forms, standards and engineering data changed?**
 
-## 4. Six-axis rule
+This is a problem of **reference maintenance / versioning**, not only initial representation.
 
 Keep separate:
 
-1. scale;
-2. seriality;
-3. actual c.1850–1885 date density;
-4. provenance coherence;
-5. surviving-carrier originality/contemporaneity;
-6. onsite value / remote substitutability.
+1. `TECHNICAL COMMENSURABILITY`;
+2. `COMMERCIAL COMMENSURABILITY`;
+3. `PRICE / TERMS COORDINATION`;
+4. `COMPETITIVE GOVERNANCE`;
+5. `STOCK / WAREHOUSE ADDRESSING`;
+6. `PROPRIETARY / PATENTED PRODUCT IDENTITY`;
+7. `FORMAL ENGINEERING STANDARDIZATION`;
+8. `REFERENCE REFORMATTING`;
+9. `REFERENCE DISTRIBUTION`;
+10. `REFERENCE VERSIONING / SUPPLEMENTATION`;
+11. `EDUCATIONAL / DESIGN USE`.
 
-Also keep:
+Do not collapse these into a single progress narrative.
 
-> **RARITY != NON-SUBSTITUTABILITY != ONSITE NECESSITY.**
+---
 
-## 5. Current structural ranking
+## 3. Primary Iron Library onsite corpus
 
-### Tier A — proven large/coherent blocks
+### `EBA 4/5` — Convention der Zürcher Eisenhändler, 1854
 
-- **Library nineteenth-century printed/serial environment** — structurally strongest broad backbone, but default printed onsite value only MEDIUM unless a copy-specific/non-substitutable subset is proved.
-- **EBA 3 Haffter** — 15 lm; 555 correspondence files plus long bound business series; exceptionally dense c.1835–67.
-- **EBA 4 Küderli/Bär** — 4 lm / c.150 books; exceptionally clean c.1854–85 fit with correspondence, profile albums, price lists, cashbooks and sales journals.
+First secure internal archival node. Capture:
 
-### Tier B+ / provisional O1?
+- parties;
+- product scope;
+- wholesale/retail distinction;
+- prices / discounts / payment terms;
+- customer categories;
+- sanctions;
+- duration / renewal;
+- information-sharing / enforcement mechanisms.
 
-- **Rauschenbach company cluster** — historically coherent, but public ANTON proves only a small serial core (`GFA 1/806` = 1 employee-register volume; `/809` = 10 sickness-fund volumes). Many other early-looking records are one-file dossiers spanning decades. Pre-1885 scale/internal granularity remains OPEN.
+Do not make the unresolved 1852/53 firm-founding date foundational.
 
-### Tier B
+### `EBA 4/7` — Korrespondenz, 1858–72
 
-- native GF c.1865–83 product/market-document regime;
-- EBA 1 Gotthardbahn / engineering maps;
-- Traisen;
-- GFKS c.1850–85 visual/map/print regime.
+Priority window: **1868–72** after earlier sampling.
 
-### Tier C / controls
+Capture:
 
-- EBA 2 Gonzen as a c.1850–85 whole;
-- EBA 6 before 1889/90;
-- broad GFA 8 pre-1885;
-- EBA 8 representation collection;
-- later photo/glass systems.
+`SUPPLIER / COUNTRY / ROUTE / PRODUCT TERM / PROFILE OR DIMENSION / PRICE / DISCOUNT / DELIVERY / DEPOT / COMPETITOR / CONVENTION / EQUIVALENCE / SUBSTITUTE / COMPLAINT`.
 
-### Tier D
+Official fonds history says supply emphasis shifts **France -> Germany from 1870**; test rather than merely repeat.
 
-- GFD digital reference/documentation.
+### `EBA 4/14` — Profileisenalbum, 1877–1885, 3 vols
 
-## 6. Recalibrated chronological geometry
+**Primary object A. Inspect all three volumes as physical artefacts.**
 
-### c.1858–1867 — strongest proven archival density
+This series overlaps:
 
-This is the safest dense-source window.
+- German Normalprofile formation c.1879–81;
+- secure public Schinz & Bär patented roofing profile, 1881;
+- secure public Schinz & Bär `Profil-Album`, 1885.
 
-- Haffter remains in its dense correspondence/business-book phase;
-- Küderli correspondence is active from 1858;
-- Library print/serials remain continuous;
-- native-GF product communication enters by c.1865–67.
+Core test:
 
-Sub-windows:
+> what kind of objects are these volumes — internal compilations, received producer sheets, pasted references, proprietary-product records, publication working objects, annotated public catalogues, or mixtures?
 
-- **1858–60:** maximum direct overlap of Haffter and Küderli correspondence;
-- **1865–67:** Haffter calculation/commission/price/freight books + Küderli correspondence + emerging native-GF product documents.
+Use the 1881 roof-profile cross-section as a known morphology fingerprint.
 
-### c.1868–1872 — highest regime diversity, not highest proven archival density
+### `EBA 4/6` — Preislisten, 1878–80
 
-- Haffter survives mainly as an accounting/debtor/execution tail;
-- Küderli correspondence remains active;
-- native-GF product documents are clear;
-- Rauschenbach contributes one employee-register volume from 1871 and ten sickness-fund volumes from 1872; broader dossier scale remains OPEN.
+Use to test movement from section identity into price/reference format around the Normalprofile window.
 
-Do not call this the largest archival corpus.
+### `EBA 4/4` — Kassabuch, 1884–89
 
-### c.1877–1885 — strongest product/order/document convergence
+Sample 1884–86 to test whether profile/product categories can be traced into transaction/accounting form.
 
-- Küderli profile albums 1877–85;
-- price lists 1878–80;
-- cashbooks from 1884;
-- sales journals from 1885;
-- Library product/serial environment;
-- native-GF product/exhibition documents;
-- selected Traisen technical plans;
-- Rauschenbach optional rather than required.
+### `EBA 4/15` — Verkaufsjournal, 1885–97
 
-Current geometry:
+Sample 1885–87 first; extend only if product-level entries justify it.
 
-> **Cluster A c.1858–67 → Bridge c.1868–72 → Cluster B c.1877–85.**
+### `EBA 4/13` — Profileisenalbum, 1886–1903, 2 vols
 
-## 7. Core physical research units
+**Primary object B. Inspect both volumes completely as versioned physical objects.**
 
-### H1 — Haffter correspondence, especially 1858–60
+This is now arguably the single highest-value morphology unit because its terminal date is externally controlled:
 
-- `EBA 3/24`, 1835–60, 555 files.
-- Do not plan total reading; first establish physical/internal structure, then systematic sample by year/correspondent/document type.
+- Technikum records **6 new Bär profile albums in the 1903 reporting year**;
+- Technikum records **a supplement sheet for the profile album in 12 copies in 1907**.
 
-### H2 — Haffter business-book transition, especially 1865–67
+The onsite question is therefore not merely whether `/13` resembles a public catalogue. It is whether the two volumes preserve a **maintained reference/master/update compilation** across 1886–1903.
 
-- `EBA 3/10 Calculationen`;
-- `/11 Ertheilte Commissionen`;
-- `/16 Ertheilte Preis-Courants`;
-- `/19 Frachten-Rechnungen`;
-- selected `/25 Diverse Debitoren` and outgoing copybooks as needed.
+Capture explicitly:
 
-Target operation:
+`BINDING / TITLE PAGE / EDITION WORDING / PRINTER-LITHOGRAPHER / PAGE NUMBER / SHEET NUMBER / PROFILE NUMBER / REVISION MARK / REPLACEMENT PAGE / PASTED PAGE / LOOSE INSERT / STUB / CANCELLED PAGE / SUPPLEMENT LABEL / HANDWRITTEN UPDATE / DATE STAMP / PRICE UPDATE / STANDARD UPDATE / PROPRIETARY UPDATE / QUANTITY OR DISTRIBUTION NOTE / WEAR`.
 
-> communication / transaction → calculation → commission → price → freight/account trace.
+### `EBA 4/3` — Inventar, 1888–1927, 43 vols
 
-### K1 — Küderli correspondence, 1858–72
+Quick gate only. If product/profile-level, sample 1888/89, 1895/96, 1902/03. If aggregate, demote immediately.
 
-- `EBA 4/7`.
-- If physically large, sample 1858–60 / 1865–67 / 1870–72 rather than read linearly.
+---
 
-### K2 — Küderli product/order/accounting shift, 1877–85
+## 4. Secure external carrier chronology
 
-- `EBA 4/14 Profileisenalbum`, 3 vols;
-- `/6 Preislisten`, 2 files;
-- `/4 Kassabuch`, 2 vols from 1884;
-- `/15 Verkaufsjournal`, 11 vols from 1885.
+### 1854 — collective governance
 
-Target operation:
+Iron Library `EBA 4/5`; independent Zürich competitor/archive material confirms a wider merchant convention/cartel environment in later decades.
 
-> profile/dimension/product identity → price entry → cash/sales trace.
+### 1872–74 — `Eisenhalle` inside an external transaction network
 
-This is currently the cleanest compact onsite unit.
+Josef Pircher Hauptbuch Nr. 13 includes `Schinz & Bär — Eisenhalle in Zürich`, account/page 177.
 
-## 8. Supporting / conditional units
+Underlying goods/prices still need recovery. Do not infer product content from the index alone.
 
-### Library
+### 1877 — `EBA 4/14` begins
 
-Use as contemporaneous printed environment, not generic background bibliography:
+Three-volume profile-album sequence begins.
 
-- selected serial snapshots around 1858–60 / 1865–67 / 1877–80 / 1884–85;
-- company/product grey literature only after remote-substitutability screening.
+### 1881 — secure public proprietary technical profile system
 
-### Native GF
+*Die Eisenbahn*, 29 Oct 1881, `Neue Bedachungsprofile`:
 
-Use selected c.1865–83 product/market documents as producer-side comparison.
+- illustrated cross-section;
+- supplied by Schinz & Bär, Zürich;
+- patented in several countries;
+- engineered glass-roof support/sealing/drainage logic;
+- applications include light courts and photographic rooms.
 
-### Rauschenbach
+This is the earliest currently closed firm-specific public profile carrier inside `/14`.
 
-Use only after staff/internal finding aid confirms physical scale and separable pre-1885 subfiles. The 11-volume bound-register core is secure; large textual company-archive scale is not.
+Exact patent countries/numbers remain OPEN.
 
-### Traisen
+### 1885 — secure public Schinz & Bär `Profil-Album`
 
-Use only if technical-plan representation becomes analytically necessary.
+Contemporary *Schweizerische Bauzeitung* review:
 
-### Berlin metallographic glass plates
+- recently issued;
+- building-profile repertoire;
+- Winkel/T plus Treppenbeschlag-, Fenster- and Gesimseisen;
+- new/protected firm specialities absent from other price books;
+- report of favourable *The Ironmonger*, 28 Feb 1885 review.
 
-Three original early plates remain a uniquely site-specific high-density object cluster, but their scale is too small to carry the application alone. Keep as an object coda unless the final question naturally extends to late nineteenth-century photographic/reference carriers.
+Original *Ironmonger* issue remains not independently inspected.
 
-## 9. Current question-family admission zone
+Boundary:
 
-Do not select a final thesis yet, but three question forms now fit the corpus well:
+`EBA 4/14 ends 1885`
+→ `PUBLIC ALBUM 1885`
+→ `EBA 4/13 begins 1886`.
 
-### A — documentary comparability
+Chronological fit does **not** prove publication genealogy.
 
-How were iron/material products made comparable across letters, calculations, price lists, profile albums, sales books and printed catalogues?
+### 1887 — warehouse/depot identity
 
-### B — from correspondence to standardized commercial forms
+Schinz & Baer letterhead:
 
-How did commercial/technical knowledge move from person-to-person correspondence and copybooks toward profile/price/order/sales formats between the late 1850s and mid-1880s?
+- `Büro und Magazin Eisenhalle`;
+- `Hauptdepot Lagergasse`.
 
-### C — pre-corporate information infrastructure
+This anchors documentary reference in physical stock/logistics.
 
-How did iron traders and manufacturers coordinate product, price and material information before thick formal corporate-governance series emerge in the 1890s?
+### 1889 — public order/display ecology
 
-Avoid teleology: `pre-corporate` is a chronological descriptor, not a claim that all documentary change tends toward the modern corporation.
+- technical-press advertising uses `Eisenhalle` as public/telegraphic ordering identity;
+- Staatsarchiv Thurgau preserves an illustrated Schinz & Bär folding prospectus for the `Bauartikel-Lager`.
 
-Current public prior-SiR descriptions do not reveal a project centred on Haffter + Küderli or on this archival/printed carrier transition. This is a public-description overlap check, not a priority claim.
+Prospectus morphology remains to be reproduced/compared.
 
-## 10. Library-side result
+### 1889/90 — Schinz & Bär profile-album batch to Winterthur Technikum
 
-The Library must not be treated as one generic shelf. Large controlled environments include:
+Technikum annual report, signed 15 Mar 1890:
 
-- 123 nineteenth-century periodical titles in the historical census;
-- broad metallurgy / iron-steel / mining literature;
-- foundry / Metallkunde / Werkstoffprüfung;
-- geology / mineralogy / petrography / chemistry;
-- company/product/price grey literature;
-- 95 nineteenth-century world-exhibition publications;
-- 123 research-travel reports across centuries;
-- reference literature.
+- `Von den Herren Schinz & Bär in Zürich`;
+- **`1 Partie Albums von Profil-Eisen.`**
 
-But printed richness is not travel necessity:
+This proves batch institutional distribution before the 1896 statement.
 
-- the Iron Library's e-rara thematic collection already exposes >140 titles / >44,000 pages;
-- many historically important metallurgy/iron titles have adequate e-rara / MDZ / Gallica substitutes;
-- the Library makes literature available by interlibrary consultation outside Paradies;
-- major official world-exhibition catalogues are widely digitised;
-- even highlighted rare grey literature can already have a full facsimile.
+### 1896 — quantified public Bär album
 
-Therefore Library print remains **Tier A structurally / MEDIUM onsite by default**.
+Contemporary review describes `Façoneisen-Album` combining:
 
-## 11. GFKS result
+- Normalprofile;
+- multiple profile families;
+- weight / dimensions / moments of inertia;
+- load data;
+- proprietary Bär profiles;
+- deliberate supply to Polytechnikum / Technikum in desired quantities.
 
-GFKS is a real visual evidence regime, not merely scattered art objects:
+### 1899/1900 — competitor control: Julius Schoch & Cie.
 
-- 2024 reporting identifies an integral collection of **98 historical Schaffhausen maps** and another of **c.366 Schaffhausen prints from the 16th–19th century**;
-- the **1866 `Album von Schaffhausen`** provides a coherent 24-local-view sequence including the Stahlfabrik;
-- controlled maps include 1879–85 and 1883 Schaffhausen examples.
+Winterthur Technikum receives:
 
-However many visible items, including the 1866 album sequence and maps, are digitised. Exact c.1850–85 density remains unresolved. Keep GFKS **Tier B / low–medium onsite unless physical carrier materiality becomes central**.
+- **`1 Profil-Eisen-Album`** from Julius Schoch & Cie., Zürich.
 
-## 12. Onsite-value result
+A surviving 1899 Schoch reference is independently identified as:
 
-### Strongest demonstrated Tier O1 candidates
+- `Muster-Buch über Stab- und Profil-Eisen`;
+- Zürich: Juchli & Beck;
+- ETH-Bibliothek `Rar 9483`.
 
-1. **EBA 3 Haffter**;
-2. **EBA 4 Küderli/Bär**.
+This proves profile-album circulation into technical education was not uniquely Bär-specific.
 
-### Provisional O1?
+### 1903/04 — terminal-boundary event
 
-- **Rauschenbach** — potential high value, but scale/separable pre-1885 physical units not yet demonstrated publicly;
-- **Library 66 manuscripts + 3 estates** — identities, current mapping, chronology and digitisation status remain OPEN.
+Winterthur Technikum receives from Bär & Cie.:
 
-Wedding Mss 23–25 are pre-visit sources because full e-codices facsimiles exist.
+- **`6 neue Profil-Albums.`**
 
-## 13. Current public-web stop rules
+Iron Library `EBA 4/13` ends **1903**.
 
-Do **not** continue brute-force public searching for:
+This exact fit is a first-order onsite test, not a proven causal relation.
 
-- exact 2024 Library classification hierarchy;
-- complete local title/run/gap list for the 123 nineteenth-century periodicals;
-- subject-level digitisation proportion of materials/testing/geoscience shelves;
-- identities/current mapping/digitisation of the `66 manuscripts + 3 estates`;
-- internal file lists / box-folder scale / pre-1885 proportions of broad Rauschenbach dossiers;
-- exact creation dates/provenance of EBA 1/35–59 beyond the public broad envelope;
-- exact c.1850–85 count inside GFKS 98-map / c.366-print integral collections.
+### 1907/08 — explicit update mechanism
 
-These now require an **existing catalogue export, finding aid or staff clarification**, not more keyword searching.
+Technikum receives from Bär & Cie.:
 
-## 14. Next action
+- **`Supplementsblatt für das Profileisenalbum in 12 Exemplaren.`**
 
-1. **Do not send anything automatically.** `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` remains NOT SENT.
-2. Decisive external answers remain:
-   - Haffter/Küderli internal scans, retrieval units and reproduction rules;
-   - physical/internal structure of `EBA 3/24` and `EBA 4/7`;
-   - Rauschenbach internal file lists / physical unit scale / separable pre-1885 content;
-   - Library classification + nineteenth-century serial holdings export;
-   - current mapping of `66 manuscripts / 3 estates / c.300 graphic sheets / 80 Schaffhausen maps`.
-3. Before staff answers, productive work should focus on **sampling logic, cross-carrier capture schemas, proposal hypothesis stress-tests, and literature/novelty control** rather than manufacturing more catalogue precision.
-4. Do not select final application question until at least one **large, non-substitutable, practically consultable** onsite corpus is confirmed.
-5. Early materials microscopy / Sheffield–Berlin remains a hypothesis only. It may re-enter if confirmed collection blocks naturally support it.
+This establishes that the Bär profile-album system supported explicit supplement-sheet updating in multiple copies.
+
+---
+
+## 5. Strongest current carrier model
+
+The old model:
+
+`INTERNAL ALBUM -> PUBLIC CATALOGUE`.
+
+Current stronger model:
+
+`MARKET / CONVENTION / SUPPLIER NETWORK`
+→ `WAREHOUSE STOCK / DEPOT`
+→ `PROFILE DRAWING / PRODUCT IDENTITY`
+→ `PROPRIETARY / PATENTED TECHNICAL SYSTEM`
+→ `BOUND / PASTED / COMPILED PROFILE ALBUM [ONSITE FORM OPEN]`
+→ `PUBLIC CATALOGUE / ENGINEERING REFERENCE`
+→ `BATCH DISTRIBUTION`
+→ `NEW ALBUM SET`
+→ `SUPPLEMENT SHEET`
+→ `MULTIPLE MAINTAINED REFERENCE COPIES`.
+
+The historical problem is **stability and revision of identity across carriers**, not a smooth genealogy.
+
+---
+
+## 6. Strongest current question
+
+Primary formulation:
+
+> **How did Zürich iron merchants keep the identity of an iron profile stable—or deliberately revise it—across stock, drawings, protected product systems, price/order records, catalogue editions, supplement sheets and multiple institutional reference copies?**
+
+Network formulation:
+
+> **How did collective commercial governance coexist with firm-specific systems for comparing, protecting, pricing and redistributing iron profiles between the 1850s and early twentieth century?**
+
+Carrier formulation:
+
+> **When an iron cross-section moved from stock or supplier information into a drawing, protected technical system, album, price/order record, public catalogue or teaching reference, what changed in its identity, comparability and intended use?**
+
+Do not yet claim `standardization` as the master process.
+
+---
+
+## 7. Why onsite is now materially necessary
+
+Remote sources can already reconstruct:
+
+- merchant-network chronology;
+- public technical descriptions;
+- public album reviews;
+- warehouse/depot addresses;
+- advertisements;
+- technical-school receipt/distribution events;
+- new-album and supplement events.
+
+Remote sources **cannot determine the material identity of the five Iron Library archival profile-album volumes**.
+
+Only onsite inspection can resolve:
+
+- original binding and sequence;
+- printed vs pasted vs manuscript layers;
+- internal dating;
+- producer vs merchant origin;
+- page insertion / replacement / cancellation;
+- revision marks;
+- profile-number continuity;
+- proprietary vs Normalprofile coexistence;
+- supplementability;
+- clean/public vs worked/reference copy distinction;
+- wear and handling;
+- whether 1901–03 terminal layers anticipate the six `new` albums distributed in 1903/04.
+
+This is the current cleanest collection-specific onsite necessity.
+
+---
+
+## 8. Comparative morphology controls
+
+### Highest value
+
+1. **1881 Schinz & Bär patented roofing profile** — known cross-section/function fingerprint.
+2. **1889 Thurgau illustrated Bauartikel-Lager prospectus** — reproduce before travel if possible.
+3. **Schoch 1899 `Muster-Buch über Stab- und Profil-Eisen`, ETH `Rar 9483`** — surviving competitor album; high-value page/numbering/function control.
+4. **1896 Bär public album / competitor-retained copy** — quantified public regime.
+5. **SBB Historic `VARIA_370`, 1875–1902** — industrial-catalogue morphology control, but item-level provenance must be controlled.
+
+### SBB provenance warning
+
+`VARIA_370` sits under `VARIA Einzelstücke, Kleinstzugänge`; at least one exposed child has unknown prior provenance after 2024 backlog clearance. Use as a **morphology corpus**, not proof of continuous railway operational use.
+
+### Generic Library serials
+
+Demote broad serial browsing. Use only when a defined terminology/morphology question requires contemporaneous press context.
+
+---
+
+## 9. Haffter — current role
+
+Haffter remains valuable as:
+
+- a large earlier transregional iron-trade/accounting/correspondence infrastructure;
+- comparator for forwarding, landed-cost calculation, commission, price and depot practices;
+- possible 1858–67 overlap/control.
+
+But Haffter is **not** an automatically equal late-period core.
+
+Direct Haffter -> Schinz & Bär / Wiser / Schoch network linkage remains OPEN unless independently proved.
+
+Do not let Haffter volume pull the application away from the much sharper EBA 4 material/reference problem.
+
+---
+
+## 10. Normalprofile causal warning
+
+Reject:
+
+`Swiss metrication -> German Normalprofile -> merchant standardization`.
+
+Use:
+
+`PRODUCER PROFILE VARIETY`
+→ `MARKET / SALES OBSERVATION`
+→ `TECHNICAL SELECTION / NORMAL SERIES`
+→ `MERCHANT / PRODUCER / USER UPTAKE`
+→ `COEXISTENCE WITH PROPRIETARY FORMS`
+→ `REFERENCE REPACKAGING / DISTRIBUTION / UPDATING`.
+
+Metric notation is an empirical field, not the master cause.
+
+---
+
+## 11. Claim ceilings
+
+Do **not** assert that:
+
+- Schinz & Bär was founded in 1852 rather than 1853 without a contemporary source;
+- `EBA 4/14` is the working predecessor of the 1885 public album;
+- `EBA 4/13` is a master/publication copy;
+- the 1903 terminal date of `/13` caused or reflects the six-new-album distribution;
+- the 12 supplement sheets prove exactly 12 maintained album copies;
+- every supplement was inserted;
+- the 1889/90 Technikum albums were the 1885 edition;
+- the 1899 Schoch Technikum donation is the ETH `Rar 9483` copy;
+- technical-school receipt proves classroom use;
+- the 1889 Thurgau prospectus derives from the 1885 album;
+- the 1881 roof profile appears in `/14` or the 1885 album until morphology confirms it;
+- exact foreign patent jurisdictions/numbers for the 1881 system are known;
+- the secondary 1884 trademark extraction is primary-secure;
+- `geschützte Specialitäten`, foreign patents and Swiss trademark registration are the same legal regime;
+- SBB Historic `VARIA_370` was a coherent original railway working dossier;
+- profile-album circulation was uniquely Bär-specific.
+
+What is secure is the **existence of repeated profile-reference production/distribution/update events around a five-volume Iron Library archival album sequence whose physical function is still unresolved**.
+
+---
+
+## 12. Immediate bounded research before travel / staff confirmation
+
+1. locate/reproduce Staatsarchiv Thurgau `Slg. 15, 8'4/105` (1889 illustrated Schinz & Bär Bauartikel-Lager prospectus);
+2. inspect/obtain page-level access to Schoch 1899 `Muster-Buch über Stab- und Profil-Eisen`, ETH `Rar 9483`;
+3. ask/test whether Winterthur Technikum successor collections retain any Bär/Schinz/Schoch profile albums or supplement sheets;
+4. recover exact foreign patent numbers/jurisdictions behind the 1881 roof-profile statement;
+5. recover primary SHAB page for the reported 1884 Schinz & Bär trademark before using it substantively;
+6. locate a surviving 1885 Schinz & Bär public `Profil-Album`;
+7. locate original *The Ironmonger*, 28 Feb 1885 review;
+8. recover underlying Josef Pircher account 177 for actual goods/prices;
+9. recover `VARIA_370_01`–`_04` item titles/provenance if available;
+10. resolve 1852/53 founding date only with contemporary commercial/ragion/resident records if easy; do not over-invest.
+
+---
+
+## 13. Staff / Iron Library question that now matters most
+
+Before or alongside a residency application, the most valuable collection clarification is no longer a broad catalogue export alone.
+
+For `EBA 4/14` and `EBA 4/13`, ask whether staff can provide any existing volume-level description or low-resolution reference images of:
+
+- covers/spines;
+- title/imprint pages;
+- tables of contents/indexes;
+- representative internal spreads;
+- loose inserts/supplements;
+- terminal pages;
+- obvious manuscript annotations;
+- physical dimensions / bindings.
+
+This is a **retrieval/preparation request**, not a request for staff to do historical research.
+
+`COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` remains **NOT SENT** until explicitly requested; it should be revised before sending because the application question has materially sharpened.
+
+---
+
+## 14. Optional coda — Berlin metallographic glass plates
+
+The three original early metallographic glass plates at Iron Library remain a genuine site-specific object cluster and a possible late nineteenth-century coda:
+
+`MATERIAL SURFACE -> MICROPHOTOGRAPHIC PLATE -> PRINTED TAFEL -> REFERENCE ARCHIVE`.
+
+They should **not** pull the application back into a preselected microscopy genealogy unless the final proposal deliberately compares two reference-maintenance regimes. The EBA 4 profile system can now support the application without them.
+
+---
+
+## 15. Resume point
+
+**Resume here:**
+
+`1854 MERCHANT CONVENTION`
+→ `1858–72 CORRESPONDENCE / SUPPLY ROUTING`
+→ `EBA 4/14 PROFILE ALBUMS 1877–85`
+↔ **`1881 PATENTED PUBLIC SCHINZ & BÄR PROFILE`**
+→ **`1885 PUBLIC PROFIL-ALBUM`**
+→ `EBA 4/13 PROFILE ALBUMS 1886–1903`
+↔ `1889/90 TECHNIKUM BATCH`
+↔ `1896 QUANTIFIED PUBLIC ALBUM`
+↔ `1899/1900 SCHOCH COMPETITOR ALBUM`
+→ **`1903/04 SIX NEW BÄR PROFILE ALBUMS`**
+→ **`1907/08 SUPPLEMENT SHEET ×12`**.
+
+The central empirical operation is now:
+
+> **determine whether the physical construction of `EBA 4/14` and especially `EBA 4/13` preserves the versioning, reformatting and update infrastructure that the external documentary record proves existed.**
+
+That is the current authoritative application checkpoint.
+
+---
 
 ## Separate Wedding transcription workstream
 
 Authoritative branch: `ironlibrary-json-correction`.
 
-Coverage checkpoint: Mss 23 textual sequence through PDF 210; Mss 24 through PDF 65; next unprocessed PDF 66. Quality override: Mss 24 PDFs 1–65 = `LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`; calibrate the corrected layered schema on a mixed sample before continuing sequential transcription.
+Coverage checkpoint remains separate from this application pin. Do not merge Wedding manuscript transcription progress into the EBA 4 application retrieval logic unless explicitly requested.
