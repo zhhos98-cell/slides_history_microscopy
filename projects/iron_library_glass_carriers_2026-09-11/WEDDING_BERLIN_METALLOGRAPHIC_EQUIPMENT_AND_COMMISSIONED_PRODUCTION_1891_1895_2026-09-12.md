@@ -1,186 +1,257 @@
-# Berlin metallography — equipment and commissioned production threshold, 1891–1895
+# Berlin metallography — imaging equipment and commissioned production, 1888–1895
 
 Date: 2026-09-12
 
-Status: PRIMARY / NEAR-CONTEMPORARY CONTROL. This file separates three different institutional phenomena that must not be conflated: (1) dedicated metallographic / microphotographic equipment, (2) commissioned/internal production of sections and images, and (3) later external circulation of sections/prints as a standing reference service.
+Status: PRIMARY / NEAR-CONTEMPORARY CONTROL. Legacy filename begins `1891_1895`, but the evidence chain is now securely pushed back to **1888**. This file separates: (1) early institutional microphotography, (2) later explicit equipment codification, (3) dedicated specimen-production/imaging equipment, (4) commissioned/internal production, and (5) later external circulation.
 
-## 1. 1891 — microphotographic equipment is already an explicit institutional object
+## 1. 1888 — Wedding is already producing institutional microphotographic evidence
+
+The 1904 official index to the `Mittheilungen aus den technischen Versuchsanstalten` explicitly lists, under **Wedding / Abteilung 4 / Jahrgang 1888**:
+
+- **`Mikrophotographien von Drähten`** — plates I and II–VIII;
+- **`desgl. von Stahl`** — plate III;
+- **p.84: `Anwendung des Zirkonlichtes bei der Aufnahme von Negativen durch das Mikroskop`.**
+
+Primary institutional retrospective:
+- Martens/Guth, official 1904 Materialprüfungsamt history/index as exposed through the Paderborn digital object.
+
+This materially changes the equipment chronology. Berlin institutional microphotography is already a published technical practice in **1888**; 1891 is not its beginning.
+
+Use:
+
+**`INSTITUTIONAL_METAL_MICROPHOTOGRAPHY <= 1888`.**
+
+Claim ceiling: the full Wedding p.84 text has not yet been directly transcribed in this workflow. The official 1904 index securely controls title, author, year, page and associated microphotographic plates.
+
+## 2. 1888/89 — Wedding's imaging geometry is described in contemporary photographic literature
+
+Josef Maria Eder's 1889 *Jahrbuch für Photographie und Reproduktionstechnik* discusses zircon light for microphotography and describes its application to **photographing temper / interference colours (`Anlauffarben`) of iron surfaces according to Professor Wedding in Berlin**.
+
+The same contemporary account states that Wedding found microstructural details became much more visible when the iron surface was placed **obliquely relative to the microscope axis**.
+
+The described reflected-light arrangement uses a plan-parallel glass plate at about **45°** between object and objective to direct the illumination toward the metal surface while permitting image formation through the objective.
+
+A closely related contemporary technical description of work learned in Berlin from Martens describes use of **zircon light (Linnemann type)** and a **45° plan-parallel glass plate** for reflected-light photography of polished metal surfaces.
+
+Sources:
+- Eder, *Jahrbuch für Photographie und Reproduktionstechnik* 3 (1889), article on zircon light and microphotography;
+- contemporary metallurgical/photographic technical report preserving the Berlin/Martens reflected-light setup.
+
+Evidence ceiling:
+- Eder directly attributes the iron-surface / inclination observation to Wedding;
+- do not silently identify every component of Eder's general zircon-light apparatus as Wedding's own exact p.84 setup until Wedding's original text is recovered.
+
+Secure method variables:
+
+**bright stable artificial source + reflected-light geometry + specimen orientation + negative capture.**
+
+## 3. 1891 — Martens makes the institutional equipment itself the explicit subject
 
 A. Martens published:
 
 **`Die mikrophotographische Ausrüstung der kön. Mechanisch-Technischen Versuchsanstalt`, Mittheilungen aus den königlichen technischen Versuchsanstalten, Heft 6 (1891), p.278.**
 
-This bibliographic object is independently listed in Francis Scott Rice's 1897 technical bibliography and in later microscopy literature.
+This bibliographic object is independently listed in Francis Scott Rice's 1897 bibliography and in later microscopy literature.
 
-A 1904 institutional table also explicitly points back to the **1891 Heft 6** account when describing the later 1899 Martens–Heyn work on reflected-light microphotography.
+The 1904 official index adds object-level visual controls around the article:
 
-Claim ceiling: the full 1891 article has not yet been directly transcribed in this workflow. Use it as secure bibliographic control that the institute's microphotographic equipment had become a publishable, explicit technical subject by 1891.
+- **`Mikrophotographien von Eisenschliffen`** — plates V–VI;
+- **`Mikrophotographischer Apparat Martens–Zeiß`** — plate IV.
 
-## 2. Rechnungsjahr 1892/93 — a dedicated metallographic apparatus package is purchased/constructed
+The 1891 volume of the *Zeitschrift für wissenschaftliche Mikroskopie* also indexes/reviews Martens' Berlin microphotographic equipment at p.504, showing that the setup was recognised in the contemporary microscopy community.
+
+Use:
+
+**1888 = institutional microphotographic practice already visible**
+
+**1891 = the apparatus/system becomes an explicit publishable technical object and is externally reviewed.**
+
+The full Martens p.278 article still needs direct transcription.
+
+## 4. 1892 — microscopic failure/structure cases become an explicit publication series
+
+Martens published:
+
+**`Über einige in der Mechanisch-Technischen Versuchsanstalt ausgeführte mikroskopische Eisenuntersuchungen`, Mittheilungen, vol. X (1892), p.57.**
+
+The 1904 official index summarises the cases as including:
+
+- brittle scratching wire (`brüchiger Kratzendraht`);
+- bending tests;
+- brittle wire-rope wire (`brüchiger Seildraht`);
+- defects in tensile-test specimens;
+- chemical + microscopic testing;
+- block and girder cross-sections.
+
+The same index associates **fracture surfaces and microphotographs of iron** with the 1892 material.
+
+This establishes that by 1892 microphotography/microscopy was not merely apparatus experimentation: it was being applied to concrete failure, defect and section-analysis problems.
+
+## 5. Rechnungsjahr 1892/93 — dedicated specimen-production/imaging hardware is expanded
 
 The contemporary annual-report summary in *Stahl und Eisen*, 1 February 1894, is exceptionally explicit.
 
-The mechanical-technical department's equipment was expanded with, among other items:
+The mechanical-technical department acquired:
 
 - a **grinding machine (`Schleifmaschine`) for producing polished sections for microscopic investigation of metals**;
-- the funds for these new acquisitions were granted by a **special ministerial decree**.
+- the acquisitions were supported by a **special ministerial appropriation/decree**.
 
-The institute's own precision mechanic additionally produced:
+The institute's own precision mechanic additionally made:
 
 - a **lighting device for reflected light (`auffallendes Licht`) for microphotographic purposes**.
 
 Primary source:
-- *Stahl und Eisen*, 1 Feb. 1894, `Die Thätigkeit der Königlichen technischen Versuchsanstalten im Jahre 1892/93`, printed p.144.
+- *Stahl und Eisen*, 1 Feb. 1894, `Die Thätigkeit ... im Jahre 1892/93`, printed p.144.
 
 Evidence status:
 
 `CONTEMPORARY_PRIMARY_TEXT_LAYER = SECURE`
 
-`PDF_SCREENSHOT = PENDING (Silesian mirror cache miss after screenshot attempt)`
+`PDF_SCREENSHOT = PENDING (mirror cache miss after attempted screenshot)`
 
-This is a genuine equipment threshold:
+This is not the beginning of Berlin microphotography. It is a threshold in **dedicated production capacity and equipment expansion**:
 
-**section-production machine + reflected-light imaging device + institutional budget authorization.**
+**specialised metal-section machine + dedicated reflected-light imaging device + ministerial funding.**
 
-## 3. 1892/93 — commissioned metallographic object/image pair
+## 6. 1892/93 — commissioned/application-based Schliff + photograph pair
 
-The same annual-report summary states that, among 247 completed applications (45 from public authorities, 202 from private parties), the department carried out:
+The same annual-report summary states that among 247 completed applications (45 from public authorities, 202 from private parties), the department performed:
 
-**production of 2 steel polished sections for microscopic examination of the structure, together with the corresponding photographic recordings.**
-
-Primary wording is controlled at the annual-report text-layer level.
+**production of 2 steel polished sections for microscopic examination of structure, together with the corresponding photographic recordings.**
 
 This establishes:
 
 **`COMMISSIONED / APPLICATION-BASED METALLOGRAPHIC PRODUCTION <= 1892/93`.**
 
-Claim ceiling: the summary does not identify which applicant(s) requested these two steel sections, nor whether the physical sections or photographs were handed over to the applicant. Therefore do not yet upgrade this to a standing external circulation/supply service.
+Claim ceiling: applicant identity and whether the sections/photos were physically delivered outward are not given in the summary. Do not upgrade this to a standing external circulation service.
 
-The secure carrier pair is:
+Secure carrier pair:
 
 **steel specimen → prepared Schliff → microscopic structure → corresponding photograph.**
 
-## 4. 1893/94 annual-report summary: negative control only
+## 7. 1893/94 annual-report summary: negative control only
 
-The following annual-report summary in *Stahl und Eisen*, 1 April 1895, is detailed about the year's equipment, 221 applications and 2,672 tests but contains no explicit `Schliff`, `mikroskop` or `Photograph` item in the summary.
+The following *Stahl und Eisen* annual-report summary is detailed about equipment, 221 applications and 2,672 tests but contains no explicit `Schliff`, `mikroskop` or `Photograph` line.
 
-This is useful only as a **summary-level negative control**.
-
-Do not infer:
-
-`NO_METALLOGRAPHY_1893/94`.
-
-The underlying full `Mittheilungen` report may contain details omitted from the *Stahl und Eisen* abstract.
-
-Use instead:
+Use only:
 
 `1893/94 St&E summary = no explicit metallographic-production line found`.
 
-## 5. Rechnungsjahr 1894/95 — metallographic production is quantitatively visible
+Do not infer that metallography stopped or was absent; the full `Mittheilungen` report may include omitted detail.
 
-The next contemporary annual-report summary, published in *Stahl und Eisen* on 15 February 1896, records within the metal-testing department:
+## 8. Rechnungsjahr 1894/95 — metallographic production becomes quantitatively visible
+
+The contemporary annual-report summary published 15 February 1896 records:
 
 - **36 photographic recordings (`Photographische Aufnahmen`)**;
-- preparation of **115 qcm of polished sections for microscopic investigations**;
-- colour investigations and annealing experiments alongside mechanical and technological tests.
+- **115 qcm of polished sections for microscopic investigations**;
+- colour investigations and annealing experiments alongside mechanical/technological testing.
 
 Primary source:
-- *Stahl und Eisen*, 15 Feb. 1896, `Die Thätigkeit der Königlichen technischen Versuchsanstalten im Jahre 1894/95`, printed p.175.
-
-This is materially different from the 1892/93 two-section job: microscopic specimen preparation and photography are now visible as measurable annual outputs.
+- *Stahl und Eisen*, 15 Feb. 1896, printed p.175.
 
 Evidence status:
 
 `CONTEMPORARY_PRIMARY_TEXT_LAYER = SECURE`
 
-`PDF_SCREENSHOT = PENDING (cache miss after screenshot attempt)`
+`PDF_SCREENSHOT = PENDING (cache miss)`
 
-## 6. 1894/95 — microscopy enters accident diagnosis and procurement governance
+The scale is now annual and measurable, rather than a single two-section application.
 
-The same report discusses gas cylinders recovered after an explosion on the exercise ground of the Royal Ballooning Department at Schöneberg.
+## 9. 1894/95 — microscopy enters accident diagnosis and procurement governance
+
+The same report describes gas cylinders involved in an explosion at the Royal Ballooning Department's Schöneberg exercise ground.
 
 The investigation combined:
 
-- extensive strength tests of the cylinder material;
-- **microscopic examinations of the material microstructure**.
+- extensive strength tests;
+- **microscopic examination of material microstructure**.
 
-The report states that the investigation led to the establishment of **new conditions for the supply of such cylinders**.
+The report states that the investigation led to **new conditions governing future supply of such cylinders**.
 
 Controlled chain:
 
-**accident / material failure → mechanical testing + microscopic structure examination → revised delivery/procurement conditions.**
+**accident / failure → mechanical testing + microstructure → institutional judgement → revised procurement specification.**
 
-Thus by 1894/95 metallographic evidence is already participating in state technical governance.
+By 1894/95 metallographic evidence is participating in state technical governance.
 
-## 7. Revised chronology of institutional metallography
+## 10. Revised clocks of institutional metallography
 
-The evidence now needs at least four distinct clocks:
+At least six separate dates must now be kept distinct.
 
-### A. Equipment / technical method
+### A. Microphotographic practice
 
-**1891** — institutional microphotographic equipment is the subject of a dedicated Martens publication.
+**1888** — Wedding's wire/steel microphotographs + zircon-light negative-capture article are institutionally indexed.
 
-**1892/93** — dedicated metal-Schliff grinder + reflected-light microphotographic illumination device are explicitly documented.
+### B. Explicit apparatus publication / external visibility
 
-### B. Commissioned / application-based production
+**1891** — Martens publishes the institute's microphotographic equipment; apparatus and iron-section microphotographs are separately indexed/illustrated and the setup is reviewed by the microscopy community.
 
-**1892/93** — 2 steel sections + corresponding photographs appear among completed applications.
+### C. Applied microscopic casework
 
-### C. Quantified internal/operational production
+**1892** — published microscopic iron investigations address brittle wires, tensile-specimen defects, block/girder sections and chemical/microscopic comparison.
 
-**1894/95** — 115 qcm microscopic sections + 36 photographs are counted in the year's metal-testing work; microstructure contributes to accident diagnosis / revised supply conditions.
+### D. Dedicated production hardware + commissioned output
 
-### D. Standing external circulation/reference service
+**1892/93** — dedicated metal-Schliff grinder + reflected-light microphotographic illumination; two steel sections + corresponding photographs among completed applications.
 
-**1899** — current earliest hard anchor for sections + associated microphotographs + prints from existing negatives for study purposes, with image prints supplied against cost.
+### E. Quantified operational production / governance
 
-**1900–01** — external supply becomes explicit as a standing service; 1901 archive reaches 3,500 negatives and configurable teaching/study collections.
+**1894/95** — 115 qcm microscopic sections + 36 photographs; microstructure contributes to accident diagnosis and revised delivery conditions.
 
-These clocks should never be flattened into one `birth of metallography` date.
+### F. Standing external circulation/reference service
 
-## 8. Analytical consequence
+**1899** — current earliest hard anchor for sections + associated microphotographs + negative-based study prints supplied against cost.
 
-The Berlin infrastructure does not emerge by one sudden act. It decomposes into stages:
+**1900–01** — explicit standing service; 1901 archive reaches 3,500 negatives and configurable teaching/study collections.
 
-**instrumental capacity → commissioned specimen/image production → routine measurable laboratory output → diagnostic / procurement authority → archival storage → external reproduction/circulation.**
+These clocks must not be collapsed into one `birth of metallography` date.
 
-This is a much better model for the Iron Library argument than a simple chronology of publications or microscopes.
+## 11. Analytical consequence
 
-Especially important is the 1892/93 pairing:
+The Berlin infrastructure develops through multiple transformations:
 
-> **the institute deliberately acquires machinery for producing the microscopic object and fabricates an illumination device for photographing that object in reflected light.**
+**optical experiment / photographic practice → apparatus publication → applied casework → dedicated specimen/image production equipment → commissioned paired objects/images → routine quantified production → diagnostic authority → archival storage → external reproduction/circulation.**
 
-The material object and the image carrier are being engineered together.
+The 1888 Wedding evidence is especially important for the Sheffield–Berlin project because the same person who had carried hand-inscribed process evidence away from Sheffield in 1860 is, by 1888, working on **how a prepared iron surface can be optically illuminated and captured as a negative**.
 
-## 9. Claim ceilings
+Long carrier shift:
+
+**notebook sketch / timed visual process signal → reflected-light prepared surface → photographic negative.**
+
+## 12. Claim ceilings
 
 Secure:
 
-- Martens published a dedicated account of the institute's microphotographic equipment in 1891, p.278;
-- in 1892/93 a grinding machine specifically for metal sections for microscopic examination was purchased with special ministerial funding;
-- an in-house reflected-light illumination device for microphotographic purposes was constructed;
-- two steel sections with corresponding photographs were produced among that year's applications;
-- the 1894/95 annual report counted 36 photographs and 115 qcm of microscopic sections;
-- microscopy of failed gas-cylinder material contributed to new delivery/supply conditions.
+- the official 1904 index records Wedding's 1888 microphotographs of wires/steel and his p.84 zircon-light negative-capture item;
+- near-contemporary photographic literature attributes an oblique specimen-orientation imaging observation to Wedding;
+- Martens published a dedicated account of the institute's microphotographic equipment in 1891, with institutional apparatus / iron-section microphotographs separately indexed;
+- Martens' 1892 microscopic iron investigations covered concrete defect/failure/section problems;
+- in 1892/93 a dedicated metal-section grinder was purchased with special ministerial funding and an in-house reflected-light microphotographic illuminator was made;
+- two steel sections + matching photographic recordings were produced among that year's applications;
+- 1894/95 counted 36 photographs and 115 qcm microscopic sections;
+- microscopy of failed gas-cylinder material contributed to revised delivery conditions.
 
 Strong inference:
 
-- by 1892/93 metallography already had dedicated production and imaging infrastructure inside the Berlin testing institution;
-- by 1894/95 it was no longer only research technique but part of operational material diagnosis and governance.
+- Berlin institutional metal microphotography was active no later than 1888;
+- 1891 represents codification/public visibility of an existing imaging practice rather than its origin;
+- 1892/93 marks a threshold in dedicated specimen-production/imaging capacity and application-based production;
+- by 1894/95 metallography is part of operational material diagnosis/governance.
 
 Open:
 
-- exact apparatus described by Martens in 1891 and its relation to the 1892/93 new illumination device;
-- identity of the applicants for the 2 steel sections/photos in 1892/93;
-- whether any 1892/93 sections/photos were physically delivered outward;
-- detailed 1893/94 activity omitted from the St&E summary;
-- earlier pre-1892/93 commissioned metallographic production;
-- survival / numbering of these early specimens and negatives.
+- Wedding's exact 1888 p.84 apparatus/procedure in his own wording;
+- exact apparatus described by Martens in 1891 and its relation to Wedding's 1888 method;
+- detailed 1891/92 annual-report activity;
+- identity of 1892/93 applicants and ownership/delivery of sections/photos;
+- detailed 1893/94 activity omitted from St&E summary;
+- survival/numbering of early negatives/specimens.
 
-## 10. Immediate next targets
+## 13. Immediate next targets
 
-1. Recover/transcribe Martens' **1891 p.278ff microphotographic equipment article**.
-2. Inspect the full `Mittheilungen` annual reports for **1891/92 and 1893/94**, not only St&E summaries.
-3. Identify any pre-1892/93 jobs involving metal sections / photographs.
-4. Find the dedicated report on the Schöneberg gas-cylinder investigation and inspect its specimen/image apparatus.
-5. Connect the 1892/93 apparatus to the later negative archive only through explicit numbering/provenance evidence, not assumption.
+1. Recover Wedding's **1888 p.84 `Anwendung des Zirkonlichtes...`** original text and plates I–VIII if possible.
+2. Recover/transcribe Martens' **1891 p.278ff** apparatus article and contemporary 1891 microscopy review p.504.
+3. Recover the **1891/92 annual report** (St&E cross-reference: 1893 p.347) to test what changed before the 1892/93 equipment acquisition.
+4. Recover Martens' **1892 p.57ff** microscopic iron case studies.
+5. Keep external-circulation chronology separate: earliest hard standing service remains 1899.
