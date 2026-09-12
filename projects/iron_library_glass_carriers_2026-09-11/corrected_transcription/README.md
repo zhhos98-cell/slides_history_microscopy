@@ -65,7 +65,8 @@ The original PaddleOCR JSON remains immutable source material. Uncertain reading
 
 ## Files
 
-- `README.json`: machine-readable historical checkpoint and remaining-page lists. Important: its current `through_pdf_page` value records coverage, not citation-ready quality.
+- `QUALITY_STATUS.json`: machine-readable quality override; automation should read this together with `README.json`.
+- `README.json`: machine-readable historical coverage checkpoint and remaining-page lists. Important: its current `through_pdf_page` value records coverage, not citation-ready quality.
 - `WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl`: Mss 23 ledger.
 - `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–65 carry the legacy mixed-extraction warning above.
 - `WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl`: Mss 25 ledger.
