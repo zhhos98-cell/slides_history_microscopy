@@ -1,40 +1,99 @@
-# Bär & Co. profile albums — internal-to-public carrier closure, 1877–1896
+# Schinz & Bär / Bär & Co. profile albums — internal-to-public carrier closure, 1877–1896
 
 **Date:** 2026-09-12  
-**Status:** MAJOR CORPUS CLOSURE / ONSITE TEST REDEFINED  
-**Core result:** a contemporary 1896 review identifies Bär & Co.'s public `Façoneisen-Album` as a combined commercial, engineering-calculation and educational reference carrier. This creates a direct testable bridge from Iron Library's internal `Profileisenalbum` series (`EBA 4/14`, 1877–85; `EBA 4/13`, 1886–1903) to public technical circulation.
+**Status:** MAJOR CORPUS CLOSURE / 1885 PUBLICATION HINGE CONFIRMED  
+**Correction:** the earlier public Schinz & Bär profile album is **contemporaneously documented in 1885**, not merely retrospectively inferred c.1886. `EBA 4/14` ends in the same year; `EBA 4/13` begins in 1886. This exact archive/publication boundary is now a primary onsite test.
 
-## 0. The closure
+## 0. Secure chronology
 
 Iron Library preserves:
 
-- `EBA 4/14` — **Profileisenalbum**, 1877–85, 3 vols;
+- `EBA 4/14` — **Profileisenalbum**, 1877–1885, 3 vols;
 - `EBA 4/13` — **Profileisenalbum**, 1886–1903, 2 vols.
 
 Official catalogue:
 - https://archives.georgfischer.com/objects/EBA%204
 
-A contemporary notice in *Schweizerische Bauzeitung*, 9 May 1896, reviews a newly issued:
+A contemporary 1885 notice in *Schweizerische Bauzeitung*, Bd. V, Nr. 12, is explicitly titled:
+
+> `Profil-Album von Schinz & Bär in Zürich und Basel.`
+
+It describes the album as **recently issued** (`kürzlich herausgegeben`).
+
+Digital source:
+- https://www.e-periodica.ch/cntmng?pid=sbz-002%3A1885%3A5%3A%3A125
+
+The same journal later reviewed:
 
 > `Façoneisen-Album`, Ausgabe 1896, Bär & Co., Zürich und Basel.
 
 Digital source:
 - https://www.e-periodica.ch/cntmng?pid=sbz-002%3A1896%3A28%3A%3A214
 
-A competitor archive independently preserves the object as:
+A direct commercial counterpart's archive independently preserves:
 
 - Stadtarchiv Zürich `VII.382, 4.4.7` — **Album (= Katalog) der Firma Baer & Co mit Auszug aus der Bauzeitung [Ueberformat]**, 1896.
 
 Finding aid:
 - https://amsquery.stadt-zuerich.ch/Dateien/21/D109662.pdf
 
-This is therefore not merely a bibliographic mention. A Bär public album was retained as a working/reference object in another Zürich iron merchant's archive.
+### Critical boundary
+
+The current archive/publication geometry is therefore:
+
+`EBA 4/14 PROFILEISENALBUM 1877–1885`  
+→ **PUBLIC SCHINZ & BÄR PROFIL-ALBUM, 1885**  
+→ `EBA 4/13 PROFILEISENALBUM 1886–1903`  
+→ **PUBLIC BÄR & CO. FAÇONEISEN-ALBUM, 1896**.
+
+Do **not** infer from chronology alone that `/14` is a publication working archive or `/13` is a revision archive. Physical comparison is required. But the fit is now exact enough to make that comparison a first-order onsite operation.
 
 ---
 
-## 1. What the 1896 album did
+## 1. What the 1885 public album did
 
-The contemporary review describes the new album as useful to engineers, architects and builders and states that it included widely used:
+The 1885 *Bauzeitung* review says the recently issued album contained a rich selection of iron profiles used in building construction.
+
+It specifically distinguishes:
+
+- ordinary angle (`Winkel-`) and T-sections;
+- `Treppenbeschlag-` profiles;
+- window iron (`Fenstereisen`);
+- a rich assortment of `Gesimseisen`.
+
+The latter groups are described as **newly created and protected specialities of Schinz & Bär**, not found in other price books. The review adds that the cornice profiles allowed iron construction to be treated more effectively in a decorative direction.
+
+### Consequence
+
+The secure 1885 public carrier is not simply a neutral table of standardized stock. It already combines:
+
+`GENERAL BUILDING PROFILES + FIRM-SPECIFIC / PROTECTED SPECIALITIES + DESIGN / APPLICATION CLAIMS`.
+
+This supplies a first public reference regime against which the archival albums can be compared.
+
+---
+
+## 2. Foreign reception — Ironmonger reference now much tighter
+
+The same 1885 *Bauzeitung* review says that the album's foreign appreciation was demonstrated by a review in **The Ironmonger dated 28 February**.
+
+It reports that *The Ironmonger* particularly praised the quality of the drawings and characterized the publication as a model of continental skill/productive capacity.
+
+Current status:
+
+`IRONMONGER_REVIEW_28_FEB_1885 = CONTEMPORANEOUSLY_ATTESTED_AND_SUMMARISED_BY_BAUZEITUNG_1885 / ORIGINAL_ISSUE_NOT_YET_INDEPENDENTLY_LOCATED`
+
+This is much stronger than the previous state, in which the Ironmonger praise was known only through the 1896 retrospective notice.
+
+### Claim ceiling
+
+Until the original *Ironmonger* issue is located, do not quote it as if independently inspected and do not infer its full wording, page, or context beyond the contemporary *Bauzeitung* report.
+
+---
+
+## 3. What changes by 1896
+
+The 1896 *Bauzeitung* review describes Bär & Co.'s new `Façoneisen-Album` as useful to engineers, architects and builders and says it includes widely used:
 
 - Normalprofile;
 - `Ueberträger`;
@@ -43,246 +102,210 @@ The contemporary review describes the new album as useful to engineers, architec
 - T-Eisen;
 - Winkel-Eisen.
 
-The important change from the previous edition was not only additional profiles. The profiles were accompanied by quantitative tables giving:
+The profiles are accompanied by quantitative tables giving:
 
 - **weights**;
 - **dimensions**;
 - **moments of inertia**;
-- load-bearing information extending to spans/lengths up to **12 m**.
+- load-bearing information extending to lengths up to **12 m**.
 
-The review also singled out profiles attributed to Bär & Co itself for:
+The review also singles out Bär proprietary profiles for:
 
 - cornice (`Gesims`) constructions;
 - showcase (`Vitrinen`) constructions;
 - railing (`Geländer`) constructions / handrails.
 
-Thus the album deliberately placed together:
+Thus the 1896 carrier deliberately places together:
 
 `FORMAL NORMALPROFILE + OTHER PROFILE FAMILIES + ENGINEERING CALCULATION VARIABLES + BÄR PROPRIETARY PROFILES`.
 
-### Consequence
+### Longitudinal comparison
 
-This is stronger than `merchant adopts standards`.
+The strongest controlled comparison is therefore no longer simply `internal album -> 1896 public album`.
 
-Bär & Co was operating as a **reformatter and distributor of profile knowledge**: it assembled formal standards, commercially stocked sections, quantitative engineering data and proprietary products into one usable reference environment.
+It is:
 
----
+### 1885 public regime
 
-## 2. Educational/reference circulation is explicit
+`building-profile repertoire + protected proprietary specialities + graphic quality + application/design claims`
 
-The 1896 review states that the new album would be supplied to interested users and also to higher technical educational institutions — explicitly Polytechnikum and Technikum — in the quantities desired.
+### 1896 public regime
 
-The stated pedagogical effect was that students could become familiar with / accustomed to the Normalprofile.
+`Normalprofile + dimensional/weight/inertia/load data + proprietary profiles + technical-school distribution`.
 
-### Historical implication
-
-The merchant carrier crossed institutional boundaries:
-
-`COMMERCIAL STOCK REFERENCE -> ENGINEERING CALCULATION AID -> EDUCATIONAL REFERENCE`.
-
-This matters because `Normalprofile` no longer appears only as an external engineering standard acting upon a merchant. The merchant helps **circulate and habituate users to the standard**, while simultaneously circulating its own proprietary profile designs.
-
-Do not call this `standard-setting`; call it **standard circulation / reference formatting / pedagogical distribution** unless stronger evidence emerges.
+The question is what was **added, normalized, retained, reordered or quantified** over this eleven-year interval.
 
 ---
 
-## 3. The previous edition, c.1886 — securely attested retrospectively, exact edition OPEN
+## 4. Educational/reference circulation is explicit in 1896
 
-The 1896 *Bauzeitung* notice says that **about ten years earlier** the firm had already issued a large profile album. It further reports that the British trade journal *The Ironmonger* had praised that earlier album as a model of exact arrangement and execution.
+The 1896 review states that the new album would be supplied to interested users and also to higher technical educational institutions — Polytechnikum and Technikum — in the quantities desired.
 
-Current status:
+The stated pedagogical effect was that students could become familiar with / accustomed to Normalprofile.
 
-`FIRST_BAER_PROFILE_ALBUM_CA1886 = ATTESTED_RETROSPECTIVELY_BY_1896_BAUZEITUNG / EXACT_EDITION_NOT_YET_LOCATED`
+Historical operation:
 
-`IRONMONGER_REVIEW = ATTESTED_BY_1896_BAUZEITUNG / NOT_YET_INDEPENDENTLY_LOCATED`
+`COMMERCIAL STOCK / PRODUCT REFERENCE -> ENGINEERING CALCULATION AID -> EDUCATIONAL REFERENCE`.
 
-### Important negative control
-
-Web searches produce many 1886 `Lagerkatalog` records for **Joseph Baer & Co., Frankfurt**, an antiquarian bookseller. These are unrelated and must not be conflated with the Zürich/Basel iron merchant.
+Do not call this `standard-setting`; use **standard circulation / reference formatting / pedagogical distribution** unless stronger evidence emerges.
 
 ---
 
-## 4. Why `EBA 4/13` is now a primary object, not merely a post-transition control
+## 5. Why both archival series are now primary objects
 
-Before this discovery, `EBA 4/13 Profileisenalbum, 1886–1903` was useful mainly as a later morphology control against `EBA 4/14`.
+### EBA 4/14, 1877–1885
 
-That is now insufficient.
+Previously treated mainly as the merchant-comparison core. It now also terminates exactly in the year of the securely documented public Schinz & Bär profile album.
 
-Its date envelope contains both:
+Primary test:
 
-- the retrospectively attested first large public album around **c.1886**;
-- the securely documented public `Façoneisen-Album` of **1896**.
+> do profile families, proprietary specialities, drawing conventions, numbering systems, pasted sheets, supplier identities or manuscript corrections in `/14` map into the 1885 public album?
 
-Therefore the primary onsite question becomes:
+### EBA 4/13, 1886–1903
 
-> **What exactly are the two `EBA 4/13` volumes: internal working compilations, producer-sheet scrapbooks, annotated public/reference albums, publication working copies, or some mixture of these?**
+Begins immediately after the 1885 public album and spans the 1896 public Bär album.
 
-This cannot be answered from the catalogue title alone.
+Primary test:
 
-### Immediate physical tests for `/13`
+> what are these two volumes physically — internal working compilations, producer-sheet scrapbooks, annotated public/reference albums, revision copies, or mixtures?
 
-For both volumes establish:
+For both `/13` volumes establish:
 
-- binding / publisher / printer / title page;
-- manuscript vs printed vs pasted-sheet composition;
+- binding / title page / publisher / printer;
+- manuscript vs printed vs pasted composition;
 - internal dates and revision layers;
 - company imprint (`Schinz & Baer`, `Bär & Co`, variants);
 - page numbering and index;
 - profile numbering;
 - Normalprofil terminology;
-- profile shapes/categories;
-- weight / dimension / inertia / load-bearing tables;
+- weight / dimension / inertia / load tables;
 - proprietary Bär profile families;
 - annotations, corrections, replacement sheets, inserted prices;
-- evidence of preparation for print or use of printed output as a working object.
-
-Do not assume `/13` contains the 1896 published album merely because the date range overlaps it.
+- evidence of preparation for print or subsequent working use.
 
 ---
 
-## 5. High-value migration test: `/14 -> /13 -> 1896 publication`
+## 6. Three-stage migration test
 
-A page/profile-level migration test is now possible.
+### Stage A — `/14`, 1877–1885
 
-### Stage A — EBA 4/14, 1877–85
+Capture profile/page morphology and identify possible 1885-publication precursor layers.
 
-Capture profile identity and page morphology from the three early albums.
+### Stage B — 1885 public `Profil-Album`
 
-### Stage B — EBA 4/13, 1886–1903
+Securely documented public carrier. A copy has not yet been independently located online, but the contemporary review provides a minimum content fingerprint.
 
-Identify whether the same profile families / numbers / ordering principles continue, disappear, merge or are reformatted.
+Fingerprint:
 
-### Stage C — Bär & Co public album, 1896
+`ANGLE / T / TREPPENBESCHLAG / FENSTEREISEN / GESIMSEISEN / PROTECTED_SPECIALITY / DRAWING_QUALITY / BUILDING_APPLICATION`.
 
-Use the competitor-held Stadtarchiv Zürich copy `VII.382, 4.4.7` as the external publication control.
+### Stage C — `/13`, 1886–1903 + 1896 public `Façoneisen-Album`
 
-Track:
+Track whether the public and archival regimes converge on:
 
-`PROFILE_SHAPE / PROFILE_NUMBER / DIMENSIONS / WEIGHT / MOMENT_OF_INERTIA / LOAD_TABLE / NORMALPROFILE_STATUS / PROPRIETARY_STATUS / SUPPLIER_ORIGIN / PAGE_ORDER / DRAWING_STYLE / CAPTION / COMPANY_IMPRINT`.
+`PROFILE_SHAPE / PROFILE_NUMBER / DIMENSIONS / WEIGHT / MOMENT_OF_INERTIA / LOAD_TABLE / NORMALPROFILE_STATUS / PROPRIETARY_STATUS / PAGE_ORDER / DRAWING_STYLE / CAPTION / COMPANY_IMPRINT`.
 
 ### Strong finding
 
-If the same profile or identifier can be traced from an internal Iron Library album into the 1896 public album, we have direct evidence of:
+If identifiable profiles or page architecture migrate across these stages, the project can show:
 
-`INTERNAL COMMERCIAL COMPARISON / SELECTION -> PUBLIC TECHNICAL-COMMERCIAL REFERENCE -> EXTERNAL USER / COMPETITOR RETENTION`.
+`INTERNAL COMMERCIAL / TECHNICAL COMPILATION -> PUBLIC PRODUCT REFERENCE -> QUANTIFIED STANDARD-INTEGRATED REFERENCE -> EDUCATIONAL / COMPETITOR CIRCULATION`.
 
 ### Falsifying / complicating finding
 
-If `/14` and `/13` are simply collected producer catalogues with no Bär reformatting, or if their profile systems bear no relation to the 1896 album, then the strong internal-to-public genealogy must be reduced. That outcome is still analytically useful.
+If `/14` and `/13` are merely received producer catalogues with no Bär reformatting, or if they bear no material relation to the public albums, reduce the internal-to-public genealogy. That negative result still defines what the archive actually preserves.
 
 ---
 
-## 6. Competitor retention changes the meaning of the public catalogue
+## 7. Competitor retention
 
-Stadtarchiv Zürich `VII.382` is the archive of Wiser/Pestalozzi, one of the firms that appears alongside Schinz & Baer in Zürich iron-merchant convention/cartel and business correspondence.
+Stadtarchiv Zürich `VII.382` is the archive of Wiser/Pestalozzi, a firm that appears alongside Schinz & Baer in Zürich iron-merchant convention/cartel and business correspondence.
 
-Its retention of the 1896 Bär album with the *Bauzeitung* extract means the published object circulated not only to abstract `engineers` or schools but into the archive of a **direct commercial counterpart / competitor**.
+Its retention of the **1896 Bär album with the Bauzeitung extract** creates a separate circulation test:
 
-This opens a new test:
+> did a public Bär album serve as a shared technical-commercial reference surface among firms that were simultaneously competitors and convention partners?
 
-> Did the public album create a shared technical-commercial reference surface among firms that were simultaneously competitors and convention partners?
-
-Do not infer how Wiser used the album until annotations, wear, filing context and adjacent records are inspected.
+Do not infer active use before annotations, wear, filing context and adjacent records are inspected.
 
 ---
 
-## 7. Stronger carrier sequence
-
-The project can now test a materially anchored sequence:
+## 8. Revised carrier sequence
 
 `1854 CONVENTION`  
 → `1858–72 CORRESPONDENCE / SUPPLY ROUTING`  
-→ `1877–85 INTERNAL PROFILE ALBUMS`  
+→ `1877–85 PROFILEISENALBUMS [form/function OPEN]`  
 → `1878–80 PRICE LISTS`  
 → `c.1879–81 FORMAL NORMALPROFILE INTERVENTION`  
 → `1884/85 CASH + SALES BOOKS`  
-→ `c.1886 EARLIER PUBLIC PROFILE ALBUM [retrospectively attested]`  
-→ `1886–1903 PROFILE ALBUMS / WORKING OR REFERENCE CARRIERS [form OPEN]`  
-→ `1896 PUBLIC FAÇONEISEN-ALBUM`  
-→ `TECHNICAL PRESS REVIEW + POLYTECHNIKUM / TECHNIKUM DISTRIBUTION`  
+→ **`1885 PUBLIC SCHINZ & BÄR PROFIL-ALBUM`**  
+→ `1886–1903 PROFILEISENALBUMS [form/function OPEN]`  
+→ **`1896 PUBLIC BÄR & CO. FAÇONEISEN-ALBUM`**  
+→ `TECHNICAL PRESS + POLYTECHNIKUM / TECHNIKUM DISTRIBUTION`  
 → `COMPETITOR-ARCHIVE RETENTION`.
 
-This is much more precise than `standardization over time`.
-
-The historical operation is **reformatting and redistribution across carriers and audiences**.
-
----
-
-## 8. Revised proposal claim
-
-A proposal-compatible formulation is now:
-
-> **The project examines how a Zürich iron merchant transformed heterogeneous supplier and market information into increasingly portable reference forms — profile albums, price lists, calculation tables and public catalogues — and how these carriers connected commercial comparison, collective market governance, engineering standards and technical education without collapsing them into a single process of “standardization.”**
-
-A stronger but still testable second sentence:
-
-> **The surviving Iron Library albums make it possible to ask what was selected, reordered or retained before Bär & Co publicly combined Normalprofile, engineering tables and proprietary profiles in its 1896 Façoneisen-Album.**
+The historical operation is **reformatting and redistribution across carriers and audiences**, not a simple linear story of standardization.
 
 ---
 
 ## 9. Onsite priority revision
 
-The Küderli/Bär packet should now be ordered:
-
 1. `EBA 4/5` — 1854 convention;
 2. `EBA 4/7` — especially 1868–72 correspondence;
-3. `EBA 4/14` — **all 3 profile albums, 1877–85**;
-4. `EBA 4/6` — price lists, 1878–80;
-5. `EBA 4/13` — **both profile albums, 1886–1903; inspect entire physical structure, with specific attention to c.1886 and 1896 layers**;
-6. `EBA 4/4` — 1884–86 transaction sample;
-7. `EBA 4/15` — 1885–87 transaction sample;
-8. `EBA 4/3 Inventar` — **targeted 1888–98 sample if product-level detail exists**, because its 43 vols may provide stock linkage across the 1896 publication moment;
-9. Haffter late-tail validation only after Küderli core morphology is secure.
-
-### New possible high-value series
-
-`EBA 4/3 Inventar, 1888–1927, 43 vols` was previously peripheral. It should now receive a **quick gate test**:
-
-- if detailed product/profile stock is recorded, sample 1888/89, 1895/96 and 1897/98;
-- if only aggregate accounting inventory, demote immediately.
+3. `EBA 4/14` — **all 3 vols; entire physical structure, with special attention to late/1885 layers and proprietary profile families**;
+4. `EBA 4/6` — 1878–80 price lists;
+5. `EBA 4/4` — 1884–86 transaction sample;
+6. `EBA 4/15` — 1885–87 sales sample;
+7. `EBA 4/13` — **both vols; inspect the 1885/86 boundary and 1896 layers**;
+8. `EBA 4/3 Inventar` — quick product-detail gate; if detailed, sample 1888/89, 1895/96, 1897/98; if aggregate, demote;
+9. Haffter late-tail validation only after Küderli/Bär morphology is secure.
 
 ---
 
-## 10. Revised external pre-visit request
+## 10. External pre-visit priorities
 
-Add to the Stadtarchiv Zürich request packet:
+### Highest priority
 
-- `VII.382, 4.4.7` — **1896 Bär & Co Album (= Katalog) + Bauzeitung extract** — high priority because it is the direct public-output control for Iron Library `/13` and `/14`.
+- Stadtarchiv Zürich `VII.382, 4.4.7` — 1896 Bär & Co Album (= Katalog) + Bauzeitung extract.
 
-If a full remote reproduction is affordable/allowed, obtain it before the residency and build a profile-ID/page-morphology concordance in advance.
+### New priority
 
-This one object may dramatically reduce onsite comparison time.
+- locate an extant copy / bibliographic record for the **1885 Schinz & Bär `Profil-Album`**;
+- locate original *The Ironmonger*, **28 February 1885**, review.
+
+If either public album can be reproduced before residency, build a profile/page concordance before opening `/14` and `/13` onsite.
 
 ---
 
 ## 11. Claim ceiling
 
-Do **not** yet assert:
+Do **not** assert that:
 
-- that `EBA 4/14` is the working predecessor of the first public album;
-- that `EBA 4/13` contains either the c.1886 or 1896 published album;
-- that the earlier album was published exactly in 1886 rather than approximately then;
-- that *The Ironmonger* review has been independently verified;
-- that Bär helped create German Normalprofile;
-- that technical schools actually used the distributed copies in teaching;
-- that Wiser/Pestalozzi actively used the retained 1896 album rather than simply filing it.
+- the 1885 album was literally the firm's first-ever profile album unless a bibliography/title-page sequence proves it;
+- `EBA 4/14` is its working predecessor;
+- `EBA 4/13` contains either a later edition or publication working copies;
+- the *Ironmonger* review has been independently inspected;
+- the 1885 proprietary profiles originated inside `/14`;
+- Bär helped create German Normalprofile;
+- technical schools demonstrably used distributed 1896 copies in teaching;
+- Wiser/Pestalozzi actively used rather than merely filed the retained 1896 album.
 
-What is secure is narrower and already strong:
+What is secure:
 
-1. Iron Library has profile albums spanning 1877–1903;
-2. a contemporary 1896 technical journal describes Bär & Co's public profile album in detail;
-3. the public album combines Normalprofile, quantitative engineering tables and proprietary Bär profiles;
-4. it was intentionally distributed to interested users and higher technical schools;
-5. a direct Zürich merchant counterpart's archive preserves a copy/catalogue together with the review extract.
+1. Iron Library has `Profileisenalbum` series spanning **1877–1885** and **1886–1903**;
+2. a **contemporary 1885** *Bauzeitung* review documents a recently issued Schinz & Bär public `Profil-Album`;
+3. that review identifies ordinary profiles plus **new/protected firm specialities** and reports an *Ironmonger* review dated **28 February**;
+4. a contemporary 1896 review documents a later Bär public album combining Normalprofile, quantitative engineering tables and proprietary profiles;
+5. the 1896 album was deliberately distributed to interested users and higher technical schools;
+6. a direct Zürich merchant counterpart's archive preserves the 1896 catalogue together with the review extract.
 
 ---
 
-## 12. Next search targets
+## 12. Next bounded searches
 
-1. independently locate the earlier c.1886 Bär profile album;
-2. independently locate the *Ironmonger* notice;
-3. resolve the 1896 review footnote `Schw. Bztg. Bd. XX No. 15` — likely an earlier discussion of Bär proprietary profiles / `Handleisten`, but content is not yet confirmed;
-4. identify whether another Swiss library holds the 1896 album;
-5. ask Iron Library whether `/13` has printed title pages / publisher data and whether object-level dates exist for the two volumes.
+1. locate bibliographic/full-copy evidence for the 1885 Schinz & Bär album;
+2. locate *The Ironmonger*, 28 February 1885, original issue/page;
+3. resolve the 1896 review footnote `Schw. Bztg. Bd. XX No. 15` without over-investing if it remains opaque;
+4. identify whether the 1885 and 1896 publications share profile numbering / page architecture;
+5. ask Iron Library for volume-level physical descriptions of `/14` and `/13` before travel if possible.
 
-**Resume from the `/14 -> /13 -> 1896 public album` migration test.**
+**Resume from the 1885 publication hinge: `/14 (1877–1885) -> public Profil-Album 1885 -> /13 (1886–1903) -> public Façoneisen-Album 1896`.**
