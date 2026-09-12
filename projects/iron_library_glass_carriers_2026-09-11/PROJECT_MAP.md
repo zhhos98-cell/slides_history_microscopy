@@ -10,13 +10,18 @@ Start here for the current Iron Library residency / holdings argument:
 2. `COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md` — current collection-first holdings census; keep Library / EBA / GFA distinct.
 3. `HOLDINGS_TIME_MAP_2026-09-12.md` — active time-aware map of where Library / EBA / GFA actually thicken, plus a prior-SiR overlay. Use this before inferring that a fonds start date means continuous nineteenth-century density.
 4. `HOLDINGS_TIME_MAP_DENSITY_ADDENDUM_2026-09-12.md` — adds the contemporaneity/originality axis; records Rauschenbach governance correction, Traisen copies vs original plans, later personnel registers carrying earlier data, and the strengthened native-GF product/document cluster.
-5. `HOLDINGS_HEATMAP_2026-09-12.md` — five-axis comparison of large holdings blocks: scale / seriality / date density / provenance coherence / contemporaneity-originality. Now includes EBA 1 Gotthardbahn maps and a demoted pre-1885 rating for GFA 8.
-6. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md` — Library-only serial census; separates publication run from Iron Library holding run/completeness and records controlled nineteenth-century anchor titles and later backfilling donations.
-7. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier methodological pin for early materials microscopy; useful framing, but subordinate to collection-first census/time map/heat map when they differ.
-8. `FELLOWSHIP_HOLDINGS_AUDIT_2026-09-11.md`, `RESIDENCY_TRIAGE_2026-09-11.md`, `SOURCE_MAP.md` — supporting holdings and source audits.
-9. `CURRENT_PROGRESS.md` — broad project progress narrative on `main`; do not use it as the sole authority for corrected-transcription progress.
+5. `HOLDINGS_HEATMAP_2026-09-12.md` — five-axis comparison of large holdings blocks: scale / seriality / date density / provenance coherence / contemporaneity-originality. Now includes EBA 1 Gotthardbahn maps, stronger native-GF/Rauschenbach controls, and a demoted pre-1885 rating for GFA 8.
+6. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md` — Library-only serial census; separates publication run from Iron Library holding run/completeness, records controlled nineteenth-century anchor titles and later backfilling donations, and gives the ISIL/ZDB/SWB/K10plus recovery route.
+7. `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md` — Library subject morphology. Uses the 1996 full-collection percentage structure as a historical control, keeps the unrecovered 2024 classification hierarchy OPEN, and records that the institutional Library/EBA catalogue boundary itself changed over time.
+8. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier methodological pin for early materials microscopy; useful framing, but subordinate to collection-first census/time map/heat map when they differ.
+9. `FELLOWSHIP_HOLDINGS_AUDIT_2026-09-11.md`, `RESIDENCY_TRIAGE_2026-09-11.md`, `SOURCE_MAP.md` — supporting holdings and source audits.
+10. `CURRENT_PROGRESS.md` — broad project progress narrative on `main`; do not use it as the sole authority for corrected-transcription progress.
 
-Current research rule: **collection first; question second**. Treat the holdings as three evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**. For chronology, use the time map rather than top-level fonds start dates alone. For archival strength, also distinguish the date of the historical content from the creation date/originality of the surviving carrier.
+Current research rule: **collection first; question second**. Treat the holdings as three current evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**. For chronology, use the time map rather than top-level fonds start dates alone. For archival strength, also distinguish the date of the historical content from the creation date/originality of the surviving carrier.
+
+### Current-boundary / historical-boundary rule
+
+Use today's `Library / EBA / GFA` split for provenance, retrieval and citation. Do **not** assume, however, that older institutional collection statistics used exactly the same boundaries. The 1996 Eisenbibliothek description, for example, counted archival/company-estate material inside its overall collection morphology; some named bodies in that older account are now separately represented in EBA. Treat catalogue-boundary history as part of the institution's archival history, not as permission to collapse current provenance systems.
 
 ### Holdings originality rule
 
@@ -103,7 +108,8 @@ Files beginning `FISCHER_*` form a separate research cluster on travel, observat
 - Do not infer recency or quality from filename/status label alone; use the pinned resume and branch HEAD.
 - For manuscript work, keep **coverage**, **literal transcription**, **editorial visual description**, and **research interpretation** as separate layers.
 - For holdings work, keep **Library / EBA / GFA** separate and distinguish **fonds envelope dates**, **actual series-level date density**, and **surviving-carrier originality/contemporaneity**.
+- For older institutional statistics, distinguish the **historical collection-management boundary** from today's catalogue boundary.
 - For serials, distinguish **publication chronology**, **library holding chronology**, and **holding completeness**.
 - Avoid moving or deleting legacy files solely for cosmetic cleanup because existing notes may cite their paths.
 
-Last organized / quality-audited / holdings-heat-map and serial-environment updated: 2026-09-12.
+Last organized / quality-audited / holdings-heat-map, serial-environment and Library-subject-structure updated: 2026-09-12.
