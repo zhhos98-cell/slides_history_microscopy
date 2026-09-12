@@ -9,7 +9,7 @@
       "note": "Generally conservative and fragment-preserving, but not diplomatic transcription. Exact quotation requires manuscript-image verification."
     },
     "Mss24": {
-      "through_pdf_page": 70,
+      "through_pdf_page": 75,
       "status": "PARTIAL_LAYERED_CALIBRATION_WITH_LEGACY_CLEANUP_REMAINING",
       "citation_ready": false,
       "problems": [
@@ -41,10 +41,10 @@
         "wording-sensitive historical claims"
       ],
       "calibrated_layered_pages": [56, 57, 58, 59, 60],
-      "sequential_layered_pages": [66, 67, 68, 69, 70],
+      "sequential_layered_pages": [66, 67, 68, 69, 70, 71, 72, 73, 74, 75],
       "legacy_mixed_pages": "1-55, 61-65",
-      "next_unprocessed_page": 71,
-      "resume_instruction": "The PDFs 56-60 calibration and PDFs 66-70 sequential layered batch are complete. Continue PDF 71 onward using the same layered schema; do not restore the old mixed transcription semantics."
+      "next_unprocessed_page": 76,
+      "resume_instruction": "The PDFs 56-60 calibration and PDFs 66-75 sequential layered pages are complete. Continue PDF 76 onward using the same layered schema; do not restore the old mixed transcription semantics."
     },
     "Mss25": {
       "status": "MIXED_WORKSPACE_WITH_HIGHER_QUALITY_CONTROLLED_CLUSTERS",
