@@ -17,20 +17,18 @@
     "shelfmark": "Mss24",
     "pdf_pages": [56, 57, 58, 59, 60],
     "status": "COMPLETE_2026-09-12",
-    "next_text_page": 86,
+    "next_text_page": null,
     "rule": "Continue with literal_transcription, diagram_labels, editorial_description, normalized_entities, uncertain_readings and research_summary. secure_anchors may derive only from literal_transcription and diagram_labels."
   },
   "sequential_substantive_checkpoint": {
     "shelfmark": "Mss24",
-    "through_pdf_page": 85,
-    "next_text_page": 86,
-    "note": "Mss23's textual sequence is complete. Mss24 PDFs 66-85 now use the layered image-controlled schema; earlier coverage through PDF 65 retains the quality distinctions recorded in QUALITY_STATUS.json. Resume with Mss24 PDF 86."
+    "through_pdf_page": 87,
+    "next_text_page": null,
+    "note": "Mss23's textual sequence is complete. Mss24's textual sequence is complete through PDF 87; PDFs 66-87 use the layered image-controlled schema. PDFs 88-103 are image-controlled blank leaves and PDFs 104-116 are image-controlled object views. Earlier coverage through PDF 65 retains the quality distinctions recorded in QUALITY_STATUS.json."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [],
     "Mss24": [
-      86,
-      87
     ],
     "Mss25": [
       14,
