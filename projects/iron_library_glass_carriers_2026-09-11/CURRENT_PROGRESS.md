@@ -1,316 +1,281 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-12 after controlling the Wedding 1885 microscopy bridge and Sorby's specimen-preparation critique.**
+**Pinned continuation state — updated 2026-09-12 after controlling Wedding's projected micro-images (1888) and handbook/third-party preparation standardization.**
 
-This is the authoritative resume point. The strongest same-person longitudinal axis is now **1860 works observation → 1869 Bessemer-flame spectroscopy → 1885 microscopic structure**, with a directly controlled Sorby–Wedding methodological dispute over how metallographic specimens must be prepared before structure can be seen.
+This is the authoritative resume point. The strongest same-person longitudinal axis is now:
 
-## 1. Governing problem — revised
+**1860 works observation → 1869 Bessemer-flame spectroscopy → 1885 microscopic structure → 1888 projected micro-images → 1889 explicit section/image method → 1890/91 microphotographic atlas → 1890s handbook standardization / third-party replication.**
 
-The project is no longer best described only as a transition from travel comparison to prepared specimen/micrograph systems. A controlled intermediate optical regime and a later microscopic regime are now visible in the same person:
+The older licence/Gruner/*Engineer* queue remains useful but secondary.
 
-**works inspection / skilled process judgement → portable notebook inscription → spectral re-analysis of the live process → optical mediation / redistribution of observational competence → prepared metallographic surface → microscopic internal structure → microphotography / institutional reference system.**
+## 1. Governing problem — revised again
 
-Main axis remains **Sheffield ↔ Berlin/Charlottenburg**, but the Bessemer flame and Wedding's later microscopy now supply concrete carrier-history bridges rather than analogies.
+The project now supports a more precise carrier history than `travel note → microscopy`:
+
+**works inspection / skilled process judgement → notebook inscription → spectral re-analysis of live process → prepared metallographic surface → microscopic structure → projected image → microphotograph → handbook method → reproducible third-party section preparation / institutional reference system.**
 
 Strongest conceptual formulation:
 
-> **a history of relocating and reformatting metallurgical evidence across scales and carriers.**
+> **a history of relocating metallurgical evidence and then standardizing both the object and the conditions under which it can be seen, shown, and reused.**
 
-Evidence is successively located:
+Evidence moves:
 
-**in the running process → in emitted light → in a deliberately prepared surface of the finished material.**
+**running process → emitted light → prepared material surface → projected/photo image → reference collection / textbook protocol.**
 
-## 2. Governing files / resume order
+Crucially, two standardizations must be kept separate:
 
-Read in this order:
+1. **specimen standardization** — sectioning, orientation, grinding, polishing, etching;
+2. **image standardization** — illumination, magnification, projection/photography, reproduction.
+
+A standard specimen does not automatically yield a standard image.
+
+## 2. Resume order / governing files
 
 1. `CURRENT_PROGRESS.md`
-2. **`WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`** — same-person longitudinal axis; now includes Sorby's preparation critique
-3. **`WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`** — spectroscopy genealogy / primary-source bridge
-4. `WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`
-5. `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`
-6. `WEDDING_1860_07_25_SHEFFIELD_SPATIAL_ACCESS_CONTROL_2026-09-12.md`
-7. `WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`
-8. `WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`
-9. `WEDDING_BESSEMER_LICENCE_ROYALTY_ARCHIVE_ROUTE_2026-09-12.md`
-10. `WEDDING_GRUNER_LAN_SHEFFIELD_1859_60_CROSS_CONTROL_2026-09-12.md`
-11. Mss 25 PDFs/images 296–300 when accessible.
-
-Local 900px Mss 25 JPGs and the three earlier PaddleOCR JSONs are not currently present in the repo. OCR remains routing only; do not reconstruct sentence-level palaeography from summaries.
+2. **`WEDDING_1885_1891_METALLOGRAPHIC_METHOD_CHAIN_2026-09-12.md`** — preparation / illumination / projection / microphotography / handbook chain
+3. **`WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`** — same-person process→spectrum→microstructure axis
+4. **`WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`** — spectroscopy genealogy
+5. `WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`
+6. `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`
+7. `WEDDING_1860_07_25_SHEFFIELD_SPATIAL_ACCESS_CONTROL_2026-09-12.md`
+8. `WEDDING_CYCLOPS_NEAR_CONTEMPORARY_VISUAL_CONTROL_2026-09-12.md`
+9. `WEDDING_1860_SHEFFIELD_BESSEMER_LICENSING_HORIZON_2026-09-12.md`
+10. `WEDDING_BESSEMER_LICENCE_ROYALTY_ARCHIVE_ROUTE_2026-09-12.md`
+11. `WEDDING_GRUNER_LAN_SHEFFIELD_1859_60_CROSS_CONTROL_2026-09-12.md`
+12. Mss 25 PDFs/images 296–300 when accessible.
 
 ## 3. 1860 manuscript starting point
 
-Image control remains secure:
+Secure image-controlled anchors remain:
 
-- PDF 298 / ms p.149 — **`Bessemer's Stahlwerk`** with converter/process sketch, Cumberland pig-iron statement and technical prose;
-- PDF 299 / ms p.150 — Bessemer continuation, second sketch, **`Der ganze Prozeß dauert cca 19–24 Minuten.`**, and surrounding flame/gas/process-stage prose;
+- PDF 298 / ms p.149 — **`Bessemer's Stahlwerk`**, converter/process sketch, Cumberland pig-iron statement;
+- PDF 299 / ms p.150 — second sketch + **`Der ganze Prozeß dauert cca 19–24 Minuten.`** + surrounding flame/gas/process-stage prose;
 - PDF 300 / ms p.151 — **`Cammells Walzwerke (Cyclops Works).`** before explicit 26 July Leeds boundary.
 
-Strong folio inference: Bessemer + Cammell/Cyclops belong to Wedding's **25 July 1860 Sheffield comparison day**.
+Strong folio inference: Bessemer + Cammell/Cyclops belong to **25 July 1860**.
 
-The crucial significance is that the notebook already selects **flame/time process judgement** before Wedding's later spectroscopic work. Exact flame-stage wording remains open until PDF 299 is directly microtranscribed.
+The central new significance remains that Wedding selected **flame/time process judgement** in 1860 before later making Bessemer flame a spectroscopic object.
 
-## 4. Wedding 1869 — Bessemer flame becomes a spectroscopic object
+## 4. 1869 Bessemer flame spectroscopy remains the live-process optical bridge
 
-Identity is secure:
+Secure bibliographic object:
 
-**Hermann Wedding, `Das Spektrum der Bessemerflamme`, *Zeitschrift für das Berg-, Hütten- und Salinenwesen im preussischen Staate*, XVII, 2. Lieferung (1869), pp.117–134, with one plate.**
+**Hermann Wedding, `Das Spektrum der Bessemerflamme`, Zeitschrift für das Berg-, Hütten- und Salinenwesen im preussischen Staate, XVII, 2. Lieferung (1869), pp.117–134 + plate.**
 
-Primary bibliographic control comes from the 1869 volume table of contents; a contemporary Austrian mining journal in 1870 identifies the author as **`Dr. H. Wedding in Berlin`**. Later literature places the experimental work around c.1868, so preserve:
+Cross-control remains:
 
-- `RESEARCH_ACTIVITY ≈ c.1868`
-- `PUBLICATION = 1869`
+- Drown: Wedding/von Lichtenfels experimental manganese-spectrum correspondence;
+- Silliman: Wedding's violet line, solar/Bessemer spectrum calibration object, manganese-volatilisation interpretation;
+- Wedding Berlin publication → Troy replication/critique.
 
-until Wedding's own paper gives exact dates.
+Highest unresolved need: full Wedding 1869 text + plate.
 
-Drown (1871) states that **Wedding and von Lichtenfels produced the manganese spectrum and found it closely corresponding to the Bessemer flame**.
+## 5. 1885 microscopy: evidence relocates into a prepared solid surface
 
-Silliman (1870), working at John A. Griswold & Co.'s Bessemer works in Troy, directly engages Wedding:
+Wedding's JISI paper:
 
-- Wedding repeatedly observed a violet manganese line;
-- Silliman calibrates against the **sun spectrum Wedding published alongside the Bessemer spectrum**;
-- Silliman reconstructs and critiques Wedding's explanation of manganese-line appearance/disappearance through analyses of metal, slag and smoke and possible manganese volatilisation.
+**`The Properties of Malleable Iron, deduced from its Microscopic Structure`, JISI 1885 no.1, pp.187–204.**
 
-Thus by 1870:
+Secure contemporary claims:
 
-**Wedding Berlin publication/plate → Troy works replication/calibration/critique.**
+- chemistry/process label alone cannot fully predict mechanical behaviour;
+- rails of comparable chemistry/process can behave differently;
+- microstructure becomes an independent evidential layer;
+- Wedding said microscopic investigation forced him to revise an earlier explanation of welding.
 
-## 5. Optical-control genealogy — skill and instrument coexist
+The argument was materially grounded in **A. Martens' Berlin collection of 120 metallographic sections**, catalogued in 1884.
 
-### Rowan, Glasgow, 1869
+## 6. Sorby–Wedding disagreement is a dispute over object production
 
-Rowan formulates the operational endpoint problem and explores spectroscope + coloured glasses + purpose-designed observation.
+Secure public methodological relation:
 
-### Sorby, Sheffield, 1870
+- Sorby attributes major differences between his and Wedding's conclusions to Wedding's sections **not being ground with soft stone before final polishing**;
+- Sorby treats direct/vertical reflected illumination as essential; later historical reconstruction says he believed Wedding had not used it.
 
-Sorby explicitly says an experienced observer can judge when the blast should cease from the **general colour of the flame**. A direct-vision spectroscope may help a comparatively inexperienced observer, but experienced naked-eye judgement remains the benchmark.
+Therefore:
 
-### Silliman, Troy, 1870
+> **different preparation + illumination regimes can produce different visible metallographic objects, not merely different interpretations of one fixed object.**
 
-Silliman uses coloured glasses + spectroscope and prepares an approximately hundred-colour numbered plate to reproduce flame changes, explicitly calibrating against Wedding's published spectrum.
+Carrier decomposition:
 
-### Parker, Cyclops Works, 1871
+**sample provenance → sectioning/orientation → grinding → polishing → etching/tarnishing → illumination → magnification → perceived field → projection/photo/text.**
 
-J. Spear Parker investigates the Bessemer flame **at Cyclops Steel and Iron Works on behalf of Charles Cammell & Co.**
+Private/direct personal contact remains open; published methodological engagement is secure.
 
-He argues:
+## 7. 1885 communication failure → 1888 projected micro-images
 
-- coloured glasses are not inherently more accurate than experienced eyesight;
-- their advantages are safer guidance for inexperienced hands and eye protection;
-- spectroscope indications **have a different basis**;
-- a five-prism direct-vision instrument is preferable for operators unfamiliar with scientific instruments because, once focused, it can be used more like a telescope.
+The 1885 IISI meeting report said Wedding's microscopy paper was difficult to follow because no illustrations were shown.
 
-A later 1871 Parker paper identifies him as **Chemist to the Cyclops Steel and Iron Works** and analyses the absorption properties of the coloured glasses themselves.
+A major new carrier control appears in 1888. At an Austrian mining/metallurgical meeting Wedding delivered **`Beurtheilung des Eisens aus seinem Kleingefüge`** and the meeting record explicitly says he presented **images in a darkened hall using magnesium light**.
 
-The observation carrier is therefore itself calibrated:
+This is a direct communication-method change:
 
-**flame → coloured medium → perceived colour → spectrum → process interpretation.**
+**1885 verbal microscopic description without displayed images → 1888 collective viewing of projected micro-images.**
 
-This is redistribution of observational competence, not simple replacement of tacit skill.
+Use ceiling: the meeting report controls projection/display practice; the exact image-production chain behind those projected images still needs the full 1888 paper/source.
 
-## 6. 1885 — Wedding moves the evidential problem into microscopic internal structure
+This is now one of the strongest examples in the project of a carrier being redesigned because the previous carrier failed socially.
 
-The later bridge is now controlled, not merely anticipated.
+## 8. 1889 method paper explicitly joins object preparation and image formation
 
-Wedding's paper is securely catalogued as:
+Wedding's controlled title:
 
-**H. Wedding, `The Properties of Malleable Iron, deduced from its Microscopic Structure`, *Journal of the Iron and Steel Institute*, 1885, no.1, pp.187–204.**
+**`Ueber Fortschritte in der Lichtabbildung des Kleingefüges von Eisen und die Herstellung von Schliffen`, Stahl und Eisen 9, April 1889.**
 
-A contemporary English-language re-publication/report survives in *Engineering and Mining Journal*, **15 August 1885**, vol.40 no.7, under the same title.
+The full-view volume survives via Google Books/Google Play and HathiTrust, though the article page start/full text has not yet been extracted here.
 
-The report states that for malleable irons chemical composition does not provide a sufficient basis for deducing physical/mechanical behaviour. In particular:
+The title couples exactly the two variables implicated in the Sorby dispute:
 
-- rails made by the same metallurgical process from the same material and of the same chemical composition may still behave differently;
-- microscopic grain/crystalline structure therefore provides an independent evidential layer;
-- grain size changes with cooling conditions and composition;
-- forging/thermal history alter the visible composite structure.
+**image formation (`Lichtabbildung`) + production of polished sections (`Herstellung von Schliffen`).**
 
-A contemporary *Science* report adds that Wedding said microscopical investigation had led him to **modify his earlier explanation of welding**. He now treated the effective strength-bearing area of finished iron as the section remaining after slag inclusions in weld iron, and blow-holes in ingot iron, were deducted.
+Do not yet claim explicit response to Sorby until the full text is read.
 
-This is the decisive same-person shift:
+## 9. Martens' 120 Schliffe = emerging reference collection
 
-**1860: read the live process**
+Secure bibliographic object:
 
-→ **1869: decompose the emitted optical signal**
+**A. Martens, `Erläuterungen ... Sammlung von 120 Schliffen ... verschiedener Eisen- und Stahlsorten`, Berlin, 1884.**
 
-→ **1885: read the finished material's internal structure.**
+Later institutional accounts explicitly describe the collection as serving **comparison and teaching**, later useful to Heyn and the Martens–Heyn microscopic programme.
 
-## 7. 1885 reception exposes the carrier problem again
+Therefore the collection is an institutional carrier:
 
-A contemporary 22 May 1885 report of the Iron and Steel Institute meeting says Wedding's paper was difficult to follow because no illustrations were shown. The discussion was limited; Bauermann regretted the absence of visible examples, and Sir Henry Bessemer commented on crystallisation and the dependence of crystal size/form on conditions.
+**material object → prepared section → collection/reference identity → comparative judgement → teaching/reuse.**
 
-This is evidence that microscopic observation has its own portability problem:
+Open: exact numbering, categories, preparation protocol and provenance from the 1884 catalogue itself.
 
-**seeing under the microscope ≠ successfully transferring the observation to an audience.**
+## 10. 1890/91 microphotographic atlas — bibliographic date requires caution
 
-The later importance of prepared specimens, microphotography, numbered collections and reference atlases therefore follows directly from a communication problem visible inside Wedding's own 1885 presentation.
+Wedding's atlas is widely cited as:
 
-## 8. Sorby–Wedding methodological interaction is now directly controlled
+**`Das Kleingefüge des Eisens. Mikroskopische Originalphotographien mit Erläuterungen`.**
 
-The relation is no longer wholly open.
+Bibliographic controls conflict slightly:
 
-The *Journal of the Royal Microscopical Society* (1886), reporting Sorby's work, quotes Sorby commenting directly on Wedding's paper. Sorby states that, as far as he could judge, the reason Wedding's conclusions differed so much from his was that Wedding's sections **had not been ground down with soft stone before final polishing**. Sorby says he himself only began to see what he regarded as the ultimate structure properly after adopting that method.
+- Francis Scott Rice's later technical bibliography gives **Berlin 1891**;
+- Naturhistorisches Museum Wien's catalogue gives **Berlin 1890, 19 Tafeln**.
 
-This is a crucial methodological control:
+Until the title page is directly controlled, use:
 
-> **specimen preparation determines the visible object and therefore can determine the conclusion.**
+`PUBLICATION_DATE = 1890/1891 (bibliographic discrepancy open)`
 
-The disagreement is not merely theoretical. It is located in a preparation sequence.
+and secure content-form claim:
 
-The same microscopical discussion describes Sorby's reflected-light methods, including oblique and direct illumination and a commonly suitable magnification of about sixty linear. These are controls on Sorby's method, not claims about Wedding's exact setup.
+**original microscopic photographs + explanatory text; 19 plates according to Vienna catalogue.**
 
-Therefore the metallographic carrier must now be decomposed into:
+Do not silently normalize the year to 1891.
 
-**sample provenance → cutting/orientation → grinding → polishing → etching/attack → illumination → magnification → perceived structure → image/textual inscription.**
+## 11. 1893 handbook codification
 
-Direct personal co-presence/contact remains open, but **published methodological engagement is secure**.
+A contemporary Dingler review of Wedding's **2nd ed., vol.1, Lieferung 2** states that its final section treats:
 
-## 9. Revised transformation chain
+- microscopic investigation of microstructure;
+- **production of polished sections**;
+- judgement of iron from microstructure.
 
-Strongest same-person chain:
+The first volume is independently available as a free digital book (1034 pages) through Google Play/Books.
 
-**1860 Wedding Sheffield flame/time judgement → portable notebook inscription → c.1868/69 Bessemer-flame spectroscopy → 1870–71 debate over skill, coloured filtering and spectroscope → 1885 microscopic structure of malleable iron → preparation-method dispute with Sorby → prepared specimen / microscopic image / reference system.**
+This marks a genre/institutional transition:
 
-At the level of where evidence resides:
+**experimental paper / methodological dispute → general iron-metallurgy handbook for teaching and practice.**
 
-**running process → emitted light → prepared material surface / internal structure.**
+## 12. 1899 third-party replication: preparation standardized, image still locally contingent
 
-At the level of carriers:
+`Stahl und Eisen`, 15 Nov. 1899, `Zur Beurtheilung des Roheisens nach dem Kleingefüge`, says explicitly that Schliffflächen were made **according to Wedding's instructions in Handbuch der Eisenhüttenkunde I.2**.
 
-**notebook sketch/timing → spectrum/plate/text → prepared surface → microscopic description / image / specimen.**
+Reported preparation variables:
 
-This is much stronger than `travel note → microscopy` and avoids a one-way `Sorby → Wedding` diffusion story.
+- c. **4 mm** thick plates;
+- c. **1 cm²** surface;
+- **cold-saw cutting under cooling**;
+- orientation retained relative to original fracture / longitudinal bar axis;
+- etching omitted in that experiment after tests failed to improve relief.
 
-## 10. Relation to Sorby — revised
+Critical ceiling:
 
-Sorby remains essential but should not be positioned as a simple origin from which Wedding derives.
+The same authors then say microscopy/photography used **diffuse light** because their apparatus could not provide rays parallel to the microscope axis.
 
-What is now secure is a direct published methodological relation: Sorby explicitly explains disagreement with Wedding through **specimen-preparation technique**.
+Therefore:
 
-The stronger comparative problem is therefore:
+- preparation = explicitly Wedding-derived;
+- diffuse illumination = authors' apparatus-limited choice, **not Wedding's method**.
 
-> **How did different preparation protocols create different metallographic objects and therefore different claims?**
+This gives a historically concrete demonstration that:
 
-Sorby had already made metal structure a microscopic field; Wedding arrives at microscopy through metallurgical practice and Bessemer work. Their approaches intersect concretely in a dispute over how the sample must be made before it can be seen.
+> **standardizing the specimen and standardizing the image are distinct operations.**
 
-Direct private contact/co-presence remains open unless separate evidence establishes it.
+## 13. Revised carrier chain
 
-## 11. 1861 demonstration carrier remains important but secondary
+Same-person / institutional sequence now testable:
 
-Direct *Scientific American* control establishes the 31 July–1 Aug. 1861 Sheffield meeting and Bessemer's formal proof package:
+**1860 live flame/time process signal**
+→ **1869 spectrally decomposed live-process signal**
+→ **1884/85 prepared-section reference collection + microscopic internal field**
+→ **1885 communication failure without displayed illustrations**
+→ **1888 projected micro-images under magnesium light**
+→ **1889 explicit section-production + optical-image problem**
+→ **1890/91 original microphotographic plates**
+→ **1893 handbook codification**
+→ **1899 third-party Wedding-method section preparation under locally different illumination.**
 
-- existing-use boiler case;
-- test bars and gun specimen physically present;
-- quantified tests;
-- 11:20 tapped iron → 30-minute conversion → 7 p.m. forged product;
-- throughput/capital claim;
-- American editorial conversion into `industrial success` and patent/investment judgement.
+This is now a direct history of how observation becomes **portable, collective, repeatable, and institutionally reusable**.
 
-This shows another carrier sequence:
+## 14. Immediate next work
 
-**works/process → specimen + quantified demonstration → technical press → commercial/patent decision.**
+Highest priority:
 
-`The Engineer` vol.12 pp.10/63 and full IMechE excursion remain pending.
+1. extract Wedding **1889 `Ueber Fortschritte...`** full text/page start from *Stahl und Eisen* vol.9 and test:
+   - soft-stone grinding;
+   - direct/vertical illumination;
+   - oblique specimen position;
+   - etching/tarnishing;
+   - microphotographic apparatus;
+   - Sorby citation/response.
+2. recover Wedding handbook **2nd ed. vol.1 Lieferung 2** exact pages for:
+   - microscope examination;
+   - `Herstellung der Schliffe`;
+   - `Beurtheilung des Eisens nach dem Kleingefüge`.
+3. recover Martens **1884 120-Schliffe catalogue** item structure/preparation/provenance.
+4. resolve Wedding **`Das Kleingefüge des Eisens` 1890 vs 1891** from title page and inspect the 19 plates/captions/magnifications.
+5. recover full Wedding **1885 JISI pp.187–204** preparation/illumination language.
+6. recover full **1888 projected-image talk** if printed, identifying what images were projected and how generated.
+7. retain Wedding 1869 original paper/plate as parallel highest-value live-process optical source.
 
-## 12. Licence/adoption and Cyclops context remains controlled
+If Mss 25 PDF 299 becomes accessible at any point, immediately microtranscribe the flame-stage passage.
 
-Preserve chronology:
-
-**1859 Bessemer process stabilised → 1860 Brown licence → 25 July 1860 Wedding Bessemer/Cammell → 1861 Cammell licence → 1862 Fox.**
-
-Cyclops in July 1860 belongs to a heterogeneous process landscape immediately before its own Bessemer transition. Do not back-project later rail/armour production.
-
-Archive routing for exact Cammell licence remains:
-
-- `ESC/CC` company archive route;
-- `WED/312–315` Charles Cammell & Co deeds;
-- `MD8121` finance/legal/deeds only with item-level provenance;
-- `D7806` is personal estate/property and low priority;
-- Science Museum Group Barrow licence agreement proves formal Bessemer agreements survive as discrete archive objects.
-
-This remains secondary to the 1869/1885 evidential-regime chain.
-
-## 13. Immediate next work — revised priority
-
-### Priority 1 — Wedding 1869 original paper and plate
-
-Acquire/directly transcribe **`Das Spektrum der Bessemerflamme`, pp.117–134 + plate**.
-
-Extract exact experiment location/date, instrument, repeatability, manganese/iron/carbon/CO interpretation, endpoint implications, chemical analyses, earlier Sheffield references and plate function.
-
-### Priority 2 — Wedding 1885 original JISI pp.187–204
-
-Collate the JISI original against the 15 Aug. 1885 *Engineering and Mining Journal* version.
-
-Highest-value extraction fields now are:
-
-- Wedding's exact **grinding/polishing/etching** sequence;
-- whether Sorby's `soft stone` criticism accurately identifies an omitted step;
-- cutting/orientation of samples;
-- mounting method;
-- illumination and microscope configuration;
-- magnification;
-- specimen provenance and metallurgical histories;
-- terminology for grains/kernels/network/crystalline/homogeneous structure;
-- exact relation of microstructure to cooling/forging/mechanical properties;
-- plates/figures/tables;
-- full Bessemer/Bauermann/Sorby response chain.
-
-### Priority 3 — 1860↔1869↔1885 method/variable table
-
-Use fields:
-
-`PROCESS_STAGE / VISIBLE_FLAME / TIME / ENDPOINT / MATERIAL / OPERATOR_JUDGEMENT / SPECTRAL_LINE / CHEMICAL_INTERPRETATION / SPECIMEN_PREPARATION / ILLUMINATION / MAGNIFICATION / MICROSTRUCTURE / MECHANICAL_PROPERTY / CARRIER`.
-
-### Priority 4 — spectroscopy / microscopy genealogy
-
-- control early Roscoe/John Brown Sheffield chronology;
-- Wedding backward to Brunner/Lielegg/Watts and forward to Silliman/Drown;
-- trace Sorby's exact 1885/86 published critique and whether Wedding answered it;
-- establish whether Parker's spectroscope became routine production practice at Cyclops.
-
-### Lower retained priorities
-
-- direct Gruner–Lan pp.788–789;
-- *The Engineer* 1861 pp.10/63 + IMechE excursion;
-- Cyclops `X306/6/4/1`;
-- exact Cammell 1861 licence/royalty records.
-
-## 14. Claim ceilings
+## 15. Claim ceilings
 
 Secure:
 
-- Wedding's 1860 notebook records Bessemer process timing and flame/process staging at section level;
-- Hermann Wedding published `Das Spektrum der Bessemerflamme` in 1869, pp.117–134, with a plate;
-- contemporary sources identify the author as Wedding in Berlin;
-- Drown credits Wedding/von Lichtenfels with an experimentally produced manganese spectrum corresponding closely to the Bessemer flame;
-- Silliman directly cites Wedding's violet-line observation, spectrum/solar calibration object and manganese interpretation;
-- Sorby preserves experienced naked-eye flame judgement as a benchmark while discussing spectroscopy;
-- Parker's 1871 Cyclops work distinguishes experienced-eye judgement, coloured-glass assistance and spectroscopic indication;
-- Wedding's 1885 JISI paper is pp.187–204 and makes microscopic structure an evidential layer not reducible to chemistry/process label;
-- Wedding said microscopy caused him to revise his earlier explanation of welding;
-- contemporary 1885 reception shows that lack of illustrations impaired communicability of microscopic structure;
-- Sorby directly attributes major differences between his and Wedding's microscopic conclusions to Wedding's omission of soft-stone grinding before final polishing.
+- 1860 notebook selects Bessemer timing/flame-process signals;
+- Wedding 1869 Bessemer spectrum paper exists at pp.117–134 + plate;
+- Wedding 1885 makes microscopic structure an evidential layer and revises earlier metallurgical explanation;
+- Martens' 120-section collection was already available as a comparison/teaching reference environment;
+- Sorby publicly locates disagreement with Wedding in specimen preparation (soft-stone grinding) and illumination methodology;
+- Wedding's 1888 Austrian presentation used projected images in a darkened hall with magnesium light;
+- Wedding's 1889 paper explicitly couples optical image formation with production of polished sections in its title;
+- Wedding's atlas takes the form of microscopic original photographs with explanations; publication year remains 1890/91 pending title-page control;
+- Wedding's microscopy/preparation method is explicitly incorporated into his 1890s handbook;
+- a 1899 third party explicitly follows Wedding's handbook specimen-preparation instructions;
+- the 1899 diffuse-light setup belongs to that third party's apparatus and must not be attributed to Wedding.
 
 Strong inference:
 
-- Wedding's 1869 paper reformats an operational signal already selected in his 1860 notebook;
-- his 1885 microscopic work relocates evidence from the running process into internal material structure;
-- the long transition is better understood as redistribution/standardisation of observation across scales and carriers than as simple instrument replacement;
-- specimen preparation is itself part of the epistemic carrier, not a neutral preliminary step;
-- the 1885 communication/preparation disputes help explain why later metallography required standard surfaces, images, prepared specimens and reference systems.
+- the 1885 failure to communicate unsupported microscopic descriptions forms a plausible immediate background to Wedding's move toward projected/image-supported presentations;
+- preparation, illumination, projection, photography and reference collection are separate historical variables in metallographic evidence-making;
+- Wedding/Martens' Berlin programme can now be analysed as an emerging **reference infrastructure**, not merely a series of microscope observations.
 
 Open:
 
-- exact 1860 flame-stage wording;
-- full Wedding 1869 text + plate and experiment location/instrument;
-- full Wedding 1885 original text/figures/specimen method;
-- whether Wedding explicitly links 1869 spectroscopy to his 1860 Sheffield encounter;
-- whether Wedding answered Sorby's preparation critique;
-- direct private Wedding–Sorby contact/co-presence;
-- routine operational uptake of Parker's spectroscope at Cyclops;
-- exact institutional/material route from Wedding's 1885 microscopy into later numbered specimen/image systems.
+- exact Wedding 1885 preparation procedure;
+- exact 1889 methods/citations and whether Sorby is answered directly;
+- exact Martens 1884 collection numbering/preparation;
+- title-page date and internal architecture of Wedding's 19-plate microphotographic atlas;
+- exact handbook recipe in Wedding's own wording;
+- direct continuity between Martens collection items and Wedding atlas plates;
+- private Wedding–Sorby interaction;
+- exact route from these reference objects into later institutional numbering/image systems.
 
 ## Resume condition
 
-**Resume first by acquiring/transcribing Wedding 1869 pp.117–134 + plate and Wedding 1885 JISI pp.187–204, with special attention to specimen preparation. If Mss 25 PDF 299 becomes available before either, immediately transcribe the flame-stage passage. The older Gruner/*Engineer*/licence queue is retained but secondary.**
+**Resume first on Wedding 1889 full text + handbook Schliff pages + Martens 1884 catalogue + 1890/91 atlas title page. The spectroscopy/1860 manuscript chain remains parallel high priority. Older Gruner/*Engineer*/licence work is retained but secondary.**
