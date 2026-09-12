@@ -1,178 +1,191 @@
-# Onsite value map — Library / EBA / GFA
+# Onsite value map — Library + current ANTON systems
 
 **Date:** 2026-09-12  
 **Status:** ACTIVE RESIDENCY-NECESSITY MAP  
-**Rule:** collection existence is not the same as onsite necessity. Distinguish what can already be researched remotely from what requires or materially benefits from consultation at Klostergut Paradies / the GF Corporate Archives.
+**Rule:** collection existence is not the same as onsite necessity. Current architecture = Library + EBA / GFA / GFKS / GFD.
 
 ## 0. Governing distinction
 
 For every holdings block, separate:
 
-1. `METADATA_REMOTE` — catalogue metadata available online;
-2. `SOURCE_IMAGES_REMOTE` — primary-source images/facsimiles available online;
-3. `REMOTE_STAFF_SUPPORT` — whether staff can answer enquiries or potentially supply reproductions without a visit;
-4. `REMOTE_SUBSTITUTABILITY` — whether the research can be completed without consulting the originals/undigitised series;
-5. `ONSITE_INCREMENT` — what becomes possible only or materially better on site;
-6. `RULE_STATUS` — whether formal rules require consultation on site.
+1. `METADATA_REMOTE`;
+2. `SOURCE_IMAGES_REMOTE`;
+3. `REMOTE_STAFF_SUPPORT`;
+4. `REMOTE_SUBSTITUTABILITY`;
+5. `ONSITE_INCREMENT`;
+6. `RULE_STATUS`.
 
-Do not claim that a source is undigitised merely because no image appears in a search result. Use the narrower formulation `NO PUBLIC DIGITAL OBJECT EXPOSED / NO DIGITALISIERT MARKER CONTROLLED` unless staff confirmation is obtained.
+Do not claim that a source is undigitised merely because no image appears in a search result. Use `NO PUBLIC DIGITAL OBJECT EXPOSED / NO DIGITALISIERT MARKER CONTROLLED` until staff confirms internal digitisation/reproduction status.
 
-## 1. Institutional access rules
+## 1. Current system architecture and access logic
 
-### Library / reading room
+### Library
 
-The Iron Library is a reference library. Holdings may be consulted in the reading room. The public services page states that users can make their own scans, photograph material with their own camera, and receive staff consultation on site.
+Reference library; reading-room consultation, user scans/photography and staff support available. Interlibrary loan exists for eligible printed material. Printed holdings are therefore not automatically onsite-only.
 
-The Library also participates in interlibrary loan, so ordinary printed literature should not automatically be treated as onsite-only. Present-day specialist collection density can still make onsite comparative work efficient, but item-level access necessity must be argued separately.
+### EBA
 
-Official source: Iron Library `Services` page.
+Rich metadata in ANTON; exact formal relationship between EBA and the published GFA Corporate Archives regulations remains OPEN. Do not automatically apply the GFA no-send clause to every EBA fonds without staff confirmation.
 
-### GFA Corporate Archives
+### GFA
 
-The 2020 Corporate Archives regulations state that archival holdings may be used only on the premises of the Corporate Archives or the Iron Library and may not be loaned or sent out for consultation. Reproduction is subject to the Archivist's decision.
+2020 Corporate Archives regulations state that archival holdings may be consulted only on the premises of the Corporate Archives/Iron Library and may not be loaned or sent out for consultation. Reproduction is discretionary. Archive staff also answer remote enquiries, so `onsite source consultation` != `no remote support`.
 
-This creates a genuine access-based onsite rationale for non-digitised GFA archival material, but **do not overstate this as zero remote support**. Annual reports show that archive staff handle substantial numbers of research enquiries, sometimes involving extensive staff research. The correct distinction is therefore:
+### GFKS
 
-- **source consultation** of GFA archive material = onsite under the formal rules;
-- **reference/research enquiries and possible reproductions** = some remote staff support exists, extent and limits must be confirmed case by case.
+Physical art/map/visual-object collection, c.48 lm. Many currently visible records include high-quality digital images and physical descriptions. Onsite value is generally **material/copy-specific**, not basic image-content access.
 
-Official sources: `Regulations of the Corporate Archives of Georg Fischer Ltd`, §§4.1–4.6; Iron Library annual reports.
+### GFD
 
-### EBA caveat
-
-EBA is administered/catalogued within the Iron Library/archives environment and is used in the same reading-room ecosystem, but the publicly controlled rule text cited above is formally titled for the **Corporate Archives of Georg Fischer Ltd**. The current services page labels its download broadly as regulations for `Library & Archives`, but the linked PDF itself remains the Corporate Archives regulation. This creates a real public-document ambiguity.
-
-Until staff confirms the exact regulatory status of EBA, do not simply quote the GFA no-send rule as if it were explicitly written for every EBA fonds.
-
-For EBA, current onsite-value claims should rest on the combination of:
-
-- online metadata;
-- absence/presence of publicly exposed digital objects;
-- reading-room services;
-- the need to inspect series/carriers not reproduced online;
-- staff confirmation of remote reproduction and consultation policy.
+Modern digital documentation layer, c.1 lm. GFD 3 is explicitly `rein digitaler Bestand`, created in 2022 and expanded for the Johann Conrad Fischer digital edition / keyword illustration. Many files are reproductions from external institutions. **Essentially no onsite source-access value** for nineteenth-century original-source research.
 
 ## 2. Block-by-block remote / onsite map
 
-| System | Block | Metadata remote | Source images remote | Remote staff support | Remote substitutability | Onsite increment | Current onsite value |
-|---|---|---|---|---|---|---|---|
-| LIBRARY | nineteenth-century printed subject holdings | HIGH via IRONCAT/SWB/WorldCat | MIXED: selected old prints on e-rara; many holdings not digitised | HIGH for bibliographic enquiries; ILL exists | MEDIUM | rapid cross-shelf comparison, copy-specific inspection, rare/uncirculated material, staff-assisted retrieval | MEDIUM–HIGH, but not automatically necessary title by title |
-| LIBRARY | nineteenth-century serial environment | HIGH at title/holding level once full export recovered | MIXED; some runs obtainable elsewhere, exact Iron Library copies/completeness still OPEN | HIGH for holdings enquiries | MEDIUM | verify local run completeness/gaps, compare long runs efficiently, inspect copy-specific bindings/provenance if relevant | MEDIUM–HIGH; strongest if project depends on the collection as a corpus rather than isolated articles |
-| LIBRARY | Wedding Mss 23–25 | HIGH | **VERY HIGH: full e-codices facsimiles + IIIF** | unnecessary for basic source access | **VERY HIGH** | original-carrier inspection only; source content itself is already remotely available at high quality | **LOW as source-access justification**; excellent pre-visit corpus |
-| EBA | EBA 3 Haffter | HIGH | **NO PUBLIC DIGITAL OBJECT EXPOSED in controlled catalogue record; media section empty** | OPEN: staff enquiries possible institutionally; reproduction status unknown | LOW–MEDIUM | inspect 555 correspondence files, copier books, accounting volumes, ordering, hands, paper/carrier relations; staff-guided series work | **VERY HIGH candidate pending staff confirmation of remote substitutes** |
-| EBA | EBA 4 Küderli/Bär | HIGH | pre-1885 series show no `Digitalisiert` marker in controlled catalogue listing | OPEN | LOW–MEDIUM | inspect correspondence, profile albums, price lists, cashbooks and sales journals as connected physical series | **VERY HIGH candidate pending staff confirmation** |
-| EBA | EBA 1 engineering/maps | HIGH | MIXED: some items such as the 1880 Gotthard overview are digitised; the 25-record Gotthard cluster remains mostly metadata-only in current control | OPEN | MEDIUM | resolve exact dating, cartographic type, paper/scale/annotations, sequence and provenance where public metadata is too broad | HIGH if map cluster enters the final project; otherwise secondary |
-| GFA | Rauschenbach operational/company records | HIGH | MIXED: some photographs explicitly digitised; core correspondence/contracts, employee register and sickness-fund volumes currently have no `Digitalisiert` marker | MEDIUM: archive staff handle research enquiries; reproduction discretionary | **LOW for source consultation of archival core** | direct access to continuous operational/company series that cannot be reconstructed from digitised photos | **VERY HIGH** |
-| GFA | native GF product/market-document regime c.1865–83 | HIGH | MIXED: Temperguss poster and 19-object Gussstahl/Weichguss group explicitly digitised; product catalogues and other records not uniformly exposed digitally | MEDIUM | MEDIUM | compare original catalogues, price lists, regulations, plans and 3D material across carriers; inspect physical sequencing and copy status | HIGH |
-| GFA | Traisen | HIGH | MIXED/OPEN | MEDIUM | LOW–MEDIUM if original plans/Blaubuch history becomes central | distinguish later Blaubuch copies from contemporary originals; inspect original 1880 plans and associated files | HIGH but narrow |
-| GFA | post-1896 governance series | HIGH | selected later series/digital publications available; archival files mixed | MEDIUM | LOW for undigitised files | systematic corporate governance research onsite | VERY HIGH for post-1896 projects, but chronologically outside current c.1850–85 core |
+| System | Block | Metadata remote | Source images remote | Remote substitutability | Onsite increment | Current onsite value |
+|---|---|---|---|---|---|---|
+| LIBRARY | nineteenth-century printed subject holdings | HIGH | MIXED | MEDIUM | cross-shelf comparison, rare/copy-specific features, staff-assisted retrieval | MEDIUM–HIGH |
+| LIBRARY | nineteenth-century serial environment | HIGH once full holdings export recovered | MIXED | MEDIUM | verify local run completeness/gaps and compare long runs efficiently | MEDIUM–HIGH |
+| LIBRARY | 14 e-codices manuscripts incl. Wedding Mss 23–25 | HIGH | **VERY HIGH** | **VERY HIGH** | original-carrier inspection only | **LOW for source-access necessity** |
+| LIBRARY / legacy boundary | ISIL-reported 66 manuscripts + 3 estates | institution-level total known; identities incomplete | OPEN | OPEN | could become high if non-e-codices 19c coherent/undigitised blocks exist | **OPEN / potentially HIGH** pending current catalogue mapping |
+| EBA | EBA 3 Haffter | HIGH | no public media exposed in controlled record | LOW–MEDIUM | inspect 555 correspondence files, copier/accounting books as physical series | **VERY HIGH candidate** |
+| EBA | EBA 4 Küderli/Bär | HIGH | no public `Digitalisiert` marker on controlled pre-1885 core | LOW–MEDIUM | inspect correspondence, profile albums, price lists, cash/sales books as connected series | **VERY HIGH candidate** |
+| EBA | EBA 1 engineering/maps | HIGH | MIXED | MEDIUM | resolve broad dating, sequence, annotations, material/scale/provenance | HIGH if relevant |
+| EBA | EBA 8 graphic/art collection | HIGH | HIGH for many items | HIGH for image content | materiality/verso/condition only | LOW–MEDIUM |
+| GFA | Rauschenbach operational/company records | HIGH | MIXED; photos digitised, core texts not publicly exposed similarly | LOW for archival source consultation | continuous operational/company series onsite | **VERY HIGH** |
+| GFA | native GF product/market regime c.1865–83 | HIGH | MIXED | MEDIUM | compare catalogues/price lists/regulations/plans/objects across carriers | HIGH |
+| GFA | Traisen | HIGH | MIXED/OPEN | LOW–MEDIUM | distinguish later copies from contemporary plans/originals | HIGH but narrow |
+| GFKS | c.1850–85 Schaffhausen/industrial visual layer | HIGH | **HIGH**: many maps/lithographs explicitly digitised | HIGH for represented image content | physical print/map carrier, framing, verso, dimensions, condition, comparative materiality | **LOW–MEDIUM** unless image materiality becomes central |
+| GFD | digital documentation/reference images | HIGH | **COMPLETE BY DESIGN / digital** | **VERY HIGH** | essentially none for original-source access | **VERY LOW / reference only** |
 
-## 3. Strongest residency-necessity blocks at present
+## 3. Strongest residency-necessity blocks
 
-### Tier O1 — source access itself strongly favors onsite work
+### Tier O1 — source consultation strongly favors onsite work
 
-1. **EBA 3 Haffter** — 15 lm closed archive; catalogue exposes rich series structure but no public digital media in the controlled record. Keep `VERY HIGH` provisional until staff confirms whether extensive internal/on-request scans exist.
-2. **EBA 4 Küderli/Bär** — compact but tightly aligned 1854–1885 series; public listing exposes metadata, not source images for the historical core. Again, confirm remote reproduction status before using an absolute onsite-only claim.
-3. **Rauschenbach operational/company records** — core correspondence/contracts/staff/social series are not publicly exposed as digital objects, while selected photographs are explicitly digitised. GFA source consultation is formally onsite; staff enquiries/reproduction may still offer limited remote support.
+1. **EBA 3 Haffter** — 15 lm closed archive; rich series metadata but no public source media exposed for core series.
+2. **EBA 4 Küderli/Bär** — tight 1854–1885 fit; historical series metadata visible but source images not publicly exposed in controlled listings.
+3. **Rauschenbach operational/company records** — core textual/staff/social series publicly metadata-visible but not digitised in the same way as selected photographs; GFA source consultation formally onsite.
 
-### Tier O2 — mixed digital/physical; onsite adds cross-carrier control
+All three remain provisional until staff confirms internal/on-request scans and reproduction limits.
 
-4. **native GF c.1865–83 product/market regime** — some key objects/images are digital, others are not; onsite value lies in reconstructing the regime across catalogues, price lists, regulations, plans and objects.
-5. **Traisen original plans / copy-history problem** — onsite useful if carrier chronology becomes part of the question.
-6. **EBA 1 map cluster** — onsite could resolve metadata insufficiency, but only if the final project genuinely needs it.
+### Tier O1? — newly open Library special-collection question
 
-### Tier O3 — strong research corpus but weak source-access necessity
+**ISIL-reported 66 manuscripts + 3 estates** could materially change the onsite case, but current mapping is unresolved.
 
-7. **Wedding Mss 23–25** — full facsimile/IIIF remote access. Use before arrival for transcription/routing; do not make these manuscripts the sole argument for residence.
-8. **digitised GF photos / published annual reports / e-rara books** — valuable contextual sources, but remote access reduces their weight in an onsite-necessity claim.
+Do not say `52 undigitised manuscripts`.
 
-## 4. Important internal controls
+Current safe statement:
+
+> ISIL reports 66 manuscripts + 3 estates institutionally; e-codices exposes 14 selected Eisenbibliothek manuscripts; identities, chronology, current Library/EBA/GFKS mapping and digitisation status of the remainder are OPEN.
+
+### Tier O2 — mixed digital/physical
+
+- native GF c.1865–83 product regime;
+- Traisen original-plan/copy-history problem;
+- EBA 1 map cluster;
+- **GFKS visual originals**, if physical image carriers themselves become research objects.
+
+### Tier O3 — strong research corpus but weak access necessity
+
+- Wedding Mss 23–25;
+- digitised GFKS maps/views/prints when only image content matters;
+- digitised GF photos/objects;
+- e-rara / published annual reports.
+
+### Tier O4 — reference only
+
+- **GFD**.
+
+## 4. Boundary-history warning affects onsite claims
+
+Swiss ISIL reports for Eisenbibliothek:
+
+- 66 manuscripts;
+- 3 estates;
+- c.300 graphical sheets;
+- 80 maps of canton Schaffhausen.
+
+Current ANTON separately holds EBA, GFA, GFKS and GFD. Schaffhausen historical maps are visibly present in **GFKS 2**; EBA 8 is a separate graphische/Kunst collection and records transfers from GF Kunstsammlung in 2023.
+
+Therefore old/institution-level statistics cannot be interpreted as additional independent physical collections without mapping them to today's systems first.
+
+This is an onsite-planning issue: before claiming a non-digitised special collection requires consultation, determine **where the object actually sits now and whether it is already digitised in GFKS/EBA**.
+
+## 5. Important controls
 
 ### Rauschenbach
 
-The ANTON actor page lists operational records such as:
-
-- GFA 1/780 — correspondence/contracts, 1868–1905;
-- GFA 1/781 — correspondence/contracts, 1869–1921;
-- GFA 1/806 — employee register, 1871–1930;
-- GFA 1/809 — sickness fund, 1872–1930, 10 vols;
-- GFA 1/2288 — correspondence 1876–79 within a larger dossier;
-- GFA 1/786 — crisis/move dossier from 1878.
-
-The same catalogue explicitly marks some photographs as `Digitalisiert`. Therefore current public evidence supports the narrower claim: **the operational textual series are catalogued online but are not publicly exposed as digitised objects in the same way as selected photographs.**
+Controlled operational anchors include GFA 1/780, /781, /806, /809, /2288 and /786. Selected photographs in the same catalogue are explicitly `Digitalisiert`; core operational records are not publicly exposed in the same way.
 
 ### Native GF
 
-The catalogue explicitly marks:
+`GFA 1/162.110` Temperguss poster and `GFA 32/217` object group are explicitly digitised. Adjacent product catalogues/price records are not uniformly exposed digitally. Mixed-access cluster.
 
-- `GFA 1/162.110` Temperguss poster (1868–76) — digitised;
-- `GFA 32/217` 19 Gussstahl/Weichguss objects (1865–95) — digitised.
+### GFKS
 
-By contrast the two 1868–76 product-catalogue volumes and several adjacent price/product records do not carry the same marker in the controlled listings. Treat this as a **mixed-access cross-carrier cluster**, not an entirely undigitised one.
+Examples of real physical + digital objects:
 
-### Wedding
+- `GFKS 3/250`, Schaffhausen Stahlfabrik, 1866: framed tonal lithograph, digitised;
+- `GFKS 2/861`, Schaffhausen map, 1879–85, digitised;
+- `GFKS 2/862`, Karte des Kantons Schaffhausen, 1883, digitised.
 
-Iron Library's digital-resources page states that all its e-codices manuscripts can be downloaded in high quality. Mss 23, 24 and 25 each have public facsimiles and IIIF manifests. They are therefore ideal for pre-visit preparation.
+Use GFKS to study visual/material representation; do not make digitised image access itself an onsite claim.
 
-## 5. What this changes in project design
+### GFD
 
-A strong residency design should not say merely:
+`GFD 3` is a purely digital collection created in 2022; records such as Belzoni/Armstrong portraits explicitly point to British Museum/Wellcome holdings. Historical subject dates are not dates of physical GF-owned originals.
 
-> `I need to visit because the Iron Library holds Wedding manuscripts.`
+## 6. Project-design consequence
 
-That is weak because the manuscript content is already remotely accessible.
+Weak architecture:
 
-A stronger architecture is:
+> `I need to visit because the institution holds Wedding manuscripts / historical images.`
 
-> **remote pre-resolution of digitised Library manuscripts and printed sources → staff-confirmed identification of non-publicly-digitised archival series → onsite comparison with EBA/GFA series and original carriers → post-visit synthesis.**
+Stronger architecture:
 
-This makes the residence methodologically necessary rather than ceremonially useful.
+> **remote pre-resolution of digitised Library/GFKS/GFD sources → staff-confirmed identification of non-publicly-digitised EBA/GFA/Library special-collection series → onsite comparison of physical series/original carriers → post-visit synthesis.**
 
-The most promising current cross-system pairing is:
+Current strongest cross-system operational combination remains:
 
-- **Library** for the printed/digitised knowledge environment;
-- **EBA 3 / EBA 4** for non-GF iron-trade and product-ordering archives;
-- **Rauschenbach / selected native GF regimes** for industrial-company records and carriers.
+- Library printed/serial knowledge environment;
+- EBA 3 / EBA 4 archival series;
+- Rauschenbach / selected native GF company records;
+- GFKS only when a visual/object comparison genuinely adds evidence.
 
-The final historical question still remains open. The onsite map should constrain question selection: prefer a question that requires at least one Tier O1 block rather than one that can be completed from e-codices/e-rara alone.
-
-## 6. Claim ceiling
+## 7. Claim ceiling
 
 Secure:
 
-- Iron Library reading room offers user scanning, photography and staff consultation;
-- the Library is a reference library;
-- GFA Corporate Archive source consultation is formally onsite and archive materials may not be loaned/sent for consultation under the 2020 regulations;
-- archive staff also handle substantial remote research enquiries, so `onsite source consultation` must not be paraphrased as `no remote support`;
-- Mss 23–25 are remotely available in full facsimile/IIIF;
-- EBA 3 catalogue record exposes no public media and its principal series are metadata-only in the controlled record;
-- EBA 4 historical series have no `Digitalisiert` marker in the controlled listing;
-- Rauschenbach operational records lack the `Digitalisiert` marker that appears on selected photographs;
-- native GF early product material is a mixed digital/physical corpus.
+- GFA source consultation is formally onsite under current regulations;
+- staff remote enquiries exist;
+- Wedding Mss 23–25 are fully remotely available;
+- EBA 3/4 core series are not publicly exposed as digital source objects in controlled catalogue views;
+- Rauschenbach core operational records are not publicly exposed in the same way as digitised photos;
+- GFKS contains physical originals and many visible nineteenth-century items are digitised;
+- GFD 3 is explicitly purely digital and modern;
+- ISIL reports 66 manuscripts / 3 estates / c.300 graphical sheets / 80 Schaffhausen maps institutionally.
 
-Open / staff-confirmation needed:
+Open:
 
-- whether the GFA no-send rule formally applies unchanged to every EBA fonds;
-- whether unpublished/internal scans or on-request reproductions already exist for EBA 3/4 or Rauschenbach;
-- what scale of remote staff research/reproduction is realistic before a visit;
-- exact reproduction limits/costs for large series;
-- whether all items without a public `Digitalisiert` marker are in fact undigitised internally;
-- advance-ordering limits and daily retrieval capacity for a 2–3 week residency.
+- EBA formal access-rule scope;
+- internal/on-request scans for EBA3/4/Rauschenbach;
+- exact mapping of ISIL legacy/institutional special-collection counts into current Library/EBA/GFKS systems;
+- names/dates/digitisation status of the 66 manuscripts / 3 estates;
+- remote reproduction limits and daily retrieval capacity.
 
-## 7. Next action
+## 8. Next action
 
-1. Preserve Wedding/digitised material as **pre-visit corpus**, not onsite rationale.
-2. Send only after review a collection-level staff enquiry around EBA 3, EBA 4 and Rauschenbach: digitisation status, remote reproduction, consultability, box/volume counts, ordering limits, reproduction policy, and EBA rule scope.
-3. Add the same onsite-value field to the five-axis holdings heat map.
-4. Choose the eventual proposal only after it can be shown to depend materially on at least one Tier O1 corpus.
+1. staff enquiry: ask current mapping of `66 / 3 / 300 / 80`, not just manuscript identity;
+2. do not spend further time on GFD unless needed for iconographic discovery;
+3. keep GFKS as supporting visual/material system unless final question makes physical images/maps central;
+4. select final proposal only after at least one Tier-O1 corpus is confirmed practically consultable and not remotely substitutable.
 
 ## Controlled public sources
 
-- Iron Library Services: https://www.eisenbibliothek.ch/en/ressources/services.html
-- Corporate Archives regulations: https://www.eisenbibliothek.ch/content/dam/ironlibrary/documents/benutzungsordnung/Regulations_Archive_20200120.pdf
-- Iron Library digital resources: https://www.eisenbibliothek.ch/en/ressources/digital.html
-- annual reports on archive enquiries/use: Iron Library annual reports, especially 2020 and 2023/24
-- EBA 3 Haffter: https://archives.georgfischer.com/objects/show?collection=0&context=tectonical&fonds=0&index=3&parent=2&perPage=50&recordgroup=0&sortAsc=1&sortField=position
-- EBA 4 Küderli/Bär: https://archives.georgfischer.com/objects/EBA%204
-- Rauschenbach actor/catalogue view: https://archives.georgfischer.com/actors/49
-- Wedding Mss 23/24/25: https://www.e-codices.unifr.ch/de/list/one/ebs/0023 ; /0024 ; /0025
+- ANTON four-system root: https://archives.georgfischer.com/objects?actor_id=3040&pag=2&perPage=25&sortAsc=1&sortField=identifier
+- Swiss ISIL `CH-000728-7`
+- Iron Library services and digital resources
+- Corporate Archives regulations
+- EBA 3 / EBA 4 catalogue records
+- Rauschenbach actor/catalogue view
+- GFKS examples in ANTON
+- GFD 3: https://archives.georgfischer.com/objects/124043
