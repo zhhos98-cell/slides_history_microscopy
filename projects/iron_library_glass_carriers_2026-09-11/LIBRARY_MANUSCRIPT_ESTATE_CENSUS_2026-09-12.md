@@ -2,138 +2,179 @@
 
 **Date:** 2026-09-12  
 **Status:** ACTIVE COLLECTION-LEVEL CENSUS  
-**Rule:** do not equate the 14 e-codices manuscripts with the total manuscript holdings of the Iron Library.
+**Rule:** do not equate the 14 e-codices manuscripts with the total institutional manuscript/estate statistics, and do not infer the identities of `3 Nachlässe` from every donation called a `Nachlass`.
 
-## 1. Newly controlled institution-level total
+## 1. Current institution-level total
 
-The current Swiss ISIL record for the Eisenbibliothek (`CH-000728-7`) lists under `Archivbestände`:
+The current Swiss ISIL record for Eisenbibliothek (`CH-000728-7`) lists under `Archivbestände`:
 
 - **66 Handschriften**;
 - **3 Nachlässe**;
 - c.300 graphic sheets;
-- 80 maps of the canton of Schaffhausen.
+- 80 maps of canton Schaffhausen.
 
-This is the first controlled public evidence in the present project for the scale of the Library-level manuscript/estate layer beyond the e-codices selection.
+These are **institution-level statistics**, not yet a current catalogue-system inventory. Current ANTON separately exposes EBA / GFA / GFKS / GFD, and historical evidence now proves that some older Eisenbibliothek `Sondersammlungen / Nachlässe` are today represented in EBA.
 
-Important caution: the ISIL heading `Archivbestände` is an institution-level category and does not by itself tell us how all 66 manuscripts / 3 estates map onto present IRONCAT/EBA cataloguing boundaries. Use it as a holdings-scale signal, not as proof of a single provenance archive.
+Therefore use `66 / 3 / 300 / 80` as a mapping problem, not as four additive collections.
 
-## 2. Digital subset
+## 2. Digital manuscript subset
 
 The e-codices collection for `Schlatt, Eisenbibliothek` currently exposes **14 manuscripts**:
 
 `Mss 8, 12, 13, 14, 15, 20, 23, 24, 25, 28, 30, 36, 38, 57`.
 
-Therefore the e-codices layer is plainly a **selected digital subset**, not the full Library manuscript inventory.
+This is plainly a selected digital subset.
 
-If the current ISIL count of 66 and the e-codices manuscript category refer to the same manuscript universe, then most manuscript holdings are not represented in e-codices. Do **not** turn this into an exact `52 undigitised manuscripts` claim until staff/catalogue confirmation establishes that the two counts are directly comparable and that non-e-codices items are not digitised elsewhere.
+Do **not** calculate an exact `52 undigitised manuscripts` remainder until staff/catalogue confirmation shows that the ISIL `66` and e-codices `14` refer to exactly the same manuscript universe and that other manuscripts are not digitised elsewhere or mapped differently.
 
-## 3. What is securely known about the digitised subset
+## 3. Digitised c.1800–1885 subset
 
-The 14 e-codices items are strongly curated around technical/material history:
+Within the 14 e-codices items:
 
-- medieval natural philosophy/mineralogy;
-- early-modern mining regulations;
-- iron-mine administration;
-- assaying/alchemy/metal experiments;
-- foundry and technical drawing;
-- nineteenth-century engineering;
-- Hermann Wedding's travel/technical notebooks.
+- Mss 57 — 1802;
+- Mss 14 — before 1828;
+- Mss 23 — 1856–57;
+- Mss 24 — 1858;
+- Mss 25 — 1860–62.
 
-Within the **digitised subset**, the only continuous cluster squarely within c.1850–1885 is Wedding Mss 23–25 (1856–62). Other nineteenth-century digitised items include Mss 57 (1802) and Mss 14 (before 1828).
+Within the **digitised subset**, Wedding Mss 23–25 form the only continuous cluster squarely inside c.1850–1885.
 
-This says nothing yet about the date distribution of the other manuscript holdings.
+This says nothing yet about nineteenth-century density among the wider manuscript/estate holdings.
 
-## 4. What public web retrieval could NOT recover
+## 4. Historical boundary evidence — crucial correction
 
-A collection-first attempt was made to recover the full manuscript / estate list through:
+### 4.1 Some former Eisenbibliothek `Sondersammlungen` are now EBA
 
-- the Iron Library's IRONCAT/SWB catalogue link;
-- SWB/K10plus public catalogue;
-- web searches by missing `Mss` shelfmarks;
-- searches for `Nachlass / Nachlässe` associated with Eisenbibliothek.
+A 2003 Eisenbibliothek collection description explicitly named as `Sondersammlungen`:
 
-The public SWB catalogue confirms that the Iron Library's holdings are fully represented in the union catalogue, but the current interface available through this research environment does not expose a reproducible institution-specific export/search result for all `Mss` shelfmarks. Searches by missing shelfmarks repeatedly collapse back onto the 14 e-codices items.
+- the **Gonzen iron-mine archive with the scientific legacy of Willfried Epprecht**;
+- the **Studiengesellschaft für die Nutzbarmachung schweizerischer Lagerstätten mineralischer Rohstoffe** archive.
 
-No reliable public source in this pass identified the names of all **three Nachlässe** listed by the Swiss ISIL record.
+Today these map to:
+
+- **EBA 2 — Eisenbergwerk Gonzen**;
+- **EBA 5 — Studiengesellschaft ...**.
+
+ANTON transfer/provenance evidence is explicit:
+
+- `EBA 2/1`: records/books/images from the **Nachlass Familie Neher** were incorporated into the GF Eisenbibliothek in 1950;
+- `EBA 2/2`: Willfried Epprecht's testamentary bequest was made to Eisenbibliothek Paradies and is catalogued with provenance `Nachlass Willfried Epprecht`.
+
+Thus `Eisenbibliothek Nachlass/Sondersammlung` in historical/institutional language does **not** guarantee present-day Library/IRONCAT placement.
+
+### 4.2 Recent annual reports still retain Library-side legacy language
+
+Annual reports in 2019, 2021, 2022 and 2023 continue to list among Library forms:
+
+`separat aufgestellte Sondersammlungen und Nachlässe`.
+
+This likely reflects a current institutional/statistical category whose precise relationship to present IRONCAT/EBA/GFKS needs clarification.
+
+Do not solve the mismatch by assumption.
+
+## 5. Estate-origin donations are not automatically the ISIL `3 Nachlässe`
+
+Two explicit estate-origin donations are publicly visible:
+
+- **Nachlass Henych** (2010), former GF foundry engineer; Czech-language foundry literature;
+- **Nachlass Baldinger**: the 2019 annual report says all books from this estate had been catalogued; the corresponding 2016 donation is Oskar Baldinger, industrial history / industrial archaeology.
+
+However, the donations page states that ordinary donated books, **unlike Sondersammlungen**, are not kept closed/separate; they are integrated into systematic subject groups.
+
+Therefore current labels are:
+
+- `Henych` = **ESTATE-ORIGIN DONATION; CURRENT CLOSED-ESTATE STATUS OPEN**;
+- `Baldinger` = **ESTATE-ORIGIN DONATION; CURRENT CLOSED-ESTATE STATUS OPEN**.
+
+Neither should be counted as one of the ISIL `3 Nachlässe` without direct catalogue/staff confirmation.
+
+## 6. Public-web recovery limit
+
+Attempts through IRONCAT/SWB/K10plus, missing-Mss shelfmark searches and generic `Nachlass/Sondersammlung` searches did **not** recover a reproducible complete list of:
+
+- all 66 manuscripts;
+- the exact 3 current estates;
+- their present Library/EBA/GFKS mapping;
+- their digitisation status.
 
 ### Stop rule
 
-Do not brute-force `Mss 1 ... Mss 66` or infer estates from unrelated uses of the word `Nachlass` in donations/company archives.
+Do not brute-force Mss numbers or `Nachlass` names.
 
-Freeze the public-web claim at:
+Freeze at:
 
-> **Current Swiss ISIL record: 66 manuscripts + 3 estates. e-codices: 14 selected digitised manuscripts. Complete identities, chronology, catalogue mapping and digitisation status of the remaining manuscript/estate layer are OPEN.**
+> **ISIL = 66 manuscripts + 3 estates institutionally; e-codices = 14 selected manuscripts; historical evidence proves special collections/estates can migrate into EBA; exact current identities/mapping of 66/3 remain OPEN.**
 
-## 5. Why this matters for the residency map
+## 7. Why this matters for residency design
 
-This layer could materially change the application in either direction.
+### Scenario A — real non-e-codices c.1850–1885 Library-side block
 
-### Scenario A — additional nineteenth-century manuscript block exists
+If staff/export reveals a coherent nineteenth-century manuscript/estate corpus not publicly digitised, Library itself gains an additional strong onsite block.
 
-If a substantial c.1850–1885 manuscript/estate corpus is among the non-e-codices holdings and is not publicly digitised, the Library itself gains a new Tier-O1/O2 onsite corpus independent of EBA/GFA.
+### Scenario B — ISIL figures largely map to present EBA/GFKS or earlier/later rarities
 
-### Scenario B — remaining manuscripts are mainly earlier/later or isolated rarities
+Then current core remains stable: Library printed/serial environment + EBA 3/EBA 4 + Rauschenbach.
 
-Then the current structural map remains stable: the nineteenth-century Library core is primarily printed/serial, while EBA 3 / EBA 4 / Rauschenbach provide the strongest onsite archival series.
+### Scenario C — mixed legacy category
 
-### Scenario C — the `3 Nachlässe` are actually catalogued under a historical/legacy boundary now represented elsewhere
+Most likely current working hypothesis, but **not yet a conclusion**: `66 / 3 / 300 / 80` may combine current Library special holdings with material now catalogued in EBA/GFKS. Staff mapping is required.
 
-Then the ISIL data would document collection-management history rather than three currently separate Library estates. Staff/catalogue clarification is required before assigning provenance.
+## 8. Onsite-value status
 
-## 6. Onsite-value status
-
-Current rating: **OPEN / potentially HIGH**.
+Current rating: **OPEN / potentially HIGH**, but not yet promoted.
 
 Known:
 
-- institution-level total is materially larger than the e-codices subset;
-- current ISIL access statement says consultation on site is possible by prior arrangement;
-- e-codices solves remote access only for 14 selected manuscripts.
+- institution-level manuscript/estate total exceeds the e-codices subset;
+- historical Sondersammlungen have migrated into current EBA;
+- recent annual reports still retain a Library `Sondersammlungen und Nachlässe` category;
+- e-codices only resolves the 14 selected manuscript items remotely.
 
 Unknown:
 
-- which of the other manuscripts/estates are nineteenth-century;
-- which are publicly or internally digitised elsewhere;
-- whether any form coherent series rather than single rare manuscripts;
-- whether they are physically/catalogually part of Library, EBA, or a legacy boundary requiring reinterpretation;
-- whether remote reproductions can substitute for on-site inspection.
+- exact three estates;
+- date density of non-e-codices manuscripts/estates;
+- current catalogue placement;
+- remote/internal digitisation;
+- whether coherent series survive rather than isolated rarities.
 
-Do not promote this layer into Tier A until the complete list/date distribution is obtained.
+## 9. Exact staff/catalogue request
 
-## 7. Exact staff/catalogue request needed
+Request a simple existing export/list if available:
 
-Request, preferably as a simple export/list rather than item-by-item research:
+1. all 66 manuscript records: shelfmark, creator/title, date, current catalogue system, digitisation status;
+2. names/date spans/extents/current catalogue locations of the ISIL `3 Nachlässe`;
+3. clarification whether ISIL counts include present EBA/GFKS holdings;
+4. mapping of `c.300 graphical sheets / 80 Schaffhausen maps` to current EBA/GFKS;
+5. identification of any **1800–1900 non-e-codices manuscript/estate blocks**;
+6. internal/on-request scan status.
 
-1. the current list of all **66 manuscript records** with shelfmark, title/creator, date, catalogue location and digitisation status;
-2. the names, date spans, extents and current catalogue locations of the **3 estates (`Nachlässe`)** in the Swiss ISIL record;
-3. clarification whether the ISIL `Archivbestände` counts map entirely to current Library/IRONCAT holdings or partly to holdings now represented in EBA/ANTON;
-4. identification of any **1800–1900 manuscript/estate blocks not represented on e-codices**;
-5. whether any non-public scans/internal digitisation exist.
-
-This is a holdings-architecture question, not a request for staff to research a preselected topic.
-
-## 8. Claim ceiling
+## 10. Claim ceiling
 
 Secure:
 
-- Swiss ISIL `CH-000728-7` currently lists 66 manuscripts and 3 estates under institutional archival holdings;
-- e-codices currently lists 14 Eisenbibliothek manuscripts;
-- the 14 shelfmarks are known and non-consecutive;
-- the Library's online catalogue holdings are integrated into SWB/K10plus;
-- the complete 66/3 inventory was not reproducibly recoverable through the current public web interfaces in this pass.
+- current ISIL = 66 manuscripts + 3 estates institutionally;
+- e-codices = 14 selected manuscripts;
+- historical Gonzen/Epprecht and Studiengesellschaft collections were described as Eisenbibliothek `Sondersammlungen` and are now EBA 2/EBA 5;
+- Neher/Epprecht provenance transfer to Eisenbibliothek is explicitly recorded in ANTON;
+- recent annual reports still use `separat aufgestellte Sondersammlungen und Nachlässe` under Library;
+- Henych/Baldinger are estate-origin donations but are **not identified as the ISIL three**;
+- current public interfaces do not yield a reliable complete 66/3 inventory.
 
 Open:
 
-- exact identity of the remaining manuscript holdings;
-- direct comparability of `66` and the e-codices `14` for a numerical undigitised remainder;
-- names of the 3 estates;
-- nineteenth-century date density outside the e-codices subset;
-- current Library/EBA boundary of the ISIL `Archivbestände` figures;
-- remote reproduction/digitisation status.
+- exact identities of the 3 estates;
+- exact current boundary of the 66 manuscripts;
+- nineteenth-century density outside e-codices;
+- present digitisation/access state;
+- direct relationship of Henych/Baldinger to the separately shelved special-collection category.
 
 ## Controlled public sources
 
-- Swiss ISIL record `CH-000728-7`: institution-level holdings and access information.
-- e-codices collection `Schlatt, Eisenbibliothek`: 14-item digitised manuscript selection.
-- SWB public catalogue: union-catalog coverage and research architecture.
-- Iron Library digital-resources / library pages: IRONCAT and e-codices context.
+- Swiss ISIL `CH-000728-7`.
+- e-codices Eisenbibliothek collection.
+- 2003 Eisenbibliothek descriptions of Gonzen/Epprecht and Studiengesellschaft as `Sondersammlungen`.
+- EBA 2/1 and EBA 2/2 provenance records.
+- 2019/2021/2022/2023 annual reports.
+- Iron Library donations page.
+- SWB/K10plus catalogue architecture.
