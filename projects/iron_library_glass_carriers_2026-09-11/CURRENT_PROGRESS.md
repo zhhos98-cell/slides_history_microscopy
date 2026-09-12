@@ -38,7 +38,7 @@ Longitudinal architecture remains:
 
 All 740 PDF pages now have stable rows in the separate JSONL ledgers; the PaddleOCR JSON remains immutable. Each row carries `status`, `confidence`, `transcription`, `secure_anchors`, `doubtful_readings`, OCR-noise flags and a page-level note. A row counts as substantively transcribed only when actual readable wording has been entered from the PDF. Generic structural descriptions are marked `IMAGE_REVIEWED_AWAITING_TRANSCRIPTION`, not as completed transcription.
 
-The **Mss 23 textual sequence is complete through PDF 210**. Work has continued into **Mss 24 through PDF 25**. PDFs 6-15 contain substantive image-controlled transcriptions of the Thüringer-Wald/Franken itinerary, route maps, geological profiles, lithological legends, measured dips/elevations and fossil lists. PDFs 16-25 add Nürnberg-Bamberg-Frankfurt-Heidelberg travel observations and a dense Saarbrücken coalfield sequence: seam-thickness tables, basin dimensions, mine-roadway sections, pillar extraction, gradients, haulage apparatus, ventilation, fire control, wages and the full-page coalfield map. The final Mss 23 batch transcribes PDFs 191-203 and the complete bibliographic note on PDF 206; PDFs 204-205 and 207-210 are confirmed blank, and PDFs 211-223 are object/digitisation views. Sequential work now resumes at **Mss 24 PDF 26**. The remaining Mss 24 text and most of Mss 25 still await page-level substantive transcription. The out-of-sequence Mss 25 Bessemer cluster at PDFs 295-300 and the source heading at PDF 340 retain their separately verified readings. Any earlier statement that all 740 pages had been fully transcribed is superseded by this checkpoint.
+The **Mss 23 textual sequence is complete through PDF 210**. Work has continued into **Mss 24 through PDF 35**. PDFs 6-15 cover the Thüringer-Wald/Franken itinerary and geology; PDFs 16-25 cover the Saarbrücken coalfield, mining methods and map. PDFs 26-35 now add substantive image-controlled transcriptions of Burbach coke ovens and recovered gas, furnace handling devices, a multi-stand rolling train, Neunkirchen/Stumm works, coke-quenching machinery, Dudweiler steam-engine dimensions, high-furnace blowing machinery and the Saarbrücken-Metz-Novéant route. The final Mss 23 batch transcribes PDFs 191-203 and the complete bibliographic note on PDF 206; PDFs 204-205 and 207-210 are confirmed blank, and PDFs 211-223 are object/digitisation views. Sequential work now resumes at **Mss 24 PDF 36**. The remaining Mss 24 text and most of Mss 25 still await page-level substantive transcription. The out-of-sequence Mss 25 Bessemer cluster at PDFs 295-300 and the source heading at PDF 340 retain their separately verified readings. Any earlier statement that all 740 pages had been fully transcribed is superseded by this checkpoint.
 
 The first direct PDF-control batch covers Mss 25 PDFs 295–300. It rejects Paddle hallucination on PDF 297, secures `Mittwoch 25 Juli 1860`, `Sheffield White Lead Works`, `Barker & Sons`, `Bessemer's Stahlwerk`, the Cumberland pig-iron statement, `Der ganze Prozeß dauert cca 19-24 Minuten`, `Cammells Maschinen (Cyclops Works)`, and the transition to `Donnerstag 26 Juli. Leeds` / `Peter Fairbairn's Maschinenwerkstätte`. Continuous technical Kurrent remains selectively transcribed and ellipsed rather than guessed. The supplied `10598` JSON remains outside this correction ledger because the corresponding PDF was not supplied.
 
@@ -132,7 +132,7 @@ This is an evidence-carrier history rather than a generic influence story.
 
 ## 8. Immediate next work
 
-Continue substantive PDF-controlled transcription in physical order, beginning with **Mss 24 PDF 26**, and synchronize each completed batch. Do not count page labels, document-mode descriptions or OCR routing text as transcription.
+Continue substantive PDF-controlled transcription in physical order, beginning with **Mss 24 PDF 36**, and synchronize each completed batch. Do not count page labels, document-mode descriptions or OCR routing text as transcription.
 
 Highest-value question has changed from `when/where did Wedding meet Bessemer?` to:
 
@@ -168,6 +168,6 @@ Open:
 3. `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`
 4. `WEDDING_MSS25_VISUAL_CONTROL_PASS3_2026-09-11.md`
 5. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
-6. Corrected-transcription ledger at Mss 24 PDF 26.
+6. Corrected-transcription ledger at Mss 24 PDF 36.
 
-**Immediate resume condition: continue at Mss 24 PDF 26.**
+**Immediate resume condition: continue at Mss 24 PDF 36.**
