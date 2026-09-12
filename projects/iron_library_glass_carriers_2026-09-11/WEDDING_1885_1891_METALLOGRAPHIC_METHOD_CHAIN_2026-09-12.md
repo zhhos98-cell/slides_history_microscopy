@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: METHOD-HISTORY CONTROL. This file isolates the transition from Wedding's 1885 microscopic-structure paper to later explicit work on section preparation, illumination and microphotographic reproduction. It is designed to test whether the 1885 Sorby–Wedding disagreement was partly a dispute over how the metallographic object itself was made visible.
+Status: METHOD-HISTORY CONTROL. This file isolates the transition from Wedding's 1885 microscopic-structure paper to later explicit work on section preparation, image projection, illumination and microphotographic reproduction. It is designed to test whether the 1885 Sorby–Wedding disagreement was partly a dispute over how the metallographic object itself was made visible and transferable.
 
 ## 1. 1885 starting point
 
@@ -91,7 +91,32 @@ Routing source:
 
 This suggests rapid movement from the 1885 communication failure toward more image-supported presentation.
 
-## 6. 1889 — method becomes the explicit subject
+## 6. 1888 — projected micro-images solve the collective-viewing problem
+
+A contemporary Austrian mining/metallurgical meeting report records Wedding giving the paper:
+
+**`Beurtheilung des Eisens aus seinem Kleingefüge`.**
+
+Crucially, it states that Wedding gave the lecture **with images shown in a darkened hall using magnesium light**.
+
+Source:
+- Austrian mining/metallurgical meeting report, 1888, p.493 context.
+
+This is a major carrier control because it directly answers the social problem exposed in 1885.
+
+1885:
+
+**microscopic structure described verbally without displayed illustrations → audience finds argument difficult to follow.**
+
+1888:
+
+**microstructural images → optical projection → darkened collective viewing environment.**
+
+The object is no longer confined to one observer at a microscope or to a verbal description of what was seen. It becomes a **publicly projected image** that can be inspected simultaneously by an audience.
+
+Claim ceiling: the meeting report controls display practice, not the exact original medium of the projected images. Until the full lecture/publication is recovered, do not assume whether the projected source was photograph, drawing, transparency, or another reproduction process.
+
+## 7. 1889 — method becomes the explicit subject
 
 Wedding's 1889 paper is bibliographically controlled as:
 
@@ -108,7 +133,7 @@ This is exactly the pair implicated in Sorby's earlier criticism of Wedding: **i
 
 Claim ceiling: until the 1889 full text is controlled, do not assert that Wedding explicitly cites Sorby's criticism or adopts Sorby's soft-stone/vertical-light protocol. The chronological/methodological alignment is secure; direct response remains open.
 
-## 7. Wedding's metallography is explicitly textbooked by 1893
+## 8. Wedding's metallography is explicitly textbooked by 1893
 
 A contemporary review of the **second edition, first volume, second Lieferung** of Wedding's *Ausführliches Handbuch der Eisenhüttenkunde* says that the volume's final section treats:
 
@@ -127,7 +152,7 @@ This is an institutional change in genre:
 
 By this point microstructural investigation is no longer represented only as an experimental specialty. Wedding places microscopy, specimen preparation and interpretive judgement inside a general iron-metallurgy handbook intended for students and practitioners.
 
-## 8. A mature Wedding preparation protocol is demonstrably reproducible by 1899
+## 9. A mature Wedding preparation protocol is demonstrably reproducible by 1899
 
 A 15 Nov. 1899 *Stahl und Eisen* article, `Zur Beurtheilung des Roheisens nach dem Kleingefüge`, states explicitly that its **Schliffflächen were prepared according to Wedding's instructions in his `Handbuch der Eisenhüttenkunde`, I.2**.
 
@@ -161,30 +186,41 @@ Working sequence:
 
 **individual/collection-based observation → method publication → handbook codification → third-party reproducible preparation protocol → locally variable illumination/imaging.**
 
-## 9. 1891 — microphotographic carrier
+## 10. 1890/91 — microphotographic carrier; date discrepancy remains open
 
-The next major bibliographic object is:
+The major bibliographic object is:
 
-**H. Wedding, `Das Kleingefüge des Eisens. Mikroskopische Originalphotographien mit Erläuterungen`, Berlin, 1891.**
+**H. Wedding, `Das Kleingefüge des Eisens. Mikroskopische Originalphotographien mit Erläuterungen`.**
+
+Two respectable bibliographic controls disagree by one year:
+
+- Francis Scott Rice's technical bibliography gives **Berlin 1891**;
+- Naturhistorisches Museum Wien's catalogue gives **Berlin 1890, 19 Tafeln**.
+
+Until the title page is directly controlled, use:
+
+**`PUBLICATION_DATE = 1890/1891 (open bibliographic discrepancy)`**
+
+and secure form claim:
+
+**microscopic original photographs + explanatory text; 19 plates according to the Vienna catalogue.**
 
 This is a major carrier shift:
 
-**described microstructure → prepared section → optical image → original microphotograph + explanatory text.**
+**described/projected microstructure → prepared section → original microphotograph + explanatory text → durable distributable visual object.**
 
 A contemporaneous methodological environment is also visible in Royal Microscopical Society reporting: by 1889 apparatus was being designed specifically for photographing iron microstructures, including oblique-stage arrangements based on Wedding's observations that details could be brought out more strongly when the iron surface was inclined relative to the microscope axis.
 
 Source routing:
 - Journal of the Royal Microscopical Society, 1889, reporting Schmidt & Haensch apparatus and explicitly attributing the oblique-surface observation to Wedding.
 
-This is significant because it shows Wedding participating not only in `interpretation of microstructure` but in the practical problem of **how to make that microstructure photographically reproducible**.
-
-## 10. Revised relation to Sorby
+## 11. Revised relation to Sorby
 
 The direct relation is now stronger than `parallel traditions` but still not a personal-contact claim.
 
 Secure public methodological relation:
 
-**Wedding 1885 paper → Sorby technical criticism of Wedding's preparation/illumination → Wedding continues microscopic work → Wedding 1889 explicitly treats image formation and section preparation → Wedding's method is textbooked in the 1890s → third parties explicitly prepare sections according to Wedding → Wedding 1891 publishes microscopic original photographs.**
+**Wedding 1885 paper → Sorby technical criticism of Wedding's preparation/illumination → Wedding continues microscopic work → Wedding 1888 projects microstructural images publicly → Wedding 1889 explicitly treats image formation and section preparation → Wedding's method is textbooked in the 1890s → third parties explicitly prepare sections according to Wedding → Wedding 1890/91 publishes microscopic original photographs.**
 
 Open:
 
@@ -202,48 +238,45 @@ not
 
 `DIRECT_PERSONAL_TRANSMISSION = SECURE`.
 
-## 11. Strong analytical implication
+## 12. Strong analytical implication
 
 The metallographic object is not naturally given. It is produced through a chain:
 
-**sample selection → sectioning/orientation → grinding → final polishing → etching/tarnishing → illumination geometry → magnification → drawing/engraving/photography → publication/reference.**
+**sample selection → sectioning/orientation → grinding → final polishing → etching/tarnishing → illumination geometry → magnification → projection/photography → publication/reference.**
 
-A change at any stage can alter the visible structure.
+A change at any stage can alter the visible structure or its social availability.
 
 This makes the 1885 Sorby–Wedding disagreement especially valuable for the Iron Library project: it turns `sample preparation` from a technical footnote into a historical variable governing what counts as evidence.
 
-The 1899 third-party use makes the point even sharper: **standardized preparation does not by itself standardize the image**, because illumination can still vary independently.
+The 1888 projection adds another variable: **even after an image exists, it must be scaled and displayed for collective witnessing**.
+
+The 1899 third-party use makes the point sharper still: **standardized preparation does not by itself standardize the image**, because illumination can vary independently.
 
 The longer same-person sequence can now be reformulated:
 
 **1860 — live-process flame/time signal**
 → **1869 — spectrum as decomposed optical process signal**
 → **1884/85 — prepared section + Berlin reference collection of 120 Schliffe**
-→ **1885 — microscopic internal material field**
+→ **1885 — microscopic internal material field but failed collective transfer without illustrations**
+→ **1888 — magnesium-light projection for collective viewing**
 → **1889 — explicit problem of section production + optical image formation**
-→ **1891–93 — microphotographic carrier + handbook codification**
+→ **1890/91 — original microphotographic plate atlas**
+→ **1893 — handbook codification**
 → **1899 — third-party reproducible Wedding preparation method under independently variable illumination.**
 
-This adds two crucial institutional middle terms:
+This adds three institutional middle terms:
 
-**prepared reference collection + teachable/repeatable preparation method.**
+**prepared reference collection + collective display + teachable/repeatable preparation method.**
 
-## 12. Immediate source priorities
+## 13. Immediate source priorities
 
-1. Acquire Wedding **1889 `Ueber Fortschritte...`** from `Stahl und Eisen` vol.9 pt.1/no.1–6 and extract its article page start / full text; test whether soft-stone grinding, vertical/direct illumination, etching, oblique mounting or photographic reproduction are explicitly discussed.
-2. Recover the exact Wedding handbook pages in **2nd ed., vol.1, Lieferung 2** containing:
-   - `Untersuchung des Kleingefüges durch das Mikroskop`;
-   - `Herstellung der Schliffe`;
-   - `Beurtheilung des Eisens nach dem Kleingefüge`.
-3. Acquire Wedding **1891 `Das Kleingefüge des Eisens`** and inspect original microphotographs, captions, magnifications, specimen provenance and preparation notes.
-4. Recover Martens' **1884 catalogue of 120 Schliffen** and reconstruct:
-   - item/reference structure;
-   - specimen provenance;
-   - metallurgical categories;
-   - preparation method;
-   - intended teaching/comparison use.
-5. Acquire the full Wedding **1885 JISI pp.187–204** and extract his actual preparation/illumination procedure if stated.
-6. Build a method matrix with fields:
+1. Acquire Wedding **1889 `Ueber Fortschritte...`** from `Stahl und Eisen` vol.9 pt.1/no.1–6 and extract article page start/full text; test soft-stone grinding, vertical/direct illumination, etching, oblique mounting, photography and Sorby citation.
+2. Recover the exact Wedding handbook pages in **2nd ed., vol.1, Lieferung 2** containing microscope examination, `Herstellung der Schliffe`, and judgement by microstructure.
+3. Resolve **`Das Kleingefüge des Eisens` 1890 vs 1891** from the title page; inspect all 19 plates, captions, magnifications, specimen provenance and preparation notes.
+4. Recover Martens' **1884 catalogue of 120 Schliffen** and reconstruct item/reference structure, specimen provenance, categories, preparation and intended comparison/teaching use.
+5. Recover full **1888 `Beurtheilung des Eisens aus seinem Kleingefüge`** if printed; identify what images were projected and their source medium.
+6. Acquire the full Wedding **1885 JISI pp.187–204** and extract his actual preparation/illumination procedure if stated.
+7. Build method/carrier matrix:
    - `SPECIMEN_SOURCE`
    - `REFERENCE_NUMBER / COLLECTION`
    - `SECTIONING / ORIENTATION`
@@ -252,10 +285,11 @@ This adds two crucial institutional middle terms:
    - `ETCHING / TARNISHING`
    - `ILLUMINATION`
    - `MAGNIFICATION`
-   - `DRAWING / ENGRAVING / PHOTOGRAPH`
+   - `PROJECTION`
+   - `PHOTOGRAPH`
    - `INTERPRETIVE_RESULT`.
 
-## 13. Claim ceiling
+## 14. Claim ceiling
 
 Secure:
 
@@ -264,26 +298,29 @@ Secure:
 - Wedding's 1885 argument was based on Martens' large Berlin collection of prepared sections;
 - Martens' 120-section collection is explicitly documented in an 1884 catalogue and later functioned as a comparison/teaching collection;
 - Wedding continued publishing microscopic work in 1886–88;
+- an 1888 meeting report explicitly records Wedding showing images in a darkened hall by magnesium light while lecturing on judgement of iron by microstructure;
 - Wedding's 1889 paper explicitly joins optical image formation and section production in its title and survives in full-view volume 9 of *Stahl und Eisen*;
-- Wedding's 1891 work explicitly takes the form of microscopic original photographs with explanations;
-- by 1889 Wedding's observations were being cited in discussions of apparatus for photographing iron microstructures;
-- a 1893 contemporary handbook review states that Wedding's vol.1 Lieferung 2 closes with microscope examination, preparation of polished sections and judgement of iron by microstructure;
+- a 1893 contemporary handbook review says Wedding's vol.1 Lieferung 2 closes with microscope examination, preparation of polished sections and judgement of iron by microstructure;
 - by 1899 another investigator explicitly followed Wedding's handbook instructions for specimen preparation, including controlled thickness, area, cold-saw cutting/cooling and orientation;
-- the 1899 paper's diffuse illumination was its authors' apparatus-limited imaging choice and must not be attributed to Wedding.
+- the 1899 paper's diffuse illumination was its authors' apparatus-limited imaging choice and must not be attributed to Wedding;
+- `Das Kleingefüge des Eisens` is an original-microphotograph work with explanatory text; Vienna catalogue gives 19 plates and 1890, while Rice gives 1891.
 
 Strong inference:
 
-- the 1885 methodological disagreement exposed specimen preparation and illumination as independently consequential variables;
-- Wedding's later work increasingly treats reproducible preparation/image production as part of metallurgical evidence-making;
-- the transition from Martens' 120 prepared reference sections to Wedding's handbook method and microphotographs is a plausible institutional path toward standardized metallographic reference systems;
-- standardising the specimen and standardising the image are historically distinct operations.
+- the 1885 communication failure forms a plausible immediate background to Wedding's move toward image-supported/projected presentations;
+- the methodological disagreement exposed specimen preparation and illumination as independently consequential variables;
+- Wedding's later work increasingly treats reproducible preparation, collective display and image production as part of metallurgical evidence-making;
+- the transition from Martens' 120 prepared reference sections to Wedding's projected images, handbook method and microphotographic plates is a plausible institutional path toward standardized metallographic reference systems;
+- standardizing specimen, image, and display are historically distinct operations.
 
 Open:
 
 - Wedding's exact 1885 preparation protocol;
 - explicit textual response to Sorby;
-- exact 1889 method changes and citations;
+- exact 1888 projected-image source medium;
+- exact 1889 method changes/citations;
 - exact handbook grinding/polishing sequence in Wedding's own wording;
 - exact preparation/reference architecture in Martens' 1884 collection;
-- continuity between Martens' 120-section collection and Wedding's 1891 microphotographs;
+- title-page date and internal architecture of Wedding's atlas;
+- continuity between Martens' 120-section collection and Wedding's atlas plates;
 - whether numbering/collection/image architecture becomes formally standardized across these objects.
