@@ -1,58 +1,74 @@
 # PINNED APPLICATION RESUME
 
-For the Iron Library Scholar in Residence line, resume from the **collection architecture + six-axis heat map + evidence-regime morphology**, not from a preselected historical problem.
+**Updated:** 2026-09-12  
+**Status:** PUBLIC-WEB COLLECTION MORPHOLOGY SATURATED; STAFF/EXPORT CONFIRMATION NEXT
 
 > **COLLECTION FIRST; QUESTION SECOND; ONSITE NECESSITY THIRD.**
 
-## Governing files — current order
+Do not resume from Wedding / Martens / Sorby / microscopy or another preselected historical problem. The public-web collection audit has now been pushed to its current claim ceiling.
 
-1. `ANTON_ARCHIVAL_SYSTEMS_MAP_2026-09-12.md` — current retrieval architecture: **Library + EBA / GFA / GFKS / GFD**.
-2. `HOLDINGS_HEATMAP_2026-09-12.md` — governing **six-axis / five-system** heat map; later correction files override individual rows where noted.
-3. `EVIDENCE_REGIME_MAP_2026-09-12.md` — current cross-system analytical map: what activity generated each major evidence block.
-4. `TIER_A_CARRIER_PROVENANCE_AUDIT_2026-09-12.md` — source-critical authority for Haffter / Küderli and earlier Rauschenbach morphology.
-5. `RAUSCHENBACH_SCALE_RETRIEVAL_CORRECTION_2026-09-12.md` — **current override**: public ANTON proves only a small bound serial core plus broad mixed dossiers; pre-1885 scale remains OPEN.
-6. `LIBRARY_LARGE_BLOCK_MORPHOLOGY_ADDENDUM_2026-09-12.md` — Library collection-scale printed environments.
-7. `LIBRARY_REMOTE_SUBSTITUTABILITY_AUDIT_2026-09-12.md` — access correction for Library grey literature/world-exhibition print: **rarity != onsite necessity**.
-8. `HOLDINGS_TIME_MAP_2026-09-12.md` + `CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md` — chronological density; natural collection-driven test windows remain **c.1868–72** and **c.1877–85**.
-9. `ONSITE_VALUE_MAP_2026-09-12.md` — residency-necessity layer; use the Rauschenbach correction above when it differs.
-10. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md`, `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md`, `LIBRARY_MANUSCRIPT_ESTATE_CENSUS_2026-09-12.md`, `LIBRARY_DIGITISED_MANUSCRIPT_LAYER_2026-09-12.md` — Library-specific controls.
-11. `GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md` + `GFA_PRE1900_FONDS_CENSUS_2026-09-12.md` — GFA pre-1896 controls.
-12. `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` — **NOT SENT**; includes access, carrier/retrieval-unit, Rauschenbach internal-file structure, current special-collection mapping, classification-export and periodical-holdings-export questions.
-13. `COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md` remains broad background; later maps override it where they differ.
-14. Early microscopy / Sheffield–Berlin files remain subordinate hypotheses only.
+## 1. Governing files — read in this order
 
-## Current architecture
+1. `ANTON_ARCHIVAL_SYSTEMS_MAP_2026-09-12.md` — retrieval architecture: **Library + EBA / GFA / GFKS / GFD**.
+2. `HOLDINGS_HEATMAP_2026-09-12.md` — **current reconciled six-axis / five-system map**. This now incorporates the Library access correction, Rauschenbach scale demotion and GFKS density correction.
+3. `EVIDENCE_REGIME_MAP_2026-09-12.md` — cross-system map by record-generating activity rather than modern catalogue bucket.
+4. `TIER_A_CARRIER_PROVENANCE_AUDIT_2026-09-12.md` — Haffter / Küderli source criticism and earlier Rauschenbach carrier audit.
+5. `RAUSCHENBACH_SCALE_RETRIEVAL_CORRECTION_2026-09-12.md` — current Rauschenbach claim ceiling.
+6. `LIBRARY_LARGE_BLOCK_MORPHOLOGY_ADDENDUM_2026-09-12.md` — Library large printed environments.
+7. `LIBRARY_REMOTE_SUBSTITUTABILITY_AUDIT_2026-09-12.md` — Library access audit for grey literature, exhibitions, materials/testing and geoscience.
+8. `HOLDINGS_TIME_MAP_2026-09-12.md` + `CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md` — chronology and overlap windows.
+9. `ONSITE_VALUE_MAP_2026-09-12.md` — earlier onsite map; where it differs, use the reconciled heat map and this pin.
+10. `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` — **NOT SENT**; now phrased to request existing exports/finding aids rather than staff historical research.
 
-- **LIBRARY / IRONCAT** — printed holdings, serials, rara, and a partly unmapped separately-listed manuscript/special-collection layer.
+Older census, microscopy, narrow-pass and dated research files remain supporting history only where they differ from the files above.
+
+## 2. Current retrieval architecture
+
+- **LIBRARY / IRONCAT** — printed holdings, serials, rara, separately-listed manuscript/special-collection layer.
 - **EBA / ANTON** — non-GF archival fonds/special collections.
 - **GFA / ANTON** — GF family/company/subsidiary/admin/media/object provenance.
 - **GFKS / ANTON** — physical art/maps/prints/views/objects.
-- **GFD / ANTON** — modern digital documentation/reference-image layer; Tier D for original-source work.
+- **GFD / ANTON** — modern digital documentation/reference-image layer.
 
-Do not project current boundaries backward. Older institutional statistics can include material now catalogued in EBA/GFKS.
+Do not project current boundaries backward. Historical institution-level statistics may now map into EBA/GFKS and are not automatically additive.
 
-## Current structural core
+## 3. Six-axis rule
+
+Keep separate:
+
+1. scale;
+2. seriality;
+3. actual c.1850–1885 date density;
+4. provenance coherence;
+5. surviving-carrier originality/contemporaneity;
+6. onsite value / remote substitutability.
+
+Also keep:
+
+> **RARITY != NON-SUBSTITUTABILITY != ONSITE NECESSITY.**
+
+## 4. Current structural ranking
 
 ### Tier A — proven large/coherent blocks
 
-- Library nineteenth-century printed/serial environment;
-- EBA 3 Haffter;
-- EBA 4 Küderli/Bär.
+- **Library nineteenth-century printed/serial environment** — structurally strongest broad backbone, but default printed onsite value only MEDIUM unless a copy-specific/non-substitutable subset is proved.
+- **EBA 3 Haffter** — 15 lm; 555 correspondence files plus long bound business series; exceptionally dense c.1835–67.
+- **EBA 4 Küderli/Bär** — 4 lm / c.150 books; exceptionally clean c.1854–85 fit with correspondence, profile albums, price lists, cashbooks and sales journals.
 
 ### Tier B+ / provisional O1?
 
-- **Rauschenbach company cluster** — historically coherent and potentially high onsite value, but public metadata does not yet prove Haffter/Küderli-scale pre-1885 volume. The only clearly demonstrated serial carrier core is `GFA 1/806` (1 bound employee register) + `/809` (10 sickness-fund volumes); much other early material is held in one-file dossiers spanning decades.
+- **Rauschenbach company cluster** — historically coherent, but public ANTON proves only a small serial core (`GFA 1/806` = 1 employee-register volume; `/809` = 10 sickness-fund volumes). Many other early-looking records are one-file dossiers spanning decades. Pre-1885 scale/internal granularity remains OPEN.
 
 ### Tier B
 
 - native GF c.1865–83 product/market-document regime;
-- EBA 1 engineering/Gotthard map cluster;
+- EBA 1 Gotthardbahn / engineering maps;
 - Traisen;
-- GFKS c.1850–85 visual/map layer.
+- GFKS c.1850–85 visual/map/print regime.
 
 ### Tier C / controls
 
-- EBA 2 Gonzen for c.1850–85;
+- EBA 2 Gonzen as a c.1850–85 whole;
 - EBA 6 before 1889/90;
 - broad GFA 8 pre-1885;
 - EBA 8 representation collection;
@@ -60,129 +76,94 @@ Do not project current boundaries backward. Older institutional statistics can i
 
 ### Tier D
 
-- GFD.
+- GFD digital reference/documentation.
 
-## Library large-block correction
+## 5. Library-side result
 
-Do not treat `Library subject holdings` as one undifferentiated block. Controlled large environments now include:
+The Library must not be treated as one generic shelf. Large controlled environments include:
 
-- nineteenth-century periodicals / serials — **123 nineteenth-century titles** in the historical census;
-- broad metallurgy / iron-steel / mining printed system;
-- historical foundry + Metallkunde + Werkstoffprüfung shelf environment;
-- geology / mineralogy / petrography / chemistry environment;
-- **company publications / product catalogues / price literature** — historically one of the largest Library forms and still a current collecting priority;
-- **95 publications on nineteenth-century world exhibitions**;
-- **123 research-travel reports across the historical collection**; exact nineteenth-century subset remains OPEN;
-- reference/encyclopaedic literature.
+- 123 nineteenth-century periodical titles in the historical census;
+- broad metallurgy / iron-steel / mining literature;
+- foundry / Metallkunde / Werkstoffprüfung;
+- geology / mineralogy / petrography / chemistry;
+- company/product/price grey literature;
+- 95 nineteenth-century world-exhibition publications;
+- 123 research-travel reports across centuries;
+- reference literature.
 
-Company/product literature in the Library is a **retrospectively collected cross-firm printed regime**, not the same provenance as GFA corporate product records.
+But printed richness is not travel necessity:
 
-### Library access correction
+- the Iron Library's e-rara thematic collection already exposes >140 titles / >44,000 pages;
+- many historically important metallurgy/iron titles have adequate e-rara / MDZ / Gallica substitutes;
+- the Library makes literature available by interlibrary consultation outside Paradies;
+- major official world-exhibition catalogues are widely digitised;
+- even highlighted rare grey literature can already have a full facsimile.
 
-Keep **structural rank** and **onsite rank** separate.
+Therefore Library print remains **Tier A structurally / MEDIUM onsite by default**.
 
-- The Library itself states that product catalogues/price lists can be exceptionally rare or even the only copy visible in public catalogues.
-- But rarity alone is not an onsite claim: the Library's own Valerian Gillar 1899 `Preisbuch` example is now available as a complete e-rara facsimile.
-- Major nineteenth-century world-exhibition official catalogues/reports are also widely represented in public e-rara digital copies.
+## 6. GFKS result
 
-Therefore:
+GFKS is a real visual evidence regime, not merely scattered art objects:
 
-> **RARE != NON-SUBSTITUTABLE != ONSITE-NECESSARY.**
+- 2024 reporting identifies an integral collection of **98 historical Schaffhausen maps** and another of **c.366 Schaffhausen prints from the 16th–19th century**;
+- the **1866 `Album von Schaffhausen`** provides a coherent 24-local-view sequence including the Stahlfabrik;
+- controlled maps include 1879–85 and 1883 Schaffhausen examples.
 
-Library printed blocks remain Tier A structurally, but are **not Tier O1 by default**. Promote a printed subset as an onsite anchor only when no adequate remote/alternative copy exists or when copy-specific evidence (annotations, stamps, binding, foldouts, physical sequence, provenance, local run gaps) is materially required.
+However many visible items, including the 1866 album sequence and maps, are digitised. Exact c.1850–85 density of the two integral collections remains unresolved. Keep GFKS **Tier B / low–medium onsite unless physical carrier materiality becomes central**.
 
-## Evidence-regime correction
+## 7. Onsite-value result
 
-Present catalogue system is not the historical analytical unit.
-
-Current major record-generating regimes include:
-
-- specialist printed knowledge/classification;
-- technical/scientific serial communication;
-- iron-trade correspondence/calculation (Haffter);
-- iron-trade product/order/accounting (Küderli);
-- industrial operations/labour administration (Rauschenbach — scale still unresolved);
-- product/market communication (native GF + Library grey literature under different provenance logics);
-- world-exhibition publication/display;
-- travel/observation;
-- engineering maps/plans;
-- visual/art collecting;
-- later corporate governance;
-- later carrier-organized photo archives;
-- modern digital reference/documentation.
-
-A final question should ideally require **at least two evidence regimes**, not merely many objects from one modern catalogue bucket.
-
-## Source-critical corrections
-
-### Haffter
-
-- 15 lm; **13 lm books + 2 lm special formats**;
-- 555 correspondence files (1835–60) plus very strong bound business series;
-- business provenance and carrier seriality VERY HIGH;
-- fonds described as originally unordered and later checked/reworked.
-
-### Küderli/Bär
-
-- 4 lm, c.150 books;
-- strong profile albums / cashbooks / sales journals + correspondence/price files;
-- current historical collection assembled through transfers in **1980 / 1986 / 2006**.
-
-### Rauschenbach — corrected ceiling
-
-Publicly proven serial core:
-
-- `GFA 1/806` employee register, 1871–1930 — **1 Band**;
-- `/809` sickness fund, 1872–1930 — **10 Bände**.
-
-Broad one-file dossiers include `/780` 1868–1905, `/781` 1869–1921, `/786` 1878–1934, `/779` 1855–1921 and highly mixed thematic dossiers such as `/2330` 1852–1981. `/2288` explicitly joins 1876–79 correspondence to 1928–41 agreements.
-
-Therefore Rauschenbach is a **coherent company cluster but not yet a proven large continuous pre-1885 archive**. Internal file lists/retrieval units are the decisive missing evidence.
-
-## Current chronological conjunctions
-
-### c.1868–72
-
-Library print/serials + Haffter tail + Küderli correspondence + native-GF product documents + a Rauschenbach labour/operational node.
-
-### c.1877–85
-
-Library print/serials + Küderli profile/price/cash/sales records + native-GF product/exhibition material + Rauschenbach company/labour node + Traisen + world-exhibition/visual supplements.
-
-These are collection-driven conjunctions, **not yet final topics**.
-
-## Current onsite-value result
-
-### Strongest demonstrated Tier-O1 candidates
+### Strongest demonstrated Tier O1 candidates
 
 1. **EBA 3 Haffter**;
 2. **EBA 4 Küderli/Bär**.
 
 ### Provisional O1?
 
-3. **Rauschenbach** — potentially very high because GFA consultation is onsite, but do not count it as a proven large onsite block until internal dossier scale and separable pre-1885 content are confirmed.
+- **Rauschenbach** — high potential because GFA source consultation is onsite, but its scale and separable pre-1885 physical units are not yet demonstrated publicly.
+- **Library 66 manuscripts + 3 estates** — identities, current mapping, chronology and digitisation status remain OPEN.
 
-Wedding Mss 23–25 are pre-visit sources because e-codices supplies full facsimile/IIIF. Library grey literature/world-exhibition print is mixed: some rare items are digitised or replaceable elsewhere. GFKS is usually material/copy-specific onsite value. GFD has essentially no original-source onsite value.
+Wedding Mss 23–25 are pre-visit sources because full e-codices facsimiles exist.
 
-## Public-web stop rules reached
+## 8. Current public-web stop rules
 
-Do not keep brute-forcing these through public interfaces:
+Do **not** continue brute-force public searching for:
 
-1. exact current 2024 Library classification hierarchy;
-2. complete local title/run/gap list for the 123 nineteenth-century periodicals;
-3. exact identities/current mapping/digitisation state of the institution-level `66 manuscripts + 3 estates`;
-4. internal physical/file-level composition of the broad Rauschenbach dossiers.
+- exact 2024 Library classification hierarchy;
+- complete local title/run/gap list for the 123 nineteenth-century periodicals;
+- subject-level digitisation proportion of materials/testing/geoscience shelves;
+- identities/current mapping/digitisation of the `66 manuscripts + 3 estates`;
+- internal file lists / box-folder scale / pre-1885 proportions of broad Rauschenbach dossiers;
+- exact creation dates/provenance of EBA 1/35–59 beyond the public broad envelope;
+- exact c.1850–85 count inside GFKS 98-map / c.366-print integral collections.
 
-The NOT-SENT staff enquiry asks, **if existing exports/lists are readily available**, for these data.
+These now require an **existing catalogue export, finding aid or staff clarification**, not more keyword searching.
 
-## Immediate next action
+## 9. Current chronological conjunctions — still not final topics
 
-1. Keep the staff enquiry **NOT SENT** until wording is reviewed.
-2. Treat Library grey-literature/world-exhibition rarity and Rauschenbach scale as now corrected; do not revert to earlier blanket claims.
-3. Continue collection-first work where public data can still change the map materially:
-   - remote substitutability of the Library **materials/testing/geoscience** shelf at block level;
-   - c.1850–85 density inside GFKS integral map/print collections only if visual evidence begins to matter structurally;
-   - otherwise stop public-web expansion and move to staff/export confirmation rather than manufacturing granularity.
-4. Do not select a final proposal question until at least one large Tier-O1 corpus is confirmed practically consultable and non-substitutable.
+### c.1868–72
 
-The eventual proposal should materially depend on a strong onsite corpus, while digitised material is used for pre-resolution.
+Library print/serials + Haffter tail + Küderli correspondence + native-GF product documents + Rauschenbach labour/company node.
+
+### c.1877–85
+
+Library print/serials + Küderli profile/price/cash/sales records + native-GF product/exhibition material + Rauschenbach company node + Traisen + world-exhibition/visual supplements.
+
+These are collection-driven overlap windows, not proposal theses.
+
+## 10. Next action
+
+1. **Do not send anything automatically.** `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` remains NOT SENT.
+2. Next substantive progress should come from staff/export/finding-aid confirmation, especially:
+   - Haffter/Küderli internal scans, retrieval units and reproduction rules;
+   - Rauschenbach internal file lists / physical unit scale / separable pre-1885 content;
+   - Library classification + nineteenth-century serial holdings export;
+   - current mapping of `66 manuscripts / 3 estates / c.300 graphic sheets / 80 Schaffhausen maps`.
+3. Do not select a final 2–3 week proposal question until at least one **large, non-substitutable, practically consultable** onsite corpus is confirmed.
+4. Keep early materials microscopy / Sheffield–Berlin as a hypothesis only. It may re-enter only if the confirmed collection blocks naturally support it.
+
+## Separate Wedding transcription workstream
+
+Authoritative branch: `ironlibrary-json-correction`.
+
+Coverage checkpoint: Mss 23 textual sequence through PDF 210; Mss 24 through PDF 65; next unprocessed PDF 66. Quality override: Mss 24 PDFs 1–65 = `LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`; calibrate the corrected layered schema on a mixed sample before continuing sequential transcription.
