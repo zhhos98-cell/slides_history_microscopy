@@ -11,13 +11,14 @@ For the Iron Library Scholar in Residence line, resume from the **collection arc
 3. `EVIDENCE_REGIME_MAP_2026-09-12.md` — current cross-system analytical map: what activity generated each major evidence block.
 4. `TIER_A_CARRIER_PROVENANCE_AUDIT_2026-09-12.md` — source-critical authority for Haffter / Küderli / Rauschenbach carrier and arrangement morphology.
 5. `LIBRARY_LARGE_BLOCK_MORPHOLOGY_ADDENDUM_2026-09-12.md` — separates the Library into large collection-scale printed environments rather than one generic `subject holdings` block.
-6. `HOLDINGS_TIME_MAP_2026-09-12.md` + `CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md` — chronological density; natural collection-driven test windows remain **c.1868–72** and **c.1877–85**.
-7. `ONSITE_VALUE_MAP_2026-09-12.md` — residency-necessity layer.
-8. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md`, `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md`, `LIBRARY_MANUSCRIPT_ESTATE_CENSUS_2026-09-12.md`, `LIBRARY_DIGITISED_MANUSCRIPT_LAYER_2026-09-12.md` — Library-specific controls.
-9. `GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md` + `GFA_PRE1900_FONDS_CENSUS_2026-09-12.md` — GFA pre-1896 controls.
-10. `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` — **NOT SENT**; now includes access, carrier/retrieval-unit, current special-collection mapping, classification-export and periodical-holdings-export questions.
-11. `COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md` remains broad background; later maps override it where they differ.
-12. Early microscopy / Sheffield–Berlin files remain subordinate hypotheses only.
+6. `LIBRARY_REMOTE_SUBSTITUTABILITY_AUDIT_2026-09-12.md` — access correction for Library grey literature/world-exhibition print: **rarity != onsite necessity**.
+7. `HOLDINGS_TIME_MAP_2026-09-12.md` + `CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md` — chronological density; natural collection-driven test windows remain **c.1868–72** and **c.1877–85**.
+8. `ONSITE_VALUE_MAP_2026-09-12.md` — residency-necessity layer.
+9. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md`, `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md`, `LIBRARY_MANUSCRIPT_ESTATE_CENSUS_2026-09-12.md`, `LIBRARY_DIGITISED_MANUSCRIPT_LAYER_2026-09-12.md` — Library-specific controls.
+10. `GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md` + `GFA_PRE1900_FONDS_CENSUS_2026-09-12.md` — GFA pre-1896 controls.
+11. `COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md` — **NOT SENT**; includes access, carrier/retrieval-unit, current special-collection mapping, classification-export and periodical-holdings-export questions.
+12. `COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md` remains broad background; later maps override it where they differ.
+13. Early microscopy / Sheffield–Berlin files remain subordinate hypotheses only.
 
 ## Current architecture
 
@@ -71,6 +72,22 @@ Do not treat `Library subject holdings` as one undifferentiated block. Controlle
 - reference/encyclopaedic literature.
 
 Company/product literature in the Library is a **retrospectively collected cross-firm printed regime**, not the same provenance as GFA corporate product records.
+
+### Library access correction
+
+Keep **structural rank** and **onsite rank** separate.
+
+- The Library itself states that product catalogues/price lists can be exceptionally rare or even the only copy visible in public catalogues.
+- But rarity alone is not an onsite claim: the Library's own Valerian Gillar 1899 `Preisbuch` example is now available as a complete e-rara facsimile.
+- Major nineteenth-century world-exhibition official catalogues/reports are also widely represented in public e-rara digital copies.
+
+Therefore:
+
+> **RARE != NON-SUBSTITUTABLE != ONSITE-NECESSARY.**
+
+Library printed blocks remain Tier A structurally, but are **not Tier O1 by default**. Promote a printed subset as an onsite anchor only when no adequate remote/alternative copy exists or when copy-specific evidence (annotations, stamps, binding, foldouts, physical sequence, provenance, local run gaps) is materially required.
+
+Use `LIBRARY_REMOTE_SUBSTITUTABILITY_AUDIT_2026-09-12.md` for the current claim ceiling.
 
 ## Evidence-regime correction
 
@@ -143,7 +160,7 @@ Strongest provisional Tier O1 candidates:
 
 All remain provisional until staff confirms internal/on-request scans, reproduction limits and physical retrieval units.
 
-Wedding Mss 23–25 are pre-visit sources because e-codices supplies full facsimile/IIIF. GFKS is usually material/copy-specific onsite value. GFD has essentially no original-source onsite value.
+Wedding Mss 23–25 are pre-visit sources because e-codices supplies full facsimile/IIIF. Library grey literature/world-exhibition print is mixed: some rare items are digitised or replaceable elsewhere. GFKS is usually material/copy-specific onsite value. GFD has essentially no original-source onsite value.
 
 ## Public-web stop rules reached
 
@@ -153,18 +170,18 @@ Do not keep brute-forcing these through public interfaces:
 2. complete local title/run/gap list for the 123 nineteenth-century periodicals;
 3. exact identities/current mapping/digitisation state of the institution-level `66 manuscripts + 3 estates`.
 
-The NOT-SENT staff enquiry now asks, **if existing exports/lists are readily available**, for these data. It also asks about current separately-listed Library collections/bequests.
+The NOT-SENT staff enquiry asks, **if existing exports/lists are readily available**, for these data. It also asks about current separately-listed Library collections/bequests.
 
 Do not calculate `52 undigitised manuscripts`; do not infer periodical completeness from publication dates; do not identify ordinary estate-origin donations as the ISIL three estates without confirmation.
 
 ## Immediate next action
 
 1. Keep the staff enquiry **NOT SENT** until wording is reviewed.
-2. Continue collection-first work on internal morphology of already-strong blocks rather than more attractive single objects.
-3. Most useful next audits without staff intervention:
-   - rarity / remote substitutability of Library company/product grey literature and world-exhibition corpus;
-   - carrier composition inside already-controlled Rauschenbach dossiers only where public metadata permits;
-   - c.1850–85 density inside GFKS integral map/print collections only if visual evidence begins to matter structurally.
+2. The Library grey-literature/world-exhibition remote-substitutability audit is now controlled; do not treat rarity as onsite necessity.
+3. Continue collection-first work on internal morphology of already-strong blocks:
+   - carrier/retrieval-unit composition inside already-controlled Rauschenbach records where public metadata permits;
+   - remote substitutability of the Library materials/testing/geoscience shelf only at block level, not by cherry-picking attractive titles;
+   - c.1850–85 density inside GFKS integral map/print collections only if visual evidence becomes structurally necessary.
 4. Do not select a final proposal question until at least one Tier-O1 corpus is confirmed practically consultable and not remotely substitutable.
 
 The eventual proposal should materially depend on a strong onsite corpus, while digitised material is used for pre-resolution.
