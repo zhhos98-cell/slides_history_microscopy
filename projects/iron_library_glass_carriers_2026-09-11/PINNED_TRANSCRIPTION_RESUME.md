@@ -67,7 +67,8 @@ Generally more conservative than Mss 24, but it is still selective rather than d
 `projects/iron_library_glass_carriers_2026-09-11/corrected_transcription/`
 
 - `README.md` — human-readable quality and resume guide.
-- `README.json` — machine-readable historical checkpoint/status lists; **its `through_pdf_page` field currently records coverage only and must not be interpreted as citation-ready quality.**
+- `QUALITY_STATUS.json` — **machine-readable quality override; read this together with `README.json`.**
+- `README.json` — machine-readable historical coverage checkpoint/status lists; **its `through_pdf_page` field records coverage only and must not be interpreted as citation-ready quality.**
 - `WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl` — Mss 23 ledger.
 - `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl` — Mss 24 ledger; PDFs 1–65 currently carry the legacy mixed-extraction warning above.
 - `WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl` — Mss 25 ledger.
