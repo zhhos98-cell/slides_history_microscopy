@@ -11,15 +11,17 @@ Start here for the current Iron Library residency / holdings argument:
 3. `HOLDINGS_TIME_MAP_2026-09-12.md` — active time-aware map of where Library / EBA / GFA actually thicken, plus a prior-SiR overlay. Use this before inferring that a fonds start date means continuous nineteenth-century density.
 4. `HOLDINGS_TIME_MAP_DENSITY_ADDENDUM_2026-09-12.md` — adds the contemporaneity/originality axis; records Rauschenbach governance correction, Traisen copies vs original plans, later personnel registers carrying earlier data, and the strengthened native-GF product/document cluster.
 5. `HOLDINGS_HEATMAP_2026-09-12.md` — five-axis comparison of large holdings blocks: scale / seriality / date density / provenance coherence / contemporaneity-originality.
-6. `GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md` — audit of apparently early GFA 1 top-level classes; separates genuine pre-1896 record regimes from retrospective/mixed class envelopes and confirms the 1896 corporate caesura.
-7. `GFA_PRE1900_FONDS_CENSUS_2026-09-12.md` — census across current GFA top-level/separated fonds. Shows that no second hidden c.1850–1885 corporate fonds emerges beyond Rauschenbach; systematic native-GF governance/reporting series begin in 1896.
-8. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md` — Library-only serial census; separates publication run from Iron Library holding run/completeness, records controlled nineteenth-century anchor titles and later backfilling donations, and gives the ISIL/ZDB/SWB/K10plus recovery route.
-9. `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md` — Library subject morphology. Uses the 1996 full-collection percentage structure as a historical control, keeps the unrecovered 2024 classification hierarchy OPEN, and records that the institutional Library/EBA catalogue boundary itself changed over time.
-10. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier methodological pin for early materials microscopy; useful framing, but subordinate to collection-first census/time map/heat map when they differ.
-11. `FELLOWSHIP_HOLDINGS_AUDIT_2026-09-11.md`, `RESIDENCY_TRIAGE_2026-09-11.md`, `SOURCE_MAP.md` — supporting holdings and source audits.
-12. `CURRENT_PROGRESS.md` — broad project progress narrative on `main`; do not use it as the sole authority for corrected-transcription progress.
+6. `ONSITE_VALUE_MAP_2026-09-12.md` — residency-necessity layer. Separates online metadata, public source images, remote substitutability, onsite increment and formal access rules. Current strongest onsite candidates are EBA 3 Haffter, EBA 4 Küderli/Bär and Rauschenbach operational/company records; Wedding Mss 23–25 are explicitly downgraded as source-access justification because full e-codices facsimiles/IIIF already exist.
+7. `GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md` — audit of apparently early GFA 1 top-level classes; separates genuine pre-1896 record regimes from retrospective/mixed class envelopes and confirms the 1896 corporate caesura.
+8. `GFA_PRE1900_FONDS_CENSUS_2026-09-12.md` — census across current GFA top-level/separated fonds. Shows that no second hidden c.1850–1885 corporate fonds emerges beyond Rauschenbach; systematic native-GF governance/reporting series begin in 1896.
+9. `LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md` — Library-only serial census; separates publication run from Iron Library holding run/completeness, records controlled nineteenth-century anchor titles and later backfilling donations, and gives the ISIL/ZDB/SWB/K10plus recovery route.
+10. `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md` — Library subject morphology. Uses the 1996 full-collection percentage structure as a historical control, keeps the unrecovered 2024 classification hierarchy OPEN, and records that the institutional Library/EBA catalogue boundary itself changed over time.
+11. `LIBRARY_DIGITISED_MANUSCRIPT_LAYER_2026-09-12.md` — maps the 14 e-codices Iron Library manuscripts. For c.1850–1885, Wedding Mss 23–25 form the only continuous digitised manuscript cluster; useful as pre-visit material, not an onsite-access argument by itself.
+12. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier methodological pin for early materials microscopy; useful framing, but subordinate to collection-first census/time map/heat map when they differ.
+13. `FELLOWSHIP_HOLDINGS_AUDIT_2026-09-11.md`, `RESIDENCY_TRIAGE_2026-09-11.md`, `SOURCE_MAP.md` — supporting holdings and source audits.
+14. `CURRENT_PROGRESS.md` — broad project progress narrative on `main`; do not use it as the sole authority for corrected-transcription progress.
 
-Current research rule: **collection first; question second**. Treat the holdings as three current evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**. For chronology, use the time map rather than top-level fonds start dates alone. For archival strength, also distinguish the date of the historical content from the creation date/originality of the surviving carrier.
+Current research rule: **collection first; question second**. Treat the holdings as three current evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**. For chronology, use the time map rather than top-level fonds start dates alone. For archival strength, also distinguish the date of the historical content from the creation date/originality of the surviving carrier. For residency design, add a separate test: **does onsite consultation materially add evidence that remote access cannot substitute?**
 
 ### Current-boundary / historical-boundary rule
 
@@ -37,6 +39,18 @@ A source dated to an early historical period is not necessarily a contemporary s
 - `ORIGINALITY_OPEN`
 
 Do not rank blocks by envelope dates alone.
+
+### Onsite-value rule
+
+For every candidate corpus, keep separate:
+
+- `METADATA_REMOTE`
+- `SOURCE_IMAGES_REMOTE`
+- `REMOTE_SUBSTITUTABILITY`
+- `ONSITE_INCREMENT`
+- `RULE_STATUS`
+
+Do not use `held at the Iron Library` as a synonym for `requires a residency`. Wedding Mss 23–25 are fully available in high-quality e-codices facsimile/IIIF and therefore belong primarily in the pre-visit corpus. By contrast, EBA 3, EBA 4 and the Rauschenbach operational series currently expose rich metadata without corresponding public digital source objects and are much stronger onsite candidates. For GFA, the 2020 Corporate Archives regulations explicitly require consultation on the premises and prohibit sending archival materials out for consultation. For EBA, confirm the exact regulatory scope with staff before quoting the GFA rule as universal.
 
 ### GFA pre-1896 rule
 
@@ -119,10 +133,10 @@ Files beginning `FISCHER_*` form a separate research cluster on travel, observat
 - A dated/pass file is supporting history unless a pin explicitly promotes it.
 - Do not infer recency or quality from filename/status label alone; use the pinned resume and branch HEAD.
 - For manuscript work, keep **coverage**, **literal transcription**, **editorial visual description**, and **research interpretation** as separate layers.
-- For holdings work, keep **Library / EBA / GFA** separate and distinguish **fonds envelope dates**, **actual series-level date density**, and **surviving-carrier originality/contemporaneity**.
+- For holdings work, keep **Library / EBA / GFA** separate and distinguish **fonds envelope dates**, **actual series-level date density**, **surviving-carrier originality/contemporaneity**, and **onsite vs remote substitutability**.
 - For older institutional statistics, distinguish the **historical collection-management boundary** from today's catalogue boundary.
 - For GFA pre-1896 work, distinguish **native GF**, **acquired subsidiary/company provenance**, and **later separated governance fonds**.
 - For serials, distinguish **publication chronology**, **library holding chronology**, and **holding completeness**.
 - Avoid moving or deleting legacy files solely for cosmetic cleanup because existing notes may cite their paths.
 
-Last organized / quality-audited / holdings-heat-map, GFA morphology/fonds census, serial-environment and Library-subject-structure updated: 2026-09-12.
+Last organized / quality-audited / holdings-heat-map, onsite-value map, GFA morphology/fonds census, serial-environment and Library-subject-structure updated: 2026-09-12.
