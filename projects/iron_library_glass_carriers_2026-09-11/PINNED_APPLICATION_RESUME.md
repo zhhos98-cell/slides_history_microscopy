@@ -1,17 +1,18 @@
 # PINNED APPLICATION RESUME
 
-For the Iron Library Scholar in Residence application line, **do not resume from a preselected research problem first**. Resume from the collection structure, chronology, carrier/originality status, and onsite value:
+For the Iron Library Scholar in Residence application line, **do not resume from a preselected research problem first**. Resume from collection architecture, chronology, carrier/originality status, and onsite value.
 
-1. **`COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md`** — governing collection-first, big-block census.
-2. **`HOLDINGS_TIME_MAP_2026-09-12.md`** — governing chronological map; use it to distinguish fonds/class envelope dates from actual series-level density and to see prior SiR overlap.
-3. **`HOLDINGS_TIME_MAP_DENSITY_ADDENDUM_2026-09-12.md`** — originality/contemporaneity correction; separates contemporary originals from later copies, retrospective dossiers and later registers carrying earlier data.
-4. **`HOLDINGS_HEATMAP_2026-09-12.md`** — five-axis working map: scale / seriality / date density / provenance coherence / contemporaneity-originality.
-5. **`ONSITE_VALUE_MAP_2026-09-12.md`** — residency-necessity map: metadata remote / source images remote / remote substitutability / onsite increment / rule status.
-6. **`LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md`** — Library-only periodical census; keeps publication run separate from Iron Library holding run/completeness.
-7. **`LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md`** — Library subject morphology; 1996 quantitative shelf structure is a historical control, while the exact 2024 classification remains OPEN.
-8. **`GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md`** and **`GFA_PRE1900_FONDS_CENSUS_2026-09-12.md`** — prevent early GFA class/fonds envelope dates from being mistaken for continuous nineteenth-century corporate archives.
-9. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier problem-framing note; retain as a hypothesis, not as the governing retrieval rule.
-10. `FELLOWSHIP_MICROSCOPY_NARROW_PASS_2026-09-11.md` and BAM addendum — earlier Sheffield/Berlin design and provenance lead; use only after the strongest collection/onsite combination has been identified.
+## Governing files
+
+1. **`ANTON_ARCHIVAL_SYSTEMS_MAP_2026-09-12.md`** — current catalogue-architecture authority. ANTON has four parallel systems: EBA / GFA / GFKS / GFD. Together with the Library, this supersedes the earlier incomplete `Library / EBA / GFA` total-system shorthand.
+2. **`COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md`** — big-block census. Its EBA/GFA/Library findings remain valid for the main nineteenth-century series problem, but system count must be read through the architecture correction above.
+3. **`HOLDINGS_TIME_MAP_2026-09-12.md`** and **`CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md`** — chronological density and overlap; current natural testing windows are c.1868–72 and c.1877–85.
+4. **`HOLDINGS_HEATMAP_2026-09-12.md`** — scale / seriality / date density / provenance coherence / carrier originality; GFKS/GFD are newly added at architecture level and still require full migration into the older heat-map table.
+5. **`ONSITE_VALUE_MAP_2026-09-12.md`** — source-access/residency-necessity map.
+6. **`LIBRARY_SERIAL_ENVIRONMENT_2026-09-12.md`**, `LIBRARY_SUBJECT_STRUCTURE_2026-09-12.md`, `LIBRARY_MANUSCRIPT_ESTATE_CENSUS_2026-09-12.md` — Library morphology.
+7. **`GFA1_PRE1896_CLASS_MORPHOLOGY_2026-09-12.md`** and **`GFA_PRE1900_FONDS_CENSUS_2026-09-12.md`** — prevent GFA envelope dates from being mistaken for continuous nineteenth-century company records.
+8. **`COLLECTION_ACCESS_ENQUIRY_DRAFT_2026-09-12.md`** — NOT SENT; current staff-level access/catalogue questions.
+9. Early microscopy / Sheffield–Berlin files remain hypotheses and supporting work, not governing retrieval rules.
 
 ## Governing architecture
 
@@ -19,116 +20,151 @@ For the Iron Library Scholar in Residence application line, **do not resume from
 
 Before returning to Wedding / Martens / Sorby / early microscopy:
 
-1. identify the largest, internally coherent, chronologically usable holdings blocks;
-2. distinguish original contemporary carriers from later copies/retrospective dossiers;
-3. test whether the final research operation materially requires on-site consultation rather than merely benefiting from being in Schaffhausen.
+1. identify large, internally coherent, chronologically dense holdings blocks;
+2. distinguish original contemporary carriers from later copies/retrospective documentation;
+3. map the complete current collection system correctly;
+4. test whether the final research operation materially requires onsite access.
 
-## Non-negotiable evidence-system split
+## Current total collection-system map
 
-Treat three systems separately before recombining them:
+### LIBRARY — Eisenbibliothek
 
-1. **LIBRARY — Eisenbibliothek / Iron Library**: systematic subject shelves, periodical/serial runs, handbooks, rara, product/company literature, printed technical/scientific literature.
-2. **EBA — Eisenbibliothek Archiv**: non-GF archival fonds preserved/administered by the Iron Library (e.g. maps/plans, Haffter, Küderli, Swiss iron trade, Gonzen).
-3. **GFA — Georg Fischer Archiv / GF Corporate Archives**: Fischer-family, company, subsidiary/acquisition, administrative, media and object fonds.
+Classified printed holdings, serials, rara and a manuscript/special-collection layer.
 
-Do not collapse EBA into GFA and do not use generic “archive/library” language when provenance differs.
+- strongest continuous nineteenth-century knowledge environment;
+- serials and subject shelves remain the broad backbone;
+- Swiss ISIL currently reports 66 manuscripts + 3 estates at institution level, but exact current mapping/digitisation remains OPEN;
+- the 14 e-codices manuscripts are only a selected digital subset.
+
+### EBA — Eisenbibliothek Archiv
+
+Current ANTON archival system, c.90 lm.
+
+- **EBA 3 Haffter**: Tier A, especially c.1835–67;
+- **EBA 4 Küderli/Bär**: Tier A, very strong c.1854–85;
+- EBA 1 maps: Tier B;
+- EBA 6 before 1889/90: stop rule;
+- EBA 2 Gonzen: mainly later scientific density for the present chronology;
+- EBA 8: assembled graphic/art collection, extensively digitised, supporting visual layer rather than continuous nineteenth-century provenance.
+
+### GFA — Georg Fischer Archiv
+
+Current ANTON archival system, c.1070 lm.
+
+- Rauschenbach operational/company records = strongest pre-1890 continuous company block currently identified;
+- native GF c.1865–83 product/market-document regime = Tier B;
+- broad early GFA 1 class envelopes often mix originals, later copies and retrospective dossiers;
+- native-GF systematic governance/reporting thickens sharply in **1896**.
+
+### GFKS — Georg Fischer Kunstsammlung
+
+Current ANTON archival system, c.48 lm.
+
+- physical art/maps/prints/views/objects;
+- real c.1850–85 visual density, especially Schaffhausen views/industrial imagery and maps;
+- examples include 1866 `Schaffhausen, Stahlfabrik`, 1879–85 Schaffhausen map and 1883 canton map;
+- many visible objects are already digitised and include physical descriptions;
+- use as a **visual/original-object supplementary system**, not yet as the primary archival-series backbone.
+
+### GFD — Georg Fischer Dokumentation
+
+Current ANTON archival system, c.1 lm.
+
+- modern digital documentation/reference layer;
+- GFD 3 explicitly formed in 2022 and described as `rein digitaler Bestand`, especially for the Johann Conrad Fischer digital edition and keyword illustration;
+- many files reproduce external holdings from institutions such as British Museum and Wellcome;
+- **historical dates represented in GFD images do not count as archival date density**;
+- Tier D/reference only for the present project; essentially no onsite source-access value.
+
+## Current boundary-history correction
+
+Do not assume current Library / EBA / GFA / GFKS / GFD boundaries existed historically.
+
+Evidence of movement includes:
+
+- Swiss ISIL's institution-level `66 manuscripts / 3 estates / c.300 graphical sheets / 80 Schaffhausen maps` does not map one-to-one onto today's catalogue systems;
+- Schaffhausen historical maps are visibly held in GFKS 2;
+- EBA 8 records objects transferred from GF Kunstsammlung into EBA in 2023;
+- an EBA 8 Encyclopédie forge plate records former GF Kunstsammlung registration while being marked property of Eisenbibliothek.
+
+Therefore legacy institutional statistics must be **mapped into current systems**, not added as separate new collections.
 
 ## Six-axis holdings test
 
-Do not rank a block from its title or earliest date. Evaluate separately:
+Evaluate every candidate block separately on:
 
-1. **scale**;
-2. **internal seriality**;
-3. **actual date density** inside the target period;
-4. **provenance coherence**;
-5. **contemporaneity/originality of the surviving carrier**;
-6. **onsite value / remote substitutability**.
+1. scale;
+2. internal seriality;
+3. actual date density;
+4. provenance coherence;
+5. contemporaneity/originality of surviving carrier;
+6. onsite value / remote substitutability.
 
-Every eventual source list should distinguish `ORIGINAL_CONTEMPORARY`, `CONTEMPORARY_BUT_RETROSPECTIVELY_FILED`, `LATER_COPY_OF_EARLIER_RECORD`, `LATER_REGISTER_WITH_EARLIER_DATA`, `RETROSPECTIVE_HISTORICAL_DOSSIER`, and `ORIGINALITY_OPEN`.
+Carrier-status vocabulary:
+`ORIGINAL_CONTEMPORARY`, `CONTEMPORARY_BUT_RETROSPECTIVELY_FILED`, `LATER_COPY_OF_EARLIER_RECORD`, `LATER_REGISTER_WITH_EARLIER_DATA`, `RETROSPECTIVE_HISTORICAL_DOSSIER`, `ORIGINALITY_OPEN`.
 
-For access, separately record `METADATA_REMOTE`, `SOURCE_IMAGES_REMOTE`, `REMOTE_SUBSTITUTABILITY`, `ONSITE_INCREMENT`, and `RULE_STATUS`.
+Access fields:
+`METADATA_REMOTE`, `SOURCE_IMAGES_REMOTE`, `REMOTE_STAFF_SUPPORT`, `REMOTE_SUBSTITUTABILITY`, `ONSITE_INCREMENT`, `RULE_STATUS`.
+
+## Current structural core for c.1850–1885
+
+### Tier A
+
+- **Library nineteenth-century subject system + serial environment**;
+- **EBA 3 Haffter**;
+- **EBA 4 Küderli/Bär**;
+- **GFA / Rauschenbach operational/company records**.
+
+### Tier B
+
+- native GF c.1865–83 product/market-document regime;
+- EBA 1 engineering-map cluster;
+- Traisen;
+- **GFKS c.1850–85 visual/map layer** — original objects but high digitisation means lower source-access necessity.
+
+### Tier C / controls
+
+- EBA 2 Gonzen for c.1850–85;
+- EBA 6 before 1889/90;
+- broad GFA 8 pre-1885;
+- EBA 8 when used as assembled representation collection;
+- later photo/glass systems.
+
+### Tier D / reference
+
+- **GFD**.
 
 ## Current chronological result
 
-The holdings are **overlapping temporal islands, not one uniformly thick archive**.
+The holdings remain overlapping temporal islands, not a uniform archive.
 
-- **LIBRARY:** the only system that remains broadly dense across the entire nineteenth century; subject shelves + serial runs are the continuous backbone. Historical controls show substantial mining, metallurgy/materials-testing, mineralogy/petrography, industrial application and serial environments.
-- **EBA 3 Haffter:** exceptionally dense c.1835–1867, then tails off. 15 lm closed archive with major accounting/correspondence series.
-- **EBA 4 Küderli/Bär:** compact but unusually clean c.1854–1885 bridge corpus; correspondence 1858–72, price lists 1878–80, profile albums 1877–85, cashbook from 1884, sales journal from 1885.
-- **EBA 1 maps/plans:** real visual/engineering cluster, especially Gotthardbahn, but exact item dates/provenance remain broad and OPEN.
-- **EBA 6 Swiss iron trade:** 39 lm but coherent association/convention structure currently becomes visible mainly around 1889/90; do not use its 1852 envelope as proof of mid-century density.
-- **EBA 2 Gonzen:** genuine nineteenth-century islands, but strongest scientific/petrographic density is twentieth century.
-- **native GF material in GFA 1 before 1885:** a real product/market-document regime exists, but GFA 1 remains a retrospective historical archive rather than a continuous annual corporate registry.
-- **Rauschenbach:** strongest continuous pre-1890 industrial-company block in the GFA environment. Operational records become strong from 1868 onward; formal AG governance begins only in 1892.
-- **Traisen:** useful 1870s–80s industrial-technical node; copy history and original plans must be kept separate.
-- **1896:** clean native-GF corporate caesura. Board, general-meeting and annual-report systems begin with the joint-stock-company era.
-
-## Current structural tiers
-
-### Tier A — structural core
-
-- **LIBRARY nineteenth-century systematic holdings + serial runs**.
-- **EBA 3 Haffter Archive**.
-- **EBA 4 Küderli/Bär**.
-- **Rauschenbach operational/company records**.
-
-### Tier B — strong but narrower / mixed carrier history
-
-- **native GF c.1865–83 product/market-document regime**.
-- **EBA 1 Gotthardbahn / engineering-map cluster**.
-- **Traisen**.
-
-### Tier C — later, sparse, or misleading envelope for c.1850–1885
-
-- GFA 8 as a whole;
-- EBA 2 Gonzen as a whole for this period;
-- EBA 6 unless genuinely early series emerge;
-- Rauschenbach GFA 51 formal governance before 1892;
-- later personnel registers carrying earlier data;
-- post-1900 photo/glass systems as later controls.
+- **c.1868–72:** strongest coexistence of Haffter tail + Küderli correspondence + native-GF product documents + Rauschenbach operational records + continuous Library.
+- **c.1877–85:** EBA 4 profile/price/order records + native-GF product material + Rauschenbach operations + Traisen + continuous Library.
+- GFKS supplies a parallel visual Schaffhausen layer across parts of these windows but does not currently change the archival-series overlap peaks.
+- 1896 remains the clean native-GF corporate governance caesura.
 
 ## Current onsite-value result
 
-### Strongest onsite candidates
+Strongest present candidates:
 
-1. **EBA 3 Haffter** — online catalogue gives detailed series structure, but the controlled record exposes no public digital media. The 555 correspondence files and long accounting/copybook sequences therefore remain a very strong physical-series candidate.
-2. **EBA 4 Küderli/Bär** — historical correspondence, profile albums, price lists, cashbooks and sales journals are catalogued online but do not carry public `Digitalisiert` markers in the controlled listing.
-3. **Rauschenbach operational/company records** — correspondence/contracts, employee register and ten-volume sickness-fund series are metadata-visible; selected photographs in the same catalogue are explicitly marked `Digitalisiert`, giving a useful internal control that the archival core is not publicly exposed in the same way.
+1. **EBA 3 Haffter** — rich metadata, no public digital media exposed for the core series;
+2. **EBA 4 Küderli/Bär** — historical core metadata visible, no public `Digitalisiert` markers controlled;
+3. **Rauschenbach operational/company records** — archival core metadata-only in public catalogue while selected photographs are explicitly digitised.
 
-For **GFA**, the 2020 Corporate Archives regulations explicitly state that holdings may be used only on the premises of the Corporate Archives or Iron Library and may not be loaned or sent out for consultation. On-site services include user scanning, personal-camera photography and staff consultation.
+Wedding Mss 23–25 = **pre-visit corpus**, not sole residency rationale, because e-codices supplies full facsimile/IIIF.
 
-For **EBA**, do not automatically quote the GFA rule as formally universal; exact regulatory scope still needs staff confirmation. Nonetheless the public catalogue currently exposes metadata rather than source images for the key EBA 3/4 historical series.
+GFKS = mixed: real physical originals but high public digitisation; onsite value is primarily physical/material/copy-specific rather than image access.
 
-### Weak onsite-access argument
+GFD = digital/reference; no meaningful source-access justification.
 
-**Wedding Mss 23–25:** use them heavily, but as a **pre-visit corpus**. All three have full e-codices facsimiles and IIIF; Iron Library states that its e-codices manuscripts are downloadable in high quality. They therefore should not be the sole reason for a residency.
-
-### Mixed-access candidate
-
-**native GF c.1865–83 product regime:** some key carriers are explicitly digitised (e.g. Temperguss poster; 19-object Gussstahl/Weichguss group), while adjacent product catalogues/price documents are not uniformly exposed digitally. Its onsite value lies in cross-carrier comparison and original/copy control rather than simple discovery.
-
-## Prior-SiR overlay currently controlled
-
-Previous projects already occupy several adjacent zones without exhausting the present structural opening:
-
-- Yagou — Fischer/private-network world to 1854;
-- Haumann — raw-material history, 1850–1930;
-- Boothby — iron-bridge/engineering literature, 1875–1895;
-- Lütolf — metal-surface treatment;
-- Pannese — nineteenth-century metallurgy/aesthetics and specialist Library holdings;
-- later corporate/photo projects occupy 1918+ and postwar GFA/media systems.
-
-Current public project descriptions do not yet show an explicitly **EBA-led** residency centred on Haffter, Küderli or another named EBA fonds. Treat this as `NOT STATED IN PUBLIC DESCRIPTION`, not as proof that no past scholar consulted EBA.
+For GFA, formal regulations require source consultation onsite; remote staff enquiries still exist. For EBA, exact regulatory scope must be confirmed with staff.
 
 ## Immediate next action
 
-> Select the next research operation from the intersection of **structural strength + chronological fit + onsite necessity**.
+1. migrate GFKS/GFD into older heat-map/onsite tables without treating them as equal archival-series systems;
+2. extend the **NOT-SENT** staff enquiry to clarify where the ISIL `66 manuscripts / 3 estates / 300 graphics / 80 Schaffhausen maps` sit in today's Library/EBA/GFKS architecture;
+3. continue Library serial/classification recovery;
+4. keep Wedding/e-codices as pre-resolution material;
+5. only after that test candidate historical questions against **structural strength + overlap chronology + onsite necessity**.
 
-Priority order:
-
-1. prepare a **staff-level digitisation/access enquiry** for EBA 3, EBA 4 and Rauschenbach: public digitisation status, internal scans, consultability, box/volume counts, ordering limits, reproduction rules;
-2. continue the Library serial/classification census, but do not let readily available printed/digitised sources substitute for the onsite argument;
-3. treat Wedding/e-codices as pre-resolution material before arrival;
-4. only then test whether early materials microscopy, trade/material ordering, industrial reference practices, or another question best connects one or more Tier-A onsite corpora.
-
-The eventual application question should materially depend on at least one strong onsite corpus rather than merely cite holdings that are already fully accessible online.
+The eventual proposal should materially depend on at least one strong onsite corpus rather than merely cite holdings that are already fully accessible online.
