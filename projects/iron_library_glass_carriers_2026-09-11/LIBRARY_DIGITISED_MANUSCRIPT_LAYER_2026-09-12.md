@@ -1,8 +1,20 @@
 # Iron Library digitised manuscript layer
 
 **Date:** 2026-09-12  
-**Status:** CONTROLLED DIGITAL-MANUSCRIPT MAP  
-**Rule:** distinguish the **digitised e-codices selection** from the total manuscript holdings of the Iron Library. Do not infer that only these manuscripts exist.
+**Status:** CONTROLLED DIGITAL-MANUSCRIPT SUBSET MAP  
+**Rule:** distinguish the **14-item e-codices selection** from the total manuscript/estate holdings of the Iron Library. This file maps only the digital subset; use `LIBRARY_MANUSCRIPT_ESTATE_CENSUS_2026-09-12.md` for the total-layer question.
+
+## 0. Governing correction — e-codices is only a subset
+
+The current Swiss ISIL record for the Eisenbibliothek (`CH-000728-7`) lists **66 manuscripts and 3 estates (`Nachlässe`)** under institution-level archival holdings. By contrast, e-codices currently exposes **14 Eisenbibliothek manuscripts**.
+
+Therefore:
+
+> **14 digitised e-codices manuscripts != total Iron Library manuscript holdings.**
+
+Do not infer an exact number of undigitised manuscripts from `66 - 14` until staff/catalogue confirmation establishes that the ISIL and e-codices counts use exactly the same manuscript universe and that additional manuscripts are not digitised elsewhere.
+
+The full identities, date distribution, current catalogue mapping and digitisation status of the 66 manuscripts / 3 estates are presently OPEN. See the companion census.
 
 ## 1. Current e-codices selection
 
@@ -33,13 +45,15 @@ Only five of the 14 digitised items are nineteenth-century or immediately pre-18
 | **Mss 24** | 1858 | Hermann Wedding: travel notebook through Thuringia, Bavaria, Saar, Lorraine, Rhine, Westphalia; mines, works, production processes and geology. |
 | **Mss 25** | 1860–1862 | Hermann Wedding: metallurgical travel notebook through Germany, Belgium and England; works/process observations including early Bessemer steel works. |
 
-### Immediate chronological result
+### Immediate chronological result — digital subset only
 
-Inside the **digitised manuscript layer**, the only coherent cluster falling squarely inside c.1850–1885 is:
+Inside the **e-codices subset**, the only coherent cluster falling squarely inside c.1850–1885 is:
 
 > **Wedding Mss 23–25, 1856–1862.**
 
-There is no second digitised nineteenth-century manuscript cluster of comparable scale currently visible on e-codices.
+There is no second **digitised** nineteenth-century manuscript cluster of comparable scale currently visible on e-codices.
+
+This statement must not be generalized to the full 66-manuscript institutional layer.
 
 ## 3. Earlier digitised manuscripts show the broader collecting logic
 
@@ -53,7 +67,7 @@ The rest of the e-codices selection is heavily weighted toward rare/illustrative
 - `Mss 8` — late-sixteenth-century Elba iron-mine administrative record;
 - `Mss 36` — 1661 Fricktal iron-mining regulations.
 
-This pattern supports reading the manuscript collection as a **curated specialist-library rarity/technical-manuscript layer**, not as one organically accumulated archival fonds.
+This pattern supports reading the **digitised selection** as a curated specialist-library rarity/technical-manuscript layer. The full 66-manuscript layer may have a different chronological/provenance morphology and must be separately mapped.
 
 ## 4. Relationship to Library / EBA / GFA architecture
 
@@ -61,46 +75,57 @@ Do not move these manuscripts analytically into EBA merely because they are arch
 
 For the present holdings map:
 
-- they belong to the **Library manuscript/rara layer**;
+- the 14 records are currently presented as the **Eisenbibliothek / Library** collection on e-codices;
 - e-codices provides a digital-selection interface;
-- EBA remains the separate current archival-fonds system;
+- EBA remains the separate current archival-fonds system in ANTON;
 - GFA remains corporate/family/company provenance.
 
-The fact that older institutional statistics could group manuscripts/archives differently is part of cataloguing history, but current citation/provenance should follow the present structure.
+However, the Swiss ISIL heading `Archivbestände` groups the total 66 manuscripts / 3 estates institutionally. Until the full inventory is recovered, the precise present-day Library/EBA mapping of every one of those records remains OPEN. Do not use the ISIL total to collapse current provenance systems.
 
 ## 5. Onsite implication
 
-The e-codices manuscripts are digitally accessible with page images and IIIF manifests. Therefore:
+For the 14 e-codices manuscripts:
 
-- their existence can support the intellectual architecture of a residency project;
-- Wedding Mss 23–25 can be exhaustively pre-read remotely;
+- page images and IIIF manifests are remotely available;
+- Wedding Mss 23–25 can be extensively pre-read remotely;
 - they **do not by themselves establish onsite necessity** unless a question depends on physical features not recoverable from the digital surrogate and that need has been demonstrated specifically.
 
-This is especially important for the current fellowship line: Wedding is a distinctive c.1856–62 manuscript cluster inside the Library, but its full digitisation means the onsite case must come from other physical holdings, cross-collection comparison, uncatalogued material, object/carrier evidence, or access to non-digitised corpora.
+For the full manuscript/estate layer:
+
+- onsite value is now **OPEN / potentially HIGH**;
+- there may be non-e-codices nineteenth-century manuscripts or coherent estates that materially change the residency case;
+- digitisation and remote-reproduction status are unknown and must be obtained from a full catalogue export or staff confirmation.
 
 ## 6. Claim ceiling
 
 Secure:
 
+- current Swiss ISIL record lists 66 manuscripts and 3 estates for the institution;
 - e-codices currently exposes 14 Eisenbibliothek manuscripts and the exact shelfmark list above;
-- Mss 23–25 form a chronological/author cluster 1856–62;
+- Mss 23–25 form a digitised chronological/author cluster 1856–62;
 - Mss 14 and Mss 57 are the other nineteenth-century entries in the digitised selection;
 - the Wedding manuscripts are fully digitised and have IIIF manifests;
-- the selection includes rare technical/metallurgical/mining manuscripts from the medieval to modern periods.
+- the digitised selection includes rare technical/metallurgical/mining manuscripts from the medieval to modern periods.
 
 Open:
 
-- total number of physical `Mss` holdings in the Iron Library;
-- why exactly these 14 were selected for digitisation;
-- whether non-digitised nineteenth-century manuscript blocks exist outside the e-codices selection;
-- acquisition/provenance history of every Wedding volume unless separately controlled;
-- whether any physical feature of Mss 23–25 produces a genuine onsite-only research need.
+- complete identity/date distribution of the 66 manuscripts;
+- names/date spans/extents of the 3 estates;
+- whether the ISIL and e-codices manuscript counts are directly comparable enough to calculate an exact non-e-codices remainder;
+- whether non-e-codices manuscripts are digitised elsewhere or internally;
+- whether substantial non-e-codices nineteenth-century manuscript blocks exist;
+- exact current Library/EBA catalogue mapping of the institutional `Archivbestände` total;
+- whether physical features of any manuscript produce a genuine onsite-only research need.
 
 ## 7. Next action
 
-Do not search manuscript shelfmarks randomly. If manuscript holdings become central, request or recover a **complete Iron Library Mss inventory/export** and compare it with the 14 e-codices items. Until then, treat the digitised manuscript layer as a curated selection whose c.1850–85 core is Wedding Mss 23–25.
+Do not search manuscript shelfmarks randomly. Request/recover a **complete Iron Library manuscript/estate inventory/export** with shelfmark, title/creator, date, catalogue location and digitisation status, and compare it with the 14 e-codices records.
+
+Until that export exists, treat Wedding Mss 23–25 as the core of the **digitised c.1850–85 manuscript subset**, not as the full nineteenth-century manuscript holdings.
 
 ## Controlled public sources
 
-- e-codices, Eisenbibliothek collection selector (exact 14-item digital list).
+- Swiss ISIL record `CH-000728-7` — 66 manuscripts / 3 estates institution-level total.
+- e-codices, Eisenbibliothek collection selector — exact 14-item digital list.
 - e-codices records for Mss 14, 20, 23, 24, 25, 57 and other listed technical/mining manuscripts.
+- SWB public catalogue / Iron Library IRONCAT context — total holdings are catalogued online, but complete manuscript export was not reproducibly recovered in this pass.
