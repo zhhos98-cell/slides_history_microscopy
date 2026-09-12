@@ -2,7 +2,7 @@
 
 Date: 2026-09-12
 
-Status: BIBLIOGRAPHIC PAGE-RANGE CONTROL. This note narrows the location of Wedding's handbook microscopy / section-preparation material before direct page transcription.
+Status: CONTEMPORARY BIBLIOGRAPHIC PAGE-RANGE CONTROL. This note narrows the location of Wedding's handbook microscopy / section-preparation material before direct page transcription.
 
 ## 1. Governing edition
 
@@ -16,67 +16,70 @@ The first volume was issued in three Lieferungen:
 
 A 1904 retrospective in *Stahl und Eisen* independently gives the same issue chronology.
 
-## 2. First Lieferung ends at p.586
+## 2. First Lieferung = pp.1–586
 
-A contemporary Dingler review of the first Lieferung gives its extent explicitly as:
-
-**586 pages.**
-
-An 1892 *Engineering and Mining Journal* notice independently describes the first Lieferung as **586 pages**.
+A contemporary Dingler review gives the first Lieferung's extent explicitly as **586 pages**. An 1892 *Engineering and Mining Journal* book notice independently gives the same extent.
 
 Therefore:
 
-**LIEFERUNG_1 = pp.1–586.**
+**`LIEFERUNG_1 = pp.1–586`.**
 
-Sources:
-- Dingler's Polytechnisches Journal, contemporary notice of Wedding, 2nd ed., vol.1, first Lieferung;
-- *Engineering and Mining Journal*, Jan. 1892 book notice.
+## 3. Second Lieferung = pp.587–896 — now directly controlled
 
-## 3. Third Lieferung begins at p.897
+A contemporary *Börsenblatt* notice dated **3 May 1893** advertises Wedding's second Lieferung and gives its extent explicitly as:
 
-A contemporary *Börsenblatt* publication notice dated March 1896 gives the third / concluding Lieferung explicitly as:
+**`XII u. S. 587–896`**.
 
-**`S. 897–1218`**
-
-with XXXII preliminary pages for the completed volume.
+This upgrades the second-Lieferung page range from inference to direct contemporaneous bibliographic control.
 
 Therefore:
 
-**LIEFERUNG_3 = pp.897–1218.**
+**`LIEFERUNG_2 = pp.587–896`.**
 
 Source:
-- *Börsenblatt*, 13 March 1896, Vieweg advertisement/publication notice for Wedding, vol.1, `3. (Schluss-)Lfg.`, giving `S. 897–1218`.
+- *Börsenblatt*, 3 May 1893, publisher listing for Wedding, *Ausführliches Handbuch der Eisenhüttenkunde*, 2nd ed., vol.1, `2. Lfg.`, explicitly `XII u. S. 587–896`.
 
-## 4. Second Lieferung is therefore pp.587–896
+## 4. Third Schluss-Lieferung = pp.897–1218
 
-By subtraction from the securely controlled first and third Lieferungen:
+A contemporary *Börsenblatt* publication notice dated **13 March 1896** gives the third / concluding Lieferung explicitly as:
 
-**LIEFERUNG_2 = pp.587–896.**
+**`XXXII u. S. 897–1218`**.
 
-This is now a bibliographically secure page interval, not an estimate.
+Therefore:
 
-## 5. The microscopy / Schliff material is at the end of Lieferung 2
+**`LIEFERUNG_3 = pp.897–1218`.**
 
-A contemporary 1893 Dingler review of the second Lieferung says that, after the chemical examination of iron, ores, fluxes, furnace materials, slags, fuels and gases, **the concluding part** treats:
+The three Lieferungen now form a directly controlled continuous page architecture:
+
+**1–586 | 587–896 | 897–1218.**
+
+## 5. The microscopy / Schliff material is the concluding block of Lieferung 2
+
+A contemporary 1893 Dingler review of the second Lieferung says that, after chemical examination of iron, ores, fluxes, furnace materials, slags, fuels and gases, **the concluding part** treats:
 
 - `Untersuchung des Kleingefüges durch das Mikroskop`;
 - `Herstellung der Schliffe`;
 - `Beurtheilung des Eisens nach dem Kleingefüge`.
 
-Therefore the target material must occur **near the end of pp.587–896**.
+Therefore the target material lies in the **terminal portion of pp.587–896**.
 
 Safe statement:
 
-**TARGET_RANGE = late Lieferung 2, within pp.587–896; exact chapter start still open.**
+**`TARGET_RANGE = terminal block of Lieferung 2, within pp.587–896; exact first page still open`.**
 
-Practical retrieval implication: future direct page inspection should begin from **p.896 backwards**, not by searching the entire 1,218-page volume.
+Practical retrieval instruction:
+
+> **Inspect from p.896 backwards until the first of the three microscopy headings is reached.**
+
+This is now the preferred route instead of full-volume searching.
 
 ## 6. Why this matters
 
-The page-range control sharply reduces the source-recovery problem. We no longer need to search an undifferentiated full volume or rely on later summaries.
+The recovery problem has been reduced from a complete 1,218-page volume to a specific terminal block of one 310-page Lieferung, with a backwards-reading strategy from p.896.
 
-Once direct page access is available, inspect backwards from p.896 for the three section headings and extract:
+Once direct page access is available, extract:
 
+- exact section headings/page boundaries;
 - sample selection and cutting;
 - orientation;
 - grinding sequence;
@@ -86,20 +89,20 @@ Once direct page access is available, inspect backwards from p.896 for the three
 - illumination geometry;
 - microscope/magnification;
 - criteria for judging iron from Kleingefüge;
-- citations to Sorby, Martens, Osmond, Heyn or Wedding's own earlier work.
+- citations to Sorby, Martens, Osmond, Wedding's 1889 work or other method literature.
 
 ## 7. Current claim ceiling
 
 ### Secure
 
 - first Lieferung = pp.1–586;
-- second Lieferung = pp.587–896;
-- third Schluss-Lieferung = pp.897–1218;
-- the microscopy / `Herstellung der Schliffe` / microstructure-judgement material forms the concluding portion of Lieferung 2.
+- second Lieferung = pp.587–896 **by direct 1893 Börsenblatt control**;
+- third Schluss-Lieferung = pp.897–1218 **by direct 1896 Börsenblatt control**;
+- microscopy / `Herstellung der Schliffe` / microstructure judgement forms the concluding portion of Lieferung 2.
 
 ### Open
 
-- exact first and last pages of the microscopy section;
-- Wedding's direct wording and recipe;
+- exact first and last pages of the microscopy block;
+- Wedding's direct preparation wording;
 - whether the handbook cites Sorby explicitly;
-- relationship between handbook recipe and Wedding's 1889 article.
+- exact relationship between the handbook recipe and Wedding's 1889 article.
