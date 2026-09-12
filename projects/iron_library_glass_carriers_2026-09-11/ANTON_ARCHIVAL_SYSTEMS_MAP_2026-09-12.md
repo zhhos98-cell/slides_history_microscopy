@@ -48,7 +48,7 @@ Current catalogue records show at least:
 
 - **GFKS 2** — a substantial map/cartographic layer, including Schaffhausen maps;
 - **GFKS 3** — prints/views/graphic representations, including a dense Schaffhausen visual layer;
-- **GFKS 1** — at least physical sculpture/object holdings are represented here (e.g. related records identify a Johann Conrad Fischer bronze bust as `GFKS 1/3008`).
+- **GFKS 1** — physical sculpture/object holdings are represented here.
 
 The exact complete GFKS top-level class list has not yet been reproducibly recovered in this pass; do not invent category names beyond the controlled records above.
 
@@ -69,15 +69,9 @@ These are genuine physical graphic/cartographic objects with material descriptio
 
 A large proportion of currently visible GFKS material is explicitly **Digitalisiert**. Records frequently provide download masters and physical-description metadata.
 
-Example:
+Example: `GFKS 3/250` (1866 Schaffhausen Stahlfabrik) is a framed, uncoloured tonal lithograph and is digitally available.
 
-`GFKS 3/250` (1866 Schaffhausen Stahlfabrik) is a framed, uncoloured tonal lithograph and is digitally available.
-
-Thus GFKS has:
-
-- **high original-carrier value**;
-- **real c.1850–1885 visual density**;
-- but often **high remote substitutability for image content** because many objects are already digitised.
+Thus GFKS has high original-carrier value and real c.1850–1885 visual density, but often high remote substitutability for image content.
 
 ### 3.4 Current structural rating
 
@@ -98,32 +92,20 @@ For c.1850–1885:
 
 GFD should be kept analytically separate from historical original-source systems.
 
-### 4.1 GFD 3 is explicitly modern and purely digital
+### 4.1 GFD 2/3 are explicitly modern and purely digital
 
-`GFD 3 — Bilder für Sachschlagworte` states:
+Current GFD place/subject-image systems state:
 
 - `rein digitaler Bestand`;
-- c.310 description units / c.310 media;
+- c.300–310 records per major keyword-image block;
 - created in **spring 2022** and continually expanded;
 - assembled especially for the **digital edition of Johann Conrad Fischer's travel diaries**, plus general/GF keyword illustration.
 
-Its historical dates describe the subject/image represented, not the creation/provenance date of an archival original held by GF.
+Historical dates describe the subject/image represented, not the creation/provenance date of an archival original held by GF.
 
 ### 4.2 External-source character
 
-Individual GFD records often identify external holding institutions and reproduce their digitised images, e.g.:
-
-- British Museum;
-- Wellcome Collection;
-- Brown University Library;
-- other public-domain/Creative Commons sources.
-
-Examples:
-
-- `GFD 1/218` Giovanni Belzoni image sourced from the British Museum;
-- `GFD 1/194` William George Armstrong portrait sourced from Wellcome Collection;
-- `GFD 2/199` Palais Royal image sourced through Brown University Library/Wikimedia;
-- `GFD 3/251` Laterna Magica illustration, 1869, as a digital reference image.
+Individual GFD records often identify external holding institutions and reproduce their digitised images, e.g. British Museum, Wellcome Collection, Brown University Library and other public-domain/Creative Commons sources.
 
 ### 4.3 Current structural rating
 
@@ -133,50 +115,88 @@ For original-source historical work:
 - seriality: **HIGH as a modern documentation system**;
 - c.1850–1885 represented dates: potentially numerous, but **not archival date density**;
 - provenance coherence: **HIGH as a 2022+ documentation project**, not as nineteenth-century provenance;
-- originality: **LOW/NONE for the represented historical carriers held elsewhere**;
-- onsite value: **VERY LOW**; the system is digital and public-facing.
+- originality: **LOW/NONE for represented historical carriers held elsewhere**;
+- onsite value: **VERY LOW**.
 
 **Current tier:** `REFERENCE / DISCOVERY LAYER`, not a primary nineteenth-century source corpus.
-
-Do not count GFD items toward c.1850–1885 archival density simply because an illustrated object is dated 1869 or 1880.
 
 ---
 
 ## 5. Special-collection boundary history: Library / EBA / GFKS is not temporally stable
 
-A key reason this four-system correction matters is that older institutional holdings statistics do not map cleanly onto today's ANTON systems.
+A key reason this architecture correction matters is that older institutional holdings language does not map cleanly onto today's catalogue systems.
 
-### 5.1 Swiss ISIL institutional statistics
+### 5.1 Swiss ISIL institution-level statistics
 
-The current Swiss ISIL record for the Eisenbibliothek (`CH-000728-7`) lists under institution-level archival holdings:
+The current Swiss ISIL record for Eisenbibliothek (`CH-000728-7`) lists under institutional archival holdings:
 
 - 66 manuscripts;
 - 3 estates;
 - c.300 graphical sheets;
-- 80 maps of the canton of Schaffhausen.
+- 80 maps of canton Schaffhausen.
 
-### 5.2 Current ANTON systems do not correspond one-to-one to those labels
+### 5.2 Historical `Sondersammlungen` can now be mapped directly into current EBA
 
-Current ANTON shows, among other things:
+This is no longer merely inferred from inconsistent statistics.
 
-- EBA 8 `Graphische Sammlung und Kunstsammlung`: c.170 sheets, with material acquired/gifted by the Eisenbibliothek and some objects transferred **from the GF art collection into EBA 8 in 2023**;
-- GFKS 2 contains numerous historical Schaffhausen maps;
-- GFKS 3 contains historical Schaffhausen views/prints;
-- individual EBA 8 records can explicitly state former registration in the GF art collection and ownership by Eisenbibliothek.
+A 2003 Eisenbibliothek collection description explicitly named as **Sondersammlungen**:
 
-Example: an Encyclopédie forge plate now in EBA 8 was formerly registered in GF Kunstsammlung and marked `Eigentum Eisenbibliothek`.
+1. the **archive of the Gonzen iron mine together with the scientific legacy of Prof. Willfried Epprecht**;
+2. the **archive of the Studiengesellschaft für die Nutzbarmachung schweizerischer Lagerstätten mineralischer Rohstoffe**.
 
-This proves that **current catalogue boundaries and older institutional collection boundaries have changed over time**.
+Today those bodies are represented in ANTON as:
+
+- **EBA 2 — Eisenbergwerk Gonzen**, which includes the Neher-family papers and Willfried Epprecht legacy;
+- **EBA 5 — Studiengesellschaft ...**.
+
+ANTON gives unusually explicit transfer evidence:
+
+- `EBA 2/1` states that records/books/images from the **Nachlass Familie Neher** were incorporated into the GF Eisenbibliothek on 21 October 1950;
+- `EBA 2/2` records Willfried Epprecht's testamentary bequest to **Eisenbibliothek Paradies**, with provenance `Nachlass Willfried Epprecht`.
+
+Thus at least some material historically described as Eisenbibliothek `Sondersammlungen / Nachlässe` is now catalogued as **EBA fonds**.
+
+### 5.3 Yet recent Library statistics still use the legacy category
+
+Iron Library annual reports for 2019, 2021, 2022 and 2023 continue to list among Library forms:
+
+> `separat aufgestellte Sondersammlungen und Nachlässe`
+
+This means **legacy/institutional statistical language and current catalogue architecture coexist**. The phrase cannot be assumed to mean only present-day IRONCAT Library records.
+
+### 5.4 Donations labelled `Nachlass` are not automatically the ISIL three estates
+
+The donations history names, for example:
+
+- `Nachlass Henych` (2010), former GF foundry engineer;
+- 2019 annual report refers to books from `Nachlass Baldinger` as fully catalogued.
+
+But the donations page explicitly states that ordinary donated books, unlike `Sondersammlungen`, are **not kept closed and separately shelved**; they are integrated into systematic subject classes.
+
+Therefore Henych/Baldinger should currently be labelled:
+
+> **estate-origin donations / candidates only; NOT identified as the ISIL `3 Nachlässe`.**
+
+Do not fill the ISIL count by matching every occurrence of the word `Nachlass`.
+
+### 5.5 Current ANTON visual systems further prove boundary movement
+
+Current ANTON shows:
+
+- EBA 8 `Graphische Sammlung und Kunstsammlung`, with some objects transferred from GF Kunstsammlung into EBA 8 in 2023;
+- GFKS 2 containing numerous historical Schaffhausen maps;
+- GFKS 3 containing historical Schaffhausen views/prints;
+- individual EBA 8 records retaining former GF Kunstsammlung registration while marked as Eisenbibliothek property.
 
 ### Consequence
 
-Do not interpret the ISIL figures as four new, additive collections on top of EBA/GFKS.
+Do not interpret ISIL `66 / 3 / 300 / 80` as four new additive collections on top of current EBA/GFKS.
 
 Instead ask:
 
-> where are the ISIL-reported manuscripts / estates / graphics / Schaffhausen maps represented in the **current Library / EBA / GFKS / GFD architecture**?
+> where are these institution-level counts represented in today's **Library / EBA / GFKS / GFD** systems?
 
-The 66 manuscripts / 3 estates remain especially unresolved.
+The 66 manuscripts and the exact identity of the current `3 estates` remain especially unresolved.
 
 ---
 
@@ -184,24 +204,25 @@ The 66 manuscripts / 3 estates remain especially unresolved.
 
 ### System A — LIBRARY
 
-Primary logic: classified printed books, periodicals/serials, rara, and a manuscript/special-collection layer whose total current mapping is not yet fully controlled.
+Primary logic: classified printed books, periodicals/serials, rara, and a manuscript/special-collection layer whose exact current boundary remains partly unresolved.
 
 For c.1850–1885:
 
 - strongest continuous system overall;
 - major printed/serial backbone;
-- 66-manuscript / 3-estate institutional total requires current mapping clarification;
+- institutional manuscript/estate statistics require current mapping clarification;
 - 14 e-codices manuscripts are only a selected digital subset.
 
 ### System B — EBA
 
-Primary logic: acquired archival fonds/special collections associated with Iron Library.
+Primary logic: acquired archival fonds/special collections historically associated with Eisenbibliothek but now separately arranged in ANTON.
 
 For c.1850–1885:
 
 - Haffter and Küderli/Bär remain Tier A;
 - EBA 1 map cluster Tier B;
-- EBA 8 is visual/graphic but highly digitised and assembled.
+- EBA 8 visual/graphic, highly digitised and assembled;
+- historical Gonzen/Studiengesellschaft `Sondersammlungen` demonstrate the boundary's evolution.
 
 ### System C — GFA
 
@@ -232,64 +253,65 @@ For c.1850–1885:
 
 - discovery/context only;
 - do not use represented dates as archival density;
-- remote and digital, essentially no onsite-necessity contribution.
+- essentially no onsite-necessity contribution.
 
 ---
 
-## 7. Revised ranking for the current residency census
+## 7. Revised ranking for current residency census
 
-### Tier A — primary collection systems/blocks
+### Tier A
 
 - Library nineteenth-century classified holdings + serials;
 - EBA 3 Haffter;
 - EBA 4 Küderli/Bär;
 - GFA/Rauschenbach operational/company records.
 
-### Tier B — strong secondary/cross-carrier blocks
+### Tier B
 
 - native GF c.1865–83 product/market-document regime;
 - EBA 1 Gotthardbahn/engineering map cluster;
 - Traisen;
-- **GFKS nineteenth-century Schaffhausen/industrial visual layer** — newly formalised here, but high digitisation lowers source-access necessity.
+- GFKS nineteenth-century Schaffhausen/industrial visual layer.
 
 ### Tier C / control
 
 - EBA 2 Gonzen for c.1850–85;
 - EBA 6 before 1889/90;
-- GFA 8 broad map/plan collection for pre-1885;
+- GFA 8 broad map/plan collection pre-1885;
 - EBA 8 graphic/art collection when used simply as representation material.
 
-### Tier D — reference/documentation
+### Tier D
 
-- **GFD** modern digital documentation.
+- GFD modern digital documentation.
 
 ---
 
-## 8. What must now be corrected elsewhere in the repo
+## 8. Governing correction for older repo files
 
-Files written before this pass may say `three evidence systems: Library / EBA / GFA`. That formulation is now **incomplete for the full institution/catalogue map**.
+Files written before this pass may say `three evidence systems: Library / EBA / GFA`. That is **incomplete as a total current catalogue map**.
 
-Correct formulation:
+Correct total formulation:
 
-> **One Library system plus four current ANTON archival systems: EBA / GFA / GFKS / GFD.**
+> **One Library system plus four current ANTON systems: EBA / GFA / GFKS / GFD.**
 
-For the core c.1850–1885 archival-series problem, however, **EBA and GFA remain the dominant archival systems**, with GFKS as a visual/object supplement and GFD as a modern reference layer.
+For the core c.1850–1885 archival-series problem, EBA and GFA remain the dominant archival systems, with GFKS as visual/object supplement and GFD as modern reference layer.
 
-Therefore the older three-way analytical split was useful but not exhaustive; do not delete its findings, update its scope.
+---
 
 ## 9. Next actions
 
-1. Update `PROJECT_MAP.md`, `PINNED_APPLICATION_RESUME.md`, and governing census language from `three systems` to the complete current architecture.
-2. Add GFKS/GFD to the holdings heat map and onsite-value map.
-3. Expand the staff access enquiry to ask where the ISIL-reported `66 manuscripts / 3 estates / c.300 graphical sheets / 80 Schaffhausen maps` sit in the current Library/EBA/GFKS systems.
+1. Ask staff to map ISIL `66 manuscripts / 3 estates / c.300 graphical sheets / 80 Schaffhausen maps` into current Library/EBA/GFKS systems.
+2. Specifically request names/current locations of the `3 estates`; do not infer them from donations language.
+3. Recover current 2024 Library classification / serial export if possible.
 4. Do not spend more time on GFD unless a later discovery task needs iconographic references.
-5. For GFKS, stop at collection morphology unless the final question needs visual/material representation; image content is already highly digitised.
+5. For GFKS, stop at collection morphology unless final question needs physical visual/material evidence.
 
 ## Controlled public sources
 
-- ANTON current four-system root: https://archives.georgfischer.com/objects?actor_id=3040&pag=2&perPage=25&sortAsc=1&sortField=identifier
-- EBA 8 description/history: https://archives.georgfischer.com/objects/show?collection=0&context=tectonical&fonds=0&index=8&parent=2&perPage=50&recordgroup=0&sortAsc=1&sortField=position
-- GFKS examples: `GFKS 3/250` (Schaffhausen Stahlfabrik, 1866), `GFKS 2/861` (1879–85), `GFKS 2/862` (1883), and related Schaffhausen-map/view records in ANTON.
-- GFD 3 description: https://archives.georgfischer.com/objects/124043
-- GFD examples: GFD 1/218, GFD 1/194, GFD 2/199, GFD 3/251.
-- Swiss ISIL `CH-000728-7` institutional holdings statistics.
+- ANTON four-system root.
+- Swiss ISIL `CH-000728-7`.
+- 2003 Eisenbibliothek descriptions of Gonzen/Epprecht and Studiengesellschaft as `Sondersammlungen`.
+- EBA 2/1 and EBA 2/2 transfer/provenance records.
+- recent annual reports retaining `separat aufgestellte Sondersammlungen und Nachlässe` under Library.
+- Iron Library donations page and 2019 annual report for Henych/Baldinger caution.
+- EBA 8 description/history and GFKS examples.
