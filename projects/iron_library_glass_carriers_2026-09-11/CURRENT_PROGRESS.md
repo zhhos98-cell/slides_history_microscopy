@@ -1,14 +1,14 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-12 after controlling Berlin's external circulation of metallographic sections/images and its 3,500-negative archive.**
+**Pinned continuation state — updated 2026-09-12 after pushing Berlin's external metallographic circulation back to Rechnungsjahr 1899.**
 
-This is the authoritative resume point. The project now has a direct path from Wedding's portable 1860 notebook evidence to a Berlin infrastructure that could prepare, number, store, reproduce, distribute and officially interpret metallographic evidence.
+This is the authoritative resume point. Resume here before older OCR, licence, Gruner–Lan or *Engineer* queues.
 
 ## 1. Governing axis
 
 Strongest sequence:
 
-**1860 Sheffield works observation / flame-time judgement → 1869 Bessemer-flame spectroscopy → 1877 Wedding proposes Prussian iron-testing institute → 1878 Martens systematic Eisenschliff microscopy → 1884 numbered reference collection → 1885 Wedding microscopic structure + Sorby preparation dispute → 1886 institutional Schliff-preparation branch → 1888 projected micro-images → 1889 Lichtabbildung + Schliff-production problem → 1890/91 photographic atlas → 1893 handbook codification → 1895 formal Metallographie department → 1899 reproducible preparation / mature optical conventions → 1901 3,500-negative archive + external print/Schliff supply → 1902 metallography directs mechanical-test sampling → 1904 integrated Materialprüfungsamt laboratory.**
+**1860 Sheffield works observation / flame-time judgement → 1869 Bessemer-flame spectroscopy → 1877 Wedding proposes Prussian iron-testing institute → 1878 Martens systematic Eisenschliff microscopy → 1884 numbered reference collection → 1885 Wedding microscopic structure + Sorby preparation dispute → 1886 institutional Schliff-preparation branch → 1888 projected micro-images → 1889 Lichtabbildung + Schliff-production problem → 1890/91 photographic atlas → 1893 handbook codification → 1895 formal Metallographie department → 1899 Schliff + microphotograph + negative-based study-print circulation → 1900 explicit paid external supply → 1901 3,500-negative archive + configurable teaching/study collections → 1902 microscopy directs mechanical-test sampling → 1904 integrated Materialprüfungsamt laboratory.**
 
 Main thesis:
 
@@ -16,16 +16,20 @@ Main thesis:
 
 Evidence is repeatedly reformatted:
 
-**running process → emitted light → prepared surface → item-numbered collection → projected image → negative → photographic print / teaching collection → official test and judgement.**
+**running process → emitted light → prepared surface → item-numbered collection → projected image → negative → photographic print / teaching collection → mechanical test / official judgement.**
 
-Critical distinction:
+Critical methodological distinction:
 
 > **standardising the specimen and standardising the image are historically distinct operations.**
+
+A second governing point is now secure:
+
+> **publication, photographic archive and prepared specimen are not successive replacements; they coexist as mutually convertible carriers.**
 
 ## 2. Resume order
 
 1. `CURRENT_PROGRESS.md`
-2. **`WEDDING_MATERIALPRUEFUNGSAMT_METALLOGRAPHIC_CIRCULATION_1901_1902_2026-09-12.md`** — newest circulation/reference endpoint
+2. `WEDDING_MATERIALPRUEFUNGSAMT_METALLOGRAPHIC_CIRCULATION_1901_1902_2026-09-12.md` — content now controls 1899–1902 despite legacy filename
 3. `WEDDING_BERLIN_METALLOGRAPHIC_INFRASTRUCTURE_1877_1904_2026-09-12.md`
 4. `WEDDING_MARTENS_HEYN_REFERENCE_INFRASTRUCTURE_1884_1900_2026-09-12.md`
 5. `WEDDING_1885_1891_METALLOGRAPHIC_METHOD_CHAIN_2026-09-12.md`
@@ -47,7 +51,7 @@ Strong folio inference: Bessemer + Cammell belong to **25 July 1860**.
 
 Exact flame-stage wording remains open until PDF 299 is image-accessible again.
 
-## 4. Optical bridge: 1869 spectroscopy
+## 4. 1869 spectroscopy bridge
 
 Secure object:
 
@@ -57,7 +61,7 @@ Drown and Silliman independently establish Wedding as an experimental contributo
 
 Still high priority: direct original article + plate.
 
-## 5. Institution-building / reference collection
+## 5. Berlin institution-building and reference objects
 
 A 1904 institutional history states:
 
@@ -69,23 +73,9 @@ A 1904 institutional history states:
 
 Do not write the later Materialprüfungsamt as Wedding's 1877 proposal simply realised intact. Wedding's direct institution-building intervention is secure; exact institutional continuity is more complex.
 
-## 6. Martens collection is item-addressable
+Martens' collection is item-addressable: a 1900 *Stahl und Eisen* discussion re-cites **`Gießereiroheisen (Nr. 36)`** and recalls its treatment/colour response. Thus `ITEM_LEVEL_REFERENCE_IDENTITY = PRIMARY_CONTROLLED`.
 
-A 1900 *Stahl und Eisen* discussion re-cites Martens' 1884 collection as:
-
-**`Gießereiroheisen (Nr. 36)`**
-
-and recalls its treatment/colour response.
-
-Therefore:
-
-**`ITEM_LEVEL_REFERENCE_IDENTITY = PRIMARY_CONTROLLED`.**
-
-The 120 Schliffe were not merely an undifferentiated collection; at least one specimen retained an item identity that could be retrieved sixteen years later.
-
-Open: full numbering/category/provenance architecture.
-
-## 7. 1885–99 method chain
+## 6. 1885–99 method / carrier chain
 
 Wedding's 1885 JISI paper makes microstructure an evidential layer not reducible to chemistry/process labels. Sorby publicly attributes major disagreement partly to Wedding's omission of **soft-stone grinding before final polishing**; later reconstruction adds Sorby's concern with direct/vertical illumination.
 
@@ -95,7 +85,7 @@ Wedding's 1885 JISI paper makes microstructure an evidential layer not reducible
 
 1899 Heyn places Wedding inside the technical lineage of **Reliefpolieren** (Sorby introduced; Osmond/Martens/Wedding developed) and describes a mature preparation + reflected-light + image-convention workflow.
 
-## 8. Handbuch target is now tightly bounded
+## 7. Handbuch target is tightly bounded
 
 Wedding, *Ausführliches Handbuch der Eisenhüttenkunde*, 2nd ed., vol.1:
 
@@ -103,53 +93,83 @@ Wedding, *Ausführliches Handbuch der Eisenhüttenkunde*, 2nd ed., vol.1:
 - Lieferung 3 / Schluss-Lieferung = **pp.897–1218**;
 - therefore Lieferung 2 = **pp.587–896**.
 
-A 1893 review says the **end of Lieferung 2** treats:
+A 1893 review says the **end of Lieferung 2** treats microscope examination, `Herstellung der Schliffe`, and judgement of iron by microstructure.
 
-- microscope examination of microstructure;
-- `Herstellung der Schliffe`;
-- judgement of iron by microstructure.
+Target: terminal portion of **pp.587–896**, searching backward from p.896.
 
-Target is therefore the terminal portion of **pp.587–896**, searching backward from p.896.
+## 8. Current earliest hard circulation anchor = Rechnungsjahr 1899
 
-## 9. New endpoint: Berlin circulates metallographic evidence by 1901
+A contemporary *Stahl und Eisen* report on **Rechnungsjahr 1899**, published 1 Feb. 1901, lists:
 
-The report for **Rechnungsjahr 1901** states that the institute supplied, against reimbursement:
+- production of **Metallschliffe**;
+- the **associated microphotographs**;
+- **prints from existing negatives of characteristic microstructure images for study purposes**;
+- further production of metal sections.
+
+Its footnote states that these image prints were supplied **against reimbursement of costs**, and that microphotographs could also be supplied corresponding to illustrations already published in the institute's `Mittheilungen`.
+
+Therefore by 1899 the system already supported:
+
+**Schliff ↔ corresponding microphotograph**
+
+**existing negative → later print for study**
+
+**published illustration → re-issued microphotograph.**
+
+Use:
+
+**`EARLIEST_HARD_EXTERNAL_CIRCULATION_ANCHOR = 1899`**
+
+until an earlier annual report is directly controlled. Search failure before 1899 is not evidence of absence.
+
+## 9. Rechnungsjahr 1900 = explicit standing paid supply service
+
+The 1900 report states in a footnote that the institute supplies:
 
 - **Metallschliffe**;
 - prints of characteristic microstructure images;
-- from a repository of **3,500 negatives** covering iron, steel, pig iron, copper and alloys;
-- prints singly or assembled into **collections of different sizes**;
-- explicitly for **teaching and study (`Lehr- und Studienzwecke`)**.
+- against reimbursement of costs;
+- and can also supply microphotographs from illustrations published in the `Mittheilungen`.
 
-This is now a core project result.
+Thus publication and photographic object coexist as selectable/reversible carriers.
+
+## 10. Rechnungsjahr 1901 = 3,500-negative archive + configurable collections
+
+The 1901 report states:
+
+- **3,500 negatives** available;
+- representing iron, steel, pig iron, copper and various alloys;
+- Metallschliffe and characteristic image prints supplied against reimbursement;
+- prints can be supplied singly or assembled into **collections of different sizes**;
+- explicitly for **`Lehr- und Studienzwecke`**.
 
 Institutional carrier chain:
 
-**Schliff → microscope → photographic negative → stored negative → later print → selected teaching/study collection → external user.**
+**Schliff → microscope → negative → stored archive → later print → selected teaching/study collection → external user.**
 
-The archive is generative: later users need not repeat the original observation event to obtain a visual reference object.
+The negative archive is generative rather than passive.
 
-Evidence status: contemporary PDF text layer directly controlled; screenshot attempts returned cache miss.
+Evidence status for 1899–1901 annual reports: contemporary PDF text/OCR layers controlled; screenshot attempts in the current environment returned cache-miss errors and remain pending.
 
-## 10. 1902: circulation is measurable and microscopy moves upstream of mechanical testing
+## 11. Rechnungsjahr 1902 = measurable outputs + microscopy upstream of mechanics
 
-The report for **Rechnungsjahr 1902** lists among metallographic outputs:
+The 1902 report lists:
 
 - **22 microphotographs of tool steels**;
 - **10 metallographic sections for study purposes**;
 - provision of prints of metallographic light-images.
 
-More importantly, it states that for fine strength/fracture investigations it was useful to perform **microscopic microstructure examination before choosing where to extract mechanical-test specimens**. Different structural zones in one cross-section could yield different numerical strength results.
+More importantly, for fine strength/fracture investigations it says microscopic microstructure examination should precede the choice of locations from which mechanical-test specimens are extracted, because different structural zones can yield different numerical strength values.
 
 Thus:
 
 **microscopic mapping → sampling decision → mechanical specimen → quantitative strength test.**
 
-Metallography is not merely a post-hoc illustration. It can constitute the later mechanical-test object.
+Metallography can constitute the later mechanical-test object rather than merely illustrate its result.
 
-## 11. 1904 laboratory materialises the chain
+## 12. 1904 integrated infrastructure
 
-By 1904 the Metallographie department had an integrated architecture including:
+By 1904 the Metallographie department included:
 
 - Schleifraum with cold saw / shaping / lathe / preparation tools;
 - grinding/polishing and etching operations;
@@ -158,31 +178,31 @@ By 1904 the Metallographie department had an integrated architecture including:
 - stereoscopic structure imaging;
 - separate darkroom.
 
-The testing institution also issued expert opinions/certificates, handled disputes, trained students/practitioners and served public/private clients.
+The institution also issued expert opinions/certificates, handled disputes, trained students/practitioners and served public/private clients.
 
-Mature carrier chain:
+Mature chain:
 
-**submitted material → section selection → cutting/preparation → optical inspection → photographic capture/archive → mechanical test and/or expert diagnosis → reproducible image / teaching object / official judgement.**
+**submitted material → specimen selection → cutting/preparation → optical inspection → image capture/archive → mechanical test and/or expert diagnosis → reproducible teaching/reference image / official judgement.**
 
-## 12. Atlas date remains open
+## 13. Atlas date remains open
 
 Wedding, `Das Kleingefüge des Eisens. Mikroskopische Originalphotographien mit Erläuterungen`:
 
 - Rice: Berlin **1891**;
 - Naturhistorisches Museum Wien: Berlin **1890**, 19 plates.
 
-Use **`1890/1891`** until title page is directly controlled.
+Use **`1890/1891`** until title-page control.
 
-## 13. Immediate next work
+## 14. Immediate next work
 
 ### Highest value now
 
-1. Search annual reports **backward from 1901** to identify when external supply of Metallschliffe / image prints and the negative archive first appears.
-2. Search reports forward for growth in negative count, numbers of distributed prints/sections and any order/catalogue/price mechanism.
-3. Look for catalogues or price lists using `Metallschliffe`, `Abzüge`, `Negative`, `Sammlungen`, `Lehr- und Studienzwecke`.
-4. Test whether Martens' 1884 item numbering connects to the later 3,500-negative archive / teaching sets.
+1. Search annual reports **before 1899**, especially Rechnungsjahr / Etatsjahr 1897–98 and 1898, for `Metallschliffe`, `Mikrophotographien`, `Abzüge`, `Negative`, `Studienzwecke`.
+2. Keep **1899 as earliest controlled circulation year** unless direct earlier text is found.
+3. Search for catalogue / price / order mechanisms: `Metallschliffe`, `Abzüge`, `Sammlungen`, `Lehr- und Studienzwecke`, `gegen Erstattung der Kosten`.
+4. Test whether Martens' 1884 item numbering connects to the later negative archive / teaching collections.
 5. Recover Wedding 1889 **p.263ff** directly.
-6. Recover exact Handbuch terminal microscopy pages within **pp.587–896**.
+6. Recover exact Handbuch terminal microscopy pages inside **pp.587–896**.
 7. Recover administrative material for Wedding's 1877 proposal and the 1886 Schliff-preparation branch.
 8. Resolve atlas 1890/91 from title page.
 
@@ -192,13 +212,13 @@ Use **`1890/1891`** until title page is directly controlled.
 10. Wedding 1885 JISI pp.187–204.
 11. If Mss 25 PDF 299 becomes accessible first, immediately microtranscribe the flame-stage passage.
 
-## 14. Governing analytical matrix
+## 15. Governing analytical matrix
 
 Track:
 
-`SPECIMEN_SOURCE / REFERENCE_NUMBER / PROCESS_STAGE / FLAME / TIME / SPECTRAL_LINE / SECTIONING / ORIENTATION / GRINDING / POLISHING / ETCHING / ILLUMINATION / MAGNIFICATION / PROJECTION / NEGATIVE / PHOTOGRAPH / PRINT_COLLECTION / EXTERNAL_CIRCULATION / MECHANICAL_SAMPLING / TESTING_INSTITUTION / OFFICIAL_JUDGEMENT / INTERPRETIVE_RESULT`.
+`SPECIMEN_SOURCE / REFERENCE_NUMBER / PROCESS_STAGE / FLAME / TIME / SPECTRAL_LINE / SECTIONING / ORIENTATION / GRINDING / POLISHING / ETCHING / ILLUMINATION / MAGNIFICATION / PROJECTION / NEGATIVE / PHOTOGRAPH / PRINT_COLLECTION / PUBLICATION_LINK / EXTERNAL_CIRCULATION / MECHANICAL_SAMPLING / TESTING_INSTITUTION / OFFICIAL_JUDGEMENT / INTERPRETIVE_RESULT`.
 
-## 15. Claim ceiling
+## 16. Claim ceiling
 
 Secure:
 
@@ -211,20 +231,22 @@ Secure:
 - Wedding 1888 used projected images; his 1889 work explicitly joined image formation and section preparation;
 - Handbuch I.2 is pp.587–896 and ends in microscope/Schliff/microstructural-judgement material;
 - formal Metallographie was institutionalised by 1895;
-- by Rechnungsjahr 1901 the institute held **3,500 microstructure negatives** and supplied sections/prints/collections externally for teaching/study;
-- by Rechnungsjahr 1902 it distributed actual microphotographs/study sections and used microscopic zoning to govern mechanical-test sampling;
-- by 1904 Berlin had an integrated preparation / microscopy / microphotography / testing infrastructure.
+- by Rechnungsjahr **1899** the institute was already producing sections + associated microphotographs + negative-based study prints and supplying image prints against cost;
+- by 1900 this is explicitly a standing external supply service;
+- by 1901 the archive contains **3,500 negatives** and supports configurable teaching/study collections;
+- by 1902 the institute distributes actual microphotographs/study sections and uses microscopic zoning to govern mechanical-test sampling;
+- by 1904 Berlin has an integrated preparation / microscopy / microphotography / testing infrastructure.
 
 Strong inference:
 
 - Berlin metallography became a **reference, circulation and testing infrastructure**, not simply an observational specialty;
-- evidence standardisation proceeds through separable but coupled layers: object selection/numbering, preparation, optical geometry, image capture, archive storage, reproduction, circulation, sampling, testing and official certification.
+- evidence standardisation proceeds through separable but coupled layers: object selection/numbering, preparation, optical geometry, capture, archive storage, publication, reproduction, circulation, sampling, testing and official certification.
 
 Open:
 
-- first year of external section/image distribution;
+- whether circulation predates 1899 and by how much;
 - origin and numbering of the 3,500-negative archive;
-- recipients / catalogues / prices / surviving study collections;
+- recipients / catalogues / prices / surviving teaching collections;
 - direct Wedding 1889 text and exact response to Sorby;
 - exact Handbuch chapter pages and wording;
 - full Martens numbering/categories;
