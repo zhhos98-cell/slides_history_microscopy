@@ -1,195 +1,292 @@
-# CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
+# CURRENT PROGRESS — Iron Library Scholar in Residence application
 
-**Pinned continuation state — updated 2026-09-12 after identifying original Berlin metallographic glass plates at the Eisenbibliothek.**
+**Updated:** 2026-09-12  
+**Status:** APPLICATION LINE REPOINTED AFTER ROLLBACK CHECK — EBA 4 PROFILE IDENTITY / VERSIONING IS THE ACTIVE RESUME POINT  
+**Authority:** read together with `PINNED_APPLICATION_RESUME.md` and the latest `PINNED_APPLICATION_DELTA_1881_PROFILE_SYSTEM_2026-09-12.md`.
 
-This is the authoritative resume point. The project now has a collection-specific material object cluster that supplies a defensible **must-visit** argument for the Iron Library: original early Berlin metallographic glass plates survive there alongside relevant printed `Mittheilungen` and can be compared object-to-publication.
+> **COLLECTION FIRST; QUESTION SECOND; ONSITE NECESSITY THIRD.**
 
-## 1. Governing axis
+This file previously still presented the Wedding–Berlin metallographic-glass-plate line as the authoritative application resume point. That state is now **superseded**. The glass plates remain a valuable site-specific object cluster, but they are too small to carry the current 2–3 week application alone and should be treated as an optional late coda unless the final question naturally returns to photographic/reference carriers.
 
-Strongest sequence:
+The active application core is now the **Küderli / Bär / Schinz & Bär archive (`EBA 4`)**, especially the five `Profileisenalbum` volumes and their relation to convention, correspondence, price, transaction, public-catalogue and update systems.
 
-**1860 Sheffield works observation / flame-time judgement → 1869 Wedding Bessemer-flame spectroscopy → 1877 Wedding institution-building → 1878 Martens systematic Eisenschliff microscopy → 1884 numbered reference collection → 1885 Wedding microscopic structure + Sorby preparation dispute → 1886 institutional Schliff-preparation branch → 1888 Wedding microphotographs / zircon-light negative capture / projection → 1891 Martens mechanisch-technische microphotographic apparatus → 1892/93 dedicated production hardware + Schliff/photo pairs → 1894/95 quantified operational microscopy → 1895 formal Metallographie → 1899 external section/image circulation → 1901 3,500-negative archive + teaching collections → 1902 microscopy directs test sampling → 1904 integrated Materialprüfungsamt laboratory → **surviving original glass plates + printed publication carriers now physically co-located at the Eisenbibliothek.**
+---
 
-Main thesis:
+## 1. Active corpus
 
-> **metallurgical evidence moves from travelling with an expert to travelling as prepared objects and reproducible images inside a testing/reference infrastructure; the Eisenbibliothek preserves both printed carriers and surviving original photographic carriers from that history.**
+### EBA 4 — Küderli & Co. / formerly Bär & Co. / Schinz & Baer
 
-Critical distinctions:
+Iron Library public catalogue securely exposes:
 
-1. **standardising the specimen ≠ standardising the image**;
-2. **imaging practice ≠ apparatus codification ≠ production capacity ≠ circulation service**;
-3. **published Tafel ≠ original photographic glass plate**: the latter preserves material/provenance variables unavailable in the reproduction.
+- `EBA 4/5` — **Convention der Zürcher Eisenhändler**, 1854, 1 file;
+- `EBA 4/7` — **Korrespondenz**, 1858–1872, 1 file;
+- `EBA 4/14` — **Profileisenalbum**, 1877–1885, **3 vols**;
+- `EBA 4/6` — **Preislisten**, 1878–1880, 2 files;
+- `EBA 4/4` — **Kassabuch**, 1884–1889, 2 vols;
+- `EBA 4/15` — **Verkaufsjournal**, 1885–1897, 11 vols;
+- `EBA 4/13` — **Profileisenalbum**, 1886–1903, **2 vols**;
+- `EBA 4/3` — **Inventar**, 1888–1927, 43 vols.
 
-## 2. Highest-priority resume order
+The archive therefore preserves a compact but unusually layered merchant information system in which **market rules, correspondence, product representation, price, cash, sales and inventory can potentially be cross-read against one another**.
 
-1. `CURRENT_PROGRESS.md`
-2. **`IRON_LIBRARY_ORIGINAL_METALLOGRAPHIC_GLASS_PLATES_MUST_VISIT_2026-09-12.md`** — new collection-specific travel justification
-3. `WEDDING_BERLIN_METALLOGRAPHIC_EQUIPMENT_AND_COMMISSIONED_PRODUCTION_1891_1895_2026-09-12.md` — legacy filename; content begins 1888 and distinguishes chemisch-/mechanisch-technische lines
-4. `WEDDING_MATERIALPRUEFUNGSAMT_METALLOGRAPHIC_CIRCULATION_1901_1902_2026-09-12.md` — legacy filename; content controls 1899–1902
-5. `WEDDING_BERLIN_METALLOGRAPHIC_INFRASTRUCTURE_1877_1904_2026-09-12.md`
-6. `WEDDING_MARTENS_HEYN_REFERENCE_INFRASTRUCTURE_1884_1900_2026-09-12.md`
-7. `WEDDING_1885_1891_METALLOGRAPHIC_METHOD_CHAIN_2026-09-12.md`
-8. `WEDDING_1889_LIGHT_IMAGE_SCHLIFF_METHOD_CONTROL_2026-09-12.md`
-9. `WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`
-10. `WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`
-11. Sheffield manuscript controls as needed.
+Current public catalogue:
+- https://archives.georgfischer.com/objects/EBA%204
 
-## 3. New Iron Library must-visit control
+---
 
-Bernhard Droste, longtime director/professor at BAM, states in *Ferrum* 93 (2024) that he donated to the Eisenbibliothek:
+## 2. Current carrier chronology
 
-- 228 titles overall from his private library;
-- Berlin `Mittheilungen aus den königlichen technischen Versuchsanstalten` annual volumes **1889, 1892, 1894, 1895, 1896, 1897**;
-- **three original glass plates from early microphotographic work**.
+The external evidence around the five archival profile albums is now sufficiently dense to define a controlled onsite operation without assuming a smooth genealogy:
 
-The article's figure caption identifies glass plates with **microphotographic images of the `königliche mechanisch-technische Versuchsanstalt zu Berlin`** and deliberately places the **publication Tafel corresponding to the image at lower left**.
+`1854 ZÜRICH IRON-MERCHANT CONVENTION`
+→ `1858–72 SCHINZ & BÄR CORRESPONDENCE`
+→ `1870–75 EXTERNAL CONVENTION / CARTEL CONTROL INVOLVING SCHINZ & BÄR`
+→ `EBA 4/14 PROFILEISENALBUM, 1877–1885`
+↔ **`1881 PATENTED PUBLIC SCHINZ & BÄR ROOF-PROFILE SYSTEM`**
+→ **`1885 PUBLIC SCHINZ & BÄR PROFIL-ALBUM`**
+→ `EBA 4/13 PROFILEISENALBUM, 1886–1903`
+↔ `1889 ILLUSTRATED BAUARTIKEL-LAGER FOLDING PROSPECTUS`
+↔ `1889/90 SCHINZ & BÄR BATCH OF PROFIL-EISEN ALBUMS TO WINTERTHUR TECHNIKUM`
+↔ **`1896 BÄR & CO. FAÇONEISEN-ALBUM: NORMALPROFILE + QUANTITATIVE TABLES + PROPRIETARY PROFILES`**
+↔ `1899/1900 JULIUS SCHOCH COMPETITOR PROFILE ALBUM TO TECHNIKUM`
+→ **`1903/04 BÄR & CO. — 6 NEW PROFILE ALBUMS TO TECHNIKUM`**
+→ `EBA 4/13 ENDS 1903`
+→ **`1907/08 PROFILE-ALBUM SUPPLEMENT SHEET ×12`**.
 
-Image credit / Eisenbibliothek identifier for that photograph:
+What matters is not whether each arrow is genealogical. The onsite operation is to identify **which profile identities, page forms, numbers and categories actually migrate across these carriers and which do not**.
 
-**`G 745,1`.**
+---
 
-Droste's adjacent image credit identifies:
+## 3. Strongest current empirical object: profile identity / versioning
 
-**Adolf Martens, `Die mikroskopische Ausrüstung der königlichen mechanisch-technischen Versuchsanstalt`, 1891, pp.278–293, Tafeln IV–VI — Eisenbibliothek `Per765`.**
+The project should no longer be framed as generic `standardization`.
 
-Therefore the highest-value on-site test is now:
+The highest-value question is:
 
-**physical glass plate(s) / labels / negative identity → `Per765` Tafeln IV–VI or other `Mittheilungen` publication → later reproduction / reuse.**
+> **What made an iron profile remain the “same profile” as it moved across private/archival albums, public catalogues, price/order systems, editions, supplement sheets and downstream technical use?**
 
-Do not yet assume all three plates are from Martens 1891. Exact plate-to-publication concordance remains to be established onsite.
+Possible identity carriers:
 
-## 4. Why remote work cannot close this question
+`PROFILE NUMBER ↔ CROSS-SECTIONAL SHAPE ↔ DIMENSIONS ↔ WEIGHT ↔ CATEGORY ↔ PRICE/ORDER CODE ↔ PROPRIETARY/NORMAL STATUS ↔ PAGE/SHEET POSITION ↔ EDITION ↔ SUPPLEMENT`.
 
-Digitised `Mittheilungen` can control the published image and text. The original plate can preserve:
+These variables may move together or separate. That divergence is evidence.
 
-- dimensions / glass thickness / emulsion extent;
-- edge marks, handwriting, labels, negative numbers or institutional stamps;
-- orientation / masking / cropping / retouching traces;
-- full negative field omitted from the printed Tafel;
-- exposure/density information flattened by later printing/scanning;
-- original sleeves / envelopes / provenance annotations if retained.
+The new comparative control is:
 
-The relevant research operation is therefore **carrier comparison**, not bibliographic lookup.
+- `SCHOCH_PROFILE_CATALOGUE_OPERATIONAL_USE_AND_IDENTITY_CONTROL_1899_1912_2026-09-12.md`.
 
-The Eisenbibliothek officially allows scholarly use by appointment in its reading room, permits user photography/scanning and provides staff consultation. Handling/photography conditions for the three fragile plates still require direct confirmation.
+A documented downstream Schoch case shows architects selecting catalogue profiles **3507** and **3517** by geometry/dimensions and reusing them outside their original `Fenstereisen` category. This does **not** prove Bär practice; it proves that, within the same Zürich merchant environment, a numbered profile catalogue could function as an operational shape-selection interface.
 
-### Current necessity claim
+---
 
-> **Remote sources reconstruct what Berlin laboratories published; an Eisenbibliothek visit is required to test how original metallographic negatives were physically transformed into published and reusable visual reference objects.**
+## 4. Why the five EBA 4 profile albums are now the cleanest onsite unit
 
-This is now the strongest collection-specific justification for a visit.
+Remote sources can establish public catalogue titles, reviews, technical-school donations and product claims. They cannot establish what `EBA 4/14` and `EBA 4/13` physically are.
 
-## 5. Institutional split before later convergence
+For all five volumes the decisive unresolved alternatives remain:
 
-The 1888 `Mittheilungen` volume table of contents directly gives:
+- internal merchant compilation;
+- pasted supplier-sheet album;
+- annotated customer/public catalogue;
+- master/reference copy;
+- revision/update copy;
+- cumulative scrapbook;
+- received external material;
+- mixed object assembled over time.
 
-- mechanisch-technische section = **pp.35–83**;
-- chemisch-technische section = **pp.84–131**.
+Only physical inspection can establish:
 
-Wedding's 1888 zircon-light microphotography item is independently controlled to **p.84**, strongly placing it at the opening of the **chemisch-technische** segment.
+- binding and sheet sequence;
+- printed vs pasted vs manuscript layers;
+- stubs / removed pages / replacement leaves;
+- loose inserts and supplements;
+- revision marks;
+- changing firm imprints;
+- numbering continuity / renumbering;
+- page-level dates;
+- proprietary / Normalprofil coexistence;
+- transaction annotations;
+- wear/use patterns.
 
-Martens' 1891 title explicitly names the **mechanisch-technische Versuchsanstalt**.
+This makes the physical morphology of the albums, rather than their catalogue titles alone, the principal onsite evidence.
 
-Therefore early Berlin metal microphotography should not be flattened into one Martens/mechanical line. At least two strands are visible before later institutional consolidation:
+---
 
-**Wedding / chemisch-technische optical-imaging line**
+## 5. Revised onsite capture schema
 
-and
+For sampled profiles record:
 
-**Martens / mechanisch-technische section/testing line**.
+`VOLUME / PAGE_OR_SHEET / INTERNAL_DATE / PROFILE_NUMBER / CATEGORY / DRAWN_SHAPE / DIMENSIONS / WEIGHT / STATIC_OR_LOAD_DATA / INTENDED_USE / PROPRIETARY_MARK / NORMALPROFIL_MARK / PRICE_CODE / ORDER_REFERENCE / SUPPLIER_OR_PRODUCER / COMPANY_IMPRINT / PRINTED_PASTED_MANUSCRIPT / REVISION_MARK / REPLACEMENT_SHEET / SUPPLEMENT_STATUS / CROSS_REFERENCE`.
 
-Later Metallographie is better understood as convergence/recombination.
+Primary concordance tests:
 
-## 6. Core Berlin chronology retained
+1. same number + same shape + same dimensions;
+2. same number + changed shape/dimensions;
+3. same shape + new number;
+4. same profile + changed category;
+5. same profile + changed intended use;
+6. proprietary / Normalprofil coexistence or status change;
+7. base album → replacement / supplement / cancellation;
+8. album identifier → price list / cash / sales / inventory identifier.
 
-- **1877** Wedding seeks a Prussian iron-metallurgy testing institute;
-- **1878** Martens systematically pursues Eisenschliff microscopy;
-- **1884** 120-section collection; item identity later recoverable (`Gießereiroheisen Nr.36` secure);
-- **1886** institutional branch for production of sections for microscopic investigation;
-- **1888** Wedding wire/steel microphotographs + zircon-light negative capture; also magnesium-light projected micro-images;
-- **1891** Martens publishes mechanisch-technische microphotographic apparatus; apparatus and Eisenschliff microphotographs separately indexed;
-- **1892** applied microscopic failure/defect casework;
-- **1892/93** special metal-Schliff grinder + reflected-light photo illuminator + 2 steel Schliffe with matching photographs among applications;
-- **1894/95** 36 photographs + 115 qcm microscopic sections; microscopy helps diagnose failed gas cylinders and revise supply conditions;
-- **1895** formal Metallographie department;
-- **1899** earliest currently controlled standing external circulation of sections / associated microphotos / negative-based study prints;
-- **1901** 3,500-negative archive, prints singly or configurable collections for teaching/study;
-- **1902** 22 tool-steel microphotos + 10 study Schliffe; microscopy guides mechanical-test sampling;
-- **1904** integrated preparation / microscopy / microphotography / testing / expert-judgement laboratory.
+The eighth test is especially important because EBA 4 uniquely co-locates the albums with transaction series.
 
-## 7. Method targets retained
+---
 
-Wedding 1889:
+## 6. External controls already closed enough for pre-visit use
 
-**`Ueber Fortschritte in der Lichtabbildung des Kleingefüges von Eisen und die Herstellung von Schliffen`, Stahl und Eisen 9, strong pointer p.263.**
+### Zürich merchant governance
 
-Wedding Handbuch vol.1:
+Stadtarchiv Zürich Pestalozzi/Wiser material independently preserves:
 
-- Lieferung 1 = pp.1–586;
-- Lieferung 2 = **pp.587–896**;
-- Lieferung 3 = pp.897–1218;
-- terminal portion of Lieferung 2 contains microscope examination, `Herstellung der Schliffe`, and judgement by microstructure.
+- 1852/54 iron-merchant conventions;
+- 1870–73 cartel/convention correspondence involving Schinz & Baer;
+- 1873 convention including Schinz & Baer;
+- 1879–85 inter-firm correspondence including Schinz & Baer, Vogel, Fäh/Schoch and Wiser;
+- 1879 Wiser `Façon-Eisen-Lager` profile documentation;
+- price-list sequences around the same period.
 
-Wedding atlas:
+Use as an **external market-governance and competitor control**, not as a substitute for EBA 4 onsite work.
 
-**`Das Kleingefüge des Eisens. Mikroskopische Originalphotographien mit Erläuterungen`** — date remains **1890/1891** pending title-page control; Vienna catalogue says 1890 / 19 plates, Rice says 1891.
+### Public Schinz/Bär carriers
 
-## 8. Immediate next work — revised around the collection-specific breakthrough
+- 1881 illustrated `Neue Bedachungsprofile` / System Schinz & Bär; described as patented in several countries;
+- 1885 public `Profil-Album` review;
+- 1887 letterhead tying office / magazine / main depot;
+- 1889 advertisement;
+- 1889 surviving illustrated `Bauartikel-Lager` folding prospectus in Staatsarchiv Thurgau;
+- 1889/90 Technikum album batch;
+- 1896 quantified `Façoneisen-Album` and explicit technical-school distribution;
+- 1903 six new albums;
+- 1907 supplement sheet in twelve copies.
 
-### Priority A: identify the three Eisenbibliothek glass plates before travel
+### Competitor functional control
 
-1. Search Iron Library / GF archive / Droste donation records for current physical-object identifiers of the three plates.
-2. Determine whether `G 745,1` is only a modern photo identifier or can route to the physical plate object.
-3. Recover any labels / visible plate numbers from the Droste article image.
-4. Match plate imagery against **Martens 1891 `Per765`, Tafeln IV–VI** and the donated annual volumes.
-5. Test cautiously whether the Cu/Cu2O image mentioned by Droste corresponds to one plate.
-6. Confirm with Eisenbibliothek staff whether original sleeves / donation documentation / BAM provenance survive and whether plate inspection, transmitted-light viewing, measurement and front/back photography are permitted.
+Julius Schoch 1899 `Muster-Buch über Stab- und Profil-Eisen` (`ETH Rar 9483`) has documented later design use by profile number and geometry. Treat as comparative evidence only.
 
-### Priority B: strengthen Berlin method/provenance concordance
+---
 
-7. Recover Wedding 1888 p.84 original and plates.
-8. Recover Martens 1891 pp.278–293 + Tafeln IV–VI directly.
-9. Recover Martens 1892 p.57ff.
-10. Recover Wedding 1889 p.263ff.
-11. Recover exact Handbuch method pages in pp.587–896.
-12. Resolve Wedding atlas 1890/91.
+## 7. Immediate onsite order
 
-### Priority C: manuscript bridge
+1. `EBA 4/5` — 1854 convention;
+2. `EBA 4/7` — correspondence, especially 1868–72;
+3. **`EBA 4/14` — all 3 vols; full physical/page morphology**;
+4. `EBA 4/6` — price lists 1878–80;
+5. `EBA 4/4` — 1884–86 cash-book sample;
+6. `EBA 4/15` — 1885–87 sales sample;
+7. **`EBA 4/13` — both vols; full versioning/update morphology, especially terminal c.1901–03 layers**;
+8. `EBA 4/3` — quick inventory gate; sample only if product-level detail is present;
+9. Haffter late-tail comparison only if useful after the EBA 4 morphology is secure;
+10. selected Library/company-print controls;
+11. Berlin metallographic glass plates only as a separate optional coda.
 
-13. Recover Wedding 1869 pp.117–134 + plate.
-14. If Mss 25 PDF 299 returns first, microtranscribe flame-stage passage immediately.
+This is realistic for a 2–3 week SiR because the core physical operation is concentrated in a small number of high-density volumes/files rather than an attempt to read the whole fonds linearly.
 
-## 9. On-site object protocol
+---
 
-For each Eisenbibliothek glass plate record:
+## 8. Immediate remote work — bounded
 
-`PHYSICAL_PLATE_ID / SIZE / GLASS_THICKNESS / EMULSION_SIDE / LABELS / EDGE_TEXT / NEGATIVE_NUMBER / INSTITUTIONAL_MARK / FULL_FIELD / PUBLICATION_YEAR / TAFEL-FIGURE / PUBLISHED_CROP / MAGNIFICATION / SPECIMEN_ID / MATERIAL / PREPARATION / ILLUMINATION / LATER_REPUBLICATION / PROVENANCE`.
+### Priority A — direct Bär profile-number use
 
-This is the dataset that cannot be generated from digitised periodicals alone.
+Search for downstream sources that cite a **Schinz & Bär / Bär & Co. profile number or catalogue number** in specifications, architectural drawings, engineering articles, orders or teaching material.
+
+A direct Bär case would strengthen the operational-identity hypothesis beyond the Schoch comparator.
+
+### Priority B — public morphology keys
+
+1. Obtain/reproduce Staatsarchiv Thurgau `Slg. 15, 8'4/105` (1889 illustrated folding prospectus).
+2. Locate an extant/full copy of the 1885 `Profil-Album`.
+3. Use the 1896 Bär album retained in the Wiser/Pestalozzi archive as a high-priority comparison object if reproductions are obtainable.
+4. Identify the later construction manual illustrating Schinz/Bär roof profiles (`figs. 229a–d / 230a–d`) and close its date/edition.
+
+### Priority C — controlled legal identity
+
+- Exact foreign patent numbers/jurisdictions behind the 1881 roof-profile statement remain OPEN.
+- The extracted 1884 trademark no. 1289 (`Metallurgische Produkte`) remains secondary until the original SHAB page/image is recovered.
+- Do not confuse unrelated D.R.P. 34679 (1885 hydraulic-ram valve) with the 1881 roof-profile system.
+
+### Stop rule
+
+Do not brute-force public searches that have reached catalogue/metadata claim ceiling. Preserve unresolved physical questions for onsite work or targeted staff requests.
+
+---
+
+## 9. Application question family — current strongest zone
+
+### Carrier / identity formulation
+
+> **When an iron cross-section moved from stock or supplier information into a drawing, an album, a protected technical system, a price/order record, a public catalogue or a teaching reference, what made it remain the same identifiable product — and what forced that identity to change?**
+
+### Network formulation
+
+> **How did Zürich iron merchants coordinate competition and exchange while maintaining firm-specific systems for identifying, updating and redistributing iron profiles between the 1850s and early twentieth century?**
+
+### Versioning formulation
+
+> **How were product-reference systems kept synchronized when profile forms, standards, proprietary products and engineering data changed across multiple copies, editions and supplements?**
+
+Do not select final proposal prose yet. Staff/internal confirmation of the EBA 4 physical units and consultability remains desirable before locking the application thesis.
+
+---
 
 ## 10. Claim ceiling
 
 Secure:
 
-- Droste donated relevant Berlin testing-institute annual volumes and **three original early metallographic glass plates** to the Eisenbibliothek;
-- at least the plates shown in his figure are explicitly identified with the **Königliche mechanisch-technische Versuchsanstalt zu Berlin**;
-- his figure deliberately shows glass plate(s) with a corresponding publication Tafel;
-- Eisenbibliothek image credit is `G 745,1`;
-- Martens 1891 apparatus article / Tafeln IV–VI is held as `Per765`;
-- the Eisenbibliothek supports pre-arranged on-site research and permits researcher photography/scanning subject to its use rules;
-- early Berlin imaging also contains a distinct Wedding/chemisch-technische strand by 1888.
+- EBA 4 preserves five profile-album volumes across 1877–1903 plus adjacent price, cash, sales and inventory records;
+- Schinz & Bär publicly circulated a firm-specific illustrated/protected profile system by 1881;
+- a public Schinz & Bär `Profil-Album` is contemporaneously documented in 1885;
+- Bär/Schinz profile albums were repeatedly circulated to Winterthur Technikum, with six **new** albums in 1903/04 and supplement sheets in twelve copies in 1907/08;
+- a directly comparable Zürich competitor catalogue has documented downstream profile-number/geometry-based use.
 
 Strong inference:
 
-- the physical glass plates constitute uniquely site-specific evidence for the transformation of metallographic negative into published/reference image;
-- this cluster now supplies a strong material, collection-specific reason for an Iron Library visit;
-- later Berlin metallography is best modelled as convergence of differentiated chemical/optical and mechanical/testing strands into a common reference/testing infrastructure.
+- the EBA 4 volumes offer a rare opportunity to study profile **identity and version maintenance** across internal/public/transactional carriers;
+- their physical morphology is non-substitutable by remote bibliographic evidence.
 
 Open:
 
-- exact identity/date/material of each of the three plates;
-- exact plate-to-Tafel concordance;
-- whether all three derive from Martens' mechanisch-technische work;
-- possible Cu/Cu2O identification;
-- original testing-institute / BAM negative numbers and provenance chain;
-- current physical shelfmark and handling conditions.
+- actual physical type/function of `/14` and `/13`;
+- Bär numbering semantics;
+- album-to-price/order/account concordance;
+- whether the 1881 roof profile appears in `/14` or later albums;
+- exact genealogy among 1885, 1889, 1896, 1903 and 1907 carriers;
+- direct downstream Bär profile-number use;
+- exact patent/trademark mechanisms for individual proprietary forms.
+
+---
+
+## 11. Separate legacy / supporting workstreams
+
+### Wedding / Sheffield / Berlin microscopy
+
+The extensive Wedding–Martens–Sorby / metallographic-reference research remains preserved in dedicated files. It is **not the active application resume point**.
+
+The three original Iron Library metallographic glass plates remain a uniquely site-specific object cluster and may serve as a late comparative coda if the final proposal broadens to material/reference carriers. Do not let this small cluster displace the larger EBA 4 archival operation.
+
+### Wedding transcription
+
+Authoritative branch: `ironlibrary-json-correction`.
+
+Current checkpoint from the application pin:
+- Mss 23 textual sequence through PDF 210;
+- Mss 24 through PDF 65;
+- next unprocessed PDF 66;
+- Mss 24 PDFs 1–65 remain `LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`.
+
+This transcription workstream is separate from the present SiR corpus-selection problem.
+
+---
+
+## Resume point
+
+**Resume here:**
+
+`EBA 4 FIVE PROFILE-ALBUM VOLUMES`
+→ **`PROFILE IDENTITY / VERSIONING`**
+→ test `NUMBER ↔ SHAPE ↔ DIMENSION ↔ CATEGORY ↔ PRICE/ORDER KEY ↔ PROPRIETARY/NORMAL STATUS ↔ EDITION ↔ SUPPLEMENT`
+→ seek a **direct Schinz/Bär downstream profile-number case**
+→ obtain the 1889 prospectus / 1885 or 1896 public morphology keys
+→ keep patent/trademark questions open unless primary records close them.
+
+Do **not** resume from the old glass-plate/Wedding main axis.
