@@ -19,16 +19,16 @@ Therefore the historical checkpoint **Mss 24 through PDF 65** records workflow c
 ## Current workflow checkpoint
 
 - Mss 23 textual sequence processed through PDF 210; PDFs 211–223 are object/digitisation views.
-- Mss 24 PDFs 1–40 retain legacy mixed coverage; PDFs 41–65 have been recalibrated or cleaned into the corrected layered schema.
+- Mss 24 PDFs 1–35 retain legacy mixed coverage; PDFs 36–65 have been recalibrated or cleaned into the corrected layered schema.
 - Mss 24 PDFs 66–87 have now been selectively transcribed under that layered schema after direct image control.
 - Mss 24 textual sequence is complete through PDF 87.
 - PDFs 88–103 are image-controlled blank leaves; PDFs 104–116 are image-controlled object views.
 
-The required five-page calibration is complete, and the same separation has been applied to PDFs 41–55 and 61–87. Legacy cleanup should now continue within PDFs 1–40, not in the blank or object-view tail.
+The required five-page calibration is complete, and the same separation has been applied to PDFs 36–55 and 61–87. Legacy cleanup should now continue within PDFs 1–35, not in the blank or object-view tail.
 
 ## Quality status by corpus
 
-### Mss 24 PDFs 1–40
+### Mss 24 PDFs 1–35
 
 Status: `LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`.
 
@@ -40,7 +40,7 @@ Status: `CALIBRATED_LAYERED_SELECTIVE_TRANSCRIPTION`.
 
 These five rows separate literal manuscript wording, literal diagram labels, editorial visual description, normalized entities, uncertain readings and research summary. Their `secure_anchors` derive only from `literal_transcription` and `diagram_labels`. The calibration deliberately removes fluent reconstructions and English diagram-description terms from the source-text layer. Exact quotation still requires checking the cited phrase against the page image.
 
-### Mss 24 PDFs 41–55 and 61–65
+### Mss 24 PDFs 36–55 and 61–65
 
 Status: `LEGACY_CLEANUP_LAYERED_SELECTIVE_TRANSCRIPTION`.
 
@@ -87,7 +87,7 @@ The original PaddleOCR JSON remains immutable source material. Uncertain reading
 - `QUALITY_STATUS.json`: machine-readable quality override; automation should read this together with `README.json`.
 - `README.json`: machine-readable historical coverage checkpoint and remaining-page lists. Important: its current `through_pdf_page` value records coverage, not citation-ready quality.
 - `WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl`: Mss 23 ledger.
-- `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–40 carry the legacy mixed-extraction warning above; PDFs 41–87 use the layered schema; PDFs 88–116 are blank or object-view tail pages.
+- `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–35 carry the legacy mixed-extraction warning above; PDFs 36–87 use the layered schema; PDFs 88–116 are blank or object-view tail pages.
 - `WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl`: Mss 25 ledger.
 - `../CURRENT_PROGRESS.md`: project-level narrative checkpoint.
 
