@@ -1,49 +1,125 @@
-# Berlin testing institute — circulation of metallographic sections and images, 1901–1902
+# Berlin testing institute — circulation of metallographic sections and images, 1899–1902
 
 Date: 2026-09-12
 
-Status: PRIMARY TEXT-LAYER CONTROL FROM CONTEMPORARY PDF REPORTS. The original *Stahl und Eisen* PDF text layers are directly readable. Screenshot attempts for the relevant pages returned cache-miss errors in the current environment, so page-image control remains pending. Do not describe this as screenshot-controlled.
+Status: PRIMARY TEXT-LAYER CONTROL FROM CONTEMPORARY PDF REPORTS. Relevant *Stahl und Eisen* PDF text/OCR layers are directly readable. Screenshot attempts on the Silesian PDF mirrors returned cache-miss errors in the current environment, so page-image control remains pending. Do not describe these passages as screenshot-controlled.
 
-## 1. Why this is a major endpoint for the Iron Library argument
+## 1. Core result
 
-The Berlin testing infrastructure did not merely prepare and photograph metallographic objects internally. By the beginning of the twentieth century it was **distributing prepared metal sections and photographic representations outward for teaching and study**.
+The external circulation of Berlin metallographic evidence is now controlled **at least back to Rechnungsjahr 1899**.
 
-This materially changes the institutional endpoint of the project:
+The sequence visible across annual reports is:
 
-**prepared specimen → numbered/reference collection → negative archive → photographic print / study section → configurable teaching or study set → external user.**
+**1899 — prepared sections + matching microphotographs + prints from existing negatives for study**
 
-The reference infrastructure is therefore not only archival. It is circulatory.
+→ **1900 — explicit paid supply of Metallschliffe / characteristic structure prints; published figures can also be supplied as microphotographs**
 
-## 2. Rechnungsjahr 1901: a 3,500-negative image archive and external supply system
+→ **1901 — the image repository is quantified at 3,500 negatives; prints can be supplied singly or assembled into collections of varying size for teaching/study**
 
-A contemporary report in *Stahl und Eisen*, 15 January 1903, headed:
+→ **1902 — actual outputs include 22 tool-steel microphotographs and 10 metallographic study sections; microscopy also guides later mechanical-test sampling.**
 
-**`Die Tätigkeit der Königlichen technischen Versuchsanstalten im Rechnungsjahre 1901`**
+This is not an internal photographic archive alone. It is a **production + storage + reproduction + circulation + testing system**.
 
-reports the work of the metallographic laboratory and the metal-testing division.
+## 2. Rechnungsjahr 1899: negative-based study reproduction is already operating
 
-It records one request for the production of prints of characteristic microstructure images and then adds a crucial footnote:
+A contemporary *Stahl und Eisen* report published **1 February 1901** describes the activity of the Royal Technical Testing Institutions for Rechnungsjahr 1899.
 
-- the institute supplies **Metallschliffe** and **prints (`Abzüge`) of characteristic microstructure images** against reimbursement of costs;
-- **3,500 negatives** were available for this purpose;
-- the negatives represented the structures of **iron, steel, pig iron, copper and various alloys**;
-- prints could be produced **individually or in collections of different sizes**;
-- these were explicitly for **`Lehr- und Studienzwecke`**.
+Among externally requested microscopic work it lists:
+
+- production of **Metallschliffe**;
+- the **associated microphotographs**;
+- **prints from existing negatives of characteristic microstructure images for study purposes**;
+- additional production of Metallschliffe.
+
+The accompanying footnote states that the institute supplies such prints of characteristic microstructure images **against reimbursement of costs** and that microphotographs can also be supplied from illustrations already published in the institute's `Mittheilungen`.
 
 Primary source:
-- *Stahl und Eisen*, 15 Jan. 1903, report on Rechnungsjahr 1901, printed p.150, text-layer lines corresponding to the metallographic-laboratory passage and footnote.
+- *Stahl und Eisen*, 1 Feb. 1901, report on Rechnungsjahr 1899, printed p.142 context.
+
+Evidence status:
+
+`CONTEMPORARY_PRIMARY_TEXT/OCR = SECURE`
+
+`PDF_PAGE_SCREENSHOT = PENDING (cache miss)`
+
+### Why 1899 matters
+
+The carrier relations already include:
+
+**Schliff ↔ corresponding microphotograph**
+
+and
+
+**existing negative → later print for study**.
+
+Moreover, a published image is not the terminal carrier: an illustration already printed in the `Mittheilungen` can still be re-supplied as a microphotograph.
+
+Thus by 1899 the system supports movement among:
+
+**prepared object → photographic capture → negative archive → print → publication → re-issued photographic object.**
+
+The earliest year of this service remains open; current hard floor is **1899**.
+
+## 3. Rechnungsjahr 1900: external supply is explicitly stated as a standing service
+
+A contemporary report published **1 January 1902** gives the activity for Rechnungsjahr 1900.
+
+The metallographic laboratory was studying heat-treatment changes, core/rim zones, carbon series, hydrogen effects and related problems. The metal-testing division records one application for production of Metallschliffe.
+
+A footnote explicitly states:
+
+- the institute **supplies Metallschliffe**;
+- it supplies **prints of characteristic microstructure images**;
+- supply is against **reimbursement of costs**;
+- microphotographs can also be supplied from illustrations published in the institute's `Mittheilungen`.
+
+Primary source:
+- *Stahl und Eisen*, 1 Jan. 1902, report on Rechnungsjahr 1900, printed p.53–54 context.
 
 Evidence status:
 
 `CONTEMPORARY_PRIMARY_TEXT_LAYER = SECURE`
 
-`PDF_PAGE_SCREENSHOT = PENDING (cache miss in current environment)`
+`PDF_PAGE_SCREENSHOT = PENDING (cache miss)`
 
-## 3. What the 1901 passage proves
+### Carrier implication
 
-By the 1901 reporting year, Berlin possessed more than a laboratory image archive.
+By 1900 the relation among research, publication and external supply is explicit:
 
-It had:
+**laboratory observation → microphotograph → published illustration**
+
+and also
+
+**published illustration → obtainable microphotograph**.
+
+The technical journal does not replace the photographic object; both remain selectable carriers.
+
+## 4. Rechnungsjahr 1901: a 3,500-negative image archive and configurable collections
+
+A contemporary report in *Stahl und Eisen*, **15 January 1903**, headed:
+
+**`Die Tätigkeit der Königlichen technischen Versuchsanstalten im Rechnungsjahre 1901`**
+
+records one request for the production of prints of characteristic microstructure images and then adds a decisive footnote:
+
+- the institute supplies **Metallschliffe** and **prints (`Abzüge`) of characteristic microstructure images** against reimbursement of costs;
+- **3,500 negatives** were available for this purpose;
+- the negatives represented structures of **iron, steel, pig iron, copper and various alloys**;
+- prints could be produced **individually or in collections of different sizes**;
+- these were explicitly for **`Lehr- und Studienzwecke`**.
+
+Primary source:
+- *Stahl und Eisen*, 15 Jan. 1903, report on Rechnungsjahr 1901, printed p.150.
+
+Evidence status:
+
+`CONTEMPORARY_PRIMARY_TEXT_LAYER = SECURE`
+
+`PDF_PAGE_SCREENSHOT = PENDING (cache miss)`
+
+## 5. What the 1901 passage proves
+
+By the 1901 reporting year Berlin possessed:
 
 1. a large **negative repository** — at least 3,500 negatives;
 2. an externally available **print-on-demand mechanism**;
@@ -51,175 +127,168 @@ It had:
 4. the ability to assemble image prints into **collections of different sizes**;
 5. an explicit **teaching and study function**.
 
-This is extremely close to the project's strongest concept of an `Iron Library`.
+This is extremely close to a literal `Iron Library` infrastructure.
 
-A material or microstructural observation can now be detached from the original test encounter and recirculated through several carriers:
+A material or microstructural observation can be detached from the original testing event and recirculated:
 
-**metal object → Schliff → microscope → photographic negative → print → selected collection → student / practitioner / researcher.**
+**metal object → Schliff → microscope → photographic negative → stored negative → print → selected collection → student / practitioner / researcher.**
 
-The negative repository is especially important because it separates **capture/storage** from **later selection/reproduction**. A single negative can generate later prints without repeating the original observation.
+The negative repository is generative rather than passive: stored negatives permit later selection and reproduction without repeating the original observation.
 
-## 4. Rechnungsjahr 1902: circulation becomes measurable in actual outputs
+## 6. Rechnungsjahr 1902: actual circulation outputs are quantified
 
-A second contemporary report, published in *Stahl und Eisen*, 15 March 1904, headed:
+A second contemporary report, published in *Stahl und Eisen*, **15 March 1904**, headed:
 
 **`Die Tätigkeit der Königlichen Technischen Versuchsanstalten im Rechnungsjahre 1902`**
 
-reports that the metal-testing division completed 27 metallographic applications and explicitly lists among its outputs:
+states that the metal-testing division completed 27 metallographic applications and lists among the outputs:
 
 - **22 microphotographs of tool steels**;
 - **10 metallographic sections for study purposes**;
 - provision of **prints of metallographic light-images**.
 
-The report then comments that the distribution of metallographic-image prints and the preparation of sections for study purposes testified to growing understanding of the useful services that metallographic methods could render to material testing.
+The report comments that the provision of metallographic image prints and the preparation of sections for study purposes testify to growing appreciation of metallographic methods in material testing.
 
 Primary source:
-- *Stahl und Eisen*, 15 Mar. 1904, pp.372–373, especially printed p.373.
+- *Stahl und Eisen*, 15 Mar. 1904, printed pp.372–373, especially p.373.
 
 Evidence status:
 
 `CONTEMPORARY_PRIMARY_TEXT_LAYER = SECURE`
 
-`PDF_PAGE_SCREENSHOT = PENDING (cache miss in current environment)`
+`PDF_PAGE_SCREENSHOT = PENDING (cache miss)`
 
-## 5. Metallography also moves upstream of mechanical testing
+## 7. Metallography moves upstream of mechanical testing
 
-The same 1902 report gives an even more important methodological statement.
-
-For finer strength investigations, especially the explanation of fracture phenomena, the institute says it had proved useful to determine **where to take mechanical-test specimens only after a prior microscopic examination of the microstructure**.
+The same 1902 report says that for fine strength investigations, especially the explanation of fracture phenomena, it had proved useful to determine **where to take mechanical-test specimens only after prior microscopic examination of the microstructure**.
 
 Reason:
 
-- microstructure could vary by zones across one cross-section;
-- specimens therefore had to be taken separately from different zones;
-- those zones could yield different numerical strength results;
-- microscopic examination could therefore explain results that would otherwise appear as irregularities.
+- microstructure could vary by zones across a single cross-section;
+- specimens should therefore be taken separately from different zones;
+- different zones could produce different numerical strength results;
+- microstructural examination could explain otherwise apparently irregular values.
 
-This creates an institutional inversion of the simpler sequence `mechanical test → microscope explains result`.
+Controlled institutional sequence:
 
-The controlled sequence becomes:
+**microscopic mapping of heterogeneous material → sampling decision → mechanical specimen extraction → strength test → numerical result.**
 
-**microscopic mapping of heterogeneous material → selection of test location → mechanical specimen extraction → strength test → numerical result.**
+Microscopy is therefore not merely post-hoc illustration. It can participate in manufacturing the later quantitative test object.
 
-Microscopy is therefore not merely a post-hoc visual supplement. It can govern how the later quantitative mechanical test object is produced.
+## 8. The laboratory is also an expert/adjudicative service
 
-## 6. The laboratory is also an expert/adjudicative service
+The 1902 applications include questions concerning:
 
-The 1902 report lists applications involving:
-
-- cause of unusual fracture structure;
-- microstructural differences across iron/steel sections;
+- unusual fracture structure;
+- structural differences across iron/steel sections;
 - segregation;
-- whether defects caused rail fractures;
-- whether material was weld iron or ingot/mild steel;
-- whether material had been overheated;
-- causes of boiler-plate deformation;
+- whether material defects caused rail fractures;
+- whether material was weld iron or fluid/ingot iron;
+- overheating;
+- boiler-plate deformation;
 - tool-steel structure;
-- copper-tube fracture and corrosion questions.
+- copper-tube fracture/corrosion.
 
-The metallographic laboratory was therefore already functioning as a **diagnostic and expert-judgement service**.
-
-This aligns with the broader Materialprüfungsamt mandate to issue expert opinions and settle material disputes.
+The metallographic laboratory was already a **diagnostic, classification and expert-judgement service**.
 
 Carrier consequence:
 
 **prepared section / image → institutional interpretation → technical classification / diagnosis / dispute judgement.**
 
-## 7. Revised reference-infrastructure model
-
-The Berlin system can now be decomposed into at least five layers:
+## 9. Revised reference-infrastructure model
 
 ### A. Production
 
-**sample → cutting → grinding / polishing / etching → Schliff**
+**sample → sectioning → grinding / polishing / etching → Schliff**
 
 ### B. Optical capture
 
 **Schliff → microscope / illumination → microphotograph → negative**
 
-### C. Archival storage and retrieval
+### C. Archival storage / retrieval
 
 **negative repository + specimen/reference identity**
 
-### D. Reproduction and circulation
+### D. Reproduction / publication / circulation
 
 **negative → photographic print → individual print or selected collection**
 
-and
+**prepared section → external study object**
 
-**prepared metal section → external study object**
+**negative/image → journal illustration → later obtainable microphotograph**
 
 ### E. Testing / judgement
 
 **microstructural map → sampling decision → mechanical test → official interpretation / expert report**
 
-This is no longer merely a microscopy laboratory. It is a distributed evidence infrastructure.
+The system is therefore a distributed evidence infrastructure rather than merely a microscopy laboratory.
 
-## 8. Relation back to Wedding
-
-The long trajectory can now be formulated very sharply:
+## 10. Relation back to Wedding
 
 ### Wedding 1860
 
-An expert personally carries observation away from a Sheffield works:
+Evidence travels because an expert personally carries it:
 
-**process → eye / timing / sketch → notebook.**
+**works process → eye / timing / sketch → notebook.**
 
 ### Wedding / Martens / Berlin 1880s–90s
 
 Evidence becomes institutionalised through:
 
-**prepared section → reference collection → projection / photograph → handbook method.**
+**prepared section → numbered reference collection → projection / photograph → handbook method.**
 
-### Berlin testing institute by 1901–02
+### Berlin testing institution, at least by 1899–1902
 
-The institution itself can now circulate evidence:
+The institution itself can circulate evidence:
 
-**3,500-negative archive → prints / configurable collections + prepared study sections → outside teaching / study users.**
+**Schliff + negative archive → prints / microphotographs / configurable collections / study sections → outside teaching or study user.**
 
-The endpoint is therefore not simply `microphotography`. It is **reproducible distribution of standardised metallographic evidence**.
+The endpoint is not simply `microphotography`. It is **reproducible distribution of metallographic evidence**.
 
-## 9. Strongest analytical implication
+## 11. Strongest analytical implication
 
-A very strong formulation for the project is now available:
+> **The shift from Wedding's 1860 notebook to Berlin metallography is a shift from evidence that travels with an expert to an infrastructure in which prepared objects and images can travel without the original observer.**
 
-> **The shift from Wedding's 1860 notebook to Berlin metallography is a shift from evidence that travels with an expert to an infrastructure in which prepared objects and images can travel without that expert.**
+This does not eliminate expertise: later users still require training. The institutional achievement is the removal of obligatory co-presence with the original observation event.
 
-The phrase `without that expert` should be used analytically, not absolutely: interpretation still requires trained users. The institutional achievement is that co-presence with the original observer is no longer required for access to the prepared section or captured image.
+A second strong point now follows from the 1899–1901 sequence:
 
-The 3,500-negative repository also makes clear that **the photographic archive is generative rather than passive**: stored negatives can be selected and reproduced into new teaching/study collections for later users.
+> **publication, photographic archive and prepared specimen are not successive replacements; they coexist as mutually convertible carriers.**
 
-## 10. Claim ceilings
+The same observation can persist as a physical section, negative, print, printed illustration and re-issued microphotograph.
+
+## 12. Claim ceilings
 
 Secure:
 
-- the 1901 report says metal sections and prints of characteristic microstructure images were supplied against reimbursement of costs;
-- 3,500 negatives were available for this purpose;
-- those negatives represented iron, steel, pig iron, copper and various alloys;
-- prints could be made singly or assembled into collections of different sizes for teaching/study;
-- the 1902 report records 22 tool-steel microphotographs, 10 metallographic study sections and distribution of metallographic image prints;
-- the 1902 report explicitly says microscopic structure could be used to choose the later mechanical-test sampling zones;
+- by Rechnungsjahr **1899**, the institute was producing metal sections, associated microphotographs and prints from existing negatives for study; prints were supplied against cost, including microphotographs corresponding to published illustrations;
+- by Rechnungsjahr **1900**, external supply of Metallschliffe and characteristic microstructure-image prints is explicitly described as a standing service;
+- by Rechnungsjahr **1901**, 3,500 negatives were available, covering iron/steel/pig iron/copper/alloys, with prints singly or as collections of variable size for teaching/study;
+- the 1902 report records 22 tool-steel microphotographs, 10 metallographic study sections and distribution of image prints;
+- the 1902 report explicitly says microscopic structure could govern later mechanical-test sampling;
 - the laboratory handled practical diagnostic / material-classification / fracture questions.
 
 Strong inference:
 
-- the Berlin metallographic system had become a circulation and reference infrastructure rather than an internal laboratory archive;
+- Berlin metallography had become a circulation/reference infrastructure no later than 1899;
 - negative storage, print reproduction and study-section distribution materially reduced dependence on the original observation event;
-- microscopy had become upstream of some mechanical-testing workflows by governing specimen selection.
+- microscopy had become upstream of some mechanical-testing workflows by governing specimen selection;
+- journal publication and image/specimen circulation formed an interlinked rather than linear carrier system.
 
 Open:
 
-- who purchased or received the 1901–02 sections/prints;
-- whether standard catalogue numbers accompanied distributed sections or prints;
-- whether Martens' 1884 item numbering continued directly into the 3,500-negative archive;
-- whether Wedding's own atlas images were represented in this negative collection;
-- price lists / order forms / teaching-set catalogues;
-- surviving physical examples of distributed study collections.
+- earliest year external section/image distribution began before 1899;
+- who purchased/received the sections or prints;
+- whether standard catalogue numbers accompanied distributed objects;
+- when the negative archive was first established and how it was numbered;
+- whether Martens' 1884 item numbering continued directly into the later negative archive;
+- whether Wedding's own atlas images were represented in it;
+- price lists / order forms / catalogues / surviving teaching sets.
 
-## 11. Immediate next targets
+## 13. Immediate next targets
 
-1. Search annual reports backward to identify when external supply of sections/prints first began and when the negative archive was established.
-2. Search reports forward for growth of the negative collection, numbers of study sections/prints distributed and any explicit order/catalogue system.
-3. Search Materialprüfungsamt catalogues, price lists or teaching documents for `Lehr- und Studienzwecke`, `Metallschliffe`, `Abzüge`, `Negative`, `Sammlungen`.
-4. Test whether the image/archive numbering can be aligned with Martens' 1884 numbered Schliff collection.
-5. Recover any surviving distributed metallographic teaching collection in Berlin museum/university holdings.
+1. Search annual reports **before 1899**, especially 1897/98, for the first explicit circulation of sections / microphotographs / negative prints.
+2. Search reports forward for growth of negative count and distribution numbers.
+3. Search catalogues / price lists / teaching documents for `Metallschliffe`, `Abzüge`, `Negative`, `Sammlungen`, `Lehr- und Studienzwecke`.
+4. Test whether later image/archive numbering can be aligned with Martens' 1884 numbered Schliff collection.
+5. Recover surviving distributed metallographic teaching sets if possible.
