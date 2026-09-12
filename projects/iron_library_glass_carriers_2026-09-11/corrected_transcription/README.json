@@ -15,23 +15,13 @@
   "principle": "Original PaddleOCR JSON is immutable. A page counts as transcribed only when actual readable wording is entered and checked against the PDF; routing labels and generic page descriptions do not count. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
   "sequential_substantive_checkpoint": {
     "shelfmark": "Mss24",
-    "through_pdf_page": 25,
-    "next_text_page": 26,
-    "note": "Mss23's textual sequence is complete. Mss24 PDFs 6-25 now contain substantive image-controlled transcriptions. The latest batch covers Nürnberg-Bamberg-Frankfurt-Heidelberg travel notes and the Saarbrücken coalfield: seam tables, mine-roadway sections, pillar extraction, haulage, ventilation, wages and the full-page coalfield map. Resume with Mss24 PDF 26."
+    "through_pdf_page": 35,
+    "next_text_page": 36,
+    "note": "Mss23's textual sequence is complete. Mss24 PDFs 6-35 now contain substantive image-controlled transcriptions. The latest batch covers Burbach coke ovens and gas use, rolling-train and quenching machinery, Neunkirchen/Stumm works, Dudweiler steam engines, high-furnace blowing machinery and the route to Metz/Novéant. Resume with Mss24 PDF 36."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [],
     "Mss24": [
-      26,
-      27,
-      28,
-      29,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
       36,
       37,
       38,
