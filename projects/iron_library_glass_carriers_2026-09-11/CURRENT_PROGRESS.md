@@ -1,14 +1,14 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-12 after controlling the Wedding 1885 microscopy bridge.**
+**Pinned continuation state — updated 2026-09-12 after controlling the Wedding 1885 microscopy bridge and Sorby's specimen-preparation critique.**
 
-This is the authoritative resume point. The strongest same-person longitudinal axis is now **1860 works observation → 1869 Bessemer-flame spectroscopy → 1885 microscopic structure**. This outranks the older licence/Gruner/*Engineer* queue because it directly tracks how Wedding relocated metallurgical evidence across process, emitted light and finished material.
+This is the authoritative resume point. The strongest same-person longitudinal axis is now **1860 works observation → 1869 Bessemer-flame spectroscopy → 1885 microscopic structure**, with a directly controlled Sorby–Wedding methodological dispute over how metallographic specimens must be prepared before structure can be seen.
 
 ## 1. Governing problem — revised
 
 The project is no longer best described only as a transition from travel comparison to prepared specimen/micrograph systems. A controlled intermediate optical regime and a later microscopic regime are now visible in the same person:
 
-**works inspection / skilled process judgement → portable notebook inscription → spectral re-analysis of the live process → optical mediation / redistribution of observational competence → microscopic internal structure → prepared specimen / microphotography / institutional reference system.**
+**works inspection / skilled process judgement → portable notebook inscription → spectral re-analysis of the live process → optical mediation / redistribution of observational competence → prepared metallographic surface → microscopic internal structure → microphotography / institutional reference system.**
 
 Main axis remains **Sheffield ↔ Berlin/Charlottenburg**, but the Bessemer flame and Wedding's later microscopy now supply concrete carrier-history bridges rather than analogies.
 
@@ -18,14 +18,14 @@ Strongest conceptual formulation:
 
 Evidence is successively located:
 
-**in the running process → in emitted light → in the finished material's internal structure.**
+**in the running process → in emitted light → in a deliberately prepared surface of the finished material.**
 
 ## 2. Governing files / resume order
 
 Read in this order:
 
 1. `CURRENT_PROGRESS.md`
-2. **`WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`** — same-person longitudinal axis; highest analytical priority
+2. **`WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`** — same-person longitudinal axis; now includes Sorby's preparation critique
 3. **`WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`** — spectroscopy genealogy / primary-source bridge
 4. `WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`
 5. `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`
@@ -125,6 +125,8 @@ The report states that for malleable irons chemical composition does not provide
 - grain size changes with cooling conditions and composition;
 - forging/thermal history alter the visible composite structure.
 
+A contemporary *Science* report adds that Wedding said microscopical investigation had led him to **modify his earlier explanation of welding**. He now treated the effective strength-bearing area of finished iron as the section remaining after slag inclusions in weld iron, and blow-holes in ingot iron, were deducted.
+
 This is the decisive same-person shift:
 
 **1860: read the live process**
@@ -133,49 +135,67 @@ This is the decisive same-person shift:
 
 → **1885: read the finished material's internal structure.**
 
-The governing question becomes:
-
-> **How does metallurgical history persist as a visible structure when chemistry and nominal process identity no longer explain behaviour?**
-
 ## 7. 1885 reception exposes the carrier problem again
 
 A contemporary 22 May 1885 report of the Iron and Steel Institute meeting says Wedding's paper was difficult to follow because no illustrations were shown. The discussion was limited; Bauermann regretted the absence of visible examples, and Sir Henry Bessemer commented on crystallisation and the dependence of crystal size/form on conditions.
 
-This is not merely negative reception. It is evidence that microscopic observation has its own portability problem:
+This is evidence that microscopic observation has its own portability problem:
 
 **seeing under the microscope ≠ successfully transferring the observation to an audience.**
 
 The later importance of prepared specimens, microphotography, numbered collections and reference atlases therefore follows directly from a communication problem visible inside Wedding's own 1885 presentation.
 
-## 8. Revised transformation chain
+## 8. Sorby–Wedding methodological interaction is now directly controlled
+
+The relation is no longer wholly open.
+
+The *Journal of the Royal Microscopical Society* (1886), reporting Sorby's work, quotes Sorby commenting directly on Wedding's paper. Sorby states that, as far as he could judge, the reason Wedding's conclusions differed so much from his was that Wedding's sections **had not been ground down with soft stone before final polishing**. Sorby says he himself only began to see what he regarded as the ultimate structure properly after adopting that method.
+
+This is a crucial methodological control:
+
+> **specimen preparation determines the visible object and therefore can determine the conclusion.**
+
+The disagreement is not merely theoretical. It is located in a preparation sequence.
+
+The same microscopical discussion describes Sorby's reflected-light methods, including oblique and direct illumination and a commonly suitable magnification of about sixty linear. These are controls on Sorby's method, not claims about Wedding's exact setup.
+
+Therefore the metallographic carrier must now be decomposed into:
+
+**sample provenance → cutting/orientation → grinding → polishing → etching/attack → illumination → magnification → perceived structure → image/textual inscription.**
+
+Direct personal co-presence/contact remains open, but **published methodological engagement is secure**.
+
+## 9. Revised transformation chain
 
 Strongest same-person chain:
 
-**1860 Wedding Sheffield flame/time judgement → portable notebook inscription → c.1868/69 Bessemer-flame spectroscopy → 1870–71 debate over skill, coloured filtering and spectroscope → 1885 microscopic structure of malleable iron → prepared specimen / microscopic image / reference system.**
+**1860 Wedding Sheffield flame/time judgement → portable notebook inscription → c.1868/69 Bessemer-flame spectroscopy → 1870–71 debate over skill, coloured filtering and spectroscope → 1885 microscopic structure of malleable iron → preparation-method dispute with Sorby → prepared specimen / microscopic image / reference system.**
 
 At the level of where evidence resides:
 
-**running process → emitted light → finished material microstructure.**
+**running process → emitted light → prepared material surface / internal structure.**
 
 At the level of carriers:
 
-**notebook sketch/timing → spectrum/plate/text → microscopic description / specimen / image.**
+**notebook sketch/timing → spectrum/plate/text → prepared surface → microscopic description / image / specimen.**
 
 This is much stronger than `travel note → microscopy` and avoids a one-way `Sorby → Wedding` diffusion story.
 
-## 9. Relation to Sorby
+## 10. Relation to Sorby — revised
 
 Sorby remains essential but should not be positioned as a simple origin from which Wedding derives.
 
-The stronger comparative problem is:
+What is now secure is a direct published methodological relation: Sorby explicitly explains disagreement with Wedding through **specimen-preparation technique**.
 
-- Sorby had already made metal structure a microscopic field;
-- Wedding arrives at a process→spectrum→microstructure trajectory through metallurgical practice and Bessemer work;
-- the trajectories intersect conceptually/institutionally, but direct Wedding–Sorby transmission/contact remains open.
+The stronger comparative problem is therefore:
 
-Thus Sorby is one actor in a wider reorganisation of metallurgical evidence rather than a single-source ancestor.
+> **How did different preparation protocols create different metallographic objects and therefore different claims?**
 
-## 10. 1861 demonstration carrier remains important but secondary
+Sorby had already made metal structure a microscopic field; Wedding arrives at microscopy through metallurgical practice and Bessemer work. Their approaches intersect concretely in a dispute over how the sample must be made before it can be seen.
+
+Direct private contact/co-presence remains open unless separate evidence establishes it.
+
+## 11. 1861 demonstration carrier remains important but secondary
 
 Direct *Scientific American* control establishes the 31 July–1 Aug. 1861 Sheffield meeting and Bessemer's formal proof package:
 
@@ -192,7 +212,7 @@ This shows another carrier sequence:
 
 `The Engineer` vol.12 pp.10/63 and full IMechE excursion remain pending.
 
-## 11. Licence/adoption and Cyclops context remains controlled
+## 12. Licence/adoption and Cyclops context remains controlled
 
 Preserve chronology:
 
@@ -200,7 +220,7 @@ Preserve chronology:
 
 Cyclops in July 1860 belongs to a heterogeneous process landscape immediately before its own Bessemer transition. Do not back-project later rail/armour production.
 
-Archive routing for exact Cammell licence:
+Archive routing for exact Cammell licence remains:
 
 - `ESC/CC` company archive route;
 - `WED/312–315` Charles Cammell & Co deeds;
@@ -210,51 +230,43 @@ Archive routing for exact Cammell licence:
 
 This remains secondary to the 1869/1885 evidential-regime chain.
 
-## 12. Immediate next work — revised priority
+## 13. Immediate next work — revised priority
 
 ### Priority 1 — Wedding 1869 original paper and plate
 
 Acquire/directly transcribe **`Das Spektrum der Bessemerflamme`, pp.117–134 + plate**.
 
-Extract:
-
-- exact experiment location / works;
-- exact date(s);
-- spectroscope/prism configuration;
-- experimental series / repeatability;
-- manganese / iron / carbon / CO interpretation;
-- endpoint / production-control implications;
-- chemical analyses;
-- earlier Sheffield references;
-- plate / solar-spectrum comparison function.
+Extract exact experiment location/date, instrument, repeatability, manganese/iron/carbon/CO interpretation, endpoint implications, chemical analyses, earlier Sheffield references and plate function.
 
 ### Priority 2 — Wedding 1885 original JISI pp.187–204
 
 Collate the JISI original against the 15 Aug. 1885 *Engineering and Mining Journal* version.
 
-Extract:
+Highest-value extraction fields now are:
 
-- exact specimen preparation / polishing / etching method;
-- magnification and microscope configuration if given;
+- Wedding's exact **grinding/polishing/etching** sequence;
+- whether Sorby's `soft stone` criticism accurately identifies an omitted step;
+- cutting/orientation of samples;
+- mounting method;
+- illumination and microscope configuration;
+- magnification;
 - specimen provenance and metallurgical histories;
-- terminology for grains, kernels/network, crystalline/homogeneous structure;
-- connection between structure and cooling/forging/mechanical properties;
-- any plates/figures/tables omitted by the meeting report;
-- exact Bessemer/Bauermann discussion.
+- terminology for grains/kernels/network/crystalline/homogeneous structure;
+- exact relation of microstructure to cooling/forging/mechanical properties;
+- plates/figures/tables;
+- full Bessemer/Bauermann/Sorby response chain.
 
-### Priority 3 — direct 1860↔1869↔1885 variable table
+### Priority 3 — 1860↔1869↔1885 method/variable table
 
 Use fields:
 
-`PROCESS_STAGE / VISIBLE_FLAME / TIME / ENDPOINT / MATERIAL / OPERATOR_JUDGEMENT / SPECTRAL_LINE / CHEMICAL_INTERPRETATION / MICROSTRUCTURE / MECHANICAL_PROPERTY / CARRIER`.
+`PROCESS_STAGE / VISIBLE_FLAME / TIME / ENDPOINT / MATERIAL / OPERATOR_JUDGEMENT / SPECTRAL_LINE / CHEMICAL_INTERPRETATION / SPECIMEN_PREPARATION / ILLUMINATION / MAGNIFICATION / MICROSTRUCTURE / MECHANICAL_PROPERTY / CARRIER`.
 
-This is now the core comparative object.
-
-### Priority 4 — spectroscopy genealogy / network
+### Priority 4 — spectroscopy / microscopy genealogy
 
 - control early Roscoe/John Brown Sheffield chronology;
 - Wedding backward to Brunner/Lielegg/Watts and forward to Silliman/Drown;
-- test direct Sorby–Wedding citation/contact without inferring it;
+- trace Sorby's exact 1885/86 published critique and whether Wedding answered it;
 - establish whether Parker's spectroscope became routine production practice at Cyclops.
 
 ### Lower retained priorities
@@ -264,7 +276,7 @@ This is now the core comparative object.
 - Cyclops `X306/6/4/1`;
 - exact Cammell 1861 licence/royalty records.
 
-## 13. Claim ceilings
+## 14. Claim ceilings
 
 Secure:
 
@@ -275,15 +287,18 @@ Secure:
 - Silliman directly cites Wedding's violet-line observation, spectrum/solar calibration object and manganese interpretation;
 - Sorby preserves experienced naked-eye flame judgement as a benchmark while discussing spectroscopy;
 - Parker's 1871 Cyclops work distinguishes experienced-eye judgement, coloured-glass assistance and spectroscopic indication;
-- Wedding's 1885 JISI paper is pp.187–204 and explicitly makes microscopic structure an evidential layer not reducible to chemistry/process label;
-- contemporary 1885 reception shows that lack of illustrations impaired communicability of microscopic structure.
+- Wedding's 1885 JISI paper is pp.187–204 and makes microscopic structure an evidential layer not reducible to chemistry/process label;
+- Wedding said microscopy caused him to revise his earlier explanation of welding;
+- contemporary 1885 reception shows that lack of illustrations impaired communicability of microscopic structure;
+- Sorby directly attributes major differences between his and Wedding's microscopic conclusions to Wedding's omission of soft-stone grinding before final polishing.
 
 Strong inference:
 
 - Wedding's 1869 paper reformats an operational signal already selected in his 1860 notebook;
 - his 1885 microscopic work relocates evidence from the running process into internal material structure;
 - the long transition is better understood as redistribution/standardisation of observation across scales and carriers than as simple instrument replacement;
-- the 1885 communication failure helps explain why later metallography required images, prepared specimens and reference systems.
+- specimen preparation is itself part of the epistemic carrier, not a neutral preliminary step;
+- the 1885 communication/preparation disputes help explain why later metallography required standard surfaces, images, prepared specimens and reference systems.
 
 Open:
 
@@ -291,10 +306,11 @@ Open:
 - full Wedding 1869 text + plate and experiment location/instrument;
 - full Wedding 1885 original text/figures/specimen method;
 - whether Wedding explicitly links 1869 spectroscopy to his 1860 Sheffield encounter;
-- direct Wedding–Sorby contact/citation relation;
+- whether Wedding answered Sorby's preparation critique;
+- direct private Wedding–Sorby contact/co-presence;
 - routine operational uptake of Parker's spectroscope at Cyclops;
 - exact institutional/material route from Wedding's 1885 microscopy into later numbered specimen/image systems.
 
 ## Resume condition
 
-**Resume first by acquiring/transcribing Wedding 1869 pp.117–134 + plate and Wedding 1885 JISI pp.187–204. If Mss 25 PDF 299 becomes available before either, immediately transcribe the flame-stage passage. The older Gruner/*Engineer*/licence queue is retained but secondary.**
+**Resume first by acquiring/transcribing Wedding 1869 pp.117–134 + plate and Wedding 1885 JISI pp.187–204, with special attention to specimen preparation. If Mss 25 PDF 299 becomes available before either, immediately transcribe the flame-stage passage. The older Gruner/*Engineer*/licence queue is retained but secondary.**
