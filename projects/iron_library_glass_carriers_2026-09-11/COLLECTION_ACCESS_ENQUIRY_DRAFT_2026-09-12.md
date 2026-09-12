@@ -12,7 +12,9 @@ The current holdings census identifies three archival blocks with both strong c.
 2. **EBA 4 — Küderli & Co. (vormals Bär & Co.), Zürich**;
 3. **Rauschenbach operational/company records in GFA 1**.
 
-Public catalogue metadata is rich, but the historical core of these blocks is not publicly exposed as source images in the same way as explicitly digitised photographs/objects. The remaining uncertainty is not historical relevance but **access architecture**.
+A fourth unresolved **Library-level holdings layer** has now emerged from the current Swiss ISIL record: **66 manuscripts and 3 estates (`Nachlässe`)**, whereas e-codices exposes only 14 selected Eisenbibliothek manuscripts. The complete identities/date spans/catalogue mapping/digitisation status of that manuscript/estate layer are not reproducibly recoverable through the current public web interfaces.
+
+Public catalogue metadata is rich, but the historical core of the three archival blocks is not publicly exposed as source images in the same way as explicitly digitised photographs/objects. The remaining uncertainty is not historical relevance but **access architecture and total collection morphology**.
 
 The enquiry should remain collection-level. Do not pitch Wedding, Martens, Sorby, microscopy, or a fixed thesis yet.
 
@@ -24,13 +26,13 @@ Do not send yet.
 
 ## Draft message
 
-**Subject:** Research access enquiry: EBA 3, EBA 4 and nineteenth-century Rauschenbach records
+**Subject:** Research access enquiry: nineteenth-century archive series and Iron Library manuscript holdings
 
 Dear Ms Eggimann / Iron Library and Corporate Archives team,
 
-I am currently assessing the Iron Library and archive holdings for a possible Scholar in Residence application focused on nineteenth-century iron and materials history. Before defining the final research question, I am trying to understand which substantial archival series would require on-site consultation and which may already be available through digitisation or remote reproduction.
+I am currently assessing the Iron Library and archive holdings for a possible Scholar in Residence application focused on nineteenth-century iron and materials history. Before defining the final research question, I am trying to understand which substantial archival and manuscript series would require on-site consultation and which may already be available through digitisation or remote reproduction.
 
-I would be very grateful for clarification on three groups of records:
+I would be very grateful for clarification on the following groups of records:
 
 **1. EBA 3 — Hafftersche Eisenhandlung, Weinfelden**
 
@@ -44,15 +46,22 @@ In particular EBA 4/7 (Korrespondenz 1858–1872), EBA 4/14 (Profileisenalbum 18
 
 In particular GFA 1/780 and /781 (Korrespondenz/Verträge), GFA 1/806 (Mitarbeiterverzeichnisse), GFA 1/809 (Krankenkasse, 10 volumes), GFA 1/2288 (Korrespondenz 1876–1879) and GFA 1/786 (Krise/Umzug from 1878).
 
+**4. Iron Library manuscript / estate holdings**
+
+The current Swiss ISIL record lists 66 manuscripts and 3 estates (`Nachlässe`) for the Eisenbibliothek, while 14 selected manuscripts are currently represented on e-codices. If readily available, a simple list or catalogue export of the manuscript/estate holdings would be extremely useful for understanding the collection before choosing the final project.
+
 Could you please let me know:
 
-1. whether any of these series have been digitised internally or have existing scans that are not currently displayed in ANTON;
+1. whether any of the EBA 3, EBA 4 or Rauschenbach series above have been digitised internally or have existing scans that are not currently displayed in ANTON;
 2. whether selected digital reproductions can be supplied on request before a research visit, and if so whether there are practical limits or charges;
 3. whether EBA holdings are governed by the same on-site consultation rules as the Georg Fischer Corporate Archives, or by a different access regulation;
 4. whether all of the records listed above are currently available for consultation and free of relevant closure restrictions;
 5. whether the catalogue extent corresponds closely to the physical retrieval units (for example, whether EBA 3/24 is requested as one larger unit or as individual correspondence files);
 6. whether there are daily or advance-order limits that would affect planning a two- to three-week research stay;
-7. whether the archive staff would recommend any additional nineteenth-century series closely associated with these fonds that are not obvious from the public catalogue hierarchy.
+7. whether the archive staff would recommend any additional nineteenth-century series closely associated with these fonds that are not obvious from the public catalogue hierarchy;
+8. whether the ISIL figure of **66 manuscripts / 3 estates** corresponds entirely to current Iron Library/IRONCAT holdings, or whether some of these records are now represented under EBA/ANTON or another current catalogue boundary;
+9. whether a current list/export of those manuscript and estate records (shelfmark/name, approximate date, and catalogue location) already exists and could be shared;
+10. whether there are nineteenth-century manuscripts or estates outside the 14 e-codices manuscripts that are already digitised internally or available by remote reproduction.
 
 At this stage I am deliberately keeping the historical question open and assessing the structure and accessibility of the collections first. Any guidance on the archival organisation or on the most efficient way to plan consultation would therefore be extremely helpful.
 
@@ -80,22 +89,32 @@ Essential for deciding whether a large corpus such as Haffter is feasible in a t
 
 ### Q7: staff knowledge
 
-This is the only deliberately open-ended question. It asks for archival-structure guidance, not for a topic recommendation.
+This is the only deliberately open-ended archival question. It asks for collection-structure guidance, not for a topic recommendation.
+
+### Q8–10: total manuscript / estate layer
+
+These questions resolve a newly identified catalogue-scale gap. The public Swiss ISIL record lists 66 manuscripts and 3 estates, while the public e-codices collection exposes 14 selected manuscripts. We need the current catalogue mapping and date distribution before deciding whether the Library contains a substantial non-e-codices nineteenth-century manuscript/estate corpus.
+
+A simple existing export/list is preferable to asking staff to conduct item-level research.
 
 ## Do not add yet
 
-- no claim that the material is definitely undigitised;
+- no claim that the archival material is definitely undigitised;
 - no claim that EBA is formally subject to GFA rules;
+- no claim that exactly `52 manuscripts` are undigitised;
+- no assumption that all 66 ISIL manuscripts / 3 estates currently belong to the same catalogue layer;
 - no final project title;
 - no Wedding/Martens/Sorby narrative;
 - no request for staff to perform extensive historical research before the application;
-- no broad list of individual items beyond the three structural blocks.
+- no broad list of individual items beyond the structural blocks above.
 
 ## Current evidence behind the enquiry
 
 - EBA 3 catalogue: 15 lm; public media section empty; 555 correspondence files in EBA 3/24 plus long accounting/book series.
 - EBA 4: 4 lm; historical core catalogued by series; no public `Digitalisiert` marker on the controlled pre-1885 series.
 - Rauschenbach: operational textual series have no public `Digitalisiert` marker in the controlled actor listing, while selected photographs in the same listing are explicitly digitised.
+- Swiss ISIL `CH-000728-7`: institution-level `Archivbestände` = 66 manuscripts, 3 estates, c.300 graphic sheets, 80 maps of canton Schaffhausen.
+- e-codices Eisenbibliothek collection: 14 selected digitised manuscripts, not a consecutive shelfmark series.
 - GFA regulations: corporate archive source consultation on premises; archival material not loaned/sent for consultation; reproduction subject to Archivist decision.
 - Iron Library services: onsite self-scanning, photography and staff consultation available.
 - Annual reports: archive staff also answer substantial numbers of remote enquiries, so source-access rules must be distinguished from remote reference support.
