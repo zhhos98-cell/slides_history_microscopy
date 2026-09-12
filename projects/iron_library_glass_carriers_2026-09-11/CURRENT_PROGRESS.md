@@ -1,6 +1,6 @@
 # CURRENT PROGRESS — Iron Library / Wedding / Sheffield–Berlin
 
-**Pinned continuation state — updated 2026-09-12 after controlling Martens item-level numbering, Wedding's 1889 article start, and mature preparation/illumination workflows.**
+**Pinned continuation state — updated 2026-09-12 after controlling Martens item-level numbering, Wedding's 1889 article start, and the exact page envelope of Wedding Handbuch vol.1 Lieferung 2.**
 
 This is the authoritative resume point. Resume here before older OCR, licence, Gruner–Lan or *Engineer* queues.
 
@@ -14,18 +14,18 @@ Main thesis:
 
 > **metallurgical evidence is repeatedly relocated and reformatted: from the running process, to emitted light, to a deliberately prepared surface, then into numbered collections, projected images, photographs and instructional protocols.**
 
-The decisive methodological corollary is:
+Decisive methodological corollary:
 
 > **standardising the specimen and standardising the image are historically distinct operations.**
 
 ## 2. Resume order
 
 1. `CURRENT_PROGRESS.md`
-2. **`WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`**
-3. **`WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`**
-4. **`WEDDING_1885_1891_METALLOGRAPHIC_METHOD_CHAIN_2026-09-12.md`**
-5. **`WEDDING_MARTENS_HEYN_REFERENCE_INFRASTRUCTURE_1884_1900_2026-09-12.md`**
-6. **`WEDDING_1889_LIGHT_IMAGE_SCHLIFF_METHOD_CONTROL_2026-09-12.md`**
+2. `WEDDING_1860_1869_1885_VISUAL_REGIME_CHAIN_2026-09-12.md`
+3. `WEDDING_BESSEMER_FLAME_SPECTROSCOPY_CHAIN_1860_1871_2026-09-12.md`
+4. `WEDDING_1885_1891_METALLOGRAPHIC_METHOD_CHAIN_2026-09-12.md`
+5. `WEDDING_MARTENS_HEYN_REFERENCE_INFRASTRUCTURE_1884_1900_2026-09-12.md`
+6. `WEDDING_1889_LIGHT_IMAGE_SCHLIFF_METHOD_CONTROL_2026-09-12.md`
 7. `WEDDING_1860_07_25_SHEFFIELD_TECHNICAL_CLUSTER_2026-09-12.md`
 8. `WEDDING_1861_SHEFFIELD_PRIMARY_SOURCE_LADDER_2026-09-12.md`
 9. older spatial/licence/Gruner controls only as needed.
@@ -35,8 +35,8 @@ The decisive methodological corollary is:
 Mss 25 image control gives:
 
 - PDF 298 — `Bessemer's Stahlwerk`, converter/process sketches and Cumberland pig-iron statement;
-- PDF 299 — Bessemer continuation, including **`Der ganze Prozeß dauert cca 19–24 Minuten.`** and flame/process-stage prose;
-- PDF 300 — **`Cammells Walzwerke (Cyclops Works).`** before the explicit 26 July Leeds boundary.
+- PDF 299 — Bessemer continuation, including `Der ganze Prozeß dauert cca 19–24 Minuten.` and flame/process-stage prose;
+- PDF 300 — `Cammells Walzwerke (Cyclops Works).` before the explicit 26 July Leeds boundary.
 
 Strong folio inference: Bessemer + Cammell belong to **25 July 1860**.
 
@@ -100,23 +100,23 @@ Carrier transition:
 
 The exact source medium of the projection remains open.
 
-## 8. Wedding 1889 method article — page start and one imaging claim are now constrained
+## 8. Wedding 1889 method article — page start and imaging geometry are now constrained
 
 **H. Wedding, `Ueber Fortschritte in der Lichtabbildung des Kleingefüges von Eisen und die Herstellung von Schliffen`, Stahl und Eisen 9 (April 1889).**
 
-A later bibliography gives **p.263** for Wedding's 1889 *Stahl und Eisen* contribution; an independent 1897 *Stahl und Eisen* retrospective lists the relevant 1889 metallographic pages as **263 and 393**, while Rice independently identifies Martens' May paper at p.393.
+Independent bibliographic routing strongly places Wedding's contribution at **p.263**; Rice independently places Martens' May 1889 paper at p.393, and the 1889 volume/part survives in full view.
 
-Use current status:
+Use status:
 
 **`Wedding 1889 article start = p.263, strong cross-controlled pointer; direct original page still pending`.**
 
-Near-contemporary 1889 optical literature independently attributes to Wedding the finding that **microstructural details become much more visible when the iron surface is inclined obliquely relative to the microscope axis**. Schmidt & Haensch explicitly turn this observation into a photomicrographic apparatus with an oblique stage.
+Near-contemporary 1889 optical literature independently attributes to Wedding the finding that **microstructural details become more visible when the iron surface is inclined obliquely relative to the microscope axis**. Schmidt & Haensch turn this observation into a photomicrographic apparatus with an oblique stage.
 
-Therefore a concrete Wedding 1889 method variable is secure:
+Concrete method variable now secure:
 
 **specimen orientation relative to optical axis affects image formation.**
 
-This does not yet prove adoption of Sorby's exact direct-light protocol.
+This does not yet prove adoption of Sorby's exact direct-light protocol or an explicit reply to Sorby.
 
 ## 9. Mature German method explicitly places Wedding in the preparation lineage
 
@@ -125,30 +125,41 @@ E. Heyn, `Einiges über das Kleingefüge des Eisens`, *Stahl und Eisen*, 1 Aug. 
 - plane/smooth the surface;
 - rotating wooden discs with progressively graded emery paper;
 - cloth-covered discs with finest polishing rouge + water;
-- mirror-bright, scratch-free surface after roughly 2–6 workshop hours;
+- mirror-bright, scratch-free surface;
 - then relief polishing / etch polishing / chemical etching.
 
-Crucially Heyn writes that **Reliefpolieren was introduced by Sorby and substantially perfected by Osmond, Martens and Wedding**.
+Crucially Heyn states that **Reliefpolieren was introduced by Sorby and substantially perfected by Osmond, Martens and Wedding**.
 
-He separately describes multiple reflected-light geometries:
-
-- obliquely inclined specimen + diffuse daylight;
-- perpendicular specimen + 45° plane-parallel plate reflecting artificial light toward the surface;
-- perpendicular specimen + prism/through-objective illumination.
-
-He also standardises figure-light direction so relief can be read consistently from images.
+He separately describes multiple reflected-light geometries and standardises figure-light direction so relief can be read consistently.
 
 This is a mature infrastructure of:
 
 **surface recipe + optical geometry + image convention.**
 
-## 10. Wedding's handbook method is demonstrably reproducible by third parties
+## 10. Wedding Handbuch I.2 — page envelope is now controlled
 
-A 1893 review of Wedding's *Ausführliches Handbuch der Eisenhüttenkunde*, 2nd ed., vol.1, Lieferung 2, says the end of the volume treats:
+Wedding's *Ausführliches Handbuch der Eisenhüttenkunde*, 2nd ed., vol.1, appeared in Lieferungen.
 
-- microscope examination of microstructure;
+Contemporary bibliographic controls now give:
+
+- **Lieferung 1 = pp.1–586** (1891; independently reviewed as 586 pages);
+- **Lieferung 3 / Schluss-Lieferung = pp.897–1218** (1896 publisher notice).
+
+Therefore the complete page envelope of **Lieferung 2 is pp.587–896**.
+
+A contemporary 1893 review explicitly says the **end of Lieferung 2** contains:
+
+- investigation of microstructure by microscope;
 - `Herstellung der Schliffe`;
 - judgement of iron from microstructure.
+
+Thus the target for Wedding's mature metallographic method is no longer a 1218-page volume-wide search. It is:
+
+**Handbuch vol.1, Lieferung 2, pp.587–896, especially the terminal section near p.896.**
+
+Exact chapter start and exact preparation pages remain to be extracted.
+
+## 11. Wedding's handbook method is demonstrably reproducible by third parties
 
 A 15 Nov. 1899 *Stahl und Eisen* paper explicitly says its Schliffflächen were prepared **according to Wedding's instructions in `Handbuch ... I.2`**. It gives:
 
@@ -167,7 +178,7 @@ Critical distinction:
 
 Thus standard specimen preparation does not automatically standardise the image.
 
-## 11. 1890/91 atlas date remains open
+## 12. 1890/91 atlas date remains open
 
 Object:
 
@@ -184,21 +195,15 @@ Until title page control use:
 
 Secure form claim: original microscopic photographs + explanatory text; Vienna catalogue gives 19 plates.
 
-## 12. Immediate next work
+## 13. Immediate next work
 
 ### Highest priority
 
 1. Directly recover **Wedding 1889 p.263ff** and determine article end page.
-2. Extract exact references to:
-   - grinding/polishing;
-   - relief polishing / etching;
-   - direct vs oblique illumination;
-   - specimen inclination;
-   - photography;
-   - Sorby / Martens / Osmond citations.
-3. Recover exact **Wedding Handbuch I.2** pages for microscope examination / Schliff production / judgement by Kleingefüge.
+2. Extract exact references to grinding/polishing, relief polishing/etching, direct vs oblique illumination, specimen inclination, photography, and Sorby/Martens/Osmond citations.
+3. Search **Handbuch vol.1 Lieferung 2, pp.587–896**, beginning from the terminal pages backward, for microscope examination / `Herstellung der Schliffe` / judgement by Kleingefüge.
 4. Recover **Martens 1884 catalogue** and reconstruct numbering, provenance, category and treatment fields beyond secure `Nr.36`.
-5. Resolve **Wedding atlas 1890 vs 1891** from title page and inspect all plates/captions.
+5. Resolve **Wedding atlas 1890 vs 1891** from title page and inspect plates/captions.
 
 ### Parallel high-value originals
 
@@ -206,13 +211,13 @@ Secure form claim: original microscopic photographs + explanatory text; Vienna c
 7. Recover Wedding 1885 JISI pp.187–204.
 8. If Mss 25 PDF 299 becomes available first, immediately microtranscribe the flame-stage passage.
 
-## 13. Governing analytical matrix
+## 14. Governing analytical matrix
 
 Track:
 
 `SPECIMEN_SOURCE / REFERENCE_NUMBER / PROCESS_STAGE / FLAME / TIME / SPECTRAL_LINE / SECTIONING / ORIENTATION / GRINDING / POLISHING / ETCHING / ILLUMINATION / MAGNIFICATION / PROJECTION / PHOTOGRAPH / IMAGE_CONVENTION / INTERPRETIVE_RESULT`.
 
-## 14. Claim ceiling
+## 15. Claim ceiling
 
 Secure:
 
@@ -225,7 +230,8 @@ Secure:
 - Wedding 1889 explicitly joined light-image formation and Schliff production and is strongly routed to p.263;
 - contemporaries attribute to Wedding deliberate use of specimen inclination to enhance microstructural visibility / photography;
 - Heyn 1899 places Wedding inside the technical lineage of relief polishing and describes mature specimen/illumination/image procedures;
-- Wedding's handbook method was reproducible by third parties by 1899.
+- Handbuch vol.1 Lieferung 2 is securely bounded to **pp.587–896** and ends with microscopy / Schliff / microstructural-judgement material;
+- Wedding's handbook preparation method was reproducible by third parties by 1899.
 
 Strong inference:
 
@@ -235,7 +241,7 @@ Strong inference:
 Open:
 
 - direct Wedding 1889 text and exact response to Sorby;
-- Handbuch page numbers / Wedding's own wording;
+- exact Handbuch chapter start/pages and Wedding's own preparation wording;
 - full Martens numbering/categories;
 - exact atlas title-page year;
 - exact continuity among Martens numbered sections, Wedding's atlas images and later institutional reference series.
