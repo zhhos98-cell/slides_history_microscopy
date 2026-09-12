@@ -26,6 +26,18 @@ Evidence status:
 
 Do not quote Wedding's wording from p.263 until the 1889 original page is directly opened.
 
+### Correction: p.268 does not establish Wedding's article end
+
+A 1900 *Stahl und Eisen* discussion contains a footnote `Stahl und Eisen 1889 S.268`, but direct context shows that this footnote is attached to a quotation from **A. Martens** beginning `Meine Aetzungen habe ich mit sehr vielen Reagentien vorgenommen ...`.
+
+Therefore:
+
+- **p.268 is not evidence for Wedding's article text**;
+- it must not be used to infer automatically that Wedding's article ended on p.267;
+- the exact ending page of Wedding's April 1889 article remains open until the original 1889 issue/table of contents is directly controlled.
+
+This correction is important because the numerical proximity `Wedding p.263 / Martens citation p.268` can otherwise generate a false contiguous-page inference.
+
 ## 2. Wedding's 1889 imaging geometry is independently recoverable
 
 The 1889 *Journal of the Royal Microscopical Society*, reporting Schmidt & Haensch's apparatus for photographing tarnish colours of iron surfaces, explicitly states that **Wedding found the details of iron microstructure were brought out much more strongly when the iron surface was inclined obliquely to the microscope axis**.
@@ -90,6 +102,7 @@ This mature method strongly confirms the historical importance of the variables 
 
 - Wedding's article is in `Stahl und Eisen` vol.9, April 1889;
 - p.263 is the current best independently cross-controlled start-page pointer;
+- the 1900 p.268 footnote belongs to a Martens quotation and cannot delimit Wedding's article;
 - Wedding's contemporaries attribute to him the observation that obliquely inclining the iron surface to the microscope axis greatly enhances visible microstructural detail;
 - the observation was explicitly translated into apparatus design for photomicrography in 1889;
 - this makes orientation/image formation an explicit methodological variable in Wedding's programme.
