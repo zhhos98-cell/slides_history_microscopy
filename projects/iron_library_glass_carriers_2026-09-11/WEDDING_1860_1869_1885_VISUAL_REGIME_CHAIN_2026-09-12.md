@@ -75,7 +75,10 @@ The report gives several governing claims:
 - grain size changes with cooling conditions and composition;
 - forging and thermal history alter the visible composite structure.
 
-A later metallography history independently cites Wedding 1885 as an early major contribution in the international development of microscopic metallography.
+A contemporary *Science* report adds a particularly useful statement: Wedding said microscopic investigation had led him to **modify his earlier explanation of welding**. He now treated the strength of a finished iron object in terms of the effective sectional area of iron remaining after slag inclusions in weld iron, and blow-holes in ingot iron, were deducted. Microscopy therefore did not simply add descriptive morphology; it caused Wedding to revise an earlier metallurgical explanation.
+
+Source control:
+- *Science*, 1885 report of the Iron and Steel Institute meeting, contemporary summary of Wedding's paper.
 
 ### Central shift
 
@@ -91,7 +94,7 @@ Working transformation:
 
 **process-time inscription → optical process signal → post-process microstructure.**
 
-## 5. Contemporary reception in 1885
+## 5. Contemporary reception in 1885 — and the carrier problem
 
 The 22 May 1885 report of the Iron and Steel Institute meeting is revealingly critical: it says Wedding's paper described microscopic appearances but was difficult to follow because no illustrations were shown. The discussion was limited, and Sir Henry Bessemer commented on crystallisation and the influence of crystal size/form.
 
@@ -99,7 +102,31 @@ This is analytically valuable. Even when the microscope supplies new evidence, *
 
 This links directly to the later rise of microphotography, prepared specimens, numbered collections and standardized image/reference systems.
 
-## 6. Same-person longitudinal chain
+## 6. Direct Sorby–Wedding methodological contact: specimen preparation matters
+
+A major new control comes from the *Journal of the Royal Microscopical Society* in 1886, which quotes Sorby commenting directly on Wedding's 1885 paper.
+
+Sorby says, in substance, that the reason Wedding's conclusions differed so much from his own was that Wedding's sections **had not been ground down with soft stone before final polishing**. Sorby adds that only after adopting this preparation method was he able to see what he regarded as the ultimate structure properly.
+
+This is the first direct methodological relation currently controlled between Sorby and Wedding.
+
+It changes the historiographical problem substantially:
+
+- the difference is not merely one of theory;
+- it is not reducible to microscope quality or national tradition;
+- **specimen preparation itself determines what structure becomes visible.**
+
+The metallographic carrier is therefore not just `the specimen`. It is a **prepared surface produced by a sequence of grinding, polishing, illumination and magnification choices**.
+
+The same 1886 microscopical discussion describes Sorby's use of oblique and direct reflected illumination and notes that around sixty-fold linear magnification was often suitable, while higher powers were possible. These details should not be silently assigned to Wedding; they instead establish the methodological standard against which Sorby judged Wedding's preparation.
+
+Analytical consequence:
+
+> **standardisation of seeing begins before the image: it begins in the preparation of the surface that can be made visible at all.**
+
+This gives the Iron Library project's later slide/specimen emphasis a much firmer historical bridge.
+
+## 7. Same-person longitudinal chain
 
 The strongest current same-person sequence is:
 
@@ -117,7 +144,8 @@ The strongest current same-person sequence is:
 **1885 — microscopic structure of malleable iron**
 - finished material becomes an internal visual field;
 - composition/process label is insufficient;
-- structure records cooling, forging and metallurgical history.
+- structure records cooling, forging and metallurgical history;
+- microscopy revises Wedding's earlier explanation of welding.
 
 This is not a biography of increasing sophistication. It is a change in **where evidence is located**:
 
@@ -125,40 +153,45 @@ This is not a biography of increasing sophistication. It is a change in **where 
 
 And a change in **how evidence travels**:
 
-**notebook sketch/timing → spectrum/plate/text → microscopic description/image/specimen/reference system.**
+**notebook sketch/timing → spectrum/plate/text → prepared surface → microscopic description/image/specimen/reference system.**
 
-## 7. Relation to Sorby
+## 8. Relation to Sorby — revised
 
-Do not return to a one-way `Sorby → Wedding` influence story without direct contact evidence.
+Do not return to a one-way `Sorby → Wedding` influence story.
 
-The stronger question is comparative/convergent:
+Direct methodological interaction is now controlled at the level of published critique: Sorby explicitly explains disagreement with Wedding through **specimen-preparation technique**.
 
-- Sorby had already made metal structure a microscopic field;
-- Wedding independently arrives at a process-to-spectrum-to-microstructure trajectory through metallurgical practice, Bessemer process work and later microscopy;
-- the two trajectories may intersect institutionally and conceptually, but direct transmission/co-presence remains open.
+The stronger question is therefore:
 
-This turns Sorby from `origin` into one actor in a wider reorganisation of metallurgical evidence.
+> How did different preparation protocols produce different metallographic objects and therefore different conclusions?
 
-## 8. Immediate primary-source priorities
+Sorby had already made metal structure a microscopic field, but Wedding's trajectory reaches microscopy through metallurgical practice and Bessemer work. Their approaches intersect not only conceptually but in a concrete dispute over **how the specimen must be made before it can be seen**.
+
+Direct personal contact/co-presence remains open unless separate evidence establishes it.
+
+## 9. Immediate primary-source priorities
 
 1. **Wedding 1869 original paper** — retrieve pp.117ff and plate; extract apparatus, site, spectrum-line description, manganese/carbon reasoning and operational claim ceiling.
-2. **Wedding 1885 JISI original pp.187–204** — collate against the 15 Aug. 1885 *Engineering and Mining Journal* re-publication/report; identify exact figures/plates/specimens if any in original proceedings.
-3. Recover the 1885 meeting discussion and Bessemer response from the original JISI volume.
-4. Build a field-by-field comparison table:
+2. **Wedding 1885 JISI original pp.187–204** — collate against the 15 Aug. 1885 *Engineering and Mining Journal* version and contemporaneous meeting reports.
+3. Recover Wedding's **exact preparation protocol**: grinding medium, polishing sequence, etching/attack if any, illumination, magnification, microscope configuration and specimen provenance.
+4. Recover Sorby's full 1885/86 response and distinguish exactly which methodological steps were his own standard versus explicit claims about Wedding.
+5. Build a field-by-field comparison table:
    - `PROCESS_STAGE`
    - `VISIBLE_COLOUR/FLAME`
    - `TIME`
    - `SPECTRAL_LINE`
    - `CHEMICAL_INTERPRETATION`
+   - `SPECIMEN_PREPARATION`
+   - `ILLUMINATION`
+   - `MAGNIFICATION`
    - `MICROSTRUCTURE`
    - `MECHANICAL_PROPERTY`
    - `CARRIER / INSCRIPTION FORMAT`.
-5. Only after the same-person chain is fixed should Sorby, Parker, Silliman, Rowan, Watts and von Lichtenfels be layered around it.
 
-## 9. Governing thesis now testable
+## 10. Governing thesis now testable
 
 A much stronger thesis is now available:
 
-> **Wedding's metallurgical practice can be followed as a redistribution of evidence across scales and carriers: from skilled observation of a live industrial process, to instrumentally decomposed optical signals, to microscopic structures in the finished material. The history is therefore not simply the arrival of instruments, but the reorganisation of what counts as a stable, transferable sign of metallurgical state.**
+> **Wedding's metallurgical practice can be followed as a redistribution of evidence across scales and carriers: from skilled observation of a live industrial process, to instrumentally decomposed optical signals, to microscopic structures in a deliberately prepared solid surface. The historical transition is therefore not simply the arrival of instruments, but the reorganisation of what counts as a stable, transferable sign of metallurgical state. Sorby's direct criticism of Wedding shows that even the microscopic object had to be manufactured correctly before it could support a claim.**
 
-This sequence also gives the larger Iron Library project a direct bridge from industrial travel notebooks to later metallographic specimen/image systems.
+This sequence gives the larger Iron Library project a direct bridge from industrial travel notebooks to later metallographic specimen/image systems.
