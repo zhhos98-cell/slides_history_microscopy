@@ -58,20 +58,37 @@ The combined `Gießereitechnik ... sowie Metallkunde und Werkstoffprüfung` grou
 
 This reinforces the present collection-first finding that the Library is not only a metallurgical science collection; it also preserves very large industrial-application and corporate-publication environments.
 
-### 3.4 Do not map 1996 shelf categories directly onto today's Library / EBA / GFA split
+## 4. The Library / EBA boundary itself has an institutional history
 
-The 1996 table includes `Archive und Firmennachlässe` (8.0%), maps/plans and manuscripts/files within the institutional collection description. Current research practice must still keep **Library / EBA / GFA** separate because provenance and present cataloguing systems differ. The 1996 percentages are a historical collection-structure control, not a replacement for current fonds architecture.
+The 1996 institutional description did not draw the present public-catalogue boundary in exactly the same way. Within its discussion of `Archivalien`, it explicitly named documentary/hand-file holdings relating to the **Gonzen iron mine**, the **Schweizerische Stahlhandelszentrale**, and the **Studiengesellschaft für die Nutzbarmachung schweizerischer Erzlagerstätten**.
 
-## 4. Relationship to the 2011 historical-book census
+In the current ANTON architecture these are separated into the Eisenbibliothek Archiv or its actor/fonds system:
+
+- Gonzen is now **EBA 2 — Eisenbergwerk Gonzen**;
+- the Studiengesellschaft is now **EBA 5**;
+- the **Schweizerische Stahlhandelszentrale SSZ (1970–1993)** appears in the EBA 6 association/archive environment; EBA 6/1 contains SSZ statutes and correspondence;
+- EBA 4's own custodial history states that additional Küderli material arrived in 1986 in connection with transfers relating to the SSZ and directs researchers to EBA 6.
+
+This does **not** justify collapsing Library and EBA today. It shows instead that the institution's own collection-management and cataloguing boundaries changed over time.
+
+### Current rule
+
+For present research and citation, treat **Library / EBA / GFA as distinct current evidence systems and respect their present provenance descriptions**.
+
+For institutional history, however, do not project today's catalogue interface backward as if these boundaries had always been identical. When using older collection statistics, first ask whether their denominators included archival holdings that are now described separately.
+
+This is especially important for the 1996 percentage table: `Archive und Firmennachlässe` (8.0%), maps/plans and manuscripts/files belong to the historical institutional collection morphology, but they should not be silently added to the current printed-Library corpus.
+
+## 5. Relationship to the 2011 historical-book census
 
 The later historical-holdings profile independently shows substantial pre-1900 depth in mining, geology/geognosy, mineralogy, iron/steel production, metallurgy and applications of iron/steel. The two sources are complementary:
 
-- **1996 percentages** show the morphology of the whole subject-classified collection at that date;
-- **historical-book counts** show the scale and nineteenth-century density of specific pre-1900 classes.
+- **1996 percentages** show the morphology of the whole institutional subject/collection structure at that date, including archival/material components then counted within the description;
+- **historical-book counts** show the scale and nineteenth-century density of specific pre-1900 book classes.
 
-Together they justify treating the nineteenth-century Library as a **systematic knowledge environment** rather than an author-by-author bibliography.
+Together they justify treating the nineteenth-century printed Library as a **systematic knowledge environment**, while also warning against treating older institutional statistics as if they map one-to-one onto today's Library/EBA/GFA catalogue boundaries.
 
-## 5. Implication for later topic testing — without selecting a topic now
+## 6. Implication for later topic testing — without selecting a topic now
 
 If a later research question involves microscopy, metallography, specimen preparation or visual/material testing, do **not** assume a dedicated historical `microscopy` shelf is required. The collection structure suggests that such practices may naturally cross at least:
 
@@ -83,13 +100,15 @@ If a later research question involves microscopy, metallography, specimen prepar
 
 That is a hypothesis to test **after** the current classification and serial runs are controlled, not a reason to keyword-select the holdings now.
 
-## 6. Claim ceiling
+## 7. Claim ceiling
 
 Secure:
 
 - the 1996 subject percentages above;
 - subject-based shelving was explicit at that time;
 - Metallkunde/Werkstoffprüfung and mineralogy/petrography were substantial existing collection blocks;
+- the 1996 institutional account counted archival/material holdings in a broader Iron Library collection description than today's printed-Library-only analytical category;
+- current ANTON separately places Gonzen in EBA 2 and the Studiengesellschaft in EBA 5, while SSZ records/actor links occur in the EBA 6 environment;
 - current official site still identifies metallurgy/mining/history of science/history of technology as major collecting priorities;
 - official 2024 classification PDFs exist.
 
@@ -97,13 +116,15 @@ Open:
 
 - exact 2024 class hierarchy and codes;
 - how closely current classes preserve the 1996 arrangement;
+- the exact administrative date/process by which every older archival component acquired its present EBA/GFA catalogue location;
 - exact nineteenth-century title counts inside the 7.5% and 4.3% historical groups;
 - whether microscopy/optics was separately classified or distributed across neighboring classes;
 - how many current holdings in these blocks entered through later donations/backfilling.
 
-## 7. Next action
+## 8. Next action
 
 1. Recover the two official 2024 classification PDFs through a cache/file route or obtain a staff/catalog export.
 2. Map current classes against the 1996 subject structure without assuming continuity.
 3. Join current class codes to the nineteenth-century serial/title census.
-4. Only then test specific historical questions against the shelf map.
+4. Preserve current Library/EBA/GFA provenance boundaries while recording older institutional boundary shifts explicitly.
+5. Only then test specific historical questions against the shelf map.
