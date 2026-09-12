@@ -15,23 +15,13 @@
   "principle": "Original PaddleOCR JSON is immutable. A page counts as transcribed only when actual readable wording is entered and checked against the PDF; routing labels and generic page descriptions do not count. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
   "sequential_substantive_checkpoint": {
     "shelfmark": "Mss24",
-    "through_pdf_page": 55,
-    "next_text_page": 56,
-    "note": "Mss23's textual sequence is complete. Mss24 PDFs 6-55 now contain substantive image-controlled transcriptions. The latest batch covers the Laacher See/Mayen volcanic route, millstone quarrying and sieve apparatus, Niedermendig underground workings, Ulmener Maar, the Daun-Gerolstein maar field and Pelm manganese occurrences. Resume with Mss24 PDF 56."
+    "through_pdf_page": 65,
+    "next_text_page": 66,
+    "note": "Mss23's textual sequence is complete. Mss24 PDFs 6-65 now contain substantive image-controlled transcriptions. The latest batch covers the Rhine/Siebengebirge route, Bayenthal machinery works, Sterkrade Gute Hoffnungshütte, Oberhausen mining and rolling, Ruhrort furnaces and the Oberhausen zinc/iron works. Resume with Mss24 PDF 66."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [],
     "Mss24": [
-      56,
-      57,
-      58,
-      59,
-      60,
-      61,
-      62,
-      63,
-      64,
-      65,
       66,
       67,
       68,
