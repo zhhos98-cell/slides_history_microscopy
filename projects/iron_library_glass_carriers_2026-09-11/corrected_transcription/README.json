@@ -14,25 +14,14 @@
   ],
   "principle": "Original PaddleOCR JSON is immutable. A page counts as transcribed only when actual readable wording is entered and checked against the PDF; routing labels and generic page descriptions do not count. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
   "sequential_substantive_checkpoint": {
-    "shelfmark": "Mss23",
-    "through_pdf_page": 210,
-    "next_shelfmark": "Mss24",
-    "next_text_page": 6,
-    "note": "Mss23's textual sequence is complete: PDFs 191-203 are substantively transcribed, PDF 206 is transcribed in full, PDFs 204-205 and 207-210 are confirmed blanks, and PDFs 211-223 are object/digitisation views. Resume with Mss24 PDF 6."
+    "shelfmark": "Mss24",
+    "through_pdf_page": 15,
+    "next_text_page": 16,
+    "note": "Mss23's textual sequence is complete. Mss24 PDFs 6-15 now contain substantive image-controlled transcriptions of the Thüringer-Wald/Franken itinerary, geological profiles, lithological legends, measured dips and fossil lists. Resume with Mss24 PDF 16."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [],
     "Mss24": [
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
       16,
       17,
       18,
