@@ -38,7 +38,7 @@ Longitudinal architecture remains:
 
 All 740 PDF pages now have stable rows in the separate JSONL ledgers; the PaddleOCR JSON remains immutable. Each row carries `status`, `confidence`, `transcription`, `secure_anchors`, `doubtful_readings`, OCR-noise flags and a page-level note. A row counts as substantively transcribed only when actual readable wording has been entered from the PDF. Generic structural descriptions are marked `IMAGE_REVIEWED_AWAITING_TRANSCRIPTION`, not as completed transcription.
 
-Sequential substantive work currently runs through **Mss 23 PDF 179**; even PDFs 168–176 and PDF 179 are blank, PDF 178 is the fully read title `Verschiedene Notizen`, and the next text page is PDF 180. The latest batch transcribes `Das Anfrischen der bleireichen Abtreibeproducte`, coke-fired reduction and 24-hour throughput, Frischschlacke recycling with 20% and 10% Schwefelkies, and `Das Raffiniren des Bleies`: the English flame furnace is given as 3 Ellen long by 3 1/2 Ellen wide, with 60-Ctr charges and a six-hour figure for Abstrichblei. It also corrects the former `Freiberger Notizen` label to the image-legible `Verschiedene Notizen`. The preceding batch covers `Die Bleisteinarbeit` and `Die Concentration oder das Spuren des Kupfersteines`, including the visible charge ratios and 50–55% Cu / 10–14% Pb product. Mss 24 and most of Mss 25 still await page-level substantive transcription. The out-of-sequence Mss 25 Bessemer cluster at PDFs 295–300 and the source heading at PDF 340 retain their separately verified readings. Any earlier statement that all 740 pages had been fully transcribed is superseded by this checkpoint.
+Sequential substantive work currently runs through **Mss 23 PDF 190**; PDF 183 is blank and the next text page is PDF 191. The latest batch transcribes the first eleven pages of `Verschiedene Notizen`: a Chlor-Aluminium-Natrium / Flußspath / Natrium recipe; Turner/Sanderson metallurgical criticisms; mining and roasting dimensions; C. W. Siemens regenerative-gas-furnace notes; paired furnace statistics; and rail-package fabrication, rolling time, crew, yield and labour-cost figures. The preceding batch covers `Das Anfrischen der bleireichen Abtreibeproducte`, Frischschlacke recycling and `Das Raffiniren des Bleies`, and corrects the former `Freiberger Notizen` label to the image-legible `Verschiedene Notizen`. Mss 24 and most of Mss 25 still await page-level substantive transcription. The out-of-sequence Mss 25 Bessemer cluster at PDFs 295–300 and the source heading at PDF 340 retain their separately verified readings. Any earlier statement that all 740 pages had been fully transcribed is superseded by this checkpoint.
 
 The first direct PDF-control batch covers Mss 25 PDFs 295–300. It rejects Paddle hallucination on PDF 297, secures `Mittwoch 25 Juli 1860`, `Sheffield White Lead Works`, `Barker & Sons`, `Bessemer's Stahlwerk`, the Cumberland pig-iron statement, `Der ganze Prozeß dauert cca 19-24 Minuten`, `Cammells Maschinen (Cyclops Works)`, and the transition to `Donnerstag 26 Juli. Leeds` / `Peter Fairbairn's Maschinenwerkstätte`. Continuous technical Kurrent remains selectively transcribed and ellipsed rather than guessed. The supplied `10598` JSON remains outside this correction ledger because the corresponding PDF was not supplied.
 
@@ -132,7 +132,7 @@ This is an evidence-carrier history rather than a generic influence story.
 
 ## 8. Immediate next work
 
-Continue substantive PDF-controlled transcription in physical order, beginning with **Mss 23 PDF 180**, and synchronize each completed batch. Do not count page labels, document-mode descriptions or OCR routing text as transcription.
+Continue substantive PDF-controlled transcription in physical order, beginning with **Mss 23 PDF 191**, and synchronize each completed batch. Do not count page labels, document-mode descriptions or OCR routing text as transcription.
 
 Highest-value question has changed from `when/where did Wedding meet Bessemer?` to:
 
@@ -168,6 +168,6 @@ Open:
 3. `WEDDING_MSS25_VISUAL_CONTROL_PASS4_2026-09-11.md`
 4. `WEDDING_MSS25_VISUAL_CONTROL_PASS3_2026-09-11.md`
 5. `WEDDING_1903_MEMOIR_CROSS_CONTROL_2026-09-11.md`
-6. Corrected-transcription ledger at Mss 23 PDF 180.
+6. Corrected-transcription ledger at Mss 23 PDF 191.
 
-**Immediate resume condition: continue at Mss 23 PDF 180, with PDF 179 confirmed blank.**
+**Immediate resume condition: continue at Mss 23 PDF 191.**
