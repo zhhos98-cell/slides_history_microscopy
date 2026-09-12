@@ -19,19 +19,32 @@ Therefore the historical checkpoint **Mss 24 through PDF 65** records workflow c
 ## Current workflow checkpoint
 
 - Mss 23 textual sequence processed through PDF 210; PDFs 211–223 are object/digitisation views.
-- Mss 24 processed through PDF 65 under the legacy mixed schema.
-- Next unprocessed sequential page: **Mss 24 PDF 66**.
-- Mss 24 PDFs 66–87 remain the next sequential text block.
+- Mss 24 has legacy mixed coverage through PDF 65, with PDFs 56–60 recalibrated into the corrected layered schema on 2026-09-12.
+- Mss 24 PDFs 66–70 have now been selectively transcribed under that layered schema after direct image control.
+- Next unprocessed sequential page: **Mss 24 PDF 71**.
+- Mss 24 PDFs 71–87 remain the next sequential text block.
 
-However: **do not simply continue PDF 66 using the old mixed semantics.** First calibrate the corrected schema on a small mixed batch (recommended: PDFs 56–60), then continue forward.
+The required five-page calibration is complete, and the same separation has been applied to PDFs 66–70. Continue PDF 71 onward with the layered fields used in those rows; do not restore the old mixed `transcription` semantics.
 
 ## Quality status by corpus
 
-### Mss 24 PDFs 1–65
+### Mss 24 PDFs 1–55 and 61–65
 
 Status: `LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`.
 
 These rows are often useful for locating pages, routes, firms, technical topics, diagrams, dates and numerical values. They are not safe for exact quotation, terminology history, linguistic analysis or wording-sensitive arguments without returning to the manuscript image.
+
+### Mss 24 PDFs 56–60
+
+Status: `CALIBRATED_LAYERED_SELECTIVE_TRANSCRIPTION`.
+
+These five rows separate literal manuscript wording, literal diagram labels, editorial visual description, normalized entities, uncertain readings and research summary. Their `secure_anchors` derive only from `literal_transcription` and `diagram_labels`. The calibration deliberately removes fluent reconstructions and English diagram-description terms from the source-text layer. Exact quotation still requires checking the cited phrase against the page image.
+
+### Mss 24 PDFs 66–70
+
+Status: `LAYERED_IMAGE_CONTROLLED_SELECTIVE_TRANSCRIPTION`.
+
+These rows continue the calibrated field separation. Legible headings, short fragments, numbers and diagram labels are retained; unresolved Kurrent and uncertain grammatical relations remain omitted or are recorded under `uncertain_readings`. Exact quotation still requires checking the cited phrase against the page image.
 
 ### Mss 23
 
@@ -68,7 +81,7 @@ The original PaddleOCR JSON remains immutable source material. Uncertain reading
 - `QUALITY_STATUS.json`: machine-readable quality override; automation should read this together with `README.json`.
 - `README.json`: machine-readable historical coverage checkpoint and remaining-page lists. Important: its current `through_pdf_page` value records coverage, not citation-ready quality.
 - `WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl`: Mss 23 ledger.
-- `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–65 carry the legacy mixed-extraction warning above.
+- `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–55 and 61–65 carry the legacy mixed-extraction warning above; PDFs 56–60 and 66–70 use the layered schema.
 - `WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl`: Mss 25 ledger.
 - `../CURRENT_PROGRESS.md`: project-level narrative checkpoint.
 

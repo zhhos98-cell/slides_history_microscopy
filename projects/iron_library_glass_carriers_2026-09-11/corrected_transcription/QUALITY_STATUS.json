@@ -9,8 +9,8 @@
       "note": "Generally conservative and fragment-preserving, but not diplomatic transcription. Exact quotation requires manuscript-image verification."
     },
     "Mss24": {
-      "through_pdf_page": 65,
-      "status": "LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP",
+      "through_pdf_page": 70,
+      "status": "PARTIAL_LAYERED_CALIBRATION_WITH_LEGACY_CLEANUP_REMAINING",
       "citation_ready": false,
       "problems": [
         "literal manuscript readings mixed with editorial reconstruction",
@@ -40,8 +40,11 @@
         "linguistic analysis",
         "wording-sensitive historical claims"
       ],
-      "next_unprocessed_page": 66,
-      "resume_instruction": "Do not continue the old mixed schema. First calibrate the corrected layered schema on a small mixed batch, recommended PDFs 56-60, then continue PDF 66 onward."
+      "calibrated_layered_pages": [56, 57, 58, 59, 60],
+      "sequential_layered_pages": [66, 67, 68, 69, 70],
+      "legacy_mixed_pages": "1-55, 61-65",
+      "next_unprocessed_page": 71,
+      "resume_instruction": "The PDFs 56-60 calibration and PDFs 66-70 sequential layered batch are complete. Continue PDF 71 onward using the same layered schema; do not restore the old mixed transcription semantics."
     },
     "Mss25": {
       "status": "MIXED_WORKSPACE_WITH_HIGHER_QUALITY_CONTROLLED_CLUSTERS",

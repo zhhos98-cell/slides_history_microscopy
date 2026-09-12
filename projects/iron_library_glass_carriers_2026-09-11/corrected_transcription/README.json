@@ -13,20 +13,22 @@
     "UNASSESSED"
   ],
   "principle": "Original PaddleOCR JSON is immutable. A page counts as transcribed only when actual readable wording is entered and checked against the PDF; routing labels and generic page descriptions do not count. Bracketed text is uncertain; ellipses mark omitted/untranscribed matter.",
+  "layered_schema_calibration": {
+    "shelfmark": "Mss24",
+    "pdf_pages": [56, 57, 58, 59, 60],
+    "status": "COMPLETE_2026-09-12",
+    "next_text_page": 71,
+    "rule": "Continue with literal_transcription, diagram_labels, editorial_description, normalized_entities, uncertain_readings and research_summary. secure_anchors may derive only from literal_transcription and diagram_labels."
+  },
   "sequential_substantive_checkpoint": {
     "shelfmark": "Mss24",
-    "through_pdf_page": 65,
-    "next_text_page": 66,
-    "note": "Mss23's textual sequence is complete. Mss24 PDFs 6-65 now contain substantive image-controlled transcriptions. The latest batch covers the Rhine/Siebengebirge route, Bayenthal machinery works, Sterkrade Gute Hoffnungshütte, Oberhausen mining and rolling, Ruhrort furnaces and the Oberhausen zinc/iron works. Resume with Mss24 PDF 66."
+    "through_pdf_page": 70,
+    "next_text_page": 71,
+    "note": "Mss23's textual sequence is complete. Mss24 PDFs 66-70 now use the layered image-controlled schema; earlier coverage through PDF 65 retains the quality distinctions recorded in QUALITY_STATUS.json. Resume with Mss24 PDF 71."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [],
     "Mss24": [
-      66,
-      67,
-      68,
-      69,
-      70,
       71,
       72,
       73,
