@@ -30,7 +30,7 @@ Ratings: `VERY HIGH / HIGH / MEDIUM / LOW / OPEN`.
 | EBA | EBA 2 Gonzen geology/petrography | HIGH | HIGH | LOW for c.1850–85 | HIGH within later scientific subcollections | HIGH for later scientific material | Excellent later control, mostly twentieth-century scientific density |
 | EBA | EBA 7 assorted estates | LOW/MEDIUM | LOW as a whole | LOW | LOW as one container; mini-fonds vary | OPEN | Decompose only if a named mini-fonds becomes structurally relevant |
 | GFA | GFA 1 native-GF pre-1885 historical material | VERY HIGH container / MEDIUM early cluster | LOW–MEDIUM overall | MEDIUM | LOW–MEDIUM because GFA 1 is retrospective Altbestand | MIXED | Real product/works/family clusters, but not a continuous corporate registry |
-| GFA | Native GF product/prospectus/price-list cluster c.1865–83 | MEDIUM | MEDIUM | HIGH in late 1860s–early 1880s | MEDIUM–HIGH within company/product activity | HIGH for many listed carriers; exact original/copy status still item-dependent | Now securely more than isolated items: GFA 1/162 (1865–79) is an explicit early prospectus/price-list/poster dossier with two 1868–76 product-catalogue volumes, a 1868–76 Temperguss poster and a 1870–79 pipe-fitting/utensil volume; adjacent 1872/1878 price lists, 1881 Stahlguss recommendation and 1883 exhibition list extend the regime |
+| GFA | Native GF product / market-document regime c.1865–83 | MEDIUM, exact item count OPEN | MEDIUM | HIGH in late 1860s–early 1880s | MEDIUM–HIGH within company/product activity | HIGH for many explicitly listed carriers; exact original/copy status still item-dependent | Secure cross-carrier regime rather than isolated items: `GFA 1/162.1` first fittings prospectus (1865–67); two product-catalogue volumes `.2/.3` (c.1868–76); Temperguss poster `.110` (1868–76); fittings/utensils volume `.116` (1870–79); `GFA 1/74` goods catalogue/poster (c.1870–90); 1872/1878 price material, 1873 factory regulation, 1881 Stahlguss recommendation and 1883 exhibition list. `GFA 32/217` adds 19 cast-steel/malleable-cast 3D objects dated 1865–95. Do **not** infer total child count from suffixes `.110/.116`; public-catalog scale remains OPEN |
 | GFA | Rauschenbach operational/company records | HIGH | HIGH | HIGH c.1868–85 | HIGH | HIGH/MIXED pending dossier-level carrier audit | Strongest pre-1890 industrial-company block currently identified: correspondence/contracts from 1868/69, employee register from 1871, sickness-fund series from 1872 (10 vols), correspondence 1876–79, crisis/move dossier from 1878, plus workshop images 1869 and 1880–85 |
 | GFA | Rauschenbach GFA 51 formal governance | MEDIUM (1 lm) | HIGH | LOW before 1892 | VERY HIGH | HIGH | Do not back-project 1865 fonds date; Generalversammlung/Verwaltungsrat begin 1892 |
 | GFA | Traisen Blaubuch content | SMALL/MEDIUM (4 vols) | VERY HIGH as continuous content | HIGH 1872–85 | HIGH in subject/content | LOW/MIXED: catalogue explicitly records later copies | Historically valuable continuous sequence but not proof of surviving original notebooks |
@@ -47,7 +47,7 @@ Ratings: `VERY HIGH / HIGH / MEDIUM / LOW / OPEN`.
 - EBA 3 Haffter = VERY HIGH contemporary correspondence/accounting/trade series.
 - EBA 4 begins in 1854.
 - EBA 1 contains a substantial Gotthardbahn-labelled engineering-map sequence, but the broad `ca.1850–1900` envelope must not be read as evidence that the plans themselves begin in the 1850s; exact dating remains open.
-- Native GF = outgoing book, 1856 furnace plan, and emerging product documentation, but not a regular corporate registry.
+- Native GF = outgoing book, original 1856 furnace plan, and by 1865–67 the first fittings prospectus; this is the beginning of a visible product-document regime, not yet a regular corporate registry.
 - Rauschenbach = technical/industrial activity visible; the clearly controlled operational-company run becomes much stronger from 1868 onward.
 - Gonzen = some genuine historical documents (e.g. 1850 Erzschlitter diary, 1856/1859 dossiers), but not a dense continuing archive in this period.
 
@@ -57,7 +57,7 @@ Ratings: `VERY HIGH / HIGH / MEDIUM / LOW / OPEN`.
 - Haffter tails off.
 - EBA 4 correspondence remains active.
 - EBA 1 Gotthardbahn visual/engineering block is likely principally a later-nineteenth-century cluster; exact item dates still need control.
-- Native GF product/prospectus/price-list regime becomes unmistakable: GFA 1/162 includes product catalogues and illustrated/product material c.1868–79, with adjacent 1872 price material and a 1873 factory regulation.
+- Native GF product regime becomes unmistakable: product catalogues, Temperguss poster, pipe/fittings catalogue, a broader goods catalogue/poster, 1872 price material and a 1873 factory regulation survive across several carriers.
 - Rauschenbach gains correspondence/contracts from 1868/69, an employee register from 1871 and a ten-volume sickness-fund series from 1872.
 - Traisen Blaubuch content begins 1872, but surviving GFA volumes are documented as copies / tied to copying activity.
 
@@ -67,7 +67,7 @@ Ratings: `VERY HIGH / HIGH / MEDIUM / LOW / OPEN`.
 - EBA 4 is the cleanest non-GF archive fit: profile albums, price lists, cashbook/sales-journal onset.
 - EBA 2 Gonzen contributes 1877/78 historical/mining publications, but still not a large contemporary operational series.
 - EBA 1 is a real late-nineteenth-century visual-engineering corpus; a Martin Wanner Gotthardbahn overview map is securely dated 1880 and EBA 1/92 to 1882.
-- Native GF product/exhibition documentation continues through the 1878 price list, 1881 Stahlguss recommendation and 1883 Landesausstellung list.
+- Native GF product/exhibition documentation continues through the 1878 price list, 1881 Stahlguss recommendation and 1883 Landesausstellung list; the object collection also preserves a group of 19 cast-steel/malleable-cast pieces broadly dated 1865–95.
 - Rauschenbach is the strongest operational-company archive, with 1876–79 correspondence, 1878 crisis/move material and contemporary workshop imagery.
 - Traisen adds original 1880 tempering-furnace plans alongside copied continuous Blaubuch content.
 - Formal GF corporate governance still absent; Rauschenbach AG governance also does not begin until 1892.
@@ -105,7 +105,7 @@ This distinction is now as important as fonds provenance and date range.
 
 **Tier B: strong but narrower / mixed carrier history**
 
-- Native GF c.1865–83 product/document regime: promoted within Tier B because it is now demonstrably a multi-carrier cluster, not a handful of isolated items.
+- Native GF c.1865–83 product/market-document regime: firmly Tier B as a demonstrable cross-carrier sequence; exact catalogue size remains OPEN.
 - EBA 1 Gotthardbahn / engineering maps: retain pending exact date/originality control; likely late-19c rather than genuinely 1850s.
 - Traisen, especially original 1880 plans; Blaubuch sequence requires copy-history control.
 
@@ -118,19 +118,24 @@ This distinction is now as important as fonds provenance and date range.
 - Personnel registers when early dates derive from later-created volumes.
 - Post-1900 photo/glass systems as later controls.
 
+## Stop rules already reached
+
+- **EBA 1/35–59:** public catalogue supplies the same broad `Gotthardbahn / ca.1850–1900` envelope without finer creator/date/type data for the 25-record run. Freeze as `assembled map sequence; thematic seriality HIGH; exact dating/provenance/originality OPEN` unless staff/item-level metadata adds information.
+- **GFA 1/162 scale:** do not infer child count from suffixes `.110/.116`. The currently exposed subrecords are enough to establish a regime but not to calculate a total item count. Freeze scale as OPEN until the parent listing/export is recoverable.
+
 ## Next census actions
 
 1. **Library serial export/problem:** recover a complete nineteenth-century serial title/run list. Current official evidence confirms the scale and exemplary runs but not the complete 123-title nineteenth-century list.
-2. **EBA 1:** stop treating `ca.1850–1900` as useful date density by itself. Seek exact dates/plan types for EBA 1/35–59; if catalogue detail cannot resolve them, freeze the claim at `25-record assembled Gotthardbahn cluster; exact item dating OPEN`.
-3. **Rauschenbach:** the operational sequence is now structurally secure; next audit should distinguish whether GFA 1/780, /781, /806, /809, /2288 and /786 preserve contemporary carriers continuously or mix later retrospective additions.
-4. **Native GF:** quantify the internal extent of GFA 1/162 beyond the already controlled subrecords and classify each surviving carrier as original/copy/reproduction where possible.
+2. **Current Library classification:** recover the two official 2024 Systematik PDFs or staff/catalog export; use the 1996 subject percentages only as a historical structural control.
+3. **Rauschenbach:** the operational sequence is structurally secure; next audit should distinguish whether GFA 1/780, /781, /806, /809, /2288 and /786 preserve contemporary carriers continuously or mix later retrospective additions.
+4. **Native GF:** stop brute-force child-number searching unless a parent export becomes available. Next useful question is carrier originality/provenance of the already controlled product regime, not more examples.
 5. **Traisen:** determine location/fate of the original Blaubuch and separate copy history from surviving original technical plans.
 6. **GFA 8:** no longer treat as a likely broad pre-1890 core; inspect only the demonstrably early Mühlental/social-housing/Traisen subclasses if a later question requires them.
 7. **Prior SiR:** code projects against the same five axes only at the collection-system level; do not infer topic overlap from titles alone.
 
 ## Latest controlled catalogue anchors
 
-- Native GF early product regime: `GFA 1/162` (1865–79); `GFA 1/162.2` and `.3` product catalogues (c.1868–76); `GFA 1/162.110` Temperguss poster (1868–76); `GFA 1/162.116` pipe/gas/water fittings and utensils (1870–79); adjacent `GFA 1/145.55` (1872), `/145.117` (1878), `/145.112` (1881), `/141.114` (1883).
+- Native GF early product regime: `GFA 1/162` (1865–79); `.1` first fittings prospectus (1865–67); `.2/.3` product catalogues (c.1868–76); `.110` Temperguss poster (1868–76); `.116` pipe/gas/water fittings and utensils (1870–79); `GFA 1/74` goods catalogue/poster (c.1870–90); adjacent `GFA 1/145.55` (1872), `/160.101` (1873), `/145.117` (1878), `/145.112` (1881), `/141.114` (1883); `GFA 32/217` = 19 cast-steel/malleable-cast objects (1865–95).
 - Rauschenbach operational anchors: `GFA 1/780` (1868–1905), `/781` (1869–1921), `/806` (1871–1930), `/809` (1872–1930; 10 vols), `/2288` (contains correspondence 1876–79), `/786` (1878–1934), plus contemporary images `GFA 1/141.161` (1869), `GFA 16/12114` (1880–85), `GFA 1/141.162` (1880).
 - Personnel chronology warning: `GFA 1/1502` includes registers created 1897+ or 1900+ that explicitly carry entry dates back to 1855/1872.
 - EBA 1 Gotthardbahn anchors: EBA 1/35–59 are 25 consecutive Gotthardbahn-labelled records with broad `ca.1850–1900` envelopes; EBA 1/55 and /81 are confirmed single plans; EBA 1/1 is Martin Wanner's digitised `Übersichtskarte der Gotthardbahn` (1880); EBA 1/92 is an 1882 dossier. The Gotthardbahn-Gesellschaft was founded in 1871, so the broad catalogue envelope is not evidence of 1850s production.
