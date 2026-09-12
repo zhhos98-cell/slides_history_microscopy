@@ -1,168 +1,284 @@
 # Evidence-regime map — what activities generated the surviving collections?
 
 **Date:** 2026-09-12  
-**Status:** ACTIVE CROSS-SYSTEM STRUCTURAL MAP  
-**Rule:** collection first; question second; onsite necessity third. Do not organise the holdings only by present catalogue system or by a preselected topic. Also ask **what historical or collecting activity generated each evidence block**.
+**Status:** ACTIVE CROSS-SYSTEM STRUCTURAL MAP — RECONCILED  
+**Rule:** collection first; question second; onsite necessity third. Present catalogue systems are retrieval structures, not historical analytical units. Distinguish record-generating activities, carrier morphology, scale and onsite value.
 
-## 0. Why add an evidence-regime axis
+## 0. Current correction
 
-The current Library / EBA / GFA / GFKS / GFD architecture is essential for retrieval and present-day provenance, but it can obscure a second structure.
+Earlier versions overstated Rauschenbach as a large pre-1885 operational archive and called c.1868–72 the strongest conjunction without separating **regime diversity** from **archival density**.
 
-Large nineteenth-century holdings were produced by different activities:
+Current override:
 
-- specialist-library collecting and classification;
-- technical/scientific serial publication;
-- iron trade and commercial accounting;
-- industrial-company operations and labour administration;
-- product marketing / price communication;
-- exhibition/catalogue production;
-- travel and observation;
-- map/plan making;
-- later art/visual collecting;
-- later archival reconstruction and digital reference work.
+- **c.1858–67 = strongest proven archival density**;
+- **c.1868–72 = highest regime diversity, not highest proven density**;
+- **c.1877–85 = strongest product/profile/price/order convergence**;
+- Rauschenbach = **conditional industrial-company comparator**, not a Tier-A large block unless internal finding aids prove substantial separable pre-1885 files.
 
-Two records from different present systems may therefore belong to the same historical evidence regime, while two records in the same current fonds may have been generated under very different regimes.
+A new historically specific hypothesis has also emerged from the Küderli sequence:
+
+> merchant records may preserve practical work of making iron products comparable across changing supply geographies, measurement systems and profile series, including the 1879–81 German Normalprofil moment.
+
+See `SUPPLY_GEOGRAPHY_METROLOGY_AND_PROFILE_COMMENSURABILITY_2026-09-12.md`.
+
+---
 
 ## 1. Evidence-regime matrix
 
-| Evidence regime | Current collection blocks | Main surviving carriers | Strongest period in present map | Historical / collecting activity represented | Main source-critical issue | Onsite tendency |
+| Evidence regime | Current blocks | Main carriers | Strongest period | Record-generating activity | Source-critical issue | Onsite tendency |
 |---|---|---|---|---|---|---|
-| **Specialist printed knowledge system** | Library subject shelves | books, manuals, treatises, atlases, reference works | entire nineteenth century | retrospective specialist-Library acquisition/classification of technical and scientific knowledge | present shelf structure is not a nineteenth-century institutional reading room; current classification hierarchy still partly unrecovered | MEDIUM |
-| **Technical/scientific serial communication** | Library periodicals | journal volumes, series | entire nineteenth century; increasing specialization later | recurring publication, professional/scientific communication | publication run != local holding run != completeness; later donations can backfill runs | MEDIUM–HIGH |
-| **Materials/testing / geoscience shelf environment** | Library historical Metallkunde/Werkstoffprüfung/foundry + geology/mineralogy/petrography blocks | books, manuals, serials, plates | nineteenth century, exact current distribution OPEN | specialist collection of material/geoscience knowledge | 1996 morphology is historical control, not current class code map | MEDIUM |
-| **Iron-trade correspondence / commercial calculation** | EBA 3 Haffter | correspondence files, copybooks, calculations, ledgers, price books, debtor books | especially c.1835–67 | daily iron-trade communication, calculation, credit, transport and pricing | current arrangement is later; fonds described as originally unordered | VERY HIGH |
-| **Iron-trade product/order/accounting system** | EBA 4 Küderli/Bär | correspondence, price lists, profile albums, cashbooks, sales journals, inventories | 1854–85 and beyond | ordering, product-profile communication, pricing and commercial bookkeeping | current historical collection is multi-accession (1980/1986/2006); original arrangement/completeness OPEN | VERY HIGH |
-| **Industrial operational/labour administration** | Rauschenbach in GFA 1 | employee register, sickness-fund volumes, correspondence/contracts, crisis/relocation dossiers | late 1860s–1880s | factory/company operations, labour/social administration, contracting | strongest seriality is in bound registers; present dossiers can combine widely separated dates | VERY HIGH |
-| **Native GF product / market communication** | GFA 1 product-document regime + GFA 32 objects | prospectuses, product catalogues, posters, price lists, factory rules, exhibition lists, 3D products | c.1865–83 | product definition, market communication, pricing, rules, exhibition representation | retrospective GFA 1 context; mixed carriers and mixed digitisation | HIGH |
-| **Printed company/product grey literature across firms** | Library product catalogues and company publications | product catalogues, price books, company brochures, anniversary publications | broad nineteenth–twentieth century; exact c.1850–85 density OPEN | specialist-Library retrospective preservation of ephemeral commercial print from many firms | not corporate provenance; many items rare/possibly unique, but present collection assembled retrospectively | MEDIUM–HIGH |
-| **World-exhibition information system** | Library world-exhibition block + selected GFA/GFKS exhibition material | exhibition catalogues, reports, lists, images/objects | nineteenth century; Library census = 95 publications | event-based classification/display of firms, materials, machines and products | thematic/event coherence, not one provenance; remote availability title-specific | MEDIUM |
-| **Travel / observation / knowledge-transfer print** | Library research-travel reports | printed travel reports, scientific/technical journeys | cross-century; 123 titles total, nineteenth-century subset OPEN | travel-based observation and circulation of technical/scientific information | genre coherence rather than provenance; printed remote substitutes often exist | MEDIUM |
-| **Digitised manuscript travel/observation** | Library/e-codices Wedding Mss 23–25 and other selected MSS | manuscript notebooks, drawings, routes, diagrams | Wedding cluster 1856–62 | contemporaneous handwritten observation | full facsimile remotely available; transcription quality separately controlled | LOW for source-access necessity |
-| **Engineering map/plan production** | EBA 1 Gotthardbahn/mining-engineering maps; selected GFA 8 plans | maps, plans, dossiers | principally later nineteenth century; exact EBA 1 item dates partly OPEN | surveying, route/engineering planning, spatial technical representation | EBA 1 is an assembled map collection; broad catalogue envelopes are not exact creation dates | HIGH only if physical map sequence/materiality matters |
-| **Industrial technical planning** | Traisen plans; selected native-GF/Mühlental plans | technical drawings/plans | 1870s–80s nodes | design/construction of works/equipment | original vs later copy must be controlled item by item | HIGH but narrow |
-| **Visual representation / art collecting** | GFKS; EBA 8 | lithographs, prints, maps, paintings, framed works | broad; real c.1850–85 layer | representation of places/industry plus later collecting | collection coherence can be later/private; many source images already digitised | LOW–MEDIUM unless physical image carrier is the object |
-| **Later systematic corporate governance** | GFA 2 etc. | minutes, board records, annual reports | 1896+ | joint-stock corporate administration | outside central pre-1885 window; marks strong archival caesura | HIGH but later |
-| **Later carrier-organized image archives** | GFA 16/25 and related photo systems | glass plates, negatives, prints, cards | mainly twentieth century | systematic corporate photographic production and later carrier-based archival reorganisation | historical image identity and physical carrier were later separated in archival systems | MEDIUM; later control |
-| **Modern digital reference/documentation** | GFD | digital image/reference files | 2022+ creation | contemporary documentation and illustration/discovery work | represented historical date != source-carrier creation date; many external-source reproductions | VERY LOW |
+| **Specialist printed knowledge system** | Library subject shelves | books, manuals, treatises, atlases, reference works | entire 19c | later specialist-Library acquisition/classification of technical knowledge | current shelf structure is not a 19c institutional reading room | MEDIUM |
+| **Technical/scientific serial communication** | Library periodicals | journal/series volumes | entire 19c | recurring professional/scientific communication | publication run != local holding run; backfilling possible | MEDIUM–HIGH |
+| **Materials/testing/geoscience shelf environment** | Library Metallkunde/Werkstoffprüfung/foundry + geology/mineralogy/petrography | books, manuals, serials, plates | 19c; current distribution partly OPEN | specialist collection of materials/geoscience knowledge | historical morphology != current class-code map | MEDIUM |
+| **Transregional iron-trade correspondence** | EBA 3 Haffter | incoming correspondence files, copybooks | especially 1835–60 | supplier/customer communication across a large European trade geography | present filing/description later; 555 `Akten` are not 555 letters | VERY HIGH |
+| **Iron-trade conversion / landed-cost calculation** | EBA 3 Haffter | `Calculationen`, commissions, price books, freight accounts, debtor/stock books | especially to 1867 | conversion of purchase price into actionable commercial cost through insurance, transport, customs, commission and credit | cross-book linkage must be reconstructed; not every series is equally dense late | VERY HIGH |
+| **Commercial correspondence / supply routing** | EBA 4 Küderli/Bär | correspondence | 1858–72 | supplier communication and ordering across a changing France/Germany supply geography | `EBA 4/7 = 1 Akte` gives no physical scale; fonds history is later description | VERY HIGH candidate |
+| **Product-profile / price / order system** | EBA 4 Küderli/Bär | profile albums, price lists, cashbooks, sales journals | **1877–85** | visual/dimensional product identification, pricing, ordering, accounting | multi-accession fonds; original internal order/completeness OPEN | VERY HIGH |
+| **Industrial labour registration** | Rauschenbach / GFA 1 | employee register + sickness-fund books | from 1871/72 | serial registration of workers/social insurance | secure serial core = 1 + 10 bound vols; broader company archive scale OPEN | HIGH / conditional O1 |
+| **Industrial-company mixed dossier layer** | Rauschenbach / GFA 1 | correspondence/contracts/crisis/property thematic dossiers | envelopes begin 1850s–70s | company history/operations represented through later archival dossiers | one modern file can span decades and mix unrelated periods | CONDITIONAL |
+| **Native GF product/market communication** | GFA 1 + selected objects | prospectuses, catalogues, posters, price lists, exhibition docs, products | c.1865–83 | producer-side product definition/marketing/pricing | retrospective GFA 1 mediation; mixed digitisation | HIGH but selective |
+| **Company/product grey literature across firms** | Library | catalogues, price books, brochures | broad 19c–20c; exact 1850–85 density OPEN | later systematic preservation of ephemeral market print | not corporate provenance; rarity != onsite necessity | MEDIUM–HIGH |
+| **World-exhibition information system** | Library + selected GFA/GFKS | catalogues, reports, lists, images/objects | 19c | event-based classification/display of firms/materials/machines | thematic coherence, not one provenance | MEDIUM |
+| **Travel/observation print** | Library | travel reports | cross-century | observation and technical/scientific circulation | genre coherence; many remote substitutes | MEDIUM |
+| **Digitised manuscript travel/observation** | e-codices / Wedding Mss 23–25 | notebooks, drawings, routes, diagrams | 1856–62 | contemporary travel/works observation | full facsimile remotely available | LOW source-access necessity |
+| **Engineering map/plan production** | EBA 1; selected GFA 8 | maps/plans | mainly later 19c | surveying/engineering planning | assembled collections; envelope dates != item dates | HIGH only if sequence/materiality matters |
+| **Industrial technical planning** | Traisen; selected GF plans | technical drawings | 1870s–80s nodes | plant/equipment design | original vs later copy item control required | HIGH but narrow |
+| **Visual representation / later collecting** | GFKS; EBA 8 | prints, maps, paintings, albums | broad | representation + later collection formation | many images digitised; physical value question-dependent | LOW–MEDIUM |
+| **Later corporate governance** | GFA 2 etc. | minutes, annual reports, board records | 1896+ | formal joint-stock administration | outside core window; useful caesura/control | HIGH but later |
+| **Later carrier-organized image archives** | GFA 16/25 etc. | glass plates, negatives, prints/cards | mainly 20c | systematic corporate photography + later carrier reorganisation | image identity/carrier may have been split archivally | MEDIUM |
+| **Modern digital reference** | GFD | digital files | 2022+ | contemporary documentation/discovery | represented historical date != carrier creation | VERY LOW |
 
-## 2. What this map changes
+---
 
-### 2.1 Present catalogue system is not the historical analytical unit
+## 2. Haffter correction: one archive, at least two evidence regimes
 
-Example:
+The official fonds history now gives a stronger morphology than the catalogue-count shorthand alone:
 
-- EBA 3 and EBA 4 both sit in EBA, but one is dominated by an old iron-trade business archive with later arrangement while the other is a multi-accession historical company collection.
-- Rauschenbach and native GF product records both sit in GFA, but one records industrial operations/labour while the other is a market/product communication regime.
-- Library product catalogues and GFA product records may concern similar products but were preserved through entirely different logics.
+- 15 lm;
+- 1953 donation = **185 volumes + 42 brochures + 7,900 business letters**;
+- official description refers to **over 7,000 original incoming letters** arranged by firms and indexed by person/place;
+- ten `Calculationen` volumes contain purchase prices plus **insurance, transport and customs** costs;
+- stock books, commission/forwarding arrangements, debtors and carrier accounts survive.
 
-Therefore no final project should use `Library`, `EBA` or `GFA` themselves as if they were historical actors.
+Official catalogue:
+- https://archives.georgfischer.com/objects/show?collection=0&context=tectonical&fonds=0&index=3&parent=2&perPage=50&recordgroup=0&sortAsc=1&sortField=position
 
-### 2.2 The collection-driven overlap windows now have substantive morphology
+Therefore Haffter should not be reduced to `correspondence`. It preserves both:
 
-#### c.1868–72
+1. **communication regime** — letters/copybooks;
+2. **conversion/calculation regime** — turning geographically heterogeneous purchases into landed cost, price, commission and accounts.
 
-Coexisting regimes include:
+This makes Haffter particularly valuable for a project on **practical comparability** rather than generic business correspondence.
 
-- specialist printed knowledge / serial communication (Library);
-- Haffter iron-trade calculation/correspondence tail;
-- Küderli commercial correspondence;
-- native GF product/market print;
-- Rauschenbach operational correspondence and employee/labour registration;
-- selected visual/product objects.
+---
 
-This is not merely `many sources in the same years`; it is **multiple record-generating regimes observing/ordering industrial material activity simultaneously**.
+## 3. Küderli correction: explicit supply-geography change + carrier change
 
-#### c.1877–85
+The official EBA 4 fonds biography states:
 
-Coexisting regimes include:
+- firm founded as `Schinz & Baer` in Zürich in 1852;
+- **from 1870 its supply centre shifted from France to Germany**;
+- Basel consequently became more important as an import gateway.
 
-- Library printed/serial system;
-- Küderli profile/price/cash/sales records;
-- Rauschenbach operational and labour records;
-- native GF product/exhibition documents;
-- Traisen technical plans / copied Blaubuch content;
-- world-exhibition publications;
-- GFKS/EBA visual/map supplements.
+Official catalogue:
+- https://archives.georgfischer.com/objects/EBA%204
 
-Again, the strength lies in cross-regime comparison, not source quantity alone.
+Surviving sequence:
 
-## 3. Large blocks versus attractive single objects
+- 1854 Zürich iron-dealers' convention;
+- correspondence 1858–72;
+- profile albums 1877–85;
+- price lists 1878–80;
+- cashbooks 1884+;
+- sales journals 1885+.
 
-This map enforces a stop rule.
+This does **not** prove a linear evolution from letters to standard forms. It does create an unusually testable conjunction:
+
+> **supply geography changes inside the correspondence window; profile/price carriers appear in the following decade.**
+
+The archival question is whether product equivalence/orderability is performed differently across those carriers.
+
+---
+
+## 4. Product commensurability as a cross-regime operation
+
+A possible analytical operation now cuts across Haffter, Küderli and Library print without treating them as one genealogy.
+
+### Haffter
+
+`SUPPLIER / PLACE → PRODUCT TERM → UNIT → PURCHASE PRICE → INSURANCE / FREIGHT / CUSTOMS → LANDED COST → QUOTATION / COMMISSION`
+
+### Küderli correspondence
+
+`SUPPLIER / COUNTRY / ROUTE → PRODUCT TERM → DIMENSION / UNIT → PRICE / FREIGHT → SUBSTITUTE / COMPARISON → ORDER`
+
+### Küderli profile/price/sales carriers
+
+`PROFILE SHAPE / CODE / DIMENSIONS / LINEAR WEIGHT → PRICE-LIST ENTRY → CASH/SALES ENTRY → CUSTOMER / QUANTITY`
+
+### Printed technical environment
+
+`profile family → dimensional/weight table → engineering use → normal-profile language`.
+
+The term **commensurability** should be retained only if the sources actually reveal operations that align names, shapes, dimensions, units, weights, prices, suppliers or routes.
+
+Do not use it as a free-standing theoretical synonym for `standardization`.
+
+---
+
+## 5. External chronological controls for the profile hypothesis
+
+### Swiss measurement regime
+
+Mid-century federal unification already fixed traditional Swiss units to decimal metric values:
+
+- foot = 0.3 m;
+- pound = 500 g;
+- Zentner = 50 kg.
+
+Full metric legal replacement follows in **1877**.
+
+Therefore `metrication` is a two-stage problem. Do not assume merchants were suddenly introduced to metric equivalence in 1877.
+
+Controls:
+- https://www.zentraleserien.zh.ch/api/html/data/OS/OS_10__S__245-252__t.xml
+- https://www.e-rara.ch/download/pdf/30512436.pdf
+- https://dls.staatsarchiv.bs.ch/records/629870
+
+### Profile iron before national Normalprofile
+
+A 1869 *Dinglers Polytechnisches Journal* notice on French Zores iron already organizes rolled sections through cross-sectional form, millimetre dimensions and kilograms per running metre.
+
+- https://dingler.bbaw.de/articles/ar192070.html
+
+This proves dimensional/profile-based commodity description before the German association-level normal-profile system.
+
+### German Normalprofile inside the Küderli album span
+
+Historical engineering references place the establishment of German Normalprofile in **1879–80** and the first Heinzerling/Intze `Deutsches Normalprofilbuch` in **1881**.
+
+- https://technik.de-academic.com/16508/Normalprofile
+- https://de.wikisource.org/wiki/MKL1888%3AWalzeisen
+
+Because `EBA 4/14 Profileisenalbum` spans **1877–85**, the three volumes bracket this moment directly.
+
+The onsite test is therefore not `did standardization happen?` but:
+
+- what profile series existed before 1879;
+- whether terminology/order/dimension systems change around 1879–81;
+- whether `Normalprofil` language appears;
+- whether French and German supplier series differ;
+- whether maker-specific/non-normal profiles persist;
+- whether price/sales records reuse album identifiers.
+
+---
+
+## 6. Recalibrated chronological conjunctions
+
+### Conjunction A1 — c.1858–60: direct correspondence overlap
+
+- Library printed/serial environment;
+- Haffter dense incoming correspondence;
+- Küderli early correspondence.
+
+Use to compare transregional product/price/unit language before Küderli's documented 1870 supply shift.
+
+### Conjunction A2 — c.1865–67: strongest conversion/calculation overlap
+
+- Haffter `Calculationen`, commissions, price and freight series in their final dense years;
+- Küderli correspondence;
+- emerging native-GF product communication;
+- Library print/serials.
+
+This is currently one of the strongest windows for observing how correspondence is converted into calculation, landed cost, quotation and order.
+
+### Bridge — c.1868–72: highest regime diversity
+
+- Haffter tail;
+- Küderli correspondence, including the documented 1870 France→Germany supply shift;
+- native-GF product documents;
+- Rauschenbach bound labour-registration node beginning 1871/72;
+- selected technical/visual supplements.
+
+Do **not** call this the highest archival-density window.
+
+### Conjunction B — c.1877–85: product/profile/price/order convergence
+
+- Küderli profile albums / price lists / cash-sales onset;
+- German Normalprofil initiative 1879–81 as external comparator;
+- Library technical/product print;
+- native-GF product/exhibition records;
+- selected Traisen technical plans;
+- Rauschenbach optional, not required.
+
+This is the cleanest late pre-AG conjunction and the strongest current site-specific test for product commensurability.
+
+---
+
+## 7. Large blocks versus attractive single objects
 
 Promote a source family because it is:
 
-- a large or internally serial block;
-- chronologically dense;
-- generated by a legible historical/collecting activity;
+- large or internally serial;
+- date-dense;
+- generated by a legible activity;
 - source-critically controllable;
-- and, for residency design, materially enhanced by onsite access.
+- and materially enhanced by onsite access.
 
-Do **not** promote it simply because one object is spectacular or matches a current hypothesis.
+Do not promote an object merely because it is spectacular.
 
-Examples:
+Thus:
 
-- three early microphotographic plates remain interesting objects, but they do not outrank Haffter/Küderli/Rauschenbach as collection blocks unless their larger collection context is demonstrated;
-- Wedding Mss 23–25 are unusually rich documents, but their complete remote facsimiles mean they function primarily as a pre-visit corpus rather than an onsite anchor;
-- a digitised GFKS industrial image can be analytically useful without increasing residency necessity.
+- the three original Berlin microphotographic plates remain a high-density material coda, not the main large block;
+- Wedding Mss 23–25 remain pre-visit because complete facsimiles exist;
+- GFKS images can be analytically useful without increasing travel necessity;
+- Rauschenbach remains conditional until internal scale is known.
 
-## 4. Current strongest evidence-regime conjunctions
+---
 
-### Conjunction A — print + trade + operations, c.1868–72
+## 8. Research-question admission rule
 
-- Library printed/serial environment;
-- Haffter trade/archive tail;
-- Küderli correspondence;
-- native GF product/market documents;
-- Rauschenbach operational/labour records.
+A final question should ideally:
 
-This is currently the most diverse early conjunction.
+1. require at least **two evidence regimes**;
+2. depend materially on Haffter and/or Küderli as Tier-O1 candidates;
+3. use remote sources for pre-resolution;
+4. fit a 2–3 week residence through explicit sampling/stopping rules;
+5. arise from carrier operations rather than a named-actor genealogy;
+6. survive if Rauschenbach is dropped;
+7. distinguish **comparison/commensurability**, **measurement**, **normalization**, **pricing** and **archival form** instead of collapsing them into one word `standardization`.
 
-### Conjunction B — product forms + commercial ordering + operations, c.1877–85
+## 9. Current strongest question family
 
-- Library printed/serial environment;
-- Küderli profile albums / price lists / cash and sales books;
-- native GF product/exhibition regime;
-- Rauschenbach operational records;
-- Traisen technical material;
-- world-exhibition print and visual/map supplements.
+Current high-value formulation:
 
-This is currently the cleanest late pre-AG conjunction.
+> **How did Swiss iron merchants make rolled-iron products comparable across changing supply geographies, measurement systems and profile series between the late 1850s and mid-1880s?**
 
-Neither conjunction is yet a final historical question.
+Carrier formulation:
 
-## 5. Research-question admission rule later
+> **What work did correspondence, calculation books, profile albums, price lists and sales journals perform in translating heterogeneous iron products into orderable and comparable commodities?**
 
-A final proposal question should ideally:
+Sharper K2 test:
 
-1. require at least **two different evidence regimes**, not merely many items from one modern catalogue bucket;
-2. depend materially on at least one Tier-O1 onsite corpus;
-3. use remotely available sources for pre-resolution rather than as the main reason to travel;
-4. remain narrow enough for a 2–3 week residence;
-5. emerge from the blocks above rather than forcing the blocks to fit a named actor/topic.
+> **What changed in a merchant's product records before, during and after the German Normalprofil initiative of 1879–81?**
 
-## 6. Current next move
+The last is analytically sharp but remains dependent on physical inspection of `EBA 4/14`; do not yet make it the entire proposal.
 
-The public-web limit is now reached for three Library questions:
+## 10. Next move
 
-- exact current classification hierarchy;
-- complete nineteenth-century serial local holding runs/gaps;
-- exact current identities/mapping of separately-listed manuscripts/estates.
+Public-web collection scale is already saturated. Productive pre-staff work should now be:
 
-These should move to an existing-export request in the NOT-SENT staff enquiry.
-
-Meanwhile, further collection-first work should concentrate on **internal morphology of already-strong blocks**, especially:
-
-- physical retrieval units / internal finding aids for Haffter and Küderli;
-- contemporary-register versus later-dossier composition in Rauschenbach;
-- rarity / remote substitutability of Library company/product grey literature and world-exhibition material;
-- exact c.1850–85 density inside current GFKS integral map/print collections only if visual evidence becomes structurally necessary.
+- literature/novelty control around iron trade, product catalogues, profile standardisation, metrology and commensuration;
+- build a cross-carrier coding schema from the operations above;
+- use Library-export request to check for contemporary German/French mill profile books and the 1881 Normalprofilbuch;
+- retain causal uncertainty around Küderli's 1870 supply shift and the Franco-Prussian War;
+- do not manufacture internal dates/content for the three Profileisenalbum volumes without physical/finding-aid evidence.
 
 ## Governing companion files
 
 - `PINNED_APPLICATION_RESUME.md`
-- `HOLDINGS_HEATMAP_2026-09-12.md`
-- `TIER_A_CARRIER_PROVENANCE_AUDIT_2026-09-12.md`
-- `LIBRARY_LARGE_BLOCK_MORPHOLOGY_ADDENDUM_2026-09-12.md`
 - `CROSS_SYSTEM_OVERLAP_WINDOW_2026-09-12.md`
-- `ONSITE_VALUE_MAP_2026-09-12.md`
+- `ONSITE_CORPUS_GEOMETRY_AND_RESEARCH_UNITS_2026-09-12.md`
+- `SUPPLY_GEOGRAPHY_METROLOGY_AND_PROFILE_COMMENSURABILITY_2026-09-12.md`
+- `RAUSCHENBACH_SCALE_RETRIEVAL_CORRECTION_2026-09-12.md`
+- `LIBRARY_LARGE_BLOCK_MORPHOLOGY_ADDENDUM_2026-09-12.md`
