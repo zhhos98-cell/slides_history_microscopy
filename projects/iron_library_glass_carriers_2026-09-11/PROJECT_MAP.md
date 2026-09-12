@@ -9,11 +9,26 @@ Start here for the current Iron Library residency / holdings argument:
 1. `PINNED_APPLICATION_RESUME.md` — short authoritative application resume point.
 2. `COLLECTION_FIRST_HOLDINGS_CENSUS_2026-09-12.md` — current collection-first holdings census; keep Library / EBA / GFA distinct.
 3. `HOLDINGS_TIME_MAP_2026-09-12.md` — active time-aware map of where Library / EBA / GFA actually thicken, plus a prior-SiR overlay. Use this before inferring that a fonds start date means continuous nineteenth-century density.
-4. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier methodological pin for early materials microscopy; useful framing, but subordinate to collection-first census/time map when they differ.
-5. `FELLOWSHIP_HOLDINGS_AUDIT_2026-09-11.md`, `RESIDENCY_TRIAGE_2026-09-11.md`, `SOURCE_MAP.md` — supporting holdings and source audits.
-6. `CURRENT_PROGRESS.md` — broad project progress narrative on `main`; do not use it as the sole authority for corrected-transcription progress.
+4. `HOLDINGS_TIME_MAP_DENSITY_ADDENDUM_2026-09-12.md` — adds the contemporaneity/originality axis; records Rauschenbach governance correction, Traisen copies vs original plans, later personnel registers carrying earlier data, and the strengthened native-GF product/document cluster.
+5. `HOLDINGS_HEATMAP_2026-09-12.md` — five-axis comparison of large holdings blocks: scale / seriality / date density / provenance coherence / contemporaneity-originality.
+6. `FELLOWSHIP_EARLY_MATERIALS_MICROSCOPY_LIBRARY_ARCHIVE_PIN_2026-09-12.md` — earlier methodological pin for early materials microscopy; useful framing, but subordinate to collection-first census/time map/heat map when they differ.
+7. `FELLOWSHIP_HOLDINGS_AUDIT_2026-09-11.md`, `RESIDENCY_TRIAGE_2026-09-11.md`, `SOURCE_MAP.md` — supporting holdings and source audits.
+8. `CURRENT_PROGRESS.md` — broad project progress narrative on `main`; do not use it as the sole authority for corrected-transcription progress.
 
-Current research rule: **collection first; question second**. Treat the holdings as three evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**. For chronology, use the time map rather than top-level fonds start dates alone.
+Current research rule: **collection first; question second**. Treat the holdings as three evidence systems: **Library / EBA (Eisenbibliothek Archiv) / GFA (GF Corporate Archives)**. For chronology, use the time map rather than top-level fonds start dates alone. For archival strength, also distinguish the date of the historical content from the creation date/originality of the surviving carrier.
+
+### Holdings originality rule
+
+A source dated to an early historical period is not necessarily a contemporary surviving record. Classify surviving material where possible as:
+
+- `ORIGINAL_CONTEMPORARY`
+- `CONTEMPORARY_BUT_RETROSPECTIVELY_FILED`
+- `LATER_COPY_OF_EARLIER_RECORD`
+- `LATER_REGISTER_WITH_EARLIER_DATA`
+- `RETROSPECTIVE_HISTORICAL_DOSSIER`
+- `ORIGINALITY_OPEN`
+
+Do not rank blocks by envelope dates alone.
 
 ## 2. Wedding manuscript correction — branch `ironlibrary-json-correction`
 
@@ -76,7 +91,7 @@ Files beginning `FISCHER_*` form a separate research cluster on travel, observat
 - A dated/pass file is supporting history unless a pin explicitly promotes it.
 - Do not infer recency or quality from filename/status label alone; use the pinned resume and branch HEAD.
 - For manuscript work, keep **coverage**, **literal transcription**, **editorial visual description**, and **research interpretation** as separate layers.
-- For holdings work, keep **Library / EBA / GFA** separate and distinguish **fonds envelope dates** from **actual series-level date density**.
+- For holdings work, keep **Library / EBA / GFA** separate and distinguish **fonds envelope dates**, **actual series-level date density**, and **surviving-carrier originality/contemporaneity**.
 - Avoid moving or deleting legacy files solely for cosmetic cleanup because existing notes may cite their paths.
 
-Last organized / quality-audited / holdings-time-map updated: 2026-09-12.
+Last organized / quality-audited / holdings-heat-map updated: 2026-09-12.
