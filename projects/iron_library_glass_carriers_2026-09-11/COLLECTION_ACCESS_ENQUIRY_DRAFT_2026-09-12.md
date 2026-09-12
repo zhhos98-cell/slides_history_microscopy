@@ -2,19 +2,24 @@
 
 **Date:** 2026-09-12  
 **Status:** DRAFT ONLY — DO NOT SEND WITHOUT REVIEW  
-**Purpose:** resolve access/digitisation unknowns for the strongest collection-first residency candidates before selecting the final research question.
+**Purpose:** resolve access/digitisation unknowns and map legacy/institution-level collection counts into the current Library / EBA / GFA / GFKS architecture before selecting a final research question.
 
 ## Why this enquiry exists
 
-The current holdings census identifies three archival blocks with both strong c.1850–1885 structure and potentially high onsite value:
+The current holdings census identifies three archival blocks with strong c.1850–1885 structure and potentially high onsite value:
 
 1. **EBA 3 — Hafftersche Eisenhandlung, Weinfelden**;
 2. **EBA 4 — Küderli & Co. (vormals Bär & Co.), Zürich**;
 3. **Rauschenbach operational/company records in GFA 1**.
 
-A fourth unresolved **Library-level holdings layer** has now emerged from the current Swiss ISIL record: **66 manuscripts and 3 estates (`Nachlässe`)**, whereas e-codices exposes only 14 selected Eisenbibliothek manuscripts. The complete identities/date spans/catalogue mapping/digitisation status of that manuscript/estate layer are not reproducibly recoverable through the current public web interfaces.
+A second catalogue-architecture problem has emerged. The current Swiss ISIL record for Eisenbibliothek `CH-000728-7` lists under institutional archival holdings:
 
-Public catalogue metadata is rich, but the historical core of the three archival blocks is not publicly exposed as source images in the same way as explicitly digitised photographs/objects. The remaining uncertainty is not historical relevance but **access architecture and total collection morphology**.
+- **66 manuscripts**;
+- **3 estates (`Nachlässe`)**;
+- **c.300 graphic sheets**;
+- **80 maps of canton Schaffhausen**.
+
+But current ANTON separately exposes **EBA / GFA / GFKS / GFD**, and historical Schaffhausen maps are visibly represented in GFKS while graphic/art material also exists in EBA 8. EBA 8 itself records transfers from GF Kunstsammlung. Therefore the ISIL figures cannot safely be treated as four additional, independent Library collections until their current catalogue mapping is clarified.
 
 The enquiry should remain collection-level. Do not pitch Wedding, Martens, Sorby, microscopy, or a fixed thesis yet.
 
@@ -26,11 +31,11 @@ Do not send yet.
 
 ## Draft message
 
-**Subject:** Research access enquiry: nineteenth-century archive series and Iron Library manuscript holdings
+**Subject:** Research access enquiry: nineteenth-century archive series and current special-collection mapping
 
 Dear Ms Eggimann / Iron Library and Corporate Archives team,
 
-I am currently assessing the Iron Library and archive holdings for a possible Scholar in Residence application focused on nineteenth-century iron and materials history. Before defining the final research question, I am trying to understand which substantial archival and manuscript series would require on-site consultation and which may already be available through digitisation or remote reproduction.
+I am currently assessing the Iron Library and archive holdings for a possible Scholar in Residence application focused broadly on nineteenth-century iron and materials history. Before defining the final research question, I am trying to understand which substantial series would require on-site consultation and how some institution-level special-collection figures map onto the current catalogue structure.
 
 I would be very grateful for clarification on the following groups of records:
 
@@ -46,9 +51,9 @@ In particular EBA 4/7 (Korrespondenz 1858–1872), EBA 4/14 (Profileisenalbum 18
 
 In particular GFA 1/780 and /781 (Korrespondenz/Verträge), GFA 1/806 (Mitarbeiterverzeichnisse), GFA 1/809 (Krankenkasse, 10 volumes), GFA 1/2288 (Korrespondenz 1876–1879) and GFA 1/786 (Krise/Umzug from 1878).
 
-**4. Iron Library manuscript / estate holdings**
+**4. Iron Library / special-collection catalogue mapping**
 
-The current Swiss ISIL record lists 66 manuscripts and 3 estates (`Nachlässe`) for the Eisenbibliothek, while 14 selected manuscripts are currently represented on e-codices. If readily available, a simple list or catalogue export of the manuscript/estate holdings would be extremely useful for understanding the collection before choosing the final project.
+The current Swiss ISIL record lists 66 manuscripts, 3 estates (`Nachlässe`), approximately 300 graphic sheets and 80 maps of the canton of Schaffhausen for the Eisenbibliothek. The present ANTON catalogue, meanwhile, distinguishes EBA, GFA, GFKS and GFD, and some historical maps/graphic material are catalogued there. I would therefore be grateful for clarification on how the ISIL figures correspond to the current catalogue systems.
 
 Could you please let me know:
 
@@ -59,11 +64,12 @@ Could you please let me know:
 5. whether the catalogue extent corresponds closely to the physical retrieval units (for example, whether EBA 3/24 is requested as one larger unit or as individual correspondence files);
 6. whether there are daily or advance-order limits that would affect planning a two- to three-week research stay;
 7. whether the archive staff would recommend any additional nineteenth-century series closely associated with these fonds that are not obvious from the public catalogue hierarchy;
-8. whether the ISIL figure of **66 manuscripts / 3 estates** corresponds entirely to current Iron Library/IRONCAT holdings, or whether some of these records are now represented under EBA/ANTON or another current catalogue boundary;
-9. whether a current list/export of those manuscript and estate records (shelfmark/name, approximate date, and catalogue location) already exists and could be shared;
-10. whether there are nineteenth-century manuscripts or estates outside the 14 e-codices manuscripts that are already digitised internally or available by remote reproduction.
+8. how the ISIL figures of **66 manuscripts / 3 estates / c.300 graphic sheets / 80 Schaffhausen maps** map onto today's **Iron Library / EBA / GFKS (and, if relevant, other ANTON systems)**;
+9. whether a current list/export of the **66 manuscript records and 3 estates** (shelfmark/name, approximate date, current catalogue location and digitisation status) already exists and could be shared;
+10. whether the `c.300 graphic sheets / 80 Schaffhausen maps` are now wholly or partly represented in **EBA 8, GFKS 2/3, or another current collection**;
+11. whether there are nineteenth-century manuscripts or estates outside the 14 e-codices manuscripts that are already digitised internally or available by remote reproduction.
 
-At this stage I am deliberately keeping the historical question open and assessing the structure and accessibility of the collections first. Any guidance on the archival organisation or on the most efficient way to plan consultation would therefore be extremely helpful.
+At this stage I am deliberately keeping the historical question open and assessing the structure and accessibility of the collections first. Any guidance on the current archival organisation or on the most efficient way to plan consultation would therefore be extremely helpful.
 
 With best wishes,
 
@@ -77,23 +83,33 @@ If extensive internal scans already exist, onsite necessity for that block decre
 
 ### Q3: EBA regulatory scope
 
-Public service pages group library/archive use together, but the currently linked formal regulations are titled for the Corporate Archives of Georg Fischer Ltd. Do not assume the GFA `onsite only / no sending for consultation` rule applies verbatim to EBA without this clarification.
+Public service pages group library/archive use together, but the currently linked formal regulations are titled for the Corporate Archives of Georg Fischer Ltd. Do not assume the GFA `onsite only / no sending for consultation` rule applies verbatim to EBA without clarification.
 
 ### Q4: consultability
 
-Avoid building a proposal around a formally closed or otherwise unavailable block.
+Avoid building a proposal around a formally closed or unavailable block.
 
 ### Q5–6: retrieval unit and daily logistics
 
-Essential for deciding whether a large corpus such as Haffter is feasible in a two- to three-week residency. A nominal 555-file correspondence series may behave very differently depending on whether the retrieval unit is one box/series, many individual folders, or bound volumes.
+Essential for deciding whether Haffter/Rauschenbach-scale series are feasible in a two- to three-week residency.
 
 ### Q7: staff knowledge
 
-This is the only deliberately open-ended archival question. It asks for collection-structure guidance, not for a topic recommendation.
+Open-ended only at the level of archival structure, not topic recommendation.
 
-### Q8–10: total manuscript / estate layer
+### Q8–11: current system mapping
 
-These questions resolve a newly identified catalogue-scale gap. The public Swiss ISIL record lists 66 manuscripts and 3 estates, while the public e-codices collection exposes 14 selected manuscripts. We need the current catalogue mapping and date distribution before deciding whether the Library contains a substantial non-e-codices nineteenth-century manuscript/estate corpus.
+This is now a **catalogue-boundary problem**, not simply a digitisation-count problem.
+
+Evidence already shows boundaries have moved:
+
+- current ANTON root separates EBA / GFA / GFKS / GFD;
+- GFKS 2 contains Schaffhausen maps;
+- EBA 8 contains graphic/art material;
+- EBA 8 records transfers from GF Kunstsammlung in 2023;
+- an EBA 8 object can retain a former GF Kunstsammlung registration while marked as Eisenbibliothek property.
+
+Therefore the ISIL institutional totals should be mapped into current systems before being used to claim a new corpus or onsite need.
 
 A simple existing export/list is preferable to asking staff to conduct item-level research.
 
@@ -102,19 +118,22 @@ A simple existing export/list is preferable to asking staff to conduct item-leve
 - no claim that the archival material is definitely undigitised;
 - no claim that EBA is formally subject to GFA rules;
 - no claim that exactly `52 manuscripts` are undigitised;
-- no assumption that all 66 ISIL manuscripts / 3 estates currently belong to the same catalogue layer;
+- no assumption that `66 / 3 / 300 / 80` are additive holdings outside current EBA/GFKS;
 - no final project title;
 - no Wedding/Martens/Sorby narrative;
-- no request for staff to perform extensive historical research before the application;
-- no broad list of individual items beyond the structural blocks above.
+- no request for extensive staff historical research;
+- no broad item list beyond the structural blocks above.
 
 ## Current evidence behind the enquiry
 
-- EBA 3 catalogue: 15 lm; public media section empty; 555 correspondence files in EBA 3/24 plus long accounting/book series.
-- EBA 4: 4 lm; historical core catalogued by series; no public `Digitalisiert` marker on the controlled pre-1885 series.
-- Rauschenbach: operational textual series have no public `Digitalisiert` marker in the controlled actor listing, while selected photographs in the same listing are explicitly digitised.
-- Swiss ISIL `CH-000728-7`: institution-level `Archivbestände` = 66 manuscripts, 3 estates, c.300 graphic sheets, 80 maps of canton Schaffhausen.
-- e-codices Eisenbibliothek collection: 14 selected digitised manuscripts, not a consecutive shelfmark series.
-- GFA regulations: corporate archive source consultation on premises; archival material not loaned/sent for consultation; reproduction subject to Archivist decision.
-- Iron Library services: onsite self-scanning, photography and staff consultation available.
-- Annual reports: archive staff also answer substantial numbers of remote enquiries, so source-access rules must be distinguished from remote reference support.
+- EBA 3: 15 lm; public media section empty; 555 correspondence files plus long accounting/book series.
+- EBA 4: 4 lm; historical core catalogued by series; no public `Digitalisiert` marker on controlled pre-1885 series.
+- Rauschenbach: operational textual series not publicly exposed as digitised objects in the same way as selected photographs.
+- Swiss ISIL `CH-000728-7`: 66 manuscripts, 3 estates, c.300 graphic sheets, 80 Schaffhausen maps.
+- e-codices: 14 selected Eisenbibliothek manuscripts.
+- ANTON current root: GFA / EBA / GFKS / GFD.
+- GFKS: current Schaffhausen maps/views/physical visual material.
+- EBA 8: graphic/art collection with documented cross-boundary transfers.
+- GFA regulations: source consultation onsite; no loan/send for consultation; reproduction discretionary.
+- Iron Library services: onsite self-scanning, photography and staff consultation.
+- Annual reports: substantial remote archive enquiries also occur.
