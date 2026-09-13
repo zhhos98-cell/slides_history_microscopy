@@ -1,8 +1,8 @@
-# Bolton lending register capture schema v1
+# Bolton lending register capture schema v2
 
 Updated: 2026-09-13
 Target: `FZ/14/3/1 — Register of Slides Lent Out, May 1882–Jul 1887`
-Status: FIELDWORK CAPTURE PLAN
+Status: FIELDWORK CAPTURE PLAN / REGISTER-ORIGIN TEST ADDED
 
 ## Purpose
 
@@ -16,21 +16,92 @@ A summer 1881 contemporary report says that:
 - the Society slide collection was being re-arranged after substantial additions;
 - the late John Thomas Redmayne's whole private collection had been placed in the President's and Secretary's hands for selection;
 - six dozen Redmayne slides and forty-eight diatom slides were added;
-- Society slides were already being lent to members.
+- Society slides were **already being lent to members**.
 
-The dedicated lending register then begins in **May 1882**, less than a year after this published description of re-arrangement and lending.
+The surviving dedicated lending register begins in **May 1882**.
 
-This sequence is suggestive but not self-explanatory:
+Therefore:
 
-`1881 documented lending/re-arrangement`
-→ `May 1882 dedicated loan register begins`.
+**May 1882 is the start of the surviving register, not the demonstrated start of slide lending.**
 
-Do **not** claim that the 1881 re-arrangement caused the register to be created unless minutes or the register itself say so.
+Do not collapse these two chronologies.
 
-High-priority field check:
-- photograph all opening leaves before the first transaction;
-- look for rules, headings, resolutions, custodian names, numbering instructions, retrospective notes or a stated reason/date for beginning the register;
-- check `FZ/14/1/2` around spring 1882 for a committee decision authorising or reorganising slide lending/recording.
+## Session-boundary hypothesis — test, do not assert
+
+The Society's 1880 annual report states that its year began on **1 October**; lectures and ordinary work occupied members until **May**, after which the Society `virtually closes` until September. The report describes this summer recess as a period in which members pursued microscopical research away from regular meetings.
+
+The fact that the surviving lending register begins in **May 1882** therefore creates a bounded institutional hypothesis:
+
+`existing lending by 1881`
+→ `annual session reaches May boundary`
+→ `surviving formal loan register begins May 1882`.
+
+Possible interpretation to test:
+formal recordkeeping may have become especially useful when slides entered member custody across or beyond the meeting season.
+
+This is **not yet evidence** that the register was created for the summer recess. No public report located in the bounded search states why the register began, appoints a slide librarian/curator, or announces a new lending rule in May 1882.
+
+The exact reason must be sought in `FZ/14/1/2` and the register's opening leaves.
+
+## Register-origin field test
+
+Before transcribing ordinary transactions, capture the administrative birth of the volume.
+
+### Opening-material fields
+
+Record separately:
+- `cover_title_raw`;
+- `inside_title_raw`;
+- `first_written_date`;
+- `first_transaction_date`;
+- `opening_rule_or_instruction_raw`;
+- `custodian_name_or_signature`;
+- `secretary_name_or_signature`;
+- `prefilled_column_headings`;
+- `historical_page_or_folio_numbering`;
+- `slide_numbers_prefilled_or_entered_per_transaction`;
+- `evidence_of_backfill`;
+- `earlier_date_than_register_start_present`;
+- `opening_batch_size`;
+- `multiple_loans_entered_same_day`;
+- `cross-reference_to_minutes_rules_or_catalogue`;
+- `later_annotation_on_opening_page`.
+
+### First 20-entry diagnostic pass
+
+Before coding the whole register, inspect the first c.20 entries and ask:
+- do they begin as a sudden batch in May 1882 or as ordinary staggered loans?
+- are loans already outstanding when the register opens?
+- are old loans copied retrospectively into the new book?
+- does one officer make all entries?
+- are borrowers given cabinet/slide numbers rather than subjects?
+- are return columns filled contemporaneously or retrospectively?
+- does the register begin near the Society's May session closure?
+
+A batch/backfill pattern would suggest formalisation of a pre-existing practice; it would still not establish the cause without minute evidence.
+
+## Minute-book date window for register origin
+
+Highest-priority bounded minute search:
+
+**April–June 1882 in `FZ/14/1/2`.**
+
+Search for:
+- slides;
+- cabinet;
+- lending / loan / lent;
+- register / book / list;
+- President / Secretary;
+- custodian / librarian / curator;
+- rules / regulations;
+- numbering / catalogue / index;
+- summer / recess;
+- return / overdue / detention;
+- responsibility for Society property.
+
+If no creation resolution is found, widen only to **Jan–Sep 1882**, not the whole minute book.
+
+A negative result is meaningful: the register may have been an administrative practice adopted without a formal minuted resolution.
 
 ## Image protocol
 
@@ -108,10 +179,13 @@ After transcription, derive separately rather than writing inference into the ra
 - repeat borrowers;
 - median/mean loan duration where return dates exist;
 - seasonal pattern;
+- **distribution around May–September recess versus Oct–May meeting season**;
 - non-return/delay markers;
 - condition/damage interventions;
 - evidence of relay or borrower-to-borrower transfer;
 - cabinet series disproportionately circulated.
+
+Seasonality must be treated descriptively first. Do not infer that summer loans were home loans or caused the register's creation without source language.
 
 ## Identity and custody guards
 
@@ -121,6 +195,8 @@ After transcription, derive separately rather than writing inference into the ra
 - Crossed-out entries should be recorded as material marks before interpreting cancellation/return.
 - Do not infer postal transport merely because the borrower lived outside Bolton; movement route requires evidence.
 - Do not infer home use from the register alone unless wording or contemporary reports support it for the relevant transaction.
+- Do not call May 1882 the start of lending; lending is already directly documented in 1881.
+- Do not call May 1882 a recess-management reform unless minutes/register wording supports it.
 
 ## Crosswalk sequence
 
@@ -128,7 +204,7 @@ After transcription, derive separately rather than writing inference into the ra
 Use `FZ/14/1/2` for 1882–87.
 
 First date hook:
-- **spring 1882**, immediately before/around the May opening of the dedicated lending register.
+- **Apr–Jun 1882**, immediately before/around the May opening of the dedicated lending register.
 
 Then follow diagnostic dates/names from the register, especially:
 - unusually long or missing returns;
@@ -159,10 +235,11 @@ Stronger chain if evidence exists:
 
 Priority order for a one-day Bolton visit:
 1. photograph `FZ/14/3/1` completely, including opening/closing leaves;
-2. photograph/scan the relevant 1880–82 transition in `FZ/14/1/1–2` around Redmayne display, selection/re-arrangement, lending implementation and the May 1882 register start;
-3. photograph diagnostic 1882–87 minute entries identified from the lending register;
-4. inspect `FZ/14/2/1` for membership crosswalks and only around diagnostic financial dates/cabinet headings;
-5. photograph `FZ/14/3/2` title, organization, numbering structure, and entries corresponding to diagnostic loan-register items.
+2. inspect/photograph **Apr–Jun 1882** in `FZ/14/1/2` for the register's administrative origin;
+3. photograph the 1880–81 Redmayne/display/selection/re-arrangement transition in `FZ/14/1/1–2`;
+4. photograph diagnostic 1882–87 minute entries identified from the lending register;
+5. inspect `FZ/14/2/1` for membership crosswalks and only around diagnostic financial dates/cabinet headings;
+6. photograph `FZ/14/3/2` title, organization, numbering structure, and entries corresponding to diagnostic loan-register items.
 
 Do not spend the day reading the minute books linearly if the complete lending register has not yet been captured.
 
@@ -173,5 +250,7 @@ If the register records actual named borrowing and return but no damage, the cas
 If numbers/subjects can be cross-walked into the 1898 catalogue, it additionally shows continuity between repeated temporary circulation and later formal collection order.
 
 If minutes show an 1881–82 decision to formalise lending or create the register, the case becomes stronger again: it would document the conversion of an existing lending practice into an explicit administrative recording system.
+
+If no such minuted decision exists, do not weaken the case artificially: the register itself remains evidence of administrative formalisation no later than May 1882, while the motive/mechanism of its creation remains unresolved.
 
 Damage/repair would strengthen the maintenance argument but is no longer required for Bolton to be central.
