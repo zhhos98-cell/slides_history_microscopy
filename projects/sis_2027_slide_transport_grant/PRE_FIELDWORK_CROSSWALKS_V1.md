@@ -1,17 +1,24 @@
-# SIS 2027 — pre-fieldwork crosswalks v1
+# SIS 2027 — pre-fieldwork crosswalks v2
 
 Updated: 2026-09-13
-Status: BOUNDED PRE-FIELDWORK CLOSURE / NO SAME-COPY OVERCLAIM
+Status: BOUNDED PRE-FIELDWORK CLOSURE / HISTORICAL DONATION DIRECT / SAME-COPY IDENTITY OPEN
 
 ## 1. Redmayne: 1877 RMS donation → current Oxford RMS Collection object
 
-### Historical route
+### Historical end — direct primary control
 
-A later source reconstruction cites *The Monthly Microscopical Journal* 17 (1877), p. 222 for a Royal Microscopical Society donation recorded as `Micro-photographs from the Diatomaceae, By J. Redmayne`.
+The controlled project record for *Monthly Microscopical Journal* vol. 17 identifies the Royal Microscopical Society meeting at King's College on **7 March 1877**, H. C. Sorby in the chair. On printed p. **222**, under `Donations to the Library and Cabinet since February 7, 1877`, the donation list includes:
 
-This primary-page route remains to be checked directly before publication. The current web search did not recover the original p. 222 image/text in a form that can be independently controlled, so the historical donation wording is not yet promoted beyond a strong bibliographic route.
+`Micro-photographs from the Diatomaceæ. By J. Redmayne` — donor/source: **Author**.
 
-### Current Oxford object
+This closes the historical institutional event at primary-source level:
+
+`J. Redmayne → Royal Microscopical Society → same-title album → 7 Mar 1877`.
+
+Guard:
+the heading is `Library and Cabinet`; it does not by itself specify the narrower storage category ultimately assigned to the album.
+
+### Current Oxford end — direct official control
 
 The History of Science Museum's current library catalogue directly records:
 
@@ -29,38 +36,43 @@ This is direct current institutional evidence, not a legacy secondary transcript
 
 The bridge is now:
 
-`1877 bibliographic donation route`
+`7 Mar 1877 RMS donation from author`
 → same author/title/work family
-→ current Oxford object with matching 65-print physical architecture
+→ current Oxford same-title object with matching 65-print architecture
 → explicit RMS Collection custody
 → current identifier `[1978-665]`.
 
-Assessment: **VERY HIGH-PROBABILITY SAME-COPY CANDIDATE, NOT PHYSICAL-IDENTITY CLOSED**.
+Assessment: **TWO-ENDED PRIMARY/OFFICIAL CLOSURE; SAME-PHYSICAL-COPY IDENTITY STILL OPEN**.
 
 Why physical identity remains open:
 - Redmayne distributed more than one copy;
-- the current catalogue does not itself state `donated 1877`;
-- no accession/provenance ledger entry has yet been recovered tying the 1877 meeting donation to `[1978-665]`.
+- the current catalogue does not itself state `donated 7 Mar 1877`;
+- no old RMS shelfmark/accession/provenance record has yet been recovered tying the meeting donation unambiguously to `[1978-665]`.
 
-### Oxford archive test
+### Oxford archive/object test
 
-Use Box 103 / library-catalogue records / relevant RMS internal minutes to ask:
+Use **7 March 1877** as the exact event hook.
 
-1. Is the 1877 donation entered internally with Redmayne/title wording?
-2. Is a shelfmark, old library number, or later transfer identifier recorded?
-3. Can that historical address be followed to current `[1978-665]`?
-4. Does the E. W. Burgess 1882 manuscript description of the diatoms survive in an identifiable RMS/HSM manuscript or catalogue layer?
+Check:
+1. Box 31 / internal RMS meeting or library records for the Redmayne donation;
+2. Box 103 and any historical library/donation catalogue for an old shelfmark or internal address;
+3. physical `[1978-665]` for RMS bookplate, shelfmark, accession notation, donor inscription or transfer mark;
+4. whether an old RMS address translates directly into current `[1978-665]`;
+5. the legacy lead to E. W. Burgess's 1882 manuscript description of the diatoms.
 
 Success condition:
-A historical RMS address or accession statement that unambiguously converges on `[1978-665]`.
+a historical RMS address, ownership mark or accession statement that unambiguously converges on `[1978-665]`.
 
-Until then, write `current RMS Collection copy` rather than `the 1877 donated copy`.
+Until then, write:
+`the RMS recorded Redmayne's same-title donation in 1877, and a matching volume survives in Oxford as part of the RMS Collection`
+—not—
+`the 1877 donated copy survives as [1978-665]`.
 
 ## 2. Bolton: 1881 re-arrangement → 1882–87 lending register → 1898 catalogue
 
-### 1881 printed layer
+### 1881 printed layer — direct scanned-volume control
 
-The original 1881 *Microscopical News and Northern Microscopist* text, as indexed from the scanned volume, directly states that:
+The 1881 *Microscopical News and Northern Microscopist* directly states that:
 
 - the Society's valuable slide collection was being **re-arranged** owing to recent additions;
 - Mrs Redmayne gave **six dozen choice slides** from the late Dr Redmayne's collection;
@@ -77,7 +89,7 @@ This directly closes the public institutional sequence:
 → `collection re-arrangement`
 → `member lending`.
 
-### Archive layer
+### Archive layer — exact finding-aid control
 
 Archive-supplied FZ/14 finding aid gives:
 
@@ -87,11 +99,11 @@ Archive-supplied FZ/14 finding aid gives:
 - `FZ/14/3/1` — **Register of Slides Lent Out, May 1882–Jul 1887**;
 - `FZ/14/3/2` — *Catalogue of Slides, Journals, and Books belonging to the Society*, 1898.
 
-This makes the crucial transaction-level crosswalk possible in principle.
+This makes the transaction-level crosswalk possible in principle.
 
 ### 1898 catalogue status
 
-No publicly accessible digitised copy of `FZ/14/3/2` was located in the bounded web search. Search-engine indexing returns the catalogue's archival existence but not its item-level contents or numbering.
+No publicly accessible digitised copy of `FZ/14/3/2` was located in the bounded web search. Public indexing establishes the item but does not expose item-level contents or numbering.
 
 Therefore the desired pre-fieldwork crosswalk:
 
@@ -101,7 +113,7 @@ Therefore the desired pre-fieldwork crosswalk:
 
 **cannot be completed remotely from controlled public sources at present**.
 
-This is a genuine archival task, not a missing search pass.
+This is a genuine archival task, not a missing broad-search pass.
 
 ### Fieldwork test
 
@@ -114,11 +126,12 @@ Build a transaction table keyed by:
 - borrower;
 - date out;
 - return date;
-- repeated loan count;
-- notes on absence/damage/replacement;
+- duration;
+- repeated borrowing;
+- absence/damage/replacement annotation;
 - corresponding 1898 catalogue address.
 
-Then use `FZ/14/1/2` only for anomalous cases and policy/committee decisions, rather than reading it sequentially.
+Then use `FZ/14/1/2` only for diagnostic anomalies and policy/committee decisions rather than reading it sequentially.
 
 ### Minimum useful outcome
 
@@ -132,18 +145,16 @@ A slide disappears, is damaged, renumbered, remounted or replaced yet re-enters 
 
 ## 3. Consequence for the research design
 
-The two core field sites now answer complementary crosswalk problems rather than generic collection history:
+The two core field sites now answer complementary crosswalk problems rather than generic collection history.
 
 ### Oxford
-`public presentation/donation event → internal RMS custody/address → current HSM/RMS object`.
+`public donation event → internal RMS custody/address → current HSM/RMS object`.
 
 ### Bolton
 `private/donated preparation → society selection/re-arrangement → named lending transaction → later catalogue address`.
 
-These are structurally comparable but institutionally different.
-
 Oxford tests **long-duration institutional re-addressing**.
-Bolton tests **temporary custody and return inside a live lending cabinet**.
+Bolton tests **temporary custody, return and re-entry inside a live lending cabinet**.
 
 Together they justify the project question without requiring a universal breakage/repair narrative.
 
@@ -151,9 +162,9 @@ Together they justify the project question without requiring a universal breakag
 
 Do not spend further public-web time trying to reconstruct `FZ/14/3/2` unless a new digitised object or exact archival scan appears.
 
-Do not call `[1978-665]` the 1877 donated copy until a historical RMS accession/address record closes physical identity.
+Do not call `[1978-665]` the 1877 donated copy until a historical RMS provenance/address bridge closes physical identity.
 
 Next research effort should go to:
-1. exact Oxford internal provenance/address bridge for `[1978-665]`;
+1. exact Oxford provenance/address bridge for `[1978-665]`;
 2. direct inspection of Bolton `FZ/14/3/1` and `FZ/14/3/2`;
 3. only then, update article-level claims.
