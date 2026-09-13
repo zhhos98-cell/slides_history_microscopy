@@ -1,112 +1,202 @@
-# SIS 2027 slide-transport grant project
+# SIS 2027 — Keeping Preparations in Use
 
-Status: PLANNING / ARGUMENT DEVELOPMENT / GRANT APPLICATION
+Status: RESEARCH QUESTION FROZEN / PREFIELD ARCHIVE ROUTING / GRANT APPLICATION PREPARATION
 Branch: `research/sis-2027-grant-application`
 
-This satellite project contains planning for a Scientific Instrument Society 2027 research-grant application on microscope-slide mobility, breakage, custody and maintenance in nineteenth-century Britain.
+This satellite project develops a Scientific Instrument Society 2027 research-grant application and an independent article project on nineteenth-century microscope preparations under changing material and institutional custody.
 
-It is intentionally separate from the frozen microscope-slide survey and from the research branch `research/sis-slide-transport-2026-09-13`. It does not alter survey membership, bibliography counts, source-registry authorities or existing evidence grades.
+It is intentionally separate from the frozen main microscope-slide survey. It does not alter survey membership, bibliography counts or the main repository's `addressability` synthesis.
 
-## Current working question
+## Governing research question
 
-**How did breakage, custody and repair shape the microscope slide as a mobile instrument component in nineteenth-century Britain?**
+**How were nineteenth-century microscope preparations kept usable and retrievable as they moved between carriers, cabinets and custodians?**
 
-The initial question — how circulation changed the material conditions under which slides functioned — has been narrowed because Lea Beiermann's 2021 article and 2023 dissertation already establish that postal exchange shaped packing, mounting materials, durability testing, liability and slide-box infrastructure in British and American postal microscopy.
+Expanded empirical form:
 
-The present project therefore treats the Postal Microscopical Society as a control case rather than the novelty claim. Its unresolved question is what happened **after or around movement** when a preparation entered institutional custody: what exactly broke, who bore responsibility, what was repaired or replaced, how the object was registered, and whether it returned to teaching, comparison, reference or circulation.
+**What had to be changed, and what had to remain stable, when a microscope preparation was remounted, selected into a society collection, re-arranged in a cabinet, lent to another user, returned, and re-entered into collection order?**
 
-The strongest possible object-history question is empirical rather than definitional:
+This question is frozen. New sources may change the answer and the weighting of cases, but should not reopen the project into a generic history of slide circulation or postal transport.
 
-**When a microscope slide failed in transit or circulation, what exactly was repaired, replaced or preserved?**
+Authority: `FROZEN_RESEARCH_QUESTION_V1.md`.
 
 ## Historiographic boundary
 
-Do not claim novelty for any of the following:
+Do **not** claim novelty for:
+- postal networks moving microscope slides;
+- safe packing / sturdy boxes / breakage liability;
+- postal circulation testing mounting durability;
+- standard slide dimensions enabling exchange;
+- mending slides damaged in postal clubs;
+- mobility affecting scientific instruments generally;
+- repair destabilising instrument identity generally;
+- Richardson's non-standard German injections or the fact that he remounted them.
 
-- postal circulation shaping mounting materials or packing;
-- sturdy boxes reducing breakage;
-- standard slide/box dimensions enabling exchange;
-- postal circulation functioning as a durability experiment;
-- the British Postal Microscopical Society as an unstudied counterpart to the American club.
+Beiermann already substantially covers postal knowledge infrastructure, packing, breakage and durability. Schaffer, Schickore and Baker already establish repair/mobility as instrument-history problems. Howard Lynk already reconstructs the Richardson/Thiersch product-format episode.
 
-Those questions are already substantially occupied by Beiermann.
+The remaining empirical contribution is narrower:
 
-The project instead enters instrument history through breakdown, repair and mobility: Simon Schaffer's work on instruments in states of disrepair and Alexi Baker's work on British instruments on the move provide a better comparison than generic `knowledge circulation`.
+**ordinary scientific societies made preparations usable under changing custody by selecting, reformatting, arranging, cataloguing, lending, returning and re-entering them into collective order.**
 
-See `HISTORIOGRAPHY_AND_ARGUMENT_V1.md`.
+Repair/remounting/replacement are possible upgrades, not prerequisites for every case.
 
-## Primary-source baseline
+Authority: `HISTORIOGRAPHY_AND_ARGUMENT_V2.md`.
 
-The nineteenth-century postal baseline is now controlled tightly enough to serve as a comparator:
+## Current core cases
 
-- 1871 Hansard records an unidentified microscopical society saying Pattern Post restrictions prevented it from sending prepared subjects;
-- Alfred Atkinson's 1873 postal-cabinet proposal designed the box around safe transmission from the outset;
-- the 1880 Seventh Annual Meeting report records roughly 690 PMS slides in circulation, box rules, breakage and failures of dry mounts/cements;
-- the 1882 PMS rules exist as a 17-page published supplement, with exact liability/insurance wording still requiring primary page inspection;
-- J. W. Measures, `Presidential Address`, *Journal of the Postal Microscopical Society* 6 (1887): 1–7, recalled early frequent breakage and said parcel post plus sturdy boxes had practically eliminated it;
-- H. N. Lyon's 1889 `Cements, Varnishes, and Cells` supplies a durability/travel comparison whose exact primary wording remains to be checked;
-- Richard H. Ward's 1878 posting-box design is retained only as an American technical comparator reported in British print.
+### A1 — Oxford HSM / Royal Microscopical Society
 
-See `PRIMARY_SOURCE_CONTROL_V1.md`.
+Role: large institutional archive + registers/catalogues + surviving RMS collection.
 
-## Grant logic
-
-The applicant is resident in London and will meet all travel costs within London personally. No London Underground, bus or local-rail costs are included in the grant request. Meals are also excluded.
-
-The grant request is therefore limited to travel and accommodation required for research outside London, plus a very small copying/scanning allowance where repository policy makes this necessary.
-
-### Core research stay: Oxford
-
-The History of Science Museum holds the Royal Microscopical Society internal archive off-site. In July 2026, HSM staff supplied an internal archive list and confirmed that items can be ordered for consultation with at least one week's notice.
-
-Priority records include:
-
-- Box 31 — minutes of ordinary and annual meetings, Jul. 1868–Feb. 1883;
-- Box 38 — council minutes, Feb. 1863–Jul. 1880;
-- Box 28 — council minutes, Oct. 1880–Dec. 1893;
-- Box 49 — Register of slides, 1897;
+Exact archive anchors supplied by HSM staff:
+- Box 31 — ordinary/annual minutes, Jul 1868–Feb 1883;
+- Box 38 — council minutes, Feb 1863–Jul 1880;
+- Box 28 — council minutes, Oct 1880–Dec 1893;
 - Box 41 — ledger, 1841–96;
-- Boxes 107–110 — nineteenth-century cash books, including 1860–71, 1872–78 and 1879–85;
-- Box 103 — RMS catalogue of microscopes, apparatus, etc., plus donations to the collection.
+- Box 49 — Register of slides, 1897;
+- Box 103 — catalogue of microscopes/apparatus + Donations to the Collection;
+- Boxes 107–110 — nineteenth-century cash books;
+- RMS MS 5, 13 and 18 — bounded historical slide catalogues.
 
-A four-day / three-night Oxford stay gives enough time to test movement, custody, expenditure, repair/replacement and registration across minutes, financial records and object/register material without turning the visit into an unfocused sweep.
+Use dated public-event hooks rather than sequentially reading whole boxes. See `OXFORD_RMS_DATE_HOOKS_V1.md`.
 
-### Comparative trip: Manchester + Bolton
+A current Oxford library record now gives a concrete cross-institutional object target: John Redmayne's *Micro-Photographs from the Diatomaceae*, `RMC (STORE)`, 65 mounted albumen prints, **Royal Microscopical Society Collection**, identifier **[1978-665]**. A precise historical bibliographic route points to a same-title Redmayne donation to the RMS in *Monthly Microscopical Journal* 17 (1877), p. 222. Same-physical-copy identity remains open and is an explicit field test.
 
-Manchester and Bolton should be combined into one two-day / one-night trip.
+See `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md` and `OXFORD_SMALL_WORLDS_PREFIELD_CROSSWALK_V1.md`.
 
-The University of Manchester Special Collections holds the Manchester Microscopical and Natural History Society archive (GB133-MIC). Staff have confirmed item-level catalogue access, appointment-based consultation and free personal-research photography. Manchester is analytically useful because the city also had a nineteenth-century Circulating Microscopic Cabinet Society, allowing the archive to test custody/circulation practices outside the PMS.
+### A2 — Bolton Microscopical Society, FZ/14
 
-Bolton History Centre holds FZ/14, the Bolton Microscopical Society archive, including the 1898 `Catalogue of Slides, Journals, and Books` and related society records. The archive supplied a fuller catalogue transcription in July 2026. The 1898 catalogue provides a collection endpoint from which earlier acquisition, exchange, storage, lending and maintenance records can be read backwards.
+Role: small society cabinet as an actual lending/custody system.
 
-### Comparative day trip: Bristol
+The archive-supplied finding aid has now been decoded from the original email attachment and gives exact references:
+- `FZ/14/1/1` — General and Committee Minutes, 1 Aug 1877–29 Oct 1880;
+- `FZ/14/1/2` — General and Committee Minutes, 5 Nov 1880–8 Feb 1900;
+- `FZ/14/2/1` — Account and Subscription Book, 1880–94;
+- **`FZ/14/3/1` — Register of Slides Lent Out, May 1882–Jul 1887;**
+- `FZ/14/3/2` — *Catalogue of Slides, Journals, and Books belonging to the Society*, 1898.
 
-Bristol Archives holds reference 44409, Bristol Microscopical Society minutes and papers, 1843–1883. Staff confirmed in August 2026 that the collection has been catalogued in greater detail. A one-day visit is proportionate: Bristol is an earlier institutional control, not a geographical-completeness exercise.
+This materially changes the project. Bolton can directly reconstruct named borrower–preparation–return cycles rather than merely infer lending from a printed notice.
 
-### London research is self-funded
+The 1880–81 printed intake sequence already supplies diagnostic targets:
+- twelve Echinodermata slides from F. W. Sharpus via W. R. Hughes;
+- six dozen = 72 slides selected from John Thomas Redmayne's private collection after his death;
+- forty-eight additional diatom slides;
+- cabinet re-arrangement before/alongside member lending.
 
-Relevant London holdings, especially Quekett Microscopical Club / Natural History Museum and Royal College of Surgeons material, remain analytically important but are excluded from the grant budget because London travel will be met personally.
+The fieldwork sequence is therefore:
 
-Quekett is particularly important because repo-controlled nineteenth-century evidence already shows a cabinet of more than 2,000 slides freely circulated by 1879. What remains open is exact documentation of custody, boxes, loans, damage, repair or replacement.
+`intake/selection → cabinet re-arrangement → 1882–87 lending transactions → return/repeat use → 1898 catalogue persistence`.
 
-## SIS fit
+Authorities:
+- `BOLTON_FZ14_EXACT_REFS_V1.md`
+- `BOLTON_LOAN_REGISTER_CAPTURE_SCHEMA_V1.md`
+- `BOLTON_1881_1898_PREFIELD_CROSSWALK_V1.md`.
 
-The SIS grant scheme supports research into the history of scientific instruments based on museum collections and archives directly related to specific instruments, and allows reasonable research costs including travel. It does not support meals or equipment purchases. The proposed budget follows that structure and asks for less than the £750 maximum.
+### A3 — Quekett Microscopical Club / NHM, London self-funded
 
-Official scheme page: https://scientificinstrumentsociety.org/grants/
+Role: mature freely circulating reference cabinet.
 
-## Current project files
+Already controlled in the main repo:
+- exchange and comprehensive cabinet in founding programme;
+- large accessions and transatlantic exchange by 1868;
+- more than 2,000 slides by 1879;
+- slides freely circulated;
+- actor-level statement that the finished preparation did not automatically carry the maker's knowledge of origin and crude state.
 
-- `ITINERARY_BUDGET_V1.md` — provisional itinerary, costed budget and timetable; figures are planning ceilings and should later be re-costed using Railcard fares and modest private-room/hostel accommodation.
-- `HISTORIOGRAPHY_AND_ARGUMENT_V1.md` — novelty boundary, repair/mobility historiography, claim ladder and falsification tests.
-- `PRIMARY_SOURCE_CONTROL_V1.md` — exact-source map separating direct primary control from Beiermann-routed claims still needing page inspection.
+Comparison:
+- Bolton shows **how a collection becomes lendable** through selection/re-arrangement/registering;
+- Quekett shows **what a mature lendable reference cabinet could and could not transmit**.
 
-## Claim ceiling
+London travel is self-funded and should not enter the SIS budget.
 
-Finding aids and correspondence establish holdings and access routes, not the presence of maintenance evidence in every volume. The application must state the exact records to be tested without implying that uninspected minute books already contain packing, breakage, repair or replacement evidence.
+See `QUEKETT_BOLTON_COMPARISON_V1.md`.
 
-The strongest desired chain is still **open**:
+### B1 — Manchester
 
-`ordinary society-owned preparation → movement/loan → identifiable failure → component-level repair or replacement → register/cabinet identity retained or changed → preparation returned to scientific use`.
+Role: pre-PMS genealogy / technical-network test, not required to prove ordinary-society lending.
 
-If Oxford and provincial archives do not produce this kind of evidence, the project must narrow rather than generalize from the Postal Microscopical Society.
+Controlled prehistory:
+- 1865 Oldham circulating cabinet with tray, box, one-week custody, periodic replacement, memorandum book and carriage finance;
+- 1866 Manchester-area recruitment through `Mr T. Armstrong, Deansgate`;
+- 1869 Manchester Circulating Microscopic Cabinet Society with T. Armstrong exhibiting slides.
+
+Archive: `GB133-MIC` at University of Manchester Special Collections. Staff confirm item-level catalogue access and free personal-research photography. Public indexing has not exposed reliable child refs; do not invent them.
+
+Bounded tests only:
+- predecessor/circulating-cabinet references;
+- Thomas/T. Armstrong identity;
+- cabinet/slide/home-examination/mounting-section evidence;
+- later institutional memory of the 1860s culture.
+
+See `MANCHESTER_BOUNDED_ARCHIVE_TEST_V1.md`.
+
+### B2 — Bristol
+
+Optional chronological control only. Do not fund merely for geographic breadth. Promote only if the detailed catalogue reveals lending/cabinet/accounts/collection-administration evidence not duplicated by Oxford/Bolton.
+
+## Redmayne as a cross-institutional thread
+
+Redmayne now supplies a historically specific bridge across otherwise separate institutions:
+- a same-title work was historically donated to the RMS in 1877;
+- a matching Redmayne volume demonstrably survives at Oxford as part of the RMS Collection `[1978-665]`;
+- his posthumous private slide collection was placed in Bolton Society officers' hands for selection, with 72 slides admitted to the Society collection and subsequently entering a lending environment;
+- another copy of the album entered a direct relation with Thomas Armstrong of Armstrong & Brother Microscopes, Manchester;
+- a QMC donation route exists separately.
+
+Do not collapse these into one physical object or one unified network. Their value is comparative: the same microscopist's work acquired different institutional forms and uses under different custody regimes.
+
+Authority: `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md`.
+
+## Grant itinerary logic
+
+The applicant is resident in London and will meet all London travel personally. Meals and ordinary London transport are excluded.
+
+Current defensible minimum programme:
+- **Oxford: 4 research days / 3 nights** — main large-institution archive and object/register crosswalk;
+- **Manchester + Bolton: 2 research days / 1 night** — protect one full day at Bolton to photograph the complete lending register; Manchester receives one bounded genealogy/archive day;
+- **London QMC/NHM and other London materials: self-funded**;
+- **Bristol: currently omitted unless promoted by exact catalogue evidence.**
+
+The earlier `ITINERARY_BUDGET_V1.md` is therefore a historical planning version, not current authority. Re-cost later using Railcard fares and modest private-room/hostel accommodation; request the real amount even if substantially below £750.
+
+## Claim ladder
+
+### Secure now
+Nineteenth-century microscopical societies could operate slide cabinets as more than passive stores: Bolton preserves a dedicated five-year lending register, and Quekett described thousands of slides as freely circulated.
+
+### Research hypothesis
+Keeping preparations usable under changing custody required active operations of selection, re-arrangement, cataloguing, lending, return and, where necessary, remounting or replacement.
+
+### Stronger conclusion — only if archives support it
+Scientific societies stabilized microscope preparations as reusable instrument components by preserving or translating working identity across changes of carrier, cabinet position and custodian.
+
+Do not state the strongest form as an application fact.
+
+## Current authority files
+
+Use these first:
+- `FROZEN_RESEARCH_QUESTION_V1.md` — governing question and claim ladder;
+- `ARCHIVE_PRIORITY_AND_CASE_SELECTION_V3.md` — current case hierarchy;
+- `HISTORIOGRAPHY_AND_ARGUMENT_V2.md` — novelty boundary;
+- `BOLTON_FZ14_EXACT_REFS_V1.md` — decoded archive finding aid;
+- `BOLTON_LOAN_REGISTER_CAPTURE_SCHEMA_V1.md` — field capture protocol;
+- `BOLTON_1881_1898_PREFIELD_CROSSWALK_V1.md` — Bolton identity crosswalk;
+- `OXFORD_RMS_DATE_HOOKS_V1.md` — event-led Oxford reading route;
+- `OXFORD_SMALL_WORLDS_PREFIELD_CROSSWALK_V1.md` — digital/object precheck;
+- `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md` — actor/material bridge;
+- `QUEKETT_BOLTON_COMPARISON_V1.md` — society-cabinet comparison;
+- `MANCHESTER_BOUNDED_ARCHIVE_TEST_V1.md` — narrow Manchester test.
+
+Older V1/V2 planning files remain audit history and should not override the authorities above.
+
+## Stop rule
+
+Do not add another archive, society or geographical node unless it can change one of:
+- object boundary;
+- temporary custody mechanism;
+- lending/return procedure;
+- carrier/cabinet incompatibility;
+- remounting/replacement;
+- register/catalogue re-entry;
+- instrument-maker participation.
+
+Otherwise synthesize and write from the current cases.
