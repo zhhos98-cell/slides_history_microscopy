@@ -1,11 +1,11 @@
 # SIS 2027 — Keeping Preparations in Use
 
-Status: RESEARCH QUESTION FROZEN / PREFIELD ARCHIVE ROUTING / GRANT APPLICATION PREPARATION
+Status: RESEARCH QUESTION FROZEN / DISCOVERY STOPPED / PREFIELD OBJECT CONTACT + APPLICATION PREPARATION
 Branch: `research/sis-2027-grant-application`
 
 This satellite project develops a Scientific Instrument Society 2027 research-grant application and an independent article project on nineteenth-century microscope preparations under changing material and institutional custody.
 
-It is intentionally separate from the frozen main microscope-slide survey. It does not alter survey membership, bibliography counts or the main repository's `addressability` synthesis.
+It is intentionally separate from the frozen main microscope-slide survey. It does not alter survey membership, bibliography counts or the main repository's broader `addressability` synthesis.
 
 ## Governing research question
 
@@ -19,6 +19,18 @@ This question is frozen. New sources may change the answer and the weighting of 
 
 Authority: `FROZEN_RESEARCH_QUESTION_V1.md`.
 
+## Current argument authority
+
+Use `ARGUMENT_SPINE_V4.md` for the current narrative and historiographic architecture.
+
+Preferred empirical centre:
+- Bolton 1881 collection transformation and the 1882–87 slide-lending register;
+- Oxford RMS as the large-institution custody/register/object comparison;
+- Quekett as mature lending/reference-cabinet control;
+- Manchester as bounded pre-PMS genealogy/instrument-maker test.
+
+The project is about **repeated changes of custody and re-entry into collective use**, not about postal transport as such.
+
 ## Historiographic boundary
 
 Do **not** claim novelty for:
@@ -29,17 +41,35 @@ Do **not** claim novelty for:
 - mending slides damaged in postal clubs;
 - mobility affecting scientific instruments generally;
 - repair destabilising instrument identity generally;
-- Richardson's non-standard German injections or the fact that he remounted them.
+- Richardson's non-standard German injections or the fact that he remounted them;
+- temporary museum loans or return as historical phenomena in themselves.
 
-Beiermann already substantially covers postal knowledge infrastructure, packing, breakage and durability. Schaffer, Schickore and Baker already establish repair/mobility as instrument-history problems. Howard Lynk already reconstructs the Richardson/Thiersch product-format episode.
+Beiermann already substantially covers postal knowledge infrastructure, packing, breakage, mending and durability. Schaffer, Schickore and Baker already establish repair/mobility as instrument-history problems. Howard Lynk reconstructs the Richardson/Thiersch product-format episode. Mobile-collection scholarship already treats temporary collecting and loans.
 
 The remaining empirical contribution is narrower:
 
-**ordinary scientific societies made preparations usable under changing custody by selecting, reformatting, arranging, cataloguing, lending, returning and re-entering them into collective order.**
+**ordinary scientific societies made prepared microscope objects usable under changing custody by selecting, reformatting, arranging, cataloguing, lending, returning and re-entering them into collective order.**
 
 Repair/remounting/replacement are possible upgrades, not prerequisites for every case.
 
-Authority: `HISTORIOGRAPHY_AND_ARGUMENT_V2.md`.
+Authorities:
+- `ARGUMENT_SPINE_V4.md`
+- `HISTORIOGRAPHY_AND_ARGUMENT_V2.md`.
+
+## Why this is scientific-instrument history
+
+The SIS framing should not depend on the categorical claim that every glass slide was itself a complete scientific instrument.
+
+Use the historically stronger formulation:
+
+**prepared microscope slides were working components of nineteenth-century microscope systems/outfits.**
+
+Contemporary mounting manuals make carrier size, glass quality and thickness conditions of successful microscopic viewing. Surviving nineteenth-century microscope outfits preserve slides physically alongside microscopes, objectives and accessories.
+
+This lets the project ask an instrument-history question:
+**how were working microscope components kept usable as their carriers, cabinet positions and custodians changed?**
+
+Authority: `INSTRUMENT_COMPONENT_EVIDENCE_V1.md`.
 
 ## Current core cases
 
@@ -59,37 +89,53 @@ Exact archive anchors supplied by HSM staff:
 
 Use dated public-event hooks rather than sequentially reading whole boxes. See `OXFORD_RMS_DATE_HOOKS_V1.md`.
 
-A current Oxford library record now gives a concrete cross-institutional object target: John Redmayne's *Micro-Photographs from the Diatomaceae*, `RMC (STORE)`, 65 mounted albumen prints, **Royal Microscopical Society Collection**, identifier **[1978-665]**. A precise historical bibliographic route points to a same-title Redmayne donation to the RMS in *Monthly Microscopical Journal* 17 (1877), p. 222. Same-physical-copy identity remains open and is an explicit field test.
+A current Oxford library record gives a concrete cross-institutional object target: John Redmayne's *Micro-Photographs from the Diatomaceae*, `RMC (STORE)`, 65 mounted albumen prints, **Royal Microscopical Society Collection**, identifier **[1978-665]**. A precise historical bibliographic route points to a same-title Redmayne donation to the RMS in *Monthly Microscopical Journal* 17 (1877), p. 222. Same-physical-copy identity remains open and is an explicit field test.
 
-See `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md` and `OXFORD_SMALL_WORLDS_PREFIELD_CROSSWALK_V1.md`.
+The only significant application-readiness gap is current object specificity. Before submission, ideally obtain from HSM:
+- the current identifier for the large RMS slide cabinet;
+- confirmation that selected cabinet/slides can be consulted;
+- 2–5 diagnostic current slide IDs tied to historical catalogues/registers or dated donation events;
+- access status for `[1978-665]`.
+
+Authorities:
+- `OXFORD_RMS_DATE_HOOKS_V1.md`
+- `OXFORD_SMALL_WORLDS_PREFIELD_CROSSWALK_V1.md`
+- `REDMAYNE_RMS_1877_TO_HSM_1978_665_CROSSWALK_V1.md`
+- `OXFORD_OBJECT_ACCESS_REQUEST_CHECKLIST_V1.md`.
 
 ### A2 — Bolton Microscopical Society, FZ/14
 
 Role: small society cabinet as an actual lending/custody system.
 
-The archive-supplied finding aid has now been decoded from the original email attachment and gives exact references:
+The archive-supplied finding aid was recovered from the original July 2026 email attachment and gives exact references:
 - `FZ/14/1/1` — General and Committee Minutes, 1 Aug 1877–29 Oct 1880;
 - `FZ/14/1/2` — General and Committee Minutes, 5 Nov 1880–8 Feb 1900;
 - `FZ/14/2/1` — Account and Subscription Book, 1880–94;
 - **`FZ/14/3/1` — Register of Slides Lent Out, May 1882–Jul 1887;**
 - `FZ/14/3/2` — *Catalogue of Slides, Journals, and Books belonging to the Society*, 1898.
 
-This materially changes the project. Bolton can directly reconstruct named borrower–preparation–return cycles rather than merely infer lending from a printed notice.
+Contemporary 1880–81 evidence supplies the controlled intake/transformation sequence:
+- posthumous display of John Thomas Redmayne's microscopes, photomicrographs, pathological preparations and diatoms in Nov 1880;
+- 48 choice diatom slides added to the cabinet in 1881, source/donor still open;
+- Mrs Redmayne placed the whole private slide collection in the hands of the Society President and Secretary for selection;
+- six dozen = 72 Redmayne slides were selected;
+- the Society slide collection was being re-arranged;
+- Society slides were explicitly lent to members.
 
-The 1880–81 printed intake sequence already supplies diagnostic targets:
-- twelve Echinodermata slides from F. W. Sharpus via W. R. Hughes;
-- six dozen = 72 slides selected from John Thomas Redmayne's private collection after his death;
-- forty-eight additional diatom slides;
-- cabinet re-arrangement before/alongside member lending.
+**Correction guard:** F. W. Sharpus / W. R. Hughes / twelve Echinodermata slides belong to the Birmingham Natural History and Microscopical Society, not Bolton. They must not be used as a Bolton accession anchor.
 
-The fieldwork sequence is therefore:
+The Bolton field sequence is:
 
-`intake/selection → cabinet re-arrangement → 1882–87 lending transactions → return/repeat use → 1898 catalogue persistence`.
+`private/new material → officer selection → cabinet re-arrangement → 1882–87 lending transactions → return/repeat use → 1898 catalogue persistence`.
+
+Priority: photograph `FZ/14/3/1` completely before sampling linked minutes/accounts/catalogue.
 
 Authorities:
 - `BOLTON_FZ14_EXACT_REFS_V1.md`
 - `BOLTON_LOAN_REGISTER_CAPTURE_SCHEMA_V1.md`
-- `BOLTON_1881_1898_PREFIELD_CROSSWALK_V1.md`.
+- `BOLTON_1881_1898_PREFIELD_CROSSWALK_V1.md`
+- `BOLTON_1898_CATALOGUE_PRECROSSWALK_CEILING_V1.md`
+- `BOLTON_PUBLIC_LOAN_OPERATIONS_PRECROSSWALK_V1.md`.
 
 ### A3 — Quekett Microscopical Club / NHM, London self-funded
 
@@ -108,7 +154,7 @@ Comparison:
 
 London travel is self-funded and should not enter the SIS budget.
 
-See `QUEKETT_BOLTON_COMPARISON_V1.md`.
+Authority: `QUEKETT_BOLTON_COMPARISON_V1.md`.
 
 ### B1 — Manchester
 
@@ -127,7 +173,7 @@ Bounded tests only:
 - cabinet/slide/home-examination/mounting-section evidence;
 - later institutional memory of the 1860s culture.
 
-See `MANCHESTER_BOUNDED_ARCHIVE_TEST_V1.md`.
+Authority: `MANCHESTER_BOUNDED_ARCHIVE_TEST_V1.md`.
 
 ### B2 — Bristol
 
@@ -135,16 +181,19 @@ Optional chronological control only. Do not fund merely for geographic breadth. 
 
 ## Redmayne as a cross-institutional thread
 
-Redmayne now supplies a historically specific bridge across otherwise separate institutions:
+Redmayne supplies a historically specific bridge across otherwise separate institutions:
 - a same-title work was historically donated to the RMS in 1877;
 - a matching Redmayne volume demonstrably survives at Oxford as part of the RMS Collection `[1978-665]`;
+- exact same-copy identity remains unproven pending ownership/shelf/accession evidence;
 - his posthumous private slide collection was placed in Bolton Society officers' hands for selection, with 72 slides admitted to the Society collection and subsequently entering a lending environment;
 - another copy of the album entered a direct relation with Thomas Armstrong of Armstrong & Brother Microscopes, Manchester;
 - a QMC donation route exists separately.
 
 Do not collapse these into one physical object or one unified network. Their value is comparative: the same microscopist's work acquired different institutional forms and uses under different custody regimes.
 
-Authority: `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md`.
+Authorities:
+- `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md`
+- `REDMAYNE_RMS_1877_TO_HSM_1978_665_CROSSWALK_V1.md`.
 
 ## Grant itinerary logic
 
@@ -156,7 +205,17 @@ Current defensible minimum programme:
 - **London QMC/NHM and other London materials: self-funded**;
 - **Bristol: currently omitted unless promoted by exact catalogue evidence.**
 
-The earlier `ITINERARY_BUDGET_V1.md` is therefore a historical planning version, not current authority. Re-cost later using Railcard fares and modest private-room/hostel accommodation; request the real amount even if substantially below £750.
+The earlier `ITINERARY_BUDGET_V1.md` is historical planning, not current authority. Re-cost later using actual Railcard fares and modest private-room/hostel accommodation; request the real amount even if substantially below £750.
+
+## SIS application architecture
+
+Use:
+- `SIS_RUBRIC_ALIGNMENT_V1.md` — fit, risks, access gaps and claim ceiling;
+- `APPLICATION_CONTENT_MAP_V1.md` — field-ready content architecture, not final prose;
+- `INSTRUMENT_COMPONENT_EVIDENCE_V1.md` — evidence for scientific-instrument relevance;
+- `OXFORD_OBJECT_ACCESS_REQUEST_CHECKLIST_V1.md` — bounded pre-submission object/contact needs.
+
+Do not optimise to invented word/character limits until the live 2027 form fields can be inspected directly.
 
 ## Claim ladder
 
@@ -175,20 +234,26 @@ Do not state the strongest form as an application fact.
 
 Use these first:
 - `FROZEN_RESEARCH_QUESTION_V1.md` — governing question and claim ladder;
+- `ARGUMENT_SPINE_V4.md` — current article/synthesis architecture;
 - `ARCHIVE_PRIORITY_AND_CASE_SELECTION_V3.md` — current case hierarchy;
 - `HISTORIOGRAPHY_AND_ARGUMENT_V2.md` — novelty boundary;
-- `BOLTON_FZ14_EXACT_REFS_V1.md` — decoded archive finding aid;
+- `INSTRUMENT_COMPONENT_EVIDENCE_V1.md` — instrument-component evidence;
+- `BOLTON_FZ14_EXACT_REFS_V1.md` — decoded archive finding aid + correction;
 - `BOLTON_LOAN_REGISTER_CAPTURE_SCHEMA_V1.md` — field capture protocol;
-- `BOLTON_1881_1898_PREFIELD_CROSSWALK_V1.md` — Bolton identity crosswalk;
-- `OXFORD_RMS_DATE_HOOKS_V1.md` — event-led Oxford reading route;
-- `OXFORD_SMALL_WORLDS_PREFIELD_CROSSWALK_V1.md` — digital/object precheck;
-- `REDMAYNE_CROSS_INSTITUTIONAL_BRIDGE_V1.md` — actor/material bridge;
+- `BOLTON_1881_1898_PREFIELD_CROSSWALK_V1.md` — Bolton crosswalk authority;
+- `OXFORD_RMS_DATE_HOOKS_V1.md` — event-led Oxford route;
+- `OXFORD_OBJECT_ACCESS_REQUEST_CHECKLIST_V1.md` — object-level access targets;
+- `REDMAYNE_RMS_1877_TO_HSM_1978_665_CROSSWALK_V1.md` — bounded RMS/HSM object chain;
 - `QUEKETT_BOLTON_COMPARISON_V1.md` — society-cabinet comparison;
-- `MANCHESTER_BOUNDED_ARCHIVE_TEST_V1.md` — narrow Manchester test.
+- `MANCHESTER_BOUNDED_ARCHIVE_TEST_V1.md` — narrow Manchester test;
+- `SIS_RUBRIC_ALIGNMENT_V1.md` — grant-fit authority;
+- `APPLICATION_CONTENT_MAP_V1.md` — application content map.
 
 Older V1/V2 planning files remain audit history and should not override the authorities above.
 
 ## Stop rule
+
+**Broad discovery is now stopped.**
 
 Do not add another archive, society or geographical node unless it can change one of:
 - object boundary;
@@ -199,4 +264,8 @@ Do not add another archive, society or geographical node unless it can change on
 - register/catalogue re-entry;
 - instrument-maker participation.
 
-Otherwise synthesize and write from the current cases.
+Immediate next work should be one of:
+1. Oxford bounded object-access follow-up;
+2. actual itinerary/budget recosting;
+3. application prose mapped from `APPLICATION_CONTENT_MAP_V1.md`;
+4. archival fieldwork once access dates are set.
