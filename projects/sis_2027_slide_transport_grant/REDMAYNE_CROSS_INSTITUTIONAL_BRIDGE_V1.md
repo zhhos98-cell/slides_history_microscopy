@@ -1,170 +1,150 @@
-# John Thomas Redmayne cross-institutional bridge v2
+# John Thomas Redmayne cross-institutional bridge v3
 
 Updated: 2026-09-13
-Status: ACTOR/MATERIAL BRIDGE — CURRENT OXFORD RMS-COLLECTION OBJECT CLOSED / HISTORICAL DONATION IDENTITY STILL TO VERIFY
+Status: TWO-ENDED OXFORD/RMS CLOSURE / SAME-PHYSICAL-COPY IDENTITY STILL OPEN
 
 ## 1. Why Redmayne matters
 
-John Thomas Redmayne offers a way to connect several project cases without pretending the institutions formed one unified network.
+John Thomas Redmayne connects several project cases without requiring an invented unified institutional network. His work entered distinct custody regimes during and after his life:
 
-His materials and relations intersect:
-- Bolton Microscopical Society;
-- Quekett Microscopical Club;
-- Royal Microscopical Society / Oxford HSM;
-- Thomas Armstrong / Manchester optical-instrument world;
-- later Manchester Microscopical Society via an executor/associate lead.
+- Quekett Microscopical Club — publication/reference gift;
+- Royal Microscopical Society — publication donation and later surviving RMS Collection volume at Oxford;
+- Bolton Microscopical Society — posthumous selection of his private slide collection into a lendable Society cabinet;
+- Thomas Armstrong / Manchester — privately circulated album in direct relation to a microscope manufacturer.
 
-The historical value is not biography for its own sake. The same maker/collector's work entered different custody regimes: private exchange, publication donation, society library/reference use, and posthumous selection into a lendable slide cabinet.
+The historical value is not biography for its own sake. Redmayne supplies a bounded actor/material thread through which the project can compare how different institutions reformatted microscopical work for reference, lending, exchange and collection order.
 
-## 2. Bolton — private slide collection becomes society property
+## 2. Bolton — private slides become a lendable institutional collection
 
-High-value controlled sequence:
+Controlled sequence:
 - Redmayne helped found Bolton Microscopical Society in 1877;
 - he died 10 September 1880;
 - the Society's November 1880 Conversazione displayed his microscopes, photomicrographs, pathological preparations and diatoms;
-- in 1881 Mrs Redmayne placed the whole slide collection in the hands of the Society President and Secretary for selection;
-- six dozen slides were selected for the Society;
-- the cabinet was being re-arranged and Society slides were lent to members.
+- in summer 1881 Mrs Redmayne placed the whole slide collection in the hands of the Society President and Secretary so that the most suitable preparations could be selected;
+- six dozen slides were selected from the private collection;
+- forty-eight diatom slides were also added;
+- the Society collection was being re-arranged;
+- the Society's slides were lent to members.
 
-Archival route:
-- `FZ/14/1/1–2` minutes;
-- `FZ/14/2/1` accounts/membership;
-- `FZ/14/3/1` lending register 1882–87;
-- `FZ/14/3/2` 1898 catalogue.
+Exact archival route:
+- `FZ/14/1/1` — General and Committee Minutes, 1 Aug 1877–29 Oct 1880;
+- `FZ/14/1/2` — General and Committee Minutes, 5 Nov 1880–8 Feb 1900;
+- `FZ/14/2/1` — Account and Subscription Book, 1880–94;
+- `FZ/14/3/1` — Register of Slides Lent Out, May 1882–Jul 1887;
+- `FZ/14/3/2` — Catalogue of Slides, Journals, and Books belonging to the Society, 1898.
 
-Research question:
-Can Redmayne-origin slides be identified in the lending register and then in the 1898 catalogue?
+High-value test:
+Can Redmayne-origin slides be identified from the 1880–81 accession/selection phase in the 1882–87 lending register and then again in the 1898 catalogue?
 
-If yes, Redmayne provides an unusually clean chain:
-`private maker/collector → widow/officer temporary custody → institutional selection → re-arranged cabinet → member loan → later catalogue`.
+If yes, the chain becomes:
+
+`private maker/collector → widow/officer temporary custody → institutional selection → re-arranged cabinet → member loan → return/repeated use → later catalogue`.
 
 ## 3. Quekett Microscopical Club — publication/reference gift
 
-Later source reconstruction cites contemporary QMC journal entries:
-- Redmayne admitted to QMC in 1876;
-- he donated `An album of Micro-Photographs of Diatomaceae` to the Club in 1876.
+Later source reconstruction gives exact primary references:
+- QMC admission: *Journal of the Quekett Microscopical Club*, vol. 4 (1876), p. 201;
+- donation: same volume, p. 240, `An album of Micro-Photographs of Diatomaceae` by Redmayne.
 
-Primary references to verify before publication:
-- *Journal of the Quekett Microscopical Club*, vol. 4 (1876), p. 201 — admittance;
-- same volume, p. 240 — album donation.
+Primary pages remain to be checked directly before publication, but the bibliographic route is precise.
 
-Use:
-This is not the same material object as the Bolton slides. It shows Redmayne deliberately placing a visual/microscopical work into a collective reference institution during his lifetime.
+Do not equate the QMC album with the Bolton slides or with the Oxford/RMS copy without object-level evidence.
 
-Do not infer that the QMC album and Bolton slide collection share individual specimens without item-level evidence.
+## 4. Royal Microscopical Society / Oxford — two-ended closure
 
-## 4. Royal Microscopical Society / Oxford — current object now directly closed
+### Historical end
 
-Historical bibliographic route:
-- *Monthly Microscopical Journal* 17 (1877), p. 222 is cited in later scholarship as recording donation to the RMS of `Micro-photographs from the Diatomaceae, By J. Redmayne`;
-- RMS membership list in 1877 includes Redmayne.
+A precise bibliographic route reports that *The Monthly Microscopical Journal* 17 (1877), p. 222 recorded a donation to the Royal Microscopical Society of:
 
-### Current HSM catalogue record — direct official control
+`Micro-photographs from the Diatomaceae, By J. Redmayne`.
 
-The History of Science Museum's current/legacy online library catalogue directly lists one matching record:
+The original p. 222 image has not yet been directly recovered in this project, so the exact wording remains one step below direct-primary control. The route is nevertheless bounded to volume and page.
 
-- location/status: `RMC (STORE)`;
+### Current end — direct official control
+
+Oxford History of Science Museum's library catalogue directly lists one matching volume:
+
+- location: `RMC (STORE)`;
 - author: `Redmayne, John`;
 - title: *Micro-Photographs from the Diatomaceae*;
 - imprint: `Bolton, n.d.`;
-- physical description: no title page as issued; introductory note of one page; otherwise 65 mounted albumen prints with separate printed captions mounted beneath;
+- physical description: no title page as issued; one-page introductory note; otherwise **65 mounted albumen prints**, with separate printed captions mounted beneath;
 - collection: **Royal Microscopical Society Collection**;
-- current catalogue/accession-style identifier: **[1978-665]**.
+- identifier: **[1978-665]**.
 
-Official catalogue route:
+Official record:
 `https://www.mhs.ox.ac.uk/collections/library/catalogue-simple/titles/index1be2.html?id=1938157`
 
-This closes the current institutional fact:
+### Evidence grade
 
-**A Redmayne *Micro-Photographs from the Diatomaceae* volume survives at Oxford/HSM as part of the Royal Microscopical Society Collection.**
+This creates a **two-ended closure**:
 
-What remains open:
-The current record does not itself state that this physical volume is the exact copy entered as the 1877 RMS donation. The title/author/context alignment is strong, but same-copy historical identity should be closed through the 1877 journal/library accessions or internal RMS catalogue rather than assumed.
+`1877 historical RMS donation of a Redmayne work with the same title`
+→ `current Oxford volume of the same author/title, explicitly in the RMS Collection`.
 
-### Burgess 1882 lead
+What is still open is the strongest physical-identity statement:
 
-A 2012 transcription of an older HSM catalogue description stated that a manuscript description of the diatoms by E. W. Burgess, dated 1882, was formerly in the RMS library.
+`1877 donated copy = current [1978-665]`.
 
-Status:
-legacy-catalogue lead only until the current HSM/RMS archive identifies the manuscript or catalogue address.
+Do not collapse those two ends without an RMS library/accession/catalogue bridge, ownership inscription, accession history, or equivalent internal record.
 
-Use at Oxford:
-- verify the 1877 RMS donation entry;
-- identify any internal library/accession record connecting it to `[1978-665]`;
-- ask whether the Burgess 1882 description survives and under what manuscript/library address;
-- test Box 103 / RMS library and donation records as appropriate.
+### Oxford field test
 
-This is now a concrete Bolton-person → Oxford RMS-current-object crosswalk target, not a speculative search.
+Priority sequence:
+1. verify *Monthly Microscopical Journal* 17 (1877), p. 222 directly;
+2. check RMS internal library/donation records around the same date;
+3. identify whether `[1978-665]` carries old RMS shelf marks, accession numbers, bookplates, inscriptions or donor information;
+4. check Box 103 / RMS catalogues and relevant library layers;
+5. ask about the legacy-record lead to an E. W. Burgess 1882 manuscript description of the diatoms.
 
-## 5. Thomas Armstrong / Manchester — material and maker relation
+A direct bridge from p.222 to `[1978-665]` would give the project a complete historical-donation → surviving-object chain before moving back to Redmayne's slide collection at Bolton.
 
-A surviving copy of Redmayne's privately printed *Micro-photographs from the Diatomaceae* is catalogued by Christie's as inscribed to Thomas Armstrong of Armstrong & Brother Microscopes, Manchester. The lot also describes an additional microphotograph signed by Armstrong and J. G. Johnson.
+## 5. Thomas Armstrong / Manchester — maker relation
 
-Redmayne advertised the album as exchangeable for a quarter-inch objective or first-class microscopical slides.
+A surviving privately circulated copy of Redmayne's *Micro-photographs from the Diatomaceae* is catalogued as inscribed to Thomas Armstrong of Armstrong & Brother Microscopes, Manchester. It also contains an additional microphotograph signed by Armstrong and J. G. Johnson.
+
+Redmayne advertised copies of the album in exchange for a quarter-inch objective or first-class microscopical slides.
 
 Secure claim:
-A Redmayne album moved directly to a named Manchester microscope manufacturer / optical-instrument actor.
+A Redmayne album entered a named Manchester microscope-manufacturer relationship.
 
 Do not claim:
-- that Armstrong supplied a specific objective or slides in return;
-- that this proves the 1866 circulating-cabinet `T. Armstrong` identity by itself;
-- that the inscribed album passed through Bolton Society custody.
+- that Armstrong supplied a specific objective or slide in exchange;
+- that this alone proves the 1866 circulating-cabinet `T. Armstrong` identity;
+- that the Armstrong copy ever belonged to Bolton Society.
 
-Research payoff:
-The relation places Redmayne's exchange economy and Manchester instrument-making in direct material contact.
+## 6. J. F. W. Tatham — secondary Manchester lead
 
-## 6. J. F. W. Tatham — later Manchester lead
+A later biographical reconstruction identifies John Francis Walkingame Tatham as one of Redmayne's executors and later President of the Manchester Microscopical Society.
 
-A later biographical reconstruction identifies John Francis Walkingame Tatham as one of Redmayne's executors and states that Tatham later became President of the Manchester Microscopical Society.
+Status: SECONDARY LEAD ONLY until probate / Manchester society records close the relation.
 
-Status:
-SECONDARY LEAD ONLY until primary probate / Manchester society records close the relation.
+Use only as a bounded archive search term.
 
-If closed, Tatham would provide a second, independent Bolton-estate → Manchester-society bridge distinct from Armstrong.
+## 7. What the Redmayne thread now contributes
 
-Do not build the article around this until archive evidence is recovered.
+The project no longer needs Oxford, Bolton, Quekett and Manchester to look like arbitrary comparative sites.
 
-## 7. What this bridge changes
+Redmayne supplies a historically specific cross-institutional thread:
+- work placed in society reference/library collections during life;
+- a matching work survives in the RMS Collection at Oxford;
+- a private slide collection was posthumously selected into Bolton institutional custody and then lent;
+- another copy entered a Manchester instrument-maker relation.
 
-Before Redmayne, Oxford, Bolton, Quekett and Manchester could look like separate institutional samples.
+The comparative question is therefore:
 
-Redmayne makes a more historically specific comparison possible:
-- during life, microscopical knowledge/material is deliberately donated or exchanged into QMC/RMS and a Manchester maker network;
-- one Redmayne album demonstrably survives in Oxford as part of the RMS Collection;
-- after death, a private slide collection is selectively converted into Bolton Society property and then lent to members.
+**How did the same microscopist's work acquire different material and institutional forms when it entered libraries, cabinets, exchanges and posthumous collection systems?**
 
-This generates a stronger question:
+Keep this as a supporting thread inside `Keeping Preparations in Use`; do not turn the project into a Redmayne biography.
 
-**How did the same microscopist's work acquire different institutional forms and uses as it moved through gifts, exchanges, libraries, cabinets and posthumous collection-making?**
-
-This should remain a supporting actor thread inside the larger `Keeping Preparations in Use` project, not replace the project with a Redmayne biography.
-
-## 8. Exact next checks
-
-### Oxford
-- verify RMS 1877 donation entry;
-- crosswalk the historical donation/library address to HSM `[1978-665]`;
-- ask about Burgess 1882 description;
-- check Box 103 / RMS library/catalogue layers for Redmayne.
-
-### Bolton
-- identify Redmayne-origin slides in 1880–81 minutes;
-- test names/numbers in `FZ/14/3/1` lending register;
-- crosswalk into `FZ/14/3/2` 1898 catalogue.
-
-### Quekett / London
-- verify 1876 album donation and any surviving current library/cabinet record;
-- do not assume surviving album/object identity without catalogue confirmation.
-
-### Manchester
-- use Armstrong and Tatham only as bounded name searches in `GB133-MIC` / relevant society histories.
-
-## 9. Claim ceiling
+## 8. Claim ceiling
 
 Safe now:
-`Redmayne's microscopical work entered several distinct nineteenth-century institutional and exchange settings; one Redmayne photomicrograph album survives at Oxford as part of the RMS Collection, while his posthumous private slide collection was selectively transformed into a lendable Bolton Society collection.`
+
+`Redmayne's microscopical work entered several distinct nineteenth-century institutional and exchange settings. A copy of his Micro-Photographs from the Diatomaceae survives at Oxford as part of the Royal Microscopical Society Collection, while his posthumous private slide collection was selectively transformed into a lendable Bolton Society collection.`
 
 Conditional stronger claim:
-`The Redmayne case reveals how one microscopist's materials were reformatted differently by libraries, instrument networks and slide cabinets according to institutional use.`
 
-Do not use the stronger claim until the historical RMS donation is cross-walked to the current Oxford volume and Bolton lending-register evidence is directly inspected.
+`The same Redmayne material can be followed across distinct institutional reformatting operations: publication donation/reference use at the RMS, private slide selection and lending at Bolton, and exchange with a Manchester instrument maker.`
+
+Use the stronger form only after the 1877 RMS donation is connected directly to `[1978-665]` and Redmayne-origin slides are identified in the Bolton lending/catalogue records.
