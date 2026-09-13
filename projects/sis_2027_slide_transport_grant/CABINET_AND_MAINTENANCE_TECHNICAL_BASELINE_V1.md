@@ -1,17 +1,18 @@
-# Cabinet and maintenance technical baseline v1
+# Cabinet and maintenance technical baseline v2
 
 Updated: 2026-09-13
-Status: DIRECT/PUBLIC PRIMARY BASELINE / INTERPRETIVE SUPPORT FOR ARCHIVE TESTS
+Status: DIRECT/PUBLIC PRIMARY + SURVIVING-OBJECT BASELINE / INTERPRETIVE SUPPORT FOR ARCHIVE TESTS
 
 ## 1. Purpose
 
 The SIS project should not treat `cabinet`, `re-arrangement`, `retrievability`, or `maintenance` as modern analytical language imposed on passive historical collections.
 
-Nineteenth-century microscopy manuals already describe:
+Nineteenth-century microscopy manuals and surviving objects already show:
 - slide carriers as standardised working supports;
 - preparations as objects requiring periodic maintenance;
 - cabinets as material systems balancing safety, capacity and retrieval;
-- boxes, racks, horizontal/vertical orientation and subject labels as variables affecting breakage and access.
+- boxes, racks, horizontal/vertical orientation and subject labels as variables affecting breakage and access;
+- specialist slide cabinets as products within the same optical/instrument-making ecology as microscopes.
 
 This technical baseline changes how Bolton and Oxford records should be read. `Re-arrangement` may be a material intervention into working access and safety, not merely clerical recataloguing.
 
@@ -101,18 +102,39 @@ This is direct evidence that nineteenth-century practical microscopy treated at 
 
 This is distinct from later museum conservation.
 
-## 5. Combined technical model
+## 5. Surviving technical comparator — J. B. Dancer slide cabinet, Manchester c.1860
 
-Hassall + Davies generate a pre-society technical baseline:
+Science Museum Group currently catalogues a dedicated **Microscope slide cabinet**, made by **John Benjamin Dancer** in Manchester circa 1860:
+- object number `Y1970.1.2`;
+- dimensions c. 290 × 315 × 270 mm;
+- classified by SMG under `Scientific Instruments & Research`;
+- object type `microscope slide` in the catalogue layer.
+
+This is useful as a surviving comparator because Dancer was a Manchester optician/instrument maker and an important actor in the local microscopical world. It establishes at object level that specialist slide-storage furniture existed within Manchester's optical-instrument economy well before the Bolton lending register.
+
+A second SMG object, `Y2001.223`, is an unsigned microscope-slide cabinet containing a large collection of slides by various makers dating c.1867–1900; its catalogue treats cabinet and slide collection as related parts. Another assemblage `Y1984.167` combines a microscope, Dancer microphotographs and a slide cabinet.
+
+### Claim guard
+
+Do **not** infer:
+- that Bolton owned a Dancer cabinet;
+- that any Manchester circulating cabinet was physically identical to `Y1970.1.2`;
+- that modern SMG classification settles an ontological question about whether every slide cabinet was itself a scientific instrument.
+
+Use these objects only to establish the historical material plausibility and instrument-trade context of specialist slide cabinets.
+
+## 6. Combined technical model
+
+Hassall + Davies + surviving cabinets generate a pre-society technical baseline:
 
 `preparation`
 → `standard/appropriate glass support`
 → `seal/cell requiring maintenance`
-→ `cabinet orientation/box/rack`
-→ `label/subject arrangement`
+→ `purpose-built cabinet orientation/box/rack`
+→ `label/number/subject arrangement`
 → `safe storage + retrieval`.
 
-This means the SIS archive project can ask how scientific societies collectivised operations already recognised at individual-practice level.
+This means the SIS archive project can ask how scientific societies collectivised operations already recognised at individual-practice and object-design level.
 
 The institutional question is not simply:
 `did societies own slides?`
@@ -121,7 +143,7 @@ It is:
 
 **How did societies scale the material work of keeping preparations findable, safe and usable when ownership/custody passed among many members?**
 
-## 6. Bolton archive implications
+## 7. Bolton archive implications
 
 Read the 1881 `re-arranged` statement against these practical variables.
 
@@ -151,7 +173,7 @@ Determine the material/address unit actually lent:
 
 If stable addresses appear in borrowing/return entries, the register becomes evidence for how material re-entry into the cabinet was managed.
 
-## 7. Oxford archive implications
+## 8. Oxford archive implications
 
 Oxford can test the same problem at scale.
 
@@ -169,7 +191,7 @@ In RMS minutes/ledger/cash books/registers look for:
 
 The 1897 slide register is especially valuable if it encodes an arrangement capable of being compared with older donation events and the surviving RMS cabinet.
 
-## 8. Historiographic payoff
+## 9. Historiographic payoff
 
 This technical baseline prevents the project from collapsing into either:
 - postal-logistics history; or
@@ -187,7 +209,7 @@ A scientific society cabinet can therefore be analysed as **working instrument i
 Claim guard:
 Do not call every cabinet a scientific instrument in an ontological sense. The safer historical claim is that cabinet architecture and maintenance were part of the operating infrastructure through which microscope preparations remained usable as instrument components.
 
-## 9. New formulation enabled by this baseline
+## 10. New formulation enabled by this baseline
 
 A sharper project question is now available without replacing the frozen governing question:
 
@@ -195,9 +217,11 @@ A sharper project question is now available without replacing the frozen governi
 
 This is a subsidiary question for Bolton/Oxford, not a new project title.
 
-## 10. Sources to cite/check in final writing
+## 11. Sources to cite/check in final writing
 
 - Arthur Hill Hassall, *The Microscopic Anatomy of the Human Body, in Health and Disease* (1849), practical introduction on cabinets.
 - Thomas Davies, *The Preparation and Mounting of Microscopic Objects* (early edition c.1863), esp. standard glass slide discussion and periodic inspection/revarnishing of liquid-cell preparations.
+- Science Museum Group, `Y1970.1.2`, J. B. Dancer microscope slide cabinet, Manchester c.1860.
+- Science Museum Group, `Y2001.223`, microscope-slide cabinet and slide collection, c.1867–1900 material.
 
-Before final publication, check exact edition/page against original scans rather than citing web transcriptions alone.
+Before final publication, check exact manual edition/page against original scans rather than citing web transcriptions alone.
