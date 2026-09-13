@@ -1,73 +1,79 @@
-# William / W. H. Rideout — Manchester–Bolton identity candidate v1
+# William Rideout — Bolton actor control and rejected Manchester identity shortcut v2
 
 Updated: 2026-09-13
-Status: BOUNDED IDENTITY CANDIDATE / NOT USED IN MAIN ARGUMENT
+Status: BOLTON ACTOR STRENGTHENED / MANCHESTER IDENTITY DOWNGRADED
 
-## 1. Bolton actor — directly controlled
+## 1. Bolton actor — increasingly well controlled
 
-Contemporary 1880 reporting of the Bolton Microscopical Society identifies:
+Contemporary Bolton Microscopical Society reporting identifies:
 - President: **C. L. Jackson, F.R.M.S.**;
 - Honorary Secretary: **Mr W. Rideout / William Rideout**.
 
 Rideout read the Society's annual report at the 19 Nov 1880 Conversazione and referred to Redmayne as the Society's late treasurer and founder. The same report says William Rideout exhibited human muscle containing encysted trichinae.
 
-This makes Rideout relevant to the Bolton project independently of any Manchester identity: he was a working microscopist and a key administrative actor immediately before the 1881 Redmayne selection/re-arrangement and the 1882 lending register.
+An 1886 scientific-society directory gives a much stronger identifier:
+- **W. Rideout, F.R.M.S.**;
+- Honorary Secretary, Bolton Microscopical Society;
+- **Seymour Road, Astley Bridge, Bolton**.
+
+A Bolton-area 1871 directory independently lists:
+- **William Rideout**, master of St Paul's National School, Astley Bridge.
+
+A later parish marriage record (1884) also identifies a William Rideout, schoolmaster, in the parish of St Paul's Halliwell / Astley Bridge context. This is compatible with the directory actor, but the project does not need genealogical closure.
+
+Current useful formulation:
+
+**The Bolton secretary can be treated as a locally embedded working microscopist, F.R.M.S., and likely schoolmaster in the Astley Bridge area, but occupation identity should be confirmed in `FZ/14/2/1` before publication.**
 
 Field implication:
-Search `FZ/14/1/1–2`, `FZ/14/2/1`, and `FZ/14/3/1` for Rideout signatures, custodian/lending responsibilities, cabinet numbering, Redmayne selection work, and any transition in office after 1880.
+Search `FZ/14/1/1–2`, `FZ/14/2/1`, and `FZ/14/3/1` for Rideout signatures, address, occupation, custodian/lending responsibilities, cabinet numbering, Redmayne selection work, and transition in office.
 
-## 2. Manchester actor — independently controlled
+## 2. Manchester Rideout — initial itself is unstable in current secondary/printed routes
 
-A history of Manchester microscopy lists **W. H. Rideout** among the founders of the 1858 Manchester Microscopical Society / microscopical section associated with the Manchester Literary and Philosophical Society.
+Thomas Brittain's later history of Manchester microscopy, reproduced in modern historical reconstruction, lists **W. H. Rideout** among the founders of the 1858 Manchester Microscopical Society / microscopical section.
 
-Separate later reporting states that W. H. Rideout had acquired a microscopic-writing machine associated with the 1862 International Exhibition and that the machine entered the Manchester microscopical section / society context.
+A separate 1885 retrospective on microscopic writing also calls an earlier donor of a microscopic-writing machine **W. H. Rideout**.
 
-This establishes an active Manchester microscopist named W. H. Rideout in the 1858–60s instrument/material culture.
+However, an 1867 *Quarterly Journal of Microscopical Science* indexed list retrieved during the present check contains **Rideout, W. J.**, not W. H., in a relevant microscopical context.
 
-## 3. Identity question
+This does not by itself prove that Brittain's W. H. is erroneous, because the records may refer to different Rideouts or OCR/indexing may differ. It does show that the Manchester initial is not secure enough to use as an identity key.
 
-Candidate hypothesis:
+## 3. Identity hypothesis now downgraded
 
-`Manchester W. H. Rideout (1858/60s) = Bolton William/W. Rideout (1880–81)`.
+Earlier candidate:
+`Manchester W. H. Rideout (1858/60s) = Bolton William/W. Rideout (1880s)`.
 
-Why plausible:
-- same uncommon surname + initial W;
-- both are active microscopists in the Manchester/Bolton region;
-- the chronology is compatible with one adult career spanning c.1858–81;
-- the Manchester actor had direct experience of instrument/material donation; the Bolton actor held a society administrative office.
+Current status:
+**DO NOT PURSUE AS A POSITIVE WORKING HYPOTHESIS.**
 
-Why **not closed**:
-- Bolton sources currently do not supply middle initial H;
-- no shared address, occupation, age, employer, membership number or explicit migration record has been recovered;
-- the regional surname is not unique enough to equate the men by initials alone.
+Reasons:
+- Bolton evidence gives William/W. Rideout and later a precise Astley Bridge address, but no H/J middle initial;
+- Manchester evidence currently has conflicting initial forms in different routes;
+- no common address, occupation, membership number, or explicit institutional migration has been recovered;
+- the Bolton actor is independently useful without a Manchester connection.
 
-## 4. What would close identity
+## 4. What could revive the identity question
 
-Any one strong or two compatible weaker bridges:
-- Bolton membership/account book gives `W. H. Rideout` or full middle name;
-- address/occupation in Bolton records matches a Manchester directory or society record;
-- Manchester archive names Rideout with later Bolton affiliation;
-- RMS/QMC membership list identifies the same man with addresses across time;
-- census/probate/directory chain connects the Manchester microscopist to Bolton.
+Only an exact archival identifier, not broad genealogy:
+- Bolton `FZ/14/2/1` gives a full name/middle initial matching an independently controlled Manchester record;
+- Manchester `GB133-MIC` explicitly names a Bolton affiliation or Astley Bridge address;
+- RMS membership/address material cross-links the same person.
 
-## 5. Research payoff if closed
+Otherwise keep the actors separate.
 
-A closed identity would provide an unexpectedly strong continuity:
+## 5. Why Bolton Rideout still matters
 
-`1858 Manchester microscopical association / 1860s instrument donation`
-→ `1880 Bolton society secretary`
-→ `1881 private-collection selection/re-arrangement environment`
-→ `1882–87 formal slide-lending system`.
+The important local sequence is already strong without Manchester:
 
-This would show that Bolton's cabinet/lending practices were administered by an actor already embedded in an earlier Manchester microscopical-instrument culture.
+`1880 Hon. Sec. / working microscopist`
+→ `1881 President + Secretary receive Redmayne whole collection for selection`
+→ `cabinet re-arrangement and member lending`
+→ `1882–87 formal loan register`.
 
-Do not claim this continuity until identity is directly closed.
+The archive can test whether Rideout was one of the people who transformed private preparations into lendable society property and whether he administered the early lending system.
 
 ## 6. Stop rule
 
-Do not conduct broad genealogical searching for Rideout. Use the name only as a bounded check in:
-- Bolton `FZ/14/1/1–2`, `2/1`, `3/1`;
-- Manchester `GB133-MIC` / predecessor histories;
-- period membership/directories if an exact address or occupation emerges.
+No further public-web genealogy for Rideout.
 
-If no middle-name/address bridge appears, retain the two Rideouts as separate actors.
+Resume only if `FZ/14`, `GB133-MIC`, RMS membership records, or another exact institutional source supplies a full name/address bridge capable of changing attribution.
