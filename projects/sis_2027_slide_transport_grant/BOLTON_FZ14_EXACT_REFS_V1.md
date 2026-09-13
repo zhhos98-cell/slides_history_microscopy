@@ -1,7 +1,7 @@
-# Bolton FZ/14 exact references v1
+# Bolton FZ/14 exact references v2
 
 Updated: 2026-09-13
-Status: EXACT FINDING-AID CONTROL / CORE ARCHIVE UPGRADE
+Status: EXACT FINDING-AID CONTROL / SHARPUS-BIRMINGHAM CONFLATION CORRECTED
 
 ## Source control
 
@@ -36,64 +36,77 @@ The finding aid hierarchy shows three series: `1. Minute Books`, `2. Financial R
 - `FZ/14/3/2` — *Catalogue of Slides, Journals, and Books belonging to the Society*, 1898 (printed).
 - `FZ/14/3/3` — Suggestion Book (including membership list, 1905), Nov 1904 – Jun 1906.
 
+## Correction: Sharpus is not a Bolton accession anchor
+
+An earlier version of this file incorrectly treated an 1880 donation by **F. W. Sharpus through W. R. Hughes** as a Bolton Society cabinet accession.
+
+Direct contemporary and biographical source control places this Sharpus–Hughes series in the **Birmingham Natural History and Microscopical Society**, where Sharpus was a corresponding member and Hughes repeatedly presented his preparations. The 1880 twelve-slide Echinodermata series therefore belongs to Birmingham, not Bolton.
+
+Consequences:
+- remove `Sharpus / Hughes / Echinodermata` from all Bolton crosswalk targets;
+- do not search Bolton FZ/14 for Sharpus unless a separate Bolton-specific source independently appears;
+- the earliest securely controlled Bolton collection transformation remains the **Redmayne 1880–81 sequence and the forty-eight diatom addition**.
+
+This correction strengthens rather than weakens the Bolton design because the surviving `FZ/14/3/1` lending register gives a direct institutional mechanism without requiring an external-donation baseline.
+
 ## Why `FZ/14/3/1` changes the project
 
 The summer 1881 *Northern Microscopist* notice states that Bolton's slide collection was being re-arranged after recent additions, including six dozen slides selected from John Thomas Redmayne's private collection and forty-eight diatom slides, and that the Society's slides were lent to members.
 
-`FZ/14/3/1` now supplies the exact archival mechanism capable of testing that statement over five years rather than leaving lending as a single printed remark.
+`FZ/14/3/1` supplies the exact archival mechanism capable of testing that statement over five years rather than leaving lending as a single printed remark.
 
-The Bolton archive can therefore test a concrete sequence:
+The Bolton archive can therefore test:
 
-`private / donated preparation`
-→ `selection into Society collection`
+`private collection / new additions`
+→ `officer selection`
 → `cabinet re-arrangement`
-→ `catalogued Society holding`
 → `named lending transaction`
-→ `return / repeated borrowing / disappearance if recorded`.
-
-This is substantially stronger than a generic collection-history comparison.
+→ `return / repeated borrowing`
+→ `later catalogue persistence`.
 
 ## Event-led reading order
 
-### A. 1880 accession baseline
+### A. Redmayne death and posthumous display, Sep.–Nov. 1880
 
-Printed anchor:
-- corresponding member F. W. Sharpus, through W. R. Hughes, presented a series of twelve Echinodermata slides for the Society cabinet.
+Controlled anchor:
+- John Thomas Redmayne died 10 Sep 1880;
+- the Society's 19 Nov 1880 Conversazione displayed his microscopes, photomicrographs, pathological preparations and rare diatoms.
 
 Check:
-- `FZ/14/1/1`, around the reported 1880 event;
-- `FZ/14/2/1` if accession/cabinet expenditure appears.
+- end of `FZ/14/1/1` and beginning of `FZ/14/1/2`;
+- `FZ/14/2/1` where relevant.
 
 Questions:
-- exact date and wording of the cabinet accession;
-- whether the donor, intermediary and series title enter internal records;
-- whether cabinet numbering or storage location is assigned.
+- were Redmayne's objects still estate/private property at the Conversazione?
+- who held custody for display and return?
+- did the Society already discuss acquisition/selection?
+- did the display create a bridge to the summer 1881 transfer?
 
-### B. Redmayne transfer and re-arrangement, 1880–81
+### B. Collection transformation, 1881
 
-Printed anchors:
-- Redmayne died 10 Sep 1880;
-- Nov 1880 Conversazione displayed his microscopes, pathological preparations, diatoms and microphotographs;
-- summer 1881 notice says Mrs Redmayne placed the whole collection in the hands of the President and Secretary for selection; six dozen slides were chosen; forty-eight diatom slides were also added; Society collection re-arranged.
+Controlled printed anchors:
+- 11 Mar 1881: Society agreed to augment its Cabinet with **48 choice diatom slides**;
+- summer 1881: Mrs Redmayne placed the whole private slide collection in the hands of the President and Secretary for selection;
+- six dozen / 72 Redmayne slides were selected;
+- the collection was being re-arranged;
+- Society slides were lent to members.
 
 Check:
-- end of `FZ/14/1/1`;
-- beginning of `FZ/14/1/2`;
+- early `FZ/14/1/2`;
 - `FZ/14/2/1`.
 
 Questions:
-- when the Society formally accepted the seventy-two Redmayne slides;
+- exact source/provenance of the 48 diatom slides;
 - identities of President/Secretary acting as temporary custodians;
-- whether unselected material was returned and whether selection criteria were recorded;
-- whether a new cabinet, trays, labels, numbering, binding or other material work accompanied re-arrangement;
-- whether any financial entry records cabinet/labels/slides/transport.
+- whether unselected Redmayne material was returned;
+- whether selection criteria were recorded;
+- whether cabinet/trays/labels/numbers were changed;
+- whether any financial entry records slides, cabinet work, labels, carriage or related costs.
 
 ### C. Lending phase, 1882–87
 
 Primary target:
 - `FZ/14/3/1`.
-
-This is now the single highest-value Bolton item.
 
 Capture systematically:
 - date out;
@@ -105,16 +118,16 @@ Capture systematically:
 - repeated borrowers;
 - repeated objects;
 - overdue / missing / damaged / replaced annotations;
-- any rules or custodian signatures.
+- rules/custodian signatures if present.
 
 Then cross-check diagnostic entries in:
 - `FZ/14/1/2` for committee decisions;
 - `FZ/14/2/1` for expenditure or replacement;
-- `FZ/14/3/2` for whether the same slides remain catalogued in 1898.
+- `FZ/14/3/2` for later catalogue persistence.
 
 ## Minimum viable archival outcome
 
-Even if no damage/repair appears, Bolton can now support a strong institutional-custody claim if the register records actual circulation from the Society cabinet to named members and back.
+Even if no damage/repair appears, Bolton can support a strong institutional-custody claim if the register records actual circulation from the Society cabinet to named members and back.
 
 A stronger outcome would be any entry showing:
 
