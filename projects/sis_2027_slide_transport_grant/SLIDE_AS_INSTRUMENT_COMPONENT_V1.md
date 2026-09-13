@@ -1,7 +1,7 @@
-# SIS 2027 — microscope preparations as detachable working components v1
+# SIS 2027 — microscope preparations as detachable working components v2
 
 Updated: 2026-09-13
-Status: HISTORICAL CATEGORY / SIS-REMIT NOTE — AVOID ONTOLOGICAL OVERCLAIM
+Status: HISTORICAL CATEGORY / EXHIBITION-CLASSIFICATION SUPPORT / AVOID ONTOLOGICAL OVERCLAIM
 
 ## 1. Problem
 
@@ -15,7 +15,43 @@ A more historically defensible formulation is:
 
 Their scientific usefulness depended on relations with microscope stands, stages, illumination, objectives, cabinets, labels and users. Precisely because they were detachable, they could move independently between instruments and custodians.
 
-## 2. Commercial/instrument-trade classification
+## 2. Exhibition classification: preparations inside instrument categories
+
+This is the strongest SIS-remit evidence because it is not a retrospective museum ontology or modern scholarly classification.
+
+### Great Exhibition, London, 1851
+
+Cornelius Poulton exhibited under **Class 10 — Philosophical, Musical, Horological and Surgical Instruments**.
+
+The Official Catalogue described his exhibit as:
+`Objects prepared for the microscope, with drawings by M. S. Legg.`
+
+Historical significance:
+prepared microscope objects could be institutionally classified within an international exhibition category of philosophical/scientific and surgical instruments.
+
+Do not infer that every 1851 juror believed every slide was independently an `instrument`; the evidence concerns the historical category in which preparations were publicly exhibited and evaluated.
+
+### International Exhibition, London, 1862
+
+Smith, Beck & Beck were entered in **Class 13 — Philosophical Instruments, and Processes Depending On Their Use**.
+
+A contemporary guide described their display as including:
+- binocular and single microscopes;
+- telescopes;
+- object glasses;
+- stereoscopes;
+- **microscopic objects and cabinets**;
+- a museum microscope with **504 objects** arranged so that visitors could successively examine them under magnification.
+
+A contemporary microscopical report separately discussed the British and foreign `preparations` exhibited in the same instrument exhibition context.
+
+Historical significance:
+microscope + prepared object + cabinet could form one exhibition apparatus/practice rather than three unrelated collection categories.
+
+For SIS framing, this is especially useful language:
+**nineteenth-century exhibition authorities and instrument makers themselves placed prepared microscopic objects inside categories of philosophical instruments and processes depending on their use.**
+
+## 3. Commercial/instrument-trade classification
 
 ### South Kensington educational catalogues, 1857 / 1867
 
@@ -55,7 +91,7 @@ The advertisement places in one sequence:
 Use:
 late-Victorian instrument makers themselves did not organize preparations as a domain unrelated to microscopes/apparatus.
 
-## 3. Complete microscope kit / storage architecture
+## 4. Complete microscope kit / storage architecture
 
 ### Buron optician catalogue, Paris, 1844 — comparator
 
@@ -74,14 +110,16 @@ This is not British evidence and should not carry the British claim alone. It is
 Historical payoff:
 prepared objects can be physically separable from the optical stand while still belonging to the working instrument ensemble.
 
-## 4. Preparation properties alter instrument configuration
+## 5. Preparation properties alter instrument configuration
 
 William B. Carpenter's *The Microscope and Its Revelations* discusses `Accessory Apparatus` and explains illumination arrangements in relation to different objects/preparations. In the discussion of opaque/semi-transparent objects, injected preparations appear as cases for which a bull's-eye condenser is particularly desirable.
 
 Historical payoff:
 what the preparation materially is affects how the microscope must be configured and illuminated. The preparation is not passive content placed after the instrument has already been defined; it participates in the working optical arrangement.
 
-## 5. Mobility makes the component relation visible
+A complementary 1862 case makes this even clearer: Smith and Beck displayed microscopes specially adapted to viewing the fine transparent German injections they were importing. Instrument configuration and preparation format were mutually adjusted.
+
+## 6. Mobility makes the component relation visible
 
 The SIS project should exploit the detachable character rather than settle an ontology.
 
@@ -96,9 +134,9 @@ A preparation can:
 
 This produces a historically specific instrument problem:
 
-**How did scientific societies manage an instrument component whose scientific use repeatedly crossed the boundaries of the instrument with which it was used?**
+**How did scientific societies manage a working component whose scientific use repeatedly crossed the boundaries of the microscope with which it was used?**
 
-## 6. Bolton as the clearest SIS-remit case
+## 7. Bolton as the clearest SIS-remit case
 
 Bolton is especially useful because contemporary evidence combines:
 - a local society whose members owned/purchased microscopes and objectives from major makers;
@@ -116,7 +154,7 @@ Potential historical relation:
 
 The first and last links are already strongly evidenced; the exact borrower–instrument link should be made only where a member's microscope ownership/use is directly documented.
 
-## 7. Oxford as a second instrument ecology
+## 8. Oxford as a second instrument ecology
 
 Oxford RMS supplies a different scale:
 - microscopes/apparatus catalogue and donations records;
@@ -130,17 +168,17 @@ The internal separation or conjunction of `microscopes / apparatus / slides / do
 Question:
 How did RMS administrative categories distinguish or connect the optical instrument, prepared object and collection address?
 
-## 8. Preferred language for SIS application
+## 9. Preferred language for SIS application
 
 Strong and safe:
 
-**Microscope slides were detachable working components of nineteenth-century microscopy. Instrument makers and educational catalogues supplied preparations alongside microscopes, objectives, mounting materials and accessory apparatus; microscopists then moved those preparations between instruments, cabinets and users.**
+**Prepared microscope slides were detachable working components of nineteenth-century microscopy. At the Great Exhibition of 1851 prepared microscope objects were exhibited within a class of philosophical and surgical instruments; in 1862 Smith, Beck & Beck displayed microscopes, microscopic objects and cabinets together within the class of philosophical instruments and processes depending on their use. Instrument makers likewise supplied preparations alongside microscopes, objectives, mounting materials and accessory apparatus.**
 
-Then state the project's question:
+Then state the project question:
 
 **The project examines how scientific societies kept these mobile components usable and retrievable as they entered collective cabinets, passed into temporary member custody, and returned for further use.**
 
-## 9. Avoid
+## 10. Avoid
 
 Avoid:
 - `slides are instruments, full stop`;
@@ -149,9 +187,9 @@ Avoid:
 - claiming that every preparation was conceived historically as `apparatus`;
 - using modern museum object-type classification as proof of nineteenth-century ontology.
 
-The point is relational and operational, not taxonomic.
+The point is relational, operational and historically classified—not a universal taxonomy.
 
-## 10. Historiographic payoff
+## 11. Historiographic payoff
 
 This formulation links two literatures without collapsing them:
 - history of scientific instruments: configuration, use, maintenance, mobility;
