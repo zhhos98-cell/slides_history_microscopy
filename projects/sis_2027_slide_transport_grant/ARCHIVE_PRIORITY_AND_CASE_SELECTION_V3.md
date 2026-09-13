@@ -1,7 +1,7 @@
-# Archive priority and case selection v3
+# Archive priority and case selection v3.1
 
 Updated: 2026-09-13
-Status: LIVE RESEARCH ROUTER — BOLTON LOAN REGISTER UPGRADE
+Status: LIVE RESEARCH ROUTER — BOLTON LOAN REGISTER UPGRADE / SHARPUS CORRECTED
 
 ## 1. Revised selection principle
 
@@ -35,9 +35,10 @@ Exact targets remain:
 - Boxes 107–110 nineteenth-century cash books;
 - RMS MS 5, 13, 18 as bounded historical slide catalogues.
 
-Use the dated public-event hooks rather than reading boxes sequentially:
+Use dated public-event hooks rather than reading boxes sequentially:
 - 12 Jan 1870 — T. H. Browne, box of twelve bone sections presented/donated;
 - early 1873 — Alfred U. Allen, three coke-vapour slides;
+- 7 Mar 1877 — J. T. Redmayne, *Micro-photographs from the Diatomaceæ*, author donation to Library and Cabinet;
 - 9 Jun 1880 — Naples Zoological Station → A. W. Waters → RMS, twelve named slides;
 - 11 May 1881 — Crisp exhibits another Naples selection;
 - 26 Apr 1882 — C. Baker exhibits Naples preparations;
@@ -58,7 +59,7 @@ Event → intervention/reclassification/remounting/replacement → surviving or 
 
 Role: **small society cabinet as an operating lending/custody system**.
 
-This archive is now equal in priority to Oxford for a different reason: the archive-supplied finding aid directly identifies a five-year slide-lending register.
+This archive is equal in priority to Oxford for a different reason: the archive-supplied finding aid directly identifies a five-year slide-lending register.
 
 Exact targets:
 - `FZ/14/1/1` — General and Committee Minutes, 1 Aug 1877–29 Oct 1880;
@@ -68,14 +69,18 @@ Exact targets:
 - `FZ/14/3/2` — printed Catalogue of Slides, Journals, and Books, 1898.
 
 Controlled public prehistory:
-- 1880: F. W. Sharpus, through W. R. Hughes, supplies a twelve-slide Echinodermata series to the Society cabinet;
-- after founder John Thomas Redmayne's death, his widow places the whole private collection with Society officers for selection;
-- six dozen slides are selected;
-- forty-eight diatom slides are also added;
-- by 1881 the collection is being re-arranged and Society slides are explicitly described as lent to members.
+- Redmayne died in Sep 1880 and his instruments/preparations were displayed at the Society's Nov 1880 Conversazione;
+- on 11 Mar 1881 the Society agreed to augment its Cabinet with **48 choice diatom slides**;
+- in summer 1881 Mrs Redmayne placed the whole private slide collection with Society officers for selection;
+- six dozen / 72 Redmayne slides were selected;
+- the collection was being re-arranged;
+- Society slides were explicitly described as lent to members.
+
+Correction guard:
+An earlier branch note incorrectly attributed F. W. Sharpus's 1880 twelve-slide Echinodermata donation through W. R. Hughes to Bolton. Contemporary evidence places that series in the **Birmingham Natural History and Microscopical Society**. Do not use Sharpus/Hughes as a Bolton accession anchor.
 
 Core chain to test:
-`external/private material → officer selection → Society cabinet → re-arrangement → lending register → repeated temporary custody → 1898 catalogue`.
+`private/new material → officer selection → Society cabinet → re-arrangement → lending register → repeated temporary custody → 1898 catalogue`.
 
 Minimum success:
 Named borrowing/return transactions tied to identifiable slide numbers/subjects.
@@ -163,13 +168,13 @@ If this comes substantially below £750 using Railcard fares and modest accommod
 ## 10. Revised article architecture
 
 Opening:
-Richardson 1862 or Butterworth 1865 as an operation, not a generic circulation story.
+Bolton 1881 is now the strongest empirical opening because it shows a private collection being transformed into a lendable society resource.
 
 Section 1 — changing material setting:
 Richardson remounts imported preparations to fit another cabinet ecology; Butterworth designs custody/replacement into circulation.
 
 Section 2 — making a collection lendable:
-Bolton: donation/private transfer → officer selection → cabinet re-arrangement → 1882–87 lending register → 1898 catalogue.
+Bolton: Redmayne transfer + 48 diatom addition → officer selection → cabinet re-arrangement → 1882–87 lending register → 1898 catalogue.
 
 Section 3 — keeping a large society collection addressable:
 Oxford RMS: public donation/exhibition events → internal custody/financial decisions → registers/catalogues → surviving cabinet/database where crosswalk closes.
@@ -179,7 +184,7 @@ Quekett: mature free circulation and the recognised gap between the finished obj
 
 PMS appears as a focused control for explicit postal packaging/liability/damage, not as the main story.
 
-Manchester supplies the prehistory and possible instrument-maker network if the archival link closes.
+Manchester supplies prehistory and possible instrument-maker network if the archival link closes.
 
 ## 11. Claim ceiling
 
