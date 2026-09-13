@@ -41,13 +41,13 @@
         "wording-sensitive historical claims"
       ],
       "calibrated_layered_pages": [56, 57, 58, 59, 60],
-      "legacy_cleanup_layered_pages": [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 61, 62, 63, 64, 65],
+      "legacy_cleanup_layered_pages": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 61, 62, 63, 64, 65],
       "sequential_layered_pages": [66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87],
-      "legacy_mixed_pages": "1-15",
+      "legacy_mixed_pages": "1-10",
       "textual_sequence_status": "COMPLETE_THROUGH_PDF_87",
       "non_text_tail": {"blank_pages":"88-103","object_views":"104-116"},
       "next_unprocessed_page": null,
-      "resume_instruction": "The Mss24 textual sequence is complete through PDF 87. PDFs 88-103 are image-controlled blank leaves and PDFs 104-116 are image-controlled object views. Legacy mixed pages 1-15 still require layered cleanup; PDFs 16-55 and 61-65 have been cleaned."
+      "resume_instruction": "The Mss24 textual sequence is complete through PDF 87. PDFs 88-103 are image-controlled blank leaves and PDFs 104-116 are image-controlled object views. Legacy mixed pages 1-10 still require layered cleanup; PDFs 11-55 and 61-65 have been cleaned."
     },
     "Mss25": {
       "status": "MIXED_WORKSPACE_WITH_HIGHER_QUALITY_CONTROLLED_CLUSTERS",
