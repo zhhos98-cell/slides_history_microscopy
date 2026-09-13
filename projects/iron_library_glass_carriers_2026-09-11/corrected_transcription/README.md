@@ -58,7 +58,7 @@ Generally more conservative: it more often preserves fragments, figures and unce
 
 ### Mss 25
 
-The controlled Bessemer/Sheffield cluster (especially PDFs 295–300) is closer to the desired standard: secure headings and short literal phrases are retained while difficult continuous Kurrent is left omitted. These pages still require image control before exact quotation.
+PDFs 14–18 now have layered selective records. These opening leaves list people, addresses and hotels; they are not generic machinery or process notes. Many names and street details remain untranscribed. The controlled Bessemer/Sheffield cluster (especially PDFs 295–300) is closer to the desired standard: secure headings and short literal phrases are retained while difficult continuous Kurrent is left omitted. These pages still require image control before exact quotation.
 
 ## Corrected data model
 
