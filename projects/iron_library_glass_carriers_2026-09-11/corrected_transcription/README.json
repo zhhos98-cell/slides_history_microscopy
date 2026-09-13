@@ -22,15 +22,15 @@
   },
   "legacy_cleanup": {
     "shelfmark": "Mss24",
-    "completed_pdf_pages": [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 61, 62, 63, 64, 65],
-    "remaining_pdf_pages": "1-35",
+    "completed_pdf_pages": [31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 61, 62, 63, 64, 65],
+    "remaining_pdf_pages": "1-30",
     "status": "IN_PROGRESS_2026-09-12"
   },
   "sequential_substantive_checkpoint": {
     "shelfmark": "Mss24",
     "through_pdf_page": 87,
     "next_text_page": null,
-    "note": "Mss23's textual sequence is complete. Mss24's textual sequence is complete through PDF 87; PDFs 36-87 use the layered image-controlled schema after calibration or cleanup. PDFs 88-103 are image-controlled blank leaves and PDFs 104-116 are image-controlled object views. Legacy mixed pages 1-35 retain the quality warning in QUALITY_STATUS.json."
+    "note": "Mss23's textual sequence is complete. Mss24's textual sequence is complete through PDF 87; PDFs 31-87 use the layered image-controlled schema after calibration or cleanup. PDFs 88-103 are image-controlled blank leaves and PDFs 104-116 are image-controlled object views. Legacy mixed pages 1-30 retain the quality warning in QUALITY_STATUS.json."
   },
   "image_reviewed_not_yet_substantively_transcribed": {
     "Mss23": [],
