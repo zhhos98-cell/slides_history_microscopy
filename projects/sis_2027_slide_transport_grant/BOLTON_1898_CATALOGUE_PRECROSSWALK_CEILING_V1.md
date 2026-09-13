@@ -1,7 +1,7 @@
-# Bolton 1898 catalogue pre-crosswalk ceiling v1
+# Bolton 1898 catalogue pre-crosswalk ceiling v2
 
 Updated: 2026-09-14
-Status: PRE-FIELDWORK LIMIT / DO NOT INVENT NUMBERING
+Status: PRE-FIELDWORK LIMIT / SHARPUS-BIRMINGHAM CONFLATION REMOVED / DO NOT INVENT NUMBERING
 
 ## 1. Controlled archive architecture
 
@@ -27,7 +27,18 @@ Contemporary reporting in *The Microscopical News and Northern Microscopist* sta
 
 This provides a direct chronological bridge into the lending register beginning May 1882.
 
-## 3. Search result for the 1898 printed catalogue
+## 3. Correction boundary
+
+An earlier planning note incorrectly treated a twelve-slide Echinodermata series from F. W. Sharpus via W. R. Hughes as a Bolton accession anchor.
+
+That series belongs to the **Birmingham Natural History and Microscopical Society**, not Bolton.
+
+Therefore:
+- Sharpus / Hughes / Echinodermata must not appear in the Bolton pre-field crosswalk;
+- do not search `FZ/14` for Sharpus unless a separate Bolton-specific source independently appears;
+- Bolton's controlled intake sequence begins with the Redmayne 1880–81 estate/display/selection material and the forty-eight diatom-slide addition.
+
+## 4. Search result for the 1898 printed catalogue
 
 A targeted public-web search for:
 - the exact catalogue title;
@@ -47,7 +58,7 @@ Do not infer before inspection:
 - whether the forty-eight diatom slides form a numbered block;
 - whether numbers used in the 1882–87 lending register map directly to the 1898 catalogue.
 
-## 4. The actual crosswalk to perform on site
+## 5. The actual crosswalk to perform on site
 
 The fieldwork task is not generic transcription of two documents.
 
@@ -89,8 +100,7 @@ Prioritise:
 3. entries with annotations;
 4. diatom series;
 5. items plausibly attributable to Redmayne;
-6. Sharpus Echinodermata series if identifiable;
-7. any entry connected by minutes/accounts to acquisition or intervention.
+6. any entry connected by minutes/accounts to acquisition or intervention.
 
 For each diagnostic item record:
 - same number/address present in 1898?;
@@ -111,7 +121,7 @@ This tests whether the catalogue represents:
 - renumbered older items;
 - or a substantially reconstituted collection.
 
-## 5. Redmayne-specific test
+## 6. Redmayne-specific test
 
 The strongest potential Bolton chain is:
 
@@ -127,21 +137,21 @@ At present the first four steps are historically controlled and the archive stru
 
 The object-level identity across the lending register and 1898 catalogue remains **OPEN**.
 
-## 6. Sharpus-specific test
+## 7. Forty-eight-diatom test
 
-Contemporary reporting records a twelve-slide Echinodermata series presented by corresponding member F. W. Sharpus through W. R. Hughes in 1880.
+The March/summer 1881 printed sequence records forty-eight choice diatom slides being added to the Society cabinet. Their donor/source remains open.
 
-This is a useful bounded series because its quantity and subject are known before archive inspection.
+This is the second bounded intake group for fieldwork.
 
 Test:
-- minute-book wording and date;
-- whether series numbering/address was assigned;
-- whether any Echinodermata block appears in the lending register;
-- whether a twelve-slide series survives as a coherent unit or dispersed entries in 1898.
+- resolve donor/source in `FZ/14/1/2` or accounts;
+- determine whether a forty-eight-slide group/block received numbering or a cabinet address;
+- test whether diatom entries appear as a coherent or dispersed lending group in `FZ/14/3/1`;
+- test whether any stable or translated addresses persist in the 1898 catalogue.
 
-Again, do not assert item identity before the archival crosswalk.
+Do not collapse the forty-eight diatom slides into the seventy-two Redmayne slides without explicit internal evidence.
 
-## 7. Grant-method payoff
+## 8. Grant-method payoff
 
 The absence of a public digital copy strengthens rather than weakens the justification for travel.
 
@@ -151,14 +161,14 @@ The funded Bolton visit has a precise non-duplicable task:
 
 This is not research that can currently be completed from digitised sources.
 
-## 8. Stop rule
+## 9. Stop rule
 
 Do not spend more public-web time looking for a hidden 1898 scan unless a new exact identifier appears.
 
 The remaining information gain is archival:
 - register address grammar;
 - borrower/return cycles;
-- Redmayne/Sharpus item identity;
+- Redmayne / forty-eight-diatom item identity;
 - 1882–87 → 1898 address continuity.
 
 Proceed to fieldwork planning rather than broad catalogue hunting.
