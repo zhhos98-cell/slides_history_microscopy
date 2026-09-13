@@ -58,7 +58,7 @@ Generally more conservative: it more often preserves fragments, figures and unce
 
 ### Mss 25
 
-PDFs 14–18 now have layered selective records. These opening leaves list people, addresses and hotels; they are not generic machinery or process notes. PDFs 19–22 carry selected dated handwritten travel and works notes for 24–31 January 1860, with technical sketches. PDFs 23–27 have image-controlled descriptions; 25–27 retain short February date headings, but the continuous prose remains pending. Many names and continuous passages remain untranscribed. The controlled Bessemer/Sheffield cluster (especially PDFs 295–300) is closer to the desired standard: secure headings and short literal phrases are retained while difficult continuous Kurrent is left omitted. These pages still require image control before exact quotation.
+PDFs 14–18 now have layered selective records. These opening leaves list people, addresses and hotels; they are not generic machinery or process notes. PDFs 19–22 carry selected dated handwritten travel and works notes for 24–31 January 1860, with technical sketches. PDFs 23–30 have image-controlled descriptions; 25–27 and 29 retain short February date headings, but the continuous prose remains pending. Many names and continuous passages remain untranscribed. The controlled Bessemer/Sheffield cluster (especially PDFs 295–300) is closer to the desired standard: secure headings and short literal phrases are retained while difficult continuous Kurrent is left omitted. These pages still require image control before exact quotation.
 
 ## Corrected data model
 
