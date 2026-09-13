@@ -40,7 +40,7 @@ The project therefore asks not the generic question `is it still the same instru
 
 **Which parts of a mobile microscope preparation did nineteenth-century microscopists and societies treat as replaceable, and which relations had to remain intact for the preparation to return to scientific use?**
 
-## 3. Why Richardson 1862 changes the project
+## 3. Why Richardson 1862 changes the project — and what is already known
 
 B. Wills Richardson, `Transparent Carmine Injections`, *Quarterly Journal of Microscopical Science*, new series 2 (1862), p. 118, supplies the clearest British/Irish pre-postal example now controlled.
 
@@ -55,6 +55,20 @@ The case therefore establishes:
 `scientific preparation identity ≠ original glass carrier`.
 
 That distinction should become a premise generated from historical practice, not from philosophy.
+
+### Factual precedent: Howard Lynk 2012
+
+The historical facts of the imported German transparent injections and their inconvenient dimensions are **not newly discovered here**.
+
+Howard Lynk, `The 1860s Smith, Beck & Beck transparent injections`, *Quekett Journal of Microscopy* 41 (2012), 701–12, reconstructs the German injections, identifies Karl Thiersch as their maker, discusses their sale by Smith, Beck & Beck, and explicitly notes contemporary complaints about their `clumsy size`. Lynk records suggested remedies ranging from complete remounting to cutting slides down with a diamond, and observes that Beck eventually supplied examples on standard 3 × 1 inch slips.
+
+Therefore the SIS/article contribution cannot be `Richardson remounted German slides` or `German slides were non-standard`.
+
+The interpretive difference is narrower:
+- Lynk reconstructs maker/product/market history and the transition in physical format;
+- this project uses Richardson's action to ask **what object persisted when the carrier changed**, and how such carrier substitution became connected to mobility, temporary custody, cabinet compatibility and institutional maintenance.
+
+This is an interpretive and archival extension of a known historical episode, not a priority claim over the episode itself.
 
 ## 4. Historical vocabulary is analytically useful
 
