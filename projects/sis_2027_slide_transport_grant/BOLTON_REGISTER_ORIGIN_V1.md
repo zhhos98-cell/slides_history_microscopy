@@ -1,7 +1,7 @@
-# Bolton FZ/14/3/1 — register-origin problem v1
+# Bolton FZ/14/3/1 — register-origin problem v2
 
 Updated: 2026-09-13
-Status: BOUNDED HYPOTHESIS / ARCHIVAL TEST REQUIRED
+Status: BOUNDED HYPOTHESIS / ARCHIVAL TEST REQUIRED / HUMAN-CUSTODY TEST ADDED
 
 ## 1. What is secure
 
@@ -32,7 +32,32 @@ The report lists general meetings through **14 May**, followed by a September me
 
 This supplies an institutional calendar independent of the later lending register.
 
-## 3. Bounded hypothesis
+## 3. Human custody: President and Secretary
+
+The 19 Nov 1880 annual report directly names:
+- **C. L. Jackson** as President;
+- **W. / William Rideout** as Honorary Secretary.
+
+The summer 1881 collection notice says that Mrs Redmayne placed the **whole private slide collection** in the hands of `the President and the Secretary` so that they could choose the most suitable preparations for the Society.
+
+Because the Society year began on 1 October, Jackson + Rideout are a **high-probability office-holder identification** for the summer 1881 custody episode, but this remains to be checked against the 1881 election cycle/minutes. Do not silently convert probability into direct identity.
+
+Exact archive closure:
+- inspect officer/election entries in `FZ/14/1/2` from late 1880 through summer 1881;
+- confirm who was President and Secretary on the date of Redmayne selection;
+- record whether the minutes assign selection/custody to named officers personally or only to offices.
+
+Why it matters:
+if closed, `Society custody` can be decomposed into a concrete human operation:
+
+`Mrs Redmayne / whole collection`
+→ `Jackson + Rideout (if confirmed) as temporary custodians/selectors`
+→ `72 selected preparations`
+→ `re-arranged Society cabinet`.
+
+This would make the private-to-institutional transition materially and administratively specific.
+
+## 4. Bounded hypothesis about the May 1882 register
 
 The coincidence is historically suggestive:
 
@@ -51,7 +76,7 @@ Possible mechanisms include:
 
 None is presently established.
 
-## 4. What public evidence does NOT show
+## 5. What public evidence does NOT show
 
 The bounded public search has not located:
 - a May 1882 resolution creating the register;
@@ -59,13 +84,22 @@ The bounded public search has not located:
 - appointment of a dedicated slide librarian/curator;
 - a complaint about missing or overdue slides that clearly triggered the register;
 - a statement connecting the register to summer recess;
-- evidence that lending itself began in 1882.
+- evidence that lending itself began in 1882;
+- a direct summer-1881 officer list explicitly saying Jackson + Rideout were the two selectors.
 
 Do not invent any of these.
 
-## 5. Exact archival test
+## 6. Exact archival test
 
-### Minutes
+### A. Redmayne selection/officers
+Inspect late 1880–summer 1881 in `FZ/14/1/2` for:
+- officer elections;
+- President / Secretary names;
+- Redmayne estate / Mrs Redmayne;
+- `selection`, `cabinet`, `slides`, `collection`;
+- custody/return of unselected material.
+
+### B. Register origin
 Start with `FZ/14/1/2`, **April–June 1882**.
 
 Look for:
@@ -82,7 +116,7 @@ Look for:
 
 Only widen to Jan–Sep 1882 if the narrow window yields nothing.
 
-### Register opening
+### C. Register opening
 Capture every cover/title/opening leaf and the first c.20 transactions before normal row transcription.
 
 Ask:
@@ -94,7 +128,7 @@ Ask:
 - are return entries contemporaneous?
 - do the first entries cross the May–summer boundary?
 
-## 6. Interpretive outcomes
+## 7. Interpretive outcomes
 
 ### Outcome A — explicit formalisation
 If minutes state that a register/book should be kept or lending rules changed:
@@ -118,21 +152,22 @@ If entries are ad hoc, unnumbered and weakly tied to returns:
 
 Downgrade the language from `formalised custody system` to `surviving record of lending transactions`.
 
-## 7. Article payoff
+## 8. Article payoff
 
-The chronology is potentially useful because it prevents a common analytical shortcut.
+The chronology prevents a common analytical shortcut.
 
 The story is not:
 `Society creates lending register → slides begin to circulate`.
 
 The controlled sequence is instead:
 `Society already lends slides`
-→ `private collection is selected and cabinet re-arranged`
+→ `private collection enters named/officer custody and is selected`
+→ `cabinet is re-arranged`
 → `a dedicated transaction record appears later`.
 
 This makes administration a historical response to an already operating material practice rather than automatically its origin.
 
-## 8. Stop rule
+## 9. Stop rule
 
 Do not spend further public-web time trying to explain the May 1882 start unless a newly indexed exact report appears.
 
