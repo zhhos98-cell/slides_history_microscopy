@@ -19,20 +19,20 @@ Therefore the historical checkpoint **Mss 24 through PDF 65** records workflow c
 ## Current workflow checkpoint
 
 - Mss 23 textual sequence processed through PDF 210; PDFs 211–223 are object/digitisation views.
-- Mss 24 PDFs 1–5 retain legacy mixed coverage; PDFs 6–65 have been recalibrated or cleaned into the corrected layered schema.
+- Mss 24 PDFs 1–65 have been recalibrated or cleaned into the corrected layered schema.
 - Mss 24 PDFs 66–87 have now been selectively transcribed under that layered schema after direct image control.
 - Mss 24 textual sequence is complete through PDF 87.
 - PDFs 88–103 are image-controlled blank leaves; PDFs 104–116 are image-controlled object views.
 
-The required five-page calibration is complete, and the same separation has been applied to PDFs 6–55 and 61–87. Legacy cleanup should now continue within PDFs 1–5, not in the blank or object-view tail.
+The required five-page calibration is complete, and the same separation has been applied to PDFs 1–55 and 61–87. Legacy mixed-field cleanup is complete. The ledger remains selective: many continuous handwritten passages have not been transcribed, and exact quotations still require checking against the page image.
 
 ## Quality status by corpus
 
 ### Mss 24 PDFs 1–5
 
-Status: `LEGACY_MIXED_EXTRACTION_REQUIRES_CLEANUP`.
+Status: image-controlled layered records for cover, bookplate, title page, numbered verso and opening travel/geology leaf.
 
-These rows are often useful for locating pages, routes, firms, technical topics, diagrams, dates and numerical values. They are not safe for exact quotation, terminology history, linguistic analysis or wording-sensitive arguments without returning to the manuscript image.
+The title-page date is `Michaelis 1858` in the image, correcting the earlier `1859` entry. PDF 4 carries the Roman numeral `II`; the older `blank verso` anchor was editorial. PDF 5 retains only short, checked fragments and diagram labels. Exact quotation still requires returning to the manuscript image.
 
 ### Mss 24 PDFs 56–60
 
@@ -62,7 +62,7 @@ The controlled Bessemer/Sheffield cluster (especially PDFs 295–300) is closer 
 
 ## Corrected data model
 
-Future work and legacy cleanup must keep these evidence layers separate:
+Further transcription work must keep these evidence layers separate:
 
 - `literal_transcription`: only source wording actually read on the manuscript page. No paraphrase, completion from context, or reconstructed sentence.
 - `diagram_labels`: only literal labels written in maps, plans, tables, profiles and apparatus diagrams.
@@ -72,7 +72,7 @@ Future work and legacy cleanup must keep these evidence layers separate:
 - `research_summary`: analytical account of the page's evidential content.
 - `secure_anchors`: may derive only from `literal_transcription` and `diagram_labels`. Never admit terms that exist only in `editorial_description` or `normalized_entities`.
 
-Until the JSONL files are formally migrated to this expanded schema, apply this separation conceptually and conservatively. Do not use a complete modern explanatory sentence in the `transcription` field unless it is actually legible as Wedding's sentence.
+Mss 24 PDFs 1–87 use the expanded schema. Mss 23 and Mss 25 still have older rows, so apply the separation conceptually and conservatively there. Do not use a complete modern explanatory sentence in a `transcription` field unless it is actually legible as Wedding's sentence.
 
 ## What counts as completed transcription from now on
 
@@ -87,7 +87,7 @@ The original PaddleOCR JSON remains immutable source material. Uncertain reading
 - `QUALITY_STATUS.json`: machine-readable quality override; automation should read this together with `README.json`.
 - `README.json`: machine-readable historical coverage checkpoint and remaining-page lists. Important: its current `through_pdf_page` value records coverage, not citation-ready quality.
 - `WEDDING_MSS23_CORRECTED_TRANSCRIPTION.jsonl`: Mss 23 ledger.
-- `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–5 carry the legacy mixed-extraction warning above; PDFs 6–87 use the layered schema; PDFs 88–116 are blank or object-view tail pages.
+- `WEDDING_MSS24_CORRECTED_TRANSCRIPTION.jsonl`: Mss 24 ledger; PDFs 1–87 use the layered schema; PDFs 88–116 are blank or object-view tail pages.
 - `WEDDING_MSS25_CORRECTED_TRANSCRIPTION.jsonl`: Mss 25 ledger.
 - `../CURRENT_PROGRESS.md`: project-level narrative checkpoint.
 
