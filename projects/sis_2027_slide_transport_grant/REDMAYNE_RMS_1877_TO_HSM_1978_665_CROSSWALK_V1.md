@@ -72,7 +72,22 @@ That requires one additional bridge such as:
 - inscription/bookplate/ownership marks on `[1978-665]` consistent with the 1877 gift;
 - Box 103 / library records / acquisition register explicitly connecting the gift to the surviving volume.
 
-## 5. Why this matters to the project
+## 5. Modern institutional afterlife
+
+HSM's 2008–09 Annual Report records a short-term outward loan to the Fruitmarket Gallery, Edinburgh, for an exhibition of early micrographic images, albums and lantern slides. The loan list includes:
+
+- `J. Redmayne, Microphotographs, c. 1870s/80s`.
+
+This is useful as evidence that Redmayne material in HSM custody remained an active, movable collection object in the twenty-first century rather than a dead catalogue entry.
+
+Claim ceiling:
+- it corroborates the continuing institutional afterlife of Redmayne material at HSM;
+- it does **not** by itself identify the loaned item as `[1978-665]`;
+- it does **not** close the 1877 donation → present physical-copy identity.
+
+Use only as a modern comparator for re-entry into exhibition/use, not as evidence for nineteenth-century custody practice.
+
+## 6. Why this matters to the project
 
 This is already stronger than a generic actor-network comparison.
 
@@ -90,14 +105,14 @@ It is:
 `same microscopist's work → different institutional formats and custody regimes`.
 
 At RMS/Oxford:
-`publication / visual reference object → library collection → later museum/library address`.
+`publication / visual reference object → library collection → later museum/library address → continued exhibition/loan afterlife`.
 
 At Bolton:
 `private preparations → officer selection → society cabinet → lending register → later catalogue`.
 
 This is directly relevant to the frozen project question: how scientific materials remained usable and retrievable as their institutional setting changed.
 
-## 6. Oxford fieldwork target
+## 7. Oxford fieldwork target
 
 Prioritise the following bounded check:
 
@@ -110,7 +125,7 @@ Prioritise the following bounded check:
 Success condition:
 A historical RMS shelf/acquisition address or ownership mark that can be securely cross-walked to `[1978-665]`.
 
-## 7. Consequence for article structure
+## 8. Consequence for article structure
 
 Redmayne should remain a supporting thread rather than replace the project with biography.
 
@@ -121,11 +136,12 @@ His value is unusually high because he links several different material operatio
 - posthumous selection from a private collection;
 - cabinet re-arrangement;
 - member lending;
-- an object relationship with Thomas Armstrong's Manchester instrument-making network.
+- an object relationship with Thomas Armstrong's Manchester instrument-making network;
+- later museum loan/display afterlife.
 
 The article can use Redmayne to show that `movement` did not produce one generic fate for microscopical materials. Different institutions reformatted the same person's work into different usable forms.
 
-## 8. Stop rule
+## 9. Stop rule
 
 Do not spend further web-search time trying to prove same-copy identity from title matching alone.
 The remaining bridge is archival/object-level and belongs in Oxford fieldwork.
