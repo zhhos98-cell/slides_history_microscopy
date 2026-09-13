@@ -8,7 +8,29 @@ Status: FIELDWORK CAPTURE PLAN
 
 The register should be photographed in full if repository rules and time permit. It is the strongest currently identified non-postal-society source for testing how a microscopical society turned a cabinet into a system of temporary custody.
 
-The goal is not merely to count loans. The register should be captured so that individual preparations, borrowers and return cycles can be reconstructed and then cross-checked against minutes, accounts and the 1898 catalogue.
+The goal is not merely to count loans. The register should be captured so that individual preparations, borrowers and return cycles can be reconstructed and then cross-checked against minutes, accounts, membership lists and the 1898 catalogue.
+
+## Chronological significance
+
+A summer 1881 contemporary report says that:
+- the Society slide collection was being re-arranged after substantial additions;
+- the late John Thomas Redmayne's whole private collection had been placed in the President's and Secretary's hands for selection;
+- six dozen Redmayne slides and forty-eight diatom slides were added;
+- Society slides were already being lent to members.
+
+The dedicated lending register then begins in **May 1882**, less than a year after this published description of re-arrangement and lending.
+
+This sequence is suggestive but not self-explanatory:
+
+`1881 documented lending/re-arrangement`
+→ `May 1882 dedicated loan register begins`.
+
+Do **not** claim that the 1881 re-arrangement caused the register to be created unless minutes or the register itself say so.
+
+High-priority field check:
+- photograph all opening leaves before the first transaction;
+- look for rules, headings, resolutions, custodian names, numbering instructions, retrospective notes or a stated reason/date for beginning the register;
+- check `FZ/14/1/2` around spring 1882 for a committee decision authorising or reorganising slide lending/recording.
 
 ## Image protocol
 
@@ -51,6 +73,31 @@ Minimum fields:
 | `crossout_or_correction` | describe without guessing meaning |
 | `confidence` | direct / uncertain transcription |
 
+## Borrower/member crosswalk
+
+`FZ/14/2/1` is not only an account book; the archive finding aid explicitly says it includes **membership lists, 1880–1894**.
+
+For each distinct borrower where practical, create a separate person table:
+
+| field | use |
+|---|---|
+| `borrower_raw` | register form |
+| `member_match` | yes / probable / no / unresolved |
+| `membership_name_raw` | exact form in `/2/1` |
+| `membership_years` | only where explicit |
+| `address_raw` | if supplied |
+| `occupation_or_title_raw` | if supplied; do not infer from name alone |
+| `officer_role` | if directly recorded |
+| `notes` | ambiguity / same-name warning |
+
+Purpose:
+- test whether lending was limited to formal members;
+- identify officers or highly active borrowers;
+- distinguish one-off from recurrent users;
+- provide bounded names for external directory/occupation checks only where that would change instrument-use interpretation.
+
+Do not turn this into a social-network census unless the register itself makes borrower pattern analytically important.
+
 ## Derived analysis fields
 
 After transcription, derive separately rather than writing inference into the raw table:
@@ -73,21 +120,26 @@ After transcription, derive separately rather than writing inference into the ra
 - Absence of a return date does not automatically mean loss.
 - Crossed-out entries should be recorded as material marks before interpreting cancellation/return.
 - Do not infer postal transport merely because the borrower lived outside Bolton; movement route requires evidence.
+- Do not infer home use from the register alone unless wording or contemporary reports support it for the relevant transaction.
 
 ## Crosswalk sequence
 
 ### 1. Minutes
 Use `FZ/14/1/2` for 1882–87.
 
-Only follow diagnostic dates/names from the register, especially:
+First date hook:
+- **spring 1882**, immediately before/around the May opening of the dedicated lending register.
+
+Then follow diagnostic dates/names from the register, especially:
 - unusually long or missing returns;
 - explicit damaged/missing notes;
 - very large multi-slide loans;
 - new borrowing rules or custodian changes;
 - first appearance of a numbered series.
 
-### 2. Accounts
+### 2. Accounts + membership
 Use `FZ/14/2/1` (1880–94) for:
+- borrower/member identity where membership lists permit;
 - cabinet/tray/box expenditure;
 - labels/cataloguing materials;
 - postage/carriage;
@@ -106,10 +158,10 @@ Stronger chain if evidence exists:
 ## Fieldwork time rule
 
 Priority order for a one-day Bolton visit:
-1. photograph `FZ/14/3/1` completely;
-2. photograph/scan the relevant 1880–82 transition in `FZ/14/1/1–2` around Redmayne selection/re-arrangement and lending implementation;
+1. photograph `FZ/14/3/1` completely, including opening/closing leaves;
+2. photograph/scan the relevant 1880–82 transition in `FZ/14/1/1–2` around Redmayne display, selection/re-arrangement, lending implementation and the May 1882 register start;
 3. photograph diagnostic 1882–87 minute entries identified from the lending register;
-4. inspect `FZ/14/2/1` only around those diagnostic dates and any cabinet-related index/heading;
+4. inspect `FZ/14/2/1` for membership crosswalks and only around diagnostic financial dates/cabinet headings;
 5. photograph `FZ/14/3/2` title, organization, numbering structure, and entries corresponding to diagnostic loan-register items.
 
 Do not spend the day reading the minute books linearly if the complete lending register has not yet been captured.
@@ -119,5 +171,7 @@ Do not spend the day reading the minute books linearly if the complete lending r
 If the register records actual named borrowing and return but no damage, the case still demonstrates that the Society cabinet was an operating custody system rather than passive storage.
 
 If numbers/subjects can be cross-walked into the 1898 catalogue, it additionally shows continuity between repeated temporary circulation and later formal collection order.
+
+If minutes show an 1881–82 decision to formalise lending or create the register, the case becomes stronger again: it would document the conversion of an existing lending practice into an explicit administrative recording system.
 
 Damage/repair would strengthen the maintenance argument but is no longer required for Bolton to be central.
