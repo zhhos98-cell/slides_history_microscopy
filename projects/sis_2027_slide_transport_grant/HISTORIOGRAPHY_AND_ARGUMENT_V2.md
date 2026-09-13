@@ -9,6 +9,10 @@ Status: REFINED BOUNDARY / REPAIR-IDENTITY NOVELTY REJECTED
 
 Unavailable because Lea Beiermann's work on American and British postal microscopy already establishes postal circuits as knowledge infrastructures and documents packing/forwarding rules, breakage, liability, parcel-post reform, materials, mounting durability, box design and slide/box standardisation.
 
+Beiermann's 2021 article also already records repair inside postal circulation: in 1885 an American Postal Microscopical Club member received thirteen boxes containing **one mended slide and one slide damaged beyond repair**, while 1886 began with further broken slides. Therefore `slides were repaired after postal damage` is also **not** a novelty claim.
+
+What remains open is whether **ordinary scientific societies and pre-PMS circulating cabinets** made repair, remounting, replacement and return-to-use into institutional work outside an explicitly postal club designed around slide circulation.
+
 ### B. `Repair asks whether an instrument remains the same object`
 
 Also unavailable as a generic novelty claim.
@@ -117,7 +121,7 @@ T. Armstrong on Deansgate serves as a cabinet contact in 1866; by 1869 a named M
 An unnamed microscopical society describes postal restrictions as a `death blow` because prepared subjects can no longer be sent.
 
 ### Postal Microscopical Society — explicit administrative control
-Packing, liability, detention, insurance, parcel-post reform and preparation durability make the postal society a control case rather than a novelty site.
+Packing, liability, detention, insurance, parcel-post reform, mending and preparation durability make the postal society a **control case rather than a novelty site**.
 
 ### Cole 1882–84 — fixed address with replaceable contents
 The surviving customized cabinet preserves a publication sequence despite subject/preparation substitutions; however, the agency/date of substitution are currently unknown.
@@ -134,7 +138,7 @@ Evidence:
 Richardson remounting; inverse postal-loss case; Pacini comparator; surviving Cole substitution architecture.
 
 ### Research hypothesis
-`Mobility and temporary custody made component substitution an institutional rather than merely individual problem.`
+`Mobility and temporary custody made component substitution an institutional rather than merely individual problem outside explicitly postal organisations.`
 
 Needs:
 Oxford / Manchester / Bolton / Quekett archival records assigning responsibility, cost, record changes or return-to-use decisions.
@@ -185,7 +189,8 @@ This makes the two outputs complementary rather than redundant:
 - `transport shaped affordances`;
 - `repair reveals object identity`;
 - `slides circulated through networks`;
-- `standardisation enabled exchange`.
+- `standardisation enabled exchange`;
+- `postal breakage led microscopists to mend slides`.
 
 Each is either too close to existing literature or too generic to justify the archival programme.
 
@@ -200,7 +205,7 @@ Current preference for a scholarly article is **Changing the Glass** because it 
 
 ## 12. Falsification
 
-If the archives yield no nineteenth-century chain linking mobility/custody to intervention and renewed use, do not force this argument.
+If the archives yield no nineteenth-century chain linking mobility/custody to intervention and renewed use outside explicitly postal societies, do not force this argument.
 
 Fall-back article:
 a tightly bounded history of **pre-PMS circulating cabinets in north-west England, 1865–73**, with Butterworth, Armstrong/Manchester, Pattern Post and the emergence of the PMS.
